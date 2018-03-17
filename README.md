@@ -1,6 +1,6 @@
 # codex-iter.github.io
 Organisation Page
-[Codex 2.0](http://tiny.cc/codexiter)
+[Codex 2.0](https://codex-iter.000webhostapp.com/)
 
 
 ![screenshot](./codex2.0.png)
