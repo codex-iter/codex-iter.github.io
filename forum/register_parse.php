@@ -22,19 +22,24 @@
         else {
             if (strlen($password) >= $minpl) {
 
+                    $password = encrypt_pswd($password);
+                    
                     $sql = "INSERT INTO forum.users(username , password)
-                            VALUES ('$username' , '$password');
+                            VALUES ( ? , ? );
                             ";
 
-                    $res = mysqli_query($link , $sql);
+                    $stmt = $link->prepare($sql);
+                    $stmt->bind_param('ss' , $username , $password);
 
-                    if($res){
+                    //$res = mysqli_query($link , $sql);
+
+                    if($stmt->execute()){
                         echo "<b>Successfully Registered</b> as :   " . $username . "<br/><br/>";
                     }
     
                     else {
                         echo "<b>Registration Failed</b><br/><br/>";
-                        echo "Error is =>   " . mysql_error();
+                        echo "Error is =>   " . mysqli_error($link);
                     }
 
                 

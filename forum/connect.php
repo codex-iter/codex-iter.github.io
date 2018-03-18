@@ -7,7 +7,7 @@
     $database['username'] = "root";
     $database['password'] = "";
     
-    $link = mysqli_connect($database['host'] , $database['username'] , $database['password']);
+    $link = mysqli_connect($database['host'] , $database['username'] , $database['password'] , $database['name'] );
 
     if($link){
         echo "<b>Successfully</b> connected to database   :  " . $database['name'] . "<br/><br/>";
