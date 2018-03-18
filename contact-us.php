@@ -19,7 +19,7 @@ try {
     $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = 'codex.2.0.contact@gmail.com';                 // SMTP username
-    $mail->Password = 'c0n1ac1.c0de6.2.0';                           // SMTP password
+    $mail->Password = 'password';                                   // SMTP password [Password Changed and removed from GitHub for sequrity]
     //$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 25;                                    // TCP port to connect to
 
