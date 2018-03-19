@@ -18,3 +18,11 @@ Shortened url: http://bit.do/ebcEL
 + Finished projects and achievements.
 + Tools and utilites section.
 + Deploy the php site.
+
+## Credits
+
+* **Coordinater : [Swaraj]()**
+* Contributors
+    * [A. Rupesh](https://github.com/rupesh1310)
+    * [Debashish Mishra](https://github.com/zanark)  
+* Contributors of [_phpMailer_](https://github.com/PHPMailer/PHPMailer)
