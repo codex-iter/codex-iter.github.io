@@ -187,6 +187,8 @@ footer a, footer a:link {
     <i class="fa fa-user"></i>
     <input type="password" placeholder="Password" name="password"/>
     <i class="fa fa-key"></i>
+    <input type="password" placeholder="Confirm Password" name="repass"/>
+    <i class="fa fa-key"></i>
     <a href="#">Forgot your password?</a>
     <button>
       <i class="spinner"></i>

@@ -38,11 +38,11 @@
             $stmt->fetch();
             if(crypt($password , $hashedPswd) == $hashedPswd )
             {
-                echo "The Password <b>Matched</b>";
+                echo "<b>Successfully Logged In</b>";
             }
             else 
             {
-                echo "Password <b>Doesn't Match</b><br/>Please enter th ecorect password ";
+                echo "<b>Wrong Password</b><br/>Please enter the correct password ";
             }
         }
     }
