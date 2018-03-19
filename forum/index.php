@@ -1,3 +1,5 @@
+<!-- Login page without Fancy Frontend -->
+
 <!DOCTYPE html>
 
 <html lang="en-US">

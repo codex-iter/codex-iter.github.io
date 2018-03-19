@@ -1,5 +1,6 @@
 <?php
 
+    //Connecting to the Database
     $database = array();
     $database['host'] = "localhost";
     $database['port'] = "3306";
