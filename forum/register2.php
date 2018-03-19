@@ -1,3 +1,5 @@
+<!-- This is the register page with fancy frontend -->
+
 <!DOCTYPE html>
 <html lang="en" >
 
@@ -11,12 +13,12 @@
       <style>
         /* This is inline styling*/
       body {
-  font-family: "Open Sans", sans-serif;
-  height: 100vh;
- background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/14720459_1037919169668229_6982952498177798721_n.jpg?oh=852060ef345fbdcb6c6787149071986c&oe=5B45206C")
-50% fixed;
-  background-size: cover;
-}
+              font-family: "Open Sans", sans-serif;
+              height: 100vh;
+              background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/14720459_1037919169668229_6982952498177798721_n.jpg?oh=852060ef345fbdcb6c6787149071986c&oe=5B45206C")
+              50% fixed;
+              background-size: cover;
+            }
 
 @keyframes spinner {
   0% {
