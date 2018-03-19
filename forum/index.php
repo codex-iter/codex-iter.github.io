@@ -12,7 +12,7 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <form action = "login.php" method = "POST">
+    <form action = "login_parse.php" method = "POST">
         Username : <input type = "text" name = "username" placeholder="Enter your Username"><br><br>
         Password &nbsp;: <input type="password" name = "password" placeholder="Enter your Password"><br><br>
                    <input type="submit" name="login" value="LOGIN">
