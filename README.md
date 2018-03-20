@@ -21,7 +21,7 @@ Shortened url: http://bit.do/ebcEL
 
 ## Credits
 
-* **Coordinater : [Swaraj]()**
+* **Coordinater : [Swaraj](https://github.com/swarajlaha)**
 * Contributors
     * [A. Rupesh](https://github.com/rupesh1310)
     * [Debashish Mishra](https://github.com/zanark)  
