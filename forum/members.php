@@ -2,6 +2,7 @@
 
 <?php
 
+    include("connect.php");
     session_start();
     require('connect.php');
 
@@ -16,7 +17,7 @@
     
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>CODEX - Forum</title>
+        <title>Members of this forum</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
         <script src="main.js"></script>
@@ -25,7 +26,23 @@
 
     <body>
     
-        <?php include("header.php"); ?>
+        <?php 
+        
+        include("header.php");
+
+        echo "<center><h1>Registered Members</h1>";
+
+        $check = mysqli_query($link , "SELECT * FROM forum.users");
+        $rows  = mysqli_num_rows($check);
+
+        while ($row = mysqli_fetch_assoc($check)) 
+        {
+            $id = $row['id'];
+            echo "<a href = 'profile.php?id=$id'>" . $row['username'] . "</a><br/><br/>" ;
+        }
+        echo "</center>";
+        
+        ?>
     
     </body>
 

@@ -1,10 +1,11 @@
 <?php
     //Login Functions
     
-    include("connect.php");
-    include("forum_functions.php");
+    session_start();                    //To start sessional storage
+    include("connect.php");             //To link to database
+    include("forum_functions.php");     //To include neccessary functions
     
-    $username = $_POST['username'];
+    $username = $_POST['username'];     //Gets username and password by the post method.
     $password = $_POST['password'];
 
    // echo "Username : " . $username . "<br/><br/> Password : " . $password;
@@ -20,10 +21,16 @@
     else
     {
      
-        if( checkInvalidCharacters($username))
+        if( checkInvalidCharacters($username)) //If there are any invalid chars in username
             echo "Username can only contain <br/><br/><ul><li> A to Z </li><li> a to z </li><li> 0 to 9 </li><li> . and _ </li></ul>";
 
-        else 
+        //To check if the user hsa created an account or not
+        elseif (mysqli_num_rows(mysqli_query($link , "SELECT * FROM forum.users WHERE username = '".$username."'")) == 0) 
+        {
+            echo "<h1>Username Not Found!!</h1> <br/><br/> You can Register here <br/><br/> <a href='register2.php'>Register</a>";
+        }
+
+        else                                  //If there are no invalid chars
         {
             $sql = "
                     SELECT password FROM forum.users
@@ -36,11 +43,14 @@
             $stmt->bind_result($hashedPswd);
 
             $stmt->fetch();
-            if(crypt($password , $hashedPswd) == $hashedPswd )
+            if(crypt($password , $hashedPswd) == $hashedPswd ) //If encrypting current password == encrypted password in database
             {
                 echo "<b>Successfully Logged In</b>";
+                $_SESSION["username"] = $username;
+                //header("Location : ");
+                echo "<script>location='index.php'</script>";
             }
-            else 
+            else                                              //If not then...
             {
                 echo "<b>Wrong Password</b><br/>Please enter the correct password ";
             }
