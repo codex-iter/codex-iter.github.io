@@ -1,10 +1,10 @@
-<!-- This is the Home Page for the Forum -->
+<!-- This is the Members Page for the Forum -->
 
 <?php
 
     include("connect.php");
     session_start();
-    require('connect.php');
+    require('forum_functions.php');
 
     if (@$_SESSION["username"]):
 ?>
@@ -56,9 +56,6 @@
     endif;
 
     if (@$_GET['action'] == "logout")
-    {
-        session_destroy();
-        echo "<script>location='login2.php'</script>";
-    }
+        log_out();
 
 ?>

@@ -1,4 +1,4 @@
-<!-- This is the Home Page for the Forum -->
+<!-- This is the User's Account Page for the Forum -->
 
 <?php
 
@@ -26,8 +26,21 @@
 
     <body>
     
-        <?php include("header.php"); ?>
-    
+        <?php
+        
+        include("header.php"); 
+        
+        $check = mysqli_query($link , "SELECT * FROM forum.users WHERE username = '".$_SESSION['username']."'");
+        while ($row = mysqli_fetch_assoc($check))
+        {
+            echo "<center><br/><br/><br/><br/><img src = '".$row['profile_pic']."' width = 100 height = 100> <h1>" . $row['username'] . "</h1><br/><br/></center>" ;
+            $username = $row['username'];
+        }
+
+        //echo "<a href = 'profile.php?id=$id'>" . @$_SESSION['username'] . "'s Account" . "</a>";
+
+        ?>
+        <center><a href = "account.php?action=cp" >Change Your Password</a></center>    
     </body>
 
 </html>
@@ -41,7 +54,9 @@
 
     if (@$_GET['action'] == "logout")
         log_out();
-      
-    
+
+    if (@$_GET['action'] == "cp")
+        change_password($_SESSION["username"]);
+
 
 ?>
