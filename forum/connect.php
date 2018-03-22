@@ -11,10 +11,10 @@
     $link = mysqli_connect($database['host'] , $database['username'] , $database['password'] , $database['name'] );
 
     if($link){
-        echo "<b>Successfully</b> connected to database   :  " . $database['name'] . "<br/><br/>";
+        //echo "<b>Successfully</b> connected to database   :  " . $database['name'] . "<br/><br/>";
     }
     else {
-        echo "Coonection to database  " . $database['name'] . " <b>FAILED</b> <br/>";
+        echo "Conection to database  " . $database['name'] . " <b>FAILED</b> <br/>";
         echo "Error is =>   " . mysql_error();
     }
 
