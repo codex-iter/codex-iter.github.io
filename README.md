@@ -12,9 +12,6 @@ Shortened url: http://bit.do/ebcEL
 ***
 
 ## *Things to add*
-+ Page for coordinators of codex.
-+ Finished projects and achievements.
-+ Tools and utilites section.
 + Deploy the php site.
 
 ## Credits
