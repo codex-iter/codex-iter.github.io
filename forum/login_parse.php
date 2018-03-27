@@ -27,7 +27,7 @@
         //To check if the user hsa created an account or not
         elseif (mysqli_num_rows(mysqli_query($link , "SELECT * FROM forum.users WHERE username = '".$username."'")) == 0) 
         {
-            echo "<h1>Username Not Found!!</h1> <br/><br/> You can Register here <br/><br/> <a href='register2.php'>Register</a>";
+            echo "<h1>Username Not Found!!</h1> <br/><br/> You can Register here <br/><br/> <a href='register.php'>Register</a>";
         }
 
         else                                  //If there are no invalid chars

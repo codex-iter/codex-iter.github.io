@@ -66,7 +66,7 @@
  <?php   
          
     else :
-        echo "Please <a href = 'login2.php'>Login</a> to continue";
+        echo "Please <a href = 'login.php'>Login</a> to continue";
     endif;
 
     if (@$_GET['action'] == "logout")

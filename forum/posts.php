@@ -1,4 +1,4 @@
-<!-- This is the Home Page for the Forum -->
+<!-- This is the Posts Page for the Forum -->
 
 <?php
 
@@ -27,7 +27,14 @@
     <body>
     
         <?php include("header.php"); ?><br/><br/>
-        <div align = 'left' style = "padding :20px"><a href = "posts.php"><button>Post a Thread</button></a></div>
+        <form>
+            <center>
+                <h2 style="font-family:arial">Subject</h2><input type="text" , name = "topic" , style = "width: 200px;height:20px" ><br/>
+                <h2 style="font-family:arial">Body</h2><textarea name = "content" style = "text-align : none;resize: none; width: 400px; height: 300px">What do you want to post?</textarea>
+                <!--<h2>Body</h2><br/><input type="textarea" , name = "content" , style = "text-align : none;resize: none; width: 400px; height: 300px" ><br/><br/>-->
+                <br/><br/><input type="submit" , name = "post_thread" , value = "POST", style = "width: 200px;height:50px;font-family:cursive;font-weight:bold;font-size:30px;" ><br/><br/>
+            </center>
+        </form>
     
     </body>
 

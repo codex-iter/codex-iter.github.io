@@ -29,7 +29,7 @@
     function log_out() {
 
         session_destroy();
-        echo "<script>location='login2.php'</script>";
+        echo "<script>location='login.php'</script>";
     }
 
     //-------------------------------------------------------------------------------------------
