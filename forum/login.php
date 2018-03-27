@@ -1,4 +1,4 @@
-<!-- This is the register page with fancy frontend -->
+<!-- This is the login page with fancy frontend -->
 
 <!DOCTYPE html>
 <html lang="en" >
