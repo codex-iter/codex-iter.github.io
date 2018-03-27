@@ -34,7 +34,7 @@
     {
         $id = $row['id'];
     }
-    echo "<a href = 'profile.php?id=$id'>" . @$_SESSION['username'] . "'s Account" . "</a>";
+    echo "<a href = 'profile.php?id=$id'>" . @$_SESSION['username'] . "'s Info" . "</a>";
     
 
     ?>
