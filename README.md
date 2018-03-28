@@ -5,8 +5,6 @@ Organisation Page
 Shortened url: http://bit.do/ebcEL
 
 
-![screenshot](./codex2.0.png)
-
 ***
 
 ![QR Code](./chart.png)<br/>&nbsp;&nbsp;&nbsp;&nbsp;**QR Code**
