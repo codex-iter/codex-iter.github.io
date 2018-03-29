@@ -35,7 +35,7 @@
 	               <li><a href="#intro">Home</a></li>
 	               <li><a href="#services">Projects</a></li>
 	               <li><a href="#coordinators">Coordinators</a></li>
-	               <li><a href="#journal">Codex Blog</a></li>
+	               <li><a href="forum\index.php">Codex Blog</a></li>
                   <li><a href="#about">About Us</a></li>
                   <li><a href="#contact">Contact</a></li>
                </ul>
@@ -624,7 +624,7 @@ Preferred Language: PHP/Python/Node JS or any backend language of your choice.</
                </div>
 
                <div class="col g-9 offset-1 entry-title">
-                  <h3><a href="blog-single.html">Codex club induction.</a></h3>
+                  <h3><a href="blog-single.php">Codex club induction.</a></h3>
                </div>
 
                <div class="col g-2">
@@ -640,7 +640,7 @@ Preferred Language: PHP/Python/Node JS or any backend language of your choice.</
 
                <div class="col g-9 offset-1 post-content">
                   <p>In this induction we were introduced to the Founders and coordinators of the club.And what are the future plans of the codex to shape the coding skills in ITER.
-                  <a href="blog-single.html" class="more-link">Read More<i class="icon-angle-right"></i></a></p>
+                  <a href="blog-single.php" class="more-link">Read More<i class="icon-angle-right"></i></a></p>
                </div>
 
             </div>
@@ -657,7 +657,7 @@ Preferred Language: PHP/Python/Node JS or any backend language of your choice.</
                </div>
 
                <div class="col g-9 offset-1 entry-title">
-                  <h3><a href="blog-single.html">Codex club qualifying exam.</a></h3>
+                  <h3><a href="blog-single.php">Codex club qualifying exam.</a></h3>
                </div>
 
                <div class="col g-2">
@@ -678,7 +678,7 @@ Preferred Language: PHP/Python/Node JS or any backend language of your choice.</
                   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  <a href="blog-single.html" class="more-link">Read More<i class="icon-angle-right"></i></a></p>
+                  <a href="blog-single.php" class="more-link">Read More<i class="icon-angle-right"></i></a></p>
                </div>
 
             </div>
