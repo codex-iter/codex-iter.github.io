@@ -16,7 +16,7 @@ Shortened url: http://bit.do/codex-iter
 ***
 
 ## *Things to add*
-+ Deploy the php site.
++ Forum Database
 
 ## Credits
 
