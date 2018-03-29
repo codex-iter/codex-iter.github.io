@@ -4,9 +4,9 @@
 
 
 Organisation Page
-[Codex 2.0](https://codex-iter.000webhostapp.com/)
+[Codex 2.0](https://codex-2-iter.000webhostapp.com/)
 
-Shortened url: http://bit.do/ebcEL
+Shortened url: http://bit.do/codex-iter
 
 
 ***
