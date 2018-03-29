@@ -1029,7 +1029,7 @@ Preferred Language: PHP/Python/Node JS or any backend language of your choice.</
          <div class="col g-7">
             <ul class="copyright">
                <li>&copy; 2018 A.RUPESH & DEBASHISH MISHRA</li>
-               <li>Design by <a href="http://www.linkedin.com/rupesh1310" title="Design">A.RUPESH</a></li>               
+               <li>Design by <a href="https://www.linkedin.com/in/rupesh1310/" title="Design">A.RUPESH</a></li>               
             </ul>
          </div>
 
