@@ -1,6 +1,6 @@
 # codex-iter.github.io
 
-![screenshot](./Screenshot (220).png)
+![screenshot](https://raw.githubusercontent.com/codex-iter/codex-iter.github.io/master/Screenshot%20(220).png)
 
 
 Organisation Page
