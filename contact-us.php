@@ -9,7 +9,7 @@ use PHPMailer\PHPMailer\Exception;
 //Load Composer's autoloader
 require 'vendor/autoload.php';
 
-$email_id = $_POST['email'] ;
+$email_id = $_POST['contactEmail'] ;
 
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
 try {
@@ -19,7 +19,7 @@ try {
     $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = 'codex.2.0.contact@gmail.com';                 // SMTP username
-    $mail->Password = 'password';                                   // SMTP password [Password Changed and removed from GitHub for sequrity]
+    $mail->Password = '';                                   // SMTP password [Password Changed and removed from GitHub for sequrity]
     //$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 25;                                    // TCP port to connect to
 
@@ -47,4 +47,4 @@ try {
     echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
 }
 
-
+?>
