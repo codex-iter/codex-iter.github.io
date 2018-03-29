@@ -524,7 +524,11 @@ textarea:focus {
 	background-color: #3d4145;
 }
 
-textarea { min-height: 180px; }
+textarea {
+    min-height: 180px;
+    white-space: pre-wrap;
+
+}
 
 label,
 legend {
