@@ -23,7 +23,7 @@
          <div class="col full">
 
             <div class="logo">
-               <a href="#"><img alt="" src="images/logo.png"></a>
+               <a href="#"><img alt="" src="images/IMG_20180330_203417_140.jpg"></a>
             </div>
 
             <nav id="nav-wrap">
