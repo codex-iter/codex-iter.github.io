@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
    <link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/layout.css">
-	<link rel="shortcut icon" href="" >
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 </head>
 
 <body data-spy="scroll" data-target="#nav-wrap">
@@ -23,7 +23,7 @@
          <div class="col full">
 
             <div class="logo">
-               <a href="#"><img alt="" src="images/IMG_20180330_203417_140.jpg"></a>
+               <a href="#"><img alt="" src="images/logo.png"></a>
             </div>
 
             <nav id="nav-wrap">
@@ -1029,7 +1029,7 @@ Preferred Language: PHP/Python/Node JS or any backend language of your choice.</
          <div class="col g-7">
             <ul class="copyright">
                <li>&copy; 2018 A.RUPESH & DEBASHISH MISHRA</li>
-               <li>Design by <a href="https://www.linkedin.com/in/rupesh1310/" title="Design">A.RUPESH</a></li>               
+               <li>Design by <a href="http://www.linkedin.com/rupesh1310" title="Design">A.RUPESH</a></li>               
             </ul>
          </div>
 
