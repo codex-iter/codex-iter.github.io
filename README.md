@@ -1,12 +1,12 @@
 # codex-iter.github.io
 
-![screenshot](https://raw.githubusercontent.com/codex-iter/codex-iter.github.io/master/Screenshot%20(220).png)
+![screenshot](./scrrenshot.PNG)
 
 
 Organisation Page
-[Codex 2.0](https://codex-iter.000webhostapp.com/)
+[Codex 2.0](https://codex-2-iter.000webhostapp.com/)
 
-Shortened url: http://bit.do/ebcEL
+Shortened url: http://bit.do/codex-iter
 
 
 ***
@@ -16,7 +16,7 @@ Shortened url: http://bit.do/ebcEL
 ***
 
 ## *Things to add*
-+ Deploy the php site.
++ Forum Database
 
 ## Credits
 
