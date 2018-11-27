@@ -1,0 +1,214 @@
+/* FILE: main/content/__page.scss */
+
+//
+// Page styles
+//
+
+
+
+
+
+// Special pages
+
+	// Error 404 and "Not found" page
+
+		.error-404,
+		.not-found {
+			text-align: center;
+
+			@include responsive( map_get( $breakpoint, 'l' ) ) {
+				font-size: 1.62em;
+			}
+
+			.page-title {
+
+				@include responsive( map_get( $breakpoint, 'l' ) ) {
+					font-size: 2.24em;
+				}
+
+			}
+
+			h1 {
+				padding-bottom: .62em;
+			}
+
+			p,
+			a {
+				color: inherit;
+			}
+
+			form {
+				display: inline-block;
+				width: 100%;
+				max-width: 38rem;
+				text-align: center;
+			}
+
+		}
+
+
+
+// Page templates
+
+	// Food menu page
+
+		.page-template-_menu .entry + .page-section {
+			margin-top: 0;
+		}
+
+
+
+	// Fullwidth page
+
+		.is-singular .site-main > .attachment.entry,
+		.page-template-_fullwidth .site-main > .entry,
+		.page-template-_menu .site-main > .entry {
+			float: none;
+			width: 100%;
+		}
+
+		.home.page-template-_fullwidth .site-content .page .entry-title {
+			text-align: center;
+		}
+
+
+
+// Page sections
+
+	.page-section {
+		border-bottom-width: 2px;
+		border-bottom-style: solid;
+
+		.site-main + &,
+		.site-main + & + & {
+			border-top-width: 2px;
+			border-top-style: solid;
+			border-bottom-width: 0;
+		}
+
+		.site-main + & {
+			margin-top: 6%;
+		}
+
+		.page-template-_menu & {
+			margin-top: 0;
+			border-width: 0;
+		}
+
+
+
+		// Elements
+
+			.page-title {
+				border-top-width: 0;
+			}
+
+			&:first-child .page-title {
+				padding-top: 0;
+			}
+
+
+
+		// Posts list (condensed posts)
+
+			.posts {
+
+				.entry {
+					z-index: 0;
+
+					@include responsive( map_get( $breakpoint, 'l' ) ) {
+						transition: padding .4s,
+						            height .4s,
+						            transform .4s,
+						            box-shadow .4s;
+					}
+
+					&:hover {
+						padding: 1.62rem;
+						z-index: 9;
+
+						@include responsive( map_get( $breakpoint, 'l' ) ) {
+							box-shadow: 0 .38rem 1.62rem rgba( #000, .2 );
+						}
+
+						.entry-media + .entry-inner {
+							max-height: 400px;
+							padding-left: 0;
+							padding-right: 0;
+							margin-top: 1.62rem;
+							opacity: 1;
+						}
+
+					}
+
+					&-media {
+
+						+ .entry-inner {
+							max-height: 400px;
+							padding-left: 0;
+							padding-right: 0;
+							margin-top: 1.62rem;
+							opacity: 1;
+							overflow: hidden;
+							transition: all .4s;
+
+							@include responsive( map_get( $breakpoint, 'l' ) ) {
+								max-height: 0;
+								padding-left: 1.62rem;
+								padding-right: 1.62rem;
+								margin-top: 0;
+								opacity: 0;
+							}
+
+						}
+
+					}
+
+				}
+
+				.has-post-thumbnail {
+					padding: 1.62rem;
+
+					@include responsive( map_get( $breakpoint, 'l' ) ) {
+						padding: 0;
+					}
+
+					&:hover {
+
+						@include responsive( map_get( $breakpoint, 'l' ) ) {
+							transform: translateY( -1.62rem );
+						}
+
+					}
+
+				}
+
+			}
+
+
+
+		// Page content after page section
+
+			+ .site-main {
+				margin-top: 6%;
+
+				.entry-media {
+					margin-bottom: 6%;
+				}
+
+			}
+
+	}
+
+
+
+	.archive-link {
+		clear: both;
+		padding: 0 0 6%;
+		text-align: center;
+
+		a {
+			display: inline-block;
+		}
+
+	}

@@ -1,0 +1,66 @@
+/* FILE: main/content/__post.scss */
+
+//
+// Post styles
+//
+
+
+
+
+
+.entry {
+
+	&-content {
+
+		&-container {
+			@extend %padding_top;
+			@extend %padding_bottom;
+			max-width: calc( 39em + #{ $golden * 2em } );
+			max-width: calc( 70ch + #{ $golden * 2em } );
+			padding-left: $golden +em;
+			padding-right: $golden +em;
+			margin-left: auto;
+			margin-right: auto;
+
+			.content-layout-no-paddings .content-area & {
+				padding: 0;
+				max-width: none;
+			}
+
+		}
+
+	}
+
+	&-summary {
+
+		&:empty {
+			display: none;
+		}
+
+		.entry-content & {
+			font-size: $golden_minor / 2 + 1em;
+			line-height: 1 + $golden_minor;
+		}
+
+		.posts &:not(.has-more-tag) {
+			font-size: 1em;
+			line-height: inherit;
+		}
+
+	}
+
+}
+
+
+
+// Post formats
+
+	@import '_post-format-gallery';
+
+	@import '_post-format-image';
+
+	@import '_post-format-link';
+
+	@import '_post-format-quote';
+
+	@import '_post-format-status';

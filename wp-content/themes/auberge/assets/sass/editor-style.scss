@@ -1,0 +1,29 @@
+/* FILE: editor-style.scss */
+
+//
+// Visual Editor stylesheet
+//
+// @package    Auberge
+// @copyright  WebMan Design, Oliver Juhas
+//
+// @since    2.2.0
+// @version  2.2.0
+//
+
+
+
+
+
+// Setup language direction
+
+	$left: left;
+	$right: right;
+
+
+
+
+
+// Imports
+
+	@import url( 'main.css' );
+	@import url( 'custom-editor.css' );

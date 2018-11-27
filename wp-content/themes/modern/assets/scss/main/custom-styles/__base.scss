@@ -1,0 +1,78 @@
+/* FILE: main/custom-styles/__base.scss */
+
+//
+// Basic colors
+//
+
+
+
+
+
+// Body
+
+	body {
+		// This gets overridden with WordPress custom-background styles in HTML head,
+		// but is used in editor styles, that's why we need to define it here.
+		background-color: map_get( $colors, 'body_background' ); //*
+	}
+
+	//
+	// Make site text (the text outside entry container) the intro text color
+	//
+	.site {
+		/*[*/
+		color: map_get( $colors, 'intro_text' );
+		/*]*/
+		/*//
+		color: [[color_intro_text]];
+		//*/
+	}
+
+	*,
+	*::after,
+	*::before {
+		border-color: inherit; //*
+	}
+
+
+
+// Forms
+
+	::placeholder,
+	:disabled::placeholder {
+		color: inherit !important; //*
+	}
+
+
+
+// Semi-transparent elements
+
+	button,
+	input,
+	select,
+	textarea {
+		background-color: transparent; //*
+	}
+
+	.gallery-caption {
+		background-color: rgba( #000, .8 ); //*
+		color: #fdfcfc; //*
+	}
+
+
+
+// Predefined colors
+
+	@each $color in ( 'error', 'info', 'success', 'warning' ) {
+
+		.color-#{$color} {
+			background-color: map_get( $colors, '#{$color}_background' ); //*
+			color: map_get( $colors, '#{$color}_text' ); //*
+
+			a:not(.button) {
+				color: inherit;
+			}
+
+		}
+
+	}

@@ -1,0 +1,22 @@
+/* FILE: main/menu/__menu-social-footer.scss */
+
+//
+// Social links in footer
+//
+
+
+
+
+
+.social-links {
+
+	.footer-area-site-info & {
+		margin: ( $golden_major +em ) 0;
+
+		@include media( map_get( $breakpoint, 'm' ) ) {
+			margin: 0;
+		}
+
+	}
+
+}

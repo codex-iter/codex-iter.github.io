@@ -1,0 +1,46 @@
+/* FILE: main/sidebar/_sidebar.scss */
+
+//
+// Sidebar
+//
+
+
+
+
+
+// Theme sidebar styles
+
+	.sidebar {
+		@extend %font_size_smaller;
+		position: relative;
+		margin-top: power( $golden, 2 ) +rem;
+
+		@include media( map_get( $breakpoint, 'l' ) ) {
+			width: 28%;
+			width: calc( 32% - 2rem );
+			margin-top: 0;
+		}
+
+		.widget {
+			// Posts entry padding.
+			$padding : power( $golden, 2 ); // In rem.
+
+			@extend %box_shadow;
+			padding: $padding / 2 +rem; // Half the padding for mobiles.
+			margin-bottom: 2rem;
+
+			@include media( map_get( $breakpoint, 'm' ) ) {
+				padding: $padding +rem;
+			}
+
+		}
+
+	}
+
+
+
+// Imports
+
+	@import '_widgets';
+
+	@import '_footer';

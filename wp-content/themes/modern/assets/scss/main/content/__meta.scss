@@ -1,0 +1,111 @@
+/* FILE: main/content/__meta.scss */
+
+//
+// Entry meta
+//
+
+
+
+
+
+.entry-meta {
+	padding: 1em 0;
+	margin: ( $golden +rem ) 0;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	&-bottom {
+		padding-bottom: 0;
+		border-bottom-width: 0;
+	}
+
+	&:empty,
+	.updated,
+	.label-updated {
+		display: none;
+	}
+
+	&-element {
+		margin-#{$right}: $golden_minor +em; // {{RTL}}
+		opacity: 1;
+	}
+
+	&-description {
+		@extend %indent_text_for_icon_only;
+		text-transform: uppercase;
+
+		&::before {
+			content: '';
+		}
+
+		// Meta element icons
+
+			@each $icon, $char in $entry_meta_icons {
+
+				.#{$icon} &::before {
+					content: $char;
+				}
+
+			}
+
+			.tags-links & {
+				@extend %screen_reader_hiding;
+			}
+
+	}
+
+	a {
+		text-decoration: none;
+
+		@include haf() {
+			text-decoration: underline;
+		}
+
+		@include in( '^.tags-links' ) {
+			text-transform: none;
+
+			&::before {
+				@extend %genericon;
+				content: '\f302';
+				margin-#{$right}: $golden_minor / 2 +em; // {{RTL}}
+			}
+		}
+
+	}
+
+	.author {
+
+		body:not(.group-blog) & {
+			display: none;
+		}
+
+	}
+
+	.content-layout-no-paddings .content-area & {
+		text-align: center;
+		margin: 0;
+	}
+
+}
+
+
+
+// Linked entry date
+
+	.entry-date {
+
+		a & {
+			cursor: pointer;
+		}
+
+	}

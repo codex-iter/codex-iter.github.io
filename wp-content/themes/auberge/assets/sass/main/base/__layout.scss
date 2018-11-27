@@ -1,0 +1,59 @@
+/* FILE: main/base/__layout.scss */
+
+//
+// Site layout
+//
+
+
+
+
+
+// Site container
+
+	body {
+
+		@include responsive( map_get( $breakpoint, 'm' ) ) {
+			padding-left: 2%;
+			padding-right: 2%;
+		}
+
+		@include responsive( map_get( $breakpoint, 'xl' ) ) {
+			padding-left: 4%;
+			padding-right: 4%;
+		}
+
+	}
+
+	.site {
+		width: 100%;
+		max-width: $boxed_width +px;
+		max-width: $boxed_width * $px;
+		margin: 0 auto;
+		box-shadow: 0 0 3.62rem rgba( #000, .07 );
+	}
+
+
+
+// Extenders
+
+	%basic_width {
+		width: 88%;
+		margin: 0 auto;
+	}
+
+	%max_width_1920 {
+		max-width: 1920px;
+		max-width: 1920 * $px;
+	}
+
+	/* $content_width */
+	%content_width {
+		@extend %basic_width;
+		max-width: $content_width +px;
+		max-width: $content_width * $px;
+	}
+
+	%full_width {
+		@extend %basic_width;
+		@extend %max_width_1920;
+	}

@@ -1,0 +1,25 @@
+/* FILE: welcome-rtl.scss */
+
+//
+// Welcome page RTL styles
+//
+// @subpackage  Welcome
+// @subpackage  Admin
+//
+// @package  WebMan WordPress Theme Framework
+//
+
+
+
+
+
+// Setup language direction
+
+	$left: right;
+	$right: left;
+
+
+
+// Imports
+
+	@import "styles/welcome";

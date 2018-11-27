@@ -1,0 +1,35 @@
+/* FILE: main/content/__post.scss */
+
+//
+// Post styles
+//
+
+
+
+
+
+// Excerpt
+
+	.entry-summary {
+
+		.single &,
+		&.has-more-tag {
+			@extend %font_weight_400;
+			text-transform: uppercase;
+		}
+
+	}
+
+
+
+// Content
+
+	.is-singular .site-main > .entry {
+		position: relative;
+
+		@include responsive( map_get( $breakpoint, 'l' ) ) {
+			float: $left; // {{RTL}}
+			width: 62%;
+		}
+
+	}

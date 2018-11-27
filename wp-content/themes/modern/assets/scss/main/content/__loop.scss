@@ -1,0 +1,164 @@
+/* FILE: main/content/__loop.scss */
+
+//
+// Posts list (loop) styles
+//
+
+
+
+
+
+$gutter : 2; // In em.
+$padding : power( $golden, 2 ); // In em.
+
+.posts {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -$gutter / 2 +em;
+
+	.entry {
+		@extend %box_shadow;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		padding: $padding / 2 +em; // Half the padding for mobiles.
+		margin: $gutter / 2 +em;
+
+		// Small screens:
+		// 1 column
+		width: calc( 100% - #{ $gutter +em } );
+
+		@include media( map_get( $breakpoint, 'm' ) ) {
+		// Medium screens:
+		// 2 columns
+
+			width: calc( 50% - #{ $gutter +em } );
+			padding: $padding +em;
+		}
+
+		@include media( map_get( $breakpoint, 'l' ) ) {
+		// Large screens:
+		// 2 columns when such layout is set
+		// 3 columns when such layout is set
+		// 3 columns when 4 columns layout is set
+		//
+		// Large screens with sidebar:
+		// 2 columns when 3 or 4 columns layout is set
+
+			.no-widgets-sidebar:not(.posts-layout-columns-2) & {
+				width: calc( 33.33% - #{ $gutter +em } );
+			}
+
+		}
+
+		@include media( map_get( $breakpoint, 'xl' ) ) {
+		// Extra large screens:
+		// 4 columns when such layout is set
+		//
+		// Extra large screens with sidebar:
+		// 3 columns when 4 columns layout is set
+
+			.posts-layout-columns-4.no-widgets-sidebar & { // Higher specificity selector required to override the "Large screen" styles.
+				width: calc( 25% - #{ $gutter +em } );
+			}
+
+			.posts-layout-columns-4.has-widgets-sidebar & {
+				width: calc( 33.33% - #{ $gutter +em } );
+			}
+
+		}
+
+		&-media {
+			flex: 0 1 auto;
+			width: auto;
+			margin: -$padding / 2 +em; // Half the padding for mobiles.
+			margin-bottom: $padding / 2 +em; // Half the padding for mobiles.
+
+			@include media( map_get( $breakpoint, 'm' ) ) {
+				margin: -$padding +em;
+				margin-bottom: $padding +em;
+			}
+
+		}
+
+		&-header {
+			margin-bottom: $golden +em;
+		}
+
+		&-title {
+
+			&::before {
+
+				@include in( '^.type-page' ) {
+					@extend %genericon;
+					content: '\f443';
+					margin-#{$right}: $golden_major / 2 +em; // {{RTL}}
+					vertical-align: middle;
+				}
+
+			}
+
+		}
+
+		&-content {
+
+			p {
+				margin-bottom: 1em;
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+
+			}
+
+			&-container {
+				flex: 1 1 auto;
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+				padding: 0;
+			}
+
+		}
+
+		&-content,
+		&-summary {
+
+			&:not(:last-child) {
+				margin-bottom: $golden +em;
+			}
+
+		}
+
+		&-meta {
+			@extend %font_size_smaller;
+			margin-top: auto;
+		}
+
+	}
+
+}
+
+
+
+// Search results list
+
+	.posts {
+
+		.search-results form + & {
+			margin-top: power( $golden, 2 ) +em;
+		}
+
+	}
+
+
+
+// More link
+
+	.link-more {
+
+		.entry-summary:not(:empty) + & {
+			margin-top: 1em;
+		}
+
+	}

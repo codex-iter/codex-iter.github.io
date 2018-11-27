@@ -1,0 +1,54 @@
+/* FILE: main/icons/_icons.scss */
+
+//
+// Icons
+//
+
+
+
+
+
+// Main Genericon extender
+
+	%genericon {
+		font-family: 'Genericons-Neue';
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-decoration: inherit;
+		text-transform: none;
+		speak: none;
+	}
+
+
+
+// Icons styles
+
+	.svgicon {
+		display: inline-block;
+		position: relative;
+		width: 1em;
+		height: 1em;
+		top: -0.0625em;
+		fill: currentColor;
+		vertical-align: middle;
+	}
+
+	.svg-fallback {
+		display: none;
+	}
+
+
+
+// Genericons Neue CSS
+// @link  https://github.com/Automattic/genericons-neue/blob/master/icon-font/Genericons-Neue.css
+
+	.genericons-neue::before {
+		@extend %genericon;
+		display: inline-block;
+		line-height: 1;
+		text-rendering: auto;
+		-moz-osx-font-smoothing: grayscale;
+		 -webkit-font-smoothing: antialiased;
+		vertical-align: middle;
+	}

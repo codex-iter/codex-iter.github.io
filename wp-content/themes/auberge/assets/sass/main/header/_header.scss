@@ -1,0 +1,41 @@
+/* FILE: main/header/_header.scss */
+
+//
+// Site header
+//
+
+
+
+
+
+// Site header
+
+	.site-header {
+		position: relative;
+		padding: 1.62rem 1rem;
+		padding-#{$left}: 5.24rem; // {{RTL}}
+		line-height: 2;
+		z-index: 999;
+
+		@include responsive( map_get( $breakpoint, 'l' ) ) {
+			padding: 0 4%;
+			line-height: 5rem;
+		}
+
+		&-inner {
+			max-width: 1920px;
+			margin: 0 auto;
+		}
+
+	}
+
+
+
+// Imports
+
+	@import '_sticky';
+
+	@import '_branding';
+
+	@import '_banner';
+

@@ -1,0 +1,107 @@
+/* FILE: main/plugins/__restaurant-reservations.scss */
+
+//
+// Restaurant Reservations
+//
+
+
+
+
+.picker {
+	outline: 0;
+}
+
+.rtb {
+
+	&-booking-form {
+
+		button,
+		input,
+		textarea,
+		select {
+
+			.site & {
+				width: 100%;
+				max-width: 100%;
+			}
+
+		}
+
+		input[type="checkbox"],
+		input[type="radio"] {
+
+			.site & {
+				vertical-align: baseline;
+			}
+
+		}
+
+		legend {
+
+			.site & {
+				padding: 0;
+				text-transform: uppercase;
+				font-size: 1.38em;
+			}
+
+		}
+
+		.date,
+		.time {
+
+			.entry & {
+				float: $left; // {{RTL}}
+				width: 48%;
+				margin-bottom: 1em;
+			}
+
+			.sidebar & {
+				float: none;
+				width: 100%;
+				margin-bottom: 0;
+			}
+
+		}
+
+		.time {
+
+			.entry & {
+				float: $right; // {{RTL}}
+			}
+
+		}
+
+		.party {
+
+			.entry & {
+				clear: both;
+			}
+
+		}
+
+		legend::before,
+		.add-message a::before {
+			@extend %genericon;
+			content: '\f307';
+			margin-#{$right}: .09em; // {{RTL}}
+			font-size: 1.62em;
+			vertical-align: middle;
+		}
+
+			.contact legend::before {
+				content: '\f304';
+			}
+
+			.add-message a::before {
+				content: '\f410';
+			}
+
+	}
+
+	&-message {
+		padding: 1.62em 1.62em 0;
+		border-width: 2px;
+		border-style: solid;
+	}
+
+}

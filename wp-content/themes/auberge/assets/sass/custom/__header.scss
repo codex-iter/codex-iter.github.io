@@ -1,0 +1,40 @@
+/* FILE: custom/__header.scss */
+
+//
+// Site header colors
+//
+
+
+
+
+
+.site-header {
+	/*[*/
+	background-color: map_get( $colors, 'header' );
+	color: map_get( $colors, 'header_text' );
+	/*]*/
+	/*//
+	background-color: [[color_header]];
+	color: [[color_header_text]];
+	//*/
+}
+
+
+
+.nav-search-form {
+
+	.form-search {
+		/*[*/
+		background-color: map_get( $colors, 'accent' );
+		/*]*/
+		/*//
+		background-color: [[color_accent]];
+		//*/
+	}
+
+	.search-field {
+		background-color: #fff; //*
+		color: #6a6c6e; //*
+	}
+
+}

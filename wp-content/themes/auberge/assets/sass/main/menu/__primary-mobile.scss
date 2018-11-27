@@ -1,0 +1,69 @@
+/* FILE: main/menu/_primary-mobile.scss */
+
+//
+// Mobile menu toggle button styles
+//
+
+
+
+
+
+.menu-toggle {
+	position: fixed;
+	display: block;
+	#{$left}: 1rem; // {{RTL}}
+	top: 0;
+
+	@include responsive( map_get( $breakpoint, 'm' ) ) {
+		#{$left}: calc( 1rem + 2% ); // {{RTL}}
+	}
+
+	&,
+	&:hover,
+	&:active,
+	&:focus {
+		width: 3.24rem;
+		height: 3.24rem;
+		padding: 0;
+		line-height: 3.24rem;
+		text-indent: -999em;
+		font-size: 1.62rem;
+		border-width: 0;
+		opacity: 1;
+	}
+
+	&::before {
+		@extend %genericon;
+		content: '\f419';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		#{$left}: 0; // {{RTL}}
+		top: 0;
+		text-align: center;
+		text-indent: 0;
+
+		.active & {
+			content: '\f406';
+		}
+
+	}
+
+	.admin-bar & {
+		top: 32px;
+	}
+
+	.active &,
+	.admin-bar .active & {
+		position: absolute;
+		#{$left}: auto; // {{RTL}}
+		top: auto;
+	}
+
+
+
+	@include responsive( map_get( $breakpoint, 'l' ) ) {
+		display: none;
+	}
+
+}

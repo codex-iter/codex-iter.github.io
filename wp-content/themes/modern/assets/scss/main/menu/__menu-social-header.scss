@@ -1,0 +1,32 @@
+/* FILE: main/menu/__menu-social-header.scss */
+
+//
+// Social links in header
+//
+
+
+
+
+
+.social-links {
+
+	.site-header-content & {
+		@extend %font_size_golden;
+		width: 100%;
+		margin-top: $golden +rem;
+		white-space: nowrap;
+
+		@include media( map_get( $breakpoint, 'm' ) ) {
+			width: auto;
+			padding-#{$left}: $golden +em; // {{RTL}}
+			margin-top: 0;
+			margin-#{$left}: auto; // {{RTL}}
+		}
+
+		.back-to-top-link {
+			display: none;
+		}
+
+	}
+
+}

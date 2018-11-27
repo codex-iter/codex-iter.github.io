@@ -1,0 +1,117 @@
+/* FILE: main/header/__branding.scss */
+
+//
+// Branding: site title, logo image, site description (tagline)
+//
+
+
+
+
+
+// Extender
+
+	%site_title {
+		text-decoration: none;
+		color: inherit;
+	}
+
+
+
+// Site branding
+
+	.site-branding {
+		float: $left; // {{RTL}}
+		margin-#{$right}: $golden +em; // {{RTL}}
+		line-height: inherit;
+		color: inherit;
+
+		@include media( map_get( $breakpoint, 'xl' ) ) {
+			margin-#{$right}: power( $golden, 2 ) +em; // {{RTL}}
+		}
+
+		a {
+
+			@include haf( ( '&', 'h', 'f', 'a' ) ) {
+				@extend %site_title;
+			}
+
+		}
+
+		&-text {
+			@extend %line_height_golden_minor;
+			display: inline-block;
+			margin: ( $golden_major +em ) 0;
+			vertical-align: middle;
+
+			@include media( map_get( $breakpoint, 'm' ) ) {
+				margin: 0;
+			}
+
+			.site-title-hidden & {
+				@extend %screen_reader_hiding;
+			}
+
+		}
+
+	}
+
+
+
+// Site title
+
+	.site-title {
+		@extend %site_title;
+		@extend %font_logo;
+		@extend %font_weight_700;
+		@extend %font_style_normal;
+		margin: 0;
+		line-height: inherit;
+		font-size: nth( map_get( $h_tags_setup, 'h1, .h1' ), 1 ) +rem;
+
+		@include media( map_get( $breakpoint, 'l' ) ) {
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+
+
+		// Fixing image logo vertical alignment
+
+			&.type-img {
+				font-family: sans-serif; // Yes, this fixes it, don't ask why (even debugging was a nightmare)...
+			}
+
+	}
+
+
+
+// Site description (tagline)
+
+	.site-description {
+		@extend %font_size_1rem;
+
+		@include media( map_get( $breakpoint, 'xl' ) ) {
+			display: inline-block;
+			padding-#{$left}: $golden +em; // {{RTL}}
+			margin-#{$left}: $golden +em; // {{RTL}}
+			border-#{$left}: 1px solid; // {{RTL}}
+			vertical-align: middle;
+		}
+
+	}
+
+
+
+// Custom logo image
+
+	.custom-logo {
+		display: inline-block;
+		width: auto;
+		margin-#{$right}: 1em; // {{RTL}}
+		vertical-align: middle;
+
+		.site-title-hidden & {
+			margin-#{$right}: 0;
+		}
+
+	}

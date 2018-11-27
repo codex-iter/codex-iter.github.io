@@ -1,0 +1,156 @@
+/////////////////////
+//
+// Setup variables
+//
+/////////////////////
+
+
+
+
+
+// To override these variables, you can redefine them in your SASS files.
+// All the `!default` variables can be redefined easily.
+// Import your variables file BEFORE the actual `starter` import.
+
+
+
+
+
+//
+// Globals
+//
+
+	// RTL support
+	//
+	// There are `{{RTL}}` notes left in the code where change is applicable.
+
+		$language_direction: ltr !default;
+		$left: left;
+		$right: right;
+
+		@if rtl == $language_direction {
+			$left: right;
+			$right: left;
+		}
+
+	// Golden ratio
+
+		// (Rounding to nearest hundredth to prevent calculation issues between browsers.)
+
+		$golden:       1.62 !default;
+		$golden_major: 0.62 !default;
+		$golden_minor: 0.38 !default;
+
+	// Responsive breakpoints (in px)
+
+		$breakpoint: (
+
+			's'     :  448, // =  28em // Starting mobile landscape
+			'm'     :  672, // =  42em // Starting tablet portrait
+			'l'     :  880, // =  55em // Starting tablet landscape
+			'xl'    : 1280, // =  80em // Starting laptop
+			'xxl'   : 1600, // = 100em // Starting desktop
+			'xxxl'  : 1920, // = 120em // Starting desktop full HD
+			'xxxxl' : 2560, // = 160em // Starting desktop WQHD
+
+		) !default;
+
+	// Typography
+
+		$font_size: 16 !default;
+
+		$typography_line_height: 1.62;
+		$typography_margin_bottom: 1.62;
+
+		// Headings
+
+			$h_tags_1: 'h1, .h1' !default;
+			$h_tags_2: 'h2, .h2' !default;
+			$h_tags_3: 'h3, .h3' !default;
+			$h_tags_4: 'h4, .h4' !default;
+			$h_tags_5: 'h5, .h5' !default;
+			$h_tags_6: 'h6, .h6' !default;
+
+			$h_tags: $h_tags_1, $h_tags_2, $h_tags_3, $h_tags_4, $h_tags_5, $h_tags_6;
+
+			$h_tags_setup: (
+
+				// $selector : (
+				//   $size
+				//   $line_height
+				//   $margin_top    [ ( span_4_or_3_lines - $size * $line_height - $margin_bottom ) / $size ]
+				//   $margin_bottom [ $margin_bottom / $size / $line_height ]
+				// )
+
+				// @link http://www.zell-weekeat.com/responsive-typography/
+				//
+				// Em vs Rem section regarding vertical rhythm:
+				//
+				// "First, we’re not 100% precise and accurate with our math. We could get more precise (like 10 decimal places),
+				// but that would make our code ugly as hell…"
+				// "Second, different browsers handle subpixel rounding issues differently.
+				// This means we’ll never be able to get pixel-perfect rhythms no matter how hard we try."
+				// "So, here’s what I realized. It’s impossible to apply perfect responsive vertical rhythms across different browsers.
+				// At least not with the current technology."
+
+				// @see "Golden Ditonic Scale" at http://spencermortensen.com/articles/typographic-scale/
+
+				$h_tags_1 : (
+					2.618,
+					1.19,
+					( 4 * $typography_line_height - 2.618 * 1.19 - $typography_margin_bottom ) / 2.618,
+					$typography_margin_bottom / 2.618 / 1.19
+				),
+
+				$h_tags_2 : (
+					2.058,
+					1.19,
+					( 4 * $typography_line_height - 2.058 * 1.19 - $typography_margin_bottom ) / 2.058,
+					$typography_margin_bottom / 2.058 / 1.19
+				),
+
+				$h_tags_3 : (
+					1.618,
+					1.38,
+					( 3 * $typography_line_height - 1.618 * 1.38 - $typography_margin_bottom ) / 1.618,
+					$typography_margin_bottom / 1.618 / 1.38
+				),
+
+				$h_tags_4 : (
+					1.272,
+					( 1.62 / 1.272 ),
+					( 3 * $typography_line_height - 1.272 * ( 1.62 / 1.272 ) - $typography_margin_bottom ) / 1.272,
+					$typography_margin_bottom / 1.272 / ( 1.62 / 1.272 )
+				),
+
+				$h_tags_5 : (
+					1.272,
+					( 1.62 / 1.272 ),
+					( 3 * $typography_line_height - 1.272 * ( 1.62 / 1.272 ) - $typography_margin_bottom ) / 1.272,
+					$typography_margin_bottom / 1.272 / ( 1.62 / 1.272 )
+				),
+
+				$h_tags_6 : (
+					1.272,
+					( 1.62 / 1.272 ),
+					( 3 * $typography_line_height - 1.272 * ( 1.62 / 1.272 ) - $typography_margin_bottom ) / 1.272,
+					$typography_margin_bottom / 1.272 / ( 1.62 / 1.272 )
+				),
+
+			) !default;
+
+	// Supported post formats
+
+		$supported_post_formats: () !default;
+
+	// Supported Jetpack modules
+
+		$supported_jetpack_modules: (
+			'contact-form',
+			'infinite-scroll',
+			'related-posts',
+			'responsive-videos',
+			'sharing',
+			'tiled-gallery',
+			'widgets',
+		) !default;

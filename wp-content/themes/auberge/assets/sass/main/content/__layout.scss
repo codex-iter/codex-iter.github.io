@@ -1,0 +1,28 @@
+/* FILE: main/content/__layout.scss */
+
+//
+// Site content layout
+//
+
+
+
+
+
+// Site content width holder
+
+	.content-area {
+		@extend %content_width;
+	}
+
+	.site-content {
+		padding: 6% 0;
+
+
+
+		// Do not show the outline on the skip link target
+
+			&[tabindex="-1"]:focus {
+				outline: 0;
+			}
+
+	}

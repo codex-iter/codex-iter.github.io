@@ -1,0 +1,50 @@
+/* FILE: main/content/__page.scss */
+
+//
+// Page styles
+//
+
+
+
+
+
+// Page templates
+
+	// Front page
+
+		.page-template-_front {
+
+			&.is-singular .content-area {
+				background: transparent;
+			}
+
+		}
+
+		.front-page-section {
+			@extend %margin_top;
+			@extend %margin_bottom;
+			position: relative;
+			z-index: 5;
+
+			.intro-container + & {
+				margin-top: 0;
+			}
+
+			&-inner {
+				@extend %content_width;
+				@extend .clearfix;
+			}
+
+			&-title {
+				@extend %font_weight_300;
+				padding: ( $golden +em ) 0;
+				margin: 0;
+				text-transform: uppercase;
+				border-top: 2px solid;
+			}
+
+			.archive-link {
+				margin-top: power( $golden, 2 ) +em;
+			}
+
+		}

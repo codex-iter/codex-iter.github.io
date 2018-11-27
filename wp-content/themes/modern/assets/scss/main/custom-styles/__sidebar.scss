@@ -1,0 +1,36 @@
+/* FILE: main/custom-styles/__sidebar.scss */
+
+//
+// Widgets and sidebars colors
+//
+
+
+
+
+
+// Widgets
+
+	.widget {
+
+		.sidebar & {
+			@extend %site_content_colors;
+		}
+
+	}
+
+
+
+	// Custom Menu and Pages
+
+		.widget {
+
+			.current_page_item > a,
+			.current-menu-item > a {
+
+				.sidebar & {
+					@extend %accent_colors;
+				}
+
+			}
+
+		}

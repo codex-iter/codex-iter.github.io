@@ -1,0 +1,33 @@
+/* FILE: main/footer/__site-info.scss */
+
+//
+// Site info (credits)
+//
+
+
+
+
+
+.footer-area-site-info {
+	@extend %font_size_smaller;
+}
+
+
+
+.site-info {
+
+	&-inner {
+		@extend %padding_top;
+		@extend %padding_bottom;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+
+		.site-footer-area + .site-footer-area & {
+			padding-top: 0;
+		}
+
+	}
+
+}

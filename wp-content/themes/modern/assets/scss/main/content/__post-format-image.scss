@@ -1,0 +1,69 @@
+/* FILE: main/content/__post-format-image.scss */
+
+//
+// Post format: Image
+//
+
+
+
+
+
+.format-image {
+
+	.entry {
+
+		&-media {
+			position: relative;
+
+			&::before {
+				@extend %genericon;
+				@extend %font_size_golden;
+				@extend %box_shadow;
+				content: '\f102';
+				position: absolute;
+				width: 2em;
+				height: 2em;
+				#{$left}: -$golden_minor +em; // {{RTL}}
+				top: -$golden_minor +em;
+				line-height: 2em;
+				text-align: center;
+			}
+
+		}
+
+		.posts &-header {
+			margin-bottom: $golden_major +em;
+		}
+
+		&-title {
+
+			.posts & {
+				@extend %font_size_1rem;
+			}
+
+		}
+
+		&-content {
+
+			.posts & {
+				@extend %font_weight_300;
+
+				@include media( map_get( $breakpoint, 'm' ) ) {
+					font-size: $golden_minor / 2 + 1em;
+				}
+
+				@include media( map_get( $breakpoint, 'xl' ) ) {
+					font-size: $golden_minor + 1em;
+				}
+
+			}
+
+		}
+
+	}
+
+	.link-more {
+		@extend %font_size_1rem;
+	}
+
+}

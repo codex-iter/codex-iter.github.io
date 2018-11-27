@@ -1,0 +1,6 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">ocean_post_title</custom-field>
+        <custom-field action="translate">ocean_post_subheading</custom-field>
+    </custom-fields>
+</wpml-config>

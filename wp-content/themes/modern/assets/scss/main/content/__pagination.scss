@@ -1,0 +1,95 @@
+/* FILE: main/content/__pagination.scss */
+
+//
+// Pagination
+//
+
+
+
+
+
+.pagination {
+	@extend %margin_top;
+	padding: 1px; // To display accessibility outline.
+	text-align: center;
+	overflow: hidden;
+
+	a,
+	span {
+		background: transparent;
+		color: inherit;
+		border-width: 1px;
+		border-style: solid;
+	}
+
+	.dots {
+		padding-left: $golden_major +em;
+		padding-right: $golden_major +em;
+		border-color: transparent;
+	}
+
+	a {
+
+		@include haf() {
+			@extend %background_overlay_from_text_color;
+		}
+
+		@include media( ( map_get( $breakpoint, 'xl' ), 'max-width' ) ) {
+		// Media query is to prevent Apple mobile devices issue.
+		// @see  https://css-tricks.com/annoying-mobile-double-tap-link-issue/
+
+			&::before {
+				display: none;
+			}
+
+		}
+
+	}
+
+	.prev,
+	.next {
+		@extend %background_overlay_from_text_color;
+
+		&:hover::before {
+			display: none;
+		}
+
+		@include media( ( map_get( $breakpoint, 'xl' ), 'max-width' ) ) {
+		// Media query is to prevent Apple mobile devices issue.
+		// @see  https://css-tricks.com/annoying-mobile-double-tap-link-issue/
+
+			&::before {
+				display: none;
+			}
+
+		}
+
+	}
+
+	@include media( ( map_get( $breakpoint, 'm' ), 'max-width' ) ) {
+
+		.prev {
+			float: $left; // {{RTL}}
+		}
+
+		.next {
+			float: $right; // {{RTL}}
+		}
+
+	}
+
+	@include media( ( map_get( $breakpoint, 'm' ), 'max-width' ) ) {
+		position: relative;
+
+		&::after {
+			@include rtl_property( content, attr(data-current) ' / ' attr(data-total), attr(data-current) ' \2216 ' attr(data-total) ); // {{RTL}}
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translateX( -50% )
+			           translateY( -50% );
+		}
+
+	}
+
+}

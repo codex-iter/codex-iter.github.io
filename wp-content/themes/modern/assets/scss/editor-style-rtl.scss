@@ -1,0 +1,19 @@
+/* FILE: editor-style-rtl.scss */
+
+//
+// Visual Editor core stylesheet (RTL)
+//
+// @see  Modern_Assets::editor_stylesheets()
+//
+// @package    Modern
+// @copyright  WebMan Design, Oliver Juhas
+//
+
+
+
+// RTL style overrides
+
+	body {
+		direction: rtl;
+		unicode-bidi: embed;
+	}

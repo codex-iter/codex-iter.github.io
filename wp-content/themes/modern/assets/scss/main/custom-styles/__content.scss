@@ -1,0 +1,94 @@
+/* FILE: main/custom-styles/__content.scss */
+
+//
+// Site content colors
+//
+
+
+
+
+
+// Default site content elements
+
+	.is-singular .content-area {
+		@extend %site_content_colors;
+	}
+
+
+
+// Posts
+
+	.entry {
+		@extend %site_content_colors;
+	}
+
+	.posts .sticky::before {
+		@extend %accent_colors;
+	}
+
+
+
+	// Post formats
+
+		.format-image .entry-media::before,
+		.format-quote.entry,
+		.format-status.entry,
+		.type-jetpack-testimonial.entry {
+			@extend %accent_colors;
+		}
+
+
+
+	// Post navigation
+
+		.post-navigation {
+
+			.nav {
+
+				&-links a {
+					@extend %accent_colors;
+				}
+
+				&-previous a {
+
+					&::before {
+						/*[*/
+						background-image: linear-gradient( to #{$right}, map_get( $colors, 'accent' ) 38%, transparent );
+						/*]*/
+						/*//
+						background-image: linear-gradient( to #{$right}, [[color_accent]] 38%, transparent );
+						//*/
+					}
+
+				}
+
+				&-next a {
+
+					&::before {
+						/*[*/
+						background-image: linear-gradient( to #{$left}, map_get( $colors, 'accent' ) 38%, transparent );
+						/*]*/
+						/*//
+						background-image: linear-gradient( to #{$left}, [[color_accent]] 38%, transparent );
+						//*/
+					}
+
+				}
+
+			}
+
+		}
+
+
+
+// Pages
+
+	// Page template: Front page
+
+		.page-template-_front {
+
+			.comments-area {
+				@extend %site_content_colors;
+			}
+
+		}

@@ -1,0 +1,168 @@
+/* FILE: main/base/__jquery-slick-custom.scss */
+
+//
+// Slick slider: Theme specific styles
+//
+
+
+
+
+
+.slick-slider {
+
+	button {
+		border-width: 0;
+	}
+
+}
+
+
+
+.slick-list {
+
+	img {
+		width: 100%;
+	}
+
+}
+
+
+
+.slick-track {
+	cursor: e-resize;
+}
+
+
+
+.slick-arrow {
+	@extend %indent_text_for_icon_only;
+	@extend %box_shadow;
+	position: absolute;
+	width: 2.62rem;
+	height: 2.62rem;
+	top: 50%;
+	padding: 0;
+	line-height: 2.62rem;
+	font-size: 1rem + $golden_minor;
+	overflow: hidden;
+	z-index: 19;
+
+	&::before {
+		height: 100%;
+	}
+
+}
+
+	$direction_multiplier: 1;
+	@if rtl == $language_direction {
+		$direction_multiplier: -1;
+	}
+
+	.slick-prev {
+		#{$left}: 0; // {{RTL}}
+		transform: translateX( $direction_multiplier * -38% )
+		           translateY( -50% );
+
+		&::before {
+			@include rtl_property( content, '\f430', '\f429' ); // {{RTL}}
+		}
+
+	}
+
+	.slick-next {
+		#{$right}: 0; // {{RTL}}
+		transform: translateX( $direction_multiplier * 38% )
+		           translateY( -50% );
+
+		&::before {
+			@include rtl_property( content, '\f429', '\f430' ); // {{RTL}}
+		}
+
+	}
+
+
+
+// Intro slideshow
+
+	.intro {
+
+		.slick-arrow {
+			#{$left}: 0; // {{RTL}}
+			#{$right}: auto; // {{RTL}}
+			width: 2.62rem;
+			height: 2.62rem;
+			top: auto;
+			bottom: 2.62rem;
+			line-height: 2.62rem;
+			border-radius: 5em;
+			box-shadow: inset 0 0 0 1px;
+			transform: none;
+
+			@include media( map_get( $breakpoint, 'xl' ) ) {
+				width: 3.62rem;
+				height: 3.62rem;
+				bottom: 3.62rem;
+				line-height: 3.62rem;
+			}
+
+			&:not(:hover):not(:focus) {
+				background: none;
+				color: inherit;
+			}
+
+			&:hover,
+			&:focus {
+				box-shadow: none;
+			}
+
+		}
+
+		.slick-next {
+			#{$left}: 2.62rem + 1;
+
+			@include media( map_get( $breakpoint, 'xl' ) ) {
+				#{$left}: 3.62rem + 1;
+			}
+
+		}
+
+		.slick-dots {
+
+			@include media( ( map_get( $breakpoint, 'l' ), 'max-width' ) ) {
+				display: none !important;
+			}
+
+			@include media( map_get( $breakpoint, 'l' ) ) {
+				position: absolute;
+				#{$right}: 0; // {{RTL}}
+				bottom: 2.62rem;
+				list-style: none;
+				font-size: 1em - $golden_minor / 2;
+
+				li {
+					display: inline-block;
+					margin: .5em;
+				}
+
+				$dot_size : 2.62; // In em.
+				button {
+					display: inline-block;
+					width: $dot_size +em;
+					padding: 0;
+					line-height: $dot_size;
+					font-weight: 400;
+					border-radius: $dot_size +em;
+					box-shadow: inset 0 0 0 1px;
+				}
+
+				button:hover,
+				button:focus,
+				.slick-active button {
+					box-shadow: none;
+				}
+
+			}
+
+		}
+
+	}

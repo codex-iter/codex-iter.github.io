@@ -1,0 +1,29 @@
+<!--
+
+WPML plugin setup
+
+@package    Modern
+@copyright  WebMan Design, Oliver Juhas
+
+@since    2.0.0
+@version  2.0.0
+
+-->
+
+<wpml-config>
+
+	<admin-texts>
+		<key name="theme_mods_modern">
+			<key name="texts_intro" />
+			<key name="texts_site_info" />
+		</key>
+	</admin-texts>
+
+	<custom-fields>
+		<custom-field action="copy">content_layout</custom-field>
+		<custom-field action="copy">banner_image</custom-field>
+		<custom-field action="translate">banner_text</custom-field>
+		<custom-field action="translate">quote_source</custom-field>
+	</custom-fields>
+
+</wpml-config>

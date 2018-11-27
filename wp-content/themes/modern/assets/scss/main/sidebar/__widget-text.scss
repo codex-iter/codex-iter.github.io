@@ -1,0 +1,59 @@
+/* FILE: main/sidebar/__widget-text.scss */
+
+//
+// Text widget
+//
+
+
+
+
+
+.textwidget {
+	@extend .clearfix;
+
+	ul {
+		margin-top: 0;
+		margin-bottom: 1em;
+		margin-#{$left}: $golden +em; // {{RTL}}
+		margin-#{$right}: 0; // {{RTL}}
+		list-style: square;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		ul {
+			border-width: 0;
+		}
+
+		li {
+			padding: 0;
+			border-width: 0;
+
+			+ li {
+				margin-top: 0;
+			}
+
+			ul {
+				bottom: 0;
+				margin-bottom: 0;
+			}
+
+			li {
+				padding: 0;
+			}
+
+		}
+
+	}
+
+	li a {
+		text-decoration: underline;
+
+		@include haf() {
+			text-decoration: none;
+		}
+
+	}
+
+}

@@ -1,0 +1,77 @@
+/* FILE: main/content/__the-posts-navigation.scss */
+
+//
+// Post navigation: Previous and next post link
+//
+
+
+
+
+
+.post-navigation {
+
+	.nav {
+
+		&-links {
+
+			a {
+				display: block;
+				position: relative;
+				padding: 8% 8% 4%;
+				text-decoration: none;
+				background-position: 50% 50%;
+				background-size: cover;
+				border-top: 2px solid;
+				z-index: 1;
+
+				&::before {
+					content: '';
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					left: 0;
+					top: 0;
+					z-index: -1;
+					opacity: .9;
+					transition: opacity ( $large_animation_speed +s );
+				}
+
+				&:hover::before {
+					opacity: 1;
+				}
+
+			}
+
+
+
+			// Link label ("Previous" or "Next")
+
+				.label {
+					@extend %font_size_small;
+					display: block;
+					text-transform: uppercase;
+				}
+
+
+
+			// Entry title
+
+				.title {
+					display: block;
+					line-height: 1 + $golden_minor;
+
+					@include media( map_get( $breakpoint, 'm' ) ) {
+						font-size: $golden_minor + 1em;
+					}
+
+				}
+
+		}
+
+		&-next {
+			text-align: $right; // {{RTL}}
+		}
+
+	}
+
+}

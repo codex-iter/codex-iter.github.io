@@ -1,0 +1,28 @@
+/* FILE: main/footer/__site-info.scss */
+
+//
+// Site info (credits)
+//
+
+
+
+
+
+.site-info {
+
+	@include responsive( map_get( $breakpoint, 'l' ) ) {
+		float: $left; // {{RTL}}
+	}
+
+	a {
+		@extend %font_weight_700;
+		color: inherit;
+	}
+
+
+
+	&-container {
+		overflow: hidden;
+	}
+
+}

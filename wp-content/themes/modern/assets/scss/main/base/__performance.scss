@@ -1,0 +1,39 @@
+/* FILE: main/base/__performance.scss */
+
+//
+// Performance tweaks
+//
+
+
+
+
+
+// `will-change`
+
+	// @link  https://dev.opera.com/articles/css-will-change-property/
+	// @link  https://www.youtube.com/watch?v=2vFrZXWiwIc
+	// @link  http://snook.ca/archives/html_and_css/will-change
+
+
+
+	// Navigation
+
+		.site-header-navigation {
+
+			@include media( map_get( $breakpoint, 'l' ) ) {
+				will-change: transform;
+			}
+
+		}
+
+		.menu-toggle,
+		.main-navigation-container {
+
+			@include media(
+				( map_get( $breakpoint, 'l' ), 'max-width' ),
+				( map_get( $breakpoint, 's' ), 'min-height' )
+			) {
+				will-change: transform;
+			}
+
+		}

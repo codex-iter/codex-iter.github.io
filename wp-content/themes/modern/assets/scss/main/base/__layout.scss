@@ -1,0 +1,43 @@
+/* FILE: main/base/__layout.scss */
+
+//
+// Site layout
+//
+
+
+
+
+
+// Site container
+
+	.site {
+		position: relative;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+
+
+// Extenders
+
+	%basic_width {
+		width: 88%;
+		margin: 0 auto;
+	}
+
+	%max_width_1920 {
+		max-width: 1920px;
+		max-width: 1920 / $font_size +rem;
+	}
+
+	/* $content_width */
+	%content_width {
+		@extend %basic_width;
+		max-width: $content_width +px;
+		max-width: $content_width / $font_size +rem;
+	}
+
+	%full_width {
+		@extend %basic_width;
+		@extend %max_width_1920;
+	}

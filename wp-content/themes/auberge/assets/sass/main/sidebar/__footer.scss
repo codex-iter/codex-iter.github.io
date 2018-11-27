@@ -1,0 +1,13 @@
+/* FILE: main/sidebar/__footer.scss */
+
+//
+// Footer widgets area
+//
+
+
+
+
+
+.footer-widgets-container {
+	@extend %horizontal_widgets;
+}

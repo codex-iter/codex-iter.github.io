@@ -1,0 +1,189 @@
+/* FILE: main/base/_base.scss */
+
+//
+// Basic global styles
+//
+
+
+
+
+
+// Elements
+
+	*,
+	*::after,
+	*::before {
+		border-color: inherit;
+	}
+
+	abbr {
+		@extend %font_weight_600;
+	}
+
+	hr {
+		margin: 3.62em 0;
+	}
+
+	pre {
+		padding: 4% 8%;
+		padding-#{$left}: 4%; // {{RTL}}
+		border-radius: .38em;
+
+		&::before {
+			@extend %genericon;
+			content: '\f462';
+			position: absolute;
+			height: 100%;
+			#{$right}: 0; // {{RTL}}
+			top: 0;
+			padding: 0 .19em;
+			font-size: 1.38em;
+			line-height: 1.62;
+			z-index: 5;
+		}
+
+	}
+
+	caption {
+		text-align: inherit;
+	}
+
+	table {
+		border-width: 1px;
+		border-style: solid;
+		border-radius: .38em;
+
+		.site & {
+			border-collapse: separate;
+		}
+
+	}
+
+	td,
+	th {
+		border-width: 0;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		border-left-width: 1px;
+		border-left-style: solid;
+
+		&:first-child {
+			border-left-width: 0;
+		}
+
+		caption + thead tr:first-child &,
+		colgroup + thead tr:first-child &,
+		thead:first-child tr:first-child & {
+			border-top-width: 0;
+		}
+
+		tbody tr:last-child & {
+			border-bottom-width: 0;
+		}
+
+		thead + tbody tr:first-child & {
+			border-top-width: .19em;
+		}
+
+	}
+
+	blockquote {
+		@extend %font_style_italic;
+		text-align: center;
+		font-size: nth( map_get( $h_tags_setup, 'h2, .h2' ), 1 ) +em;
+
+		&::after,
+		&::before {
+			content: '';
+			display: block;
+			position: absolute;
+			width: 38%;
+			height: 100%;
+			#{$left}: 31%; // {{RTL}}
+			top: 0;
+			pointer-events: none;
+			border-top-width: 1px;
+			border-top-style: solid;
+			border-bottom-width: 1px;
+			border-bottom-style: solid;
+		}
+
+		&::after {
+			width: 1rem;
+			#{$left}: 50%; // {{RTL}}
+			margin-#{$left}: -.5rem;
+			border-top-width: .19em;
+			border-top-style: solid;
+			border-bottom-width: .19em;
+			border-bottom-style: solid;
+		}
+
+
+		&.alignleft,
+		&.alignright {
+			text-align: $left; // {{RTL}}
+
+			&::after,
+			&::before {
+				width: 1px;
+				height: 62%;
+				#{$left}: auto; // {{RTL}}
+				#{$right}: auto; // {{RTL}}
+				top: 19%;
+				border-width: 0;
+			}
+
+			&::after {
+				height: 1rem;
+				top: 50%;
+				margin-#{$left}: 0;
+				transform: translateY( -50% );
+			}
+
+		}
+
+		&.alignleft {
+
+			&::after,
+			&::before {
+				#{$right}: 0; // {{RTL}}
+				border-#{$right}-width: 1px; // {{RTL}}
+				border-#{$right}-style: solid; // {{RTL}}
+			}
+
+			&::after {
+				border-#{$right}-width: .19em; // {{RTL}}
+				border-#{$right}-style: solid; // {{RTL}}
+			}
+
+		}
+
+		&.alignright {
+
+			&::after,
+			&::before {
+				#{$left}: 0; // {{RTL}}
+				border-#{$left}-width: 1px; // {{RTL}}
+				border-#{$left}-style: solid; // {{RTL}}
+			}
+
+			&::after {
+				border-#{$left}-width: .19em; // {{RTL}}
+				border-#{$left}-style: solid; // {{RTL}}
+			}
+
+		}
+
+		.format-quote & {
+			text-align: inherit;
+		}
+
+	}
+
+
+
+// Imports
+
+	@import '_layout';
+
+	@import '_classes';

@@ -1,0 +1,54 @@
+/* FILE: main/content/__post-format-link.scss */
+
+//
+// Post format: Link
+//
+
+
+
+
+
+.format-link {
+
+	.entry {
+
+		&-header {
+
+			.posts & {
+				@extend %screen_reader_hiding;
+			}
+
+		}
+
+		&-content {
+
+			.posts & {
+				@extend %font_weight_300;
+
+				@include media( map_get( $breakpoint, 'm' ) ) {
+					font-size: $golden_minor / 2 + 1em;
+				}
+
+				@include media( map_get( $breakpoint, 'xl' ) ) {
+					font-size: $golden_minor + 1em;
+				}
+
+				a {
+					@extend %font_weight_700;
+
+					&::before {
+						@extend %genericon;
+						content: '\f107';
+						margin: 0 ( $golden_minor / 2 +em );
+						opacity: .66;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

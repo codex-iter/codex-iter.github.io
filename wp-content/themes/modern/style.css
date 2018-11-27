@@ -1,0 +1,37 @@
+/*!
+Theme Name:   Modern
+Theme URI:    https://www.webmandesign.eu/portfolio/modern-wordpress-theme/
+Author:       WebMan Design
+Author URI:   https://www.webmandesign.eu/
+Version:      2.2.2
+Text Domain:  modern
+Domain Path:  /languages
+License:      GNU General Public License v3
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+Description:  Modern is an accessibility ready blog and portfolio WordPress theme by WebManDesign.eu, perfect for personal portfolios. Optimized for search engines, with responsive design, ready for mobile devices and high resolution displays. Built using secure, speed-optimized, translation-ready code with support for multilingual setup (including RTL languages) and featured posts slideshow on front page. Huge focus was put into readability, putting your website content in front. Compatible with Jetpack plugin and any page builder plugin!
+Tags:         one-column, two-columns, right-sidebar, grid-layout, flexible-header, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-image-header, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog, portfolio
+
+Requires at least: 4.7
+
+GitHub Theme URI: webmandesign/modern
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Modern is based on Underscores http://underscores.me/, (C) Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+
+
+
+
+/*!
+IMPORTANT NOTICE:
+
+Do not place your custom CSS styles here in this file! Use WordPress native "Additional CSS"
+field (https://codex.wordpress.org/CSS#Custom_CSS_in_WordPress) or a child theme
+(https://webmandesign.github.io/docs/modern/#child-theme).
+
+If you place your custom CSS here, it will be lost once you update the theme!
+*/

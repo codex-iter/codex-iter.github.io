@@ -1,0 +1,73 @@
+/* FILE: main/plugins/__breadcrumbs.scss */
+
+//
+// Breadcrumbs
+//
+
+
+
+
+
+.breadcrumbs {
+	@extend %font_size_small;
+	padding: 1rem 0;
+	border-top: 2px solid;
+
+	a {
+		text-decoration: none;
+		color: inherit;
+
+		@include haf() {
+			text-decoration: underline;
+		}
+
+	}
+
+	.home {
+
+		&::before {
+			@extend %genericon;
+			content: '\f409';
+			position: relative;
+			top: .1em;
+			margin-#{$right}: $golden_minor / 2 +em; // {{RTL}}
+			line-height: $golden_major;
+			font-size: $golden_minor / 2 + 1rem;
+		}
+
+	}
+
+
+
+	&-container {
+		position: relative;
+		z-index: 1;
+
+
+
+		// Back to top link in the breadcrumbs container
+
+			.back-to-top {
+				float: $right; // {{RTL}}
+				display: none;
+				margin-left: 1em;
+				margin-right: 1em;
+
+				&.alignleft,
+				&.alignright {
+					margin-bottom: 0;
+				}
+
+			}
+
+	}
+
+
+
+	// Special breadcrumbs title
+
+		&-title {
+			@extend %font_weight_700;
+		}
+
+}

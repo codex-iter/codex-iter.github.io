@@ -1,0 +1,93 @@
+/* FILE: main/headings/__entry-header.scss */
+
+//
+// Entry header title
+//
+
+
+
+
+
+// Entry & Page title
+
+	.entry-header {
+		margin-bottom: power( $golden, 2 ) +em;
+
+		.content-layout-no-paddings .content-area & {
+			padding-top: power( $golden, 2 ) +em;
+			text-align: center;
+		}
+
+	}
+
+	.page-header {
+		padding: ( power( $golden, 3 ) +em ) 0;
+		border-top: 2px solid;
+		overflow: hidden;
+
+		.page-title {
+
+			@include media( map_get( $breakpoint, 'l' ) ) {
+				float: $left; // {{RTL}}
+				max-width: 48%;
+			}
+
+		}
+
+		.archive-description {
+			margin-top: $golden +em;
+
+			@include media( map_get( $breakpoint, 'l' ) ) {
+				float: $right; // {{RTL}}
+				margin-top: 0;
+				max-width: 48%;
+			}
+
+			a {
+				color: inherit;
+			}
+
+		}
+
+	}
+
+	.entry-title,
+	.page-title {
+		@extend %break_words;
+		padding: 0;
+		margin: 0;
+
+		// Paginated title suffix
+
+			small {
+				@extend %font_weight_400;
+				display: block;
+				margin-top: $golden_minor +rem;
+
+				@include media( map_get( $breakpoint, 'm' ) ) {
+					$pagination_suffix_font_size: .5; // In em.
+					display: inline-block;
+					margin-top: ( 1 - $pagination_suffix_font_size ) / $pagination_suffix_font_size +em;
+					margin-#{$left}: $golden_minor +rem; // {{RTL}}
+					font-size: $pagination_suffix_font_size +em;
+					vertical-align: top;
+				}
+
+			}
+
+	}
+
+	.page-title {
+
+		// Search results title
+
+			.search-results & {
+				@extend %font_weight_300;
+
+				span {
+					@extend %font_weight_700;
+				}
+
+			}
+
+	}

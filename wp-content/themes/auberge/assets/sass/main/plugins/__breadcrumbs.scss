@@ -1,0 +1,21 @@
+/* FILE: main/plugins/__breadcrumbs.scss */
+
+//
+// Breadcrumbs
+//
+
+
+
+
+.breadcrumbs {
+	@extend %content_width;
+	@extend %font_size_small_rem;
+
+	&-container {
+		padding: 1rem 0;
+		border-top-width: 0;
+		border-bottom-width: 2px;
+		border-bottom-style: solid;
+	}
+
+}

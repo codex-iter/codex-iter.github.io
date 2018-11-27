@@ -1,0 +1,241 @@
+/* FILE: main/menu/_menu-primary-mobile.scss */
+
+//
+// Primary menu mobile styles
+//
+
+
+
+
+
+// Mobile menu
+
+	.has-navigation-mobile .main-navigation-container {
+
+		// Small screens
+
+			@include media( ( map_get( $breakpoint, 'l' ), 'max-width' ) ) {
+				visibility: hidden;
+				position: fixed;
+				width: 100%;
+				height: 100%;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				line-height: 1em + $golden_minor;
+				overflow-y: auto;
+				z-index: 995;
+				opacity: 0;
+				transform: scaleY(0);
+				transform-origin: 50% 100%;
+				transition: visibility 0s linear ( $small_animation_speed +s ),
+				            opacity ( $small_animation_speed +s ),
+				            transform ( $small_animation_speed +s );
+
+				@include in( '^.is-active' ) {
+					visibility: visible;
+					opacity: 1;
+					transform: scaleY(1);
+					transition: visibility 0s linear 0s,
+					            opacity ( $small_animation_speed +s ),
+					            transform ( $small_animation_speed +s );
+				}
+
+				.menu {
+					position: relative;
+					height: 100%;
+
+					> ul {
+						max-width: map_get( $breakpoint, 's' ) / 16 +rem; // No need to stretch the menu, keep it narrow and centered
+						padding: ( power( $golden, 3 ) +rem ) ( $golden +rem ) ( power( $golden, 3 ) + $golden +rem );
+						margin-left: auto;
+						margin-right: auto;
+
+						> li:nth-last-child(2) {
+							// The last child is actually `.menu-toggle-skip-link-container` (see below)
+							border-bottom-width: 1px;
+							border-bottom-style: solid;
+						}
+
+					}
+
+				}
+
+				li {
+					border-top-width: 1px;
+					border-top-style: solid;
+				}
+
+			}
+
+
+
+		// Small height
+
+			@include media(
+				( map_get( $breakpoint, 'l' ), 'max-width' ),
+				( map_get( $breakpoint, 's' ), 'max-height' )
+			) {
+				position: absolute;
+				height: auto;
+				top: 0;
+				bottom: auto;
+				transform-origin: 50% 0;
+
+				@include in( '^.is-active' ) {
+					position: relative;
+				}
+
+			}
+
+	}
+
+
+
+	// No mobile navigation styles
+
+		body:not(.has-navigation-mobile) {
+
+			@include media( ( map_get( $breakpoint, 'l' ), 'max-width' ) ) {
+
+				.site-header-navigation {
+					padding-top: $golden +rem;
+					padding-bottom: $golden +rem;
+
+					&::before {
+						opacity: 1;
+					}
+
+					.menu-search {
+						max-width: none;
+						padding: 0;
+						margin-top: 0;
+						margin-bottom: $golden +rem;
+					}
+
+				}
+
+				.main-navigation-container {
+
+					.menu {
+						margin-top: 0;
+					}
+
+					li {
+						display: inline-block;
+						padding: 0;
+						margin: 0;
+						margin-#{$right}: $golden_minor + 1em; // {{RTL}}
+					}
+
+					a {
+						padding-left: 0;
+						padding-right: 0;
+						border-#{$left}-width: 0; // {{RTL}}
+						border-top-width: 2px;
+					}
+
+				}
+
+			}
+
+		}
+
+
+
+// Mobile menu toggle button
+
+	.has-navigation-mobile .site-footer {
+	// Make space in site container for the menu toggle button not to cover anything.
+
+		@include media(
+			( map_get( $breakpoint, 'l' ), 'max-width' ),
+			( map_get( $breakpoint, 's' ), 'min-height' )
+		) {
+			padding-bottom: $mobile_menu_toggle_height +rem;
+		}
+
+	}
+
+	.menu-toggle {
+
+		// Small screens
+
+			@include media( ( map_get( $breakpoint, 'l' ), 'max-width' ) ) {
+				position: fixed;
+				width: auto;
+				height: $mobile_menu_toggle_height +rem;
+				left: 50%;
+				bottom: -2px;
+				padding: 0 ( $golden +em );
+				margin: 0;
+				line-height: 1 + $golden_minor;
+				text-align: center;
+				font-size: 1em;
+				font-weight: 700;
+				border: 2px solid;
+				border-radius: 2px;
+				z-index: 999;
+				box-shadow: 0 0 2em rgba( #000, .4 );
+				opacity: 1;
+				transform: translateX( -50% );
+			}
+
+
+
+		// Small height
+
+			@include media(
+				( map_get( $breakpoint, 'l' ), 'max-width' ),
+				( map_get( $breakpoint, 's' ), 'max-height' )
+			) {
+				position: relative;
+				width: 100%;
+				bottom: auto;
+				margin: 0;
+				border: 0;
+				border-radius: 0;
+
+				@at-root .site-header-navigation .site-header-inner {
+					width: 100%;
+				}
+
+			}
+
+
+
+		// Large screens
+
+			@include media( map_get( $breakpoint, 'l' ) ) {
+				display: none;
+			}
+
+
+
+		// Icon
+
+			&::before {
+				@extend %genericon;
+				content: '\f419';
+				margin-#{$right}: $golden_major +em; // {{RTL}}
+
+				.is-active & {
+					content: '\f406';
+				}
+
+			}
+
+	}
+
+
+
+	// Skip back to mobile menu toggle button
+
+		.menu-toggle-skip-link-container {
+			@extend %screen_reader_hiding;
+
+			@include media( map_get( $breakpoint, 'l' ) ) {
+				display: none;
+			}
+
+		}

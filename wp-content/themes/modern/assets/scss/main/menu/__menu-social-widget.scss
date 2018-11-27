@@ -1,0 +1,35 @@
+/* FILE: main/menu/__menu-social-widget.scss */
+
+//
+// Social links when displayed using Custom Menu widget
+//
+
+
+
+
+
+.social-links {
+
+	ul li {
+		padding: 0;
+	}
+
+	a {
+
+		.widget_nav_menu & {
+			text-align: center;
+
+			.sidebar & {
+				@extend %font_size_higher;
+				padding: 0 ( $golden_minor / 2 +em );
+			}
+
+			&::after {
+				display: none;
+			}
+
+		}
+
+	}
+
+}

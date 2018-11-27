@@ -1,0 +1,105 @@
+/* FILE: main/header/_header.scss */
+
+//
+// Site header
+//
+
+
+
+
+
+// Site header
+
+	.site-header {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		z-index: 10;
+
+		> div {
+			flex: 0 1 auto;
+		}
+
+		a {
+
+			&:not(.button) {
+				color: inherit;
+			}
+
+		}
+
+
+
+		&-navigation {
+			@extend %box_shadow;
+			position: relative;
+			z-index: 99;
+
+			@include media( map_get( $breakpoint, 'l' ) ) {
+				position: fixed;
+				width: 100%;
+				#{$left}: 0; // {{RTL}}
+				top: 0;
+
+				.admin-bar & {
+					top: 32px;
+				}
+
+			}
+
+			&::before {
+				content: '';
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+				opacity: .8;
+				transition: opacity ( $small_animation_speed +s );
+			}
+
+			&:hover::before {
+				opacity: 1;
+			}
+
+		}
+
+
+
+		&-content {
+			padding-top: power( $golden, 2 ) +em;
+			padding-bottom: power( $golden, 2 ) +em;
+
+			@include media( map_get( $breakpoint, 'l' ) ) {
+				padding-top: power( $golden, 3 ) +em;
+				padding-bottom: power( $golden, 3 ) +em;
+				margin-top: 3.5em;
+			}
+
+		}
+
+
+
+		&-inner {
+			@extend .clearfix;
+			@extend %content_width;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			position: relative;
+
+			> div {
+				flex: 0 1 auto;
+			}
+
+		}
+
+	}
+
+
+
+// Imports
+
+	@import '_branding';
+
+	@import '_intro';

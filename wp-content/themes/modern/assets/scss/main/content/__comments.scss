@@ -1,0 +1,300 @@
+/* FILE: main/content/__comments.scss */
+
+//
+// Comments
+//
+
+
+
+
+
+// Container
+
+	.comments-area {
+		@extend %background_overlay_from_text_color;
+		padding-left: $golden +em;
+		padding-right: $golden +em;
+
+		&-inner {
+			@extend %padding_top;
+			@extend %padding_bottom;
+			max-width: 39em;
+			max-width: 70ch;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		&:focus {
+			outline: 0;
+		}
+
+		.reply {
+			margin-top: 1em;
+		}
+
+	}
+
+
+
+// Container title
+
+	.comments-title {
+		@extend %font_weight_700;
+		margin-bottom: $golden +rem;
+
+		.add-comment-link {
+			@extend .screen-reader-text;
+			@extend .focus-position-static;
+		}
+
+		span {
+			@extend %font_weight_300;
+		}
+
+	}
+
+
+
+// List
+
+	.comment-list {
+
+		.children {
+
+			@include media( map_get( $breakpoint, 'm' ) ) {
+				margin-#{$left}: $golden - 5em; // {{RTL}}
+			}
+
+		}
+
+	}
+
+
+
+// Avatar and meta info
+
+	.comment-meta {
+
+		a {
+			text-decoration: none;
+
+			@include haf() {
+				text-decoration: underline;
+			}
+
+		}
+
+		&data {
+			text-transform: uppercase;
+		}
+
+	}
+
+	.comment-awaiting-moderation {
+		clear: both;
+	}
+
+
+
+// Content
+
+	.comment {
+
+		&-body {
+			padding-bottom: 0;
+		}
+
+		&-content {
+
+			ol {
+				list-style: decimal;
+			}
+
+		}
+
+	}
+
+
+
+// By post author
+
+	.bypostauthor > .comment-body .comment-author {
+
+		.avatar {
+
+			@include media( ( map_get( $breakpoint, 'm' ), 'max-width' ) ) {
+				border-left: ( $golden_minor +em ) solid;
+			}
+
+		}
+
+		&::before {
+			@extend %genericon;
+
+			@include media( map_get( $breakpoint, 'm' ) ) {
+				// Avatar is 80x80 px
+				content: '\f411';
+				position: absolute;
+				display: block;
+				width: 30px;
+				height: 30px;
+				#{$left}: 25px; // {{RTL}}
+				top: 65px;
+				margin-top: $golden +em;
+				font-size: 16px;
+				line-height: 28px;
+				text-align: center;
+				font-size: 1em + $golden_minor / 2;
+				border-radius: 50%;
+				z-index: 1;
+			}
+
+		}
+
+	}
+
+
+
+// Utility links
+
+	.comment-edit-link,
+	.comment-reply-link {
+		text-decoration: none;
+
+		@include haf() {
+			text-decoration: underline;
+		}
+
+		&::before {
+			@extend %genericon;
+			content: '\f466';
+			margin-#{$right}: $golden_minor / 2 +em; // {{RTL}}
+			font-size: 1em + $golden_minor;
+			vertical-align: middle;
+		}
+
+	}
+
+	.comment-edit-link {
+
+		&::before {
+			content: '\f411';
+		}
+
+	}
+
+
+
+// Navigation
+
+	.comment-navigation {
+		padding: ( $golden +em ) 0;
+		margin: 0;
+		text-align: inherit;
+
+		a,
+		span {
+			display: none;
+		}
+
+		.nav-links {
+			display: block;
+			padding: 0;
+			margin: 0;
+			text-align: inherit;
+
+			a,
+			span {
+				padding: ( $golden_major +em ) 0;
+				margin: $golden_minor / 2 +em;
+				margin-#{$left}: 0;
+				line-height: inherit;
+
+				@include media( map_get( $breakpoint, 'm' ) ) {
+					display: inline-block;
+				}
+
+			}
+
+		}
+
+	}
+
+
+
+// Form
+
+	.comment-respond {
+		padding: 0;
+		border-width: 0;
+
+		&,
+		.comment-list & {
+			margin-top: power( $golden, 2 ) +em;
+		}
+
+		&:first-child {
+			margin-top: 0;
+		}
+
+		form {
+			margin-bottom: -$golden +em;
+		}
+
+		.comment-list & {
+			padding: 0 ( $golden +em );
+			border-width: 0;
+		}
+
+	}
+
+	.comment-reply-title {
+		font-size: inherit;
+		text-transform: uppercase;
+	}
+
+	.logged-in-as a {
+		text-decoration: none;
+
+		@include haf() {
+			text-decoration: underline;
+		}
+
+	}
+
+
+
+// Pingbacks & Trackbacks
+
+	.pingback,
+	.trackback {
+
+		.comment-list > & {
+			min-height: 0;
+			padding: 0;
+		}
+
+		.comment-body {
+			padding: 1em;
+			margin: ( $golden +em ) 0;
+			border-width: 1px;
+			border-style: dashed;
+			overflow: hidden;
+
+			&::before {
+				@extend %genericon;
+				content: '\f107';
+				margin-#{$right}: $golden_major +em;
+			}
+
+		}
+
+		a:not(.comment-edit-link) {
+			@extend %font_weight_600;
+		}
+
+		.comment-edit-link {
+			float: $right;
+		}
+
+	}

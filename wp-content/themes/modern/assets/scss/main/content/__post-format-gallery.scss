@@ -1,0 +1,24 @@
+/* FILE: main/content/__post-format-gallery.scss */
+
+//
+// Post format: Gallery
+//
+
+
+
+
+
+.format-gallery {
+
+	.entry-media-gallery-images:not(.slick-slider) {
+		display: flex;
+		flex-wrap: wrap;
+
+		.entry-media-gallery-image {
+			flex: 1;
+			min-width: 50%;
+		}
+
+	}
+
+}

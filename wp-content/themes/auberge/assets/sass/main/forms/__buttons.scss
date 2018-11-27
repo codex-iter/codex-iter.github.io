@@ -1,0 +1,43 @@
+/* FILE: main/forms/__buttons.scss */
+
+//
+// Generic button style
+//
+
+
+
+
+
+.button,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	padding: 1em;
+	white-space: nowrap;
+	border-width: 0;
+	cursor: pointer;
+	transition: all .3s;
+
+	&:hover,
+	&:focus {
+		opacity: .75;
+	}
+
+	&:active {
+		opacity: .9;
+	}
+
+}
+
+
+
+.button {
+
+	&:hover,
+	&:focus,
+	&:active {
+		text-decoration: none;
+	}
+
+}

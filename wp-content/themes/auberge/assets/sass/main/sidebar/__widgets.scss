@@ -1,0 +1,73 @@
+/* FILE: main/sidebar/__widgets.scss */
+
+//
+// Widgets
+//
+
+
+
+
+
+// Basic global widget styles
+
+	.widget {
+
+		input,
+		select,
+		textarea {
+			width: 100%;
+		}
+
+		ul li {
+			transition: all .2s ease-in-out;
+
+			&:hover {
+				@include rtl_property( transform, translateX( .62em ), translateX( -.62em ) ); // {{RTL}}
+			}
+
+		}
+
+		.sidebar & {
+			display: none;
+			margin: 2.62rem 0;
+
+			@include responsive( map_get( $breakpoint, 'l' ) ) {
+				display: block;
+				margin-top: 3.62rem;
+			}
+
+			&:first-child {
+				margin: 0;
+			}
+
+		}
+
+		.sidebar .toggle-mobile-sidebar + & {
+
+			@include responsive( map_get( $breakpoint, 'l' ) ) {
+				margin: 0;
+			}
+
+		}
+
+	}
+
+	.widget .tagcloud a {
+
+		&:hover,
+		&:focus,
+		&:active {
+
+			&::before {
+				display: none;
+			}
+
+		}
+
+	}
+
+
+
+// Imports
+
+	@import '_widget-icons';

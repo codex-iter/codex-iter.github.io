@@ -1,0 +1,361 @@
+/////////////////////
+//
+// Support
+//
+/////////////////////
+
+	//
+	// Post formats
+	//
+	// @see  includes/frontend/class-post-media.php
+	//
+
+		$supported_post_formats: (
+			'audio',
+			'gallery',
+			'image',
+			'link',
+			'quote',
+			'status',
+			'video',
+		);
+
+
+
+
+
+/////////////////////
+//
+// Logo
+//
+/////////////////////
+
+	$custom_logo_height: 100; // In px
+
+
+
+
+
+/////////////////////
+//
+// Layout
+//
+/////////////////////
+
+	//
+	// Breakpoints info:
+	//
+	// 's'     :  448, // =  28em // Starting mobile landscape
+	// 'm'     :  672, // =  42em // Starting tablet portrait
+	// 'l'     :  880, // =  55em // Starting tablet landscape
+	// 'xl'    : 1280, // =  80em // Starting laptop
+	// 'xxl'   : 1600, // = 100em // Starting desktop
+	// 'xxxl'  : 1920, // = 120em // Starting desktop full HD
+	// 'xxxxl' : 2560, // = 160em // Starting desktop WQHD
+	//
+
+	//
+	// Site widths
+	//
+
+		$boxed_width: 1640;   // In px // Default max boxed site width
+		$content_width: 1200; // In px // Default content width
+
+
+
+	//
+	// Gaps
+	//
+
+		$vertical_gap: 6rem;
+
+
+
+	//
+	// Mobile menu
+	//
+
+		$mobile_menu_toggle_height: 3.62; // In rem.
+
+
+
+
+
+/////////////////////
+//
+// Appearance
+//
+/////////////////////
+
+	//
+	// Automated color calculation
+	//
+
+		$border_opacity_from_text: (
+
+			'general': .20,
+
+			'header':  .20,
+			'content': .20,
+			'footer':  .20,
+
+		);
+
+		$overlay_from_text_color_opacity: .07;
+
+
+
+	//
+	// Theme colors
+	// For accessibility test with http://jxnblk.com/colorable/demos/text/
+	//
+	// //* = Doesn't change via Customizer.
+	//
+
+		$colors: (
+
+			// Accent color
+
+				'accent':      #00855b, // Changed in theme version 2.0.0 from #0aac8e to make it more accessible.
+				'accent_text': #ffffff,
+
+			// Body
+
+				'body_background': #1a1c1e,
+
+			// Site header
+
+				'header_background': #0a0c0e,
+				'header_text':       #ffffff,
+
+			// Intro
+
+				'intro_background': #1a1c1e,
+				'intro_text':       #ffffff,
+
+			// Site content
+
+				'content_background': #ffffff,
+				'content_text':       #6a6c6e,
+				'content_headings':   #1a1c1e,
+
+			// Site footer
+
+				'footer_background': #eaecee,
+				'footer_text':       #5a5c5e, // Changed in theme version 2.0.0 from #6a6c6e to make it more accessible.
+				'footer_headings':   #1a1c1e,
+
+			// Predefined colors
+
+				'error_background': rgba( #e00, .85 ),   //*
+				'error_text':       #fff,                //*
+
+				'info_background': rgba( #05e, .85 ),    //*
+				'info_text':       #fff,                 //*
+
+				'success_background': rgba( #072, .85 ), //*
+				'success_text':       #fff,              //*
+
+				'warning_background': rgba( #fd0, .85 ), //*
+				'warning_text':       #310,              //*
+
+		);
+
+
+
+	//
+	// Decorations
+	//
+
+		// Animation speeds
+
+			$small_animation_speed: .3; // In seconds
+			$large_animation_speed: .5; // In seconds
+
+
+
+
+
+/////////////////////
+//
+// Typography
+//
+/////////////////////
+
+	// Helper variables
+
+		$typography_line_height: 1.62;
+		$typography_margin_bottom: 1.62;
+
+
+
+	//
+	// Font size
+	//
+
+		$font_size: 16; // Don't forget to set this also in Modern_Customize_Styles::get_custom_styles_array() class!
+
+
+
+	//
+	// Font families
+	//
+
+		$font_family: (
+			'body':     "'Fira Sans', 'Helvetica Neue', Arial, sans-serif",
+			'headings': "'Fira Sans', 'Helvetica Neue', Arial, sans-serif",
+			'logo':     "'Fira Sans', 'Helvetica Neue', Arial, sans-serif",
+		);
+
+
+
+	//
+	// Headings
+	//
+
+		$h_tags_setup: (
+
+			// $selector : (
+			//   $size
+			//   $line_height
+			//   $margin_top    [ ( span_4_or_3_lines - $size * $line_height - $margin_bottom ) / $size ]
+			//   $margin_bottom [ $margin_bottom / $size / $line_height ]
+			// )
+
+			// @link http://www.zell-weekeat.com/responsive-typography/
+			//
+			// Em vs Rem section regarding vertical rhythm
+			//
+			// "First, we’re not 100% precise and accurate with our math. We could get more precise (like 10 decimal places), but that would make our code ugly as hell…"
+			// "Second, different browsers handle subpixel rounding issues differently. This means we’ll never be able to get pixel-perfect rhythms no matter how hard we try."
+			// "So, here’s what I realized. It’s impossible to apply perfect responsive vertical rhythms across different browsers. At least not with the current technology."
+
+			// @see "Golden Ditonic Scale" at http://spencermortensen.com/articles/typographic-scale/ or http://www.modularscale.com/?1&em&1.125
+
+			'h1, .h1' : (
+				2.281,
+				1.19,
+				( 4 * $typography_line_height - 2.281 * 1.19 - $typography_margin_bottom ) / 2.281,
+				$typography_margin_bottom / 2.281 / 1.19
+			),
+
+			'h2, .h2' : (
+				1.802,
+				1.19,
+				( 4 * $typography_line_height - 1.802 * 1.19 - $typography_margin_bottom ) / 1.802,
+				$typography_margin_bottom / 1.802 / 1.19
+			),
+
+			'h3, .h3' : (
+				1.424,
+				1.38,
+				( 3 * $typography_line_height - 1.424 * 1.38 - $typography_margin_bottom ) / 1.424,
+				$typography_margin_bottom / 1.424 / 1.38
+			),
+
+			'h4, .h4' : (
+				1.125,
+				( 1.62 / 1.125 ),
+				( 3 * $typography_line_height - 1.125 * ( 1.62 / 1.125 ) - $typography_margin_bottom ) / 1.125,
+				$typography_margin_bottom / 1.125 / ( 1.62 / 1.125 )
+			),
+
+			'h5, .h5' : (
+				1.125,
+				( 1.62 / 1.125 ),
+				( 3 * $typography_line_height - 1.125 * ( 1.62 / 1.125 ) - $typography_margin_bottom ) / 1.125,
+				$typography_margin_bottom / 1.125 / ( 1.62 / 1.125 )
+			),
+
+			'h6, .h6' : (
+				1.125,
+				( 1.62 / 1.125 ),
+				( 3 * $typography_line_height - 1.125 * ( 1.62 / 1.125 ) - $typography_margin_bottom ) / 1.125,
+				$typography_margin_bottom / 1.125 / ( 1.62 / 1.125 )
+			)
+
+		);
+
+
+
+	//
+	// Special typography
+	//
+
+		// @see "Golden Ditonic Scale" at http://spencermortensen.com/articles/typographic-scale/ or http://www.modularscale.com/?1&em&1.125
+
+		$display_text_size: (
+			1 : 2.281em,
+			2 : 2.887em,
+			3 : 3.653em,
+			4 : 4.624em,
+		);
+
+
+
+
+
+/////////////////////
+//
+// Icons
+//
+/////////////////////
+
+	//
+	// Entry meta
+	//
+
+		$entry_meta_icons: (
+
+			// class: char
+
+			'author'        : '\f304',
+			'cat-links'     : '\f301',
+			'comments-link' : '\f300',
+			'entry-date'    : '\f303',
+			// 'tags-links'    : '\f302',
+
+		);
+
+
+
+
+
+/////////////////////
+//
+// Element groups
+//
+/////////////////////
+
+	//
+	// Margin elements
+	//
+
+		$tags_margin_bottom: (
+			'h1',
+			'h2',
+			'h3',
+			'.h1',
+			'.h2',
+			'.h3',
+			'p',
+			'ol',
+			'ul',
+			'blockquote',
+			'.gallery',
+			'.tiled-gallery',
+		);
+
+
+
+	//
+	// Button elements
+	//
+
+		$button_elements: (
+			'.button',
+			'button',
+			'input[type="button"]',
+			'input[type="reset"]',
+			'input[type="submit"]',
+		);

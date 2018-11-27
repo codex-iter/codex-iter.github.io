@@ -1,0 +1,79 @@
+/* FILE: main/content/__post-format-status.scss */
+
+//
+// Post format: Status
+//
+
+
+
+
+
+.format-status {
+
+	a {
+		color: inherit;
+	}
+
+	&.entry {
+		border-color: currentColor;
+	}
+
+	.entry {
+
+		&-header {
+
+			.posts & {
+				@extend %screen_reader_hiding;
+			}
+
+		}
+
+		&-media {
+
+			.avatar {
+				// Posts entry padding.
+				$padding : power( $golden, 2 ); // In em.
+
+				max-width: power( $golden, 4 ) +em;
+				margin-top: $padding / 2 +em; // Half the padding for mobiles.
+				border-radius: power( $golden, 4 ) +em;
+
+				@include media( map_get( $breakpoint, 'm' ) ) {
+					margin-top: $padding +em;
+				}
+
+			}
+
+		}
+
+		&-content {
+
+			@include media( map_get( $breakpoint, 'm' ) ) {
+				font-size: $golden_minor / 2 + 1em;
+			}
+
+			@include media( map_get( $breakpoint, 'xl' ) ) {
+				font-size: $golden_minor + 1em;
+			}
+
+			&::before {
+				@extend %genericon;
+				content: '\f300';
+				float: $left;
+				margin-#{$right}: $golden_minor +em;
+			}
+
+		}
+
+	}
+
+}
+
+.single-format-status .content-area .entry {
+
+	h1, h2, h3, h4,
+	.h1, .h2, .h3, .h4 {
+		color: inherit;
+	}
+
+}

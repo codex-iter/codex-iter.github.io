@@ -1,0 +1,23 @@
+/* FILE: main/custom-styles/__header.scss */
+
+//
+// Site header colors
+//
+
+
+
+
+
+.site-header-navigation,
+.site-header-navigation::before {
+	@extend %site_header_colors;
+}
+
+.site-header-content {
+	@extend %intro_colors;
+}
+
+.site-header-content,
+.site-header-navigation {
+	background: none; //*
+}

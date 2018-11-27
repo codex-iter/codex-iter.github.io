@@ -1,0 +1,13 @@
+/* FILE: main/custom-styles/__footer.scss */
+
+//
+// Site footer colors
+//
+
+
+
+
+
+.site-footer {
+	@extend %site_footer_colors;
+}

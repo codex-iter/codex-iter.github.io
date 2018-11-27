@@ -1,0 +1,176 @@
+/* FILE: main/header/__intro.scss */
+
+//
+// Intro section
+//
+
+
+
+
+
+.intro {
+	position: relative;
+	z-index: 1;
+
+
+
+	// Intro container, wrapper
+
+		&-container {
+			padding: 0;
+			margin: 0;
+			border-width: 0;
+		}
+
+
+
+	// Intro media (image or slideshow)
+
+		&-media {
+			position: absolute;
+			width: 100%;
+			#{$left}: 0; // {{RTL}}
+			top: 0;
+			background-color: inherit;
+			overflow: hidden;
+			z-index: 0;
+
+			&::after,
+			&::before {
+				content: '';
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				#{$left}: 0; // {{RTL}}
+				bottom: 0;
+				z-index: 1;
+			}
+
+				&::after {
+					height: percentage( $golden_major );
+				}
+
+				&::before {
+					background-color: inherit;
+					opacity: .66;
+				}
+
+			$image_blur_radius : 10px;
+			body:not(.home) & img {
+				width: calc( 100% + #{ 2 * $image_blur_radius } );
+				max-width: none;
+				margin: -$image_blur_radius;
+				filter: blur( $image_blur_radius )
+				        grayscale( 100% )
+				        contrast( 66% );
+				transform: scaleX( -1 );
+			}
+
+
+
+			// Make sure the images are not too small on mobile screens
+
+				@include media( ( map_get( $breakpoint, 'l' ), 'max-width' ) ) {
+
+					&,
+					.slick-slide {
+						overflow: hidden;
+					}
+
+					.site & img {
+						position: relative;
+						width: auto;
+						height: 110%;
+						height: 110vh;
+						max-width: none;
+						max-height: none;
+						left: 50%;
+						transform: translateX( -50% );
+					}
+
+					body:not(.home) & img {
+						width: auto;
+						transform: scaleX( -1 )
+						           translateX( 50% );
+					}
+
+				}
+
+		}
+
+
+
+	// Intro title container
+
+		&-inner {
+			@extend .clearfix;
+			@extend %content_width;
+		}
+
+
+
+	// Intro title
+
+		&-title {
+			padding: 8% 0;
+			margin: 0;
+			line-height: 1 + $golden_minor / 2;
+			font-weight: 700;
+			border-top: 2px solid;
+
+			font-size: nth( map_get( $h_tags_setup, 'h1, .h1' ), 1 ) +rem;
+
+			@include media( map_get( $breakpoint, 's' ) ) {
+				font-size: 2.887rem; // @see  http://www.modularscale.com/?1&em&1.125
+			}
+
+			@include media( map_get( $breakpoint, 'm' ) ) {
+				font-size: 3.653rem; // @see  http://www.modularscale.com/?1&em&1.125
+			}
+
+			@include media( map_get( $breakpoint, 'l' ) ) {
+				font-size: 4.624rem; // @see  http://www.modularscale.com/?1&em&1.125
+			}
+
+			@include media( map_get( $breakpoint, 'xl' ) ) {
+				font-size: 5.852rem; // @see  http://www.modularscale.com/?1&em&1.125
+			}
+
+			a {
+				display: inline-block; // To make pagination suffix float the same line when subtitle is displayed.
+				color: inherit;
+			}
+
+			.author & span {
+				@extend %font_weight_300;
+			}
+
+		}
+
+}
+
+
+
+// Slideshow
+
+	.intro-slideshow {
+
+		&-item {
+
+			&:not(.slick-slide):not(:first-child) {
+				display: none;
+			}
+
+		}
+
+		&.slick-slider .intro-title {
+			// Make it 3x the size of slideshow prev/next button.
+			padding-bottom: 2.62 * 3rem;
+
+			@include media( map_get( $breakpoint, 'xl' ) ) {
+				padding-bottom: 3.62 * 3rem;
+			}
+
+		}
+
+	}

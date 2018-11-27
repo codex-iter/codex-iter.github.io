@@ -1,0 +1,54 @@
+/* FILE: main/content/__layout.scss */
+
+//
+// Site content layout
+//
+
+
+
+
+
+// Site content width holder
+
+	.site-content {
+		@extend %margin_bottom;
+		position: relative;
+		z-index: 5;
+
+
+
+		&-inner {
+			@extend %content_width;
+			@extend .clearfix;
+		}
+
+
+
+		// Do not show the outline on the skip link target
+
+			&[tabindex="-1"]:focus {
+				outline: 0;
+			}
+
+	}
+
+
+
+// Primary content container
+
+	.content-area {
+
+		@include media( map_get( $breakpoint, 'l' ) ) {
+
+			.has-widgets-sidebar & {
+				width: 68%;
+				float: $left; // {{RTL}}
+			}
+
+		}
+
+		.is-singular & {
+			@extend %box_shadow;
+		}
+
+	}

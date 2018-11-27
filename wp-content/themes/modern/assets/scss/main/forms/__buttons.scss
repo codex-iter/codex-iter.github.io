@@ -1,0 +1,63 @@
+/* FILE: main/forms/__buttons.scss */
+
+//
+// Generic button style
+//
+
+
+
+
+
+// Extender
+
+	%button_base {
+		@extend %font_weight_700;
+		display: inline-block;
+		padding: 1em;
+		margin-top: 2px; // Allow some breathing when stacked
+		margin-bottom: 2px; // Allow some breathing when stacked
+		text-align: center;
+		text-decoration: none;
+		border: 2px solid;
+		border-color: transparent;
+		cursor: pointer;
+		transition: background ( $small_animation_speed +s ),
+		            color ( $small_animation_speed +s ),
+		            border-color ( $small_animation_speed +s );
+
+		form & {
+			// No need for stacked breathing in forms...
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		div[class*="hover-color-"] & {
+			transition: none;
+		}
+
+		@include haf() {
+			text-decoration: none;
+			border-color: currentColor;
+		}
+
+		&:disabled {
+			@extend %font_weight_400;
+			box-shadow: none;
+			opacity: .5;
+			cursor: not-allowed;
+		}
+
+	}
+
+
+
+// Main button elements
+
+	.button,
+	button,
+	input[type="button"],
+	input[type="reset"],
+	input[type="submit"],
+	.main-navigation-container .button > a {
+		@extend %button_base;
+	}

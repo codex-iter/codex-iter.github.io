@@ -1,0 +1,678 @@
+/*
+Theme Name: Audioman
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+See: https://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Normalize
+ * 2.0 - Typography
+ * 3.0 - FontAwesome
+ * 4.0 - Elements
+ * 5.0 - Padding/Margin
+ * 6.0 - Forms
+ * 7.0 - Navigation
+ *    7.1 - Main Menu
+ * 8.0 - Widgets
+ * 9.0 - Content
+ *	  9.1 - Posts and pages
+ *	  9.2 - Comments
+ * 10.0 - Modules
+ *	  10.1 - Audio Player
+ * 11.0 - WooCommerce
+ * 11.0 - Media Queries
+ *    11.2 - >= 640px
+ *    11.3 - >= 768px
+ *    11.4 - >= 1024px
+ */
+
+
+/**
+ * 1.0 - Normalize
+ */
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin-right: auto;
+	margin-left: 0.4375em;
+}
+
+
+/**
+ * 2.0 - Typography
+ */
+
+blockquote {
+	border-right: 4px solid;
+	border-left: 0;
+	padding-right: 1.263157895em;
+	padding-left: 0;
+}
+
+
+/**
+ * 3.0 - FontAwesome
+ */
+
+.entry-meta span a:before {
+    margin-right: 0;
+    margin-left: 13px;
+}
+
+.nav-next .nav-subtitle:after {
+	margin-left: 0;
+	margin-right: 7px;
+}
+
+.nav-previous .nav-subtitle:before {
+	margin-left: 7px;
+	margin-right: 0;
+}
+
+
+/**
+ * 4.0 - Elements
+ */
+
+ul,
+ol {
+	margin: 0 1.5em 1.75em 0;
+}
+
+ol {
+	margin-right: 1.5em;
+	margin-left: 0;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}
+
+
+/**
+ * 5.0 - Padding/Margin
+ */
+
+.custom-header-content.content-align-left .section-title::after {
+	margin: 28px auto 0 0;
+}
+
+#promotion-section .play-button-text {
+	margin-left: 0;
+	margin-right: 14px;
+}
+
+
+/**
+ * 6.0 - Forms
+ */
+
+input[type="search"].search-field {
+	padding: 12px 14px 12px 46px;
+}
+
+.search-submit {
+	left: 0;
+	right: auto;
+}
+
+
+/**
+ * 7.0 - Navigation
+ */
+
+/**
+ * 7.1 - Main Menu
+ */
+
+.main-navigation ul ul {
+	margin-left: 0;
+	margin-right: 0.875em;
+}
+
+.main-navigation ul ul li {
+	text-align: right;
+}
+
+.main-navigation .menu-item-has-children > a,
+.main-navigation .page_item_has_children > a {
+	padding-left: 49px;
+    padding-right: 30px;
+}
+
+.dropdown-toggle {
+	left: 0;
+	right: auto;
+}
+
+.dropdown-toggle:after {
+	border-right-width: 1px;
+	border-left-width: 0;
+	left: auto;
+	right: 1px;
+}
+
+.menu-inside-wrapper {
+	left: -400px;
+	right: auto;
+}
+
+.is-open .menu-inside-wrapper {
+	left: 0;
+	right: auto;
+}
+
+.menu-open .site {
+	left: auto;
+	right: 0;
+}
+
+.menu-label {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 7px;
+}
+
+
+/**
+ * 8.0 - Widgets
+ */
+
+.widget ul,
+.widget ol {
+	margin-right: 0;
+}
+
+/* Categories widget */
+.widget_categories ul,
+.widget_archive ul {
+	text-align: left;
+}
+
+.widget_categories ul a,
+.widget_archive ul a {
+	float: right;
+}
+
+.widget li > ul,
+.widget li > ol {
+	margin-left: 0;
+	margin-right: 14px;
+}
+
+
+/**
+ * 9.0 - Content
+ */
+
+/**
+ * 9.1 - Header
+ */
+
+.site-branding {
+	text-align: right;
+	margin: 14px 0 14px auto;
+}
+
+.site-header-menu {
+	margin-left: -20px;
+	margin-right: 0;
+}
+
+/**
+ * 9.2 - Posts and pages
+ */
+
+.recent-blog-content .view-more {
+	text-align: right;
+}
+
+.page-links a,
+.page-links > span {
+	margin-right: auto;
+	margin-left: 0.3076923077em;
+}
+
+.page-links > .page-links-title {
+	padding-right: 0;
+	padding-left: 0.6153846154em;
+}
+
+/**
+ * 9.3 - Comments
+ */
+
+.comment-author {
+	float: right;
+	margin: 0 0 1.5em 1.5em;
+}
+
+.comment-list .children li > article {
+	padding-left: 0;
+	padding-right: 2.5em;
+}
+
+.comment-meta .comment-permalink {
+	margin-left: 0;
+	margin-right: 14px;
+}
+
+.form-submit {
+	text-align: right;
+}
+
+
+/**
+ * 10.0 - Modules
+ */
+
+/**
+ * 10.1 - Audio Player
+ */
+
+body .wp-playlist-item-length {
+	left: 1.75em;
+	right: auto;
+}
+
+body .wp-playlist .wp-playlist-current-item img {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+#top-playlist-section .wp-playlist-item-length {
+	left: 1.75em;
+	right: auto;
+}
+
+#top-playlist-section .wp-playlist-current-item {
+    padding: 0 0 0 21px;
+}
+
+#top-playlist-section .mejs-container.audioman-mejs-container .mejs-toggle-playlist {
+	right: auto;
+	left: 0;
+}
+
+#top-playlist-section .mejs-container.audioman-mejs-container .mejs-inner {
+    margin-right: 0;
+    margin-left: 50px;
+}
+
+/**
+ * 11.0 - WooCommerce
+ */
+
+/**
+ *  11.1 - Layout
+ */
+
+.site-content .woocommerce-result-count {
+	float: right;
+}
+
+.site-content .woocommerce-ordering {
+	clear: none;
+	float: left;
+}
+
+/**
+ * 11.2 - Shop tables
+ */
+
+table.shop_table_responsive tr td {
+	text-align: left;
+}
+
+table.shop_table_responsive tr td:before {
+	float: right;
+}
+
+
+/**
+ * 11.3 - Onsale
+ */
+
+.onsale {
+	left: auto;
+	right: 0;
+}
+
+ul.products .onsale {
+	left: auto;
+	right: 20px;
+}
+
+/**
+ * 11.4 - Price
+ */
+
+.price del + ins {
+	margin-left: 0;
+	margin-right: .327em;
+}
+
+
+/**
+ * 11.5 - Single product
+ */
+
+.single-product div.product .entry-summary .entry-title {
+	text-align: right;
+}
+
+.single-product div.product .woocommerce-product-rating .star-rating {
+	float: right;
+	margin: 0 0 0 7px;
+}
+
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger {
+	left: 1em;
+	right: auto;
+}
+
+.single-product div.product .woocommerce-product-gallery .flex-control-thumbs li {
+	float: left;
+}
+
+.single-product div.product form.cart {
+	margin: 0 0 1.5em;
+}
+
+.single-product div.product form.cart .quantity {
+	float: right;
+	margin-left: 21px;
+	margin-right: 0;
+}
+
+.variations .reset_variations {
+	margin-left: 0;
+	margin-right: 14px;
+}
+
+#reviews #comments ol.commentlist,
+ul.woocommerce-error {
+	margin-left: auto;
+	margin-right: 0;
+}
+
+
+/**
+ * 11.6 - Tabs
+ */
+
+.woocommerce-tabs .panel,
+.woocommerce-tabs ul.tabs {
+	text-align: right;
+}
+
+.woocommerce-tabs ul.tabs li a {
+ 	padding: 21px 0 21px 35px;
+}
+
+
+/**
+ * 11.7 - General WooCommerce components
+ */
+
+/**
+ * 11.7.1 - Header cart
+ */
+
+.site-header-cart li {
+	margin: 0;
+}
+
+.site-header-cart .cart-contents .count {
+	margin-left: 0;
+	margin-right: 7px;
+}
+
+.navigation-classic .menu-inside-wrapper .site-header-cart .cart-contents {
+	display: inline-block;
+}
+
+.site-header-cart .product_list_widget .mini_cart_item .remove_from_cart_button {
+	margin-left: 0;
+	margin-right: 5px;
+
+}
+.product_list_widget li img {
+	float: left;
+}
+
+.site-header-cart .product_list_widget img {
+	margin-left: 0;
+	margin-right: 1em;
+}
+
+#site-header-cart-wrapper {
+	text-align: right;
+}
+
+#primary-menu-wrapper .site-header-cart .cart-contents::before {
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+
+/**
+ * 11.7.2 - Notices
+ */
+
+.woocommerce-message a.button {
+	margin-left: 14px;
+	margin-right: 0;
+}
+
+#add_payment_method #payment .payment_method_paypal img,
+.woocommerce-cart #payment .payment_method_paypal img,
+.woocommerce-checkout #payment .payment_method_paypal img {
+	margin-left: 0;
+	margin-right: 7px;
+}
+
+.demo_store .woocommerce-store-notice__dismiss-link {
+	float: left;
+	margin-left: 0;
+	margin-right: 14px;
+}
+
+
+/**
+ * 11.7.3 - WooCommerce widgets
+ */
+
+/**
+ * 11.7.2.1 - WooCommerce Price Filter
+ */
+
+.widget_layered_nav_filters a:before {
+	margin-right: 0;
+	margin-left: 7px;
+}
+
+
+
+/**
+ * 12.0 - Media Queries
+ */
+
+/**
+ * Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
+ */
+
+@-ms-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}
+
+/**
+ * 12.2 - >= 640px
+ */
+
+@media screen and (min-width: 40em) {
+	/* Woocommerce styles */
+	table.cart td.actions .coupon {
+		float: right;
+	}
+
+	table.cart td.actions {
+		text-align: left;
+	}
+
+	.single-product div.product .woocommerce-product-gallery,
+	.single-product div.product .entry-summary {
+		float: right;
+		text-align: right;
+		width: 50%;
+	}
+
+	.single-product div.product .entry-summary {
+		margin: 0;
+		padding-left: 0;
+		padding-right: 35px;
+	}/* Woocommerce styles end here */
+
+	.author-info {
+		text-align: right;
+	}
+
+	.author-avatar {
+		float : right;
+		margin: 0 0 0 35px;
+	}
+
+	.excerpt-image-left .has-post-thumbnail .post-wrapper .post-thumbnail,
+	.excerpt-image-left .has-post-thumbnail .post-wrapper .entry-container {
+		direction: rtl;
+	}
+
+	.excerpt-image-left .has-post-thumbnail .post-wrapper .post-thumbnail,
+	.excerpt-image-right .has-post-thumbnail .post-wrapper .entry-container {
+		-webkit-box-ordinal-group: 3;
+		-webkit-order: 2;
+		-moz-box-ordinal-group: 3;
+		-ms-flex-order: 2;
+		order: 2;
+	}
+
+	.excerpt-image-left .has-post-thumbnail .post-wrapper .entry-container,
+	.excerpt-image-right .has-post-thumbnail .post-wrapper .post-thumbnail {
+		-webkit-box-ordinal-group: 2;
+		-webkit-order: 1;
+		-moz-box-ordinal-group: 2;
+		-ms-flex-order: 1;
+		order: 1;
+	}
+}
+
+
+/**
+ * 12.3 - >= 768px
+ */
+
+@media screen and (min-width: 48em) {
+	/* Woocommerce styles */
+	table.shop_table_responsive tr th,
+	table.shop_table_responsive tr td {
+		text-align: right;
+	}
+
+	.site-header-cart:hover .widget_shopping_cart,
+	.site-header-cart.focus .widget_shopping_cart {
+		left: 15px;
+		right: auto;
+	}/* Woocommerce styles end here */
+
+    .site-branding {
+		text-align: right;
+		margin: 17px 0 18px auto;
+	}
+}
+
+
+/**
+ * 11.4 - >= 1024px
+ */
+
+@media screen and (min-width: 64em) {
+	.site-header-menu {
+	    margin-left: 0;
+	}
+
+	.site-branding {
+	    margin: 16px 20px 16px auto;
+	}
+
+	.is-open .menu-inside-wrapper {
+		left: 3.75%;
+	}
+
+	#top-playlist-section .wp-playlist .wp-playlist-current-item img {
+		margin-right: auto;
+		margin-left: 21px;
+	}
+}
+
+
+@media screen and (min-width: 75em) {
+	.navigation-classic .site-branding {
+	    text-align: right;
+	}
+
+	.navigation-classic .main-navigation .menu-item-has-children > a {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.navigation-classic .main-navigation .menu-item-has-children > a:after,
+	.navigation-classic .main-navigation .page_item_has_children > a:after {
+	    padding-left: 0;
+	    padding-right: 7px;
+	}
+
+	.navigation-classic .main-navigation ul li:hover > ul,
+	.navigation-classic .main-navigation ul li.focus > ul {
+	    left: 20px;
+	    right: auto;
+	}
+
+	.navigation-classic .main-navigation ul ul li:hover > ul,
+	.navigation-classic .main-navigation ul ul li.focus > ul {
+	    left: 100%;
+	    right: auto;
+	}
+
+	.navigation-classic .main-navigation ul ul .menu-item-has-children > a::after,
+	.navigation-classic .main-navigation ul ul .page_item_has_children > a::after {
+	    -webkit-transform: rotate(270deg);
+	    -moz-transform: rotate(270deg);
+	    -ms-transform: rotate(270deg);
+	    transform: rotate(270deg);
+	    padding: 0;
+	    position: absolute;
+	    top: 14px;
+	    right: auto;
+	    left: 21px
+	}
+}

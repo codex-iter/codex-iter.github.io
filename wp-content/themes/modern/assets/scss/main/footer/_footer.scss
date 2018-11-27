@@ -1,0 +1,43 @@
+/* FILE: main/footer/_footer.scss */
+
+//
+// Site footer and info
+//
+// For footer widgets see `sidebar` section.
+//
+
+
+
+
+
+// Footer
+
+	.site-footer {
+		@extend %box_shadow;
+		position: relative;
+		margin-top: $vertical_gap * $golden_minor + $golden;
+		z-index: 5;
+
+		@include media( map_get( $breakpoint, 'm' ) ) {
+			margin-top: $vertical_gap + $golden_major + $golden;
+		}
+
+		@include media( map_get( $breakpoint, 'l' ) ) {
+			margin-top: $vertical_gap + $golden;
+		}
+
+		&-area {
+
+			&-inner {
+				@extend %content_width;
+			}
+
+		}
+
+	}
+
+
+
+// Imports
+
+	@import '_site-info';

@@ -1,0 +1,46 @@
+/* FILE: main/content/__post-format-quote.scss */
+
+//
+// Post format: Quote
+//
+
+
+
+
+
+%post_format_quote {
+
+	a {
+		color: inherit;
+	}
+
+	&.entry {
+		border-color: currentColor;
+	}
+
+	.entry {
+
+		&-header {
+
+			.posts & {
+				@extend %screen_reader_hiding;
+			}
+
+		}
+
+	}
+
+}
+
+.format-quote {
+	@extend %post_format_quote;
+}
+
+.single-format-quote .content-area .entry {
+
+	h1, h2, h3, h4,
+	.h1, .h2, .h3, .h4 {
+		color: inherit;
+	}
+
+}

@@ -1,0 +1,71 @@
+/* FILE: starter/_starter.scss */
+
+//
+// Starter CSS
+//
+// Used development prefixes:
+// - theme_name
+// - version_since
+// - version
+//
+// @package    Modern
+// @copyright  WebMan Design, Oliver Juhas
+//
+// @since    2.0.0
+// @version  2.2.0
+//
+
+
+
+
+
+//
+// WordPress CSS (SASS) Starter
+//
+// This stylesheet was developed for WebMan themes mainly. Contains styles for the most
+// commonly used elements in WordPress themes, with support for several plugins.//
+// The stylesheet does not set any (or just minimal) colors. Use additional CSS styles
+// to set background, text and border colors to HTML elements.//
+// No styles are provided for pingback and trackback comments.
+//
+// Using mobile first approach with these breakpoints:
+// 448px, 672px, 880px, 1280px, 1600px, 1920px, 2560px
+//
+/////////////
+//
+// IMPORTANT:
+// Do not use LibSass when compiling SCSS files (with Prepros)
+// as it seems not to be able to handle lists as mixin parameters!
+//
+/////////////
+//
+// This CSS stylesheet, like WordPress, is licensed under the GPL.
+// Use it to make something cool, have fun, and share what you've learned with others.
+//
+// @link       https://github.com/webmandesign/wp-css-starter
+// @link       http://www.webmandesign.eu
+// @copyright  WebMan Design, Oliver Juhas
+// @license    GPL-3.0, http://www.gnu.org/licenses/gpl-3.0.html
+//
+// @version  4.0.2
+//
+
+
+
+
+
+// Imports
+
+	@import 'tools/functions';
+
+	@import 'setup/variables';
+
+	@import 'tools/mixins';
+
+	@import 'generic/generic';
+
+	@import 'base/base';
+
+	@import 'typography/typography';
+
+	@import 'content/content';

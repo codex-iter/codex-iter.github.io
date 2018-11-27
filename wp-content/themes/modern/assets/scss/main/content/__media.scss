@@ -1,0 +1,77 @@
+/* FILE: main/content/__media.scss */
+
+//
+// Media
+//
+
+
+
+
+
+// Entry media
+
+	.entry-media {
+
+		a {
+			display: inline-block; // To wrap the focus outline around the image/entry media object.
+			width: 100%;
+		}
+
+		.post-thumbnail {
+			text-align: center;
+		}
+
+		img {
+
+			@include media( ( map_get( $breakpoint, 'm' ), 'max-width' ) ) {
+				width: 100%;
+			}
+
+		}
+
+
+
+		// Hiding the post media
+
+			.hide-media & {
+				display: none;
+			}
+
+	}
+
+
+
+// Attachment page
+
+	.attachment {
+
+		.entry-media {
+			@extend %padding_top;
+			max-width: 39em;
+			max-width: 70ch;
+			margin-left: auto;
+			margin-right: auto;
+
+			+ .entry-content-container {
+				padding-top: power( $golden, 2 ) +em;
+			}
+
+		}
+
+		caption {
+			caption-side: top;
+		}
+
+		&-download {
+			padding: $golden +em;
+			margin-bottom: $golden +em;
+			border-width: 2px;
+			border-style: dashed;
+
+			&-label {
+				@extend %font_weight_700;
+			}
+
+		}
+
+	}

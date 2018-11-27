@@ -1,0 +1,148 @@
+/* FILE: main/menu/_primary.scss */
+
+//
+// Primary menu
+//
+
+
+
+
+
+.main-navigation {
+	float: $left; // {{RTL}}
+	position: relative;
+	display: inline-block;
+	margin-#{$left}: 4%; // {{RTL}}
+
+	@include responsive( map_get( $breakpoint, 'l' ), 'max-width' ) {
+		position: absolute;
+		width: 92%;
+		width: calc( 100% - 2rem );
+		#{$left}: 1rem; // {{RTL}}
+		top: 0;
+		padding: 0;
+		margin: 0;
+		opacity: 1;
+		z-index: 9;
+
+		&-inner {
+			display: none;
+			position: relative;
+			padding: 8em 4% 1em;
+
+			.active & {
+				display: block;
+			}
+
+		}
+
+	}
+
+	a {
+
+		&:hover,
+		&:active {
+			color: inherit;
+		}
+
+	}
+
+	.menu {
+		@extend %font_size_smaller;
+
+		@include responsive( map_get( $breakpoint, 'l' ) ) {
+			float: $left; // {{RTL}}
+		}
+
+	}
+
+	ul {
+		padding: 0;
+		margin: 0;
+		text-transform: uppercase;
+		list-style: none;
+
+		a {
+			display: inline-block;
+			max-width: 100%; // Fix for FF and IE
+			padding: 0;
+			text-decoration: none;
+			color: inherit;
+			transition: all .4s ease-in-out;
+
+			@include responsive( map_get( $breakpoint, 'l' ) ) {
+				opacity: .8;
+			}
+
+		}
+
+	}
+
+	li {
+		display: block;
+		margin: -1px 0 0;
+		line-height: 1.62;
+		border-top-width: 1px;
+		border-top-style: solid;
+
+		@include responsive( map_get( $breakpoint, 'l' ) ) {
+			float: $left; // {{RTL}}
+			position: relative;
+			padding: 0;
+			margin: 0 1em;
+			margin-#{$left}: 0; // {{RTL}}
+			line-height: inherit;
+			white-space: nowrap;
+			border-top-width: 0;
+			border-bottom-width: 0;
+		}
+
+		@include responsive( map_get( $breakpoint, 'xl' ) ) {
+			margin-#{$right}: 2em; // {{RTL}}
+		}
+
+		> a {
+
+			@include responsive( map_get( $breakpoint, 'l' ), 'max-width' ) {
+				display: block;
+				min-width: 0;
+				padding: .62em;
+			}
+
+		}
+
+	}
+
+}
+
+
+
+// Active menu item
+
+ 	.active-menu-item > a {
+ 		@extend %font_weight_700;
+ 	}
+
+	.main-navigation .menu {
+
+		a:hover,
+		li:hover > a,
+		li.active-menu-item > a {
+			opacity: 1;
+		}
+
+	}
+
+
+
+// Imports
+
+	@import '_primary-mobile';
+
+	@import '_primary-sub';
+
+	@import '_primary-sub-sub';
+
+	@import '_primary-expander';
+
+	@import '_primary-description';

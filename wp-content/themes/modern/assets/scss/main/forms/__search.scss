@@ -1,0 +1,96 @@
+/* FILE: main/forms/__search.scss */
+
+//
+// Search form
+//
+
+
+
+
+
+form[role="search"],
+.search-form {
+
+	.site & {
+
+		&::before {
+			@extend %genericon;
+			content: '\f400';
+			position: absolute;
+			width: $golden +em;
+			height: 100%;
+			#{$right}: 0; // {{RTL}}
+			top: 0;
+			line-height: $golden;
+			text-align: center;
+			font-size: $golden +em;
+			z-index: 1;
+		}
+
+		input[type="submit"],
+		.search-submit {
+
+			@include haf( ( '&', 'h', 'f', 'a' ) ) {
+				@extend %form_search_submit_button;
+			}
+
+		}
+
+		label {
+			font-size: 1em;
+		}
+
+	}
+
+	label {
+		// Label wraps the search input field and contains .screen-reader-text span
+		display: block;
+		padding: 0;
+	}
+
+	input[type="search"],
+	.search-field {
+		padding-#{$right}: power( $golden, 2 ) +rem; // {{RTL}}
+	}
+
+
+
+	// In site header
+
+		.site-header & {
+
+			&::before {
+				font-size: $golden +em;
+			}
+
+		}
+
+
+
+	// On search results page
+
+		.search .site-content &,
+		.error-404 &,
+		.not-found & {
+			font-size: $golden +em;
+		}
+
+}
+
+
+
+%form_search_submit_button {
+	position: absolute;
+	width: power( $golden, 2 ) +em;
+	height: 100%;
+	#{$right}: 0; // {{RTL}}
+	top: 0;
+	padding: 0;
+	text-indent: -999em;
+	background: none;
+	color: inherit;
+	border-width: 0;
+	z-index: 2;
+	box-shadow: none;
+	overflow: hidden;
+}

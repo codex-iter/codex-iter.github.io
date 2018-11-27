@@ -1,0 +1,39 @@
+/* FILE: main/custom-styles/__intro.scss */
+
+//
+// Site intro section colors
+//
+
+
+
+
+
+.intro-container {
+	@extend %intro_colors;
+	background-color: transparent;
+}
+
+.intro-media {
+	@extend %intro_colors;
+
+	&::after {
+		/*[*/
+		background-image: linear-gradient( transparent, map_get( $colors, 'body_background' ) );
+		/*]*/
+		/*//
+		background-image: linear-gradient( transparent, [[background_color]] );
+		//*/
+	}
+
+}
+
+.slick-slider {
+
+	.slick-arrow,
+	.slick-dots button:hover,
+	.slick-dots button:focus,
+	.slick-active button {
+		@extend %accent_colors;
+	}
+
+}
