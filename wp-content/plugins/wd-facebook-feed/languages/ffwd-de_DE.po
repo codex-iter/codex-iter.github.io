@@ -1,0 +1,468 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-17 16:58+0400\n"
+"PO-Revision-Date: 2016-11-17 17:06+0400\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+
+#: facebook-feed-wd-notices.php:217
+msgid "Leave A Review?"
+msgstr ""
+
+#: facebook-feed-wd-notices.php:218
+#, php-format
+msgid ""
+"We hope you've enjoyed using WordPress %s! Would you consider leaving us a "
+"review on WordPress.org?"
+msgstr ""
+
+#: facebook-feed-wd-notices.php:219
+msgid "Sure! I'd love to!"
+msgstr ""
+
+#: facebook-feed-wd-notices.php:220
+msgid "I've already left a review"
+msgstr ""
+
+#: facebook-feed-wd-notices.php:221
+msgid "Maybe Later"
+msgstr ""
+
+#: facebook-feed-wd-notices.php:222 facebook-feed-wd-notices.php:232
+msgid "Never show again"
+msgstr ""
+
+#: facebook-feed-wd-notices.php:228
+msgid "Hey! How's It Going?"
+msgstr ""
+
+#: facebook-feed-wd-notices.php:229
+#, php-format
+msgid ""
+"Thank you for using WordPress %s! We hope that you've found everything you "
+"need, but if you have any questions:"
+msgstr ""
+
+#: facebook-feed-wd-notices.php:230
+msgid "Check out User Guide"
+msgstr ""
+
+#: facebook-feed-wd-notices.php:231
+msgid "Get Some Help"
+msgstr ""
+
+#: facebook-feed-wd.php:110
+msgid ""
+"If you are getting errors please go to options and fill in App ID and App "
+"Secret."
+msgstr ""
+
+#: facebook-feed-wd.php:111
+msgid "For getting App ID and App Secret read more in"
+msgstr ""
+
+#: facebook-feed-wd.php:112
+msgid "User Manual"
+msgstr ""
+
+#: facebook-feed-wd.php:215
+msgid "Feed Doesn't exists"
+msgstr ""
+
+#: facebook-feed-wd.php:689
+msgid "field is required."
+msgstr ""
+
+#: facebook-feed-wd.php:690
+msgid "This is not a valid email address."
+msgstr ""
+
+#: facebook-feed-wd.php:691
+msgid "There are no images matching your search."
+msgstr ""
+
+#: facebook-feed-wd.php:695
+msgid "Reply"
+msgstr "Antworten"
+
+#: facebook-feed-wd.php:696
+msgid "View"
+msgstr "Siehe"
+
+#: facebook-feed-wd.php:697
+msgid "more comments"
+msgstr "weitere Kommentare"
+
+#: facebook-feed-wd.php:699 frontend/models/FFWDModelBlog_style.php:69
+#: frontend/models/FFWDModelPopupBox.php:164
+msgid "year"
+msgstr "Jahr"
+
+#: facebook-feed-wd.php:700 frontend/models/FFWDModelBlog_style.php:79
+#: frontend/models/FFWDModelPopupBox.php:174
+msgid "years"
+msgstr "Jahre"
+
+#: facebook-feed-wd.php:701 frontend/models/FFWDModelBlog_style.php:73
+#: frontend/models/FFWDModelPopupBox.php:168
+msgid "hour"
+msgstr "Stunde"
+
+#: facebook-feed-wd.php:702 frontend/models/FFWDModelBlog_style.php:83
+#: frontend/models/FFWDModelPopupBox.php:178
+msgid "hours"
+msgstr "Std."
+
+#: facebook-feed-wd.php:703 frontend/models/FFWDModelBlog_style.php:80
+#: frontend/models/FFWDModelPopupBox.php:175
+msgid "months"
+msgstr "Monaten"
+
+#: facebook-feed-wd.php:704 frontend/models/FFWDModelBlog_style.php:70
+#: frontend/models/FFWDModelPopupBox.php:165
+msgid "month"
+msgstr "Monat"
+
+#: facebook-feed-wd.php:705 frontend/models/FFWDModelBlog_style.php:81
+#: frontend/models/FFWDModelPopupBox.php:176
+msgid "weeks"
+msgstr "Wochen"
+
+#: facebook-feed-wd.php:706 frontend/models/FFWDModelBlog_style.php:71
+#: frontend/models/FFWDModelPopupBox.php:166
+msgid "week"
+msgstr "Woche"
+
+#: facebook-feed-wd.php:707 frontend/models/FFWDModelBlog_style.php:82
+#: frontend/models/FFWDModelPopupBox.php:177
+msgid "days"
+msgstr "Tage"
+
+#: facebook-feed-wd.php:708 frontend/models/FFWDModelBlog_style.php:72
+#: frontend/models/FFWDModelPopupBox.php:167
+msgid "day"
+msgstr "Tag"
+
+#: facebook-feed-wd.php:709 frontend/models/FFWDModelBlog_style.php:84
+#: frontend/models/FFWDModelPopupBox.php:179
+msgid "minutes"
+msgstr "Protokoll"
+
+#: facebook-feed-wd.php:710 frontend/models/FFWDModelBlog_style.php:74
+#: frontend/models/FFWDModelPopupBox.php:169
+msgid "minute"
+msgstr "Minute"
+
+#: facebook-feed-wd.php:711 frontend/models/FFWDModelBlog_style.php:85
+#: frontend/models/FFWDModelPopupBox.php:180
+msgid "seconds"
+msgstr "Sekunden"
+
+#: facebook-feed-wd.php:712 frontend/models/FFWDModelBlog_style.php:75
+#: frontend/models/FFWDModelPopupBox.php:170
+msgid "second"
+msgstr "zweite"
+
+#: facebook-feed-wd.php:713
+msgid "ago"
+msgstr "vor"
+
+#: facebook-feed-wd.php:715
+msgid "and"
+msgstr "und"
+
+#: facebook-feed-wd.php:716
+msgid "others"
+msgstr "andere"
+
+#: facebook-feed-wd.php:732
+msgid "WD Facebook plugin autoupdate interval."
+msgstr ""
+
+#: admin/models/FFWDModelInfo_ffwd.php:250
+#: admin/models/FFWDModelOptions_ffwd.php:198
+msgid "Logout of your app"
+msgstr ""
+
+#: admin/models/FFWDModelInfo_ffwd.php:253
+#: admin/models/FFWDModelOptions_ffwd.php:202 framework/WDFacebookFeed.php:1404
+msgid "Log into Facebook with your app"
+msgstr ""
+
+#: admin/models/FFWDModelInfo_ffwd.php:261
+#: admin/models/FFWDModelOptions_ffwd.php:217
+msgid "View your application's settings."
+msgstr ""
+
+#: framework/WDW_FFWD_Library.php:514
+msgid " item(s)"
+msgstr "Artikel"
+
+#: framework/WDW_FFWD_Library.php:519
+msgid "First"
+msgstr "Zuerst"
+
+#: framework/WDW_FFWD_Library.php:520
+msgid "Previous"
+msgstr "Zurück"
+
+#: framework/WDW_FFWD_Library.php:521
+msgid "Next"
+msgstr "Nächster"
+
+#: framework/WDW_FFWD_Library.php:522
+msgid "Last"
+msgstr "Letzte"
+
+#: framework/WDW_FFWD_Library.php:540
+msgid "Go to the first page"
+msgstr "Gehe zur ersten Seite"
+
+#: framework/WDW_FFWD_Library.php:541
+msgid "Go to the previous page"
+msgstr "Gehen Sie zur vorherigen Seite"
+
+#: framework/WDW_FFWD_Library.php:543
+msgid "of"
+msgstr "von"
+
+#: framework/WDW_FFWD_Library.php:547
+msgid "Go to the next page"
+msgstr "Gehen Sie auf die nächste Seite"
+
+#: framework/WDW_FFWD_Library.php:548
+msgid "Go to the last page"
+msgstr "Gehe zur letzten Seite"
+
+#: framework/WDW_FFWD_Library.php:560
+msgid "Load More..."
+msgstr "Mehr laden ..."
+
+#: framework/WDW_FFWD_Library.php:731
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: framework/WDW_FFWD_Library.php:734
+msgid "Search"
+msgstr "Suche"
+
+#: framework/WDW_FFWD_Library.php:776
+msgid "Order by: "
+msgstr "Sortieren nach:"
+
+#: framework/WDW_FFWD_Library.php:778
+msgid "Default"
+msgstr "Standard"
+
+#: framework/WDW_FFWD_Library.php:779
+msgid "Filename"
+msgstr "Dateiname"
+
+#: framework/WDW_FFWD_Library.php:780
+msgid "Size"
+msgstr "Größe"
+
+#: framework/WDW_FFWD_Library.php:781
+msgid "Random"
+msgstr "Zufällig"
+
+#: framework/WDW_FFWD_Library.php:859
+msgid "Please update your shortcode."
+msgstr "Bitte aktualisieren Sie Ihren Kurzcode."
+
+#: framework/WDW_FFWD_Library.php:864
+#: frontend/views/FFWDViewAlbum_compact.php:56
+#: frontend/views/FFWDViewBlog_style.php:37
+#: frontend/views/FFWDViewThumbnails.php:32
+#: frontend/views/FFWDViewThumbnails_masonry.php:32
+msgid "There is no facebook feed selected or it was deleted."
+msgstr "Es wurde kein Facebook-Feed ausgewählt oder gelöscht."
+
+#: frontend/models/FFWDModelBlog_style.php:91
+#: frontend/models/FFWDModelBlog_style.php:93
+#: frontend/models/FFWDModelPopupBox.php:186
+#: frontend/models/FFWDModelPopupBox.php:188
+msgid " ago"
+msgstr "vor"
+
+#: frontend/models/FFWDModelBlog_style.php:211
+#: frontend/views/FFWDViewBlog_style.php:1398
+#: frontend/views/FFWDViewBlog_style.php:1412
+msgid "See more"
+msgstr "Sehen Sie mehr"
+
+#: frontend/views/FFWDViewAlbum_compact.php:50
+#: frontend/views/FFWDViewBlog_style.php:54
+#: frontend/views/FFWDViewThumbnails.php:51
+#: frontend/views/FFWDViewThumbnails_masonry.php:47
+msgid "There is no theme selected or the theme was deleted."
+msgstr "Es wurde kein Thema ausgewählt oder das Thema wurde gelöscht."
+
+#: frontend/views/FFWDViewAlbum_compact.php:617
+msgid "Back"
+msgstr "Zurück"
+
+#: frontend/views/FFWDViewAlbum_compact.php:626
+msgid "Album is empty."
+msgstr "Album ist leer."
+
+#: frontend/views/FFWDViewBlog_style.php:60
+#: frontend/views/FFWDViewThumbnails.php:58
+msgid "There are no objects in this facebook feed."
+msgstr "Es gibt keine Objekte in diesem Facebook-Feed."
+
+#: frontend/views/FFWDViewBlog_style.php:1282
+#: frontend/views/FFWDViewPopupBox.php:1309
+#: frontend/views/FFWDViewPopupBox.php:1310
+msgid "Share on Facebook"
+msgstr "Auf Facebook teilen"
+
+#: frontend/views/FFWDViewBlog_style.php:1289
+#: frontend/views/FFWDViewPopupBox.php:1323
+#: frontend/views/FFWDViewPopupBox.php:1324
+msgid "Share on Google+"
+msgstr "Auf Google+ teilen"
+
+#: frontend/views/FFWDViewBlog_style.php:1296
+#: frontend/views/FFWDViewPopupBox.php:1316
+#: frontend/views/FFWDViewPopupBox.php:1317
+msgid "Share on Twitter"
+msgstr "Auf Twitter teilen"
+
+#: frontend/views/FFWDViewBlog_style.php:1311
+#: frontend/views/FFWDViewPopupBox.php:1595
+msgid "View on facebook"
+msgstr "Ansicht auf facebook"
+
+#: frontend/views/FFWDViewBlog_style.php:1391
+#: frontend/views/FFWDViewBlog_style.php:1405
+msgid "See less"
+msgstr "Weniger sehen"
+
+#: frontend/views/FFWDViewPopupBox.php:1275
+msgid "The image has been deleted."
+msgstr "Das Bild wurde gelöscht."
+
+#: frontend/views/FFWDViewPopupBox.php:1285
+#: frontend/views/FFWDViewPopupBox.php:2580
+#: frontend/views/FFWDViewThumbnails.php:473
+#: frontend/views/FFWDViewThumbnails_masonry.php:535
+msgid "Play"
+msgstr "Spielen"
+
+#: frontend/views/FFWDViewPopupBox.php:1290
+#: frontend/views/FFWDViewPopupBox.php:1942
+#: frontend/views/FFWDViewPopupBox.php:2413
+#: frontend/views/FFWDViewPopupBox.php:2514
+msgid "Maximize"
+msgstr "Maximieren"
+
+#: frontend/views/FFWDViewPopupBox.php:1294
+#: frontend/views/FFWDViewPopupBox.php:1944
+#: frontend/views/FFWDViewPopupBox.php:2516
+msgid "Fullscreen"
+msgstr "Vollbild"
+
+#: frontend/views/FFWDViewPopupBox.php:1299
+msgid "Show info and comments"
+msgstr "Info und Kommentare anzeigen"
+
+#: frontend/views/FFWDViewPopupBox.php:1330
+#: frontend/views/FFWDViewPopupBox.php:1331
+msgid "Share on Pinterest"
+msgstr "Teilen auf Pinterest"
+
+#: frontend/views/FFWDViewPopupBox.php:1337
+#: frontend/views/FFWDViewPopupBox.php:1338
+msgid "Share on Tumblr"
+msgstr "Auf Tumblr speichern"
+
+#: frontend/views/FFWDViewPopupBox.php:1345
+msgid "Open image in original size."
+msgstr "Bild in Originalgröße öffnen."
+
+#: frontend/views/FFWDViewPopupBox.php:1353
+msgid "Download original image"
+msgstr "Originalbild herunterladen"
+
+#: frontend/views/FFWDViewPopupBox.php:1514
+#: frontend/views/FFWDViewPopupBox.php:2170
+msgid "Hide Comments"
+msgstr "Kommentare ausblenden"
+
+#: frontend/views/FFWDViewPopupBox.php:2120
+msgid "Show Comments"
+msgstr "Kommentare anzeigen"
+
+#: frontend/views/FFWDViewPopupBox.php:2454
+#: frontend/views/FFWDViewPopupBox.php:3110
+msgid "Restore"
+msgstr "Wiederherstellen"
+
+#: frontend/views/FFWDViewPopupBox.php:2563
+msgid "Exit Fullscreen"
+msgstr "Beenden Sie den Vollbildmodus"
+
+#: frontend/views/FFWDViewPopupBox.php:2574
+#: frontend/views/FFWDViewPopupBox.php:2589
+msgid "Pause"
+msgstr "Pause"
+
+#: update/update.php:27
+msgid ""
+"Facebook Feed WD is a completely customizable, responsive solution to help "
+"you display your Facebook feed on your WordPress website."
+msgstr ""
+
+#: update/update.php:84
+msgid "Updates"
+msgstr ""
+
+#: update/update.php:132
+#, php-format
+msgid ""
+"You can download the latest version of your plugin from your %s account.\n"
+"                                  After deactivating and deleting the "
+"current version, install the downloaded version\n"
+"                                  of the plugin"
+msgstr ""
+
+#: update/update.php:171
+#, php-format
+msgid "Current version %s"
+msgstr ""
+
+#: update/update.php:180 update/update.php:255
+#, php-format
+msgid "There is a new %s version"
+msgstr ""
+
+#: update/update.php:182 update/update.php:236
+msgid "What's new:"
+msgstr ""
+
+#: update/update.php:202 update/update.php:278
+msgid "More updates"
+msgstr ""
+
+#: update/update.php:206 update/update.php:240
+#, php-format
+msgid "%s is up to date."
+msgstr ""
+
+#: update/update.php:275
+msgid "Show less"
+msgstr "Zeige weniger"

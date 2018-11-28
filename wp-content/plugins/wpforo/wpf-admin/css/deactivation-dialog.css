@@ -1,0 +1,142 @@
+.wpf-no-scroll {
+    overflow: hidden;
+}
+
+#wpf_deactivation_dialog_wrap {
+    display: none;
+    position: fixed;
+    z-index: 999998;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.31);
+}
+
+#wpf_deactivation_dialog, #wpf_deactivation_dialog *:not(button) {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+#wpf_deactivation_dialog {
+    position: fixed;
+    overflow: hidden;
+    min-width: 50%;
+    min-height: 50vh;
+    width: 50%;
+    left: 25%;
+    top: 15%;
+    padding: 50px;
+    background: white;
+    -webkit-box-shadow: 0 0 48px -9px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 48px -9px rgba(0, 0, 0, 1);
+}
+
+#wpf_deactivation_dialog_header {
+    text-align: right;
+}
+
+#wpf_deactivation_dialog_close {
+    padding: 0 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.wpforo-hidden {
+    display: none !important;
+}
+
+.wpforo-desc {
+    font-size: 15px !important;
+}
+
+.wpforo-note {
+    color: #C74A4A !important;
+}
+
+.wpforo-thankyou {
+    font-size: 15px;
+    text-align: center;
+    padding: 20px 5%;
+    margin: 0;
+}
+
+#wpf_deactivation_dialog_wrap .wpf-deactivation-reason-item {
+    padding-bottom: 7px;
+    border-bottom: 1px solid #eee
+}
+
+#wpf_deactivation_dialog_wrap .wpf-deactivation-reason-item label {
+    font-size: 14px;
+}
+
+#wpf_deactivation_dialog_wrap .wpf-deactivation-reason-more-info {
+    display: none;
+}
+
+#wpf_deactivation_dialog_wrap .wpf-deactivation-reason-more-info textarea {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#wpf_deactivation_dialog_wrap .wpf-deactivation-reasons-actions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#wpf_deactivation_dialog_wrap .wpf-loading {
+    margin-left: 8px;
+}
+
+#wpf_deactivation_dialog_wrap .wpf-deactivation-reason-desc {
+    padding: 15px 0;
+}
+
+#wpf_deactivation_dialog_wrap .wpf-info {
+    color: #777;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 18px;
+    margin: 0;
+}
+
+#wpf_deactivation_dialog_wrap label {
+    vertical-align: text-bottom;
+}
+
+#wpf_deactivation_dialog_wrap label.wpf-info {
+    text-decoration: underline;
+}
+
+#wpf_deactivation_dialog_wrap .wpforo_deactivation_feedback {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#wpf_deactivation_dialog_wrap .wpf-info {
+    width: 100%;
+    padding: 5px 0;
+}
+
+#wpf_deactivation_dialog_wrap .wpfdf_left {
+    flex-shrink: 0;
+    flex-grow: 0;
+    align-self: center;
+    padding: 0 15px 0 10px;
+}
+
+#wpf_deactivation_dialog_wrap .wpfdf_right {
+    flex-grow: 1;
+}
+
+#wpf_deactivation_dialog_wrap .wpfdf_right input {
+    height: 35px;
+    width: 100%;
+    padding: 3px 15px;
+    font-weight: 100;
+    font-style: italic;
+}

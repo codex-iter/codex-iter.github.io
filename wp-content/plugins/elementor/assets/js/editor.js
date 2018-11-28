@@ -1,4 +1,4 @@
-/*! elementor - v2.3.2 - 17-11-2018 */
+/*! elementor - v2.3.3 - 28-11-2018 */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -605,7 +605,11 @@ ControlBaseDataView = ControlBaseView.extend({
 	}
 }, {
 	// Static methods
-	getStyleValue: function getStyleValue(placeholder, controlValue) {
+	getStyleValue: function getStyleValue(placeholder, controlValue, controlData) {
+		if ('DEFAULT' === placeholder) {
+			return controlData.default;
+		}
+
 		return controlValue;
 	},
 
@@ -1215,7 +1219,7 @@ ControlBaseMultipleItemView = ControlBaseDataView.extend({
 			return ''; // invalid
 		}
 
-		return controlValue[placeholder];
+		return controlValue[placeholder.toLowerCase()];
 	}
 });
 
@@ -2799,24 +2803,25 @@ ControlsCSSParser.addControlStyleRules = function (stylesheet, control, controls
 		var outputCssProperty;
 
 		try {
-			outputCssProperty = cssProperty.replace(/{{(?:([^.}]+)\.)?([^}]*)}}/g, function (originalPhrase, controlName, placeholder) {
-				var parserControl = control,
-				    valueToInsert = value;
+			outputCssProperty = cssProperty.replace(/{{(?:([^.}]+)\.)?([^}| ]*)(?: *\|\| *(?:([^.}]+)\.)?([^}| ]*) *)*}}/g, function (originalPhrase, controlName, placeholder, fallbackControlName, fallbackValue) {
+				var parsedValue = ControlsCSSParser.parsePropertyPlaceholder(control, value, controls, valueCallback, placeholder, controlName);
 
-				if (controlName) {
-					parserControl = _.findWhere(controls, { name: controlName });
+				if (!parsedValue && 0 !== parsedValue) {
+					if (fallbackValue) {
+						parsedValue = fallbackValue;
 
-					if (!parserControl) {
-						return '';
+						var stringValueMatches = parsedValue.match(/^(['"])(.*)\1$/);
+
+						if (stringValueMatches) {
+							parsedValue = stringValueMatches[2];
+						} else if (!isFinite(parsedValue)) {
+							parsedValue = ControlsCSSParser.parsePropertyPlaceholder(control, value, controls, valueCallback, fallbackValue, fallbackControlName);
+						}
 					}
 
-					valueToInsert = valueCallback(parserControl);
-				}
-
-				var parsedValue = elementor.getControlView(parserControl.type).getStyleValue(placeholder.toLowerCase(), valueToInsert);
-
-				if ('' === parsedValue) {
-					throw '';
+					if (!parsedValue && 0 !== parsedValue) {
+						throw '';
+					}
 				}
 
 				return parsedValue;
@@ -2878,6 +2883,20 @@ ControlsCSSParser.addControlStyleRules = function (stylesheet, control, controls
 
 		stylesheet.addRules(selector, outputCssProperty, query);
 	});
+};
+
+ControlsCSSParser.parsePropertyPlaceholder = function (control, value, controls, valueCallback, placeholder, parserControlName) {
+	if (parserControlName) {
+		control = _.findWhere(controls, { name: parserControlName });
+
+		if (!control) {
+			return '';
+		}
+
+		value = valueCallback(control);
+	}
+
+	return elementor.getControlView(control.type).getStyleValue(placeholder, value, control);
 };
 
 module.exports = ControlsCSSParser;
@@ -5501,23 +5520,26 @@ module.exports = Marionette.ItemView.extend({
 "use strict";
 
 
-var PanelElementsElementView;
-
-PanelElementsElementView = Marionette.ItemView.extend({
+module.exports = Marionette.ItemView.extend({
 	template: '#tmpl-elementor-element-library-element',
 
 	className: 'elementor-element-wrapper',
 
+	ui: {
+		element: '.elementor-element'
+	},
+
 	onRender: function onRender() {
-		var self = this;
+		var _this = this;
+
 		if (!elementor.userCan('design')) {
 			return;
 		}
 
-		this.$el.html5Draggable({
+		this.ui.element.html5Draggable({
 
 			onDragStart: function onDragStart() {
-				elementor.channels.panelElements.reply('element:selected', self).trigger('element:drag:start');
+				elementor.channels.panelElements.reply('element:selected', _this).trigger('element:drag:start');
 			},
 
 			onDragEnd: function onDragEnd() {
@@ -5528,8 +5550,6 @@ PanelElementsElementView = Marionette.ItemView.extend({
 		});
 	}
 });
-
-module.exports = PanelElementsElementView;
 
 /***/ }),
 /* 41 */
@@ -9752,6 +9772,7 @@ TemplateLibraryManager = function TemplateLibraryManager() {
 
 	this.requestTemplateContent = function (source, id, ajaxOptions) {
 		var options = {
+			unique_id: id,
 			data: {
 				source: source,
 				edit_mode: true,

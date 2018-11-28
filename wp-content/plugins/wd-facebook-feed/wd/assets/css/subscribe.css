@@ -1,0 +1,114 @@
+body {
+    color: #444;
+    font-family: "Open Sans",sans-serif;
+    line-height: 1.4em;
+    min-width: 600px;
+}
+
+.wd-subscribe{
+    background: #fff;
+    border: 2px solid #E2E5EC;
+    width: 55%;
+    margin-top: 40px;
+}
+.wd-subscribe-content{
+	padding: 30px 92px;
+}
+.imgs{
+    text-align: center;    
+}
+.imgs img{
+    vertical-align: middle;
+    width: 125px;
+}
+.imgs span {
+    color: #21759B;
+    font-weight: bold;
+    font-size: 52px;
+    padding: 0px 28px;
+}
+.texts{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.btns .allow_and_continue, .btns .allow_and_continue:hover, .btns .allow_and_continue:focus{
+    display: inline-block;
+    background: url(img/allow&continue.png) no-repeat;
+    width: 279px;
+    height: 61px;
+    border: none;
+
+}
+.btns .skip, .btns .skip:hover, .btns .skip:focus{
+    margin-left: 66px;
+    display: inline-block;
+    background: url(img/skip.png) no-repeat;
+    width: 76px;
+    height: 59px;
+}
+.permissions{
+	color: #525252 !important;
+}
+.list{
+    margin-top: 15px;
+	display:none;
+}
+.list_item{
+    display: table;
+	margin-bottom: 15px;
+}
+.list_item:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.list_img_wrap{
+    float: left;
+}
+.list_img_wrap img{
+    width: 27px;
+}
+.list_text_wrap{
+    margin-left: 33px;
+    float: right;
+}
+.list_title, .list_text{
+    color: #525252;
+	font-size: 13px;
+}
+.wd_loader{
+    vertical-align: top;
+    width: 30px;
+    margin-top: 11px;
+	visibility: hidden;
+}
+.wd-subscribe-footer{
+	text-align: center;
+	padding: 4px 0px;
+	border-top: 1px solid rgba(204, 204, 204, 0.52);
+}
+.wd-footer-menu {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.wd-footer-menu li{
+	float: left;
+}
+.wd-footer-menu li, .wd-footer-menu li a{
+	color: rgba(62, 60, 60, 0.57)  !important;
+	text-decoration: none;
+	font-size: 12px;
+    padding: 2px;
+	font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;		
+}
+
+
+.wd-footer-menu li a:hover{
+	color: rgba(62, 60, 60, 0.57) !important;
+	text-decoration: underline;
+}

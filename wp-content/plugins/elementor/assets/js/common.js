@@ -1,4 +1,4 @@
-/*! elementor - v2.3.2 - 17-11-2018 */
+/*! elementor - v2.3.3 - 28-11-2018 */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -1266,8 +1266,19 @@ var _class = function (_Marionette$Composite) {
 		}
 	}, {
 		key: 'goToActiveItem',
-		value: function goToActiveItem() {
-			this.$activeItem.children('a')[0].click();
+		value: function goToActiveItem(event) {
+			var $a = this.$activeItem.children('a'),
+			    isControlClicked = elementorCommon.hotKeys.isControlEvent(event);
+
+			if (isControlClicked) {
+				$a.attr('target', '_blank');
+			}
+
+			$a[0].click();
+
+			if (isControlClicked) {
+				$a.removeAttr('target');
+			}
 		}
 	}, {
 		key: 'addHotKeys',
@@ -1300,8 +1311,8 @@ var _class = function (_Marionette$Composite) {
 				isWorthHandling: function isWorthHandling() {
 					return elementorCommon.finder.getLayout().getModal().isVisible() && _this2.$activeItem;
 				},
-				handle: function handle() {
-					return _this2.goToActiveItem();
+				handle: function handle(event) {
+					return _this2.goToActiveItem(event);
 				}
 			});
 		}

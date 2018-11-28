@@ -1,4 +1,4 @@
-/*! elementor - v2.3.2 - 17-11-2018 */
+/*! elementor - v2.3.3 - 28-11-2018 */
 .dialog-widget-content {
   background-color: #fff;
   position: absolute;
@@ -107,6 +107,8 @@
     height: 100%;
     width: 100%;
     border: 0; }
+  .elementor-fit-aspect-ratio video {
+    width: 100%; }
 
 .flatpickr-calendar {
   width: 280px; }
@@ -3652,14 +3654,14 @@ button.swiper-pagination-bullet {
   padding: 0; }
 
 @media (max-width: 767px) {
-  .elementor-hidden-phone {
+  .elementor:not(.elementor-edit-area-active) .elementor-hidden-phone {
     display: none; } }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .elementor-hidden-tablet {
+  .elementor:not(.elementor-edit-area-active) .elementor-hidden-tablet {
     display: none; } }
 
 @media (min-width: 1025px) {
-  .elementor-hidden-desktop {
+  .elementor:not(.elementor-edit-area-active) .elementor-hidden-desktop {
     display: none; } }
 /*# sourceMappingURL=frontend.css.map */

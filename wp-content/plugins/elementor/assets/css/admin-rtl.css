@@ -1,4 +1,4 @@
-/*! elementor - v2.3.2 - 17-11-2018 */
+/*! elementor - v2.3.3 - 28-11-2018 */
 .elementor-button {
   font-family: Roboto, Arial, Helvetica, Verdana, sans-serif;
   text-transform: uppercase;
@@ -262,6 +262,7 @@ body .block-editor #elementor-switch-mode {
     text-transform: uppercase;
     margin-top: 30px;
     letter-spacing: 7px;
+    text-indent: 7px;
     font-size: 10px;
     width: 100%; }
 

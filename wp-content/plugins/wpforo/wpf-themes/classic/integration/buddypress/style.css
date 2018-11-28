@@ -1,0 +1,60 @@
+/*
+* wpForo Style for BuddyPress Integration
+* @since: 1.4.8
+* @package: Classic
+*/
+
+#buddypress .wpforo-activity { padding: 20px;}
+#buddypress .wpforo-activity table,
+#buddypress .wpforo-activity td,
+#buddypress .wpforo-activity th,
+#buddypress .wpforo-activity td a,
+#buddypress .wpforo-activity td a,
+#buddypress .wpforo-activity th p,
+#buddypress .wpforo-activity td p{margin: 0;padding: 0;border: 0; vertical-align: baseline; font-size: 14px;}
+#buddypress .wpforo-activity td .dashicons-admin-comments,
+#buddypress .wpforo-activity td .dashicons-format-chat,
+#buddypress .wpforo-activity td .dashicons-thumbs-up,
+#buddypress .wpforo-activity td .dashicons-category{font-size: 24px; line-height: 20px; color: #888888; vertical-align: middle; margin: 0px 7px 0px 0px;}
+#buddypress .wpforo-activity td .dashicons-thumbs-up{line-height: 14px;}
+#buddypress .wpforo-activity td .dashicons-category{line-height: 15px;}
+#buddypress .wpforo-activity table{ padding-top: 10px; }
+#buddypress .wpforo-activity table td{ padding: 15px 10px 10px 10px; border-bottom: 1px solid #ddd; font-size: 14px; line-height: 18px;}
+#buddypress .wpforo-activity table td:first-child{padding-left:20px;}
+#buddypress .wpforo-activity table td:last-child{padding-right:20px;}
+#buddypress .wpforo-activity tr:nth-child(even) {background-color: transparent}
+#buddypress .wpforo-activity tr:nth-child(odd) {background-color: #F9F9F9;}
+#buddypress .wpforo-activity .wpf-item-title{font-size:17px}
+#buddypress .wpforo-activity .wpf-activity-title p{ margin: 7px 0px 3px 0px;}
+#buddypress .wpforo-activity .wpf-activity-foot{ text-align: right; border-bottom: 1px solid #ddd; display: inline-block; float: right;}
+#buddypress .wpforo-activity .wpf-activity-posts{font-size: 14px; text-transform: lowercase;}
+#buddypress .wpforo-activity .wpf-activity-date{font-size: 14px; text-transform: lowercase; text-align: right;}
+#buddypress .wpforo-activity .wpf-activity-unsb{text-align: right;}
+#buddypress .wpforo-activity .wpf-post-excerpt{ width: 100%; font-size: 12px; line-height: 18px; padding: 5px 0px;}
+#buddypress .wpforo-activity .wpf-activity-users{ vertical-align: middle;}
+#buddypress .wpforo-activity .wpf-activity-users a{display: inline-block;}
+#buddypress .wpforo-activity .wpf-activity-users img{ max-width: 30px; margin-right: 5px; line-height: 26px; background-color: #ffffff; padding: 1px; border: 1px solid #cccccc;}
+#buddypress .wpforo-activity .wpf-activity-users span{ display: inline-block; line-height: 16px; }
+#buddypress #wpforo-topics.wpforo-activity .wpf-activity-title{ width: 50%;}
+#buddypress #wpforo-posts.wpforo-activity .wpf-activity-title{ width: 60%;}
+#buddypress #wpforo-liked-posts.wpforo-activity .wpf-activity-title{ width: 60%;}
+#buddypress #wpforo-topics.wpforo-activity table td{ vertical-align: middle;}
+#buddypress .wpforo-activity .wpf-navi {margin:15px 0px;}
+#buddypress .wpforo-activity .wpf-navi.wpf-navi-topic-top{margin-top:-25px;}
+#buddypress .wpforo-activity .wpf-navi.wpf-navi-post-top{margin-top:-25px;}
+#buddypress .wpforo-activity .wpf-navi .wpf-navi-wrap{white-space:nowrap; text-align:right;}
+#buddypress .wpforo-activity .wpf-navi .wpf-navi-wrap .wpf-page-info{font-size:14px; line-height:16px; font-weight:normal; padding-right:5px;}
+#buddypress .wpforo-activity .wpf-navi .wpf-navi-wrap .wpf-prev-button{padding:4px 15px; color:#fff; font-size:14px; cursor:pointer; line-height: 16px; background-color: #888888;}
+#buddypress .wpforo-activity .wpf-navi .wpf-navi-wrap .wpf-next-button{padding:4px 15px; color:#fff; font-size:14px; cursor:pointer; line-height: 16px; background-color: #888888;}
+#buddypress .wpforo-activity .wpf-navi .wpf-navi-wrap i.fa-chevron-left{font-size:10px;}
+#buddypress .wpforo-activity .wpf-navi .wpf-navi-wrap i.fa-chevron-right{font-size:10px;}
+#buddypress .wpforo-activity .wpf-navi select.wpf-navi-dropdown {appearance: none; width: auto; -webkit-appearance: none; -moz-appearance: none; font-size: 15px; line-height: 20px; padding: 2px 10px !important; margin: 0px 1px 0px 2px; cursor: pointer; border: 1px solid #999;}
+#buddypress .wpforo-activity i{ display: inline-block; -webkit-font-smoothing: antialiased; font-family: dashicons; text-decoration: inherit; font-weight: 400; font-style: normal; -moz-transition: color .1s ease-in 0; -webkit-transition: color .1s ease-in 0; text-align: center;}
+#buddypress .wpforo-activity i.fas.fa-chevron-left:before{content: "\f341";}
+#buddypress .wpforo-activity i.fas.fa-chevron-right:before{content: "\f345";}
+@media screen and (max-width:800px) {
+    #buddypress .wpforo-activity th{display:block; text-align: left!important; padding: 10px!important; float: none; box-sizing: border-box; width: 100% !important; max-width: 100% !important; border-bottom: none!important;}
+    #buddypress .wpforo-activity td{display:block; text-align: left!important; padding: 10px!important;float: none; box-sizing: border-box; width: 100% !important; max-width: 100% !important; border-bottom: none!important;}
+    #buddypress .wpforo-activity table tr td:first-child{ padding-top:20px!important;}
+    #buddypress .wpforo-activity table tr td:last-child{ border-bottom: 1px solid #cccccc!important;}
+}

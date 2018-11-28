@@ -1,0 +1,342 @@
+/* Position of bullets on unordered lists */
+
+[dir=rtl] .fa-ul {
+	margin-left: inherit;
+	padding-left: inherit;
+	margin-right: 2.14286em;
+	padding-right: 0;
+}
+
+[dir=ltr] .fa-ul {
+	margin-left: 2.14286em;
+	padding-left: 0;
+	margin-right: inherit;
+	padding-right: inherit;
+}
+
+[dir=rtl] .fa-li {
+	left: inherit;
+	right: -2.14286em;
+}
+
+[dir=ltr] .fa-li {
+	left: -2.14286em;
+	right: inherit;
+}
+
+/* Reversible icons */
+
+[dir=rtl] .fa-hand-point-up,
+[dir=rtl] .fa-hand-point-down,
+[dir=rtl] .fa-adjust,
+[dir=rtl] .fa-ban,
+[dir=rtl] .fa-barcode,
+[dir=rtl] .fa-bed,
+[dir=rtl] .fa-beer,
+[dir=rtl] .fa-bell-slash,
+[dir=rtl] .fa-bicycle,
+[dir=rtl] .fa-bolt,
+[dir=rtl] .fa-bomb,
+[dir=rtl] .fa-book,
+[dir=rtl] .fa-chart-area,
+[dir=rtl] .fa-chart-bar,
+[dir=rtl] .fa-chart-line,
+[dir=rtl] .fa-chart-pie,
+[dir=rtl] .fa-backward,
+[dir=rtl] .fa-fast-backward,
+[dir=rtl] .fa-step-backward,
+[dir=rtl] .fa-forward,
+[dir=rtl] .fa-fast-forward,
+[dir=rtl] .fa-step-forward,
+[dir=rtl] .fa-expand,
+[dir=rtl] .fa-compress,
+[dir=rtl] .fa-bullhorn,
+[dir=rtl] .fa-spinner,
+[dir=rtl] .fa-star-half {
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1); /* IE8 */
+	transform: scale(-1,1);
+}
+
+[dir=ltr] .fa-hand-point-up,
+[dir=ltr] .fa-hand-point-down,
+[dir=ltr] .fa-adjust,
+[dir=ltr] .fa-ban,
+[dir=ltr] .fa-barcode,
+[dir=ltr] .fa-bed,
+[dir=ltr] .fa-beer,
+[dir=ltr] .fa-bell-slash,
+[dir=ltr] .fa-bicycle,
+[dir=ltr] .fa-bolt,
+[dir=ltr] .fa-bomb,
+[dir=ltr] .fa-book,
+[dir=ltr] .fa-chart-area,
+[dir=ltr] .fa-chart-bar,
+[dir=ltr] .fa-chart-line,
+[dir=ltr] .fa-chart-pie,
+[dir=ltr] .fa-backward,
+[dir=ltr] .fa-fast-backward,
+[dir=ltr] .fa-step-backward,
+[dir=ltr] .fa-forward,
+[dir=ltr] .fa-fast-forward,
+[dir=ltr] .fa-step-forward,
+[dir=ltr] .fa-expand,
+[dir=ltr] .fa-compress,
+[dir=ltr] .fa-bullhorn,
+[dir=ltr] .fa-spinner,
+[dir=ltr] .fa-star-half {
+	transform: none;
+}
+
+/* Reverse direction of spin */
+
+[dir=rtl] .fa-spin {
+	animation-direction: reverse;
+}
+
+[dir=ltr] .fa-spin {
+	animation-direction: normal;
+}
+
+/* angle-start/end */
+
+.fa-angle-start:before {
+	content: "\f104";
+}
+.fa-angle-end:before {
+	content: "\f105";
+}
+[dir=rtl] .fa-angle-start:before {
+	content: "\f105";
+}
+[dir=rtl] .fa-angle-end:before {
+	content: "\f104";
+}
+[dir=ltr] .fa-angle-start:before {
+	content: "\f104";
+}
+[dir=ltr] .fa-angle-end:before {
+	content: "\f105";
+}
+
+/* angle-double-start/end */
+
+.fa-angle-double-start:before {
+	content: "\f100";
+}
+.fa-angle-double-end:before {
+	content: "\f101";
+}
+[dir=rtl] .fa-angle-double-start:before {
+	content: "\f101";
+}
+[dir=rtl] .fa-angle-double-end:before {
+	content: "\f100";
+}
+[dir=ltr] .fa-angle-double-start:before {
+	content: "\f100";
+}
+[dir=ltr] .fa-angle-double-end:before {
+	content: "\f101";
+}
+
+/* arrow-circle-start/end */
+
+.fa-arrow-circle-start:before {
+	content: "\f0a8";
+}
+.fa-arrow-circle-end:before {
+	content: "\f0a9";
+}
+[dir=rtl] .fa-arrow-circle-start:before {
+	content: "\f0a9";
+}
+[dir=rtl] .fa-arrow-circle-end:before {
+	content: "\f0a8";
+}
+[dir=ltr] .fa-arrow-circle-start:before {
+	content: "\f0a8";
+}
+[dir=ltr] .fa-arrow-circle-end:before {
+	content: "\f0a9";
+}
+
+/* arrow-circle-o-start/end */
+
+.fa-arrow-circle-start:before {
+	content: "\f190";
+}
+.fa-arrow-circle-end:before {
+	content: "\f18e";
+}
+[dir=rtl] .fa-arrow-circle-start:before {
+	content: "\f18e";
+}
+[dir=rtl] .fa-arrow-circle-end:before {
+	content: "\f190";
+}
+[dir=ltr] .fa-arrow-circle-start:before {
+	content: "\f190";
+}
+[dir=ltr] .fa-arrow-circle-end:before {
+	content: "\f18e";
+}
+
+/* arrow-start/end */
+
+.fa-arrow-start:before {
+	content: "\f060";
+}
+.fa-arrow-end:before {
+	content: "\f061";
+}
+[dir=rtl] .fa-arrow-start:before {
+	content: "\f061";
+}
+[dir=rtl] .fa-arrow-end:before {
+	content: "\f060";
+}
+[dir=ltr] .fa-arrow-start:before {
+	content: "\f060";
+}
+[dir=ltr] .fa-arrow-end:before {
+	content: "\f061";
+}
+
+/* caret-start/end */
+
+.fa-caret-start:before {
+	content: "\f0d9";
+}
+.fa-caret-end:before {
+	content: "\f0da";
+}
+[dir=rtl] .fa-caret-start:before {
+	content: "\f0da";
+}
+[dir=rtl] .fa-caret-end:before {
+	content: "\f0d9";
+}
+[dir=ltr] .fa-caret-start:before {
+	content: "\f0d9";
+}
+[dir=ltr] .fa-caret-end:before {
+	content: "\f0da";
+}
+
+/* caret-square-start/end */
+/* toggle-start/end*/
+
+.fa-toggle-start:before,
+.fa-caret-square-start:before {
+	content: "\f191";
+}
+.fa-toggle-end:before,
+.fa-caret-square-end:before {
+	content: "\f152";
+}
+[dir=rtl] .fa-toggle-start:before,
+[dir=rtl] .fa-caret-square-start:before {
+	content: "\f152";
+}
+[dir=rtl] .fa-toggle-end:before,
+[dir=rtl] .fa-caret-square-end:before {
+	content: "\f191";
+}
+[dir=ltr] .fa-toggle-start:before,
+[dir=ltr] .fa-caret-square-start:before {
+	content: "\f191";
+}
+[dir=ltr] .fa-toggle-end:before,
+[dir=ltr] .fa-caret-square-end:before {
+	content: "\f152";
+}
+
+/* chevron-circle-start/end */
+
+.fa-chevron-circle-start:before {
+	content: "\f137";
+}
+.fa-chevron-circle-end:before {
+	content: "\f138";
+}
+[dir=rtl] .fa-chevron-circle-start:before {
+	content: "\f138";
+}
+[dir=rtl] .fa-chevron-circle-end:before {
+	content: "\f137";
+}
+[dir=ltr] .fa-chevron-circle-start:before {
+	content: "\f137";
+}
+[dir=ltr] .fa-chevron-circle-end:before {
+	content: "\f138";
+}
+
+/* chevron-start/end */
+
+.fa-chevron-start:before {
+	content: "\f053";
+}
+.fa-chevron-end:before {
+	content: "\f054";
+}
+[dir=rtl] .fa-chevron-start:before {
+	content: "\f054";
+}
+[dir=rtl] .fa-chevron-end:before {
+	content: "\f053";
+}
+[dir=ltr] .fa-chevron-start:before {
+	content: "\f053";
+}
+[dir=ltr] .fa-chevron-end:before {
+	content: "\f054";
+}
+
+/* hand-start/end */
+
+.fa-hand-start:before {
+	content: "\f0a5";
+}
+.fa-hand-end:before {
+	content: "\f0a4";
+}
+[dir=rtl] .fa-hand-start:before {
+	content: "\f0a4";
+}
+[dir=rtl] .fa-hand-end:before {
+	content: "\f0a5";
+}
+[dir=ltr] .fa-hand-start:before {
+	content: "\f0a5";
+}
+[dir=ltr] .fa-hand-end:before {
+	content: "\f0a4";
+}
+
+/* long-arrow-start/end */
+
+.fa-long-arrow-start:before {
+	content: "\f177";
+}
+.fa-long-arrow-end:before {
+	content: "\f178";
+}
+[dir=rtl] .fa-long-arrow-start:before {
+	content: "\f178";
+}
+[dir=rtl] .fa-long-arrow-end:before {
+	content: "\f177";
+}
+[dir=ltr] .fa-long-arrow-start:before {
+	content: "\f177";
+}
+[dir=ltr] .fa-long-arrow-end:before {
+	content: "\f178";
+}
+[dir=rtl] .fa-chevron-left:before {
+  content: "\f054";
+}
+[dir=rtl] .fa-chevron-right:before {
+  content: "\f053";
+}

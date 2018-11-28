@@ -1,0 +1,6108 @@
+# Copyright (C) 2016 gVectors Team
+# This file is distributed under the same license as the wpForo package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Forum - wpForo\n"
+"POT-Creation-Date: 2018-08-31 19:42+0400\n"
+"PO-Revision-Date: 2018-08-31 19:42+0400\n"
+"Last-Translator: gVectors Team <info@gvectors.com>\n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wpforo.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: wpf-admin/addons.php:14 wpf-admin/addons.php:22
+msgid "wpForo Addons"
+msgstr ""
+
+#: wpf-admin/addons.php:28
+msgid ""
+"All wpForo addons are being developed by wpForo developers at gVectors Team. "
+"Addon prices also include a small donation to the hard work wpForo "
+"developers do for free. When you buy an addon, you also donate the free "
+"wpForo development and support. Addons are the only incoming source for "
+"wpForo developers. wpForo is a premium forum plugin which will always be "
+"available for free. There will never be paid and pro versions of this forum "
+"board. We have another dozens of awesome features in our to-do list which "
+"will also be added for free in future releases. So the free wpForo "
+"development always stays on the first priority and wpForo is being extended "
+"with new free functions and features even faster than before."
+msgstr ""
+
+#: wpf-admin/addons.php:31 wpf-admin/dashboard.php:37
+msgid "Thank you!<br> Sincerely yours,<br> gVectors Team"
+msgstr ""
+
+#: wpf-admin/addons.php:51
+msgid "Installed"
+msgstr ""
+
+#: wpf-admin/addons.php:55
+msgid "Version"
+msgstr ""
+
+#: wpf-admin/addons.php:56
+msgid "at least"
+msgstr ""
+
+#: wpf-admin/addons.php:58
+msgid "Details | Buy"
+msgstr ""
+
+#: wpf-admin/addons.php:64
+msgid "More information about"
+msgstr ""
+
+#: wpf-admin/admin.php:30 wpf-admin/admin.php:31
+#: wpf-includes/wpf-phrases.php:602
+msgid "Dashboard"
+msgstr "대시보드"
+
+#: wpf-admin/admin.php:30 wpf-admin/admin.php:34 wpf-admin/dashboard.php:137
+#: wpf-admin/options-tabs/api.php:83 wpf-admin/options-tabs/styles.php:16
+#: wpf-admin/options.php:15 wpf-admin/tools-tabs/misc.php:92
+#: wpf-includes/integration/buddypress.php:11
+#: wpf-includes/integration/buddypress.php:57
+#: wpf-includes/integration/buddypress.php:129 wpf-includes/wpf-hooks.php:2195
+#: wpf-includes/wpf-phrases.php:123
+msgid "Forums"
+msgstr "포럼"
+
+#: wpf-admin/admin.php:37 wpf-includes/wpf-hooks.php:22
+#: wpf-includes/wpf-hooks.php:2201
+msgid "Settings"
+msgstr "설정"
+
+#: wpf-admin/admin.php:40 wpf-includes/wpf-hooks.php:2205
+#: wpf-includes/wpf-phrases.php:728
+msgid "Tools"
+msgstr ""
+
+#: wpf-admin/admin.php:43 wpf-includes/wpf-hooks.php:2209
+msgid "Moderation"
+msgstr ""
+
+#: wpf-admin/admin.php:46 wpf-admin/dashboard.php:149 wpf-admin/member.php:10
+#: wpf-admin/options.php:18 wpf-admin/tools-tabs/misc.php:108
+#: wpf-admin/usergroup.php:31 wpf-includes/wpf-hooks.php:2213
+#: wpf-includes/wpf-phrases.php:178
+msgid "Members"
+msgstr "회원"
+
+#: wpf-admin/admin.php:49 wpf-admin/usergroup.php:8 wpf-admin/usergroup.php:155
+#: wpf-includes/wpf-hooks.php:2217
+msgid "Usergroups"
+msgstr "사용자 그룹"
+
+#: wpf-admin/admin.php:52 wpf-includes/wpf-hooks.php:2223
+#: wpf-includes/wpf-phrases.php:603
+msgid "Phrases"
+msgstr "구문"
+
+#: wpf-admin/admin.php:55 wpf-includes/wpf-hooks.php:2229
+#: wpf-includes/wpf-phrases.php:604
+msgid "Themes"
+msgstr "테마"
+
+#: wpf-admin/admin.php:58 wpf-admin/options.php:24
+#: wpf-includes/wpf-hooks.php:2233 wpf-includes/wpf-phrases.php:25
+msgid "Addons"
+msgstr "애드온"
+
+#: wpf-admin/dashboard.php:7 wpf-includes/wpf-phrases.php:408
+msgid "wpForo Dashboard"
+msgstr "wpForo 대시보드"
+
+#: wpf-admin/dashboard.php:23 wpf-includes/wpf-phrases.php:361
+msgid "Welcome Message"
+msgstr "환영 메시지"
+
+#: wpf-admin/dashboard.php:27
+msgid "Welcome to wpForo"
+msgstr ""
+
+#: wpf-admin/dashboard.php:29
+msgid ""
+"Thank you for using wpForo! wpForo is a professional bulletin board for "
+"WorPress, and the only forum software which comes with Multi-layout template "
+"system.\n"
+"                                    The \"Extended\", \"Simplified\" and "
+"\"Question &amp Answer\" layouts fit almost all type of discussions needs. "
+"You can use wpForo for small and extremely large communities. \n"
+"                                    <br />If you found some issue or bug "
+"please open a support topic in plugin page or in our support forum at "
+"gVectors.com. If you liked wpForo please leave some good review for this "
+"plugin. We really need your good reviews. \n"
+"                                    If you didn't like wpForo please leave a "
+"list of issues and requirements you'd like us to fix and add in near future. "
+"We're here to help you and improve wpForo as much as possible."
+msgstr ""
+"wpForo를 이용해 주셔서 감사합니다! wpForo는 워드프레스를 위한 전문적인 인터"
+"넷 게시판이며, 다중-레이아웃 템플릿 시스템을 갖춘 유일한 포럼 소프트웨어입니"
+"다.\n"
+"                                    \"Extended\", \"Simplified\" 그리고 "
+"\"Question &amp Answer\" 레이아웃은 거의 모든 유형의 토론 요구사항에 적합합니"
+"다. 여러분은 wpForo를 작거나 매우 큰 커뮤니티를 위해 사용할 수 있습니다. \n"
+"                                    <br />만약 이슈 혹은 버그를 발견하면 플러"
+"그인 페이지나 gVectors.com의 지원 포럼에서 지원 주제를 열어 주세요. 만약 여러"
+"분이 wpForo를 좋아하신다면 이 플러그인을 위해 좋은 리뷰를 남겨 주세요. 우리"
+"는 정말로 여러분들의 좋은 리뷰를 필요로 합니다.\n"
+"                                    wpForo를 좋아하지 않으시면 가까운 장래에 "
+"고치거나 추가하기를 원하시는 이슈들과 요구 사항들의 목록을 남겨 주세요. 우리"
+"는 여러분들을 돕기 위해 여기에 있고 가능한 많이 wpForo를 향상시킬 것입니다."
+
+#: wpf-admin/dashboard.php:57 wpf-includes/wpf-phrases.php:130
+msgid "General Information"
+msgstr "일반 정보"
+
+#: wpf-admin/dashboard.php:61 wpf-includes/wpf-phrases.php:368
+msgid "You are currently running"
+msgstr "현재 실행 중인 버전:"
+
+#: wpf-admin/dashboard.php:62 wpf-includes/wpf-phrases.php:18
+msgid "Active Theme"
+msgstr "활성 테마"
+
+#: wpf-admin/dashboard.php:63 wpf-includes/wpf-phrases.php:413
+msgid "wpForo Website"
+msgstr "wpForo 웹사이트"
+
+#: wpf-admin/dashboard.php:64 wpf-includes/wpf-phrases.php:319
+msgid "Support Forum"
+msgstr "지원 포럼"
+
+#: wpf-admin/dashboard.php:75 wpf-includes/wpf-phrases.php:289
+msgid "Server Information"
+msgstr "서버 정보"
+
+#: wpf-admin/dashboard.php:110 wpf-includes/wpf-phrases.php:46
+msgid "Available"
+msgstr "사용 가능"
+
+#: wpf-admin/dashboard.php:110
+msgid ""
+"The setTimestamp() method of PHP DateTime class is not available. Please "
+"make sure you use PHP 5.4 and higher version on your hosting service."
+msgstr ""
+
+#: wpf-admin/dashboard.php:131 wpf-includes/wpf-phrases.php:49
+msgid "Board Statistic"
+msgstr "게시판 통계"
+
+#: wpf-admin/dashboard.php:141 wpf-admin/options-tabs/posts.php:17
+#: wpf-admin/options-tabs/styles.php:22 wpf-includes/class-forums.php:676
+#: wpf-includes/wpf-phrases.php:338
+msgid "Topics"
+msgstr "주제"
+
+#: wpf-admin/dashboard.php:145 wpf-admin/options-tabs/posts.php:18
+#: wpf-includes/class-forums.php:676 wpf-includes/wpf-phrases.php:232
+msgid "Posts"
+msgstr "글"
+
+#: wpf-admin/dashboard.php:153 wpf-includes/wpf-phrases.php:179
+msgid "Members Online"
+msgstr "온라인에 있는 회원"
+
+#: wpf-admin/dashboard.php:163
+msgid "Avatars Size"
+msgstr ""
+
+#: wpf-admin/dashboard.php:167
+msgid "Default Attachments Size"
+msgstr ""
+
+#: wpf-admin/dashboard.php:173
+msgid "Advanced Attachments"
+msgstr ""
+
+#: wpf-admin/dashboard.php:174
+msgid "file(s)"
+msgstr ""
+
+#: wpf-admin/dashboard.php:177
+msgid "Advanced Attachments Size"
+msgstr ""
+
+#: wpf-admin/dashboard.php:182
+msgid "Total Size"
+msgstr ""
+
+#: wpf-admin/dashboard.php:192 wpf-includes/wpf-phrases.php:614
+msgid "Forum Maintenance"
+msgstr "포럼 유지보수"
+
+#: wpf-admin/dashboard.php:194
+msgid ""
+"This process may take a few seconds or dozens of minutes, please be patient "
+"and don't close this page. If you got 500 Server Error please don't worry, "
+"the data updating process is still working in MySQL server."
+msgstr ""
+"이 과정은 수 초 내지 수십 분이 소요될 수 있습니다, 인내심을 가지고 이 페이지"
+"를 닫지 말아 주세요. 만약 500 서버 오류가 발생하면 걱정하시 마세요, 데이터 업"
+"데이트 과정은 MySQL 서버에서 여전히 작동 중입니다."
+
+#: wpf-admin/dashboard.php:205
+msgid "Delete All Caches"
+msgstr ""
+
+#: wpf-admin/dashboard.php:206 wpf-includes/wpf-phrases.php:616
+msgid "Update Forums Statistic"
+msgstr "포럼 통계 업데이트"
+
+#: wpf-admin/dashboard.php:207
+msgid "Update Topics Statistic"
+msgstr ""
+
+#: wpf-admin/dashboard.php:208 wpf-includes/wpf-phrases.php:617
+msgid "Update Users Statistic"
+msgstr "사용자 통계 업데이트"
+
+#: wpf-admin/dashboard.php:209 wpf-includes/wpf-phrases.php:618
+msgid "Delete Phrase Cache"
+msgstr "구문 캐시 삭제"
+
+#: wpf-admin/dashboard.php:210 wpf-includes/wpf-phrases.php:639
+msgid "Delete User Cache"
+msgstr "사용자 캐시 삭제"
+
+#: wpf-admin/dashboard.php:211
+msgid "Synch User Profiles"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:9
+msgid "Plugin Usage Feedback"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:18
+msgid ""
+"Please let us know why you are deactivating. Choosing one of the options "
+"below you will help us make it better for you and for other users."
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:24
+msgid "I'll reactivate it later"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:28
+msgid "The plugin is not working"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:29
+msgid "What kind of problems do you have?"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:33
+msgid "It's not what I was looking for"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:37
+msgid "I couldn't understand how to make it work"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:38 wpf-admin/deactivation-dialog.php:43
+msgid "What type of features you want to be in the plugin?"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:42
+msgid "The plugin is great, but I need specific features"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:47
+msgid "I didn't like plugin design"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:48
+msgid "What part of design you don't like or want to change?"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:52
+msgid "The plugin works very slow"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:53
+msgid ""
+"Could you please describe which features of the plugin slows down your "
+"website?"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:57
+msgid "I found a better plugin"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:58
+msgid "Please provide a plugin name or URL"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:62
+msgid "Other"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:63 wpf-includes/wpf-hooks.php:1192
+msgid "Please provide more information"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:67
+msgid "Dismiss and never show again"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:68
+msgid "Submit &amp; Deactivate"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:71
+msgid "Thank you for your feedback!"
+msgstr ""
+
+#: wpf-admin/forum.php:13 wpf-includes/functions.php:803
+#: wpf-includes/wpf-phrases.php:301
+msgid "Show on screen"
+msgstr "화면에 보이기"
+
+#: wpf-admin/forum.php:15 wpf-admin/forum.php:130
+#: wpf-includes/wpf-phrases.php:113
+msgid "Forum Options"
+msgstr "포럼 옵션"
+
+#: wpf-admin/forum.php:16 wpf-includes/wpf-phrases.php:223
+msgid "Permissions"
+msgstr "허가"
+
+#: wpf-admin/forum.php:17 wpf-includes/wpf-phrases.php:306
+msgid "Slug"
+msgstr "슬러그"
+
+#: wpf-admin/forum.php:18 wpf-includes/wpf-phrases.php:112
+msgid "Forum Meta"
+msgstr "포럼 메타"
+
+#: wpf-admin/forum.php:21 wpf-includes/wpf-phrases.php:273
+msgid "Screen Layout"
+msgstr "화면 레이아웃"
+
+#: wpf-admin/forum.php:22 wpf-includes/wpf-phrases.php:209
+msgid "Number of Columns"
+msgstr "열의 개수"
+
+#: wpf-admin/forum.php:32 wpf-includes/functions.php:817
+#: wpf-includes/wpf-phrases.php:274
+msgid "Screen Options"
+msgstr "화면 옵션"
+
+#: wpf-admin/forum.php:43 wpf-includes/wpf-phrases.php:51
+msgid "Categories and Forums"
+msgstr "카테고리 및 포럼"
+
+#: wpf-admin/forum.php:44 wpf-admin/options-tabs/general.php:96
+#: wpf-admin/themes.php:10 wpf-admin/usergroup.php:8
+#: wpf-includes/wpf-phrases.php:20
+msgid "Add New"
+msgstr "새로 추가"
+
+#: wpf-admin/forum.php:54 wpf-admin/forum.php:130 wpf-admin/forum.php:178
+#: wpf-admin/forum.php:194 wpf-admin/forum.php:203
+#: wpf-admin/options-tabs/accesses.php:19 wpf-admin/options-tabs/emails.php:12
+#: wpf-admin/options-tabs/emails.php:16 wpf-admin/options-tabs/emails.php:21
+#: wpf-admin/options-tabs/emails.php:28 wpf-admin/options-tabs/emails.php:40
+#: wpf-admin/options-tabs/emails.php:52 wpf-admin/options-tabs/features.php:68
+#: wpf-admin/options-tabs/general.php:14 wpf-admin/options-tabs/general.php:18
+#: wpf-admin/options-tabs/general.php:23 wpf-admin/options-tabs/general.php:33
+#: wpf-admin/options-tabs/general.php:78 wpf-admin/options-tabs/general.php:89
+#: wpf-admin/options-tabs/members.php:13 wpf-admin/options-tabs/members.php:27
+#: wpf-admin/options-tabs/members.php:46 wpf-admin/options-tabs/members.php:87
+#: wpf-admin/options-tabs/posts.php:70 wpf-admin/options-tabs/posts.php:75
+#: wpf-admin/options-tabs/posts.php:82 wpf-admin/options-tabs/posts.php:88
+#: wpf-admin/options-tabs/posts.php:93 wpf-admin/options-tabs/posts.php:100
+#: wpf-admin/options-tabs/posts.php:108 wpf-admin/options-tabs/posts.php:124
+#: wpf-admin/options-tabs/styles.php:43 wpf-admin/usergroup.php:28
+#: wpf-admin/usergroup.php:30 wpf-admin/usergroup.php:243
+#: wpf-themes/classic/functions.php:39 wpf-themes/classic/functions.php:48
+#: wpf-themes/classic/functions.php:55 wpf-themes/classic/functions.php:69
+#: wpf-themes/classic/functions.php:78 wpf-themes/classic/functions.php:85
+#: wpf-themes/classic/functions.php:107 wpf-themes/classic/functions.php:117
+msgid "Read the documentation"
+msgstr ""
+
+#: wpf-admin/forum.php:56
+msgid "Important Tips"
+msgstr ""
+
+#: wpf-admin/forum.php:57 wpf-includes/wpf-phrases.php:225
+msgid "Please drag and drop forum panels to set parent-child hierarchy."
+msgstr "상위-하위 계층을 설정하기 위해 포럼을 끌어놓기해 주세요."
+
+#: wpf-admin/forum.php:58
+msgid ""
+"If a category (blue panels) does not have forums (grey panels) it will not "
+"be displayed on front-end. Each category should contain at least one forum."
+msgstr ""
+
+#: wpf-admin/forum.php:59
+msgid ""
+"Forums can be displayed with different layouts (Extended, Simplified, Q&A), "
+"just edit the top (blue panels) category and set the layout you want. Child "
+"forums' layout depends on the top category (blue panels) layout. They cannot "
+"have a different layout."
+msgstr ""
+
+#: wpf-admin/forum.php:75 wpf-includes/wpf-phrases.php:272
+msgid "Save forums order and hierarchy"
+msgstr "포럼 순서와 계층 구조를 저장"
+
+#: wpf-admin/forum.php:112 wpf-includes/wpf-phrases.php:87
+msgid "Enter forum title here"
+msgstr "여기에 포럼 제목 입력"
+
+#: wpf-admin/forum.php:117 wpf-includes/wpf-phrases.php:86
+msgid "Enter description here . . ."
+msgstr "여기에 설명 입력 . . ."
+
+#: wpf-admin/forum.php:118 wpf-includes/wpf-phrases.php:329
+msgid ""
+"This is a forum description. This content will be displayed under forum "
+"title on the forum list."
+msgstr ""
+"이것은 포럼에 관한 설명입니다. 이 콘텐트는 포럼 리스트 상의 포럼 제목 밑에 표"
+"시됩니다."
+
+#: wpf-admin/forum.php:133 wpf-includes/wpf-phrases.php:221
+msgid "Parent Forum"
+msgstr "상위 포럼"
+
+#: wpf-admin/forum.php:136 wpf-includes/wpf-phrases.php:204
+msgid "No parent"
+msgstr "상위 없음"
+
+#: wpf-admin/forum.php:141 wpf-includes/wpf-phrases.php:346
+msgid "Use as Category"
+msgstr "카테고리로 사용"
+
+#: wpf-admin/forum.php:143 wpf-includes/wpf-phrases.php:52
+msgid "Category Layout"
+msgstr "카테고리 레이아웃"
+
+#: wpf-admin/forum.php:151 wpf-includes/wpf-phrases.php:202
+msgid "No layout found."
+msgstr "레이아웃을 찾을 수 없음."
+
+#: wpf-admin/forum.php:160 wpf-admin/forum.php:168
+#: wpf-includes/wpf-phrases.php:234
+msgid "Publish"
+msgstr "발행"
+
+#: wpf-admin/forum.php:164 wpf-includes/wpf-phrases.php:37
+msgid "Are you sure you want to delete this forum?"
+msgstr "정말로 이 포럼을 삭제하고 싶으세요?"
+
+#: wpf-admin/forum.php:164 wpf-admin/themes.php:73
+#: wpf-admin/tools-tabs/antispam.php:302 wpf-admin/usergroup.php:70
+#: wpf-admin/usergroup.php:375 wpf-includes/wpf-hooks.php:1140
+#: wpf-includes/wpf-phrases.php:66
+msgid "Delete"
+msgstr "삭제"
+
+#: wpf-admin/forum.php:165 wpf-admin/usergroup.php:72
+#: wpf-includes/class-forums.php:682 wpf-includes/wpf-phrases.php:355
+msgid "View"
+msgstr "보기 "
+
+#: wpf-admin/forum.php:166 wpf-admin/options-tabs/accesses.php:76
+#: wpf-includes/wpf-phrases.php:343
+msgid "Update"
+msgstr "업데이트 "
+
+#: wpf-admin/forum.php:178
+msgid "Forum Permissions"
+msgstr ""
+
+#: wpf-admin/forum.php:194 wpf-includes/wpf-phrases.php:118
+msgid "Forum Slug"
+msgstr "포럼 슬러그"
+
+#: wpf-admin/forum.php:197 wpf-includes/wpf-phrases.php:322
+msgid ""
+"The \"slug\" is the URL-friendly version of the name. It is usually all "
+"lowercase and contains only letters, numbers, and hyphens."
+msgstr ""
+"\"슬러그\"는 이름의 URL 친화적 버전입니다. 보통 모든 소문자로 문자, 숫, 그리"
+"고 하이픈이 포함돼 있습니다."
+
+#: wpf-admin/forum.php:203
+msgid "Forum Icon"
+msgstr ""
+
+#: wpf-admin/forum.php:206
+msgid "Font-awesome Icon"
+msgstr ""
+
+#: wpf-admin/forum.php:208
+msgid "You can find all icons"
+msgstr ""
+
+#: wpf-admin/forum.php:208
+msgid "here"
+msgstr ""
+
+#: wpf-admin/forum.php:208
+msgid ""
+"Make sure you insert a class of font-awesome icon, it should start with fa- "
+"prefix like &quot;fas fa-comments&quot;."
+msgstr ""
+
+#: wpf-admin/forum.php:215 wpf-includes/wpf-phrases.php:116
+msgid "Forum SEO"
+msgstr "포럼 SEO"
+
+#: wpf-admin/forum.php:218 wpf-includes/wpf-phrases.php:184
+msgid "Meta Description"
+msgstr "메타 설명"
+
+#: wpf-admin/forum.php:247 wpf-includes/wpf-phrases.php:328
+msgid "This action will also delete all sub-forums, topics and replies."
+msgstr "이 작업은 모든 하위 포럼들, 주제들 그리고 답변들을 삭제합니다."
+
+#: wpf-admin/forum.php:255 wpf-includes/wpf-phrases.php:137
+msgid ""
+"If you want to delete this forum and keep its sub-forums, topics and "
+"replies, please select a new target forum in dropdown below"
+msgstr ""
+"이 포럼을 지우고 그 하위 포럼들, 주제들 그리고 답변들을 유지하고 싶으면, 아"
+"래 드롭다운 메뉴에서 새로운 대상 포럼을 선택해 주세요"
+
+#: wpf-admin/forum.php:264 wpf-includes/wpf-phrases.php:26
+msgid ""
+"All sub-forums, topics and replies will be attached to selected forum. "
+"Layout will be inherited from this forum."
+msgstr ""
+"모든 하위 포럼, 주제 그리고 답글이 선택된 포럼에 배치됩니다. 레이아웃은 이 포"
+"럼으로부터 물려받습니다."
+
+#: wpf-admin/moderation.php:10
+msgid "Topic and Post Moderation"
+msgstr ""
+
+#: wpf-admin/options-tabs/accesses.php:14 wpf-includes/wpf-phrases.php:21
+msgid "Add New Forum Access"
+msgstr "새 포럼 액세스 추가"
+
+#: wpf-admin/options-tabs/accesses.php:19 wpf-includes/wpf-phrases.php:15
+msgid "Access names"
+msgstr "액세스 이름"
+
+#: wpf-admin/options-tabs/accesses.php:20
+msgid ""
+"Forum Accesses are designed to do a Forum specific user permission control. "
+"These are set of permissions which are attached to certain Usergeoup in each "
+"forum. Thus users can have different permissions in different forums based "
+"on their Usergroup."
+msgstr ""
+
+#: wpf-admin/options-tabs/accesses.php:34
+#: wpf-admin/options-tabs/accesses.php:35
+#: wpf-admin/options-tabs/accesses.php:36
+msgid "This access is usually used for "
+msgstr ""
+
+#: wpf-admin/options-tabs/accesses.php:34
+msgid "Guests"
+msgstr ""
+
+#: wpf-admin/options-tabs/accesses.php:34
+#: wpf-admin/options-tabs/accesses.php:35
+#: wpf-admin/options-tabs/accesses.php:36
+msgid "usergroup"
+msgstr ""
+
+#: wpf-admin/options-tabs/accesses.php:35 wpf-includes/wpf-phrases.php:626
+msgid "Registered"
+msgstr "가입 회원"
+
+#: wpf-admin/options-tabs/accesses.php:36 wpf-includes/wpf-phrases.php:624
+msgid "Admin"
+msgstr "관리자"
+
+#: wpf-admin/options-tabs/accesses.php:40 wpf-includes/class-forums.php:678
+#: wpf-includes/functions.php:613 wpf-includes/wpf-phrases.php:381
+msgid "edit"
+msgstr "편집"
+
+#: wpf-admin/options-tabs/accesses.php:42 wpf-includes/wpf-phrases.php:39
+msgid ""
+"Are you sure you want to remove this access set? Usergroups which attached "
+"to this access will lost all forum permissions."
+msgstr ""
+"정말로 이 액세스 설정을 제거하고 싶으세요? 이 액세스에 소속된 사용자 그룹은 "
+"모든 포럼 권한을 잃게 됩니다."
+
+#: wpf-admin/options-tabs/accesses.php:42 wpf-includes/class-forums.php:680
+#: wpf-includes/functions.php:631 wpf-includes/functions.php:641
+#: wpf-includes/wpf-phrases.php:380
+msgid "delete"
+msgstr "삭제 "
+
+#: wpf-admin/options-tabs/accesses.php:57 wpf-includes/wpf-phrases.php:14
+msgid "Access name"
+msgstr "액세스 이름"
+
+#: wpf-admin/options-tabs/accesses.php:76 wpf-includes/wpf-phrases.php:270
+msgid "Save"
+msgstr "저장하기"
+
+#: wpf-admin/options-tabs/api.php:22
+msgid "Facebook API Configuration"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:23
+msgid ""
+"In order to get an App ID and Secret Key from Facebook, you’ll need to "
+"register a new application. Don’t worry – its very easy, and your "
+"application doesn't need to do anything. We only need the keys."
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:23
+msgid "Please follow to this instruction"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:26
+msgid "App ID"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:27
+msgid "App Secret"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:32
+msgid "Facebook Login"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:33
+msgid "Adds Facebook Login button on Registration and Login pages."
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:37 wpf-admin/options-tabs/api.php:49
+#: wpf-admin/options-tabs/api.php:60 wpf-admin/options-tabs/api.php:71
+#: wpf-admin/options-tabs/api.php:140 wpf-admin/options-tabs/api.php:147
+#: wpf-admin/options-tabs/members.php:94 wpf-admin/options-tabs/posts.php:26
+#: wpf-admin/options-tabs/posts.php:42 wpf-admin/options-tabs/posts.php:54
+#: wpf-admin/tools-tabs/legal.php:48 wpf-admin/tools-tabs/legal.php:60
+#: wpf-admin/tools-tabs/legal.php:82 wpf-admin/tools-tabs/legal.php:117
+#: wpf-admin/tools-tabs/legal.php:129 wpf-admin/tools-tabs/legal.php:148
+msgid "Enable"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:38 wpf-admin/options-tabs/api.php:50
+#: wpf-admin/options-tabs/api.php:61 wpf-admin/options-tabs/api.php:72
+#: wpf-admin/options-tabs/api.php:141 wpf-admin/options-tabs/api.php:148
+#: wpf-admin/options-tabs/members.php:95 wpf-admin/options-tabs/posts.php:27
+#: wpf-admin/options-tabs/posts.php:43 wpf-admin/options-tabs/posts.php:55
+#: wpf-admin/tools-tabs/legal.php:49 wpf-admin/tools-tabs/legal.php:61
+#: wpf-admin/tools-tabs/legal.php:83 wpf-admin/tools-tabs/legal.php:118
+#: wpf-admin/tools-tabs/legal.php:130 wpf-admin/tools-tabs/legal.php:149
+msgid "Disable"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:44
+msgid "Facebook SDK for JavaScript"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:45
+msgid "Facebook API connection script (sharing, login, cross-posting...)"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:56
+msgid "Facebook Login button on User Login page"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:67
+msgid "Facebook Login button on User Registration page"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:78
+msgid "Redirect to this page after success login"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:82 wpf-includes/wpf-phrases.php:633
+msgid "Profile"
+msgstr "프로필"
+
+#: wpf-admin/options-tabs/api.php:84
+msgid "Custom"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:86
+msgid "Custom URL, e.g.: http://example.com/my-page/"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:86
+msgid "Custom URL"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:93
+msgid "Share Buttons"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:102
+msgid "Active Share Buttons"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:103
+msgid ""
+"Check the checkbox below share options to activate. <b>Please note, that the "
+"Facebook share button cannot be activated without Facebook API ID.</b> "
+"Please follow to the \"Facebook API Configuration\" option instruction above "
+"and fill the API ID field in order to activate Facebook Share button."
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:133
+msgid "Enable Share Buttons"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:138 wpf-admin/options-tabs/api.php:156
+#: wpf-admin/options-tabs/api.php:212
+msgid "General Share Buttons"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:145 wpf-admin/options-tabs/api.php:173
+#: wpf-admin/options-tabs/api.php:224
+msgid "Post Sharing Toggle"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:157
+msgid ""
+"General share buttons are forum and topic sharing buttons. They are located "
+"on the top and the bottom of each page. You can manage location of these "
+"buttons using \"Share Buttons Location\" options bellow."
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:161
+msgid "Grey"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:162
+msgid "Colored"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:165
+msgid "Icon"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:166
+msgid "Button"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:167
+msgid "Button &amp; Count"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:174
+msgid ""
+"Post sharing toggle allows you to share posts individually. You can see post "
+"sharing toggles on the left, right side or in top bar of each post. The "
+"toggle blue color is the current primary color (#12) of your forum style. "
+"For example, if you use the red forum style, the color of all share toggles "
+"will be red. This doesn't affect share button colors. They are always grey "
+"with original colors on mouse hover."
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:195 wpf-includes/wpf-phrases.php:55
+#: wpf-themes/classic/functions.php:43 wpf-themes/classic/functions.php:73
+#: wpf-themes/classic/functions.php:111
+msgid "Collapsed"
+msgstr "접힘"
+
+#: wpf-admin/options-tabs/api.php:196 wpf-includes/wpf-phrases.php:89
+#: wpf-themes/classic/functions.php:42 wpf-themes/classic/functions.php:72
+#: wpf-themes/classic/functions.php:110
+msgid "Expanded"
+msgstr "펼침"
+
+#: wpf-admin/options-tabs/api.php:199
+msgid "Mixed"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:200
+msgid "Figure"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:201
+msgid "Square"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:207
+msgid "Share Button Locations"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:208
+msgid ""
+"The post sharing toggle can be displayed either on the left side or on the "
+"top of each post. The general share buttons can be displayed on both (top "
+"and bottom) locations."
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:245 wpf-admin/options-tabs/emails.php:164
+#: wpf-admin/options-tabs/features.php:89 wpf-admin/options-tabs/forums.php:16
+#: wpf-admin/options-tabs/general.php:103
+#: wpf-admin/options-tabs/members.php:181 wpf-admin/options-tabs/posts.php:135
+#: wpf-admin/options-tabs/styles.php:93 wpf-admin/tools-tabs/antispam.php:343
+#: wpf-admin/tools-tabs/cleanup.php:49 wpf-admin/tools-tabs/legal.php:179
+#: wpf-admin/tools-tabs/misc.php:134 wpf-includes/wpf-phrases.php:344
+msgid "Update Options"
+msgstr "옵션 업데이트"
+
+#: wpf-admin/options-tabs/emails.php:12
+msgid "FROM Name"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:16
+msgid "FROM Email Address"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:21
+msgid "Forum Admins email addresses"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:22 wpf-includes/wpf-phrases.php:57
+msgid ""
+"Comma separated email addresses of forum administrators to get forum "
+"notifications. For example post report messages."
+msgstr ""
+"포럼 알림을 받을 포럼 관리자들의 이메일 주소들을 쉼표로 분리. 예를 들어 글 보"
+"고 메시지들."
+
+#: wpf-admin/options-tabs/emails.php:28
+msgid "Notify Admins via email on new Topic"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:29
+msgid ""
+"Send Notification emails to all email addresses (comma separated ) of forum "
+"administrators when a new Topic is created."
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:33 wpf-admin/options-tabs/emails.php:45
+#: wpf-admin/options-tabs/emails.php:148 wpf-admin/options-tabs/features.php:77
+#: wpf-admin/tools-tabs/antispam.php:31 wpf-admin/tools-tabs/antispam.php:40
+#: wpf-admin/tools-tabs/antispam.php:49 wpf-admin/tools-tabs/antispam.php:150
+#: wpf-admin/tools-tabs/antispam.php:159 wpf-admin/tools-tabs/antispam.php:169
+#: wpf-admin/tools-tabs/antispam.php:178 wpf-admin/tools-tabs/antispam.php:187
+#: wpf-admin/tools-tabs/antispam.php:196 wpf-admin/tools-tabs/antispam.php:205
+#: wpf-admin/tools-tabs/antispam.php:214 wpf-admin/tools-tabs/antispam.php:262
+#: wpf-admin/tools-tabs/cleanup.php:39 wpf-includes/functions-template.php:673
+#: wpf-includes/wpf-phrases.php:366
+msgid "Yes"
+msgstr "네"
+
+#: wpf-admin/options-tabs/emails.php:34 wpf-admin/options-tabs/emails.php:46
+#: wpf-admin/options-tabs/emails.php:149 wpf-admin/options-tabs/features.php:79
+#: wpf-admin/tools-tabs/antispam.php:32 wpf-admin/tools-tabs/antispam.php:41
+#: wpf-admin/tools-tabs/antispam.php:50 wpf-admin/tools-tabs/antispam.php:151
+#: wpf-admin/tools-tabs/antispam.php:160 wpf-admin/tools-tabs/antispam.php:170
+#: wpf-admin/tools-tabs/antispam.php:179 wpf-admin/tools-tabs/antispam.php:188
+#: wpf-admin/tools-tabs/antispam.php:197 wpf-admin/tools-tabs/antispam.php:206
+#: wpf-admin/tools-tabs/antispam.php:215 wpf-admin/tools-tabs/antispam.php:263
+#: wpf-admin/tools-tabs/cleanup.php:40 wpf-includes/functions-template.php:674
+#: wpf-includes/wpf-phrases.php:196
+msgid "No"
+msgstr "아니오 "
+
+#: wpf-admin/options-tabs/emails.php:40
+msgid "Notify Admins via email on new Post"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:41
+msgid ""
+"Send Notification emails to all email addresses (comma separated ) of forum "
+"administrators when a new Reply is created."
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:52 wpf-includes/wpf-phrases.php:317
+msgid "Subscription Emails"
+msgstr "구독 이메일"
+
+#: wpf-admin/options-tabs/emails.php:56 wpf-includes/wpf-phrases.php:314
+msgid "Subscribe confirmation email subject"
+msgstr "구독 확인 이메일 제목"
+
+#: wpf-admin/options-tabs/emails.php:60 wpf-includes/wpf-phrases.php:313
+msgid "Subscribe confirmation email message"
+msgstr "구독 확인 이메일 메시지"
+
+#: wpf-admin/options-tabs/emails.php:64 wpf-includes/wpf-phrases.php:195
+msgid "New topic notification email subject"
+msgstr "새 주제 알림 이메일 제목"
+
+#: wpf-admin/options-tabs/emails.php:68 wpf-includes/wpf-phrases.php:194
+msgid "New topic notification email message"
+msgstr "새 주제 알림 이메일 메시지"
+
+#: wpf-admin/options-tabs/emails.php:72 wpf-includes/wpf-phrases.php:193
+msgid "New reply notification email subject"
+msgstr "새 답변 알림 이메일 제목"
+
+#: wpf-admin/options-tabs/emails.php:76 wpf-includes/wpf-phrases.php:192
+msgid "New reply notification email message"
+msgstr "새 답변 알림 이메일 메시지"
+
+#: wpf-admin/options-tabs/emails.php:81 wpf-includes/wpf-phrases.php:227
+msgid "Post Reporting Emails"
+msgstr "글 신고 이메일"
+
+#: wpf-admin/options-tabs/emails.php:82 wpf-includes/wpf-phrases.php:331
+msgid "This message comes from post reporting pop-up form."
+msgstr "이 메시지는 글 보고 팝업 양식에서 "
+
+#: wpf-admin/options-tabs/emails.php:87 wpf-includes/wpf-phrases.php:266
+msgid "Report message subject"
+msgstr "신고 메시지 제목"
+
+#: wpf-admin/options-tabs/emails.php:92 wpf-includes/wpf-phrases.php:265
+msgid "Report message body"
+msgstr "신고 메시지 본문"
+
+#: wpf-admin/options-tabs/emails.php:97
+msgid "New User Registration Email for admins"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:98 wpf-admin/options-tabs/emails.php:114
+msgid "This message comes when new user registers to site"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:103 wpf-admin/options-tabs/emails.php:119
+msgid "Message Subject"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:108 wpf-admin/options-tabs/emails.php:124
+msgid "Message Body"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:113
+msgid "New User Registration Email for user"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:129
+msgid "Reset Password Emails"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:130
+msgid "This message comes from Reset Password form."
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:134
+msgid "Reset Password message body"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:139
+msgid "User Mentioning Email"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:144
+msgid "Enable Email Notification"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:154
+msgid "User Mention message subject"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:158
+msgid "User Mention message body"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:9 wpf-includes/wpf-phrases.php:294
+msgid "Show Admin Bar for Members"
+msgstr "회원들을 위해 관리자 표시줄 표시"
+
+#: wpf-admin/options-tabs/features.php:9 wpf-includes/wpf-phrases.php:332
+msgid "This option doesn't affect website admins."
+msgstr "이 옵션은 웹사이트 관리자에 영향을 주지 않습니다."
+
+#: wpf-admin/options-tabs/features.php:10 wpf-includes/wpf-phrases.php:296
+msgid "Show Forum Page Title"
+msgstr "포럼 페이지 제목 보이기"
+
+#: wpf-admin/options-tabs/features.php:11 wpf-includes/wpf-phrases.php:299
+msgid "Show Top/Menu Bar"
+msgstr "상단/메뉴 표시줄 보이기"
+
+#: wpf-admin/options-tabs/features.php:12 wpf-includes/wpf-phrases.php:298
+msgid "Show Top Search"
+msgstr "상위 검색 보이기"
+
+#: wpf-admin/options-tabs/features.php:13 wpf-includes/wpf-phrases.php:295
+msgid "Show Breadcrumb"
+msgstr "브레드크럼 보이기"
+
+#: wpf-admin/options-tabs/features.php:14 wpf-includes/wpf-phrases.php:297
+msgid "Show Forum Statistic"
+msgstr "포럼 통계 보이기"
+
+#: wpf-admin/options-tabs/features.php:15
+msgid "Show Member Mention Nicknames"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:16
+msgid "Enable WordPress Shortcodes in Post Content"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:17 wpf-includes/wpf-phrases.php:697
+msgid "Log Viewed Forums and Topics"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:18 wpf-includes/wpf-phrases.php:257
+msgid "Replace Author Link to Forum Profile"
+msgstr "포럼 프로필에 대한 작성자 링크 바꾸기"
+
+#: wpf-admin/options-tabs/features.php:19 wpf-includes/wpf-phrases.php:258
+msgid "Replace Comment Author Link to Forum Profile"
+msgstr "포럼 프로필에 대한 댓글 작성자 링크 바꾸기"
+
+#: wpf-admin/options-tabs/features.php:20 wpf-includes/wpf-phrases.php:636
+msgid "Enable User Registration"
+msgstr "회원가입 활성화"
+
+#: wpf-admin/options-tabs/features.php:20 wpf-includes/wpf-phrases.php:637
+msgid ""
+"This option is not synced with WordPress \"Anyone can register\" option in "
+"Dashboard > Settings > General admin page. If this option is enabled new "
+"users will always be able to register."
+msgstr ""
+"이 옵션은 알림판 > 설정 > 일반 페이지에서 워드프레스 \"누구나 가입할 수 있습"
+"니다\" 옵션과 동기화되지 않습니다. 만약 이 옵션이 활성화되면 새로운 사용자들"
+"은 항상 가입을 할 수 있게 됩니다."
+
+#: wpf-admin/options-tabs/features.php:21
+msgid "Enable User Registration email confirmation"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:21
+msgid ""
+"If you have enabled this option, after registering, user can not login "
+"without confirming the email."
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:22 wpf-includes/wpf-phrases.php:260
+msgid "Replace Registration Page URL to Forum Registration Page URL"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:23 wpf-includes/wpf-phrases.php:259
+msgid "Replace Login Page URL to Forum Login Page URL"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:24 wpf-includes/wpf-phrases.php:698
+msgid "Replace Reset Password Page URL to Forum Reset Password Page URL"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:25 wpf-includes/wpf-phrases.php:256
+msgid "Replace Author Avatar with Forum Profile Avatar"
+msgstr "작성자 아바타를 포럼 프로필 아바타로 바꾸기"
+
+#: wpf-admin/options-tabs/features.php:26 wpf-includes/wpf-phrases.php:77
+msgid "Enable Avatars"
+msgstr "아바타 사용"
+
+#: wpf-admin/options-tabs/features.php:27 wpf-includes/wpf-phrases.php:78
+msgid "Enable Custom Avatars"
+msgstr "사용자 정의 아바타 사용"
+
+#: wpf-admin/options-tabs/features.php:28 wpf-includes/wpf-phrases.php:31
+msgid "Allow Member Signature"
+msgstr "회원 서명 허용"
+
+#: wpf-admin/options-tabs/features.php:29 wpf-includes/wpf-phrases.php:80
+msgid "Enable Member Rating"
+msgstr "회원 등급 사용"
+
+#: wpf-admin/options-tabs/features.php:30 wpf-includes/wpf-phrases.php:81
+msgid "Enable Member Rating Titles"
+msgstr "회원 등급 명칭 사용"
+
+#: wpf-admin/options-tabs/features.php:31 wpf-includes/wpf-phrases.php:79
+msgid "Enable Member Cache"
+msgstr "회원 캐시 사용"
+
+#: wpf-admin/options-tabs/features.php:32
+msgid "Enable Object Cache"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:33
+msgid "Enable HTML Cache"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:34
+msgid "Enable Memory Cache"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:35 wpf-includes/wpf-phrases.php:84
+msgid "Enable wpForo SEO for Meta Titles"
+msgstr "메타 제목을 위해 wpForo SEO 사용"
+
+#: wpf-admin/options-tabs/features.php:36 wpf-includes/wpf-phrases.php:83
+msgid "Enable wpForo SEO for Meta Tags"
+msgstr "메타 태그를 위해 wpForo SEO 사용"
+
+#: wpf-admin/options-tabs/features.php:37
+msgid "Enable User Profile Page indexing"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:38 wpf-includes/wpf-phrases.php:699
+msgid "Enable RSS Feed"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:39
+msgid "Turn Off User Syncing Note"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:40
+msgid "BuddyPress Activity Integration"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:40
+msgid ""
+"Posts members activity (new topic, new reply, post like) to BuddyPress "
+"Profile Activity page."
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:41
+msgid "BuddyPress Notification Integration"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:41
+msgid ""
+"Creates notification on new forum reply in BuddyPress Profile Notification "
+"page."
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:42
+msgid "BuddyPress Profile Forum Tab Integration"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:42
+msgid ""
+"Adds \"Forums\" tab with \"Created Topics\", \"Posted Replies\", \"Liked "
+"Posts\" and \"Subscriptions\" sub-tabs to BuddyPress Profile page."
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:43
+msgid "Replace Forum Profile with BuddyPress Profile"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:43
+msgid "Replaces wpForo Member Profile page with BuddyPress Profile Page."
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:44
+msgid "Ultimate Member Notification Integration"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:44
+msgid ""
+"Creates notification on new forum reply in Ultimate Member Real-time "
+"Notification system."
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:45
+msgid "Ultimate Member Profile Forum Tab Integration"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:45
+msgid ""
+"Adds \"Forums\" tab with \"Created Topics\", \"Posted Replies\", \"Liked "
+"Posts\" and \"Subscriptions\" sub-tabs to Ultimate Member Profile page."
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:46
+msgid "Replace Forum Profile with Ultimate Member Profile"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:46
+msgid "Replaces wpForo Member Profile page with Ultimate Member Profile Page."
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:47 wpf-includes/wpf-phrases.php:82
+msgid "Enable wpForo Font-Awesome Lib"
+msgstr "메타 태그를 위해 wpForo Font-Awesome Lib 사용"
+
+#: wpf-admin/options-tabs/features.php:48 wpf-includes/wpf-phrases.php:85
+msgid "Enable Output Buffer"
+msgstr "출력 버퍼 사용"
+
+#: wpf-admin/options-tabs/features.php:48 wpf-includes/wpf-phrases.php:330
+msgid ""
+"This feature is useful if you're adding content before or after [wpforo] "
+"shortcode in page content. Also it useful if forum is loaded before website "
+"header, on top of the front-end."
+msgstr ""
+"이 기능은 페이지 내용에서 [wpforo] 쇼트코드 앞 혹은 뒤에 내용을 추가할 때 유"
+"용합니다. 또한 프론트-엔드의 상단에서 웹사이트 헤더 전에 포럼이 로딩될 때에"
+"도 유용합니다."
+
+#: wpf-admin/options-tabs/features.php:49
+msgid "Enable WordPress Date/Time Format"
+msgstr "워드프레스 날짜/시간 형식 사용"
+
+#: wpf-admin/options-tabs/features.php:49 wpf-includes/wpf-phrases.php:601
+msgid ""
+"You can manage WordPress date and time format in WordPress Settings > "
+"General admin page."
+msgstr ""
+"워드프레스 설정 > 일반 관리 페이지에서 워드프레스 날짜와 시간 형식을 관리할 "
+"수 있습니다."
+
+#: wpf-admin/options-tabs/features.php:50 wpf-includes/wpf-phrases.php:612
+msgid "Enable Subscription Confirmation"
+msgstr "구독 확인 활성화"
+
+#: wpf-admin/options-tabs/features.php:50 wpf-includes/wpf-phrases.php:613
+msgid "Forum and Topic subscription with double opt-in/confirmation system."
+msgstr "이중 사전동의/확인 시스템으로 포럼과 주제 구독."
+
+#: wpf-admin/options-tabs/features.php:51
+msgid "Topic subscription option on post editor"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:51
+msgid ""
+"This option adds topic subscription checkbox next to new topic and post "
+"submit button."
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:52
+msgid "Topic subscription option on post editor - checked/enabled"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:52
+msgid ""
+"Enable this option if you want the topic subscription checkbox to be checked "
+"by default."
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:53
+msgid "Role-Usergroup Synchronization"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:53
+msgid ""
+"Keep enabled this option to synch WordPress User Roles with Forum "
+"Usergroups. This connection allows to automatically change Usergroup of a "
+"user when his/her User Role is changed by administrators or by membership "
+"plugins. In other words this option allows to manage Usergroups based on "
+"Users Roles, thus you can directly control users forum accesses based on "
+"Users Roles. If this option is turned off, User Roles don't have any "
+"affection to users forum accesses, they are only controlled by forum "
+"Usergroups."
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:54 wpf-includes/wpf-phrases.php:640
+msgid "Insert Forum Attachments to Media Library"
+msgstr "포럼 첨부파일을 미디어 라이브러리에 업로드"
+
+#: wpf-admin/options-tabs/features.php:54 wpf-includes/wpf-phrases.php:641
+msgid ""
+"Enable this option to be able manage forum attachments in Dashboard > Media "
+"> Library admin page."
+msgstr ""
+"알림판 > 미디어 > 라이브러리 관리자 페이지에서 포럼 첨부파일을 관리할 수 있도"
+"록 이 옵션을 활성화."
+
+#: wpf-admin/options-tabs/features.php:55 wpf-includes/wpf-phrases.php:605
+msgid "Enable Debug Mode"
+msgstr "디버그 모드 사용"
+
+#: wpf-admin/options-tabs/features.php:55 wpf-includes/wpf-phrases.php:606
+msgid ""
+"If you got some issue with wpForo, please enable this option before asking "
+"for support, this outputs hidden important information to help us debug your "
+"issue."
+msgstr ""
+"wpForo 사용에 문제가 생기면 지원을 요청하기 전에 이 옵션을 사용해 주세요. 여"
+"러분이 겪는 문제를 도울 숨겨진 중요한 정보가 출력됩니다."
+
+#: wpf-admin/options-tabs/features.php:56 wpf-includes/wpf-phrases.php:134
+msgid "Help wpForo to grow, show plugin info"
+msgstr "wpForo가 성장하도록 돕기, 플러그인 정보 보기"
+
+#: wpf-admin/options-tabs/features.php:56 wpf-includes/wpf-phrases.php:226
+msgid ""
+"Please enable this option to help wpForo get more popularity as your thank "
+"to the hard work we do for you totally free. This option adds a very small "
+"icon in forum footer, which will allow your site visitors recognize the name "
+"of forum solution you use."
+msgstr ""
+"wpFpro가 완전히 무료로 제공되도록 우리가 어려운 일을 하는 것에 대한 당신의 감"
+"사로 더 많은 인기를 얻을 수 있도록 이 옵션을 활성화해 주세요. 이 옵션은 당신"
+"의 사이트 방문자들이 당신이 사용하는 포럼 솔루션의 이름을 인식할 수 있도록 허"
+"용해 주는 매우 작은 아이콘을 포럼 바닥글에 추가합니다."
+
+#: wpf-admin/options-tabs/features.php:74
+msgid "Sitewide"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:75 wpf-includes/class-subscribes.php:26
+#: wpf-includes/wpf-phrases.php:101 wpforo.php:258
+msgid "Forum"
+msgstr "포럼"
+
+#: wpf-admin/options-tabs/features.php:80
+msgid "Thank you!"
+msgstr ""
+
+#: wpf-admin/options-tabs/general.php:14 wpf-includes/wpf-phrases.php:121
+msgid "Forum Title"
+msgstr "포럼 제목"
+
+#: wpf-admin/options-tabs/general.php:18 wpf-includes/wpf-phrases.php:108
+msgid "Forum Description"
+msgstr "포럼 설명"
+
+#: wpf-admin/options-tabs/general.php:23 wpf-includes/wpf-phrases.php:107
+msgid "Forum Base URL"
+msgstr "포럼 기본 URL"
+
+#: wpf-admin/options-tabs/general.php:24
+msgid ""
+"If you want to set forum on home page, please do not use the \"Turn "
+"WordPress to wpForo\" option. The correct instruction can be found in "
+"documentation here"
+msgstr ""
+
+#: wpf-admin/options-tabs/general.php:24
+msgid "Set Forum on Home Page"
+msgstr ""
+
+#: wpf-admin/options-tabs/general.php:33 wpf-includes/wpf-phrases.php:650
+msgid "Turn WordPress to wpForo"
+msgstr "워드프레스를 wpForo로 바꾸기"
+
+#: wpf-admin/options-tabs/general.php:34
+msgid ""
+"This option will disable WordPress on front-end. Only forum pages and "
+"excluded post/pages will be available. wpForo will look like as a stand-"
+"alone forum."
+msgstr ""
+
+#: wpf-admin/options-tabs/general.php:37
+msgid "Exclude page URLs"
+msgstr ""
+
+#: wpf-admin/options-tabs/general.php:37
+msgid "one URL per line"
+msgstr ""
+
+#: wpf-admin/options-tabs/general.php:47 wpf-includes/wpf-hooks.php:2183
+msgid "Visit Forum"
+msgstr "포럼 방문"
+
+#: wpf-admin/options-tabs/general.php:50
+msgid ""
+"wpForo PageID doesn't exist. Forums will not be loaded, please read this"
+msgstr ""
+
+#: wpf-admin/options-tabs/general.php:50
+msgid "support topic"
+msgstr ""
+
+#: wpf-admin/options-tabs/general.php:52
+msgid "Forum Page ID"
+msgstr ""
+
+#: wpf-admin/options-tabs/general.php:58
+msgid "Forum Page Slugs (URL Paths)"
+msgstr ""
+
+#: wpf-admin/options-tabs/general.php:59
+msgid ""
+"Here you can set custom base paths for forum pages. For example the default "
+"Profile URL base path is /profile/, if this conflicts with other plugins you "
+"can change it to /user/ or so..."
+msgstr ""
+
+#: wpf-admin/options-tabs/general.php:78 wpf-includes/wpf-phrases.php:64
+msgid "Dashboard Menu Position"
+msgstr "대시보드 메뉴 위치"
+
+#: wpf-admin/options-tabs/general.php:79 wpf-includes/wpf-phrases.php:323
+msgid "The position in the menu order wpForo should appear."
+msgstr "wpForo가 표시해야 되는 메뉴 순서에서의 위치"
+
+#: wpf-admin/options-tabs/general.php:80 wpf-includes/wpf-phrases.php:348
+msgid ""
+"Use greater than 5 - below Posts, 10 - below Media, 15 - below Links, 20 - "
+"below Pages, 25 - below comments, 60 - below first separator, 65 - below "
+"Plugins, 70 - below Users, 75 - below Tools, 80 - below Settings, 100 - "
+"below second separator"
+msgstr ""
+"5이상 - 글 아래, 10- 미디어 아래, 15 - 링크 아래, 20 - 페이지 아래, 25 - 댓"
+"글 아래, 60 - 첫 번째 분리자 아래, 65 - 플러그인 아래, 70 - 사용자 아래, 75 "
+"- 도구 아래, 80 - 설정 아래, 100 - 두 번째 분리자 아래"
+
+#: wpf-admin/options-tabs/general.php:84
+msgid "More info"
+msgstr ""
+
+#: wpf-admin/options-tabs/general.php:89
+msgid "XML Based Language"
+msgstr ""
+
+#: wpf-admin/options-tabs/general.php:90
+msgid ""
+"This option is only related to XML language files. You should upload a "
+"translation XML file to have a new language option in this drop-down. If you "
+"are using PO/MO translation files you should change WordPress Language in "
+"Dashboard > Settings admin page to load according translation for wpForo."
+msgstr ""
+
+#: wpf-admin/options-tabs/general.php:115 wpf-includes/wpf-phrases.php:144
+msgid "Language XML file"
+msgstr "언어 XML 파일"
+
+#: wpf-admin/options-tabs/general.php:124 wpf-includes/wpf-phrases.php:22
+msgid "Add New Language"
+msgstr "새 언어 추가"
+
+#: wpf-admin/options-tabs/members.php:13 wpf-includes/wpf-phrases.php:217
+msgid "Online status timeout"
+msgstr "온라인 상태 타임아웃"
+
+#: wpf-admin/options-tabs/members.php:16 wpf-admin/options-tabs/posts.php:78
+#: wpf-admin/options-tabs/posts.php:85 wpf-admin/options-tabs/posts.php:96
+#: wpf-admin/options-tabs/posts.php:103 wpf-includes/wpf-phrases.php:390
+msgid "minutes"
+msgstr "분"
+
+#: wpf-admin/options-tabs/members.php:20
+msgid "Number of Members per Page"
+msgstr ""
+
+#: wpf-admin/options-tabs/members.php:27 wpf-includes/wpf-phrases.php:180
+msgid "Members URL structure"
+msgstr "회원 URL 구조"
+
+#: wpf-admin/options-tabs/members.php:36 wpf-includes/wpf-phrases.php:700
+msgid "Members Search Type"
+msgstr ""
+
+#: wpf-admin/options-tabs/members.php:39 wpf-includes/functions.php:366
+#: wpf-includes/functions.php:368 wpf-includes/wpf-phrases.php:275
+msgid "Search"
+msgstr "검색"
+
+#: wpf-admin/options-tabs/members.php:40
+msgid "Filter"
+msgstr ""
+
+#: wpf-admin/options-tabs/members.php:46 wpf-includes/wpf-phrases.php:62
+msgid "Custom Authorization URLs"
+msgstr "사용자 정의 인증 URL"
+
+#: wpf-admin/options-tabs/members.php:48
+msgid ""
+"Use this option only if you have set other pages for authorization. \n"
+"                        wpForo doesn't change its own URLs, these options "
+"are only for other plugin compatibility. \n"
+"                        For example, if you use BuddyPress or Ultimate "
+"Member plugin you can set these values:"
+msgstr ""
+"인증을 위해 다른 페이지를 설정하는 경우에만 이 옵션을 이용하세요. \n"
+"                        wpForo은 URL 자체를 변경하지 않으며, 이 옵션은 다른 "
+"플러그인과의 호환성을 위한 것입니다. \n"
+"                        예를 들어, 버디프레스나 Ultimate Member 플러그인을 사"
+"용하고 있으면 이런 값들을 설정할 수 있습니다:"
+
+#: wpf-admin/options-tabs/members.php:51 wpf-admin/options-tabs/members.php:57
+#: wpf-includes/wpf-phrases.php:162
+msgid "Login URL"
+msgstr "로그인 URL"
+
+#: wpf-admin/options-tabs/members.php:52 wpf-admin/options-tabs/members.php:58
+#: wpf-includes/wpf-phrases.php:252
+msgid "Register URL"
+msgstr "회원가입 URL"
+
+#: wpf-admin/options-tabs/members.php:59 wpf-includes/wpf-phrases.php:164
+msgid "Lost Password URL"
+msgstr "비밀번호 분실 URL"
+
+#: wpf-admin/options-tabs/members.php:65
+msgid "Custom Redirection URLs after following actions"
+msgstr ""
+
+#: wpf-admin/options-tabs/members.php:67
+msgid "For member profile, account and subscription pages use following URLs:"
+msgstr ""
+
+#: wpf-admin/options-tabs/members.php:79
+msgid "Redirect after login"
+msgstr ""
+
+#: wpf-admin/options-tabs/members.php:80
+msgid "Redirect after registration"
+msgstr ""
+
+#: wpf-admin/options-tabs/members.php:81
+msgid "Redirect after subscription confirmation"
+msgstr ""
+
+#: wpf-admin/options-tabs/members.php:87 wpf-includes/wpf-phrases.php:175
+msgid "Member Reputation and Titles"
+msgstr ""
+
+#: wpf-admin/options-tabs/members.php:91
+msgid "Member Custom Titles"
+msgstr ""
+
+#: wpf-admin/options-tabs/members.php:100
+msgid "Member Custom Title by default"
+msgstr ""
+
+#: wpf-admin/options-tabs/members.php:110 wpf-includes/wpf-phrases.php:247
+msgid "Rating Level"
+msgstr "등급 레벨"
+
+#: wpf-admin/options-tabs/members.php:111 wpf-includes/wpf-phrases.php:185
+msgid "Min Number of Posts"
+msgstr "최소 글 개수"
+
+#: wpf-admin/options-tabs/members.php:112 wpf-includes/wpf-phrases.php:176
+msgid "Member Title"
+msgstr "회원 명칭"
+
+#: wpf-admin/options-tabs/members.php:113 wpf-includes/wpf-phrases.php:293
+msgid "Short Badge"
+msgstr "짧은 배지"
+
+#: wpf-admin/options-tabs/members.php:114 wpf-includes/wpf-phrases.php:128
+msgid "Full Badge"
+msgstr "전체 배지"
+
+#: wpf-admin/options-tabs/members.php:115 wpf-includes/wpf-phrases.php:245
+msgid "Rating Color"
+msgstr "등급 색상"
+
+#: wpf-admin/options-tabs/members.php:116 wpf-includes/wpf-phrases.php:246
+msgid "Rating Icon"
+msgstr "등급 아이콘"
+
+#: wpf-admin/options-tabs/members.php:116 wpf-includes/wpf-phrases.php:187
+msgid "More"
+msgstr "더 보기"
+
+#: wpf-admin/options-tabs/members.php:121 wpf-includes/wpf-phrases.php:158
+msgid "Level"
+msgstr "레벨"
+
+#: wpf-admin/options-tabs/members.php:122 wpf-includes/wpf-phrases.php:211
+msgid "Number of Posts"
+msgstr "글의 개수"
+
+#: wpf-admin/options-tabs/members.php:123 wpf-includes/wpf-phrases.php:63
+msgid "Custom Title"
+msgstr "사용자 정의 제목"
+
+#: wpf-admin/options-tabs/members.php:126 wpf-admin/usergroup.php:34
+#: wpf-includes/wpf-phrases.php:56
+msgid "Color"
+msgstr "색상"
+
+#: wpf-admin/options-tabs/members.php:127 wpf-includes/wpf-phrases.php:48
+msgid "Badge Icon"
+msgstr "배지 아이콘"
+
+#: wpf-admin/options-tabs/members.php:133
+msgid "Enable Reputation Titles for selected usergroups"
+msgstr "선택된 사용자 그룹의 등급 명칭 활성화"
+
+#: wpf-admin/options-tabs/members.php:134
+msgid ""
+"This option depends on \"Enable Member Rating Titles\" parent option, witch "
+"located in wpForo Settings > Features Tab"
+msgstr ""
+"이 옵션은 wpForo 설정 > 주요 기능 탭에 있는 \"회원 등급 명칭 사용\" 상위 옵션"
+"에 따라 결정됩니다"
+
+#: wpf-admin/options-tabs/members.php:147
+msgid "Enable Reputation Badges for selected usergroups"
+msgstr "선택된 사용자 그룹의 등급 배지 활성화"
+
+#: wpf-admin/options-tabs/members.php:148
+msgid ""
+"This option depends on \"Enable Member Rating\" parent option, witch located "
+"in wpForo Settings > Features Tab"
+msgstr ""
+"이 옵션은 wpForo 설정 > 주요 기능 탭에 있는 \"회원 등급 사용\" 상위 옵션에 따"
+"라 결정됩니다"
+
+#: wpf-admin/options-tabs/members.php:161
+msgid "Display Usergroup under Post Author Avatar"
+msgstr ""
+
+#: wpf-admin/options-tabs/plugins.php:9
+msgid ""
+"Thank you for using wpForo. wpForo is a premium forum plugin which will "
+"always be available for free. There will never be paid and pro versions of "
+"this forum board. However this is a very large and hard project so we also "
+"develop paid addons (extensions), which will financially help us to keep "
+"improving and adding new features to the free wpForo plugin. Forum addons "
+"will also be actively developed. The first addons \"Advanced Media Uploader"
+"\", \"Polls\", \"Private Messages\" and \"Ad Manager\" will be available "
+"very soon. Once you got some addon and activated that, you will find "
+"settings in vertical subTabs here."
+msgstr ""
+"wpForo를 사용해 주셔서 감사합니다. wpForo는 언제나 무료로 사용할 수 있는 프리"
+"미엄 포럼 플러그인입니다. 이 포럼 게시판의 유료와 프로 버전은 결코 없을 것입"
+"니다. 하지만 이는 매우 크고 어려운 프로젝트로 무료 wpForo 플러그인에 새로운 "
+"기능들을 추가하고 발전을 유지하도록 우리를 경제적으로 도울 유료 애드온(확장기"
+"능)을 개발하려고 합니다. 첫 번째 애드온 \"Advanced Media Uploader\", \"Polls"
+"\", \"Private Messages\" 그리고 \"Ad Manager\"은 곧 사용 가능할 예정입니다. "
+"일단 애드온을 설치하고 활성화하면, 당신은 이곳의 수직 하위탭에서 설정들을 찾"
+"을 수 있게 될 것입니다."
+
+#: wpf-admin/options-tabs/posts.php:14
+msgid "Recent Posts Display Type"
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:23
+msgid "Enable Topic Tags"
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:32
+msgid "Maximum Number of Tags per Topic"
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:37
+msgid "Display Topic Editing Information"
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:38
+msgid ""
+"The post edit logging information \"This post was modified 2 hours ago by "
+"John\" is displayed under modified topic first post content.."
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:49
+msgid "Display Post Editing Information"
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:50
+msgid ""
+"The post edit logging information \"This post was modified 2 hours ago by "
+"John\" is displayed under modified post content.."
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:61
+msgid "Limit Post Editing Information"
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:62
+msgid ""
+"Limit the post edit logging information \"This post was modified 2 hours ago "
+"by John\""
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:63
+msgid "Set this option value 0 if you want to disable limiting"
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:70 wpf-includes/wpf-phrases.php:213
+msgid "Number of Topics per Page"
+msgstr "페이지당 주제의 개수"
+
+#: wpf-admin/options-tabs/posts.php:75 wpf-includes/wpf-phrases.php:30
+msgid "Allow Edit Own Topic for"
+msgstr "자신의 주제 편집 허용"
+
+#: wpf-admin/options-tabs/posts.php:76 wpf-admin/options-tabs/posts.php:83
+#: wpf-admin/options-tabs/posts.php:94 wpf-admin/options-tabs/posts.php:101
+msgid "Set this option value 0 if you want to remove time limit."
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:82 wpf-includes/wpf-phrases.php:27
+msgid "Allow Delete Own Topic for"
+msgstr "자신의 주제 삭제 허용"
+
+#: wpf-admin/options-tabs/posts.php:88 wpf-includes/wpf-phrases.php:212
+msgid "Number of Posts per Page"
+msgstr "페이지당 글의 개수"
+
+#: wpf-admin/options-tabs/posts.php:93 wpf-includes/wpf-phrases.php:29
+msgid "Allow Edit Own Post for"
+msgstr "자신의 글 편집 허용"
+
+#: wpf-admin/options-tabs/posts.php:100 wpf-includes/wpf-phrases.php:28
+msgid "Allow Delete Own post for"
+msgstr "자신의 글 삭제 허용"
+
+#: wpf-admin/options-tabs/posts.php:108 wpf-includes/wpf-phrases.php:169
+msgid "Maximum upload file size"
+msgstr "최대 업로드 파일 크기"
+
+#: wpf-admin/options-tabs/posts.php:109 wpf-includes/wpf-phrases.php:370
+msgid ""
+"You can not set this value more than \"upload_max_filesize\" and "
+"\"post_max_size\". If you want to increase server parameters please contact "
+"to your hosting service support."
+msgstr ""
+"\"upload_max_filesize\" 그리고 \"post_max_size\" 이상으로 이 값을 설정할 수 "
+"없습니다. 서버 매개 변수들을 증가시키고 싶으시면 호스팅 서비스 지원 담당자에"
+"게 문의하세요."
+
+#: wpf-admin/options-tabs/posts.php:112 wpf-includes/wpf-phrases.php:166
+msgid "MB"
+msgstr "MB"
+
+#: wpf-admin/options-tabs/posts.php:115 wpf-includes/wpf-phrases.php:288
+msgid "Server \"upload_max_filesize\" is "
+msgstr "서버 \"upload_max_filesize\"는"
+
+#: wpf-admin/options-tabs/posts.php:116 wpf-includes/wpf-phrases.php:287
+msgid "Server \"post_max_size\" is "
+msgstr "서버 \"post_max_size\"는"
+
+#: wpf-admin/options-tabs/posts.php:124
+msgid "Attachment click - message for non-permitted users"
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:125
+msgid ""
+"This message will be displayed when a non-permitted forum member clicks on "
+"attached file link in topic and posts."
+msgstr ""
+
+#: wpf-admin/options-tabs/styles.php:13
+msgid "Font Sizes"
+msgstr "폰트 크기"
+
+#: wpf-admin/options-tabs/styles.php:28 wpf-admin/tools-tabs/antispam.php:226
+#: wpf-includes/wpf-phrases.php:480
+msgid "Post Content"
+msgstr "글 내용"
+
+#: wpf-admin/options-tabs/styles.php:36 wpf-includes/wpf-phrases.php:61
+msgid "Custom CSS Code"
+msgstr "사용자 정의 CSS 코드"
+
+#: wpf-admin/options-tabs/styles.php:43
+msgid "Forum Color Styles"
+msgstr "포럼 색상 스타일"
+
+#: wpf-admin/options-tabs/styles.php:43
+msgid "Colors Documentation"
+msgstr ""
+
+#: wpf-admin/options.php:8 wpf-includes/wpf-phrases.php:117
+msgid "Forum Settings"
+msgstr "포럼 설정"
+
+#: wpf-admin/options.php:14 wpf-includes/wpf-phrases.php:129
+msgid "General"
+msgstr "일반"
+
+#: wpf-admin/options.php:16 wpf-includes/wpf-phrases.php:105
+msgid "Forum Accesses"
+msgstr "포럼 액세스"
+
+#: wpf-admin/options.php:17 wpf-includes/wpf-phrases.php:339
+msgid "Topics &amp; Posts"
+msgstr "주제 &amp; 글"
+
+#: wpf-admin/options.php:19 wpf-includes/wpf-phrases.php:76
+msgid "Emails"
+msgstr "이메일"
+
+#: wpf-admin/options.php:20 wpf-includes/wpf-phrases.php:96
+msgid "Features"
+msgstr "주요 기능 "
+
+#: wpf-admin/options.php:22 wpf-includes/wpf-phrases.php:311
+msgid "Styles"
+msgstr "스타일"
+
+#: wpf-admin/options.php:23
+msgid "API's"
+msgstr ""
+
+#: wpf-admin/phrase.php:10 wpf-includes/wpf-phrases.php:127
+msgid "Front-end Phrases"
+msgstr "전면 문구"
+
+#: wpf-admin/themes.php:9 wpf-includes/wpf-phrases.php:120
+msgid "Forum Themes"
+msgstr "포럼 테마"
+
+#: wpf-admin/themes.php:46 wpf-includes/wpf-phrases.php:60
+msgid "Current active theme"
+msgstr "현재 활성 테마"
+
+#: wpf-admin/themes.php:48 wpf-includes/wpf-phrases.php:138
+msgid "Inactive"
+msgstr "비활성"
+
+#: wpf-admin/themes.php:52 wpf-includes/wpf-phrases.php:143
+msgid "LAYOUTS"
+msgstr "레이아웃"
+
+#: wpf-admin/themes.php:68 wpf-includes/wpf-phrases.php:17
+msgid "Activate"
+msgstr "활성화"
+
+#: wpf-admin/themes.php:69 wpf-includes/wpf-phrases.php:124
+msgid "Fresh Installation"
+msgstr "새로 설치"
+
+#: wpf-admin/themes.php:71 wpf-includes/wpf-phrases.php:140
+msgid "Install"
+msgstr "설치"
+
+#: wpf-admin/themes.php:73 wpf-includes/wpf-phrases.php:38
+msgid "Are you sure you want to delete this theme files?"
+msgstr "정말로 이 테마 파일을 삭제하고 싶으세요?"
+
+#: wpf-admin/themes.php:76 wpf-includes/wpf-phrases.php:40
+msgid ""
+"Are you sure you want to reset all settings and style colors to default?"
+msgstr "정말로 모든 설정들과 스타일 색상들을 기본값으로 재설정하고 싶으세요?"
+
+#: wpf-admin/themes.php:76 wpf-includes/wpf-phrases.php:268
+msgid "Reset Settings"
+msgstr "설정 초기화"
+
+#: wpf-admin/themes.php:96 wpf-includes/wpf-phrases.php:201
+msgid "No layout found"
+msgstr "레이아웃을 찾을 수 없음"
+
+#: wpf-admin/themes.php:107 wpf-includes/wpf-phrases.php:206
+msgid "No theme found"
+msgstr "테마를 찾을 수 없음"
+
+#: wpf-admin/tools-tabs/antispam.php:11
+msgid ""
+"is not installed! For an advanced Spam Control please install Akismet "
+"antispam plugin, it works well with wpForo Spam Control system. Akismet is "
+"already integrated with wpForo. It'll help to filter posts and protect forum "
+"against spam attacks."
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:21
+msgid "Spam Control"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:22
+msgid ""
+"Some useful options to limit just registered users and minimize spam. This "
+"control don't affect users whose Usergroup has \"Can edit member\" and \"Can "
+"pass moderation\" permissions."
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:28
+msgid "Enable wpForo Spam Control"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:37
+msgid "Ban user when spam is suspected"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:46
+msgid "Notify via email when new user is banned"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:55
+msgid "Spam Suspicion Level for Topics"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:59
+msgid "Spam Suspicion Level for Posts"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:64
+msgid " is enabled"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:73
+msgid "New Registered User"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:74
+msgid ""
+"Some useful options to limit just registered users and minimize spam. These "
+"options don't affect users whose Usergroup has \"Can edit member\" and \"Can "
+"pass moderation\" permissions."
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:81
+msgid "User is New (under hard spam control) during"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:83
+msgid "first"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:83
+msgid "posts"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:86
+msgid "Min number of posts to be able attach files"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:90
+msgid "Min number of posts to be able post links"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:95
+msgid "Do not allow to attach files with following extensions:"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:107
+msgid "Google reCAPTCHA"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:108
+msgid ""
+"reCAPTCHA protects you against spam and other types of automated abuse. It "
+"makes secure topic and post editors when Guest Posting is allowed, also it "
+"protects login and registration forms against spam attacks."
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:110
+msgid "reCAPTCHA API keys"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:112
+msgid ""
+"To start using reCAPTCHA, you need to sign up for an API key pair for your "
+"site."
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:113
+msgid "Register your site and get API keys here &raquo;"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:120
+msgid "Site Key"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:126
+msgid "Secret Key"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:133
+msgid "reCAPTCHA Settings"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:138
+msgid "reCAPTCHA Theme"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:141
+msgid "Light"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:142
+msgid "Dark"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:147
+msgid "Guest Topic Editor"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:156
+msgid "Guest Post Editor"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:166
+msgid "wpForo Login Form"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:175
+msgid "wpForo Registration Form"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:184
+msgid "wpForo Reset Password Form"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:193
+msgid "WordPress Login Form"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:202
+msgid "WordPress Registration Form"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:211
+msgid "WordPress Reset Password Form"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:227
+msgid "Options to control and filter post content"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:234
+msgid "Allow extra HTML tags"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:235
+msgid ""
+"By default wpForo allows all secure HTML tags in post content. Allowing a "
+"new HTML tag may affect your forum security. For example the &lt;iframe&gt; "
+"and &lt;script&gt; HTML tags may be used by spammers and hackers to load 3rd "
+"party ads and viruses to forum."
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:236
+msgid "Example of adding a new HTML tags: "
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:253
+msgid "Possible Spam Attachments"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:254
+msgid ""
+"This tool is designed to find attachment which have been uploaded by "
+"spammers. The tool checks most common spammer filenames and suggest to "
+"delete but you should check one by one and make sure those are spam files "
+"before deleting."
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:259
+msgid "Enable File Scanner"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:269
+msgid "Exclude file extensions"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:275
+msgid "Directory"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:302
+msgid "Delete this file"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:302
+msgid "Are you sure you want to permanently delete this file?"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:313
+msgid "Click to delete Blue marked files"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:314
+msgid ""
+"Are you sure you want to delete all BLUE marked files listed here. Please "
+"download Wordpress /wp-content/uploads/wpforo/ folder to your local computer "
+"before deleting files, this is not undoable."
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:315 wpf-admin/tools-tabs/antispam.php:321
+#: wpf-admin/tools-tabs/antispam.php:327 wpf-admin/tools-tabs/antispam.php:333
+msgid "Delete All"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:318
+msgid "Click to delete Orange marked files"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:320
+msgid ""
+"Are you sure you want to delete all ORANGE marked files listed here. Please "
+"download Wordpress /wp-content/uploads/wpforo/ folder to your local computer "
+"before deleting files, this is not undoable."
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:324
+msgid "Click to delete Red marked files"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:326
+msgid ""
+"Are you sure you want to delete all RED marked files listed here. Please "
+"download Wordpress /wp-content/uploads/wpforo/ folder to your local computer "
+"before deleting files, this is not undoable."
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:330
+msgid "Click to delete Dark Red marked files"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:332
+msgid ""
+"Are you sure you want to delete all DARK RED marked files listed here. "
+"Please download Wordpress /wp-content/uploads/wpforo/ folder to your local "
+"computer before deleting files, this is not undoable."
+msgstr ""
+
+#: wpf-admin/tools-tabs/cleanup.php:12
+msgid "Delete Inactive Users"
+msgstr ""
+
+#: wpf-admin/tools-tabs/cleanup.php:13
+msgid ""
+"Inactive users are the account owners who have no topics, posts, comments "
+"and subscriptions for new content. In 99&#37; cases this kind of accounts "
+"are being registered by Spammers. This tool allows you to only keep active "
+"and known inactive users."
+msgstr ""
+
+#: wpf-admin/tools-tabs/cleanup.php:19
+msgid "Inactive users who have been registered more than"
+msgstr ""
+
+#: wpf-admin/tools-tabs/cleanup.php:20
+msgid "days ago"
+msgstr ""
+
+#: wpf-admin/tools-tabs/cleanup.php:25
+msgid "Filter by Usergroups"
+msgstr ""
+
+#: wpf-admin/tools-tabs/cleanup.php:36
+msgid "Enable Auto-cleanup of inactive users"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:15
+msgid "Forum Privacy Policy and GDPR compliant"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:15
+msgid "Documentation"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:18
+msgid ""
+"The General Data Protection Regulation (GDPR) (Regulation (EU) 2016/679) is "
+"a regulation by which the European Parliament, the Council of the European "
+"Union and the European Commission intend to strengthen and unify data "
+"protection for all individuals within the European Union (EU). After four "
+"years of preparation and debate the GDPR was finally approved by the EU "
+"Parliament on 14 April 2016. Enforcement date: 25 May 2018 - at which time "
+"those organizations in non-compliance may face heavy fines. More info at"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:19
+msgid "GDPR Key Changes"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:25
+msgid "Contact Information"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:27
+msgid ""
+"According to the GDPR, all users should have an option to contact website "
+"administrator in following cases:"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:29
+msgid "Obtain personal data and created content"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:30
+msgid "Delete account with created content"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:31
+msgid "Report user data access and control issue"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:32
+msgid "Report user rights violation"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:37
+msgid "URL to - Contact Us - page"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:38
+msgid ""
+"Please insert a page URL, where user can find a contact form or an "
+"information to contact the forum administrator."
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:43
+msgid "Checkbox: I Accept Website Terms and Privacy Policy"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:44 wpf-admin/tools-tabs/legal.php:78
+msgid ""
+"If this option is enabled, users must accept forum Terms and Privacy Policy "
+"by checking the required checkbox on registration form to be able create a "
+"forum account. The checkbox label can be managed in Forums > Phrases admin "
+"page."
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:55
+msgid "Checkbox: I Agree to Receive an Email Confirmation"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:56
+msgid ""
+"If this option is enabled, users must agree to receive an email confirmation "
+"with a link to set a password by checking the required checkbox on "
+"registration form to be able create a forum account. The checkbox label can "
+"be managed in Forums > Phrases admin page."
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:67
+msgid "Website Terms and Privacy Policy Pages"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:68
+msgid ""
+"Please insert URLs to your website Terms and Privacy Policy pages. Links to "
+"these pages will be included in registration form checkbox label (I'm agree "
+"with website terms and privacy policy) and in Forum Privacy Policy. The "
+"forum Privacy Policy does not cover your whole website, it is just an "
+"extension of your website main Privacy Policy. Thus it should be linked to "
+"according pages."
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:71
+msgid "URL to Website Terms page"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:71
+msgid "Terms Page URL"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:72
+msgid "URL to Website Privacy Policy page"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:72
+msgid "Privacy Policy Page URL"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:77
+msgid "Checkbox: I Agree to Forum Privacy Policy"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:89
+msgid "Forum Privacy Policy with GDPR compliant Template"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:90
+msgid ""
+"This is an example of forum Privacy Policy with GDPR compliant. It adapted "
+"to wpForo plugin functions and features. <u>In case you enable this privacy "
+"policy template you become responsible for the content of this template.</"
+"u>  Please read this text carefully and make sure it suits your community "
+"Privacy Policy. If it doesn't, you should edit this text and adapt it to "
+"your community rules. This template includes shortcodes [forum-name] and "
+"[forum-url]. They are automatically replaced on registration page with "
+"current forum details. Don't forget to add an information about your "
+"organization, location and contacting ways (page, email, phone, etc...). "
+"Also if you have a separate privacy policy page for website please add a "
+"link to that page."
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:112
+msgid "Checkbox: I Agree to create a forum account on Facebook Login"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:113
+msgid ""
+"If this option is enabled, the Facebook Login button becomes not-clickable "
+"until user accept automatic account creation process based on his/her "
+"Facebook public profile information. This checkbox and appropriate "
+"information will be displayed with Facebook Login button to comply with the "
+"GDPR"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:124
+msgid "Forum Cookies"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:125
+msgid ""
+"Please note, that this option is only related to wpForo cookies. This "
+"doesn't disable WordPress and other plugins cookies. wpForo stores a small "
+"amount of data in cookies, it used to track visited forums and topics (bold "
+"and normal titles). Also when a guest (not registered user) creates a topic "
+"or post a reply, wpForo stores guest name and email address in cookies. "
+"wpForo uses this information to detect current guest content (topics, posts) "
+"and display it to the guest even if the content is under moderation (not "
+"approved by moderators). Also wpForo stores guest name and email in cookies "
+"to keep filled these fields when he/she posts a new reply or creates a new "
+"topic."
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:137
+msgid "Forum Rules"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:143
+msgid "Checkbox: I Accept Forum Rules"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:144
+msgid ""
+"If this option is enabled, users must accept forum rules by checking the "
+"required checkbox on registration form to be able create a forum account. "
+"The label text of this checkbox can be managed in Forums > Phrases admin "
+"page. Search the label phrase, click on edit button and change it."
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:155
+msgid "Forum Rules Text"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:156
+msgid "This is a basic example of forum rules provided by"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:156
+msgid "You should edit this text and adapt it to your community rules."
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:10
+msgid "SEO Tools"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:18
+msgid "Allowed dofollow domains"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:19
+msgid ""
+"wpForo adds nofollow to all links with external URLs. If you want to keep "
+"some domains as internal please insert domains one per line in the textarea "
+"bellow."
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:26
+msgid "Noindex forum page URLs"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:27
+msgid ""
+"The noIndex code tells Google and other search engines to NOT index the "
+"page, so that it cannot be found in search results. Please insert page URLs "
+"you do not want to be indexed one per line in the textarea bellow."
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:37
+msgid "Admin Note"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:45
+msgid "Admin message on forum front page"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:46
+msgid ""
+"If you have something important to say on forum front page, you can use this "
+"editor. The text will be displayed under forum breadcrumb menu, above forum "
+"and topic titles."
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:64
+msgid "Display for Usergroups"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:86
+msgid "Display on forum pages"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:96
+msgid "Forum (topic list)"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:100
+msgid "Topic (post list)"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:104 wpf-includes/wpf-phrases.php:701
+msgid "Recent Posts"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:112
+msgid "Profile Home"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:116
+msgid "Profile Account"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:120
+msgid "Profile Activity"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:124
+msgid "Profile Subscriptions"
+msgstr ""
+
+#: wpf-admin/tools.php:8
+msgid "Forum Tools"
+msgstr ""
+
+#: wpf-admin/tools.php:14
+msgid "Antispam"
+msgstr ""
+
+#: wpf-admin/tools.php:15
+msgid "Privacy &amp; Rules"
+msgstr ""
+
+#: wpf-admin/tools.php:17
+msgid "Misc"
+msgstr ""
+
+#: wpf-admin/usergroup.php:12
+msgid "Role-Usergroup synchronization is complete!"
+msgstr ""
+
+#: wpf-admin/usergroup.php:14 wpf-admin/usergroup.php:16
+#: wpf-includes/class-notices.php:118 wpf-includes/wpf-phrases.php:69
+msgid "Dismiss this notice."
+msgstr "이 알림 무시."
+
+#: wpf-admin/usergroup.php:28 wpf-admin/usergroup.php:154
+#: wpf-admin/usergroup.php:282
+msgid "User Role"
+msgstr ""
+
+#: wpf-admin/usergroup.php:30 wpf-includes/wpf-phrases.php:676
+msgid "Usergroup"
+msgstr ""
+
+#: wpf-admin/usergroup.php:32 wpf-includes/wpf-hooks.php:1174
+msgid "Default"
+msgstr "기본값"
+
+#: wpf-admin/usergroup.php:33
+msgid "Default Access"
+msgstr ""
+
+#: wpf-admin/usergroup.php:35
+msgid "ID"
+msgstr ""
+
+#: wpf-admin/usergroup.php:46 wpf-admin/usergroup.php:167
+msgid "View Users"
+msgstr ""
+
+#: wpf-admin/usergroup.php:63 wpf-admin/usergroup.php:242
+msgid "Usergroup Name"
+msgstr "사용자 그룹 이름"
+
+#: wpf-admin/usergroup.php:65
+msgid "Also used as Secondary Usergroup"
+msgstr ""
+
+#: wpf-admin/usergroup.php:68
+msgid "Edit this usergroup"
+msgstr "이 사용자 그룹 편집"
+
+#: wpf-admin/usergroup.php:68 wpf-includes/wpf-phrases.php:73
+msgid "Edit"
+msgstr "수정"
+
+#: wpf-admin/usergroup.php:70
+msgid "Delete this usergroup"
+msgstr "이 사용자 그룹 삭제"
+
+#: wpf-admin/usergroup.php:72
+msgid "View users list in this usergroup"
+msgstr "이 그룹에서 사용자 리스트 보기"
+
+#: wpf-admin/usergroup.php:77
+msgid "The number of forum members with this usergroup. Click to view members."
+msgstr ""
+
+#: wpf-admin/usergroup.php:82
+msgid "is Default"
+msgstr ""
+
+#: wpf-admin/usergroup.php:85
+msgid "Users get the Default Usergroup on registration"
+msgstr ""
+
+#: wpf-admin/usergroup.php:85
+msgid "Set as Default"
+msgstr ""
+
+#: wpf-admin/usergroup.php:93
+msgid "default (#15)"
+msgstr ""
+
+#: wpf-admin/usergroup.php:105
+msgid "Synchronize Users Usergroups and Roles"
+msgstr ""
+
+#: wpf-admin/usergroup.php:106
+msgid "Synchronize"
+msgstr ""
+
+#: wpf-admin/usergroup.php:136
+msgid "Note:"
+msgstr ""
+
+#: wpf-admin/usergroup.php:137
+#, php-format
+msgid ""
+"The [Synchronize] button changes all users Usergroups according to the users "
+"Roles. For example, if you select \"Contributor\" Role for \"Registered\" "
+"Usergroup, all users with \"Contributor\" Role will get \"Registered\" "
+"Usergroup in forum. The synchronization process may take a few seconds or "
+"dozens of minutes, it depends on the number of users. Please be patient, "
+"don't close this page and wait until the progress counter says "
+"100% completed."
+msgstr ""
+
+#: wpf-admin/usergroup.php:146
+msgid "User Roles"
+msgstr ""
+
+#: wpf-admin/usergroup.php:148
+msgid ""
+"In the table above (Usergroups) you can see the list of all available forum "
+"Usergroups. The first column of this table displays selected User Roles "
+"which are synched with certain Usergroup. However some User Roles are still "
+"not synced with any Usergroup of your forum. You can find not-synced User "
+"Roles in the table below (User Roles). If you use any of these not-synced "
+"User Roles and you want to grant some forum accesses to users of these User "
+"Roles you should create new Usergroups for each of them. Once new Usergroup "
+"is created, you should use the [Synchronize] button in the table above to "
+"synchronize User Roles with new Usergroups."
+msgstr ""
+
+#: wpf-admin/usergroup.php:153
+msgid "Role Name"
+msgstr ""
+
+#: wpf-admin/usergroup.php:156
+msgid "Users"
+msgstr ""
+
+#: wpf-admin/usergroup.php:157
+msgid "Status"
+msgstr ""
+
+#: wpf-admin/usergroup.php:171
+msgid "Add Usergroup to synch"
+msgstr ""
+
+#: wpf-admin/usergroup.php:173
+msgid "Not Synched"
+msgstr ""
+
+#: wpf-admin/usergroup.php:174
+msgid "One User Role cannot be synched with multiple Usergroups."
+msgstr ""
+
+#: wpf-admin/usergroup.php:176
+msgid "Synched"
+msgstr ""
+
+#: wpf-admin/usergroup.php:213
+msgid "Complete!"
+msgstr ""
+
+#: wpf-admin/usergroup.php:242 wpf-includes/wpf-phrases.php:133
+msgid "Guest"
+msgstr "손님"
+
+#: wpf-admin/usergroup.php:258
+msgid "Usergroup Color"
+msgstr ""
+
+#: wpf-admin/usergroup.php:259
+msgid "use default link color"
+msgstr ""
+
+#: wpf-admin/usergroup.php:291
+msgid "Default Forum Access"
+msgstr ""
+
+#: wpf-admin/usergroup.php:299
+msgid ""
+"This is only used when a new Usergroup is created, it automatically gets the "
+"selected Forum Access in all forums."
+msgstr ""
+
+#: wpf-admin/usergroup.php:303
+msgid "Display on Members List"
+msgstr ""
+
+#: wpf-admin/usergroup.php:307
+msgid "Can be also used as Secondary Usergroup"
+msgstr ""
+
+#: wpf-admin/usergroup.php:327 wpf-includes/wpf-phrases.php:374
+msgid "add"
+msgstr "추가"
+
+#: wpf-admin/usergroup.php:327
+msgid "save"
+msgstr "저장"
+
+#: wpf-admin/usergroup.php:348
+msgid "Delete Chosen Usergroup And Users"
+msgstr "선택된 사용자 그룹 및 사용자들 삭제"
+
+#: wpf-admin/usergroup.php:358
+msgid "Delete Chosen Usergroup And Join Users To Other Usergroup"
+msgstr "선택된 사용자 그룹 삭제 및 다른 사용자 그룹에 사용자 참여"
+
+#: wpf-admin/usergroup.php:370
+msgid "Users will be join this usergroup"
+msgstr "사용자가 이 사용자 그룹에 합류할 것입니다"
+
+#: wpf-includes/class-api.php:203
+msgid "Please login into Facebook and then click connect button again"
+msgstr ""
+
+#: wpf-includes/class-api.php:230
+msgid ""
+"Your email is required to be able authorize you here. Please try loging "
+"again. "
+msgstr ""
+
+#: wpf-includes/class-api.php:235
+msgid "Invalid User"
+msgstr ""
+
+#: wpf-includes/class-api.php:245 wpf-includes/wpf-phrases.php:638
+msgid "User registration is disabled"
+msgstr "회원가입이 비활성화됐습니다"
+
+#: wpf-includes/class-forums.php:31 wpf-includes/wpf-phrases.php:560
+msgid "Can view forum"
+msgstr "포럼을 볼 수 있도록"
+
+#: wpf-includes/class-forums.php:32 wpf-includes/wpf-phrases.php:561
+msgid "Can create topic"
+msgstr "주제를 만들 수 있도록"
+
+#: wpf-includes/class-forums.php:33 wpf-includes/wpf-phrases.php:562
+msgid "Can view topic"
+msgstr "주제를 볼 수 있도록"
+
+#: wpf-includes/class-forums.php:34 wpf-includes/wpf-phrases.php:563
+msgid "Can edit topic"
+msgstr "주제를 편집할 수 있도록"
+
+#: wpf-includes/class-forums.php:35 wpf-includes/wpf-phrases.php:564
+msgid "Can delete topic"
+msgstr "주제를 삭제할 수 있도록"
+
+#: wpf-includes/class-forums.php:36 wpf-includes/wpf-phrases.php:565
+msgid "Can post reply"
+msgstr "답글을 게시할 수 있도록"
+
+#: wpf-includes/class-forums.php:37 wpf-includes/wpf-phrases.php:566
+msgid "Can view replies"
+msgstr "답글을 볼 수 있도록"
+
+#: wpf-includes/class-forums.php:38 wpf-includes/wpf-phrases.php:567
+msgid "Can edit replies"
+msgstr "답글을 편집할 수 있도록"
+
+#: wpf-includes/class-forums.php:39 wpf-includes/wpf-phrases.php:568
+msgid "Can delete replies"
+msgstr "답글을 지울 수 있도록"
+
+#: wpf-includes/class-forums.php:40 wpf-includes/wpf-phrases.php:569
+msgid "Can edit own topic"
+msgstr "자신의 주제를 편집할 수 있도록"
+
+#: wpf-includes/class-forums.php:41
+msgid "Can edit own reply"
+msgstr ""
+
+#: wpf-includes/class-forums.php:42 wpf-includes/wpf-phrases.php:571
+msgid "Can delete own topic"
+msgstr "자신의 주제를 삭제할 수 있도록"
+
+#: wpf-includes/class-forums.php:43 wpf-includes/wpf-phrases.php:572
+msgid "Can delete own reply"
+msgstr ""
+
+#: wpf-includes/class-forums.php:44
+msgid "Can add tags"
+msgstr ""
+
+#: wpf-includes/class-forums.php:45
+msgid "Can subscribe"
+msgstr ""
+
+#: wpf-includes/class-forums.php:46 wpf-includes/wpf-phrases.php:573
+msgid "Can like"
+msgstr "좋아요를 할 수 있도록"
+
+#: wpf-includes/class-forums.php:47 wpf-includes/wpf-phrases.php:574
+msgid "Can report"
+msgstr "신고를 할 수 있도록"
+
+#: wpf-includes/class-forums.php:48 wpf-includes/wpf-phrases.php:575
+msgid "Can set topic sticky"
+msgstr ""
+
+#: wpf-includes/class-forums.php:49 wpf-includes/wpf-phrases.php:576
+msgid "Can set topic private"
+msgstr ""
+
+#: wpf-includes/class-forums.php:50 wpf-includes/wpf-phrases.php:654
+msgid "Can set own topic private"
+msgstr ""
+
+#: wpf-includes/class-forums.php:51 wpf-includes/wpf-phrases.php:655
+msgid "Can view private topic"
+msgstr ""
+
+#: wpf-includes/class-forums.php:52 wpf-includes/wpf-phrases.php:584
+msgid "Can approve/unapprove content"
+msgstr ""
+
+#: wpf-includes/class-forums.php:53 wpf-includes/wpf-phrases.php:608
+msgid "Can set topic solved"
+msgstr ""
+
+#: wpf-includes/class-forums.php:54 wpf-includes/wpf-phrases.php:609
+msgid "Can set own topic solved"
+msgstr ""
+
+#: wpf-includes/class-forums.php:55 wpf-includes/wpf-phrases.php:577
+msgid "Can vote"
+msgstr "투표할 수 있도록"
+
+#: wpf-includes/class-forums.php:56 wpf-includes/wpf-phrases.php:578
+msgid "Can attach file"
+msgstr ""
+
+#: wpf-includes/class-forums.php:57 wpf-includes/wpf-phrases.php:583
+msgid "Can view attached files"
+msgstr ""
+
+#: wpf-includes/class-forums.php:58 wpf-includes/wpf-phrases.php:579
+msgid "Can set topic answered"
+msgstr ""
+
+#: wpf-includes/class-forums.php:59 wpf-includes/wpf-phrases.php:580
+msgid "Can set own topic answered"
+msgstr ""
+
+#: wpf-includes/class-forums.php:60
+msgid "Can answer own question"
+msgstr ""
+
+#: wpf-includes/class-forums.php:61 wpf-includes/wpf-phrases.php:581
+msgid "Can close topic"
+msgstr "주제를 닫을 수 있도록"
+
+#: wpf-includes/class-forums.php:62 wpf-includes/wpf-phrases.php:582
+msgid "Can move topic"
+msgstr "주제를 이동할 수 있도록"
+
+#: wpf-includes/class-forums.php:63 wpf-includes/wpf-phrases.php:585
+msgid "Can create poll"
+msgstr ""
+
+#: wpf-includes/class-forums.php:64 wpf-includes/wpf-phrases.php:586
+msgid "Can vote poll"
+msgstr ""
+
+#: wpf-includes/class-forums.php:65 wpf-includes/wpf-phrases.php:587
+msgid "Can view poll result"
+msgstr ""
+
+#: wpf-includes/class-forums.php:677
+msgid "Add a new Subforum"
+msgstr ""
+
+#: wpf-includes/class-forums.php:677
+msgid "Add a new Forum in this Category"
+msgstr ""
+
+#: wpf-includes/class-members.php:137
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+#: wpf-includes/class-members.php:142
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+
+#: wpf-includes/class-members.php:153
+msgid ""
+"<strong>ERROR</strong>: This username is already registered. Please choose "
+"another one."
+msgstr ""
+
+#: wpf-includes/class-members.php:158
+msgid "<strong>ERROR</strong>: Sorry, that username is not allowed."
+msgstr ""
+
+#: wpf-includes/class-members.php:163
+msgid "<strong>ERROR</strong>: Please type your email address."
+msgstr ""
+
+#: wpf-includes/class-members.php:168
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#: wpf-includes/class-members.php:174
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+
+#: wpf-includes/class-members.php:1806
+msgid "What should be done with wpForo content owned by this user?"
+msgstr ""
+
+#: wpf-includes/class-members.php:1808
+msgid "What should be done with wpForo content owned by these users?"
+msgstr ""
+
+#: wpf-includes/class-members.php:1812
+msgid "Delete all wpForo content."
+msgstr ""
+
+#: wpf-includes/class-members.php:1814
+msgid "Attribute all content to:"
+msgstr ""
+
+#: wpf-includes/class-moderation.php:159
+msgid ""
+"Probably spam file attachments have been detected by wpForo Spam Control. "
+"Please moderate suspected files in Forums &gt; Tools &gt; Antispam Tab."
+msgstr ""
+
+#: wpf-includes/class-notices.php:155
+msgid "New Addons for Your Forum!"
+msgstr ""
+
+#: wpf-includes/class-notices.php:155
+msgid "Extend your forum with wpForo addons"
+msgstr ""
+
+#: wpf-includes/class-notices.php:168
+msgid "View all Addons"
+msgstr ""
+
+#: wpf-includes/class-permissions.php:125 wpf-includes/wpf-phrases.php:420
+#, php-format
+msgid "%s access successfully added"
+msgstr "%s 액세스가 성공적으로 추가됨"
+
+#: wpf-includes/class-permissions.php:149 wpf-includes/wpf-phrases.php:421
+#, php-format
+msgid "%s access successfully edited"
+msgstr "%s 액세스가 성공적으로 편집됨"
+
+#: wpf-includes/class-phrases.php:181 wpf-includes/wpf-phrases.php:7
+msgid " Forum"
+msgstr " 포럼"
+
+#: wpf-includes/class-phrases.php:182 wpf-includes/wpf-phrases.php:6
+msgid " Discussion Board"
+msgstr " 토론 게시판"
+
+#: wpf-includes/class-posts.php:39
+msgid "You are not permitted to view this attachment"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:31
+msgid "Please confirm subscription to [entry_title]"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:32
+msgid ""
+"Hello [member_name]!<br>\r\n"
+" Thank you for subscribing.<br>\r\n"
+" This is an automated response.<br>\r\n"
+" We are glad to inform you that after confirmation you will get updates from "
+"- [entry_title].<br>\r\n"
+" Please click on link below to complete this step.<br>\r\n"
+" [confirm_link]"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:33
+msgid "New Topic"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:34
+msgid ""
+"Hello [member_name]!<br>\r\n"
+" New topic has been created on your subscribed forum - [forum].\r\n"
+" <br><br>\r\n"
+" <strong>[topic_title]</strong>\r\n"
+" <blockquote>\r\n"
+" [topic_desc]\r\n"
+" </blockquote>\r\n"
+" <br><hr>\r\n"
+" If you want to unsubscribe from this forum please use the link below.<br>"
+"\r\n"
+" [unsubscribe_link]"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:35
+msgid "New Reply"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:36
+msgid ""
+"Hello [member_name]!<br>\r\n"
+" New reply has been posted on your subscribed topic - [topic].\r\n"
+" <br><br>\r\n"
+" <strong>[reply_title]</strong>\r\n"
+" <blockquote >\r\n"
+" [reply_desc]\r\n"
+" </blockquote>\r\n"
+" <br><hr>\r\n"
+" If you want to unsubscribe from this topic please use the link below.<br>"
+"\r\n"
+" [unsubscribe_link]"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:37
+msgid "Forum Post Report"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:38
+msgid ""
+"<strong>Report details:</strong>\r\n"
+" Reporter: [reporter], <br>\r\n"
+" Message: [message],<br>\r\n"
+" <br>\r\n"
+" [post_url]"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:39
+msgid "[blogname] New User Registration"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:40
+msgid ""
+"New user registration on your site [blogname]:\r\n"
+"\r\n"
+"Username: [user_login]\r\n"
+"\r\n"
+"Email: [user_email]\r\n"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:41
+msgid "[blogname] Your username and password info"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:42
+msgid ""
+"Username: [user_login]\r\n"
+"\r\n"
+"To set your password, visit the following address:\r\n"
+"\r\n"
+"[set_password_url]\r\n"
+"\r\n"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:43
+msgid ""
+"Hello! <br>\r\n"
+"\r\n"
+" You asked us to reset your password for your account using the email "
+"address [user_login]. <br>\r\n"
+"\r\n"
+" If this was a mistake, or you didn't ask for a password reset, just ignore "
+"this email and nothing will happen. <br>\r\n"
+"\r\n"
+" To reset your password, visit the following address: <br>\r\n"
+"\r\n"
+" [reset_password_url] <br>\r\n"
+"\r\n"
+" Thanks!"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:48
+msgid "You have been mentioned in forum post"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:49
+msgid ""
+"Hi [mentioned-user-name]! <br>\r\n"
+"\r\n"
+" You have been mentioned in a post on \"[topic-title]\" by [author-user-"
+"name].<br/><br/>\r\n"
+"\r\n"
+" Post URL: [post-url]"
+msgstr ""
+
+#: wpf-includes/class-template.php:95
+msgid "Insert link"
+msgstr "링크 넣기"
+
+#: wpf-includes/class-template.php:96
+msgid "Link Text"
+msgstr "링크 텍스트"
+
+#: wpf-includes/class-template.php:97
+msgid "Open link in a new tab"
+msgstr "새 탭에서 링크 열기"
+
+#: wpf-includes/class-template.php:1526 wpf-includes/wpf-phrases.php:327
+msgid "Theme file not readable"
+msgstr "테마 파일을 읽을 수 없음"
+
+#: wpf-includes/class-usergroups.php:23 wpf-includes/wpf-phrases.php:533
+msgid "Dashboard - Manage Forums"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:24 wpf-includes/wpf-phrases.php:534
+msgid "Dashboard - Manage Settings"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:25 wpf-includes/wpf-phrases.php:535
+msgid "Dashboard - Manage Tools"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:26 wpf-includes/wpf-phrases.php:539
+msgid "Dashboard - Manage Members"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:27 wpf-includes/wpf-phrases.php:536
+msgid "Dashboard - Moderate Topics & Posts"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:28 wpf-includes/wpf-phrases.php:542
+msgid "Dashboard - Manage Usergroups"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:29 wpf-includes/wpf-phrases.php:537
+msgid "Dashboard - Manage Phrases"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:30 wpf-includes/wpf-phrases.php:538
+msgid "Dashboard - Manage Themes"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:32 wpf-includes/wpf-phrases.php:540
+msgid "Dashboard - Can edit member"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:33
+msgid "Dashboard - Can ban member"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:34 wpf-includes/wpf-phrases.php:541
+msgid "Dashboard - Can delete member"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:36
+msgid "Front - Can pass moderation"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:37 wpf-includes/wpf-phrases.php:543
+msgid "Front - Can view members"
+msgstr "전면 - 회원을 볼 수 있도록"
+
+#: wpf-includes/class-usergroups.php:38 wpf-includes/wpf-phrases.php:544
+msgid "Front - Can view profiles"
+msgstr "전면 - 프로필을 볼 수 있도록"
+
+#: wpf-includes/class-usergroups.php:39
+msgid "Front - Can view member activity"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:40
+msgid "Front - Can view member subscriptions"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:42 wpf-includes/wpf-phrases.php:545
+msgid "Front - Can upload avatar"
+msgstr "전면 - 아바타를 업로드할 수 있도록"
+
+#: wpf-includes/class-usergroups.php:43
+msgid "Front - Can have signaturee"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:44 wpf-includes/wpf-phrases.php:547
+msgid "Front - Can view avatars"
+msgstr "전면 - 아바타를 볼 수 있도록"
+
+#: wpf-includes/class-usergroups.php:46 wpf-includes/wpf-phrases.php:548
+msgid "Front - Can view member username"
+msgstr "전면 - 회원 사용자 이름을 볼 수 있도록"
+
+#: wpf-includes/class-usergroups.php:47 wpf-includes/wpf-phrases.php:549
+msgid "Front - Can view member email"
+msgstr "전면 - 회원 이메일을 볼 수 있도록"
+
+#: wpf-includes/class-usergroups.php:48 wpf-includes/wpf-phrases.php:550
+msgid "Front - Can view member title"
+msgstr "전면 - 회원 명칭을 볼 수 있도록"
+
+#: wpf-includes/class-usergroups.php:49
+msgid "Front - Can view member custom title"
+msgstr "전면 - 회원 사용자 정의 명칭을 볼 수 있도록"
+
+#: wpf-includes/class-usergroups.php:50 wpf-includes/wpf-phrases.php:551
+msgid "Front - Can view member reputation"
+msgstr "전면 - 회원 등급을 볼 수 있도록"
+
+#: wpf-includes/class-usergroups.php:51 wpf-includes/wpf-phrases.php:552
+msgid "Front - Can view member website"
+msgstr "전면 - 회원 웹사이트를 볼 수 있도록"
+
+#: wpf-includes/class-usergroups.php:52 wpf-includes/wpf-phrases.php:553
+msgid "Front - Can view member social networks"
+msgstr "전면 - 회원 소셜 네트워크를 볼 수 있도록"
+
+#: wpf-includes/class-usergroups.php:53 wpf-includes/wpf-phrases.php:554
+msgid "Front - Can view member reg. date"
+msgstr "전면 - 회원 등록일을 볼 수 있도록"
+
+#: wpf-includes/class-usergroups.php:54 wpf-includes/wpf-phrases.php:555
+msgid "Front - Can view member location"
+msgstr "전면 - 회원의 위치를 볼  수 있도록"
+
+#: wpf-includes/class-usergroups.php:55 wpf-includes/wpf-phrases.php:556
+msgid "Front - Can view member occupation"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:56 wpf-includes/wpf-phrases.php:557
+msgid "Front - Can view member signature"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:57 wpf-includes/wpf-phrases.php:558
+msgid "Front - Can view member about me"
+msgstr "전면 - 회원의 '나에 관하여'를 볼 수 있도록"
+
+#: wpf-includes/class-usergroups.php:58 wpf-includes/wpf-phrases.php:559
+msgid "Front - Can write PM"
+msgstr "전면 - PM을 쓸 수 있도록"
+
+#: wpf-includes/functions-installation.php:347
+msgid "Main Category"
+msgstr ""
+
+#: wpf-includes/functions-installation.php:347
+msgid "This is a simple category / section"
+msgstr ""
+
+#: wpf-includes/functions-installation.php:348
+msgid "Main Forum"
+msgstr ""
+
+#: wpf-includes/functions-installation.php:348
+msgid "This is a simple parent forum"
+msgstr ""
+
+#: wpf-includes/functions-installation.php:681
+msgid "Start Profile Synchronization"
+msgstr ""
+
+#: wpf-includes/functions-installation.php:681
+msgid "Continue Synchronization"
+msgstr ""
+
+#: wpf-includes/functions-installation.php:684
+msgid ""
+"This process may take a few seconds or dozens of minutes, please be patient "
+"and don't close this page."
+msgstr ""
+
+#: wpf-includes/functions-installation.php:685
+msgid ""
+"You can permanently disable this message in Dashboard > Forums > Features "
+"admin page."
+msgstr ""
+
+#: wpf-includes/functions-installation.php:687
+msgid "wpForo Forum Installation | "
+msgstr ""
+
+#: wpf-includes/functions-installation.php:688
+msgid ""
+"Forum users' profile data are not synchronized yet, this step is required! "
+"Please click the button below to complete installation."
+msgstr ""
+
+#: wpf-includes/functions-installation.php:699
+msgid ""
+"This process may take a few seconds or dozens of minutes, please be patient "
+"and don't close this page. Database backup is not required. If you got 500 "
+"Server Error please don't worry, the data updating process is still working "
+"in MySQL server."
+msgstr ""
+
+#: wpf-includes/functions-installation.php:700
+msgid "Updater Database"
+msgstr ""
+
+#: wpf-includes/functions-installation.php:701
+msgid "wpForo - Update Database "
+msgstr ""
+
+#: wpf-includes/functions-installation.php:702
+msgid "Please click the button below to complete wpForo update."
+msgstr ""
+
+#: wpf-includes/functions-template.php:7
+msgid "wpForo Menu"
+msgstr "wpForo 메뉴"
+
+#: wpf-includes/functions-template.php:156 wpf-includes/wpf-phrases.php:410
+msgid "wpForo Sidebar"
+msgstr "wpForo 사이드바"
+
+#: wpf-includes/functions-template.php:157 wpf-includes/wpf-phrases.php:191
+msgid ""
+"NOTE: If you're going to add widgets in this sidebar, please use 'Full "
+"Width' template for wpForo index page to avoid sidebar duplication."
+msgstr ""
+"참고: 이 사이드바에 위젯을 추가하려는 경우, wpForo 인덱스 페이지에서 사이드바"
+"가 겹치는 것을 피하기 위해 '전체 너비' 템플릿을 사용해 주세요."
+
+#: wpf-includes/functions-template.php:195
+#: wpf-includes/functions-template.php:301
+#: wpf-includes/functions-template.php:364
+#: wpf-includes/functions-template.php:474
+#: wpf-includes/functions-template.php:572
+#: wpf-includes/functions-template.php:617
+#: wpf-includes/functions-template.php:668 wpf-includes/wpf-phrases.php:334
+msgid "Title"
+msgstr "제목"
+
+#: wpf-includes/functions-template.php:368
+msgid "User Groups"
+msgstr ""
+
+#: wpf-includes/functions-template.php:374
+#: wpf-includes/functions-template.php:491
+#: wpf-includes/functions-template.php:575
+#: wpf-includes/functions-template.php:677 wpf-includes/wpf-phrases.php:210
+msgid "Number of Items"
+msgstr "항목의 개수"
+
+#: wpf-includes/functions-template.php:380 wpf-includes/wpf-phrases.php:70
+msgid "Display Avatars"
+msgstr "아바타 표시"
+
+#: wpf-includes/functions-template.php:409
+msgid "Created Date"
+msgstr ""
+
+#: wpf-includes/functions-template.php:410
+msgid "Modified Date"
+msgstr ""
+
+#: wpf-includes/functions-template.php:411
+msgid "Posts Count"
+msgstr ""
+
+#: wpf-includes/functions-template.php:412
+msgid "Views Count"
+msgstr ""
+
+#: wpf-includes/functions-template.php:415
+msgid "DESC"
+msgstr ""
+
+#: wpf-includes/functions-template.php:416
+msgid "ASC"
+msgstr ""
+
+#: wpf-includes/functions-template.php:478
+msgid "Order by"
+msgstr ""
+
+#: wpf-includes/functions-template.php:495
+#: wpf-includes/functions-template.php:579 wpf-includes/wpf-phrases.php:72
+msgid "Display with Avatars"
+msgstr "아바타와 함께 표시"
+
+#: wpf-includes/functions-template.php:672
+msgid "Topic Counts"
+msgstr ""
+
+#: wpf-includes/functions.php:378
+msgid "Unapproved"
+msgstr ""
+
+#: wpf-includes/functions.php:379
+msgid "Published"
+msgstr ""
+
+#: wpf-includes/functions.php:388 wpf-includes/wpf-phrases.php:597
+msgid "Active"
+msgstr "활동 중"
+
+#: wpf-includes/functions.php:389
+msgid "Banned"
+msgstr ""
+
+#: wpf-includes/functions.php:402 wpf-includes/functions.php:704
+#: wpf-includes/wpf-phrases.php:50
+msgid "Bulk Actions"
+msgstr "일괄작업"
+
+#: wpf-includes/functions.php:407 wpf-includes/functions.php:808
+#: wpf-includes/wpf-phrases.php:36
+msgid "Apply"
+msgstr "적용"
+
+#: wpf-includes/functions.php:416 wpf-includes/wpf-phrases.php:300
+msgid "Show all forums"
+msgstr "모든 포럼 표시"
+
+#: wpf-includes/functions.php:429 wpf-includes/wpf-phrases.php:350
+msgid "filter by group"
+msgstr ""
+
+#: wpf-includes/functions.php:441
+msgid "filter by status"
+msgstr ""
+
+#: wpf-includes/functions.php:457
+msgid "filter by package"
+msgstr ""
+
+#: wpf-includes/functions.php:486
+msgid "filter by user"
+msgstr ""
+
+#: wpf-includes/functions.php:506 wpf-includes/functions.php:712
+#: wpf-includes/wpf-phrases.php:385
+msgid "item"
+msgstr "항목"
+
+#: wpf-includes/functions.php:539 wpf-includes/functions.php:555
+#: wpf-includes/wpf-phrases.php:284
+msgid "Select All"
+msgstr "모두 선택"
+
+#: wpf-includes/functions.php:544 wpf-includes/functions.php:560
+msgid "Type"
+msgstr ""
+
+#: wpf-includes/functions.php:617 wpf-includes/wpf-phrases.php:383
+msgid "edit user"
+msgstr "사용자 편집"
+
+#: wpf-includes/functions.php:621 wpf-includes/wpf-phrases.php:382
+msgid "edit profile"
+msgstr "프로필 편집"
+
+#: wpf-includes/functions.php:626
+msgid "unban user"
+msgstr ""
+
+#: wpf-includes/functions.php:626
+msgid "ban user"
+msgstr ""
+
+#: wpf-includes/functions.php:626
+msgid "Are you sure, you want to unban this user?"
+msgstr ""
+
+#: wpf-includes/functions.php:626
+msgid "Are you sure, you want to ban this user?"
+msgstr ""
+
+#: wpf-includes/functions.php:631 wpf-includes/functions.php:641
+#: wpf-includes/wpf-phrases.php:67
+msgid "Delete this item"
+msgstr "이 항목 삭제"
+
+#: wpf-includes/functions.php:631 wpf-includes/functions.php:641
+#: wpf-includes/wpf-phrases.php:41
+msgid "Are you sure you want to DELETE this item?"
+msgstr ""
+
+#: wpf-includes/functions.php:636
+msgid "unapprove this item"
+msgstr ""
+
+#: wpf-includes/functions.php:636
+msgid "Approve this item"
+msgstr ""
+
+#: wpf-includes/functions.php:636 wpf-includes/wpf-phrases.php:685
+msgid "unapprove"
+msgstr ""
+
+#: wpf-includes/functions.php:636 wpf-includes/wpf-phrases.php:684
+msgid "approve"
+msgstr ""
+
+#: wpf-includes/functions.php:658 wpf-includes/functions.php:659
+#: wpf-includes/wpf-phrases.php:404
+msgid "view"
+msgstr "보기"
+
+#: wpf-includes/functions.php:683
+msgid "Topic"
+msgstr ""
+
+#: wpf-includes/functions.php:683
+msgid "Post"
+msgstr ""
+
+#: wpf-includes/functions.php:696 wpf-includes/wpf-phrases.php:200
+msgid "No items found"
+msgstr "항목을 찾을 수 없음"
+
+#: wpf-includes/functions.php:807 wpf-includes/wpf-phrases.php:141
+msgid "Items"
+msgstr "항목들"
+
+#: wpf-includes/functions.php:1206
+#, php-format
+msgid "Could not write file %s"
+msgstr "파일 %s 저장할 수 없음"
+
+#: wpf-includes/integration/buddypress.php:34
+msgid "Search Forums..."
+msgstr ""
+
+#: wpf-includes/integration/buddypress.php:78 wpf-includes/wpf-phrases.php:789
+msgid "Topics Started"
+msgstr ""
+
+#: wpf-includes/integration/buddypress.php:89 wpf-includes/wpf-phrases.php:790
+msgid "Replies Created"
+msgstr ""
+
+#: wpf-includes/integration/buddypress.php:100 wpf-includes/wpf-phrases.php:791
+msgid "Liked Posts"
+msgstr ""
+
+#: wpf-includes/integration/buddypress.php:112 wpf-includes/wpf-phrases.php:318
+msgid "Subscriptions"
+msgstr "구독"
+
+#: wpf-includes/integration/buddypress.php:526
+msgid "Topic reply"
+msgstr ""
+
+#: wpf-includes/integration/buddypress.php:529
+#, php-format
+msgid "You have %d new replies"
+msgstr ""
+
+#: wpf-includes/integration/buddypress.php:533
+#, php-format
+msgid "You have %d new reply to %2$s from %3$s"
+msgstr ""
+
+#: wpf-includes/integration/buddypress.php:535
+#, php-format
+msgid "You have %d new reply to %s"
+msgstr ""
+
+#: wpf-includes/integration/buddypress.php:694
+msgid "Are you sure you wanted to do that?"
+msgstr ""
+
+#: wpf-includes/integration/buddypress.php:698
+msgid "You do not have permission to mark notifications for that user."
+msgstr ""
+
+#: wpf-includes/integration/ultimate-member.php:62
+#: wpf-includes/integration/ultimate-member.php:375
+msgid "User leaves a reply to wpForo topic"
+msgstr ""
+
+#: wpf-includes/integration/ultimate-member.php:64
+#: wpf-includes/integration/ultimate-member.php:377
+msgid "When a member replies to one of my forum topics"
+msgstr ""
+
+#: wpf-includes/integration/ultimate-member.php:67
+#: wpf-includes/integration/ultimate-member.php:380
+msgid "User replied to wpForo post"
+msgstr ""
+
+#: wpf-includes/integration/ultimate-member.php:69
+#: wpf-includes/integration/ultimate-member.php:382
+msgid "When a member replies to one of my post in forum topics"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:20 wpf-includes/wpf-phrases.php:136
+msgid ""
+"IMPORTANT! Uninstall is not a simple deactivation action. This action will "
+"permanently remove all forum data (forums, topics, replies, attachments...) "
+"from database. Please backup database before this action, you may need this "
+"forum data in future. If you are sure that you want to delete all forum data "
+"please confirm. If not, just cancel it, then you can deactivate this plugin, "
+"that will not remove forum data."
+msgstr ""
+"중요! 언인스톨은 단순한 비활성화 작업이 아닙니다. 이 작업은 모든 포럼 데이터"
+"(포럼, 주제, 답변, 첨부파일)를 데이터베이스에서 영구적으로 제거합니다. 향후"
+"에 이 포럼 데이터가 필요하다면, 이 작업 전에 데이터베이스를 백업해 주세요. 만"
+"약 모든 포럼 데이터를 삭제하고 싶으신게 확실하다면 확인해 주세요. 만약 그렇"
+"지 않다면, 취소하고 나서 이 플러그인을 비활성화 하시면 포럼 데이터는 제거되"
+"지 않습니다."
+
+#: wpf-includes/wpf-hooks.php:20
+msgid "Uninstall"
+msgstr "언인스톨"
+
+#: wpf-includes/wpf-hooks.php:1139
+msgid "Move"
+msgstr "이동"
+
+#: wpf-includes/wpf-hooks.php:1174
+msgid "Clear"
+msgstr "지우기"
+
+#: wpf-includes/wpf-hooks.php:1174
+msgid "Select Color"
+msgstr "색상 선택"
+
+#: wpf-includes/wpf-hooks.php:1191
+msgid "Please check one of reasons before sending feedback!"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:1208
+msgid ""
+"IMPORTANT: wpForo can't work with default permalink, please change permalink "
+"structure"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:1230
+msgid "Forum Profile Fields - wpForo"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:1238
+msgid "Forum - Usergroup"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:1243
+#, php-format
+msgid ""
+"Forum Usergroups are synched with User Roles based on the %s. When you "
+"change this user Role the Usergroup is automatically changed according to "
+"that table."
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:1253
+msgid "Role-Usergroup Synchronization is Turned ON!"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:1254
+msgid ""
+"This user Usergroup is automatically changed according to current Role. If "
+"you want to disable Role-Usergroup synchronization and manage Usergroups and "
+"User Roles independently, please navigate to <b>Forums > Settings > "
+"Features</b> admin page and disable \"Role-Usergroup Synchronization\" "
+"option."
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:1265
+msgid "Forum - Secondary Usergroups"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:1287
+msgid "Forum - User Timezone"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:1584 wpf-includes/wpf-hooks.php:1683
+msgid "Please Moderate: "
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:1585
+msgid ""
+"This topic is currently unapproved. You can approve topics in Dashboard "
+"&raquo; Forums &raquo; Moderation admin page."
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:1684
+msgid ""
+"This post is currently unapproved. You can approve posts in Dashboard "
+"&raquo; Forums &raquo; Moderation admin page."
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:2175 wpf-includes/wpf-hooks.php:2197
+msgid "New Forum"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:2177
+msgid "New User Group"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:2179 wpf-includes/wpf-hooks.php:2225
+msgid "New Phrase"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:2191
+msgid "Forum Dashboard"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:2219
+msgid "New Usergroup"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:8
+#, php-format
+msgid "%s and %s liked"
+msgstr "%s 그리고 %s 좋아함"
+
+#: wpf-includes/wpf-phrases.php:9
+#, php-format
+msgid "%s liked"
+msgstr "%s 좋아함"
+
+#: wpf-includes/wpf-phrases.php:10
+#, php-format
+msgid "%s, %s and %s liked"
+msgstr "%s, %s 그리고 %s 좋아함"
+
+#: wpf-includes/wpf-phrases.php:11
+#, php-format
+msgid "%s, %s, %s and %d people liked"
+msgstr "%s, %s, %s 그리고 %d 사람들이 좋아함"
+
+#: wpf-includes/wpf-phrases.php:12
+msgid "AOL IM"
+msgstr "AOL 메신저"
+
+#: wpf-includes/wpf-phrases.php:13
+msgid "About Me"
+msgstr "나에 관하여"
+
+#: wpf-includes/wpf-phrases.php:16
+msgid "Account"
+msgstr "계정"
+
+#: wpf-includes/wpf-phrases.php:19
+msgid "Activity"
+msgstr "체험"
+
+#: wpf-includes/wpf-phrases.php:23
+msgid "Add a comment"
+msgstr "댓글 추가"
+
+#: wpf-includes/wpf-phrases.php:24
+msgid "Add topic"
+msgstr "주제 추가"
+
+#: wpf-includes/wpf-phrases.php:32
+msgid "Answer"
+msgstr "답변"
+
+#: wpf-includes/wpf-phrases.php:33
+msgid "Answer to"
+msgstr "답변 대상:"
+
+#: wpf-includes/wpf-phrases.php:34
+msgid "Answers"
+msgstr "답변"
+
+#: wpf-includes/wpf-phrases.php:35
+msgid "Any Date"
+msgstr "어떤 날"
+
+#: wpf-includes/wpf-phrases.php:42
+msgid "Ascending order"
+msgstr "오름차순"
+
+#: wpf-includes/wpf-phrases.php:43
+msgid "Attach file:"
+msgstr "파일 첨부:"
+
+#: wpf-includes/wpf-phrases.php:44
+msgid "Attachments"
+msgstr "첨부 파일들"
+
+#: wpf-includes/wpf-phrases.php:45
+msgid "Attachments Size"
+msgstr "첨부 파일 크기"
+
+#: wpf-includes/wpf-phrases.php:47
+msgid "Avatar"
+msgstr "아바타"
+
+#: wpf-includes/wpf-phrases.php:53
+msgid "Change password"
+msgstr "비밀번호 변경"
+
+#: wpf-includes/wpf-phrases.php:54
+msgid "Choose Target Forum"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:58
+msgid "Comments"
+msgstr "댓글들"
+
+#: wpf-includes/wpf-phrases.php:59
+msgid "Confirm my subscription"
+msgstr "내 구독을 확인"
+
+#: wpf-includes/wpf-phrases.php:65
+msgid "Date"
+msgstr "날짜"
+
+#: wpf-includes/wpf-phrases.php:68
+msgid "Descending order"
+msgstr "내림차순"
+
+#: wpf-includes/wpf-phrases.php:71
+msgid "Display Name"
+msgstr "이름 표시하기"
+
+#: wpf-includes/wpf-phrases.php:74
+msgid "Edited: "
+msgstr "편집됨:"
+
+#: wpf-includes/wpf-phrases.php:75
+msgid "Email"
+msgstr "이메일"
+
+#: wpf-includes/wpf-phrases.php:88
+msgid "Enter title here"
+msgstr "여기에 제목 입력"
+
+#: wpf-includes/wpf-phrases.php:90
+msgid "Extended Layout - Intro posts"
+msgstr "펼침 레이아웃 - 소개 글들"
+
+#: wpf-includes/wpf-phrases.php:91
+msgid "Extended Layout - Intro topics"
+msgstr "펼침 레이아웃 - 소개 주제들"
+
+#: wpf-includes/wpf-phrases.php:92
+msgid "Extended Layout - Number of intro posts"
+msgstr "펼침 레이아웃 - 소개 글의 수"
+
+#: wpf-includes/wpf-phrases.php:93
+msgid "Extended Layout - Number of intro topics"
+msgstr "펼침 레이아웃 - 소개 주제들의 수"
+
+#: wpf-includes/wpf-phrases.php:94
+msgid "Facebook"
+msgstr "페이스북"
+
+#: wpf-includes/wpf-phrases.php:95
+msgid "Failed to write file to disk"
+msgstr "디스크에 파일 쓰기 실패"
+
+#: wpf-includes/wpf-phrases.php:97
+msgid "File upload stopped by extension"
+msgstr "파일 업로드가 확장자에 의해 중지됨"
+
+#: wpf-includes/wpf-phrases.php:98
+msgid "Find Posts by User"
+msgstr "사용자에 의한 글 찾기"
+
+#: wpf-includes/wpf-phrases.php:99
+msgid "Find Topics Started by User"
+msgstr "사용자에 의해 시작된 주제 찾기"
+
+#: wpf-includes/wpf-phrases.php:100
+msgid "First post and replies"
+msgstr "첫 번째 글과 답변들"
+
+#: wpf-includes/wpf-phrases.php:102
+msgid "Forum - Login"
+msgstr "포럼 - 로그인"
+
+#: wpf-includes/wpf-phrases.php:103
+msgid "Forum - Page Not Found"
+msgstr "포럼 - 페이지를 찾을 수 없음"
+
+#: wpf-includes/wpf-phrases.php:104
+msgid "Forum - Registration"
+msgstr "포럼 - 가입"
+
+#: wpf-includes/wpf-phrases.php:106
+msgid "Forum Admin Email Addresses"
+msgstr "포럼 관리자 이메일 주소"
+
+#: wpf-includes/wpf-phrases.php:109
+msgid "Forum Home"
+msgstr "포럼 홈"
+
+#: wpf-includes/wpf-phrases.php:110
+msgid "Forum Language"
+msgstr "포럼 언어"
+
+#: wpf-includes/wpf-phrases.php:111
+msgid "Forum Members"
+msgstr "포럼 회원"
+
+#: wpf-includes/wpf-phrases.php:114
+msgid "Forum Profile"
+msgstr "포럼 프로필"
+
+#: wpf-includes/wpf-phrases.php:115
+msgid "Forum RSS Feed"
+msgstr "포럼 RSS 피드"
+
+#: wpf-includes/wpf-phrases.php:119
+msgid "Forum Statistics"
+msgstr "포럼 통계"
+
+#: wpf-includes/wpf-phrases.php:122
+msgid "Forum is empty"
+msgstr "포럼이 비어 있습니다"
+
+#: wpf-includes/wpf-phrases.php:125
+msgid "From Email Address"
+msgstr "보낸 사람 이메일 주소"
+
+#: wpf-includes/wpf-phrases.php:126
+msgid "From Name"
+msgstr "발신자 이름"
+
+#: wpf-includes/wpf-phrases.php:131
+msgid "Group"
+msgstr "그룹"
+
+#: wpf-includes/wpf-phrases.php:132
+msgid "Google+"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:135
+msgid "ICQ"
+msgstr "ICQ"
+
+#: wpf-includes/wpf-phrases.php:139
+msgid "Insert member name or email"
+msgstr "회원 이름 또는 이메일을 입력"
+
+#: wpf-includes/wpf-phrases.php:142
+msgid "Joined"
+msgstr "가입일"
+
+#: wpf-includes/wpf-phrases.php:145
+msgid "Last 24 hours"
+msgstr "지난 24시간"
+
+#: wpf-includes/wpf-phrases.php:146
+msgid "Last 3 Months"
+msgstr "지난 3개월"
+
+#: wpf-includes/wpf-phrases.php:147
+msgid "Last 6 Months"
+msgstr "지난 6개월"
+
+#: wpf-includes/wpf-phrases.php:148
+msgid "Last Active"
+msgstr "최근 활동"
+
+#: wpf-includes/wpf-phrases.php:149
+msgid "Last Month"
+msgstr "지난 달"
+
+#: wpf-includes/wpf-phrases.php:150
+msgid "Last Post"
+msgstr "지난 글"
+
+#: wpf-includes/wpf-phrases.php:151
+msgid "Last Post Info"
+msgstr "마지막 글 정보"
+
+#: wpf-includes/wpf-phrases.php:152
+msgid "Last Week"
+msgstr "지난 주"
+
+#: wpf-includes/wpf-phrases.php:153
+msgid "Last Year ago"
+msgstr "작년"
+
+#: wpf-includes/wpf-phrases.php:154
+#, php-format
+msgid "Last post by %s"
+msgstr "%s에 의해 마지막 게시물"
+
+#: wpf-includes/wpf-phrases.php:155
+msgid "Latest Post"
+msgstr "최근 글"
+
+#: wpf-includes/wpf-phrases.php:156
+msgid "Leave a reply"
+msgstr "댓글을 달아주세요"
+
+#: wpf-includes/wpf-phrases.php:157
+msgid "Length must be between 3 characters and 30 characters."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:159
+msgid "Liked"
+msgstr "좋아함"
+
+#: wpf-includes/wpf-phrases.php:160
+msgid "Location"
+msgstr "위치"
+
+#: wpf-includes/wpf-phrases.php:161
+msgid "Login"
+msgstr "로그인"
+
+#: wpf-includes/wpf-phrases.php:163
+msgid "Logout"
+msgstr "로그아웃"
+
+#: wpf-includes/wpf-phrases.php:165
+msgid "Lost your password?"
+msgstr "비밀번호를 잊으셨나요?"
+
+#: wpf-includes/wpf-phrases.php:167
+msgid "MSN"
+msgstr "MSN"
+
+#: wpf-includes/wpf-phrases.php:168
+msgid "Maximum allowed file size is"
+msgstr "최대 허용 파일 크기는"
+
+#: wpf-includes/wpf-phrases.php:170
+msgid "Member Activity"
+msgstr "회원 활동"
+
+#: wpf-includes/wpf-phrases.php:171
+msgid "Member Information"
+msgstr "회원 정보"
+
+#: wpf-includes/wpf-phrases.php:172
+msgid "Member Rating"
+msgstr "회원 등급"
+
+#: wpf-includes/wpf-phrases.php:173
+msgid "Member Rating Badge"
+msgstr "회원 등급 배지"
+
+#: wpf-includes/wpf-phrases.php:174
+msgid "Member Reputation"
+msgstr "회원 등급"
+
+#: wpf-includes/wpf-phrases.php:177
+msgid "Member information"
+msgstr "회원 정보"
+
+#: wpf-includes/wpf-phrases.php:181
+msgid "Members not found"
+msgstr "회원들을 찾을 수 없음"
+
+#: wpf-includes/wpf-phrases.php:182
+msgid ""
+"You have been banned. Please contact to forum administrators for more "
+"information."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:183
+msgid "Messages"
+msgstr "메시지"
+
+#: wpf-includes/wpf-phrases.php:186
+msgid "Missing a temporary folder"
+msgstr "임시 폴더가 없음"
+
+#: wpf-includes/wpf-phrases.php:188
+msgid "Move Topic"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:189
+msgid "Must be minimum 6 characters."
+msgstr "최소 6자여야 함"
+
+#: wpf-includes/wpf-phrases.php:190
+msgid "My Profile"
+msgstr "나의 프로필"
+
+#: wpf-includes/wpf-phrases.php:197
+msgid "No activity found for this member."
+msgstr "이 회원은 활동한 내용이 없음."
+
+#: wpf-includes/wpf-phrases.php:198
+msgid "No file was uploaded"
+msgstr "업로드된 파일이 없습니다"
+
+#: wpf-includes/wpf-phrases.php:199
+msgid "No forums were found here."
+msgstr "이곳에서는 별견된 포럼이 없습니다."
+
+#: wpf-includes/wpf-phrases.php:203
+msgid "No online members at the moment"
+msgstr "지금 온라인에 있는 회원이 없음"
+
+#: wpf-includes/wpf-phrases.php:205
+msgid "No subscriptions found for this member."
+msgstr "이 회원은 구독한 내용이 없음."
+
+#: wpf-includes/wpf-phrases.php:207
+msgid "No topics were found here"
+msgstr "이곳에서는 발견된 주제가 없습니다"
+
+#: wpf-includes/wpf-phrases.php:208
+msgid "Not available"
+msgstr "사용할 수 없음"
+
+#: wpf-includes/wpf-phrases.php:214
+msgid "Occupation"
+msgstr "직업"
+
+#: wpf-includes/wpf-phrases.php:215
+msgid "Offline"
+msgstr "오프라인"
+
+#: wpf-includes/wpf-phrases.php:216
+msgid "Online"
+msgstr "온라인"
+
+#: wpf-includes/wpf-phrases.php:218
+msgid "Oops! The page you requested was not found!"
+msgstr "앗! 요청하신 페이지를 찾을 수 없습니다!"
+
+#: wpf-includes/wpf-phrases.php:219
+msgid "Our newest member"
+msgstr "우리의 새 회원"
+
+#: wpf-includes/wpf-phrases.php:220
+msgid "Page"
+msgstr "페이지 "
+
+#: wpf-includes/wpf-phrases.php:222
+msgid "Password"
+msgstr "비밀번호"
+
+#: wpf-includes/wpf-phrases.php:224
+#, php-format
+msgid "Please %s or %s"
+msgstr "%s 또는 %s로 부탁합니다"
+
+#: wpf-includes/wpf-phrases.php:228
+msgid "Post Title"
+msgstr "글 제목"
+
+#: wpf-includes/wpf-phrases.php:229
+msgid "Post link"
+msgstr "글 링크"
+
+#: wpf-includes/wpf-phrases.php:230
+msgid "Posted"
+msgstr "게시됨"
+
+#: wpf-includes/wpf-phrases.php:231
+msgid "Posted by"
+msgstr "게시자"
+
+#: wpf-includes/wpf-phrases.php:233
+msgid "Powered by"
+msgstr "Powered by"
+
+#: wpf-includes/wpf-phrases.php:235
+msgid "Q&A Layout - Number of intro topics"
+msgstr "Q&A 레이아웃 - 소개 주제들의 수"
+
+#: wpf-includes/wpf-phrases.php:236
+msgid "Q&A layout - Intro topics"
+msgstr "Q&A 레이아웃 - 소개 주제들"
+
+#: wpf-includes/wpf-phrases.php:237
+msgid "Question Comments"
+msgstr "질문 댓글"
+
+#: wpf-includes/wpf-phrases.php:238
+msgid "Questions"
+msgstr "질문"
+
+#: wpf-includes/wpf-phrases.php:239
+msgid "Quote"
+msgstr "인용"
+
+#: wpf-includes/wpf-phrases.php:240
+msgid "RE"
+msgstr "RE"
+
+#: wpf-includes/wpf-phrases.php:241
+msgid "REPLY:"
+msgstr "답장:"
+
+#: wpf-includes/wpf-phrases.php:242
+msgid "RSS"
+msgstr "RSS"
+
+#: wpf-includes/wpf-phrases.php:243
+msgid "Rating"
+msgstr "등급"
+
+#: wpf-includes/wpf-phrases.php:244
+msgid "Rating Badge"
+msgstr "등급 배지"
+
+#: wpf-includes/wpf-phrases.php:248
+msgid "Received Likes"
+msgstr "받은 좋아요"
+
+#: wpf-includes/wpf-phrases.php:249
+msgid "Recent Questions"
+msgstr "최근 질문들"
+
+#: wpf-includes/wpf-phrases.php:250
+msgid "Recent Topics"
+msgstr "최근 주제들"
+
+#: wpf-includes/wpf-phrases.php:251
+msgid "Register"
+msgstr "가입"
+
+#: wpf-includes/wpf-phrases.php:253
+msgid "Registered date"
+msgstr "회원가입 날짜"
+
+#: wpf-includes/wpf-phrases.php:254
+msgid "Relevancy"
+msgstr "관련성"
+
+#: wpf-includes/wpf-phrases.php:255
+msgid "Remember Me"
+msgstr "기억하기"
+
+#: wpf-includes/wpf-phrases.php:261
+msgid "Replies"
+msgstr "답변"
+
+#: wpf-includes/wpf-phrases.php:262
+msgid "Replies not found"
+msgstr "답글을 찾을 수 없음"
+
+#: wpf-includes/wpf-phrases.php:263
+msgid "Reply"
+msgstr "답글 쓰기"
+
+#: wpf-includes/wpf-phrases.php:264
+msgid "Report"
+msgstr "신고"
+
+#: wpf-includes/wpf-phrases.php:267
+msgid "Report to Administration"
+msgstr "관리자에 신고"
+
+#: wpf-includes/wpf-phrases.php:269
+msgid "Result Info"
+msgstr "결과 정보"
+
+#: wpf-includes/wpf-phrases.php:271
+msgid "Save Changes"
+msgstr "변경사항 적용"
+
+#: wpf-includes/wpf-phrases.php:276
+msgid "Search Entire Posts"
+msgstr "전체 글 검색"
+
+#: wpf-includes/wpf-phrases.php:277
+msgid "Search Phrase"
+msgstr "구문 검색"
+
+#: wpf-includes/wpf-phrases.php:278
+msgid "Search Titles Only"
+msgstr "제목만 검색"
+
+#: wpf-includes/wpf-phrases.php:279
+msgid "Search Type"
+msgstr "검색 유형"
+
+#: wpf-includes/wpf-phrases.php:280
+msgid "Search in Forums"
+msgstr "포럼 내 검색"
+
+#: wpf-includes/wpf-phrases.php:281
+msgid "Search in date period"
+msgstr "날짜 기간 내 검색"
+
+#: wpf-includes/wpf-phrases.php:282
+msgid "Search result for"
+msgstr "검색 결과:"
+
+#: wpf-includes/wpf-phrases.php:283
+msgid "Search..."
+msgstr "검색..."
+
+#: wpf-includes/wpf-phrases.php:285
+msgid "Select Page"
+msgstr "페이지 선택"
+
+#: wpf-includes/wpf-phrases.php:286
+msgid "Send Report"
+msgstr "신고 내용 발송"
+
+#: wpf-includes/wpf-phrases.php:290
+msgid "Set Topic Sticky"
+msgstr "붙박이 주제로 설정"
+
+#: wpf-includes/wpf-phrases.php:291
+msgid ""
+"Set this option value 0 if you want to show all posts under topic intro area."
+msgstr ""
+"주제 소개 영역 아래 모든 글을 보이기를 원하시면 이 옵션 값을 0으로 설정하세"
+"요."
+
+#: wpf-includes/wpf-phrases.php:292
+msgid "Shop Account"
+msgstr "상점 계정"
+
+#: wpf-includes/wpf-phrases.php:302
+msgid "Sign In"
+msgstr "로그인"
+
+#: wpf-includes/wpf-phrases.php:303
+msgid "Signature"
+msgstr "서명"
+
+#: wpf-includes/wpf-phrases.php:304
+msgid "Site Profile"
+msgstr "사이트 프로필"
+
+#: wpf-includes/wpf-phrases.php:305
+msgid "Skype"
+msgstr "스카이프"
+
+#: wpf-includes/wpf-phrases.php:307
+msgid "Social Networks"
+msgstr "소셜 네트워크"
+
+#: wpf-includes/wpf-phrases.php:308
+msgid "Sorry, something wrong with your data."
+msgstr "죄송합니다, 당신의 데이터에 문제가 있습니다."
+
+#: wpf-includes/wpf-phrases.php:309
+msgid "Sort Search Results by"
+msgstr "검색 결과 정렬:"
+
+#: wpf-includes/wpf-phrases.php:310
+msgid "Specify avatar by URL"
+msgstr "URL로 아바타 지정"
+
+#: wpf-includes/wpf-phrases.php:312
+msgid "Subforums"
+msgstr "하위 포럼들"
+
+#: wpf-includes/wpf-phrases.php:315
+msgid "Subscribe for new replies"
+msgstr "새 답글을 구독 신청"
+
+#: wpf-includes/wpf-phrases.php:316
+msgid "Subscribe for new topics"
+msgstr "새 주제를 구독 신청"
+
+#: wpf-includes/wpf-phrases.php:320
+msgid ""
+"Thank you for using wpForo! wpForo is a professional bulletin board for "
+"WorPress, and the only forum software which comes with Multi-layout template "
+"system. The \"Extended"
+msgstr ""
+"wpForo를 이용해 주셔서 감사합니다! wpForo는 워드프레스를 위한 전문적인 인터"
+"넷 게시판이며, 다중-레이아웃 템플릿 시스템을 갖춘 유일한 포럼 소프트웨어입니"
+"다. \"확장"
+
+#: wpf-includes/wpf-phrases.php:321
+msgid ""
+"Thank you for using wpForo. wpForo is a premium forum plugin which will "
+"always be available for free. There will never be paid and pro versions of "
+"this forum board. However this is a very large and hard project so we also "
+"develop paid addons (extensions), which will financially help us to keep "
+"improving and adding new features to the free wpForo plugin. Forum addons "
+"will also be actively developed. The first addons \"Advanced Media Uploader"
+msgstr ""
+"wpForo를 사용해 주셔서 감사합니다. wpForo는 언제나 무료로 사용할 수 있는 프리"
+"미엄 포럼 플러그인입니다. 이 포럼 게시판의 유료와 프로 버전은 결코 없을 것입"
+"니다. 하지만 이는 매우 크고 어려운 프로젝트로 무료 wpForo 플러그인에 새로운 "
+"기능들을 추가하고 발전을 유지하도록 우리를 경제적으로 도울 유료 애드온(확장기"
+"능)을 개발하려고 합니다. 첫 번째 애드온 \"Advanced Media Uploader"
+
+#: wpf-includes/wpf-phrases.php:324
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr "업로드된 파일이 HTML 폼에서 지정된 MAX_FILE_SIZE를 초과했습니다."
+
+#: wpf-includes/wpf-phrases.php:325
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr "업로드된 파일이 php.ini에서 지정된 upload_max_filesize를 초과했습니다"
+
+#: wpf-includes/wpf-phrases.php:326
+msgid "The uploaded file was only partially uploaded"
+msgstr "업로드된 파일이 부분적으로 업로드됐습니다"
+
+#: wpf-includes/wpf-phrases.php:333
+msgid "Timezone"
+msgstr "표준 시간대"
+
+#: wpf-includes/wpf-phrases.php:335
+msgid "Topic RSS Feed"
+msgstr "주제 RSS 피드"
+
+#: wpf-includes/wpf-phrases.php:336
+msgid "Topic Title"
+msgstr "주제 제목"
+
+#: wpf-includes/wpf-phrases.php:337
+msgid "Topic title"
+msgstr "주제 제목"
+
+#: wpf-includes/wpf-phrases.php:340
+msgid "Twitter"
+msgstr "트위터"
+
+#: wpf-includes/wpf-phrases.php:341
+msgid "Unknown upload error"
+msgstr "알 수 없는 업로드 오류"
+
+#: wpf-includes/wpf-phrases.php:342
+msgid "Unsubscribe"
+msgstr "가입 해지"
+
+#: wpf-includes/wpf-phrases.php:345
+msgid "Upload an avatar"
+msgstr "아바타 업로드"
+
+#: wpf-includes/wpf-phrases.php:347
+msgid ""
+"Use comments to ask for more information or suggest improvements. Avoid "
+"answering questions in comments."
+msgstr ""
+"더 많은 정보 또는 개선 제안을 요청하시려면 댓글을 이용하세요. 댓글에서 질문"
+"에 답변하는 것은 피해주세요."
+
+#: wpf-includes/wpf-phrases.php:349
+msgid "User"
+msgstr "사용자"
+
+#: wpf-includes/wpf-phrases.php:351
+msgid "User Group"
+msgstr "사용자 그룹"
+
+#: wpf-includes/wpf-phrases.php:352
+msgid "Usergroup has been successfully deleted."
+msgstr "사용자 그룹이 성공적으로 삭제됐습니다."
+
+#: wpf-includes/wpf-phrases.php:353
+msgid ""
+"Usergroup has been successfully deleted. All users of this usergroup have "
+"been moved to the usergroup you've chosen"
+msgstr ""
+"사용자 그룹이 성공적으로 삭제됐습니다. 이 사용자 그룹의 모든 사용자들이 당신"
+"이 선택한 사용자 그룹으로 이동됐습니다."
+
+#: wpf-includes/wpf-phrases.php:354
+msgid "Username"
+msgstr "사용자명"
+
+#: wpf-includes/wpf-phrases.php:356
+msgid "View entire post"
+msgstr "전체 글 보기"
+
+#: wpf-includes/wpf-phrases.php:357
+msgid "View the latest post"
+msgstr "최신 글 보기"
+
+#: wpf-includes/wpf-phrases.php:358
+msgid "Views"
+msgstr "보기"
+
+#: wpf-includes/wpf-phrases.php:359
+msgid "Votes"
+msgstr "투표"
+
+#: wpf-includes/wpf-phrases.php:360
+msgid "Website"
+msgstr "웹사이트"
+
+#: wpf-includes/wpf-phrases.php:362
+msgid "Wordpress avatar system"
+msgstr "워드프레스 아바타 시스템"
+
+#: wpf-includes/wpf-phrases.php:363
+msgid "Working"
+msgstr "작업 중"
+
+#: wpf-includes/wpf-phrases.php:364
+msgid "Write message"
+msgstr "메시지 쓰기"
+
+#: wpf-includes/wpf-phrases.php:365
+msgid "Yahoo"
+msgstr "야후"
+
+#: wpf-includes/wpf-phrases.php:367
+msgid "You"
+msgstr "회원"
+
+#: wpf-includes/wpf-phrases.php:369
+#, php-format
+msgid "You can go to %s page or Search here"
+msgstr "당신은 %s 페이지로 가거나 또는 여기를 검색할 수 있습니다"
+
+#: wpf-includes/wpf-phrases.php:371
+msgid "Your Answer"
+msgstr "당신의 답변"
+
+#: wpf-includes/wpf-phrases.php:372
+msgid "account"
+msgstr "계정"
+
+#: wpf-includes/wpf-phrases.php:373
+msgid "activity"
+msgstr "활동"
+
+#: wpf-includes/wpf-phrases.php:375
+msgid "add_new"
+msgstr "새로_추가"
+
+#: wpf-includes/wpf-phrases.php:376
+#, php-format
+msgid "%s ago"
+msgstr "%s 전"
+
+#: wpf-includes/wpf-phrases.php:377
+msgid "by"
+msgstr "글쓴이: "
+
+#: wpf-includes/wpf-phrases.php:378
+#, php-format
+msgid "by %s"
+msgstr "글쓴이 %s님"
+
+#: wpf-includes/wpf-phrases.php:379
+msgid "confirm password"
+msgstr "비밀번호 확인"
+
+#: wpf-includes/wpf-phrases.php:384
+msgid "forums"
+msgstr "포럼"
+
+#: wpf-includes/wpf-phrases.php:386
+msgid "login"
+msgstr "로그인"
+
+#: wpf-includes/wpf-phrases.php:387
+msgid "logout"
+msgstr "로그아웃"
+
+#: wpf-includes/wpf-phrases.php:388
+msgid "matches"
+msgstr "일치"
+
+#: wpf-includes/wpf-phrases.php:389
+msgid "members"
+msgstr "회원"
+
+#: wpf-includes/wpf-phrases.php:391
+msgid "my profile"
+msgstr "내 프로필"
+
+#: wpf-includes/wpf-phrases.php:392
+msgid "new password"
+msgstr "새 비밀번호"
+
+#: wpf-includes/wpf-phrases.php:393
+msgid "new password again"
+msgstr "새 비밀번호 재입력"
+
+#: wpf-includes/wpf-phrases.php:394
+msgid "next"
+msgstr "다음"
+
+#: wpf-includes/wpf-phrases.php:395
+msgid "old password"
+msgstr "이전 비밀번호"
+
+#: wpf-includes/wpf-phrases.php:396
+msgid "phrase_key"
+msgstr "구문_키"
+
+#: wpf-includes/wpf-phrases.php:397
+msgid "phrase_value"
+msgstr "구문_값"
+
+#: wpf-includes/wpf-phrases.php:398
+msgid "posted"
+msgstr "게시됨"
+
+#: wpf-includes/wpf-phrases.php:399
+msgid "prev"
+msgstr "이전"
+
+#: wpf-includes/wpf-phrases.php:400
+msgid "register"
+msgstr "회원가입"
+
+#: wpf-includes/wpf-phrases.php:401
+msgid "replies"
+msgstr "답글들"
+
+#: wpf-includes/wpf-phrases.php:402
+msgid "subscriptions"
+msgstr "구독"
+
+#: wpf-includes/wpf-phrases.php:403
+msgid "update"
+msgstr "업데이트"
+
+#: wpf-includes/wpf-phrases.php:405
+msgid "view all posts"
+msgstr "모든 글 보기"
+
+#: wpf-includes/wpf-phrases.php:406
+msgid "view all questions"
+msgstr "모든 질문 보기"
+
+#: wpf-includes/wpf-phrases.php:407
+msgid "view all topics"
+msgstr "모든 주제 보기"
+
+#: wpf-includes/wpf-phrases.php:409
+msgid "wpForo Navigation"
+msgstr "wpForo 네비게이션"
+
+#: wpf-includes/wpf-phrases.php:411
+msgid "wpForo User Timezone"
+msgstr "wpForo 사용자 표준시간대"
+
+#: wpf-includes/wpf-phrases.php:412
+msgid "wpForo Usergroup"
+msgstr "wpForo 사용자 그룹"
+
+#: wpf-includes/wpf-phrases.php:414
+msgid "{number}B"
+msgstr "{number}B"
+
+#: wpf-includes/wpf-phrases.php:415
+msgid "{number}K"
+msgstr "{number}K"
+
+#: wpf-includes/wpf-phrases.php:416
+msgid "{number}M"
+msgstr "{number}M"
+
+#: wpf-includes/wpf-phrases.php:417
+msgid "{number}T"
+msgstr "{number}T"
+
+#: wpf-includes/wpf-phrases.php:422
+msgid "Access add error"
+msgstr "액세스 추가 오류"
+
+#: wpf-includes/wpf-phrases.php:423
+msgid "Access delete error"
+msgstr "액세스 삭제 오류"
+
+#: wpf-includes/wpf-phrases.php:424
+msgid "Access edit error"
+msgstr "액세스 편집 오류"
+
+#: wpf-includes/wpf-phrases.php:425
+msgid "Access successfully deleted"
+msgstr "액세스 성공적으로 삭제됨"
+
+#: wpf-includes/wpf-phrases.php:426
+msgid "Add Topic error: No forum selected"
+msgstr "주제 추가 오류: 포럼이 선택되지 않음"
+
+#: wpf-includes/wpf-phrases.php:427
+msgid "All Checked topics successfully deleted"
+msgstr "모든 체크된 주제들이 성공적으로 삭제됨"
+
+#: wpf-includes/wpf-phrases.php:428
+msgid "Can't add forum"
+msgstr "포럼을 추가할 수 없음"
+
+#: wpf-includes/wpf-phrases.php:429
+msgid "Can't add new language"
+msgstr "새 언어를 추가할 수 없음"
+
+#: wpf-includes/wpf-phrases.php:430
+msgid "Can't delete this Usergroup"
+msgstr "이 사용자 그룹을 삭제할 수 없음"
+
+#: wpf-includes/wpf-phrases.php:431
+msgid "Can't send confirmation email"
+msgstr "확인 이메일을 발송할 수 없음"
+
+#: wpf-includes/wpf-phrases.php:432
+msgid "Can't send report email"
+msgstr "신고 이메일을 발송할 수 없음"
+
+#: wpf-includes/wpf-phrases.php:433
+msgid "Can't subscribe to this item"
+msgstr "이 항목을 구독할 수 없음"
+
+#: wpf-includes/wpf-phrases.php:434
+msgid "Can't write a post: This topic is closed"
+msgstr "글을 쓸 수 없음: 이 주제는 폐쇄됐습니다"
+
+#: wpf-includes/wpf-phrases.php:435
+msgid "Can`t upload file"
+msgstr "파일을 업로드할 수 없음"
+
+#: wpf-includes/wpf-phrases.php:436
+msgid "Cannot update forum hierarchy"
+msgstr "포럼 계층 구조를 업데이트할 수 없음"
+
+#: wpf-includes/wpf-phrases.php:437
+msgid "Cannot update post data"
+msgstr "글 데이터를 업데이트할 수 없음"
+
+#: wpf-includes/wpf-phrases.php:438
+msgid "Could not be unsubscribe from this item"
+msgstr "이 항목으로부터 구독을 해지할 수 없음"
+
+#: wpf-includes/wpf-phrases.php:439
+msgid "Email address exists. Please insert another."
+msgstr "이메일 주소가 존재함. 다른 것을 입력해 주세요."
+
+#: wpf-includes/wpf-phrases.php:440
+msgid "Error: Forum is not found"
+msgstr "오류: 포럼이 발견되지 않음"
+
+#: wpf-includes/wpf-phrases.php:441
+msgid "Error: No topic selected"
+msgstr "오류: 주제가 선택되지 않음"
+
+#: wpf-includes/wpf-phrases.php:442
+msgid "Error: Topic is not found"
+msgstr "오류: 주제가 발견되지 않음"
+
+#: wpf-includes/wpf-phrases.php:443
+msgid "Error: please insert some text to report."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:444
+msgid "Features successfully updated"
+msgstr "주요 기능들이 성공적으로 업데이트됨"
+
+#: wpf-includes/wpf-phrases.php:445
+msgid "Features successfully updated, but previous value not changed"
+msgstr "주요 기능들이 성공적으로 업데이트됨, 하지만 이전 값들은 변경되지 않음"
+
+#: wpf-includes/wpf-phrases.php:446
+msgid "File type is not allowed"
+msgstr "파일 유형이 허용되지 않음"
+
+#: wpf-includes/wpf-phrases.php:447
+msgid "Forum Base URL successfully updated"
+msgstr "포럼 기본 URL이 성공적으로 업데이트됨"
+
+#: wpf-includes/wpf-phrases.php:448
+msgid "Forum deleting error"
+msgstr "포럼 삭제 오류"
+
+#: wpf-includes/wpf-phrases.php:449
+msgid "Forum hierarchy successfully updated"
+msgstr "포럼 계층 구조가 성공적으로 업데이트됨"
+
+#: wpf-includes/wpf-phrases.php:450
+msgid "Forum is successfully merged"
+msgstr "포럼이 성공적으로 합쳐졌습니다"
+
+#: wpf-includes/wpf-phrases.php:451
+msgid "Forum merging error"
+msgstr "포럼 병합 오류"
+
+#: wpf-includes/wpf-phrases.php:452
+msgid "Forum options successfully updated"
+msgstr "포럼 옵션이 성공적으로 업데이트됨"
+
+#: wpf-includes/wpf-phrases.php:453
+msgid "Forum options successfully updated, but previous value not changed"
+msgstr "포럼 옵션이 성공적으로 업데이트됨, 하지만 이전 값은 변경되지 않음"
+
+#: wpf-includes/wpf-phrases.php:454
+msgid "Forum successfully updated"
+msgstr "포럼이 성공적으로 업데이트됨"
+
+#: wpf-includes/wpf-phrases.php:455
+msgid "Forum update error"
+msgstr "포럼 업데이트 오류"
+
+#: wpf-includes/wpf-phrases.php:456
+msgid "General options successfully updated"
+msgstr "일반 옵션이 성공적으로 업데이트됨"
+
+#: wpf-includes/wpf-phrases.php:457
+msgid "Illegal character in username."
+msgstr "사용자 이름에 잘못된 문자"
+
+#: wpf-includes/wpf-phrases.php:458
+msgid "Insert your Email address."
+msgstr "당신의 이메일 주소를 입력하세요."
+
+#: wpf-includes/wpf-phrases.php:459
+msgid "Invalid Email address"
+msgstr "잘못된 이메일 주소"
+
+#: wpf-includes/wpf-phrases.php:460
+msgid "Invalid request!"
+msgstr "잘못된 요청!"
+
+#: wpf-includes/wpf-phrases.php:461
+msgid "Member options successfully updated"
+msgstr "회원 옵션이 성공적으로 업데이트됨"
+
+#: wpf-includes/wpf-phrases.php:462
+msgid "Member options successfully updated, but previous value not changed"
+msgstr "회원 옵션이 성공적으로 업데이트됨, 하지만 이전 값은 변경되지 않음"
+
+#: wpf-includes/wpf-phrases.php:463
+msgid "Message has been sent"
+msgstr "메시지가 발송됐습니다"
+
+#: wpf-includes/wpf-phrases.php:464
+msgid ""
+"New language successfully added and changed wpforo language to new language"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:465
+msgid "No Posts found for update"
+msgstr "업데이트할 글을 찾을 수 없음"
+
+#: wpf-includes/wpf-phrases.php:466
+msgid "Password length must be between 6 characters and 20 characters."
+msgstr "비밀번호는 길이는 6자에서 20자 사이여야 합니다."
+
+#: wpf-includes/wpf-phrases.php:467
+msgid "Password mismatch."
+msgstr "비밀번호 일치하지 않음."
+
+#: wpf-includes/wpf-phrases.php:468
+msgid "Permission denied"
+msgstr "허가가 거부됨"
+
+#: wpf-includes/wpf-phrases.php:469
+msgid "Permission denied for add forum"
+msgstr "포럼 추가에 관한 허가가 거부됨"
+
+#: wpf-includes/wpf-phrases.php:470
+msgid "Permission denied for delete forum"
+msgstr "포럼 삭제에 관한 허가가 거부됨"
+
+#: wpf-includes/wpf-phrases.php:471
+msgid "Permission denied for edit forum"
+msgstr "포럼 편집에 관한 허가가 거부됨"
+
+#: wpf-includes/wpf-phrases.php:472
+msgid "Permission denied for this action"
+msgstr "이 작업에 관한 허가가 거부됨"
+
+#: wpf-includes/wpf-phrases.php:473
+msgid "Phrase add error"
+msgstr "구문 추가 오류"
+
+#: wpf-includes/wpf-phrases.php:474
+msgid "Phrase adding error"
+msgstr "구문 추가 오류"
+
+#: wpf-includes/wpf-phrases.php:475
+msgid "Phrase successfully added"
+msgstr "구문이 성공적으로 추가됨"
+
+#: wpf-includes/wpf-phrases.php:476
+msgid "Phrase successfully updates"
+msgstr "구문이 성공적으로 업데이트"
+
+#: wpf-includes/wpf-phrases.php:477
+msgid "Phrase update error"
+msgstr "구문 업데이트 오류"
+
+#: wpf-includes/wpf-phrases.php:478
+msgid "Please insert required fields!"
+msgstr "필수 항목들을 채워주세요!"
+
+#: wpf-includes/wpf-phrases.php:479
+msgid "Post delete error"
+msgstr "글 삭제 오류"
+
+#: wpf-includes/wpf-phrases.php:481
+msgid "Post options successfully updated"
+msgstr "글 옵션이 성공적으로 업데이트됨"
+
+#: wpf-includes/wpf-phrases.php:482
+msgid "Post options successfully updated, but previous value not changed"
+msgstr "글 옵션이 성공적으로 업데이트됨, 하지만 이전 값음 변경되지 않음"
+
+#: wpf-includes/wpf-phrases.php:483
+msgid "Registration Error"
+msgstr "회원가입 오류"
+
+#: wpf-includes/wpf-phrases.php:484
+msgid "Reply request error"
+msgstr "답글 쓰기 요청 오류"
+
+#: wpf-includes/wpf-phrases.php:485
+msgid "Something wrong with profile data."
+msgstr "프로필 데이터에 문제가 있습니다."
+
+#: wpf-includes/wpf-phrases.php:486
+msgid "Subscribe options successfully updated"
+msgstr "구독 옵션이 성공적으로 업데이트됨"
+
+#: wpf-includes/wpf-phrases.php:487
+msgid "Subscribe options successfully updated, but previous value not changed"
+msgstr "구독 옵션이 성공적으로 업데이트됨, 하지만 이전 값은 변명되지 않음"
+
+#: wpf-includes/wpf-phrases.php:488
+msgid "Success!"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:489
+msgid ""
+"Success! Thank you. Please check your email and click confirmation link "
+"below to complete this step."
+msgstr ""
+"성공/ 감사합니다. 이 단계를 마무리하려면 이메일을 확인하고 아래 확인 링크를 "
+"클릭하세요."
+
+#: wpf-includes/wpf-phrases.php:490
+msgid "Successfully updated"
+msgstr "성공적으로 업데이트됨"
+
+#: wpf-includes/wpf-phrases.php:491
+msgid "Successfully voted"
+msgstr "성공적으로 투표됨"
+
+#: wpf-includes/wpf-phrases.php:492
+msgid "The uploaded file size is too big"
+msgstr "업로드된 파일 크기가 너무 큽니다"
+
+#: wpf-includes/wpf-phrases.php:493
+msgid "Theme options successfully updated"
+msgstr "테마 옵션이 성공적으로 업데이트됨"
+
+#: wpf-includes/wpf-phrases.php:494
+msgid "This email address is already registered. Please insert another."
+msgstr "이 이메일 주소는 이미 등록됐습니다. 다른 이메일을 입력해 주세요."
+
+#: wpf-includes/wpf-phrases.php:495
+msgid "This post successfully deleted"
+msgstr "이 글이 성공적으로 삭제됨"
+
+#: wpf-includes/wpf-phrases.php:496
+msgid "This post successfully edited"
+msgstr "이 글이 성공적으로 편집됨"
+
+#: wpf-includes/wpf-phrases.php:497
+msgid "This topic successfully deleted"
+msgstr "이 주제가 성공적으로 삭제됨"
+
+#: wpf-includes/wpf-phrases.php:498
+msgid "Topic Move Error"
+msgstr "주제 이동 오류"
+
+#: wpf-includes/wpf-phrases.php:499
+msgid "Topic add error"
+msgstr "주제 추가 오류"
+
+#: wpf-includes/wpf-phrases.php:500
+msgid "Topic delete error"
+msgstr "주제 삭제 오류"
+
+#: wpf-includes/wpf-phrases.php:501
+msgid "Topic edit error"
+msgstr "주제 편집 오류"
+
+#: wpf-includes/wpf-phrases.php:502
+msgid "Topic not found."
+msgstr "주제가 발견되지 않음."
+
+#: wpf-includes/wpf-phrases.php:503
+msgid "Topic successfully moved"
+msgstr "주제가 성공적으로 이동함"
+
+#: wpf-includes/wpf-phrases.php:504
+msgid "Topic successfully updated"
+msgstr "주제가 성공적으로 업데이트됨"
+
+#: wpf-includes/wpf-phrases.php:505
+msgid "Topics delete error"
+msgstr "주제 삭제 오류"
+
+#: wpf-includes/wpf-phrases.php:506
+msgid "User delete error"
+msgstr "사용자 삭제 오류"
+
+#: wpf-includes/wpf-phrases.php:507
+msgid "User group add error"
+msgstr "사용자 그룹 추가 오류"
+
+#: wpf-includes/wpf-phrases.php:508
+msgid "User group edit error"
+msgstr "사용자 그룹 편집 오류"
+
+#: wpf-includes/wpf-phrases.php:509
+msgid "User group successfully added"
+msgstr "사용자 그룹이 성공적으로 추가됨"
+
+#: wpf-includes/wpf-phrases.php:510
+msgid "User group successfully edited"
+msgstr "사용자 그룹이 성공적으로 편집됨"
+
+#: wpf-includes/wpf-phrases.php:511
+msgid "User successfully deleted from wpforo"
+msgstr "사용자가 wpforo에서 성공적으로 삭제됐습니다"
+
+#: wpf-includes/wpf-phrases.php:512
+msgid "Username exists. Please insert another."
+msgstr "사용자 이름이 존재합니다. 다른 이름을 입력해 주세요."
+
+#: wpf-includes/wpf-phrases.php:513
+msgid "Username is missed."
+msgstr "사용자 이름이 없습니다."
+
+#: wpf-includes/wpf-phrases.php:514
+msgid "Username length must be between 3 characters and 30 characters."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:515
+msgid "Welcome to our Community!"
+msgstr "커뮤니티에 오신 것을 환영합니다!"
+
+#: wpf-includes/wpf-phrases.php:516
+msgid "Wrong post data"
+msgstr "잘못된 글 데이터"
+
+#: wpf-includes/wpf-phrases.php:517
+msgid "You are already voted this post"
+msgstr "당신이 이 글에 이미 투표했습니다"
+
+#: wpf-includes/wpf-phrases.php:518
+msgid "You have been successfully subscribed"
+msgstr "당신은 성공적으로 가입됐습니다"
+
+#: wpf-includes/wpf-phrases.php:519
+msgid "You have been successfully unsubscribed"
+msgstr "당신은 성공적으로 가입 해지됐습니다"
+
+#: wpf-includes/wpf-phrases.php:520
+msgid "You have no permission to edit this topic"
+msgstr "당신은 이 주제를 편집하도록 승인받지 않았습니다"
+
+#: wpf-includes/wpf-phrases.php:521
+msgid "You don't have permission to create post in this forum"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:522
+msgid "You don't have permission to create topic into this forum"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:523
+msgid "You don't have permission to delete post from this forum"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:524
+msgid "You don't have permission to delete topic from this forum"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:525
+msgid "You don't have permission to edit post from this forum"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:526
+msgid "You successfully replied"
+msgstr "당신은 성공적으로 답변했습니다"
+
+#: wpf-includes/wpf-phrases.php:527
+msgid "Your forum successfully added"
+msgstr "당신의 포럼이 성공적으로 추가됨"
+
+#: wpf-includes/wpf-phrases.php:528
+msgid "Your forum successfully deleted"
+msgstr "당신의 포럼이 성공적으로 삭제됨"
+
+#: wpf-includes/wpf-phrases.php:529
+msgid "Your profile data have been successfully updated."
+msgstr "당신의 프로필 데이터가 성공적으로 업데이트됐습니다."
+
+#: wpf-includes/wpf-phrases.php:530
+msgid "Your subscription for this item could not be confirmed"
+msgstr "이 항목에 대한 당신의 구독이 승인될 수 없습니다"
+
+#: wpf-includes/wpf-phrases.php:531
+msgid "Your topic successfully added"
+msgstr "당신의 주제가 성공적으로 추가됨"
+
+#: wpf-includes/wpf-phrases.php:546
+msgid "Front - Can have signature"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:570
+msgid "Can edit own replay"
+msgstr "자신의 답글을 편집할 수 있도록"
+
+#: wpf-includes/wpf-phrases.php:588
+msgid "like"
+msgstr "좋아요"
+
+#: wpf-includes/wpf-phrases.php:589
+msgid "unlike"
+msgstr "싫어요"
+
+#: wpf-includes/wpf-phrases.php:590
+msgid "sticky"
+msgstr "붙박이"
+
+#: wpf-includes/wpf-phrases.php:591
+msgid "unsticky"
+msgstr "붙박이 풀기"
+
+#: wpf-includes/wpf-phrases.php:592
+msgid "close"
+msgstr "닫기"
+
+#: wpf-includes/wpf-phrases.php:593
+msgid "open"
+msgstr "열기"
+
+#: wpf-includes/wpf-phrases.php:594
+msgid "Topic Icons"
+msgstr "주제 아이콘"
+
+#: wpf-includes/wpf-phrases.php:595
+msgid "New"
+msgstr "새로운"
+
+#: wpf-includes/wpf-phrases.php:596
+msgid "Replied"
+msgstr "답변된"
+
+#: wpf-includes/wpf-phrases.php:598
+msgid "Hot"
+msgstr "열띤"
+
+#: wpf-includes/wpf-phrases.php:599
+msgid "Solved"
+msgstr "해결됨"
+
+#: wpf-includes/wpf-phrases.php:600
+msgid "Unsolved"
+msgstr "미해결"
+
+#: wpf-includes/wpf-phrases.php:610
+msgid "Old password is wrong"
+msgstr "이전 비밀번호가 잘못됐습니다"
+
+#: wpf-includes/wpf-phrases.php:611
+msgid "New Passwords do not match"
+msgstr "새 비밀번호가 일치하지 않습니다"
+
+#: wpf-includes/wpf-phrases.php:615
+msgid ""
+"This process may take a few seconds or dozens of minutes, it depends on "
+"database forum size and on server resources. Please be patient and don't "
+"close this page. If you got 500 Server Error please don't worry, the data "
+"updating process is still working in MySQL server."
+msgstr ""
+"이 과정은 수 초 내지 수십 분이 소요될 수 있고, 데이터베이스 포럼 크기와 서버 "
+"자원에 따라 다릅니다. 인내심을 가지고 이 페이지를 닫지 말아 주세요. 만약 500 "
+"서버 오류가 발생하면 걱정하시 마세요, 데이터 업데이트 과정은 MySQL 서버에서 "
+"여전히 작동 중입니다."
+
+#: wpf-includes/wpf-phrases.php:619
+msgid "Updated Successfully!"
+msgstr "성공적으로 업데이트됐습니다!"
+
+#: wpf-includes/wpf-phrases.php:620
+msgid "Deleted Successfully!"
+msgstr "성공적으로 삭제됐습니다!"
+
+#: wpf-includes/wpf-phrases.php:621
+msgid "Closed"
+msgstr "마감됨"
+
+#: wpf-includes/wpf-phrases.php:622
+msgid "Forum Members List"
+msgstr "포럼 회원 목록"
+
+#: wpf-includes/wpf-phrases.php:623
+msgid "are you sure you want to delete?"
+msgstr "정말로 삭제하시겠습니까?"
+
+#: wpf-includes/wpf-phrases.php:625
+msgid "Moderator"
+msgstr "중재자"
+
+#: wpf-includes/wpf-phrases.php:627
+msgid "Customer"
+msgstr "고객"
+
+#: wpf-includes/wpf-phrases.php:628
+msgid "No access"
+msgstr "액세스 불가"
+
+#: wpf-includes/wpf-phrases.php:629
+msgid "Read only access"
+msgstr "읽기 전용 액세스"
+
+#: wpf-includes/wpf-phrases.php:630
+msgid "Standard access"
+msgstr "표준 액세스"
+
+#: wpf-includes/wpf-phrases.php:631
+msgid "Moderator access"
+msgstr "중재자 액세스"
+
+#: wpf-includes/wpf-phrases.php:632
+msgid "Full access"
+msgstr "전체 액세스"
+
+#: wpf-includes/wpf-phrases.php:635
+msgid "Incorrect file format. Allowed formats: jpeg, jpg, png, gif."
+msgstr "잘못된 파일 형식. 허용된 형식: jpeg, jpg, png, gif."
+
+#: wpf-includes/wpf-phrases.php:642
+msgid "Attachment removed"
+msgstr "첨부파일 삭제됨"
+
+#: wpf-includes/wpf-phrases.php:643
+msgid "Forum Posts"
+msgstr "포럼 게시물"
+
+#: wpf-includes/wpf-phrases.php:644
+msgid "Blog Posts"
+msgstr "블로그 게시물"
+
+#: wpf-includes/wpf-phrases.php:645
+msgid "Blog Comments"
+msgstr "블로그 댓글"
+
+#: wpf-includes/wpf-phrases.php:646
+#, php-format
+msgid "Welcome back %s!"
+msgstr "%s, 환영합니다!"
+
+#: wpf-includes/wpf-phrases.php:647
+msgid "Member Profile"
+msgstr "포럼 프로필"
+
+#: wpf-includes/wpf-phrases.php:648
+msgid "Member"
+msgstr "회원"
+
+#: wpf-includes/wpf-phrases.php:649
+msgid "You do not have permission to view this page"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:651
+msgid ""
+"This option will disable WordPress on front-end. Only forum pages will be "
+"available. wpForo will look like as a stand-alone forum."
+msgstr ""
+"이 옵션은 프론트-엔드에서 워드프레스를 비활성화합니다. 오직 포럼 페이지만 사"
+"용 가능합니다. wpForo는 독립 실행형 포럼처럼 보이게 됩니다."
+
+#: wpf-includes/wpf-phrases.php:656
+msgid "private"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:657
+msgid "public"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:658
+msgid "Private Topic"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:659
+msgid "Only Admins and Moderators can see your private topics."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:660
+msgid "Forum ID is not detected"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:661
+msgid "You are not permitted to subscribe here"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:662
+msgid "Subscribe to this topic"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:665
+msgid "Awaiting moderation"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:666
+msgid "Topic first post not found."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:667
+msgid "Topic first post data not found."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:668
+msgid "Settings successfully updated"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:669
+msgid "Done!"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:670 wpf-includes/wpf-phrases.php:775
+msgid "You are not allowed to attach this file type"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:671
+msgid "Post is empty"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:672
+msgid "removed link"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:673
+msgid "Submit"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:677
+msgid "Rating Title"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:678
+msgid "User Title"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:679
+msgid "Anonymous"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:682
+msgid "approved"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:683
+msgid "unapproved"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:686
+msgid "--- Choose ---"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:687
+msgid "Required field"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:690
+msgid "Add Reply"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:691
+msgid "Forums RSS Feed"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:692
+msgid "Topics RSS Feed"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:693
+msgid "Find a member"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:694
+msgid "Display Name or Nicename"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:695
+msgid "Reset Search"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:696
+msgid "Reset Result"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:702
+msgid "No posts were found here"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:705
+msgid "forum link"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:706
+msgid "in forum"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:707
+msgid ""
+"You can mention a person using @nicename in post content to send that person "
+"an email message. When you post a topic or reply, forum sends an email "
+"message to the user letting them know that they have been mentioned on the "
+"post."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:710
+msgid "You are not allowed to edit this post"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:711
+msgid "Google reCAPTCHA verification failed"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:712
+msgid "ERROR: Can't connect to Google reCAPTCHA API"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:713
+msgid "Welcome!"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:714
+msgid "Join us today!"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:715
+msgid ""
+"Enter your email address or username and we'll send you a link you can use "
+"to pick a new password."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:716
+msgid "Please Insert Your Email or Username"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:717
+msgid "Reset Password"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:718
+msgid "Forgot Your Password?"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:721
+#, php-format
+msgid "%s created a new topic %s"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:722
+#, php-format
+msgid "%s replied to the topic %s"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:723
+#, php-format
+msgid "%s liked forum post %s"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:724
+msgid "Read more"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:725
+msgid "Forum topic"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:726
+msgid "Forum post"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:727
+msgid "Forum post like"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:729
+msgid "Target Topic URL"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:730
+msgid "Target Topic not found"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:731
+msgid "Merge Topics"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:732
+msgid "Split Topic"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:733
+msgid ""
+"Please copy the target topic URL from browser address bar and paste in the "
+"field below."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:734
+msgid ""
+"All posts will be merged and displayed (ordered) in target topic according "
+"to posts dates. If you want to append merged posts to the end of the target "
+"topic you should allow to update posts dates to current date by check the "
+"option below."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:735
+msgid ""
+"Update post dates (current date) to allow append posts to the end of the "
+"target topic."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:736
+msgid "Update post titles with target topic title."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:737
+msgid ""
+"Topics once merged cannot be unmerged. This topic URL will no longer be "
+"available."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:738
+msgid "Create New Topic"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:739
+msgid ""
+"Create new topic with split posts. The first post of new topic becomes the "
+"earliest reply."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:740
+msgid "New Topic Title"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:741
+msgid "New Topic Forum"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:742
+msgid "Select Posts to Split"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:743
+msgid ""
+"Topic once split cannot be unsplit. The first post of new topic becomes the "
+"earliest reply."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:744
+msgid "Merge"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:745
+msgid "Split"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:746
+msgid "Move Reply"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:747
+msgid ""
+"This action changes topic URL. Once the topic is moved to other forum the "
+"old URL of this topic will no longer be available."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:748
+#, php-format
+msgid ""
+"When you login first time using Facebook Login button, we collect your "
+"account %s information shared by Facebook, based on your privacy settings. "
+"We also get your email address to automatically create a forum account for "
+"you. Once your account is created, you'll be logged-in to this account and "
+"you'll receive a confirmation email."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:751
+msgid "No data submitted"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:752
+msgid "User profile fields not found"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:753
+msgid "field is required"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:754
+#, php-format
+msgid "field value must be at least %d"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:755
+#, php-format
+msgid "field value cannot be greater than %d"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:756
+#, php-format
+msgid "field length must be at least %d characters"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:757
+#, php-format
+msgid "field length can not be greater than %d characters"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:758
+msgid "field value is not a valid URL"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:759
+msgid "file type is not detected"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:760
+#, php-format
+msgid "file type %s is not allowed"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:761
+msgid "file is too large"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:762
+msgid "Success! Please check your mail for confirmation."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:763
+#, php-format
+msgid "Username length must be between %d characters and %d characters."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:764
+msgid "User registration is disabled."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:765
+msgid "Avatar image is too big maximum allowed size is 2MB"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:766
+msgid "One of the selected Usergroups cannot be set as Secondary"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:767
+msgid "The selected Usergroup is not found in allowed list"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:768
+msgid "The selected Usergroup cannot be set"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:769
+msgid "Admin and Moderator Usergroups are not permitted"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:770
+msgid "You have no permission to edit Usergroup field"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:771
+msgid "This nickname is already in use. Please insert another."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:772
+msgid "Nickname validation failed"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:773
+msgid "Numerical nicknames are not allowed. Please insert another."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:774
+#, php-format
+msgid "Maximum allowed file size is %s MB"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:776
+msgid "This email address is already registered. Please insert another"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:777
+#, php-format
+msgid "Allowed file types: %s"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:778
+msgid "Form name not found"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:779
+msgid "Form template not found"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:780
+msgid "Profile updated successfully"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:781
+msgid "User data update failed"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:782
+msgid "User profile update failed"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:783
+msgid "User custom field update failed"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:784
+msgid "Sorry, there was an error uploading attached file"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:785
+msgid "Edit Topic"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:786
+#, php-format
+msgid "This topic was modified %s by %s"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:787
+msgid "Edit Post"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:788
+#, php-format
+msgid "This post was modified %s by %s"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:792
+msgid "Topic link"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:793
+msgid "Forum Topics Started"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:794
+msgid "Forum Replies Created"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:795
+msgid "Liked Forum Posts"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:796
+msgid "Forum Subscriptions"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:798
+#, php-format
+msgid "Start typing tags here (maximum %d tags are allowed)..."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:799
+msgid "Topic Tags"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:800
+msgid "Topic Tag"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:801
+msgid "Separate tags using a comma"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:802
+msgid "Tag"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:803
+msgid "Tags"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:804
+msgid "Find Topics by Tags"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:805
+msgid "Related Topics"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:806
+msgid "Next Topic"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:807
+msgid "Previous Topic"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:808
+msgid "All forum topics"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:809
+msgid "No tags found"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:810
+msgid "Forum contains no unread posts"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:811
+msgid "Forum contains unread posts"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:812
+msgid "Mark all read"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:813
+msgid "Not Replied"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:814
+msgid "default"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:815
+msgid "red"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:816
+msgid "green"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:817
+msgid "orange"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:818
+msgid "grey"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:819
+msgid "dark"
+msgstr ""
+
+#: wpf-themes/classic/functions.php:39
+msgid "Extended Layout - Recent topics"
+msgstr ""
+
+#: wpf-themes/classic/functions.php:48
+msgid "Extended Layout - Number of Recent topics"
+msgstr ""
+
+#: wpf-themes/classic/functions.php:55
+msgid "Extended Layout - Recent topic length"
+msgstr ""
+
+#: wpf-themes/classic/functions.php:56 wpf-themes/classic/functions.php:86
+msgid ""
+"Set this option value 0 if you want to show the whole title in recent topic "
+"area."
+msgstr ""
+
+#: wpf-themes/classic/functions.php:69
+msgid "Q&A layout - Recent topics"
+msgstr ""
+
+#: wpf-themes/classic/functions.php:78
+msgid "Q&A Layout - Number of Recent topics"
+msgstr ""
+
+#: wpf-themes/classic/functions.php:85
+msgid "Q&A Layout - Recent topic length"
+msgstr ""
+
+#: wpf-themes/classic/functions.php:107
+msgid "Extended Layout - Recent posts"
+msgstr ""
+
+#: wpf-themes/classic/functions.php:117
+msgid "Extended Layout - Number of Recent posts"
+msgstr ""
+
+#: wpf-themes/classic/functions.php:118
+msgid ""
+"Set this option value 0 if you want to show all posts in recent posts area."
+msgstr ""
+
+#: wpf-themes/classic/functions.php:126
+msgid "Extended Layout - Recent post length"
+msgstr ""
+
+#: wpf-themes/classic/functions.php:127
+msgid ""
+"Set this option value 0 if you want to show the whole post content in recent "
+"post area."
+msgstr ""
+
+#: wpforo.php:259
+msgid "Discussion Board"
+msgstr "토론 게시판"
+
+#: wpforo.php:768
+msgid ""
+"Allows to embed hundreds of video, social network, audio and photo content "
+"providers in forum topics and posts."
+msgstr ""
+
+#: wpforo.php:769
+msgid ""
+"wpForo Polls is a complete addon to help forum members create, vote and "
+"manage polls effectively. Comes with poll specific permissions and settings."
+msgstr ""
+
+#: wpforo.php:770
+msgid ""
+"Awards myCRED points for forum activity. Integrates myCRED Badges and Ranks. "
+"Converts wpForo topic and posts, likes to myCRED points."
+msgstr ""
+
+#: wpforo.php:771
+msgid ""
+"Advanced user profile builder system. Allows to add new fields and manage "
+"profile page. Creates custom Registration, Account, Member Search forms."
+msgstr ""
+
+#: wpforo.php:772
+msgid ""
+"Adds an advanced file attachment system to forum topics and posts. AJAX "
+"powered media uploading and displaying system with user specific library."
+msgstr ""
+
+#: wpforo.php:773
+msgid ""
+"Provides a safe way to communicate directly with other members. Messages are "
+"private and can only be viewed by conversation participants."
+msgstr ""
+
+#: wpforo.php:774
+msgid ""
+"Blog to Forum and Forum to Blog content synchronization. Blog posts with "
+"Forum topics and Blog comments with Forum replies."
+msgstr ""
+
+#: wpforo.php:775
+msgid ""
+"Ads Manager is a powerful yet simple advertisement management system, that "
+"allows you to add adverting banners between forums, topics and posts."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "wpForo"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpforo.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WordPress Forum plugin. wpForo is a full-fledged forum solution for your "
+"community. Comes with multiple modern forum layouts."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "gVectors Team (A. Chakhoyan, R. Hovhannisyan)"
+msgstr "gVectors Team (A. Chakhoyan, R. Hovhannisyan)"
+
+#. Author URI of the plugin/theme
+msgid "https://gvectors.com/"
+msgstr ""
+
+#~ msgid "Replace Registration Page URL to Forum URL"
+#~ msgstr "회원가입 페이지 URL을 포럼 URL로 바꾸기"
+
+#~ msgid "Replace Login Page URL to Forum URL"
+#~ msgstr "로그인 페이지 URL을 포럼 URL로 바꾸기"
+
+#~ msgid "Users Count"
+#~ msgstr "사용자 수"
+
+#~ msgid "Count of users in this usergroup"
+#~ msgstr "이 사용자 그룹의 사용자 수"
+
+#~ msgid "Are you sure you whant to DELETE this item?"
+#~ msgstr "정말로 이 아이템을 삭제하고 싶으세요?"
+
+#~ msgid "Choose target forum"
+#~ msgstr "대상 포럼 선택"
+
+#~ msgid "Move topic"
+#~ msgstr "주제 이동"
+
+#~ msgid "Error: please inset some text to report."
+#~ msgstr "오류: 보고할 텍스트를 입력해 주세요"
+
+#~ msgid ""
+#~ "New language successfully added and changed  wpforo language to new "
+#~ "language"
+#~ msgstr "새 언어가 성공적으로 wpForo 언어에 추가되고 변경됨"
+
+#~ msgid "Success! Thank you Dear Friend"
+#~ msgstr "성공! 감사합니다"
+
+#~ msgid "You haven't permission to create post into this forum"
+#~ msgstr "당신은 이 포럼에서 글을 만들도록 승인받지 않았습니다"
+
+#~ msgid "You haven't permission to create topic into this forum"
+#~ msgstr "당신은 이 포럼에서 주제를 만들도록 승인받지 않았습니다"
+
+#~ msgid "You haven't permission to delete post from this forum"
+#~ msgstr "당신은 이 포럼에서 글을 삭제하도록 승인받지 않았습니다"
+
+#~ msgid "You haven't permission to delete topic from this forum"
+#~ msgstr "당신은 이 포럼에서 주제를 삭제하도록 승인받지 않았습니다"
+
+#~ msgid "You haven't permission to edit post from this forum"
+#~ msgstr "당신은 이 포럼에서 글을 편집하도록 승인받지 않았습니다"
+
+#~ msgid "Front - Can have signatur"
+#~ msgstr "전면 - 서명을 가질 수 있도록"
+
+#~ msgid "Front - Can view member last active date"
+#~ msgstr "전면 - 회원의 마지막 활동 날짜를 볼 수 있도록"
+
+#~ msgid "Front - Can view member ip address"
+#~ msgstr "전면 - 회원의 IP 주소를 볼 수 있도록"
+
+#~ msgid "Front - Can view member ocumpation"
+#~ msgstr "전면 - 회원의 직업을 볼 수 있도록"
+
+#~ msgid "Front - Can view member signatur"
+#~ msgstr "전면 - 회원의 서명을 볼 수 있도록"
+
+#~ msgid "Front - Can view member phone number"
+#~ msgstr "전면 - 회원의 전화번호를 볼 수 있도록"
+
+#~ msgid "Can delete own replay"
+#~ msgstr "자신의 답글을 삭제할 수 있도록"
+
+#~ msgid "Can Attach File"
+#~ msgstr "파일을 첨부할 수 있도록"
+
+#~ msgid "Forum - wpForo"
+#~ msgstr "포럼 - wpForo"
+
+#~ msgid "http://wpforo.com"
+#~ msgstr "http://wpforo.com"
+
+#~ msgid "http://gvectors.com/"
+#~ msgstr "http://gvectors.com/"
+
+#~ msgid "Gtalk"
+#~ msgstr "구글 토크"
+
+#~ msgid "Length must be between 3 characters and 15 characters."
+#~ msgstr "길이는 3자에서 15자 사이여야 합니다."
+
+#~ msgid "Username length must be between 3 characters and 15 characters."
+#~ msgstr "사용자 이름 길이는 3자에서 15자 사이여야 합니다."
+
+#~ msgid "Can make topic sticky"
+#~ msgstr "주제를 붙박이로 만들 수 있도록"
+
+#~ msgid "Can make topic answered"
+#~ msgstr "주제를 답변됨으로 만들 수 있도록"
+
+#~ msgid "Can make own topic answered"
+#~ msgstr "자신의 주제를 답변됨으로 만들 수 있도록"
+
+#~ msgid "Can make topic solved"
+#~ msgstr "주제가 해결됨으로 만들 수 있도록"
+
+#~ msgid "Can make own topic solved"
+#~ msgstr "자신의 주제가 해결됨으로 만들 수 있도록"
+
+#~ msgid ""
+#~ "Next Generation of WordPress Forum Softwares. Everything you need to run "
+#~ "an efficient and professional community. Powerful and beautiful bulletin "
+#~ "board with unique features."
+#~ msgstr ""
+#~ "차세대 워드프레스 포럼 소프트웨어. 효율적이고 전문적 커뮤니티를 운영하기 "
+#~ "위해 당신에게 필요한 모든 것. 고유의 기능들을 갖춘 강력하고 아름다운 게시"
+#~ "판."
+
+#~ msgid "Dahsboard - Can create forum"
+#~ msgstr "대시보드 - 포럼을 만들 수 있도록"
+
+#~ msgid "Dahsboard - Can edit forum"
+#~ msgstr "대시보드 - 포럼을 편집할 수 있도록"
+
+#~ msgid "Dahsboard - Can delete forum"
+#~ msgstr "대시보드 - 포럼을 삭제할 수 있도록"
+
+#~ msgid "Dahsboard - Members Menu"
+#~ msgstr "대시보더 - 회원 메뉴"
+
+#~ msgid "Dahsboard - Can edit member"
+#~ msgstr "대시보드 - 회원을 편집할 수 있도록"
+
+#~ msgid "Dahsboard - Can delete member"
+#~ msgstr "대시보드 - 회원을 삭제할 수 있도록"
+
+#~ msgid "Dahsboard - Usergroup Menu"
+#~ msgstr "대시보드 - 사용자 그룹 메뉴"
+
+#~ msgid "Dismiss"
+#~ msgstr "무시"
+
+#~ msgid ""
+#~ "Thank you for trying wpForo! This forum development was started on 2013 "
+#~ "and we were using it for our support community. Now it's ready for "
+#~ "WordPress community as well. \n"
+#~ "                                    It's on the Beta stage and we're "
+#~ "working hard to reach the Gold 1.0.0 version as soon as possible. \n"
+#~ "                                    wpForo is a professional bulletin "
+#~ "board for WorPress, and the only forum software which comes with Multi-"
+#~ "layout template system.\n"
+#~ "                                    The \"Extended\", \"Simplified\" and "
+#~ "\"Question &amp Answer\" layouts fit almost all type of discussions "
+#~ "needs. You can use wpForo for small and extremely large communities. \n"
+#~ "                                    <br />If you found some issue or bug "
+#~ "please open a support topic in plugin page or in our support forum at "
+#~ "gVectors.com. If you liked wpForo please leave some good review for this "
+#~ "plugin. We really need your good reviews. \n"
+#~ "                                    If you didn't like wpForo please "
+#~ "leave a list of issues and requirements you'd like us to fix and add in "
+#~ "near future. We're here to help you and improve wpForo as much as "
+#~ "possible."
+#~ msgstr ""
+#~ "wpForo를 사용해 주셔서 감사합니다! 이 포럼 개발은 2013년에 시작됐고 우리"
+#~ "의 지원 커뮤니티에 사용하고 있습니다. 워드프레스 커뮤니티 역시 준비가 돼 "
+#~ "있습니다.\n"
+#~ "\n"
+#~ "                                    베타 단계에 있고 가능한 빨리 정식 "
+#~ "1.0.0 버전에 도달하도록 열심히 일하고 있습니다. \n"
+#~ "                                    wpForo는 워드프레스를 위한 전문 온라"
+#~ "인 게시판으로, 다중 레이아웃 템플릿 시스템을 갖춘 유일한 포럼 소프트웨어이"
+#~ "기도 합니다.\n"
+#~ "                                    \"Extended\", \"Simplified\" 그리고 "
+#~ "\"Question &amp Answer\" 레이아웃들은 거의 모든 토론 유형에 적합합니다. 여"
+#~ "러분은 wpForo를 작거나 대단히 큰 커뮤니티에 사용할 수 있습니다. \n"
+#~ "                                    <br />만약 문제나 버그를 발견하면 플러"
+#~ "그인 페이지나 gVectors.com의 지원 포럼에 지원 주제를 열어주세요. 만약 여러"
+#~ "분이 wpForo를 좋아하신다면 이 플러그인을 위해 좋은 리뷰를 남겨 주세요. 우"
+#~ "리는 정말로 여러분들의 좋은 리뷰를 필요로 합니다. \n"
+#~ "                                    만약 wpForo가 싫다면 가까운 장래에 우"
+#~ "리가 고치거나 추가하기를 원하는 문제들과 요구 사항들의 목록을 남겨 주세"
+#~ "요. 우리는 가능한 많이 여러분을 돕고 wpForo를 개선하기 위해 여기에 있습니"
+#~ "다."
+
+#~ msgid ""
+#~ "This feature is useful if you're adding content before or after [wpforo-"
+#~ "index] shortcode in page content. Also it useful if forum is loaded "
+#~ "before website header, on top of the front-end."
+#~ msgstr ""
+#~ "이 기능은 페이지 내용에서 [wpforo-index] 쇼트코드 앞 혹은 뒤에 내용을 추가"
+#~ "할 때 유용합니다. 또한 프론트-엔드의 상단에서 웹사이트 헤더 전에 포럼이 로"
+#~ "딩될 때에도 유용합니다."
+
+#~ msgid ""
+#~ "Thank you for trying wpForo! This forum development was started on 2013 "
+#~ "and we were using it for our support community. Now it's ready for "
+#~ "WordPress community as well. It's on the Beta stage and we're working "
+#~ "hard to reach the Gold 1.0.0 version as soon as possible. wpForo is a "
+#~ "professional bulletin board for WorPress, and the only forum software "
+#~ "which comes with Multi-layout template system. The \"Extended"
+#~ msgstr ""
+#~ "wpForo를 사용해 주셔서 감사합니다! 이 포럼 개발은 2013년에 시작됐고 우리"
+#~ "의 지원 커뮤니티에 사용하고 있습니다. 워드프레스 커뮤니티 역시 준비가 돼 "
+#~ "있습니다. 베타 단계에 있고 가능한 빨리 정식 1.0.0 버전에 도달하도록 열심"
+#~ "히 일하고 있습니다. wpForo는 워드프레스를 위한 전문 온라인 게시판으로, 다"
+#~ "중 레이아웃 템플릿 시스템을 갖춘 유일한 포럼 소프트웨어이기도 합니다. "
+#~ "\"Extended"
+
+#~ msgid "ago"
+#~ msgstr "전"
+
+#~ msgid "Theme options successfully updated, but previous value not changed"
+#~ msgstr "테마 옵션이 성공적으로 업데이트됨, 하지만 이전 값은 변경되지 않음"

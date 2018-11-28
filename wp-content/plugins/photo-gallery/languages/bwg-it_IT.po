@@ -1,0 +1,6329 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bwg\n"
+"POT-Creation-Date: 2018-10-08 11:32+0400\n"
+"PO-Revision-Date: 2018-10-08 12:06+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: addons/addons.php:6
+msgid "Photo Gallery Ecommerce"
+msgstr ""
+
+#: addons/addons.php:8
+msgid ""
+"Using Photo Gallery Ecommerce you can sell images included in galleries "
+"either as digital downloads or products/prints via Paypal or Stripe."
+msgstr ""
+
+#: addons/addons.php:20
+msgid "NextGen Gallery Import to Photo Gallery"
+msgstr "NextGen Galleria Importa all`album fotografico"
+
+#: addons/addons.php:22
+msgid ""
+"This addon integrates NextGen with Photo Gallery allowing to import images "
+"and related data from NextGen to use with Photo Gallery"
+msgstr ""
+"Questo addon si integra NextGen con Photo Gallery permette di importare le "
+"immagini ei dati correlati da NextGen da usare con Photo Gallery"
+
+#: addons/addons.php:27
+msgid "Photo Gallery Export / Import"
+msgstr ""
+
+#: addons/addons.php:29
+msgid ""
+"Photo Gallery Export/Import helps to move created galleries and gallery "
+"groups from one site to another. This way you can save the gallery/album "
+"options and manual modifications."
+msgstr ""
+
+#: addons/addons.php:38
+msgid "Photo Gallery Add-ons"
+msgstr "Photo Gallery Add-ons"
+
+#: addons/addons.php:71
+msgid "GET THIS ADD ON"
+msgstr ""
+
+#: admin/controllers/AddTags.php:53 admin/views/Galleries.php:607
+#: admin/views/Galleries.php:723 photo-gallery.php:425
+msgid "Tags"
+msgstr "Tag"
+
+#: admin/controllers/Albums.php:38 admin/controllers/Comments.php:40
+#: admin/controllers/Galleries.php:34 admin/views/Albums.php:111
+#: admin/views/Albums.php:183 admin/views/Comments.php:109
+#: admin/views/Galleries.php:118 admin/views/Galleries.php:212
+#: admin/views/Galleries.php:691 framework/WDWLibrary.php:2440
+msgid "Publish"
+msgstr "Pubblicare"
+
+#: admin/controllers/Albums.php:39 admin/controllers/Comments.php:41
+#: admin/controllers/Galleries.php:35 framework/WDWLibrary.php:2441
+msgid "published"
+msgstr ""
+
+#: admin/controllers/Albums.php:42 admin/controllers/Comments.php:44
+#: admin/controllers/Galleries.php:38 admin/views/Albums.php:111
+#: admin/views/Comments.php:109 admin/views/Galleries.php:118
+#: admin/views/Galleries.php:691 framework/WDWLibrary.php:2445
+msgid "Unpublish"
+msgstr "Annulla pubblicazione"
+
+#: admin/controllers/Albums.php:43 admin/controllers/Comments.php:45
+#: admin/controllers/Galleries.php:39 framework/WDWLibrary.php:2446
+msgid "unpublished"
+msgstr ""
+
+#: admin/controllers/Albums.php:46 admin/controllers/Themes.php:39
+#: admin/views/Albums.php:112 admin/views/Themes.php:105
+msgid "Duplicate"
+msgstr ""
+
+#: admin/controllers/Albums.php:47
+msgid "duplicate"
+msgstr ""
+
+#: admin/controllers/Albums.php:50 admin/controllers/Comments.php:48
+#: admin/controllers/Galleries.php:42 admin/controllers/Ratings.php:41
+#: admin/controllers/Themes.php:43 admin/views/Albums.php:113
+#: admin/views/Comments.php:112 admin/views/Galleries.php:119
+#: admin/views/Galleries.php:698 admin/views/Ratings.php:84
+#: admin/views/Themes.php:106 framework/WDWLibrary.php:2450
+msgid "Delete"
+msgstr "Cancellare"
+
+#: admin/controllers/Albums.php:51 admin/controllers/Comments.php:49
+#: admin/controllers/Galleries.php:43 admin/controllers/Ratings.php:42
+#: admin/controllers/Themes.php:44 framework/WDWLibrary.php:2451
+msgid "deleted"
+msgstr ""
+
+#: admin/controllers/Albums.php:95 photo-gallery.php:422
+msgid "Gallery Groups"
+msgstr ""
+
+#: admin/controllers/Albumsgalleries.php:50
+msgid "Galleries / Gallery groups"
+msgstr ""
+
+#: admin/controllers/Comments.php:91 photo-gallery.php:433
+#, fuzzy
+#| msgid "Comment"
+msgid "Comments"
+msgstr "Commento"
+
+#: admin/controllers/Comments.php:127 admin/controllers/Ratings.php:133
+msgid "Filter by gallery"
+msgstr ""
+
+#: admin/controllers/Comments.php:131 admin/controllers/Ratings.php:137
+msgid "Filter by image"
+msgstr ""
+
+#: admin/controllers/Galleries.php:92 photo-gallery.php:1621
+msgid "Galleries"
+msgstr "Gallerie"
+
+#: admin/controllers/Options.php:44 admin/controllers/elementorWidget.php:76
+#: admin/controllers/elementorWidget.php:126
+msgid "Edit options"
+msgstr ""
+
+#: admin/controllers/Options.php:49 admin/controllers/Shortcode.php:39
+#: admin/controllers/elementorWidget.php:80 admin/views/Options.php:324
+#: admin/views/Shortcode.php:68 admin/views/Shortcode.php:430
+#: photo-gallery.php:1467
+msgid "Thumbnails"
+msgstr ""
+
+#: admin/controllers/Options.php:50 admin/controllers/Options.php:59
+#: admin/controllers/Shortcode.php:40 admin/controllers/Shortcode.php:49
+#: admin/controllers/Themes.php:275 admin/controllers/elementorWidget.php:81
+#: admin/controllers/elementorWidget.php:131 admin/views/Options.php:332
+#: admin/views/Options.php:422 admin/views/Options.php:2621
+#: admin/views/Options.php:3108 admin/views/Shortcode.php:76
+#: admin/views/Shortcode.php:146 admin/views/Widget.php:137
+#: photo-gallery.php:1471
+msgid "Masonry"
+msgstr ""
+
+#: admin/controllers/Options.php:51 admin/controllers/Shortcode.php:41
+#: admin/controllers/Themes.php:276 admin/controllers/elementorWidget.php:82
+#: admin/views/Options.php:341 admin/views/Options.php:2622
+#: admin/views/Options.php:3109 admin/views/Shortcode.php:85
+#: photo-gallery.php:1475
+msgid "Mosaic"
+msgstr ""
+
+#: admin/controllers/Options.php:52 admin/controllers/Shortcode.php:42
+#: admin/controllers/Themes.php:277 admin/controllers/elementorWidget.php:83
+#: admin/views/Options.php:350 admin/views/Shortcode.php:94
+#: photo-gallery.php:1441 photo-gallery.php:1479
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#: admin/controllers/Options.php:53 admin/controllers/Shortcode.php:43
+#: admin/views/Options.php:356 admin/views/Shortcode.php:100
+#: photo-gallery.php:1483
+msgid "Image Browser"
+msgstr ""
+
+#: admin/controllers/Options.php:54 admin/controllers/Shortcode.php:44
+#: admin/views/Options.php:362 admin/views/Shortcode.php:106
+#: photo-gallery.php:1499
+msgid "Blog Style"
+msgstr ""
+
+#: admin/controllers/Options.php:55 admin/controllers/Shortcode.php:45
+#: admin/controllers/Themes.php:285 admin/controllers/elementorWidget.php:86
+#: admin/views/Options.php:371 admin/views/Shortcode.php:115
+#: photo-gallery.php:1511
+msgid "Carousel"
+msgstr "Carosello"
+
+#: admin/controllers/Options.php:58 admin/controllers/Shortcode.php:48
+#: admin/controllers/elementorWidget.php:130 admin/views/Options.php:416
+#: admin/views/Shortcode.php:140
+msgid "Compact"
+msgstr ""
+
+#: admin/controllers/Options.php:60 admin/controllers/Shortcode.php:50
+#: admin/controllers/elementorWidget.php:132 admin/views/Options.php:431
+#: admin/views/Shortcode.php:155
+msgid "Extended"
+msgstr ""
+
+#: admin/controllers/Options.php:125
+#, fuzzy
+#| msgid "Changes must be saved."
+msgid "Default values restored. Changes must be saved."
+msgstr "Modifiche salvate."
+
+#: admin/controllers/Options.php:157
+msgid "Uploads directory doesn't exist. Old value is restored."
+msgstr ""
+
+#: admin/controllers/Options.php:160
+msgid ""
+"Warning: \"photo-gallery\" folder already exists in uploads directory. Old "
+"value is restored."
+msgstr ""
+
+#: admin/controllers/Options.php:190
+#, fuzzy
+#| msgid "Items Succesfully Deleted."
+msgid "All thumbnails are successfully recreated."
+msgstr "Oggetti cancellati."
+
+#: admin/controllers/Options.php:203
+msgid "Item Succesfully Saved."
+msgstr "Voce SUCCESSO salvati."
+
+#: admin/controllers/Options.php:244 framework/WDWLibrary.php:205
+msgid "Watermark could not be set. The image URL is incorrect."
+msgstr ""
+
+#: admin/controllers/Options.php:248
+msgid "All images are successfully watermarked."
+msgstr ""
+
+#: admin/controllers/Ratings.php:86 photo-gallery.php:436
+msgid "Ratings"
+msgstr ""
+
+#: admin/controllers/Themes.php:40
+msgid "duplicated"
+msgstr ""
+
+#: admin/controllers/Themes.php:88 photo-gallery.php:429
+msgid "Themes"
+msgstr "Temi"
+
+#: admin/controllers/Themes.php:274 admin/views/Options.php:2620
+#: admin/views/Options.php:3107 admin/views/Widget.php:136
+msgid "Thumbnail"
+msgstr ""
+
+#: admin/controllers/Themes.php:278 admin/controllers/elementorWidget.php:84
+msgid "Image browser"
+msgstr ""
+
+#: admin/controllers/Themes.php:279
+msgid "Compact album"
+msgstr ""
+
+#: admin/controllers/Themes.php:280
+msgid "Masonry album"
+msgstr ""
+
+#: admin/controllers/Themes.php:281
+msgid "Extended album"
+msgstr ""
+
+#: admin/controllers/Themes.php:282 admin/controllers/elementorWidget.php:85
+msgid "Blog style"
+msgstr ""
+
+#: admin/controllers/Themes.php:283 admin/views/WidgetTags.php:96
+#: photo-gallery.php:1433 photo-gallery.php:1503
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: admin/controllers/Themes.php:284
+msgid "Navigation"
+msgstr ""
+
+#: admin/controllers/Themes.php:289 admin/controllers/Themes.php:328
+#: admin/controllers/Themes.php:335 admin/controllers/WidgetSlideshow.php:44
+#: admin/views/Options.php:625 admin/views/Options.php:778
+#: admin/views/Options.php:1017 admin/views/Options.php:1065
+#: admin/views/Options.php:1283 admin/views/Options.php:1519
+#: admin/views/Options.php:2113 admin/views/Shortcode.php:299
+msgid "None"
+msgstr "Nessuno"
+
+#: admin/controllers/Themes.php:290
+msgid "Solid"
+msgstr ""
+
+#: admin/controllers/Themes.php:291
+msgid "Dotted"
+msgstr ""
+
+#: admin/controllers/Themes.php:292
+msgid "Dashed"
+msgstr ""
+
+#: admin/controllers/Themes.php:293 admin/controllers/Themes.php:345
+msgid "Double"
+msgstr ""
+
+#: admin/controllers/Themes.php:294
+msgid "Groove"
+msgstr ""
+
+#: admin/controllers/Themes.php:295
+msgid "Ridge"
+msgstr ""
+
+#: admin/controllers/Themes.php:296
+msgid "Inset"
+msgstr ""
+
+#: admin/controllers/Themes.php:297
+msgid "Outset"
+msgstr ""
+
+#: admin/controllers/Themes.php:315 admin/views/Themes.php:1278
+#: admin/views/Themes.php:3889 admin/views/Themes.php:4371
+msgid "Left"
+msgstr "Sinistra"
+
+#: admin/controllers/Themes.php:316
+msgid "Center"
+msgstr ""
+
+#: admin/controllers/Themes.php:317 admin/views/Themes.php:1276
+#: admin/views/Themes.php:3887 admin/views/Themes.php:4373
+msgid "Right"
+msgstr "Destra"
+
+#: admin/controllers/Themes.php:321
+msgid "Lighter"
+msgstr ""
+
+#: admin/controllers/Themes.php:322
+msgid "Normal"
+msgstr ""
+
+#: admin/controllers/Themes.php:323
+msgid "Bold"
+msgstr ""
+
+#: admin/controllers/Themes.php:329 admin/controllers/Themes.php:336
+msgid "Rotate"
+msgstr ""
+
+#: admin/controllers/Themes.php:330 admin/controllers/Themes.php:337
+msgid "Scale"
+msgstr ""
+
+#: admin/controllers/Themes.php:331 admin/controllers/Themes.php:339
+msgid "Skew"
+msgstr ""
+
+#: admin/controllers/Themes.php:338
+msgid "Zoom"
+msgstr ""
+
+#: admin/controllers/Themes.php:343
+msgid "Chevron"
+msgstr ""
+
+#: admin/controllers/Themes.php:344
+msgid "Angle"
+msgstr ""
+
+#: admin/controllers/Themes.php:349
+msgid "Star"
+msgstr ""
+
+#: admin/controllers/Themes.php:350
+msgid "Bell"
+msgstr ""
+
+#: admin/controllers/Themes.php:351
+msgid "Circle"
+msgstr ""
+
+#: admin/controllers/Themes.php:352
+msgid "Flag"
+msgstr ""
+
+#: admin/controllers/Themes.php:353
+msgid "Heart"
+msgstr ""
+
+#: admin/controllers/Themes.php:354
+msgid "Square"
+msgstr ""
+
+#: admin/controllers/Uninstall.php:58 admin/controllers/Uninstall.php:98
+#: admin/views/Options.php:300
+#, php-format
+msgid "Uninstall %s"
+msgstr ""
+
+#: admin/controllers/Widget.php:14
+msgid "Add Photo Gallery albums or galleries to Your widget area."
+msgstr ""
+
+#: admin/controllers/WidgetSlideshow.php:14
+msgid "Add Photo Gallery slideshow to Your widget area."
+msgstr ""
+
+#: admin/controllers/WidgetSlideshow.php:45 admin/views/Options.php:1018
+msgid "Cube Horizontal"
+msgstr "Cube orizzontale"
+
+#: admin/controllers/WidgetSlideshow.php:46 admin/views/Options.php:1019
+msgid "Cube Vertical"
+msgstr "Cube verticale"
+
+#: admin/controllers/WidgetSlideshow.php:47 admin/views/Options.php:1020
+msgid "Fade"
+msgstr "Dissolvenza"
+
+#: admin/controllers/WidgetSlideshow.php:48 admin/views/Options.php:1021
+msgid "Slice Horizontal"
+msgstr "Slice orizzontale"
+
+#: admin/controllers/WidgetSlideshow.php:49 admin/views/Options.php:1022
+msgid "Slice Vertical"
+msgstr "Fetta verticale"
+
+#: admin/controllers/WidgetSlideshow.php:50 admin/views/Options.php:1023
+msgid "Slide Horizontal"
+msgstr "Far scorrere orizzontale"
+
+#: admin/controllers/WidgetSlideshow.php:51 admin/views/Options.php:1024
+msgid "Slide Vertical"
+msgstr "Scorrimento verticale"
+
+#: admin/controllers/WidgetSlideshow.php:52 admin/views/Options.php:1025
+msgid "Scale Out"
+msgstr "Scala Out"
+
+#: admin/controllers/WidgetSlideshow.php:53 admin/views/Options.php:1026
+msgid "Scale In"
+msgstr "Scala in"
+
+#: admin/controllers/WidgetSlideshow.php:54 admin/views/Options.php:1027
+msgid "Block Scale"
+msgstr "Blocco Scala"
+
+#: admin/controllers/WidgetSlideshow.php:55 admin/views/Options.php:1028
+msgid "Kaleidoscope"
+msgstr "Caleidoscopio"
+
+#: admin/controllers/WidgetSlideshow.php:56 admin/views/Options.php:1029
+msgid "Fan"
+msgstr "Ventilatore"
+
+#: admin/controllers/WidgetSlideshow.php:57 admin/views/Options.php:1030
+msgid "Blind Horizontal"
+msgstr "Persiane orizzontali"
+
+#: admin/controllers/WidgetSlideshow.php:58 admin/views/Options.php:1031
+msgid "Blind Vertical"
+msgstr "Cieco verticale"
+
+#: admin/controllers/WidgetSlideshow.php:59 admin/views/Options.php:1032
+#: admin/views/Options.php:1107 admin/views/Options.php:1325
+#: admin/views/Options.php:1561 admin/views/Options.php:1758
+#: admin/views/Options.php:1998 admin/views/Options.php:2157
+#: admin/views/Options.php:2334 admin/views/Options.php:2524
+#: admin/views/Options.php:2800 admin/views/Options.php:3012
+#: admin/views/Widget.php:157 frontend/views/view.php:390
+msgid "Random"
+msgstr "Casuale"
+
+#: admin/controllers/WidgetTags.php:14
+msgid "Add Photo Gallery Tags dynamic cloud to Your widget area."
+msgstr ""
+
+#: admin/controllers/elementorWidget.php:19
+#: admin/controllers/elementorWidget.php:61
+#: admin/controllers/elementorWidget.php:96 admin/views/Albumsgalleries.php:119
+#: admin/views/Shortcode.php:57 admin/views/Shortcode.php:186
+#: admin/views/Shortcode.php:264 admin/views/Widget.php:118
+msgid "Gallery"
+msgstr ""
+
+#: admin/controllers/elementorWidget.php:47 admin/views/Options.php:73
+#: photo-gallery.php:353
+msgid "General"
+msgstr ""
+
+#: admin/controllers/elementorWidget.php:54
+msgid "Gallery/Gallery group"
+msgstr ""
+
+#: admin/controllers/elementorWidget.php:65
+#: admin/controllers/elementorWidget.php:142
+#: admin/views/Albumsgalleries.php:119 admin/views/Shortcode.php:60
+#: admin/views/Shortcode.php:264
+msgid "Gallery group"
+msgstr ""
+
+#: admin/controllers/elementorWidget.php:76
+#, fuzzy
+#| msgid "Gallery is empty."
+msgid "Select the gallery view type."
+msgstr "La galleria è vuota."
+
+#: admin/controllers/elementorWidget.php:98 admin/views/Shortcode.php:198
+msgid "Select the gallery to display."
+msgstr ""
+
+#: admin/controllers/elementorWidget.php:98
+msgid "Edit gallery"
+msgstr "Modifica galleria"
+
+#: admin/controllers/elementorWidget.php:110 admin/views/Shortcode.php:218
+msgid "Tag"
+msgstr ""
+
+#: admin/controllers/elementorWidget.php:112 admin/views/Shortcode.php:230
+#, fuzzy
+#| msgid "There are no images in this gallery."
+msgid "Filter gallery images by this tag."
+msgstr "Non ci sono immagini in questa galleria."
+
+#: admin/controllers/elementorWidget.php:112
+msgid "Edit tag"
+msgstr ""
+
+#: admin/controllers/elementorWidget.php:126
+#, fuzzy
+#| msgid "Gallery is empty."
+msgid "Select the gallery group type."
+msgstr "La galleria è vuota."
+
+#: admin/controllers/elementorWidget.php:144 admin/views/Shortcode.php:212
+msgid "Select the gallery group to display."
+msgstr ""
+
+#: admin/controllers/elementorWidget.php:144
+msgid "Edit gallery group"
+msgstr ""
+
+#: admin/controllers/elementorWidget.php:157 admin/views/Shortcode.php:235
+msgid "Theme"
+msgstr ""
+
+#: admin/controllers/elementorWidget.php:159 admin/views/Shortcode.php:247
+msgid "Choose the theme for your gallery."
+msgstr ""
+
+#: admin/controllers/elementorWidget.php:159
+msgid "Edit theme"
+msgstr ""
+
+#: admin/models/Comments.php:62 admin/models/Ratings.php:81
+#: framework/WDWLibrary.php:2710
+msgid "All galleries"
+msgstr ""
+
+#: admin/models/Comments.php:76 admin/models/Ratings.php:100
+#: admin/views/Widget.php:124 framework/WDWLibrary.php:2691
+msgid "All images"
+msgstr ""
+
+#: admin/models/Galleries.php:1073 admin/views/Galleries.php:714
+msgid ""
+"Selected pricelist item longest dimension greater than some original images "
+"dimensions."
+msgstr ""
+
+#: admin/views/AddTags.php:66 admin/views/Albums.php:58
+#: admin/views/Comments.php:65 admin/views/Themes.php:77
+msgid "Select all"
+msgstr ""
+
+#: admin/views/AddTags.php:69 admin/views/AddTags.php:87
+#: admin/views/Comments.php:69 admin/views/Comments.php:90
+#: filemanager/view.php:150 frontend/views/BWGViewGalleryBox.php:1486
+#: frontend/views/BWGViewGalleryBox.php:1604
+#: frontend/views/BWGViewGalleryBox.php:1718
+msgid "Name"
+msgstr "Nome"
+
+#: admin/views/AddTags.php:108
+msgid "Add to image"
+msgstr ""
+
+#: admin/views/AdminView.php:95
+msgid "Add New"
+msgstr ""
+
+#: admin/views/AdminView.php:198 framework/WDWLibrary.php:336
+#: framework/WDWLibrary.php:514 photo-gallery.php:1307
+msgid "Search"
+msgstr "Cerca"
+
+#: admin/views/AdminView.php:260
+#, fuzzy
+#| msgid "First"
+msgid "First page"
+msgstr "Primo"
+
+#: admin/views/AdminView.php:261
+#, fuzzy
+#| msgid "Previous"
+msgid "Previous page"
+msgstr "Precedente"
+
+#: admin/views/AdminView.php:266
+msgid "Current Page"
+msgstr ""
+
+#: admin/views/AdminView.php:269 framework/WDWLibrary.php:467
+#: framework/WDWLibrary.php:616 frontend/views/view.php:617
+msgid "of"
+msgstr "di"
+
+#: admin/views/AdminView.php:282
+#, fuzzy
+#| msgid "Next"
+msgid "Next page"
+msgstr "Avanti"
+
+#: admin/views/AdminView.php:283
+#, fuzzy
+#| msgid "Last"
+msgid "Last page"
+msgstr "Ultimo"
+
+#: admin/views/AdminView.php:315 filemanager/view.php:264
+msgid "Select All"
+msgstr "Seleziona tutto"
+
+#: admin/views/AdminView.php:320
+msgid "Select bulk action"
+msgstr ""
+
+#: admin/views/AdminView.php:322
+msgid "Bulk Actions"
+msgstr ""
+
+#: admin/views/AdminView.php:331 admin/views/Galleries.php:394
+#: admin/views/Galleries.php:686 admin/views/Galleries.php:687
+#: admin/views/Galleries.php:688 admin/views/Options.php:148
+#: admin/views/Options.php:905 admin/views/Options.php:908
+#: filemanager/view.php:61
+msgid "This option is disabled in demo."
+msgstr ""
+
+#: admin/views/AdminView.php:331
+msgid "Apply"
+msgstr "Applicare"
+
+#: admin/views/Albums.php:61 admin/views/Albums.php:97
+#: admin/views/Albumsgalleries.php:78 admin/views/Albumsgalleries.php:102
+#: admin/views/Galleries.php:60 admin/views/Galleries.php:63
+#: admin/views/Galleries.php:104 admin/views/Options.php:1101
+#: admin/views/Options.php:1319 admin/views/Options.php:1555
+#: admin/views/Options.php:1752 admin/views/Options.php:1992
+#: admin/views/Options.php:2151 admin/views/Options.php:2328
+#: admin/views/Options.php:2518 admin/views/Options.php:2794
+#: admin/views/Options.php:3006 admin/views/Themes.php:80
+#: admin/views/Themes.php:99
+msgid "Title"
+msgstr "Titolo"
+
+#: admin/views/Albums.php:62 admin/views/Albums.php:120
+#: admin/views/Albums.php:241 admin/views/Galleries.php:65
+#: admin/views/Galleries.php:127 admin/views/Galleries.php:280
+msgid "Author"
+msgstr "Autore"
+
+#: admin/views/Albums.php:106 admin/views/Albums.php:333
+#: admin/views/Albumsgalleries.php:111 admin/views/Comments.php:102
+#: admin/views/Galleries.php:113 admin/views/Galleries.php:681
+msgid "Unpublished"
+msgstr ""
+
+#: admin/views/Albums.php:110 admin/views/Editimage.php:323
+#: admin/views/Galleries.php:117 admin/views/Galleries.php:686
+#: admin/views/Themes.php:104
+msgid "Edit"
+msgstr "Modifica"
+
+#: admin/views/Albums.php:113 admin/views/Comments.php:112
+#: admin/views/Galleries.php:119 admin/views/Galleries.php:692
+#: admin/views/Ratings.php:84 admin/views/Themes.php:106
+msgid "Do you want to delete selected item?"
+msgstr ""
+
+#: admin/views/Albums.php:114 admin/views/Albums.php:186
+#: admin/views/Galleries.php:120 admin/views/Galleries.php:216
+#, fuzzy
+#| msgid "Previous"
+msgid "Preview"
+msgstr "Precedente"
+
+#: admin/views/Albums.php:117 admin/views/Albumsgalleries.php:115
+#: admin/views/Comments.php:115 admin/views/Galleries.php:123
+#: admin/views/Galleries.php:701 admin/views/Ratings.php:87
+#: admin/views/Themes.php:109
+msgid "Show more details"
+msgstr ""
+
+#: admin/views/Albums.php:174
+msgid "Gallery Group Title"
+msgstr ""
+
+#: admin/views/Albums.php:183 admin/views/Galleries.php:212
+#: admin/views/Galleries.php:538 admin/views/Shortcode.php:569
+#: admin/views/Shortcode.php:2174 admin/views/Themes.php:181
+msgid "Update"
+msgstr ""
+
+#: admin/views/Albums.php:197 admin/views/Albums.php:233
+#: admin/views/Galleries.php:228 admin/views/Galleries.php:269
+#: admin/views/Options.php:477 admin/views/Options.php:544
+#: admin/views/Options.php:612 admin/views/Shortcode.php:260
+#: admin/views/Shortcode.php:275
+msgid "Toggle panel:"
+msgstr ""
+
+#: admin/views/Albums.php:201 admin/views/Galleries.php:232
+msgid "Basic"
+msgstr ""
+
+#: admin/views/Albums.php:206 admin/views/Galleries.php:237
+msgid "Preview image"
+msgstr ""
+
+#: admin/views/Albums.php:208 admin/views/Galleries.php:241
+msgid "Add Preview Image"
+msgstr "Aggiungere Anteprima immagine"
+
+#: admin/views/Albums.php:209 admin/views/Albums.php:296
+#: admin/views/Galleries.php:244 admin/views/Galleries.php:434
+#: filemanager/view.php:272
+msgid "Add"
+msgstr "Aggiungere"
+
+#: admin/views/Albums.php:214
+msgid ""
+"Add a preview image, which will be displayed as the cover image of the "
+"gallery group when it is published in a parent gallery group."
+msgstr ""
+
+#: admin/views/Albums.php:218 admin/views/Galleries.php:254
+msgid "Published"
+msgstr "Pubblicato"
+
+#: admin/views/Albums.php:220 admin/views/Galleries.php:256
+#: admin/views/Options.php:125 admin/views/Options.php:166
+#: admin/views/Options.php:176 admin/views/Options.php:195
+#: admin/views/Options.php:205 admin/views/Options.php:217
+#: admin/views/Options.php:228 admin/views/Options.php:238
+#: admin/views/Options.php:248 admin/views/Options.php:258
+#: admin/views/Options.php:268 admin/views/Options.php:278
+#: admin/views/Options.php:576 admin/views/Options.php:587
+#: admin/views/Options.php:598 admin/views/Options.php:1124
+#: admin/views/Options.php:1150 admin/views/Options.php:1160
+#: admin/views/Options.php:1172 admin/views/Options.php:1182
+#: admin/views/Options.php:1203 admin/views/Options.php:1213
+#: admin/views/Options.php:1342 admin/views/Options.php:1368
+#: admin/views/Options.php:1378 admin/views/Options.php:1390
+#: admin/views/Options.php:1400 admin/views/Options.php:1421
+#: admin/views/Options.php:1432 admin/views/Options.php:1442
+#: admin/views/Options.php:1489 admin/views/Options.php:1578
+#: admin/views/Options.php:1604 admin/views/Options.php:1614
+#: admin/views/Options.php:1626 admin/views/Options.php:1636
+#: admin/views/Options.php:1656 admin/views/Options.php:1666
+#: admin/views/Options.php:1775 admin/views/Options.php:1785
+#: admin/views/Options.php:1795 admin/views/Options.php:1817
+#: admin/views/Options.php:1838 admin/views/Options.php:1875
+#: admin/views/Options.php:1885 admin/views/Options.php:1922
+#: admin/views/Options.php:1941 admin/views/Options.php:1970
+#: admin/views/Options.php:1979 admin/views/Options.php:2015
+#: admin/views/Options.php:2041 admin/views/Options.php:2051
+#: admin/views/Options.php:2063 admin/views/Options.php:2073
+#: admin/views/Options.php:2083 admin/views/Options.php:2174
+#: admin/views/Options.php:2200 admin/views/Options.php:2210
+#: admin/views/Options.php:2222 admin/views/Options.php:2232
+#: admin/views/Options.php:2242 admin/views/Options.php:2253
+#: admin/views/Options.php:2264 admin/views/Options.php:2351
+#: admin/views/Options.php:2374 admin/views/Options.php:2385
+#: admin/views/Options.php:2396 admin/views/Options.php:2407
+#: admin/views/Options.php:2418 admin/views/Options.php:2541
+#: admin/views/Options.php:2567 admin/views/Options.php:2577
+#: admin/views/Options.php:2589 admin/views/Options.php:2599
+#: admin/views/Options.php:2643 admin/views/Options.php:2675
+#: admin/views/Options.php:2685 admin/views/Options.php:2817
+#: admin/views/Options.php:2843 admin/views/Options.php:2853
+#: admin/views/Options.php:2865 admin/views/Options.php:2875
+#: admin/views/Options.php:2896 admin/views/Options.php:3029
+#: admin/views/Options.php:3055 admin/views/Options.php:3065
+#: admin/views/Options.php:3077 admin/views/Options.php:3087
+#: admin/views/Options.php:3097 admin/views/Options.php:3130
+#: admin/views/Options.php:3162 admin/views/Options.php:3172
+#: admin/views/Options.php:3226 admin/views/Options.php:3237
+#: admin/views/Options.php:3286 admin/views/Options.php:3305
+#: admin/views/Options.php:3341 admin/views/Options.php:3364
+#: admin/views/Options.php:3376 admin/views/Options.php:3389
+#: admin/views/Options.php:3400 admin/views/Options.php:3411
+#: admin/views/Options.php:3422 admin/views/Options.php:3432
+#: admin/views/Options.php:3442 admin/views/Options.php:3462
+#: admin/views/Options.php:3473 admin/views/Options.php:3486
+#: admin/views/Options.php:3496 admin/views/Options.php:3506
+#: admin/views/Options.php:3516 admin/views/Options.php:3526
+#: admin/views/Options.php:3547 admin/views/Options.php:3558
+#: admin/views/Options.php:3569 admin/views/Options.php:3580
+#: admin/views/Options.php:3591 admin/views/Options.php:3605
+#: admin/views/Themes.php:221 admin/views/Themes.php:298
+#: admin/views/Themes.php:543 admin/views/Themes.php:607
+#: admin/views/Themes.php:865 admin/views/Themes.php:929
+#: admin/views/Themes.php:1920 admin/views/Themes.php:1998
+#: admin/views/Themes.php:2341 admin/views/Themes.php:2916
+#: admin/views/Themes.php:2980 admin/views/Themes.php:4688
+#: admin/views/Themes.php:4737 admin/views/Uninstall.php:96
+#: admin/views/WidgetSlideshow.php:114 admin/views/WidgetSlideshow.php:120
+#: admin/views/WidgetSlideshow.php:126 admin/views/WidgetTags.php:89
+#: admin/views/WidgetTags.php:111
+msgid "Yes"
+msgstr "Si"
+
+#: admin/views/Albums.php:222 admin/views/Galleries.php:258
+#: admin/views/Options.php:126 admin/views/Options.php:167
+#: admin/views/Options.php:177 admin/views/Options.php:196
+#: admin/views/Options.php:206 admin/views/Options.php:218
+#: admin/views/Options.php:229 admin/views/Options.php:239
+#: admin/views/Options.php:249 admin/views/Options.php:259
+#: admin/views/Options.php:269 admin/views/Options.php:279
+#: admin/views/Options.php:577 admin/views/Options.php:588
+#: admin/views/Options.php:599 admin/views/Options.php:1125
+#: admin/views/Options.php:1151 admin/views/Options.php:1161
+#: admin/views/Options.php:1173 admin/views/Options.php:1183
+#: admin/views/Options.php:1204 admin/views/Options.php:1214
+#: admin/views/Options.php:1343 admin/views/Options.php:1369
+#: admin/views/Options.php:1379 admin/views/Options.php:1391
+#: admin/views/Options.php:1401 admin/views/Options.php:1422
+#: admin/views/Options.php:1433 admin/views/Options.php:1443
+#: admin/views/Options.php:1490 admin/views/Options.php:1579
+#: admin/views/Options.php:1605 admin/views/Options.php:1615
+#: admin/views/Options.php:1627 admin/views/Options.php:1637
+#: admin/views/Options.php:1657 admin/views/Options.php:1667
+#: admin/views/Options.php:1776 admin/views/Options.php:1786
+#: admin/views/Options.php:1796 admin/views/Options.php:1818
+#: admin/views/Options.php:1839 admin/views/Options.php:1876
+#: admin/views/Options.php:1886 admin/views/Options.php:1923
+#: admin/views/Options.php:1942 admin/views/Options.php:1971
+#: admin/views/Options.php:1980 admin/views/Options.php:2016
+#: admin/views/Options.php:2042 admin/views/Options.php:2052
+#: admin/views/Options.php:2064 admin/views/Options.php:2074
+#: admin/views/Options.php:2084 admin/views/Options.php:2175
+#: admin/views/Options.php:2201 admin/views/Options.php:2211
+#: admin/views/Options.php:2223 admin/views/Options.php:2233
+#: admin/views/Options.php:2243 admin/views/Options.php:2254
+#: admin/views/Options.php:2265 admin/views/Options.php:2352
+#: admin/views/Options.php:2375 admin/views/Options.php:2386
+#: admin/views/Options.php:2397 admin/views/Options.php:2408
+#: admin/views/Options.php:2419 admin/views/Options.php:2482
+#: admin/views/Options.php:2542 admin/views/Options.php:2568
+#: admin/views/Options.php:2578 admin/views/Options.php:2590
+#: admin/views/Options.php:2600 admin/views/Options.php:2644
+#: admin/views/Options.php:2676 admin/views/Options.php:2686
+#: admin/views/Options.php:2758 admin/views/Options.php:2818
+#: admin/views/Options.php:2844 admin/views/Options.php:2854
+#: admin/views/Options.php:2866 admin/views/Options.php:2876
+#: admin/views/Options.php:2897 admin/views/Options.php:2970
+#: admin/views/Options.php:3030 admin/views/Options.php:3056
+#: admin/views/Options.php:3066 admin/views/Options.php:3078
+#: admin/views/Options.php:3088 admin/views/Options.php:3098
+#: admin/views/Options.php:3131 admin/views/Options.php:3163
+#: admin/views/Options.php:3173 admin/views/Options.php:3227
+#: admin/views/Options.php:3238 admin/views/Options.php:3287
+#: admin/views/Options.php:3306 admin/views/Options.php:3355
+#: admin/views/Options.php:3365 admin/views/Options.php:3379
+#: admin/views/Options.php:3390 admin/views/Options.php:3401
+#: admin/views/Options.php:3412 admin/views/Options.php:3423
+#: admin/views/Options.php:3433 admin/views/Options.php:3443
+#: admin/views/Options.php:3463 admin/views/Options.php:3474
+#: admin/views/Options.php:3487 admin/views/Options.php:3497
+#: admin/views/Options.php:3507 admin/views/Options.php:3517
+#: admin/views/Options.php:3527 admin/views/Options.php:3548
+#: admin/views/Options.php:3559 admin/views/Options.php:3570
+#: admin/views/Options.php:3581 admin/views/Options.php:3592
+#: admin/views/Options.php:3606 admin/views/Themes.php:223
+#: admin/views/Themes.php:300 admin/views/Themes.php:545
+#: admin/views/Themes.php:609 admin/views/Themes.php:867
+#: admin/views/Themes.php:931 admin/views/Themes.php:1922
+#: admin/views/Themes.php:2000 admin/views/Themes.php:2343
+#: admin/views/Themes.php:2918 admin/views/Themes.php:2982
+#: admin/views/Themes.php:4690 admin/views/Themes.php:4739
+#: admin/views/WidgetSlideshow.php:115 admin/views/WidgetSlideshow.php:121
+#: admin/views/WidgetSlideshow.php:127 admin/views/WidgetTags.php:90
+#: admin/views/WidgetTags.php:112
+msgid "No"
+msgstr "No"
+
+#: admin/views/Albums.php:237 admin/views/Galleries.php:273
+#: admin/views/Options.php:85 admin/views/Shortcode.php:293
+msgid "Advanced"
+msgstr ""
+
+#: admin/views/Albums.php:245 admin/views/Galleries.php:284
+msgid "Slug"
+msgstr "Lumaca"
+
+#: admin/views/Albums.php:250 admin/views/Galleries.php:289
+#: admin/views/Galleries.php:595 admin/views/Galleries.php:707
+#: frontend/views/BWGViewGalleryBox.php:1619
+msgid "Description"
+msgstr ""
+
+#: admin/views/Albums.php:277
+msgid "Galleries and Gallery Groups"
+msgstr ""
+
+#: admin/views/Albums.php:324 admin/views/Galleries.php:97
+#: admin/views/Galleries.php:658
+msgid "Drag to re-order"
+msgstr ""
+
+#: admin/views/Albums.php:332
+msgid "Remove"
+msgstr ""
+
+#: admin/views/Albumsgalleries.php:79 admin/views/Albumsgalleries.php:118
+#: admin/views/Galleries.php:677 admin/views/Options.php:1105
+#: admin/views/Options.php:1323 admin/views/Options.php:1559
+#: admin/views/Options.php:1756 admin/views/Options.php:1996
+#: admin/views/Options.php:2155 admin/views/Options.php:2332
+#: admin/views/Options.php:2522 admin/views/Options.php:2798
+#: admin/views/Options.php:3010
+msgid "Type"
+msgstr ""
+
+#: admin/views/Albumsgalleries.php:137
+msgid "Add to Gallery Group"
+msgstr ""
+
+#: admin/views/Comments.php:70 admin/views/Comments.php:118
+#: frontend/views/BWGViewGalleryBox.php:1492
+msgid "Email"
+msgstr "Email"
+
+#: admin/views/Comments.php:71 admin/views/Comments.php:121
+#: frontend/views/BWGViewGalleryBox.php:1497
+msgid "Comment"
+msgstr "Commento"
+
+#: admin/views/Comments.php:72 admin/views/Comments.php:124
+#: admin/views/Galleries.php:674 admin/views/Options.php:1102
+#: admin/views/Options.php:1320 admin/views/Options.php:1556
+#: admin/views/Options.php:1753 admin/views/Options.php:1993
+#: admin/views/Options.php:2152 admin/views/Options.php:2329
+#: admin/views/Options.php:2519 admin/views/Options.php:2795
+#: admin/views/Options.php:3007 admin/views/Ratings.php:60
+#: admin/views/Ratings.php:92
+msgid "Date"
+msgstr ""
+
+#: admin/views/Editimage.php:215
+msgid "You can't crop this type of image."
+msgstr ""
+
+#: admin/views/Editimage.php:293
+msgid "Select the area for the thumbnail."
+msgstr ""
+
+#: admin/views/Editimage.php:298
+msgid "Keep aspect ratio"
+msgstr ""
+
+#: admin/views/Editimage.php:309
+msgid "Crop"
+msgstr ""
+
+#: admin/views/Editimage.php:319
+#, fuzzy
+#| msgid "The item is successfully set as default."
+msgid "The thumbnail was successfully cropped."
+msgstr "Oggetto impostato come default."
+
+#: admin/views/Editimage.php:799
+msgid "Grayscale"
+msgstr ""
+
+#: admin/views/Editimage.php:803
+msgid "Negative"
+msgstr ""
+
+#: admin/views/Editimage.php:807
+msgid "Removal"
+msgstr ""
+
+#: admin/views/Editimage.php:811
+msgid "Sepia"
+msgstr ""
+
+#: admin/views/Editimage.php:815
+msgid "Slate"
+msgstr ""
+
+#: admin/views/Editimage.php:819
+msgid "Saturate"
+msgstr ""
+
+#: admin/views/Editimage.php:823 admin/views/Galleries.php:688
+msgid "Do you want to reset the image?"
+msgstr "Vuoi ripristinare l'immagine?"
+
+#: admin/views/Editimage.php:825
+#, fuzzy
+#| msgid "Reset"
+msgid "Reset image"
+msgstr "Ripristina"
+
+#: admin/views/Editimage.php:851
+msgid "Brightness"
+msgstr ""
+
+#: admin/views/Editimage.php:853 admin/views/Editimage.php:878
+msgid "Press for result"
+msgstr ""
+
+#: admin/views/Editimage.php:876
+msgid "Contrast"
+msgstr ""
+
+#: admin/views/Galleries.php:58 admin/views/Galleries.php:576
+msgid "Drag&Drop"
+msgstr ""
+
+#: admin/views/Galleries.php:64 admin/views/Galleries.php:126
+msgid "Images count"
+msgstr "Immagini contano"
+
+#: admin/views/Galleries.php:199
+msgid "Gallery title"
+msgstr ""
+
+#: admin/views/Galleries.php:251
+msgid ""
+"Add a preview image, which will be displayed as the cover image of the "
+"gallery when it is published in a gallery group."
+msgstr ""
+
+#: admin/views/Galleries.php:315
+msgid "Gallery content type"
+msgstr ""
+
+#: admin/views/Galleries.php:318
+msgid "Mixed"
+msgstr ""
+
+#: admin/views/Galleries.php:321
+msgid "Instagram only"
+msgstr ""
+
+#: admin/views/Galleries.php:326 admin/views/Options.php:530
+msgid "Facebook"
+msgstr ""
+
+#: admin/views/Galleries.php:332
+msgid ""
+"Select the type of the gallery content. Mixed galleries can include all "
+"supported items, or you can choose to have only Instagram and only Facebook "
+"images."
+msgstr ""
+
+#: admin/views/Galleries.php:334 photo-gallery.php:558
+msgid ""
+"Gallery type cannot be changed, since it is not empty. In case you would "
+"like to have Instagram or Facebook gallery, please create a new one."
+msgstr ""
+
+#: admin/views/Galleries.php:340
+msgid "Number of Instagram recent posts to add to gallery"
+msgstr ""
+
+#: admin/views/Galleries.php:344
+msgid "Instagram embed type"
+msgstr ""
+
+#: admin/views/Galleries.php:346 admin/views/Galleries.php:484
+msgid "Content"
+msgstr ""
+
+#: admin/views/Galleries.php:348 admin/views/Galleries.php:486
+msgid "Whole post"
+msgstr ""
+
+#: admin/views/Galleries.php:351
+msgid "Gallery autoupdate option"
+msgstr ""
+
+#: admin/views/Galleries.php:353
+msgid "No update"
+msgstr ""
+
+#: admin/views/Galleries.php:355
+msgid "Add new media, keep old ones published."
+msgstr ""
+
+#: admin/views/Galleries.php:357
+msgid "Add new media, unpublish old ones."
+msgstr ""
+
+#: admin/views/Galleries.php:360
+msgid "Add Instagram Gallery"
+msgstr ""
+
+#: admin/views/Galleries.php:369
+msgid "Photo Gallery Facebook Integration"
+msgstr ""
+
+#: admin/views/Galleries.php:370
+#, php-format
+msgid "Please install %s add-on to use this feature."
+msgstr ""
+
+#: admin/views/Galleries.php:391 admin/views/Galleries.php:392
+msgid "Add Images"
+msgstr ""
+
+#: admin/views/Galleries.php:394
+msgid "Import from Media Library"
+msgstr ""
+
+#: admin/views/Galleries.php:401 admin/views/Galleries.php:403
+msgid "Embed Media"
+msgstr ""
+
+#: admin/views/Galleries.php:404 admin/views/Galleries.php:406
+msgid "Social Bulk Embed"
+msgstr ""
+
+#: admin/views/Galleries.php:406 photo-gallery.php:97
+msgid "This option is disabled in free version."
+msgstr ""
+
+#: admin/views/Galleries.php:409
+msgid "Optimize Images"
+msgstr ""
+
+#: admin/views/Galleries.php:417
+msgid ""
+"Enter YouTube, Vimeo, Instagram, Facebook, Flickr or Dailymotion URL here."
+msgstr ""
+
+#: admin/views/Galleries.php:418 admin/views/Galleries.php:454
+msgid "Add to gallery"
+msgstr ""
+
+#: admin/views/Galleries.php:419 admin/views/Galleries.php:453
+#: admin/views/Galleries.php:510 admin/views/Galleries.php:539
+#: filemanager/view.php:277 filemanager/view.php:278
+msgid "Cancel"
+msgstr "Annullare"
+
+#: admin/views/Galleries.php:424
+msgid "<b>Youtube</b> URL example:"
+msgstr ""
+
+#: admin/views/Galleries.php:428
+msgid "<b>Vimeo</b> URL example:"
+msgstr ""
+
+#: admin/views/Galleries.php:432
+msgid "<b>Instagram</b> URL example:"
+msgstr ""
+
+#: admin/views/Galleries.php:434
+msgid "post"
+msgstr ""
+
+#: admin/views/Galleries.php:434
+msgid ""
+"to the end of URL if you want to embed the whole Instagram post, not only "
+"its content."
+msgstr ""
+
+#: admin/views/Galleries.php:442
+msgid "<b>Flickr</b> URL example:"
+msgstr ""
+
+#: admin/views/Galleries.php:446
+msgid "<b>Dailymotion</b> URL example:"
+msgstr ""
+
+#: admin/views/Galleries.php:465
+msgid "username:"
+msgstr ""
+
+#: admin/views/Galleries.php:473
+msgid "Number of Instagram recent posts to add to gallery:"
+msgstr ""
+
+#: admin/views/Galleries.php:481
+msgid "embed type:"
+msgstr ""
+
+#: admin/views/Galleries.php:500
+msgid "Resize images to: "
+msgstr ""
+
+#: admin/views/Galleries.php:503
+msgid "The maximum size of resized image."
+msgstr ""
+
+#: admin/views/Galleries.php:509 framework/WDWLibrary.php:2400
+msgid "Resize"
+msgstr "Ridimensiona"
+
+#: admin/views/Galleries.php:517
+msgid "Alt/Title: "
+msgstr ""
+
+#: admin/views/Galleries.php:523
+msgid "Redirect URL: "
+msgstr ""
+
+#: admin/views/Galleries.php:529
+msgid "Description: "
+msgstr ""
+
+#: admin/views/Galleries.php:556
+msgid "You have unsaved changes."
+msgstr ""
+
+#: admin/views/Galleries.php:561
+msgid ""
+"This sorting does not affect the published galleries. You can change the "
+"ordering on frontend by editing gallery shortcode or Photo Gallery Options."
+msgstr ""
+
+#: admin/views/Galleries.php:575 photo-gallery.php:563
+msgid "Show order column"
+msgstr "Colonna Mostra ordine"
+
+#: admin/views/Galleries.php:577
+msgid "Numerate"
+msgstr ""
+
+#: admin/views/Galleries.php:583
+#, fuzzy
+#| msgid "Order by: "
+msgid "Ordering"
+msgstr "Ordina per"
+
+#: admin/views/Galleries.php:589 admin/views/Galleries.php:665
+#: admin/views/Options.php:1103 admin/views/Options.php:1321
+#: admin/views/Options.php:1557 admin/views/Options.php:1754
+#: admin/views/Options.php:1994 admin/views/Options.php:2153
+#: admin/views/Options.php:2330 admin/views/Options.php:2520
+#: admin/views/Options.php:2796 admin/views/Options.php:3008
+#: frontend/views/view.php:384
+msgid "Filename"
+msgstr "Nome del file"
+
+#: admin/views/Galleries.php:593 admin/views/Options.php:629
+#: admin/views/Options.php:782 admin/views/Ratings.php:57
+#: admin/views/Ratings.php:74 admin/views/Shortcode.php:301
+#: admin/views/WidgetTags.php:84
+msgid "Image"
+msgstr ""
+
+#: admin/views/Galleries.php:594 admin/views/Galleries.php:704
+msgid "Alt/Title"
+msgstr ""
+
+#: admin/views/Galleries.php:597 admin/views/Galleries.php:720
+msgid "Redirect URL"
+msgstr ""
+
+#: admin/views/Galleries.php:601
+msgid "Options > General"
+msgstr ""
+
+#: admin/views/Galleries.php:602
+#, php-format
+msgid ""
+"To activate this feature, go to %s, then set \"Image click action\" to "
+"\"Redirect to URL\". Please use absolute URLs when specifying the links."
+msgstr ""
+
+#: admin/views/Galleries.php:675 admin/views/Options.php:1106
+#: admin/views/Options.php:1324 admin/views/Options.php:1560
+#: admin/views/Options.php:1757 admin/views/Options.php:1997
+#: admin/views/Options.php:2156 admin/views/Options.php:2333
+#: admin/views/Options.php:2523 admin/views/Options.php:2799
+#: admin/views/Options.php:3011
+msgid "Resolution"
+msgstr ""
+
+#: admin/views/Galleries.php:676 admin/views/Options.php:1104
+#: admin/views/Options.php:1322 admin/views/Options.php:1558
+#: admin/views/Options.php:1755 admin/views/Options.php:1995
+#: admin/views/Options.php:2154 admin/views/Options.php:2331
+#: admin/views/Options.php:2521 admin/views/Options.php:2797
+#: admin/views/Options.php:3009 filemanager/view.php:166
+#: frontend/views/view.php:387
+msgid "Size"
+msgstr "Dimensione"
+
+#: admin/views/Galleries.php:686 admin/views/Galleries.php:687
+#: admin/views/Options.php:148 admin/views/Options.php:905
+#: admin/views/Options.php:908
+msgid "Image edit functionality is not supported by your web host."
+msgstr ""
+
+#: admin/views/Galleries.php:687
+msgid "Crop Thumbnail"
+msgstr ""
+
+#: admin/views/Galleries.php:688 admin/views/Themes.php:191
+#: framework/WDWLibrary.php:337 framework/WDWLibrary.php:515
+#: framework/WDWLibrary.php:2425 frontend/views/view.php:341
+msgid "Reset"
+msgstr "Azzerare"
+
+#: admin/views/Galleries.php:732
+msgid "Remove tag"
+msgstr ""
+
+#: admin/views/Galleries.php:741 framework/WDWLibrary.php:2435
+msgid "Add tag"
+msgstr "Aggiungi tag"
+
+#: admin/views/Options.php:47 admin/views/Themes.php:181
+msgid "Save"
+msgstr "Salva"
+
+#: admin/views/Options.php:53
+msgid "Reset all options"
+msgstr ""
+
+#: admin/views/Options.php:54 admin/views/Themes.php:186
+msgid "Do you want to reset to default?"
+msgstr "Vuoi resetta di default?"
+
+#: admin/views/Options.php:76
+msgid "Gallery defaults"
+msgstr ""
+
+#: admin/views/Options.php:79
+msgid "Gallery Group defaults"
+msgstr ""
+
+#: admin/views/Options.php:82
+msgid "Lightbox defaults"
+msgstr ""
+
+#: admin/views/Options.php:88 photo-gallery.php:1425
+msgid "Watermark"
+msgstr ""
+
+#: admin/views/Options.php:100
+msgid "Images directory"
+msgstr ""
+
+#: admin/views/Options.php:105
+msgid ""
+"Provide the path of an existing folder inside the WordPress directory of "
+"your website to store uploaded images.<br />The content of the previous "
+"directory will be moved to the new one."
+msgstr ""
+
+#: admin/views/Options.php:113 admin/views/Options.php:3214
+msgid "Image click action"
+msgstr ""
+
+#: admin/views/Options.php:115 admin/views/Options.php:3216
+msgid "Open lightbox"
+msgstr ""
+
+#: admin/views/Options.php:116 admin/views/Options.php:3217
+msgid "Redirect to url"
+msgstr ""
+
+#: admin/views/Options.php:117 admin/views/Options.php:3218
+msgid "Do Nothing"
+msgstr ""
+
+#: admin/views/Options.php:119 admin/views/Options.php:3220
+msgid "Select the action which runs after clicking on gallery thumbnails."
+msgstr ""
+
+#: admin/views/Options.php:123 admin/views/Options.php:3224
+msgid "Open in a new window"
+msgstr ""
+
+#: admin/views/Options.php:133 admin/views/Options.php:2292
+msgid "Image dimensions"
+msgstr ""
+
+#: admin/views/Options.php:138
+msgid ""
+"Specify the maximum dimensions of uploaded images (set 0 for original size)."
+msgstr ""
+
+#: admin/views/Options.php:143
+msgid "Generated thumbnail dimensions"
+msgstr ""
+
+#: admin/views/Options.php:148 photo-gallery.php:353
+msgid "Recreate"
+msgstr ""
+
+#: admin/views/Options.php:150
+msgid ""
+"Specify the maximum dimensions of generated thumbnails. They must be larger "
+"than frontend thumbnail dimensions."
+msgstr ""
+
+#: admin/views/Options.php:155
+msgid "Image quality"
+msgstr ""
+
+#: admin/views/Options.php:159
+msgid "Set the quality of gallery images. Provide a value from 0 to 100%."
+msgstr ""
+
+#: admin/views/Options.php:164
+msgid "Resizable thumbnails"
+msgstr ""
+
+#: admin/views/Options.php:169
+msgid ""
+"Enable this option to allow resizing gallery thumbnails on smaller screens."
+msgstr ""
+
+#: admin/views/Options.php:174
+msgid "Preload images"
+msgstr ""
+
+#: admin/views/Options.php:179
+msgid ""
+"If this setting is enabled, Photo Gallery loads a specific number of images "
+"before opening lightbox. This lets you showcase images without loading "
+"delays, providing better user experience."
+msgstr ""
+
+#: admin/views/Options.php:184
+msgid "Number of preloaded images"
+msgstr ""
+
+#: admin/views/Options.php:188
+msgid "Specify the number of images to preload, e.g. 5 (set 0 for all)."
+msgstr ""
+
+#: admin/views/Options.php:193
+msgid "Show custom posts"
+msgstr ""
+
+#: admin/views/Options.php:198
+msgid ""
+"Activate this setting to display Photo Gallery custom posts with new menu "
+"items under WordPress admin menu."
+msgstr ""
+
+#: admin/views/Options.php:203
+msgid "Show comments for custom posts"
+msgstr ""
+
+#: admin/views/Options.php:208
+msgid ""
+"Use this setting to show or hide comments under Photo Gallery custom posts."
+msgstr ""
+
+#: admin/views/Options.php:215
+msgid "Save IP "
+msgstr ""
+
+#: admin/views/Options.php:220
+msgid "Disable saving user IP address when rating the images."
+msgstr ""
+
+#: admin/views/Options.php:226
+msgid "Right-click protection"
+msgstr ""
+
+#: admin/views/Options.php:231
+msgid "Switch off right-click on your gallery images by enabling this setting."
+msgstr ""
+
+#: admin/views/Options.php:236
+msgid "Include styles/scripts on gallery pages only"
+msgstr ""
+
+#: admin/views/Options.php:241
+msgid ""
+"If this option is enabled, CSS and Javascript files of Photo Gallery will "
+"only load on pages with galleries and gallery groups."
+msgstr ""
+
+#: admin/views/Options.php:246
+msgid "Enable Google fonts"
+msgstr ""
+
+#: admin/views/Options.php:251
+msgid ""
+"If this option is disabled, Google fonts will not be included in your pages."
+msgstr ""
+
+#: admin/views/Options.php:256
+#, fuzzy
+#| msgid "Hide info"
+msgid "Enable HTML editor"
+msgstr "Nascondi informazioni"
+
+#: admin/views/Options.php:261
+msgid ""
+"Description text boxes of Photo Gallery will use TinyMCE editor, in case "
+"this setting is enabled."
+msgstr ""
+
+#: admin/views/Options.php:266
+msgid "Enable href attribute"
+msgstr ""
+
+#: admin/views/Options.php:271
+msgid "Disable this option only if Photo Gallery conflicts with your theme."
+msgstr ""
+
+#: admin/views/Options.php:276
+msgid "Auto-fill metadata"
+msgstr ""
+
+#: admin/views/Options.php:281
+msgid ""
+"Enabling this option will let the plugin fill in meta descriptions of photos "
+"into Image Description option automatically."
+msgstr ""
+
+#: admin/views/Options.php:286 admin/views/Options.php:289
+#: photo-gallery.php:449
+msgid "Generate Shortcode"
+msgstr "Genera Shortcode"
+
+#: admin/views/Options.php:292
+msgid "Generate or edit a shortcode."
+msgstr ""
+
+#: admin/views/Options.php:303 photo-gallery.php:448
+msgid "Uninstall"
+msgstr "Disinstallare"
+
+#: admin/views/Options.php:306
+msgid ""
+"Note, that uninstalling Photo Gallery will completely remove all galleries, "
+"gallery groups and other data on the plugin. Please make sure you don't have "
+"any important information before you proceed."
+msgstr ""
+
+#: admin/views/Options.php:379 admin/views/Options.php:436
+#: admin/views/Shortcode.php:123 admin/views/Shortcode.php:160
+msgid "View type"
+msgstr ""
+
+#: admin/views/Options.php:396 admin/views/Options.php:453
+#: admin/views/Shortcode.php:177
+msgid "This view is not available in free version."
+msgstr ""
+
+#: admin/views/Options.php:481
+msgid "Social"
+msgstr ""
+
+#: admin/views/Options.php:487
+msgid "Gallery autoupdate interval"
+msgstr ""
+
+#: admin/views/Options.php:490
+msgid "hour"
+msgstr ""
+
+#: admin/views/Options.php:492
+msgid "min"
+msgstr ""
+
+#: admin/views/Options.php:494
+msgid ""
+"Set the interval when Instagram or Facebook galleries will be updated, and "
+"will display new posts of your Instagram or Facebook account."
+msgstr ""
+
+#: admin/views/Options.php:500
+msgid "Instagram"
+msgstr ""
+
+#: admin/views/Options.php:506
+msgid ""
+"Press this button to sign in to your Instagram account. In this case, access "
+"token will be added automatically."
+msgstr ""
+
+#: admin/views/Options.php:510
+msgid "Sign in with Instagram"
+msgstr ""
+
+#: admin/views/Options.php:512
+msgid ""
+"Press this button to sign in to your Instagram account. This lets you "
+"incorporate Instagram API to your website."
+msgstr ""
+
+#: admin/views/Options.php:515
+msgid ""
+"Press this button to sign out from your Instagram account. The access token "
+"will reset."
+msgstr ""
+
+#: admin/views/Options.php:517
+msgid ""
+"Are you sure you want to reset access token, after resetting it you will "
+"need to log in with Instagram again for using plugin"
+msgstr ""
+
+#: admin/views/Options.php:519
+msgid "Sign out from Instagram"
+msgstr ""
+
+#: admin/views/Options.php:521
+msgid "Press this button to sign out from your Instagram account."
+msgstr ""
+
+#: admin/views/Options.php:548 admin/views/Options.php:554
+msgid "Roles"
+msgstr ""
+
+#: admin/views/Options.php:566
+msgid ""
+"Choose a WordPress user role which can add and edit galleries, images, "
+"gallery groups and tags."
+msgstr ""
+
+#: admin/views/Options.php:574
+msgid "Gallery role restrictions"
+msgstr ""
+
+#: admin/views/Options.php:579
+msgid ""
+"Enable this setting to restrict authors from modifying galleries created by "
+"other users."
+msgstr ""
+
+#: admin/views/Options.php:585
+msgid "Gallery group restrictions"
+msgstr ""
+
+#: admin/views/Options.php:590
+msgid ""
+"Enabling this option will restrict authors from modifying galleries created "
+"by other users."
+msgstr ""
+
+#: admin/views/Options.php:596
+msgid "Image role restrictions"
+msgstr ""
+
+#: admin/views/Options.php:601
+msgid ""
+"Enable this setting to restrict authors from modifying galleries added by "
+"other users."
+msgstr ""
+
+#: admin/views/Options.php:616 photo-gallery.php:1429 photo-gallery.php:1544
+msgid "Advertisement"
+msgstr "Pubblicità"
+
+#: admin/views/Options.php:622 admin/views/Shortcode.php:298
+msgid "Advertisement type"
+msgstr ""
+
+#: admin/views/Options.php:627 admin/views/Options.php:780
+#: admin/views/Shortcode.php:300 admin/views/Themes.php:4746
+#: admin/views/WidgetTags.php:83
+msgid "Text"
+msgstr ""
+
+#: admin/views/Options.php:631 admin/views/Shortcode.php:302
+msgid "Add Text or Image advertisement to your images with this option."
+msgstr ""
+
+#: admin/views/Options.php:636 admin/views/Shortcode.php:315
+msgid "Advertisement URL"
+msgstr ""
+
+#: admin/views/Options.php:644 admin/views/Options.php:646
+#: admin/views/Options.php:797 admin/views/Options.php:799
+#, fuzzy
+#| msgid "Reset"
+msgid "Select Image"
+msgstr "Ripristina"
+
+#: admin/views/Options.php:648 admin/views/Options.php:801
+msgid "or"
+msgstr ""
+
+#: admin/views/Options.php:651 admin/views/Shortcode.php:317
+msgid ""
+"Provide the absolute URL of the image you would like to use as advertisement."
+msgstr ""
+
+#: admin/views/Options.php:656 admin/views/Shortcode.php:322
+msgid "Advertisement text"
+msgstr ""
+
+#: admin/views/Options.php:660 admin/views/Shortcode.php:324
+msgid "Write the text to add to images as advertisement."
+msgstr ""
+
+#: admin/views/Options.php:665 admin/views/Shortcode.php:308
+msgid "Advertisement link"
+msgstr ""
+
+#: admin/views/Options.php:669 admin/views/Shortcode.php:310
+msgid "Provide the link to be added to advertisement on images."
+msgstr ""
+
+#: admin/views/Options.php:674 admin/views/Shortcode.php:362
+msgid "Advertisement dimensions"
+msgstr ""
+
+#: admin/views/Options.php:679 admin/views/Shortcode.php:367
+msgid "Select the dimensions of the advertisement image."
+msgstr ""
+
+#: admin/views/Options.php:684 admin/views/Shortcode.php:353
+msgid "Advertisement font size"
+msgstr ""
+
+#: admin/views/Options.php:688 admin/views/Shortcode.php:357
+msgid "Specify the font size of the advertisement text."
+msgstr ""
+
+#: admin/views/Options.php:693 admin/views/Shortcode.php:331
+msgid "Advertisement font style"
+msgstr ""
+
+#: admin/views/Options.php:708 admin/views/Shortcode.php:345
+#: admin/views/Themes.php:408 admin/views/Themes.php:471
+#: admin/views/Themes.php:704 admin/views/Themes.php:759
+#: admin/views/Themes.php:793 admin/views/Themes.php:1028
+#: admin/views/Themes.php:1090 admin/views/Themes.php:1474
+#: admin/views/Themes.php:1535 admin/views/Themes.php:1760
+#: admin/views/Themes.php:1848 admin/views/Themes.php:2106
+#: admin/views/Themes.php:2168 admin/views/Themes.php:2223
+#: admin/views/Themes.php:2559 admin/views/Themes.php:2702
+#: admin/views/Themes.php:2783 admin/views/Themes.php:2843
+#: admin/views/Themes.php:3081 admin/views/Themes.php:3136
+#: admin/views/Themes.php:3191 admin/views/Themes.php:3327
+#: admin/views/Themes.php:3496 admin/views/Themes.php:4143
+#: admin/views/Themes.php:4285 admin/views/Themes.php:4334
+#: admin/views/Themes.php:4410 admin/views/Themes.php:4594
+#: admin/views/Themes.php:4979
+msgid "Google fonts"
+msgstr ""
+
+#: admin/views/Options.php:710 admin/views/Shortcode.php:347
+#: admin/views/Themes.php:81 admin/views/Themes.php:112
+#: admin/views/Themes.php:410 admin/views/Themes.php:473
+#: admin/views/Themes.php:706 admin/views/Themes.php:761
+#: admin/views/Themes.php:795 admin/views/Themes.php:1030
+#: admin/views/Themes.php:1092 admin/views/Themes.php:1476
+#: admin/views/Themes.php:1537 admin/views/Themes.php:1762
+#: admin/views/Themes.php:1850 admin/views/Themes.php:2108
+#: admin/views/Themes.php:2170 admin/views/Themes.php:2225
+#: admin/views/Themes.php:2561 admin/views/Themes.php:2704
+#: admin/views/Themes.php:2785 admin/views/Themes.php:2845
+#: admin/views/Themes.php:3083 admin/views/Themes.php:3138
+#: admin/views/Themes.php:3193 admin/views/Themes.php:3329
+#: admin/views/Themes.php:3498 admin/views/Themes.php:4145
+#: admin/views/Themes.php:4287 admin/views/Themes.php:4336
+#: admin/views/Themes.php:4412 admin/views/Themes.php:4596
+#: admin/views/Themes.php:4981
+msgid "Default"
+msgstr "Predefinito"
+
+#: admin/views/Options.php:712 admin/views/Shortcode.php:348
+msgid "Select the font family of the advertisement text."
+msgstr ""
+
+#: admin/views/Options.php:717 admin/views/Shortcode.php:372
+msgid "Advertisement color"
+msgstr ""
+
+#: admin/views/Options.php:721 admin/views/Shortcode.php:374
+msgid "Choose the color for the advertisement text on images."
+msgstr ""
+
+#: admin/views/Options.php:726 admin/views/Shortcode.php:381
+msgid "Advertisement opacity"
+msgstr ""
+
+#: admin/views/Options.php:730 admin/views/Shortcode.php:385
+msgid ""
+"Specify the opacity of the advertisement. The value must be between 0 to 100."
+msgstr ""
+
+#: admin/views/Options.php:735 admin/views/Shortcode.php:390
+msgid "Advertisement position"
+msgstr ""
+
+#: admin/views/Options.php:758 admin/views/Shortcode.php:410
+msgid "Mark the position where the advertisement should appear on images."
+msgstr ""
+
+#: admin/views/Options.php:775
+msgid "Watermark type"
+msgstr ""
+
+#: admin/views/Options.php:784
+msgid "Add Text or Image watermark to your images with this option."
+msgstr ""
+
+#: admin/views/Options.php:789
+msgid "Watermark URL"
+msgstr ""
+
+#: admin/views/Options.php:804
+msgid ""
+"Provide the absolute URL of the image you would like to use as watermark."
+msgstr ""
+
+#: admin/views/Options.php:804
+msgid "Only .png format is supported."
+msgstr ""
+
+#: admin/views/Options.php:809
+msgid "Watermark text"
+msgstr ""
+
+#: admin/views/Options.php:813
+msgid "Provide the text to add to images as watermark."
+msgstr ""
+
+#: admin/views/Options.php:818
+msgid "Watermark size"
+msgstr ""
+
+#: admin/views/Options.php:822
+msgid "Specify the size of watermark on images in percent."
+msgstr ""
+
+#: admin/views/Options.php:827
+msgid "Watermark font size"
+msgstr ""
+
+#: admin/views/Options.php:831
+msgid "Specify the font size of the watermark text."
+msgstr ""
+
+#: admin/views/Options.php:836
+msgid "Watermark font style"
+msgstr ""
+
+#: admin/views/Options.php:860
+msgid "Select the font family of the watermark text."
+msgstr ""
+
+#: admin/views/Options.php:865
+msgid "Watermark color"
+msgstr ""
+
+#: admin/views/Options.php:869
+msgid "Choose the color for the watermark text on images."
+msgstr ""
+
+#: admin/views/Options.php:874
+msgid "Watermark opacity"
+msgstr ""
+
+#: admin/views/Options.php:878
+msgid ""
+"Specify the opacity of the watermark. The value must be between 0 to 100."
+msgstr ""
+
+#: admin/views/Options.php:883
+msgid "Watermark position"
+msgstr ""
+
+#: admin/views/Options.php:904 framework/WDWLibrary.php:2420
+msgid "Set watermark"
+msgstr ""
+
+#: admin/views/Options.php:906
+msgid "Set Watermark"
+msgstr "Imposta Watermark"
+
+#: admin/views/Options.php:907
+msgid "Reset watermark"
+msgstr ""
+
+#: admin/views/Options.php:909
+msgid "Reset Watermark"
+msgstr ""
+
+#: admin/views/Options.php:911
+msgid "Mark the position where the watermark should appear on images."
+msgstr ""
+
+#: admin/views/Options.php:1044 admin/views/Options.php:2470
+#: admin/views/Options.php:2958 admin/views/Shortcode.php:2200
+msgid "Thumbnail dimensions"
+msgstr ""
+
+#: admin/views/Options.php:1049 admin/views/Options.php:2475
+#: admin/views/Options.php:2751 admin/views/Options.php:2963
+msgid ""
+"The default dimensions of thumbnails which will display on published "
+"galleries."
+msgstr ""
+
+#: admin/views/Options.php:1054 admin/views/Options.php:1271
+#: admin/views/Options.php:2461 admin/views/Options.php:2738
+#: admin/views/Options.php:2949 admin/views/Shortcode.php:2202
+msgid "Number of image columns"
+msgstr ""
+
+#: admin/views/Options.php:1058 admin/views/Options.php:2465
+#: admin/views/Options.php:2742 admin/views/Options.php:2953
+msgid ""
+"Set the maximum number of image columns in galleries. Note, that the parent "
+"container needs to be large enough to display all columns."
+msgstr ""
+
+#: admin/views/Options.php:1063 admin/views/Options.php:1281
+#: admin/views/Options.php:1517 admin/views/Options.php:2111
+#: admin/views/Options.php:2480 admin/views/Options.php:2756
+#: admin/views/Options.php:2968
+msgid "Pagination"
+msgstr ""
+
+#: admin/views/Options.php:1066 admin/views/Options.php:1284
+#: admin/views/Options.php:1520 admin/views/Options.php:2114
+#: admin/views/Options.php:2483 admin/views/Options.php:2759
+#: admin/views/Options.php:2971
+msgid "Simple"
+msgstr ""
+
+#: admin/views/Options.php:1067 admin/views/Options.php:1285
+#: admin/views/Options.php:1521 admin/views/Options.php:2115
+#: admin/views/Options.php:2484 admin/views/Options.php:2760
+#: admin/views/Options.php:2972
+msgid "Load More"
+msgstr ""
+
+#: admin/views/Options.php:1068 admin/views/Options.php:1286
+#: admin/views/Options.php:1522 admin/views/Options.php:2116
+#: admin/views/Options.php:2485 admin/views/Options.php:2761
+#: admin/views/Options.php:2973
+msgid "Scroll Load"
+msgstr ""
+
+#: admin/views/Options.php:1070 admin/views/Options.php:1288
+#: admin/views/Options.php:1524 admin/views/Options.php:2118
+#: admin/views/Options.php:2487 admin/views/Options.php:2763
+#: admin/views/Options.php:2975
+msgid "This option removes all types of pagination from your galleries."
+msgstr ""
+
+#: admin/views/Options.php:1071 admin/views/Options.php:1289
+#: admin/views/Options.php:1525 admin/views/Options.php:2119
+#: admin/views/Options.php:2488 admin/views/Options.php:2764
+#: admin/views/Options.php:2976
+msgid ""
+"Activating this option will add page numbers and next/previous buttons to "
+"your galleries."
+msgstr ""
+
+#: admin/views/Options.php:1072 admin/views/Options.php:1290
+#: admin/views/Options.php:1526 admin/views/Options.php:2120
+#: admin/views/Options.php:2489 admin/views/Options.php:2765
+#: admin/views/Options.php:2977
+msgid ""
+"Adding a Load More button, you can let users display a new set of images "
+"from your galleries."
+msgstr ""
+
+#: admin/views/Options.php:1073 admin/views/Options.php:1291
+#: admin/views/Options.php:1527 admin/views/Options.php:2121
+#: admin/views/Options.php:2490 admin/views/Options.php:2766
+#: admin/views/Options.php:2978
+msgid ""
+"With this option, users can load new images of your galleries simply by "
+"scrolling down."
+msgstr ""
+
+#: admin/views/Options.php:1078 admin/views/Options.php:1296
+#: admin/views/Options.php:1532 admin/views/Options.php:2127
+#: admin/views/Options.php:2504 admin/views/Options.php:2780
+#: admin/views/Options.php:2992
+msgid "Images per page"
+msgstr ""
+
+#: admin/views/Options.php:1082 admin/views/Options.php:1300
+#: admin/views/Options.php:1536 admin/views/Options.php:2508
+#: admin/views/Options.php:2784 admin/views/Options.php:2996
+msgid ""
+"Specify the number of images to display per page on galleries. Setting this "
+"option to 0 shows all items."
+msgstr ""
+
+#: admin/views/Options.php:1087 admin/views/Options.php:1305
+#: admin/views/Options.php:1541 admin/views/Options.php:2137
+msgid "Images per load"
+msgstr ""
+
+#: admin/views/Options.php:1091 admin/views/Options.php:1309
+#: admin/views/Options.php:1545 admin/views/Options.php:2141
+msgid "Specify the number of images to display per load on galleries."
+msgstr ""
+
+#: admin/views/Options.php:1098 admin/views/Options.php:1316
+#: admin/views/Options.php:1552 admin/views/Options.php:1749
+#: admin/views/Options.php:1989 admin/views/Options.php:2148
+#: admin/views/Options.php:2325 admin/views/Options.php:2515
+#: admin/views/Options.php:2791 admin/views/Options.php:3003
+#, fuzzy
+#| msgid "Order by: "
+msgid "Order by"
+msgstr "Ordina per"
+
+#: admin/views/Options.php:1100 admin/views/Options.php:1318
+#: admin/views/Options.php:1554 admin/views/Options.php:1751
+#: admin/views/Options.php:1991 admin/views/Options.php:2150
+#: admin/views/Options.php:2327 admin/views/Options.php:2517
+#: admin/views/Options.php:2793 admin/views/Options.php:3005
+#, fuzzy
+#| msgid "Order by: "
+msgid "Order"
+msgstr "Ordina per"
+
+#: admin/views/Options.php:1109 admin/views/Options.php:1327
+#: admin/views/Options.php:1563 admin/views/Options.php:1760
+#: admin/views/Options.php:2000 admin/views/Options.php:2159
+#: admin/views/Options.php:2336 admin/views/Options.php:2526
+#: admin/views/Options.php:2802 admin/views/Options.php:3014
+msgid ""
+"Select the parameter based on which the gallery images will sorted, e.g. "
+"Title."
+msgstr ""
+
+#: admin/views/Options.php:1114 admin/views/Options.php:1332
+#: admin/views/Options.php:1568 admin/views/Options.php:1765
+#: admin/views/Options.php:2005 admin/views/Options.php:2164
+#: admin/views/Options.php:2341 admin/views/Options.php:2531
+#: admin/views/Options.php:2807 admin/views/Options.php:3019
+msgid "Order direction"
+msgstr ""
+
+#: admin/views/Options.php:1115 admin/views/Options.php:1333
+#: admin/views/Options.php:1569 admin/views/Options.php:1766
+#: admin/views/Options.php:2006 admin/views/Options.php:2165
+#: admin/views/Options.php:2342 admin/views/Options.php:2532
+#: admin/views/Options.php:2808 admin/views/Options.php:3020
+msgid "Ascending"
+msgstr ""
+
+#: admin/views/Options.php:1116 admin/views/Options.php:1334
+#: admin/views/Options.php:1570 admin/views/Options.php:1767
+#: admin/views/Options.php:2007 admin/views/Options.php:2166
+#: admin/views/Options.php:2343 admin/views/Options.php:2533
+#: admin/views/Options.php:2809 admin/views/Options.php:3021
+msgid "Descending"
+msgstr ""
+
+#: admin/views/Options.php:1117 admin/views/Options.php:1335
+#: admin/views/Options.php:1571 admin/views/Options.php:1768
+#: admin/views/Options.php:2008 admin/views/Options.php:2167
+#: admin/views/Options.php:2344 admin/views/Options.php:2534
+#: admin/views/Options.php:2810 admin/views/Options.php:3022
+msgid "Set the ordering direction for gallery images, ascending or descending."
+msgstr ""
+
+#: admin/views/Options.php:1122 admin/views/Options.php:1340
+#: admin/views/Options.php:1576 admin/views/Options.php:2013
+#: admin/views/Options.php:2172 admin/views/Options.php:2539
+#: admin/views/Options.php:2815 admin/views/Options.php:3027
+msgid "Show search box"
+msgstr "Mostra casella di ricerca"
+
+#: admin/views/Options.php:1127 admin/views/Options.php:1345
+#: admin/views/Options.php:1581 admin/views/Options.php:2018
+#: admin/views/Options.php:2177 admin/views/Options.php:2544
+#: admin/views/Options.php:2820 admin/views/Options.php:3032
+msgid ""
+"Enable this option to display a search box with your gallery or gallery "
+"group."
+msgstr ""
+
+#: admin/views/Options.php:1132 admin/views/Options.php:1350
+#: admin/views/Options.php:1586 admin/views/Options.php:2023
+#: admin/views/Options.php:2182 admin/views/Options.php:2549
+#: admin/views/Options.php:2825 admin/views/Options.php:3037
+msgid "Add placeholder to search"
+msgstr ""
+
+#: admin/views/Options.php:1140 admin/views/Options.php:1358
+#: admin/views/Options.php:1594 admin/views/Options.php:2031
+#: admin/views/Options.php:2190 admin/views/Options.php:2557
+#: admin/views/Options.php:2833 admin/views/Options.php:3045
+msgid "Search box maximum width"
+msgstr ""
+
+#: admin/views/Options.php:1148 admin/views/Options.php:1366
+#: admin/views/Options.php:1602 admin/views/Options.php:2039
+#: admin/views/Options.php:2198 admin/views/Options.php:2565
+#: admin/views/Options.php:2841 admin/views/Options.php:3053
+msgid "Show \"Order by\" dropdown list"
+msgstr ""
+
+#: admin/views/Options.php:1153 admin/views/Options.php:1371
+#: admin/views/Options.php:1607 admin/views/Options.php:2044
+#: admin/views/Options.php:2203 admin/views/Options.php:2570
+#: admin/views/Options.php:2846 admin/views/Options.php:3058
+msgid ""
+"Activate this dropdown box to let users browse your gallery images with "
+"different ordering options."
+msgstr ""
+
+#: admin/views/Options.php:1158 admin/views/Options.php:1376
+#: admin/views/Options.php:1612 admin/views/Options.php:2049
+#: admin/views/Options.php:2208 admin/views/Options.php:2575
+#: admin/views/Options.php:2851 admin/views/Options.php:3063
+#, fuzzy
+#| msgid "Show rating"
+msgid "Show tag box"
+msgstr "Mostra classificazione"
+
+#: admin/views/Options.php:1163 admin/views/Options.php:1381
+#: admin/views/Options.php:1617 admin/views/Options.php:2054
+#: admin/views/Options.php:2213 admin/views/Options.php:2580
+#: admin/views/Options.php:2856 admin/views/Options.php:3068
+msgid ""
+"Enable Tag Box to allow users to filter the gallery images by their tags."
+msgstr ""
+
+#: admin/views/Options.php:1170 admin/views/Options.php:1388
+#: admin/views/Options.php:1624 admin/views/Options.php:2061
+#: admin/views/Options.php:2220 admin/views/Options.php:2607
+msgid "Show gallery title"
+msgstr ""
+
+#: admin/views/Options.php:1175 admin/views/Options.php:1393
+#: admin/views/Options.php:1629 admin/views/Options.php:2066
+#: admin/views/Options.php:2225
+msgid ""
+"Allow users to see the titles of your galleries by enabling this setting."
+msgstr ""
+
+#: admin/views/Options.php:1180 admin/views/Options.php:1398
+#: admin/views/Options.php:1634 admin/views/Options.php:2071
+#: admin/views/Options.php:2230
+msgid "Show gallery description"
+msgstr ""
+
+#: admin/views/Options.php:1185 admin/views/Options.php:1403
+#: admin/views/Options.php:1639 admin/views/Options.php:2076
+#: admin/views/Options.php:2235
+msgid "Display the descriptions of your galleries by activating this option."
+msgstr ""
+
+#: admin/views/Options.php:1190 admin/views/Options.php:1644
+#: admin/views/Options.php:1836 admin/views/Options.php:1968
+#: admin/views/Options.php:2240 admin/views/Options.php:2372
+#: admin/views/Options.php:2662 admin/views/Options.php:2883
+#: admin/views/Options.php:3149
+msgid "Show image title"
+msgstr ""
+
+#: admin/views/Options.php:1192 admin/views/Options.php:1232
+#: admin/views/Options.php:1410 admin/views/Options.php:1461
+#: admin/views/Options.php:1646 admin/views/Options.php:1685
+#: admin/views/Options.php:2609 admin/views/Options.php:2664
+#: admin/views/Options.php:2704 admin/views/Options.php:2885
+#: admin/views/Options.php:2915 admin/views/Options.php:3151
+#: admin/views/Options.php:3191
+msgid "Show on hover"
+msgstr ""
+
+#: admin/views/Options.php:1193 admin/views/Options.php:1233
+#: admin/views/Options.php:1411 admin/views/Options.php:2610
+#: admin/views/Options.php:2665 admin/views/Options.php:2705
+#: admin/views/Options.php:2886 admin/views/Options.php:3152
+#: admin/views/Options.php:3192
+msgid "Always show"
+msgstr ""
+
+#: admin/views/Options.php:1194 admin/views/Options.php:1234
+#: admin/views/Options.php:1412 admin/views/Options.php:1462
+#: admin/views/Options.php:1647 admin/views/Options.php:1686
+#: admin/views/Options.php:2611 admin/views/Options.php:2666
+#: admin/views/Options.php:2706 admin/views/Options.php:2887
+#: admin/views/Options.php:2916 admin/views/Options.php:3153
+#: admin/views/Options.php:3193
+msgid "Don't show"
+msgstr ""
+
+#: admin/views/Options.php:1196 admin/views/Options.php:1414
+#: admin/views/Options.php:1649 admin/views/Options.php:2668
+#: admin/views/Options.php:2889 admin/views/Options.php:3155
+msgid "Choose to show/hide titles of images, or display them on hover."
+msgstr ""
+
+#: admin/views/Options.php:1201 admin/views/Options.php:1430
+#: admin/views/Options.php:1654 admin/views/Options.php:2673
+#: admin/views/Options.php:3160
+msgid "Show Play icon on video thumbnails"
+msgstr ""
+
+#: admin/views/Options.php:1206 admin/views/Options.php:1435
+#: admin/views/Options.php:1659 admin/views/Options.php:2678
+#: admin/views/Options.php:3165
+msgid "Activate this option to add a Play button on thumbnails of videos."
+msgstr ""
+
+#: admin/views/Options.php:1211 admin/views/Options.php:1440
+#: admin/views/Options.php:1664 admin/views/Options.php:1939
+#: admin/views/Options.php:2081 admin/views/Options.php:2262
+#: admin/views/Options.php:2416 admin/views/Options.php:2683
+#: admin/views/Options.php:2894 admin/views/Options.php:3170
+msgid "Enable bulk download button"
+msgstr ""
+
+#: admin/views/Options.php:1216 admin/views/Options.php:1445
+#: admin/views/Options.php:1669 admin/views/Options.php:1944
+#: admin/views/Options.php:2086 admin/views/Options.php:2267
+#: admin/views/Options.php:2421 admin/views/Options.php:2688
+#: admin/views/Options.php:2899 admin/views/Options.php:3175
+msgid ""
+"Activate this setting to let users download all images of your gallery with "
+"a click."
+msgstr ""
+
+#: admin/views/Options.php:1220 admin/views/Options.php:1449
+#: admin/views/Options.php:1673 admin/views/Options.php:1948
+#: admin/views/Options.php:2090 admin/views/Options.php:2271
+#: admin/views/Options.php:2425 admin/views/Options.php:2692
+#: admin/views/Options.php:2903 admin/views/Options.php:3179
+msgid ""
+"Photo Gallery Export will not work correctly, as ZipArchive PHP extension is "
+"disabled on your website. Please contact your hosting provider and ask them "
+"to enable it."
+msgstr ""
+
+#: admin/views/Options.php:1230 admin/views/Options.php:1459
+#: admin/views/Options.php:1683 admin/views/Options.php:2702
+#: admin/views/Options.php:2913 admin/views/Options.php:3189
+msgid "Show ecommerce icon"
+msgstr ""
+
+#: admin/views/Options.php:1236 admin/views/Options.php:1464
+#: admin/views/Options.php:1688 admin/views/Options.php:2708
+#: admin/views/Options.php:2918 admin/views/Options.php:3195
+msgid "Choose to show/hide ecommerce icon, or display them on hover."
+msgstr ""
+
+#: admin/views/Options.php:1262 admin/views/Options.php:1508
+msgid "Thumbnail size"
+msgstr ""
+
+#: admin/views/Options.php:1266 admin/views/Options.php:1512
+msgid ""
+"The default size of thumbnails which will display on published galleries."
+msgstr ""
+
+#: admin/views/Options.php:1272 admin/views/Shortcode.php:2204
+msgid "Number of image rows"
+msgstr "Numero di file di immagini"
+
+#: admin/views/Options.php:1276
+msgid ""
+"Set the maximum number of image columns (or rows) in galleries. Note, that "
+"the parent container needs to be large enough to display all columns."
+msgstr ""
+
+#: admin/views/Options.php:1408
+msgid "Show image title in Vertical Masonry"
+msgstr ""
+
+#: admin/views/Options.php:1419
+msgid "Show image descriptions in Vertical Masonry"
+msgstr ""
+
+#: admin/views/Options.php:1424
+msgid ""
+"Enable this setting to display descriptions under images in Vertical Masonry "
+"view."
+msgstr ""
+
+#: admin/views/Options.php:1476 admin/views/Options.php:2630
+#: admin/views/Options.php:3117
+msgid "Mosaic gallery type"
+msgstr ""
+
+#: admin/views/Options.php:1478 admin/views/Options.php:2632
+#: admin/views/Options.php:3119
+msgid "Vertical"
+msgstr ""
+
+#: admin/views/Options.php:1479 admin/views/Options.php:2633
+#: admin/views/Options.php:3120
+msgid "Horizontal"
+msgstr ""
+
+#: admin/views/Options.php:1481 admin/views/Options.php:2635
+#: admin/views/Options.php:3122
+msgid "Select the type of Mosaic galleries, Vertical or Horizontal."
+msgstr ""
+
+#: admin/views/Options.php:1487 admin/views/Options.php:2641
+#: admin/views/Options.php:3128
+msgid "Resizable mosaic"
+msgstr ""
+
+#: admin/views/Options.php:1492 admin/views/Options.php:2646
+#: admin/views/Options.php:3133
+msgid ""
+"If this setting is enabled, Photo Gallery resizes all thumbnail images on "
+"Mosaic galleries, without modifying their initial display."
+msgstr ""
+
+#: admin/views/Options.php:1498 admin/views/Options.php:2652
+#: admin/views/Options.php:3139
+msgid "Width of mosaic galleries"
+msgstr ""
+
+#: admin/views/Options.php:1502 admin/views/Options.php:2656
+#: admin/views/Options.php:3143
+msgid ""
+"The total width of mosaic galleries as a percentage of container's width."
+msgstr ""
+
+#: admin/views/Options.php:1700
+msgid "Slideshow effect"
+msgstr "Slideshow effetto"
+
+#: admin/views/Options.php:1707 admin/views/Options.php:3262
+#: admin/views/WidgetSlideshow.php:105
+msgid "This effect is disabled in free version."
+msgstr ""
+
+#: admin/views/Options.php:1714
+msgid "Select the animation effect for your slideshow."
+msgstr ""
+
+#: admin/views/Options.php:1719 admin/views/Options.php:3274
+msgid "Effect duration"
+msgstr ""
+
+#: admin/views/Options.php:1723
+msgid "Set the duration of your slideshow animation effect."
+msgstr ""
+
+#: admin/views/Options.php:1728 admin/views/Options.php:2360
+#: admin/views/Options.php:3294
+msgid "Time interval"
+msgstr "Intervallo di tempo"
+
+#: admin/views/Options.php:1732
+msgid ""
+"Specify the time interval between slides in Photo Gallery's Slideshow view."
+msgstr ""
+
+#: admin/views/Options.php:1737
+msgid "Slideshow dimensions"
+msgstr ""
+
+#: admin/views/Options.php:1742
+msgid "Set the default dimensions of your slideshow galleries."
+msgstr ""
+
+#: admin/views/Options.php:1773 admin/views/Options.php:2349
+msgid "Enable autoplay"
+msgstr "Abilita riproduzione automatica"
+
+#: admin/views/Options.php:1778
+msgid "Activate this option to autoplay slideshow galleries."
+msgstr ""
+
+#: admin/views/Options.php:1783
+msgid "Enable shuffle"
+msgstr "Abilita riordino"
+
+#: admin/views/Options.php:1788
+msgid "The slideshow images will be shuffled in case this setting is enabled."
+msgstr ""
+
+#: admin/views/Options.php:1793 admin/views/Options.php:3326
+msgid "Enable control buttons"
+msgstr "Abilita pulsanti di controllo"
+
+#: admin/views/Options.php:1798
+msgid "Enable this option to show control buttons on your slideshow galleries."
+msgstr ""
+
+#: admin/views/Options.php:1803 admin/views/Options.php:3450
+msgid "Show Next / Previous buttons"
+msgstr ""
+
+#: admin/views/Options.php:1805 admin/views/Options.php:3452
+msgid "On hover"
+msgstr ""
+
+#: admin/views/Options.php:1806 admin/views/Options.php:3453
+msgid "Always"
+msgstr ""
+
+#: admin/views/Options.php:1808
+msgid ""
+"Display Next/Previous buttons on your slideshow galleries activating this "
+"setting."
+msgstr ""
+
+#: admin/views/Options.php:1815
+msgid "Enable slideshow filmstrip"
+msgstr ""
+
+#: admin/views/Options.php:1820
+msgid ""
+"Add a filmstrip with image thumbnails to your slideshow galleries by "
+"enabling this option."
+msgstr ""
+
+#: admin/views/Options.php:1826
+msgid "Slideshow filmstrip size"
+msgstr ""
+
+#: admin/views/Options.php:1830 admin/views/Options.php:3318
+msgid ""
+"Set the size of your filmstrip. If the filmstrip is horizontal, this "
+"indicates its height, whereas for vertical filmstrips it sets the width."
+msgstr ""
+
+#: admin/views/Options.php:1841
+msgid "Enable this setting to display titles of images in Slideshow view."
+msgstr ""
+
+#: admin/views/Options.php:1846
+msgid "Title position"
+msgstr ""
+
+#: admin/views/Options.php:1868
+msgid "Set the position of image titles in Slideshow view."
+msgstr ""
+
+#: admin/views/Options.php:1873
+msgid "Full width title"
+msgstr ""
+
+#: admin/views/Options.php:1878
+msgid "Display image title based on the slideshow dimensions."
+msgstr ""
+
+#: admin/views/Options.php:1883 admin/views/Options.php:1977
+#: admin/views/Options.php:2251
+msgid "Show image description"
+msgstr ""
+
+#: admin/views/Options.php:1888
+msgid "Enable this setting to show descriptions of images in Slideshow view."
+msgstr ""
+
+#: admin/views/Options.php:1893
+msgid "Description position"
+msgstr ""
+
+#: admin/views/Options.php:1915
+msgid "Set the position of image descriptions in Slideshow view."
+msgstr ""
+
+#: admin/views/Options.php:1920
+msgid "Enable slideshow Music"
+msgstr ""
+
+#: admin/views/Options.php:1925
+msgid ""
+"Enabling this option, you can have music playing along with your slideshow."
+msgstr ""
+
+#: admin/views/Options.php:1930
+msgid "Audio URL"
+msgstr ""
+
+#: admin/views/Options.php:1934
+msgid ""
+"Provide the absolute URL of the audio file you would like to play with your "
+"slideshow."
+msgstr ""
+
+#: admin/views/Options.php:1959 admin/views/Options.php:2101
+msgid "Image width"
+msgstr ""
+
+#: admin/views/Options.php:1963
+msgid "Specify the default width of images in Image Browser view."
+msgstr ""
+
+#: admin/views/Options.php:1982
+msgid "Enable this setting to display titles of images in Image Browser view."
+msgstr ""
+
+#: admin/views/Options.php:2105
+msgid "Specify the default width of images in Blog Style view."
+msgstr ""
+
+#: admin/views/Options.php:2131
+msgid "Select the number of images displayed per page in Blog Style view."
+msgstr ""
+
+#: admin/views/Options.php:2245
+msgid "Enable this setting to display titles of images in Blog Style view."
+msgstr ""
+
+#: admin/views/Options.php:2256
+msgid "Enable this setting to show descriptions of images in Blog Style view."
+msgstr ""
+
+#: admin/views/Options.php:2282
+msgid "Max. number of images"
+msgstr ""
+
+#: admin/views/Options.php:2286
+msgid "Set the maximum number of images that are shown with Carousel display."
+msgstr ""
+
+#: admin/views/Options.php:2297
+msgid "Specify the dimensions of carousel images in pixels."
+msgstr ""
+
+#: admin/views/Options.php:2303
+msgid "Carousel ratio"
+msgstr ""
+
+#: admin/views/Options.php:2307
+msgid ""
+"This option defines the proportion of dimensions between neighboring images "
+"in the carousel."
+msgstr ""
+
+#: admin/views/Options.php:2313
+msgid "Fixed width"
+msgstr ""
+
+#: admin/views/Options.php:2317
+msgid "Specify the fixed width of Carousel gallery container."
+msgstr ""
+
+#: admin/views/Options.php:2354
+msgid "Activate this option to autoplay Carousel galleries."
+msgstr ""
+
+#: admin/views/Options.php:2364
+msgid ""
+"Specify the time interval between rotations in Photo Gallery's Carousel view."
+msgstr ""
+
+#: admin/views/Options.php:2377
+msgid ""
+"Display image titles in Photo Gallery Carousel view by activating this "
+"option."
+msgstr ""
+
+#: admin/views/Options.php:2383
+msgid "Container fit"
+msgstr ""
+
+#: admin/views/Options.php:2388
+msgid ""
+"Enabling this setting fits the images inside their container on Carousel "
+"galleries with fixed width."
+msgstr ""
+
+#: admin/views/Options.php:2394
+msgid "Next/Previous buttons"
+msgstr ""
+
+#: admin/views/Options.php:2399
+msgid ""
+"Enable this setting to display Next/Previous buttons on your galleries with "
+"Carousel view."
+msgstr ""
+
+#: admin/views/Options.php:2405
+msgid "Play/Pause buttons"
+msgstr ""
+
+#: admin/views/Options.php:2410
+msgid "Activate this to show Play/Pause buttons on your Carousel galleries."
+msgstr ""
+
+#: admin/views/Options.php:2442 admin/views/Options.php:2720
+msgid "Number of gallery group columns"
+msgstr ""
+
+#: admin/views/Options.php:2446 admin/views/Options.php:2724
+msgid ""
+"Set the maximum number of columns in gallery groups. Note, that the parent "
+"container needs to be large enough to display all columns."
+msgstr ""
+
+#: admin/views/Options.php:2451 admin/views/Options.php:2939
+msgid "Gallery group thumbnail dimensions"
+msgstr ""
+
+#: admin/views/Options.php:2456 admin/views/Options.php:2733
+#: admin/views/Options.php:2944
+msgid "Specify the dimensions of thumbnails in gallery groups."
+msgstr ""
+
+#: admin/views/Options.php:2495 admin/views/Options.php:2771
+#: admin/views/Options.php:2983
+msgid "Gallery groups per page"
+msgstr ""
+
+#: admin/views/Options.php:2499 admin/views/Options.php:2775
+#: admin/views/Options.php:2987
+msgid ""
+"Specify the number of galleries/gallery groups to display per page. Setting "
+"this option to 0 shows all items."
+msgstr ""
+
+#: admin/views/Options.php:2587 admin/views/Options.php:2863
+#: admin/views/Options.php:3075
+msgid "Show gallery group or gallery title"
+msgstr ""
+
+#: admin/views/Options.php:2592 admin/views/Options.php:2868
+#: admin/views/Options.php:3080
+msgid ""
+"Display the title of displayed gallery or gallery group by enabling this "
+"setting."
+msgstr ""
+
+#: admin/views/Options.php:2597 admin/views/Options.php:2873
+#: admin/views/Options.php:3085
+msgid "Show gallery group or gallery description"
+msgstr ""
+
+#: admin/views/Options.php:2602 admin/views/Options.php:2878
+#: admin/views/Options.php:3090
+msgid ""
+"Display the description of displayed gallery or gallery group by enabling "
+"this setting."
+msgstr ""
+
+#: admin/views/Options.php:2613
+msgid ""
+"Choose to show/hide titles of galleries/gallery groups, or display them on "
+"hover."
+msgstr ""
+
+#: admin/views/Options.php:2618 admin/views/Options.php:3105
+msgid "Gallery view type"
+msgstr ""
+
+#: admin/views/Options.php:2624 admin/views/Options.php:3111
+msgid ""
+"Choose the display type for gallery groups, Thumbnails, Masonry or Mosaic."
+msgstr ""
+
+#: admin/views/Options.php:2729
+msgid "Gallery group thumbnail width"
+msgstr ""
+
+#: admin/views/Options.php:2747
+msgid "Thumbnail width"
+msgstr ""
+
+#: admin/views/Options.php:2930
+msgid "Extended gallery group height"
+msgstr ""
+
+#: admin/views/Options.php:2934
+msgid "Set the height of blocks in Extended gallery groups."
+msgstr ""
+
+#: admin/views/Options.php:3095
+msgid "Show extended gallery group description"
+msgstr ""
+
+#: admin/views/Options.php:3100
+msgid ""
+"Enable this option to show descriptions of galleries/gallery groups in "
+"Extended view."
+msgstr ""
+
+#: admin/views/Options.php:3235
+msgid "Full-width lightbox"
+msgstr ""
+
+#: admin/views/Options.php:3240
+msgid "Image lightbox will appear full-width if this setting is activated."
+msgstr ""
+
+#: admin/views/Options.php:3245
+msgid "Lightbox dimensions"
+msgstr ""
+
+#: admin/views/Options.php:3250
+msgid "Set the dimensions of image lightbox."
+msgstr ""
+
+#: admin/views/Options.php:3255
+msgid "Lightbox effect"
+msgstr ""
+
+#: admin/views/Options.php:3269
+msgid "Select the animation effect for image lightbox."
+msgstr ""
+
+#: admin/views/Options.php:3278
+msgid "Set the duration of lightbox animation effect."
+msgstr ""
+
+#: admin/views/Options.php:3279
+msgid ""
+"Note, that the value of Effect Duration can not be greater than 1/4 of Time "
+"Interval."
+msgstr ""
+
+#: admin/views/Options.php:3284
+msgid "Lightbox autoplay"
+msgstr ""
+
+#: admin/views/Options.php:3289
+msgid "Activate this option to autoplay images in gallery lightbox."
+msgstr ""
+
+#: admin/views/Options.php:3298
+msgid "Specify the time interval of autoplay in Photo Gallery lightbox."
+msgstr ""
+
+#: admin/views/Options.php:3303
+msgid "Enable filmstrip"
+msgstr ""
+
+#: admin/views/Options.php:3308
+msgid ""
+"Add a filmstrip with image thumbnails to the lightbox of your galleries."
+msgstr ""
+
+#: admin/views/Options.php:3314
+msgid "Filmstrip size"
+msgstr ""
+
+#: admin/views/Options.php:3357
+msgid "Enable this option to show control buttons on Photo Gallery lightbox."
+msgstr ""
+
+#: admin/views/Options.php:3362
+#, fuzzy
+#| msgid "Exit Fullscreen"
+msgid "Enable fullscreen button"
+msgstr "Uscita a schermo intero"
+
+#: admin/views/Options.php:3367
+msgid ""
+"Activate this setting to add Fullscreen button to lightbox control buttons."
+msgstr ""
+
+#: admin/views/Options.php:3372
+msgid "Enable comments"
+msgstr ""
+
+#: admin/views/Options.php:3381
+msgid ""
+"Let users to leave comments on images by enabling comments section of "
+"lightbox."
+msgstr ""
+
+#: admin/views/Options.php:3387
+#, fuzzy
+#| msgid "Show comments"
+msgid "Show Email for comments"
+msgstr "Mostra i commenti."
+
+#: admin/views/Options.php:3392
+msgid ""
+"Activate this option to display email address field in comments section."
+msgstr ""
+
+#: admin/views/Options.php:3398
+#, fuzzy
+#| msgid "Show comments"
+msgid "Show Captcha for comments"
+msgstr "Mostra i commenti."
+
+#: admin/views/Options.php:3403
+msgid ""
+"Enable this setting to place Captcha word verification in comments section."
+msgstr ""
+
+#: admin/views/Options.php:3409
+#, fuzzy
+#| msgid "Your comment is awaiting moderation"
+msgid "Enable comments moderation"
+msgstr "Il tuo commento è in attesa di moderazione "
+
+#: admin/views/Options.php:3414
+msgid "Moderate each comment left on images by activating this setting."
+msgstr ""
+
+#: admin/views/Options.php:3420
+#, fuzzy
+#| msgid "Show comments"
+msgid "Show image info"
+msgstr "Mostra i commenti."
+
+#: admin/views/Options.php:3425
+msgid ""
+"Activate this setting to show Info button among lightbox control buttons."
+msgstr ""
+
+#: admin/views/Options.php:3430
+msgid "Display info by default"
+msgstr ""
+
+#: admin/views/Options.php:3435
+msgid ""
+"Enabling this option will let you show image title and description on "
+"lightbox by default."
+msgstr ""
+
+#: admin/views/Options.php:3440
+msgid "Full width info"
+msgstr ""
+
+#: admin/views/Options.php:3445
+msgid ""
+"Display info box with the full width of the lightbox by enabling this option."
+msgstr ""
+
+#: admin/views/Options.php:3455
+msgid ""
+"Choose to display Next/Previous buttons of Photo Gallery lightbox on hover "
+"or always."
+msgstr ""
+
+#: admin/views/Options.php:3460
+msgid "Display views counter"
+msgstr ""
+
+#: admin/views/Options.php:3465
+msgid "Show the number of views, when a gallery image was opened in lightbox."
+msgstr ""
+
+#: admin/views/Options.php:3471
+#, fuzzy
+#| msgid "Hide rating"
+msgid "Enable rating"
+msgstr "Nascondi valutazione"
+
+#: admin/views/Options.php:3476
+msgid ""
+"Allow users to rate your images by adding rating feature to Photo Gallery "
+"lightbox."
+msgstr ""
+
+#: admin/views/Options.php:3484
+msgid "Show Display Original Image button"
+msgstr ""
+
+#: admin/views/Options.php:3489
+msgid ""
+"Let users view original versions of your images by enabling this button."
+msgstr ""
+
+#: admin/views/Options.php:3494
+msgid "Show download button"
+msgstr ""
+
+#: admin/views/Options.php:3499
+msgid ""
+"This option will allow users to download gallery images while viewing them "
+"in lightbox."
+msgstr ""
+
+#: admin/views/Options.php:3504
+#, fuzzy
+#| msgid "Show comments"
+msgid "Show image counter"
+msgstr "Mostra i commenti."
+
+#: admin/views/Options.php:3509
+msgid "Enable this option to display image counter on Photo Gallery lightbox."
+msgstr ""
+
+#: admin/views/Options.php:3514
+#, fuzzy
+#| msgid "Hide rating"
+msgid "Enable looping"
+msgstr "Nascondi valutazione"
+
+#: admin/views/Options.php:3519
+msgid ""
+"Activate looping to start lightbox navigation from the beginning when users "
+"reach its last image."
+msgstr ""
+
+#: admin/views/Options.php:3524
+msgid "Enable"
+msgstr ""
+
+#: admin/views/Options.php:3529
+msgid "Display AddThis on Photo Gallery lightbox by activating this option."
+msgstr ""
+
+#: admin/views/Options.php:3535
+msgid "profile ID"
+msgstr ""
+
+#: admin/views/Options.php:3539
+msgid "Provide the ID of your profile to connect to AddThis."
+msgstr ""
+
+#: admin/views/Options.php:3539
+#, php-format
+msgid "Create an account %s."
+msgstr ""
+
+#: admin/views/Options.php:3539 admin/views/Shortcode.php:254
+msgid "here"
+msgstr ""
+
+#: admin/views/Options.php:3545
+#, fuzzy
+#| msgid "Share on Facebook"
+msgid "Show Facebook button"
+msgstr "Condividi su Facebook."
+
+#: admin/views/Options.php:3550
+msgid ""
+"Enabling this setting will add Facebook sharing button to Photo Gallery "
+"lightbox."
+msgstr ""
+
+#: admin/views/Options.php:3556
+#, fuzzy
+#| msgid "Share on Twitter"
+msgid "Show Twitter button"
+msgstr "Condividi su Twitter."
+
+#: admin/views/Options.php:3561
+msgid "Enable this setting to add Tweet button to Photo Gallery lightbox."
+msgstr ""
+
+#: admin/views/Options.php:3567
+#, fuzzy
+#| msgid "Share on Google+"
+msgid "Show Google+ button"
+msgstr "Condividi su Google+."
+
+#: admin/views/Options.php:3572
+msgid ""
+"Add Google+ sharing button to Photo Gallery lightbox by activating this "
+"option."
+msgstr ""
+
+#: admin/views/Options.php:3578
+#, fuzzy
+#| msgid "Share on Pinterest"
+msgid "Show Pinterest button"
+msgstr "Condividi su Pinterest"
+
+#: admin/views/Options.php:3583
+msgid "Activate Pin button of Photo Gallery lightbox by enabling this setting."
+msgstr ""
+
+#: admin/views/Options.php:3589
+#, fuzzy
+#| msgid "Share on Tumblr"
+msgid "Show Tumblr button"
+msgstr "Condividi su Tumblr"
+
+#: admin/views/Options.php:3594
+msgid ""
+"Allow users to share images on Tumblr from Photo Gallery lightbox by "
+"activating this setting."
+msgstr ""
+
+#: admin/views/Options.php:3603
+#, fuzzy
+#| msgid "Show comments"
+msgid "Show Ecommerce button"
+msgstr "Mostra i commenti."
+
+#: admin/views/Options.php:3608
+msgid "Enable this option to display ecommerce icon on Photo Gallery lightbox"
+msgstr ""
+
+#: admin/views/Ratings.php:40 admin/views/Ratings.php:59
+#: admin/views/Ratings.php:91
+msgid "IP"
+msgstr ""
+
+#: admin/views/Ratings.php:58 admin/views/Ratings.php:90
+msgid "Rating"
+msgstr ""
+
+#: admin/views/Shortcode.php:201
+#, fuzzy
+#| msgid "Gallery is empty."
+msgid "Gallery Group"
+msgstr "La galleria è vuota."
+
+#: admin/views/Shortcode.php:253
+msgid "Use default options"
+msgstr ""
+
+#: admin/views/Shortcode.php:254
+msgid ""
+"Mark this option to use default settings configured in Photo Gallery Options."
+msgstr ""
+
+#: admin/views/Shortcode.php:254
+#, fuzzy, php-format
+#| msgid "You can't delete default theme"
+msgid "You can change the default options %s."
+msgstr "Non puoi cancellare il tema di default"
+
+#: admin/views/Shortcode.php:279
+msgid "Action on image click"
+msgstr ""
+
+#: admin/views/Shortcode.php:289
+msgid "Toggle panel"
+msgstr ""
+
+#: admin/views/Shortcode.php:425
+msgid "Insert into post"
+msgstr ""
+
+#: admin/views/Shortcode.php:430
+msgid "Please see "
+msgstr ""
+
+#: admin/views/Shortcode.php:430
+msgid "View in Premium version"
+msgstr ""
+
+#: admin/views/Shortcode.php:452
+msgid "New shortcode"
+msgstr ""
+
+#: admin/views/Shortcode.php:461 admin/views/Shortcode.php:538
+msgid "Generate"
+msgstr "Generare"
+
+#: admin/views/Shortcode.php:463
+msgid ""
+"If you would like to edit an existing shortcode, use this dropdown box to "
+"select it."
+msgstr ""
+
+#: admin/views/Shortcode.php:467
+msgid "Shortcode"
+msgstr ""
+
+#: admin/views/Shortcode.php:469
+msgid ""
+"Add the selected gallery or gallery group to any WordPress page or post. "
+"Simply copy the generated shortcode and paste it in the content of page/post "
+"editor."
+msgstr ""
+
+#: admin/views/Shortcode.php:474
+msgid "PHP function"
+msgstr ""
+
+#: admin/views/Shortcode.php:476
+msgid ""
+"Use generated PHP function to call the selected gallery or gallery group on "
+"a custom PHP template."
+msgstr ""
+
+#: admin/views/Shortcode.php:556
+msgid "There is no shortcode with such ID!"
+msgstr "Non vi è alcun shortcode con tale ID!"
+
+#: admin/views/Shortcode.php:2201
+msgid "Image thumbnail width "
+msgstr "Immagine Larghezza miniatura"
+
+#: admin/views/Shortcode.php:2203
+msgid "Image thumbnail height"
+msgstr "Immagine altezza miniatura"
+
+#: admin/views/Themes.php:22
+msgid "You can't change theme parameters in free version."
+msgstr ""
+
+#: admin/views/Themes.php:176
+#, fuzzy
+#| msgid "Show rating"
+msgid "Theme title"
+msgstr "Mostra classificazione"
+
+#: admin/views/Themes.php:184
+#, fuzzy
+#| msgid "You can't delete default theme"
+msgid "Reset to default theme"
+msgstr "Non puoi cancellare il tema di default"
+
+#: admin/views/Themes.php:212 admin/views/Themes.php:534
+#: admin/views/Themes.php:856 admin/views/Themes.php:1911
+#: admin/views/Themes.php:2907
+msgid "Distance between pictures:"
+msgstr ""
+
+#: admin/views/Themes.php:218 admin/views/Themes.php:540
+#: admin/views/Themes.php:862 admin/views/Themes.php:1917
+#: admin/views/Themes.php:2913
+msgid "Distance from container frame:"
+msgstr ""
+
+#: admin/views/Themes.php:224 admin/views/Themes.php:546
+#: admin/views/Themes.php:868 admin/views/Themes.php:1923
+#: admin/views/Themes.php:2919
+msgid ""
+"Enable this option to add distance between the parent container and the "
+"thumbnails grid."
+msgstr ""
+
+#: admin/views/Themes.php:228 admin/views/Themes.php:1640
+#: admin/views/Themes.php:1927 admin/views/Themes.php:2473
+#: admin/views/Themes.php:3288 admin/views/Themes.php:4665
+msgid "Padding:"
+msgstr ""
+
+#: admin/views/Themes.php:234 admin/views/Themes.php:550
+#: admin/views/Themes.php:872 admin/views/Themes.php:1647
+#: admin/views/Themes.php:1934 admin/views/Themes.php:2923
+#: admin/views/Themes.php:3346 admin/views/Themes.php:4615
+msgid "Border width:"
+msgstr ""
+
+#: admin/views/Themes.php:240 admin/views/Themes.php:556
+#: admin/views/Themes.php:878 admin/views/Themes.php:1653
+#: admin/views/Themes.php:1940 admin/views/Themes.php:2929
+#: admin/views/Themes.php:3352 admin/views/Themes.php:4621
+#, fuzzy
+#| msgid "Order by: "
+msgid "Border style:"
+msgstr "Ordina per"
+
+#: admin/views/Themes.php:254 admin/views/Themes.php:570
+#: admin/views/Themes.php:892 admin/views/Themes.php:1667
+#: admin/views/Themes.php:1954 admin/views/Themes.php:2943
+#: admin/views/Themes.php:3366 admin/views/Themes.php:4635
+msgid "Border color:"
+msgstr ""
+
+#: admin/views/Themes.php:260 admin/views/Themes.php:576
+#: admin/views/Themes.php:898 admin/views/Themes.php:1673
+#: admin/views/Themes.php:1960 admin/views/Themes.php:2492
+#: admin/views/Themes.php:2949 admin/views/Themes.php:3372
+#: admin/views/Themes.php:4641
+msgid "Border radius:"
+msgstr ""
+
+#: admin/views/Themes.php:263 admin/views/Themes.php:270
+#: admin/views/Themes.php:432 admin/views/Themes.php:439
+#: admin/views/Themes.php:495 admin/views/Themes.php:502
+#: admin/views/Themes.php:579 admin/views/Themes.php:728
+#: admin/views/Themes.php:817 admin/views/Themes.php:824
+#: admin/views/Themes.php:901 admin/views/Themes.php:1052
+#: admin/views/Themes.php:1059 admin/views/Themes.php:1114
+#: admin/views/Themes.php:1121 admin/views/Themes.php:1237
+#: admin/views/Themes.php:1258 admin/views/Themes.php:1286
+#: admin/views/Themes.php:1320 admin/views/Themes.php:1376
+#: admin/views/Themes.php:1436 admin/views/Themes.php:1443
+#: admin/views/Themes.php:1497 admin/views/Themes.php:1504
+#: admin/views/Themes.php:1559 admin/views/Themes.php:1579
+#: admin/views/Themes.php:1636 admin/views/Themes.php:1643
+#: admin/views/Themes.php:1676 admin/views/Themes.php:1696
+#: admin/views/Themes.php:1770 admin/views/Themes.php:1777
+#: admin/views/Themes.php:1810 admin/views/Themes.php:1872
+#: admin/views/Themes.php:1879 admin/views/Themes.php:1930
+#: admin/views/Themes.php:1963 admin/views/Themes.php:1970
+#: admin/views/Themes.php:2130 admin/views/Themes.php:2137
+#: admin/views/Themes.php:2192 admin/views/Themes.php:2247
+#: admin/views/Themes.php:2254 admin/views/Themes.php:2327
+#: admin/views/Themes.php:2334 admin/views/Themes.php:2422
+#: admin/views/Themes.php:2462 admin/views/Themes.php:2469
+#: admin/views/Themes.php:2495 admin/views/Themes.php:2528
+#: admin/views/Themes.php:2593 admin/views/Themes.php:2626
+#: admin/views/Themes.php:2645 admin/views/Themes.php:2726
+#: admin/views/Themes.php:2867 admin/views/Themes.php:2874
+#: admin/views/Themes.php:2952 admin/views/Themes.php:3105
+#: admin/views/Themes.php:3160 admin/views/Themes.php:3215
+#: admin/views/Themes.php:3222 admin/views/Themes.php:3284
+#: admin/views/Themes.php:3291 admin/views/Themes.php:3298
+#: admin/views/Themes.php:3375 admin/views/Themes.php:3392
+#: admin/views/Themes.php:3437 admin/views/Themes.php:3520
+#: admin/views/Themes.php:3527 admin/views/Themes.php:3621
+#: admin/views/Themes.php:3675 admin/views/Themes.php:3708
+#: admin/views/Themes.php:3816 admin/views/Themes.php:3853
+#: admin/views/Themes.php:3897 admin/views/Themes.php:3930
+#: admin/views/Themes.php:4035 admin/views/Themes.php:4104
+#: admin/views/Themes.php:4111 admin/views/Themes.php:4118
+#: admin/views/Themes.php:4246 admin/views/Themes.php:4253
+#: admin/views/Themes.php:4260 admin/views/Themes.php:4471
+#: admin/views/Themes.php:4490 admin/views/Themes.php:4523
+#: admin/views/Themes.php:4644 admin/views/Themes.php:4661
+#: admin/views/Themes.php:4668 admin/views/Themes.php:4697
+#: admin/views/Themes.php:4858 admin/views/Themes.php:4947
+msgid "Use CSS type values."
+msgstr ""
+
+#: admin/views/Themes.php:267 admin/views/Themes.php:1967
+msgid "Shadow:"
+msgstr ""
+
+#: admin/views/Themes.php:274 admin/views/Themes.php:583
+#: admin/views/Themes.php:905 admin/views/Themes.php:1974
+#: admin/views/Themes.php:2956
+msgid "Hover effect:"
+msgstr ""
+
+#: admin/views/Themes.php:288 admin/views/Themes.php:597
+#: admin/views/Themes.php:919 admin/views/Themes.php:1988
+#: admin/views/Themes.php:2382 admin/views/Themes.php:2970
+msgid "Hover effect value:"
+msgstr ""
+
+#: admin/views/Themes.php:291
+msgid "E.g. Rotate: 10deg, Scale/Zoom: 1.5, Skew: 10deg."
+msgstr ""
+
+#: admin/views/Themes.php:295 admin/views/Themes.php:604
+#: admin/views/Themes.php:926
+msgid "Transition:"
+msgstr ""
+
+#: admin/views/Themes.php:315 admin/views/Themes.php:624
+#: admin/views/Themes.php:2014 admin/views/Themes.php:2389
+#: admin/views/Themes.php:2997
+msgid "Thumbnail background color:"
+msgstr ""
+
+#: admin/views/Themes.php:322 admin/views/Themes.php:2020
+#: admin/views/Themes.php:2361 admin/views/Themes.php:3004
+msgid "Thumbnail transparency:"
+msgstr ""
+
+#: admin/views/Themes.php:325 admin/views/Themes.php:338
+#: admin/views/Themes.php:634 admin/views/Themes.php:647
+#: admin/views/Themes.php:954 admin/views/Themes.php:967
+#: admin/views/Themes.php:1180 admin/views/Themes.php:1339
+#: admin/views/Themes.php:1429 admin/views/Themes.php:1490
+#: admin/views/Themes.php:1572 admin/views/Themes.php:1689
+#: admin/views/Themes.php:2023 admin/views/Themes.php:2036
+#: admin/views/Themes.php:2364 admin/views/Themes.php:2404
+#: admin/views/Themes.php:2488 admin/views/Themes.php:3007
+#: admin/views/Themes.php:3020 admin/views/Themes.php:3263
+#: admin/views/Themes.php:3450 admin/views/Themes.php:3568
+#: admin/views/Themes.php:3581 admin/views/Themes.php:3628
+#: admin/views/Themes.php:3655 admin/views/Themes.php:3949
+#: admin/views/Themes.php:4071 admin/views/Themes.php:4213
+#: admin/views/Themes.php:4681 admin/views/Themes.php:4776
+#: admin/views/Themes.php:4801 admin/views/Themes.php:4940
+msgid "Value must be between 0 to 100."
+msgstr "Il valore deve essere compreso tra 0 e 100."
+
+#: admin/views/Themes.php:329 admin/views/Themes.php:1563
+#: admin/views/Themes.php:2027 admin/views/Themes.php:3011
+msgid "Full background color:"
+msgstr ""
+
+#: admin/views/Themes.php:335 admin/views/Themes.php:1569
+#: admin/views/Themes.php:2033 admin/views/Themes.php:3017
+msgid "Full background transparency:"
+msgstr ""
+
+#: admin/views/Themes.php:342 admin/views/Themes.php:651
+#: admin/views/Themes.php:971 admin/views/Themes.php:1619
+#: admin/views/Themes.php:2040 admin/views/Themes.php:3024
+#: admin/views/Themes.php:3267 admin/views/Themes.php:4720
+msgid "Alignment:"
+msgstr ""
+
+#: admin/views/Themes.php:366 admin/views/Themes.php:1710
+#: admin/views/Themes.php:2064
+msgid "Title position:"
+msgstr ""
+
+#: admin/views/Themes.php:369 admin/views/Themes.php:1275
+#: admin/views/Themes.php:1713 admin/views/Themes.php:2067
+#: admin/views/Themes.php:3606 admin/views/Themes.php:3886
+#: admin/views/Themes.php:3974 admin/views/Themes.php:4042
+#: admin/views/Themes.php:4184 admin/views/Themes.php:4714
+msgid "Top"
+msgstr ""
+
+#: admin/views/Themes.php:371 admin/views/Themes.php:1277
+#: admin/views/Themes.php:1715 admin/views/Themes.php:2069
+#: admin/views/Themes.php:3608 admin/views/Themes.php:3888
+#: admin/views/Themes.php:3976 admin/views/Themes.php:4044
+#: admin/views/Themes.php:4186 admin/views/Themes.php:4716
+msgid "Bottom"
+msgstr ""
+
+#: admin/views/Themes.php:375 admin/views/Themes.php:671
+#: admin/views/Themes.php:995 admin/views/Themes.php:2073
+#: admin/views/Themes.php:2675 admin/views/Themes.php:3048
+#: admin/views/Themes.php:4306 admin/views/Themes.php:4985
+msgid "Title font size:"
+msgstr ""
+
+#: admin/views/Themes.php:381 admin/views/Themes.php:677
+#: admin/views/Themes.php:1001 admin/views/Themes.php:2079
+#: admin/views/Themes.php:2681 admin/views/Themes.php:3054
+#: admin/views/Themes.php:4264
+msgid "Title font color:"
+msgstr ""
+
+#: admin/views/Themes.php:387 admin/views/Themes.php:683
+#: admin/views/Themes.php:1007 admin/views/Themes.php:2085
+#: admin/views/Themes.php:3060
+msgid "Title font color (Show on hover):"
+msgstr ""
+
+#: admin/views/Themes.php:393 admin/views/Themes.php:689
+#: admin/views/Themes.php:1013 admin/views/Themes.php:1459
+#: admin/views/Themes.php:2091 admin/views/Themes.php:2687
+#: admin/views/Themes.php:3066 admin/views/Themes.php:4270
+msgid "Title font family:"
+msgstr ""
+
+#: admin/views/Themes.php:415 admin/views/Themes.php:711
+#: admin/views/Themes.php:1035 admin/views/Themes.php:2113
+#: admin/views/Themes.php:2709 admin/views/Themes.php:3088
+#: admin/views/Themes.php:4292 admin/views/Themes.php:4997
+msgid "Title font weight:"
+msgstr ""
+
+#: admin/views/Themes.php:429 admin/views/Themes.php:1049
+#: admin/views/Themes.php:2127 admin/views/Themes.php:3102
+msgid "Title box shadow:"
+msgstr ""
+
+#: admin/views/Themes.php:436 admin/views/Themes.php:725
+#: admin/views/Themes.php:1056 admin/views/Themes.php:2134
+#: admin/views/Themes.php:2636 admin/views/Themes.php:4951
+msgid "Title margin:"
+msgstr ""
+
+#: admin/views/Themes.php:443 admin/views/Themes.php:766
+#: admin/views/Themes.php:1063 admin/views/Themes.php:1820
+#: admin/views/Themes.php:2196 admin/views/Themes.php:2816
+#: admin/views/Themes.php:3164 admin/views/Themes.php:3468
+msgid "Gallery title/description font size:"
+msgstr ""
+
+#: admin/views/Themes.php:450 admin/views/Themes.php:772
+#: admin/views/Themes.php:1069 admin/views/Themes.php:1827
+#: admin/views/Themes.php:2202 admin/views/Themes.php:2822
+#: admin/views/Themes.php:3170 admin/views/Themes.php:3475
+msgid "Gallery title/description font color:"
+msgstr ""
+
+#: admin/views/Themes.php:456 admin/views/Themes.php:778
+#: admin/views/Themes.php:1075 admin/views/Themes.php:1833
+#: admin/views/Themes.php:2208 admin/views/Themes.php:2828
+#: admin/views/Themes.php:3176 admin/views/Themes.php:3481
+msgid "Gallery title/description font family:"
+msgstr ""
+
+#: admin/views/Themes.php:478 admin/views/Themes.php:800
+#: admin/views/Themes.php:1097 admin/views/Themes.php:1855
+#: admin/views/Themes.php:2230 admin/views/Themes.php:2850
+#: admin/views/Themes.php:3198 admin/views/Themes.php:3503
+msgid "Gallery title/description font weight:"
+msgstr ""
+
+#: admin/views/Themes.php:492 admin/views/Themes.php:814
+#: admin/views/Themes.php:1111 admin/views/Themes.php:1869
+#: admin/views/Themes.php:2244 admin/views/Themes.php:2864
+#: admin/views/Themes.php:3212 admin/views/Themes.php:3517
+msgid "Gallery title/description box shadow:"
+msgstr ""
+
+#: admin/views/Themes.php:499 admin/views/Themes.php:821
+#: admin/views/Themes.php:1118 admin/views/Themes.php:1876
+#: admin/views/Themes.php:2251 admin/views/Themes.php:2871
+#: admin/views/Themes.php:3219 admin/views/Themes.php:3524
+msgid "Gallery title/description margin:"
+msgstr ""
+
+#: admin/views/Themes.php:506 admin/views/Themes.php:828
+#: admin/views/Themes.php:1125 admin/views/Themes.php:1883
+#: admin/views/Themes.php:2258 admin/views/Themes.php:2878
+#: admin/views/Themes.php:3226 admin/views/Themes.php:3531
+msgid "Gallery title/description alignment:"
+msgstr ""
+
+#: admin/views/Themes.php:600 admin/views/Themes.php:922
+#: admin/views/Themes.php:1991 admin/views/Themes.php:2385
+#: admin/views/Themes.php:2973
+msgid "E.g. Rotate: 10deg, Scale: 1.5, Skew: 10deg."
+msgstr ""
+
+#: admin/views/Themes.php:631 admin/views/Themes.php:951
+msgid "Transparency:"
+msgstr ""
+
+#: admin/views/Themes.php:638 admin/views/Themes.php:958
+msgid "Full Background color:"
+msgstr ""
+
+#: admin/views/Themes.php:644 admin/views/Themes.php:964
+#: admin/views/Themes.php:1686 admin/views/Themes.php:2485
+#: admin/views/Themes.php:3260
+msgid "Background transparency:"
+msgstr ""
+
+#: admin/views/Themes.php:732 admin/views/Themes.php:1508
+#: admin/views/Themes.php:2756 admin/views/Themes.php:4355
+msgid "Description font size:"
+msgstr ""
+
+#: admin/views/Themes.php:738 admin/views/Themes.php:2762
+#: admin/views/Themes.php:4313
+msgid "Description font color:"
+msgstr ""
+
+#: admin/views/Themes.php:744 admin/views/Themes.php:1520
+#: admin/views/Themes.php:2768 admin/views/Themes.php:4319
+msgid "Description font family:"
+msgstr ""
+
+#: admin/views/Themes.php:945 admin/views/Themes.php:1153
+#: admin/views/Themes.php:1680 admin/views/Themes.php:2479
+#: admin/views/Themes.php:3254 admin/views/Themes.php:4767
+msgid "Background color:"
+msgstr ""
+
+#: admin/views/Themes.php:1159 admin/views/Themes.php:3832
+#: admin/views/Themes.php:4780
+msgid "Right, left buttons size:"
+msgstr ""
+
+#: admin/views/Themes.php:1165 admin/views/Themes.php:4786
+msgid "Play, pause buttons size:"
+msgstr ""
+
+#: admin/views/Themes.php:1171 admin/views/Themes.php:3402
+#: admin/views/Themes.php:4792
+msgid "Buttons color:"
+msgstr ""
+
+#: admin/views/Themes.php:1177 admin/views/Themes.php:4798
+msgid "Buttons transparency:"
+msgstr ""
+
+#: admin/views/Themes.php:1184 admin/views/Themes.php:4805
+msgid "Buttons hover color:"
+msgstr ""
+
+#: admin/views/Themes.php:1190 admin/views/Themes.php:3826
+#: admin/views/Themes.php:4811
+msgid "Right, left buttons width:"
+msgstr ""
+
+#: admin/views/Themes.php:1196 admin/views/Themes.php:3820
+#: admin/views/Themes.php:4817
+msgid "Right, left buttons height:"
+msgstr ""
+
+#: admin/views/Themes.php:1202 admin/views/Themes.php:3801
+#: admin/views/Themes.php:4823
+msgid "Right, left buttons background color:"
+msgstr ""
+
+#: admin/views/Themes.php:1208 admin/views/Themes.php:3857
+#: admin/views/Themes.php:4829
+msgid "Right, left buttons border width:"
+msgstr ""
+
+#: admin/views/Themes.php:1214 admin/views/Themes.php:3863
+#: admin/views/Themes.php:4835
+msgid "Right, left buttons border style:"
+msgstr ""
+
+#: admin/views/Themes.php:1228 admin/views/Themes.php:3877
+#: admin/views/Themes.php:4849
+msgid "Right, left buttons border color:"
+msgstr ""
+
+#: admin/views/Themes.php:1234 admin/views/Themes.php:3850
+#: admin/views/Themes.php:4855
+msgid "Right, left buttons border radius:"
+msgstr ""
+
+#: admin/views/Themes.php:1241 admin/views/Themes.php:3787
+#: admin/views/Themes.php:4862
+msgid "Right, left buttons style:"
+msgstr ""
+
+#: admin/views/Themes.php:1255 admin/views/Themes.php:3813
+msgid "Right, left buttons box shadow:"
+msgstr ""
+
+#: admin/views/Themes.php:1272
+msgid "Filmstrip/Slider bullet position:"
+msgstr ""
+
+#: admin/views/Themes.php:1283
+msgid "Filmstrip margin:"
+msgstr ""
+
+#: admin/views/Themes.php:1290
+msgid "Filmstrip border width:"
+msgstr ""
+
+#: admin/views/Themes.php:1296
+msgid "Filmstrip border style:"
+msgstr ""
+
+#: admin/views/Themes.php:1311
+msgid "Filmstrip border color:"
+msgstr ""
+
+#: admin/views/Themes.php:1317
+msgid "Filmstrip border radius:"
+msgstr ""
+
+#: admin/views/Themes.php:1324
+msgid "Filmstrip active border width:"
+msgstr ""
+
+#: admin/views/Themes.php:1330
+msgid "Filmstrip active border color:"
+msgstr ""
+
+#: admin/views/Themes.php:1336
+msgid "Filmstrip deactive transparency: "
+msgstr ""
+
+#: admin/views/Themes.php:1343
+msgid "Filmstrip right, left buttons background color: "
+msgstr ""
+
+#: admin/views/Themes.php:1349 admin/views/Themes.php:3959
+msgid "Filmstrip right, left buttons color:"
+msgstr ""
+
+#: admin/views/Themes.php:1355 admin/views/Themes.php:3953
+msgid "Filmstrip right, left buttons size:"
+msgstr ""
+
+#: admin/views/Themes.php:1361
+msgid "Slider bullet width: "
+msgstr ""
+
+#: admin/views/Themes.php:1367
+msgid "Slider bullet height:"
+msgstr ""
+
+#: admin/views/Themes.php:1373
+msgid "Slider bullet border radius: "
+msgstr ""
+
+#: admin/views/Themes.php:1380
+msgid "Slider bullet background color:"
+msgstr ""
+
+#: admin/views/Themes.php:1386
+msgid "Slider bullet margin:"
+msgstr ""
+
+#: admin/views/Themes.php:1392
+msgid "Slider bullet active background color: "
+msgstr ""
+
+#: admin/views/Themes.php:1398
+msgid "Slider bullet active border width:"
+msgstr ""
+
+#: admin/views/Themes.php:1404
+msgid "Slider bullet active border color: "
+msgstr ""
+
+#: admin/views/Themes.php:1420
+msgid "Title background color: "
+msgstr ""
+
+#: admin/views/Themes.php:1426
+msgid "Title transparency: "
+msgstr ""
+
+#: admin/views/Themes.php:1433 admin/views/Themes.php:4944
+msgid "Title border radius:"
+msgstr ""
+
+#: admin/views/Themes.php:1440
+msgid "Title padding: "
+msgstr ""
+
+#: admin/views/Themes.php:1447
+msgid "Title font size: "
+msgstr ""
+
+#: admin/views/Themes.php:1453
+msgid "Title color: "
+msgstr ""
+
+#: admin/views/Themes.php:1481 admin/views/Themes.php:1814
+msgid "Description background color:"
+msgstr ""
+
+#: admin/views/Themes.php:1487
+msgid "Description transparency:"
+msgstr ""
+
+#: admin/views/Themes.php:1494 admin/views/Themes.php:1807
+msgid "Description border radius:"
+msgstr ""
+
+#: admin/views/Themes.php:1501 admin/views/Themes.php:1774
+#: admin/views/Themes.php:2723
+msgid "Description padding:"
+msgstr ""
+
+#: admin/views/Themes.php:1514
+msgid "Description color:"
+msgstr ""
+
+#: admin/views/Themes.php:1556
+msgid "Full padding:"
+msgstr ""
+
+#: admin/views/Themes.php:1576
+msgid "Full border radius:"
+msgstr ""
+
+#: admin/views/Themes.php:1583
+msgid "Full border width:"
+msgstr ""
+
+#: admin/views/Themes.php:1589
+msgid "Full border style:"
+msgstr ""
+
+#: admin/views/Themes.php:1603
+msgid "Full border color:"
+msgstr ""
+
+#: admin/views/Themes.php:1633 admin/views/Themes.php:2466
+#: admin/views/Themes.php:3281 admin/views/Themes.php:4658
+msgid "Margin:"
+msgstr ""
+
+#: admin/views/Themes.php:1693 admin/views/Themes.php:3295
+#: admin/views/Themes.php:4694
+msgid "Box shadow:"
+msgstr ""
+
+#: admin/views/Themes.php:1719
+msgid "Title alignment:"
+msgstr "Titolo di allineamento"
+
+#: admin/views/Themes.php:1733 admin/views/Themes.php:3334
+#: admin/views/Themes.php:4567
+msgid "Font size:"
+msgstr ""
+
+#: admin/views/Themes.php:1739 admin/views/Themes.php:3340
+#: admin/views/Themes.php:4573
+msgid "Font color:"
+msgstr ""
+
+#: admin/views/Themes.php:1745 admin/views/Themes.php:3312
+#: admin/views/Themes.php:4579
+msgid "Font family:"
+msgstr ""
+
+#: admin/views/Themes.php:1767
+msgid "Description margin:"
+msgstr ""
+
+#: admin/views/Themes.php:1781 admin/views/Themes.php:2730
+msgid "Description border width:"
+msgstr ""
+
+#: admin/views/Themes.php:1787 admin/views/Themes.php:2736
+msgid "Description border style:"
+msgstr ""
+
+#: admin/views/Themes.php:1801 admin/views/Themes.php:2750
+msgid "Description border color:"
+msgstr ""
+
+#: admin/views/Themes.php:1995 admin/views/Themes.php:2338
+#: admin/views/Themes.php:2977
+msgid "Thumbnail transition:"
+msgstr ""
+
+#: admin/views/Themes.php:2141 admin/views/Themes.php:3109
+msgid "Back Font size:"
+msgstr ""
+
+#: admin/views/Themes.php:2147 admin/views/Themes.php:3115
+#, fuzzy
+#| msgid "Share on Facebook"
+msgid "Back Font color:"
+msgstr "Condividi su Facebook."
+
+#: admin/views/Themes.php:2153 admin/views/Themes.php:3121
+msgid "Back Font family:"
+msgstr ""
+
+#: admin/views/Themes.php:2175 admin/views/Themes.php:3143
+msgid "Back Font weight:"
+msgstr ""
+
+#: admin/views/Themes.php:2189 admin/views/Themes.php:2525
+#: admin/views/Themes.php:3157
+msgid "Back padding:"
+msgstr ""
+
+#: admin/views/Themes.php:2286
+msgid "Thumbnail margin:"
+msgstr ""
+
+#: admin/views/Themes.php:2292
+msgid "Thumbnail padding:"
+msgstr ""
+
+#: admin/views/Themes.php:2298
+msgid "Thumbnail border width:"
+msgstr ""
+
+#: admin/views/Themes.php:2304
+msgid "Thumbnail border style:"
+msgstr ""
+
+#: admin/views/Themes.php:2318
+msgid "Thumbnail border color:"
+msgstr ""
+
+#: admin/views/Themes.php:2324
+msgid "Thumbnail border radius:"
+msgstr ""
+
+#: admin/views/Themes.php:2331
+msgid "Thumbnail box shadow:"
+msgstr ""
+
+#: admin/views/Themes.php:2347
+msgid "Thumbnail alignment:"
+msgstr ""
+
+#: admin/views/Themes.php:2368
+msgid "Thumbnail hover effect:"
+msgstr ""
+
+#: admin/views/Themes.php:2395
+msgid "Thumbnails background color:"
+msgstr ""
+
+#: admin/views/Themes.php:2401
+msgid "Thumbnail background transparency:"
+msgstr ""
+
+#: admin/views/Themes.php:2419
+msgid "Thumbnail div padding:"
+msgstr ""
+
+#: admin/views/Themes.php:2426
+msgid "Thumbnail div background color:"
+msgstr ""
+
+#: admin/views/Themes.php:2432
+msgid "Thumbnail div border width:"
+msgstr ""
+
+#: admin/views/Themes.php:2439
+msgid "humbnail div border style:"
+msgstr ""
+
+#: admin/views/Themes.php:2453
+msgid "Thumbnail div border color:"
+msgstr ""
+
+#: admin/views/Themes.php:2459
+msgid "Thumbnail div border radius:"
+msgstr ""
+
+#: admin/views/Themes.php:2499
+msgid "Separator width:"
+msgstr ""
+
+#: admin/views/Themes.php:2505
+msgid "Separator style:"
+msgstr ""
+
+#: admin/views/Themes.php:2519
+msgid "Separator color:"
+msgstr ""
+
+#: admin/views/Themes.php:2532
+msgid "Back font size:"
+msgstr ""
+
+#: admin/views/Themes.php:2538
+msgid "Back font color:"
+msgstr ""
+
+#: admin/views/Themes.php:2544
+msgid "Back font family:"
+msgstr ""
+
+#: admin/views/Themes.php:2566
+msgid "Back font weight:"
+msgstr ""
+
+#: admin/views/Themes.php:2590
+msgid "Text div padding:"
+msgstr ""
+
+#: admin/views/Themes.php:2597
+msgid "Text div border width:"
+msgstr ""
+
+#: admin/views/Themes.php:2603
+msgid "Text border style:"
+msgstr ""
+
+#: admin/views/Themes.php:2617
+msgid "Text border color:"
+msgstr ""
+
+#: admin/views/Themes.php:2623
+msgid "Text div border radius:"
+msgstr ""
+
+#: admin/views/Themes.php:2630
+msgid "Text background color:"
+msgstr ""
+
+#: admin/views/Themes.php:2642 admin/views/Themes.php:4957
+msgid "Title padding:"
+msgstr ""
+
+#: admin/views/Themes.php:2649
+msgid "Title border width:"
+msgstr ""
+
+#: admin/views/Themes.php:2655
+msgid "Title border style:"
+msgstr ""
+
+#: admin/views/Themes.php:2669
+msgid "Title border color:"
+msgstr ""
+
+#: admin/views/Themes.php:2790 admin/views/Themes.php:4341
+msgid "Description font weight:"
+msgstr ""
+
+#: admin/views/Themes.php:2804
+msgid "Description more size:"
+msgstr ""
+
+#: admin/views/Themes.php:2810
+msgid "Description more color:"
+msgstr ""
+
+#: admin/views/Themes.php:3389
+msgid "Buttons and title margin:"
+msgstr ""
+
+#: admin/views/Themes.php:3396
+msgid "Buttons size:"
+msgstr ""
+
+#: admin/views/Themes.php:3408
+msgid "Buttons and title border width:"
+msgstr ""
+
+#: admin/views/Themes.php:3414
+msgid "Buttons and title border style:"
+msgstr ""
+
+#: admin/views/Themes.php:3428
+msgid "Buttons and title border color:"
+msgstr ""
+
+#: admin/views/Themes.php:3434
+msgid "Buttons and title border radius:"
+msgstr ""
+
+#: admin/views/Themes.php:3441
+msgid "Buttons and title background color:"
+msgstr ""
+
+#: admin/views/Themes.php:3447
+msgid "Buttons and title background transparency:"
+msgstr ""
+
+#: admin/views/Themes.php:3454
+msgid "Buttons or title alignment:"
+msgstr ""
+
+#: admin/views/Themes.php:3559
+msgid "Overlay background color:"
+msgstr ""
+
+#: admin/views/Themes.php:3565
+msgid "Overlay background transparency:"
+msgstr ""
+
+#: admin/views/Themes.php:3572
+msgid "Lightbox background color:"
+msgstr ""
+
+#: admin/views/Themes.php:3578
+msgid "Lightbox background transparency:"
+msgstr ""
+
+#: admin/views/Themes.php:3585
+msgid "Control buttons height:"
+msgstr ""
+
+#: admin/views/Themes.php:3591
+msgid "Control buttons margin (top):"
+msgstr ""
+
+#: admin/views/Themes.php:3597
+msgid "Control buttons margin (left):"
+msgstr ""
+
+#: admin/views/Themes.php:3603
+msgid "Control buttons position:"
+msgstr ""
+
+#: admin/views/Themes.php:3612
+msgid "Control buttons background color:"
+msgstr ""
+
+#: admin/views/Themes.php:3618
+msgid "Control buttons container border radius:"
+msgstr ""
+
+#: admin/views/Themes.php:3625
+msgid "Control buttons container background transparency:"
+msgstr ""
+
+#: admin/views/Themes.php:3632
+msgid "Control buttons alignment:"
+msgstr ""
+
+#: admin/views/Themes.php:3646
+msgid "Control buttons color:"
+msgstr ""
+
+#: admin/views/Themes.php:3652
+msgid "Control buttons transparency:"
+msgstr ""
+
+#: admin/views/Themes.php:3659
+msgid "Toggle button height:"
+msgstr ""
+
+#: admin/views/Themes.php:3665
+msgid "Toggle button width:"
+msgstr ""
+
+#: admin/views/Themes.php:3671
+msgid "Close button border radius:"
+msgstr ""
+
+#: admin/views/Themes.php:3679
+msgid "Close button border width:"
+msgstr ""
+
+#: admin/views/Themes.php:3685
+msgid "Close button border style:"
+msgstr ""
+
+#: admin/views/Themes.php:3699
+msgid "Close button border color:"
+msgstr ""
+
+#: admin/views/Themes.php:3705
+msgid "Close button box shadow:"
+msgstr ""
+
+#: admin/views/Themes.php:3712
+msgid "Close button background color:"
+msgstr ""
+
+#: admin/views/Themes.php:3715 admin/views/Themes.php:3728
+#: admin/views/Themes.php:3735 admin/views/Themes.php:3742
+#: admin/views/Themes.php:3749
+msgid "The option does not apply to Full-width lightbox."
+msgstr ""
+
+#: admin/views/Themes.php:3719
+msgid "Close button transparency:"
+msgstr ""
+
+#: admin/views/Themes.php:3725
+msgid "Close button width:"
+msgstr ""
+
+#: admin/views/Themes.php:3732
+msgid "Close button height:"
+msgstr ""
+
+#: admin/views/Themes.php:3739
+msgid "Close button top:"
+msgstr ""
+
+#: admin/views/Themes.php:3746
+msgid "Close button right:"
+msgstr ""
+
+#: admin/views/Themes.php:3753
+msgid "Close button size:"
+msgstr ""
+
+#: admin/views/Themes.php:3759
+msgid "Close button color:"
+msgstr ""
+
+#: admin/views/Themes.php:3765
+msgid "Fullscreen close button color:"
+msgstr ""
+
+#: admin/views/Themes.php:3771
+#, fuzzy
+#| msgid "Share on Facebook"
+msgid "Share buttons color:"
+msgstr "Condividi su Facebook."
+
+#: admin/views/Themes.php:3807
+msgid "Right, left buttons transparency:"
+msgstr ""
+
+#: admin/views/Themes.php:3838
+msgid "Right, left, close buttons hover color:"
+msgstr ""
+
+#: admin/views/Themes.php:3844
+msgid "Right, left buttons color:"
+msgstr ""
+
+#: admin/views/Themes.php:3883
+msgid "Filmstrip position:"
+msgstr ""
+
+#: admin/views/Themes.php:3894
+msgid "Filmstrip thumbnail margin:"
+msgstr ""
+
+#: admin/views/Themes.php:3901
+msgid "Filmstrip thumbnail border width:"
+msgstr ""
+
+#: admin/views/Themes.php:3907
+msgid "Filmstrip thumbnail border style:"
+msgstr ""
+
+#: admin/views/Themes.php:3921
+msgid "Filmstrip thumbnail border color:"
+msgstr ""
+
+#: admin/views/Themes.php:3927
+msgid "Filmstrip thumbnail border radius:"
+msgstr ""
+
+#: admin/views/Themes.php:3934
+msgid "Filmstrip thumbnail active border width:"
+msgstr ""
+
+#: admin/views/Themes.php:3940
+msgid "Filmstrip thumbnail active border color:"
+msgstr ""
+
+#: admin/views/Themes.php:3946
+msgid "Filmstrip thumbnail deactive transparency:"
+msgstr ""
+
+#: admin/views/Themes.php:3965
+msgid "Filmstrip right, left button background color:"
+msgstr ""
+
+#: admin/views/Themes.php:3971
+msgid "Rating position:"
+msgstr ""
+
+#: admin/views/Themes.php:3980
+msgid "Rating alignment:"
+msgstr ""
+
+#: admin/views/Themes.php:3994
+msgid "Rating icon:"
+msgstr ""
+
+#: admin/views/Themes.php:4008
+msgid "Rating color:"
+msgstr ""
+
+#: admin/views/Themes.php:4014
+msgid "Rating hover color:"
+msgstr ""
+
+#: admin/views/Themes.php:4020
+msgid "Rating size:"
+msgstr ""
+
+#: admin/views/Themes.php:4026
+msgid "Rating icon count:"
+msgstr ""
+
+#: admin/views/Themes.php:4032
+msgid "Rating padding:"
+msgstr ""
+
+#: admin/views/Themes.php:4039
+msgid "Hit counter position:"
+msgstr ""
+
+#: admin/views/Themes.php:4048
+msgid "Hit counter alignment:"
+msgstr ""
+
+#: admin/views/Themes.php:4062
+msgid "Hit counter background color:"
+msgstr ""
+
+#: admin/views/Themes.php:4068
+msgid "Hit counter background transparency:"
+msgstr ""
+
+#: admin/views/Themes.php:4075
+msgid "Hit counter border width:"
+msgstr ""
+
+#: admin/views/Themes.php:4081
+msgid "Hit counter border style:"
+msgstr ""
+
+#: admin/views/Themes.php:4095
+msgid "Hit counter border color:"
+msgstr ""
+
+#: admin/views/Themes.php:4101
+msgid "Hit counter border radius:"
+msgstr ""
+
+#: admin/views/Themes.php:4108
+msgid "Hit counter padding:"
+msgstr ""
+
+#: admin/views/Themes.php:4115
+msgid "Hit counter margin:"
+msgstr ""
+
+#: admin/views/Themes.php:4122
+msgid "Hit counter font color:"
+msgstr ""
+
+#: admin/views/Themes.php:4128
+msgid "Hit counter font family:"
+msgstr ""
+
+#: admin/views/Themes.php:4150
+msgid "Hit counter font weight:"
+msgstr ""
+
+#: admin/views/Themes.php:4164
+msgid "Hit counter font size:"
+msgstr ""
+
+#: admin/views/Themes.php:4181
+msgid "Info position:"
+msgstr ""
+
+#: admin/views/Themes.php:4190
+msgid "Info alignment:"
+msgstr ""
+
+#: admin/views/Themes.php:4204
+msgid "Info background color:"
+msgstr ""
+
+#: admin/views/Themes.php:4210
+msgid "Info background transparency:"
+msgstr ""
+
+#: admin/views/Themes.php:4217
+msgid "Info border width:"
+msgstr ""
+
+#: admin/views/Themes.php:4223
+msgid "Info border style:"
+msgstr ""
+
+#: admin/views/Themes.php:4237
+msgid "Info border color:"
+msgstr ""
+
+#: admin/views/Themes.php:4243
+msgid "Info border radius:"
+msgstr ""
+
+#: admin/views/Themes.php:4250
+msgid "Info padding:"
+msgstr ""
+
+#: admin/views/Themes.php:4257
+msgid "Info margin:"
+msgstr ""
+
+#: admin/views/Themes.php:4362
+#, fuzzy
+#| msgid "Comment"
+msgid "Comments Width:"
+msgstr "Commento"
+
+#: admin/views/Themes.php:4368
+msgid "Comments position:"
+msgstr ""
+
+#: admin/views/Themes.php:4377
+msgid "Comments background color:"
+msgstr ""
+
+#: admin/views/Themes.php:4383
+msgid "Comments font size:"
+msgstr ""
+
+#: admin/views/Themes.php:4389
+msgid "Comments font color:"
+msgstr ""
+
+#: admin/views/Themes.php:4395
+msgid "Comments font family:"
+msgstr ""
+
+#: admin/views/Themes.php:4417
+msgid "Comments author font size:"
+msgstr ""
+
+#: admin/views/Themes.php:4424
+msgid "Comments date font size:"
+msgstr ""
+
+#: admin/views/Themes.php:4430
+msgid "Comments body font size:"
+msgstr ""
+
+#: admin/views/Themes.php:4436
+msgid "Comment input border width:"
+msgstr ""
+
+#: admin/views/Themes.php:4442
+msgid "omment input border style:"
+msgstr ""
+
+#: admin/views/Themes.php:4456
+msgid "Comment input border color:"
+msgstr ""
+
+#: admin/views/Themes.php:4462
+msgid "Comment input border radius:"
+msgstr ""
+
+#: admin/views/Themes.php:4468
+msgid "Comment input padding:"
+msgstr ""
+
+#: admin/views/Themes.php:4475
+msgid "Comment input background color:"
+msgstr ""
+
+#: admin/views/Themes.php:4481
+msgid "Comment button background color:"
+msgstr ""
+
+#: admin/views/Themes.php:4487
+msgid "Comment button padding:"
+msgstr ""
+
+#: admin/views/Themes.php:4494
+msgid "Comment button border width:"
+msgstr ""
+
+#: admin/views/Themes.php:4500
+msgid "Comment button border style:"
+msgstr ""
+
+#: admin/views/Themes.php:4514
+msgid "Comment button border color:"
+msgstr ""
+
+#: admin/views/Themes.php:4520
+msgid "omment button border radius:"
+msgstr ""
+
+#: admin/views/Themes.php:4527
+msgid "Comment separator width:"
+msgstr ""
+
+#: admin/views/Themes.php:4533
+msgid "Comment separator style:"
+msgstr ""
+
+#: admin/views/Themes.php:4547
+msgid "Comment separator color:"
+msgstr ""
+
+#: admin/views/Themes.php:4601
+msgid "Font weight:"
+msgstr ""
+
+#: admin/views/Themes.php:4672
+msgid "Button background color:"
+msgstr ""
+
+#: admin/views/Themes.php:4678
+msgid "Button background transparency:"
+msgstr ""
+
+#: admin/views/Themes.php:4685
+msgid "Button transition:"
+msgstr ""
+
+#: admin/views/Themes.php:4711
+msgid "Position:"
+msgstr ""
+
+#: admin/views/Themes.php:4734
+msgid "Numbering:"
+msgstr ""
+
+#: admin/views/Themes.php:4743
+msgid "Button text:"
+msgstr ""
+
+#: admin/views/Themes.php:4748
+msgid "Arrow"
+msgstr ""
+
+#: admin/views/Themes.php:4749
+msgid "Next, previous buttons values."
+msgstr ""
+
+#: admin/views/Themes.php:4773
+msgid "Container opacity:"
+msgstr ""
+
+#: admin/views/Themes.php:4886
+msgid "Carousel margin:"
+msgstr ""
+
+#: admin/views/Themes.php:4892
+msgid "Image border width:"
+msgstr ""
+
+#: admin/views/Themes.php:4899
+msgid "Image border style:"
+msgstr ""
+
+#: admin/views/Themes.php:4914
+msgid "Image border color:"
+msgstr ""
+
+#: admin/views/Themes.php:4930
+msgid "Title background color:"
+msgstr ""
+
+#: admin/views/Themes.php:4937
+msgid "Title opacity:"
+msgstr ""
+
+#: admin/views/Themes.php:4964
+msgid "Title Font family:"
+msgstr ""
+
+#: admin/views/Themes.php:4991
+msgid "Title color:"
+msgstr ""
+
+#: admin/views/Uninstall.php:41
+#, php-format
+msgid ""
+"%s to Finish the Uninstallation and %s will be Deactivated Automatically."
+msgstr ""
+
+#: admin/views/Uninstall.php:41
+msgid "Click Here"
+msgstr ""
+
+#: admin/views/Uninstall.php:50
+msgid "support team"
+msgstr ""
+
+#: admin/views/Uninstall.php:51
+msgid "Contact us"
+msgstr ""
+
+#: admin/views/Uninstall.php:52
+#, php-format
+msgid ""
+"Before uninstalling the plugin, please Contact our %s. We'll do our best to "
+"help you out with your issue. We value each and every user and value what's "
+"right for our users in everything we do.<br />\n"
+"      However, if anyway you have made a decision to uninstall the plugin, "
+"please take a minute to %s and tell what you didn't like for our plugins "
+"further improvement and development. Thank you !!!"
+msgstr ""
+
+#: admin/views/Uninstall.php:56
+#, php-format
+msgid ""
+"Deactivating %s plugin does not remove any data that may have been created. "
+"To completely remove this plugin, you can uninstall it here."
+msgstr ""
+
+#: admin/views/Uninstall.php:59
+msgid "WARNING:"
+msgstr ""
+
+#: admin/views/Uninstall.php:60
+msgid ""
+"Once uninstalled, this can't be undone. You should use a Database Backup "
+"plugin of WordPress to back up all the data first."
+msgstr ""
+
+#: admin/views/Uninstall.php:63
+msgid "The following Database Tables will be deleted:"
+msgstr ""
+
+#: admin/views/Uninstall.php:68
+msgid "Database Tables"
+msgstr ""
+
+#: admin/views/Uninstall.php:86
+msgid "Delete the folder containing uploaded images."
+msgstr ""
+
+#: admin/views/Uninstall.php:92
+#, php-format
+msgid "Do you really want to uninstall %s?"
+msgstr ""
+
+#: admin/views/Uninstall.php:102
+msgid "UNINSTALL"
+msgstr ""
+
+#: admin/views/Uninstall.php:104
+#, php-format
+msgid ""
+"You are About to Uninstall %s from WordPress. This Action Is Not Reversible."
+msgstr ""
+
+#: admin/views/Widget.php:96 photo-gallery.php:87
+msgid "Photo Gallery"
+msgstr ""
+
+#: admin/views/Widget.php:113 admin/views/WidgetSlideshow.php:82
+#: admin/views/WidgetTags.php:78
+msgid "Title:"
+msgstr ""
+
+#: admin/views/Widget.php:117 admin/views/WidgetTags.php:82
+msgid "Type:"
+msgstr ""
+
+#: admin/views/Widget.php:119
+msgid "Gallery groups"
+msgstr ""
+
+#: admin/views/Widget.php:122 admin/views/WidgetSlideshow.php:86
+msgid "Galleries:"
+msgstr "Gallerie"
+
+#: admin/views/Widget.php:135
+#, fuzzy
+#| msgid "Gallery is empty."
+msgid "Gallery Type:"
+msgstr "La galleria è vuota."
+
+#: admin/views/Widget.php:143
+msgid "Gallery Groups:"
+msgstr ""
+
+#: admin/views/Widget.php:145
+msgid "All Galleries"
+msgstr ""
+
+#: admin/views/Widget.php:156
+msgid "Sort:"
+msgstr ""
+
+#: admin/views/Widget.php:158 frontend/views/view.php:593
+msgid "First"
+msgstr "Primo"
+
+#: admin/views/Widget.php:159 frontend/views/view.php:596
+msgid "Last"
+msgstr "Ultimo"
+
+#: admin/views/Widget.php:163
+msgid "Count:"
+msgstr "Contare"
+
+#: admin/views/Widget.php:167 admin/views/WidgetSlideshow.php:131
+#: admin/views/WidgetTags.php:105
+msgid "Dimensions:"
+msgstr "Dimensioni"
+
+#: admin/views/Widget.php:172 admin/views/WidgetSlideshow.php:147
+#: admin/views/WidgetTags.php:124
+msgid "Themes:"
+msgstr ""
+
+#: admin/views/WidgetSlideshow.php:67 photo-gallery.php:1562
+msgid "Photo Gallery Slideshow"
+msgstr ""
+
+#: admin/views/WidgetSlideshow.php:88
+msgid "Select"
+msgstr ""
+
+#: admin/views/WidgetSlideshow.php:99
+msgid "Slideshow effect:"
+msgstr ""
+
+#: admin/views/WidgetSlideshow.php:113
+msgid "Enable shuffle:"
+msgstr ""
+
+#: admin/views/WidgetSlideshow.php:119
+msgid "Enable autoplay:"
+msgstr ""
+
+#: admin/views/WidgetSlideshow.php:125
+msgid "Enable control buttons:"
+msgstr ""
+
+#: admin/views/WidgetSlideshow.php:136
+msgid "Filmstrip height:"
+msgstr ""
+
+#: admin/views/WidgetSlideshow.php:143
+msgid "Time interval:"
+msgstr ""
+
+#: admin/views/WidgetTags.php:63 photo-gallery.php:1558
+msgid "Photo Gallery Tags Cloud"
+msgstr ""
+
+#: admin/views/WidgetTags.php:88
+msgid "Show Tag Names:"
+msgstr ""
+
+#: admin/views/WidgetTags.php:94
+msgid "Open in:"
+msgstr ""
+
+#: admin/views/WidgetTags.php:95
+msgid "Page"
+msgstr ""
+
+#: admin/views/WidgetTags.php:100
+msgid "Number:"
+msgstr ""
+
+#: admin/views/WidgetTags.php:102
+msgid "0 for all."
+msgstr ""
+
+#: admin/views/WidgetTags.php:110
+msgid "Transparent Background:"
+msgstr ""
+
+#: admin/views/WidgetTags.php:116
+msgid "Background Color:"
+msgstr ""
+
+#: admin/views/WidgetTags.php:120
+msgid "Text Color:"
+msgstr ""
+
+#: filemanager/controller.php:61
+msgid "Directory already exists."
+msgstr ""
+
+#: filemanager/controller.php:108
+msgid "File doesn't exist."
+msgstr ""
+
+#: filemanager/controller.php:112 filemanager/controller.php:125
+#: filemanager/controller.php:145
+msgid "Can't rename the file."
+msgstr ""
+
+#: filemanager/controller.php:182
+msgid "Some of the files couldn't be removed."
+msgstr ""
+
+#: filemanager/controller.php:269
+msgid "Failed to copy some of the files."
+msgstr ""
+
+#: filemanager/controller.php:291
+msgid "Failed to move some of the files."
+msgstr ""
+
+#: filemanager/view.php:65
+msgid "File loading failed"
+msgstr ""
+
+#: filemanager/view.php:67
+msgid "Are you sure you want to permanently remove selected items?"
+msgstr ""
+
+#: filemanager/view.php:68
+msgid "This will cancel uploads. Continue?"
+msgstr ""
+
+#: filemanager/view.php:70
+msgid "Enter directory name"
+msgstr ""
+
+#: filemanager/view.php:71
+msgid "Enter new name"
+msgstr ""
+
+#: filemanager/view.php:72
+msgid "Processing uploaded files..."
+msgstr ""
+
+#: filemanager/view.php:106
+msgid "Up"
+msgstr ""
+
+#: filemanager/view.php:107
+msgid "Make a directory"
+msgstr ""
+
+#: filemanager/view.php:108
+msgid "Rename item"
+msgstr ""
+
+#: filemanager/view.php:110 framework/howto/data.php:144
+msgid "Copy"
+msgstr ""
+
+#: filemanager/view.php:111
+msgid "Cut"
+msgstr ""
+
+#: filemanager/view.php:112
+msgid "Paste"
+msgstr ""
+
+#: filemanager/view.php:113
+#, fuzzy
+#| msgid " item(s)"
+msgid "Remove items"
+msgstr " oggetti"
+
+#: filemanager/view.php:117
+msgid "View thumbs"
+msgstr ""
+
+#: filemanager/view.php:118
+msgid "View list"
+msgstr ""
+
+#: filemanager/view.php:122
+msgid "Upload files"
+msgstr ""
+
+#: filemanager/view.php:133
+msgid "To change upload directory go to Options page."
+msgstr ""
+
+#: filemanager/view.php:145
+msgid "Order by:"
+msgstr "Ordina per"
+
+#: filemanager/view.php:147
+msgid "Click to sort by name"
+msgstr ""
+
+#: filemanager/view.php:163
+msgid "Click to sort by size"
+msgstr ""
+
+#: filemanager/view.php:179
+msgid "Click to sort by date modified"
+msgstr ""
+
+#: filemanager/view.php:182
+msgid "Date modified"
+msgstr ""
+
+#: filemanager/view.php:272
+#, fuzzy
+#| msgid "There are no images in this gallery."
+msgid "Add selected images to gallery"
+msgstr "Non ci sono immagini in questa galleria."
+
+#: filemanager/view.php:287
+msgid "Thumbnail Max Dimensions:"
+msgstr ""
+
+#: filemanager/view.php:288
+msgid "Thumbnail:"
+msgstr ""
+
+#: filemanager/view.php:293 frontend/views/view.php:223
+msgid "Back"
+msgstr "Indietro"
+
+#: filemanager/view.php:296
+msgid "Image Max Dimensions:"
+msgstr ""
+
+#: filemanager/view.php:297
+msgid "Image:"
+msgstr ""
+
+#: filemanager/view.php:305
+msgid "Choose or Drag files here"
+msgstr ""
+
+#: filemanager/view.php:305
+msgid "to upload"
+msgstr ""
+
+#: filemanager/view.php:326
+msgid "No files to upload"
+msgstr ""
+
+#: filemanager/view.php:353
+msgid "Uploaded"
+msgstr ""
+
+#: filemanager/view.php:354
+msgid "Upload failed"
+msgstr ""
+
+#: filemanager/view.php:355
+msgid ""
+"There has been a problem while trying to upload the following images. Please "
+"try to upload them again."
+msgstr ""
+
+#: filemanager/view.php:356
+msgid "Allowed upload types JPG, JPEG, GIF, PNG."
+msgstr ""
+
+#: framework/WDWLibrary.php:61
+#, fuzzy
+#| msgid "Item Succesfully Saved."
+msgid "Item successfully saved."
+msgstr "Oggeto salvato"
+
+#: framework/WDWLibrary.php:67 framework/WDWLibrary.php:170
+msgid "Failed."
+msgstr ""
+
+#: framework/WDWLibrary.php:73
+#, fuzzy
+#| msgid "Item Succesfully Deleted."
+msgid "Item successfully deleted."
+msgstr "Oggetto rimosso."
+
+#: framework/WDWLibrary.php:79
+#, fuzzy
+#| msgid "You can't delete default theme"
+msgid "You can't delete default theme."
+msgstr "Non puoi cancellare il tema di default"
+
+#: framework/WDWLibrary.php:85
+#, fuzzy
+#| msgid "Items Succesfully Deleted."
+msgid "Items Successfully Deleted."
+msgstr "Oggetti cancellati."
+
+#: framework/WDWLibrary.php:91
+#, fuzzy
+#| msgid "You must select at least one item."
+msgid "You must set watermark type from Options page."
+msgstr "devi selezionare almeno un oggetto."
+
+#: framework/WDWLibrary.php:97
+msgid "The item is successfully set as default."
+msgstr "Oggetto impostato come default."
+
+#: framework/WDWLibrary.php:103
+#, fuzzy
+#| msgid "Options Succesfully Saved."
+msgid "Options successfully saved."
+msgstr "Opzioni salvate."
+
+#: framework/WDWLibrary.php:109
+#, fuzzy
+#| msgid "Item Succesfully Unpublished."
+msgid "Item successfully published."
+msgstr "Oggetto non più pubblicato."
+
+#: framework/WDWLibrary.php:115
+#, fuzzy
+#| msgid "Item Succesfully Unpublished."
+msgid "Item successfully unpublished."
+msgstr "Oggetto non più pubblicato."
+
+#: framework/WDWLibrary.php:121
+#, fuzzy
+#| msgid "Item Succesfully Published."
+msgid "Item successfully duplicated."
+msgstr "Oggetto pubblicato."
+
+#: framework/WDWLibrary.php:128
+msgid "Items Succesfully Unpublished."
+msgstr "Oggetti non pubblicati."
+
+#: framework/WDWLibrary.php:134
+msgid "Ordering Succesfully Saved."
+msgstr "Ordinamento salvato."
+
+#: framework/WDWLibrary.php:140
+msgid "A term with the name provided already exists."
+msgstr "C’è già un oggetto con questo nome."
+
+#: framework/WDWLibrary.php:146
+msgid "Name field is required."
+msgstr "Il nome è richiesto."
+
+#: framework/WDWLibrary.php:152
+msgid "The slug must be unique."
+msgstr "Lo slug deve essere unico."
+
+#: framework/WDWLibrary.php:158
+msgid "Changes must be saved."
+msgstr "Modifiche salvate."
+
+#: framework/WDWLibrary.php:164
+#, fuzzy
+#| msgid "Item Succesfully Saved."
+msgid "Theme successfully copied."
+msgstr "Oggeto salvato"
+
+#: framework/WDWLibrary.php:175
+#, fuzzy
+#| msgid "Items Succesfully Deleted."
+msgid "Items were reset successfully."
+msgstr "Oggetti cancellati."
+
+#: framework/WDWLibrary.php:180
+#, fuzzy
+#| msgid "Item Succesfully Deleted."
+msgid "Watermark successfully set."
+msgstr "Oggetto rimosso."
+
+#: framework/WDWLibrary.php:185
+#, fuzzy
+#| msgid "Item Succesfully Saved."
+msgid "Items successfully rotated."
+msgstr "Oggeto salvato"
+
+#: framework/WDWLibrary.php:190
+#, fuzzy
+#| msgid "Items Succesfully Deleted."
+msgid "Items successfully recreated."
+msgstr "Oggetti cancellati."
+
+#: framework/WDWLibrary.php:195
+#, fuzzy
+#| msgid "Items Succesfully Deleted."
+msgid "Items successfully resized."
+msgstr "Oggetti cancellati."
+
+#: framework/WDWLibrary.php:200
+#, fuzzy
+#| msgid "Items Succesfully Deleted."
+msgid "Items successfully edited."
+msgstr "Oggetti cancellati."
+
+#: framework/WDWLibrary.php:256
+msgid "Click to sort by this item"
+msgstr ""
+
+#: framework/WDWLibrary.php:438 framework/WDWLibrary.php:587
+msgid "item"
+msgstr "voce"
+
+#: framework/WDWLibrary.php:2163
+#, php-format
+msgid "No %s found."
+msgstr ""
+
+#: framework/WDWLibrary.php:2219
+#, fuzzy
+#| msgid "Gallery is empty."
+msgid "Gallery Tags"
+msgstr "La galleria è vuota."
+
+#: framework/WDWLibrary.php:2401
+msgid "resized"
+msgstr ""
+
+#: framework/WDWLibrary.php:2405
+msgid "Recreate thumbnail"
+msgstr ""
+
+#: framework/WDWLibrary.php:2406
+msgid "recreated"
+msgstr ""
+
+#: framework/WDWLibrary.php:2410
+msgid "Rotate left"
+msgstr ""
+
+#: framework/WDWLibrary.php:2411
+#, fuzzy
+#| msgid "Not rated yet."
+msgid "rotated left"
+msgstr "Non ancora valutato. "
+
+#: framework/WDWLibrary.php:2415
+msgid "Rotate right"
+msgstr ""
+
+#: framework/WDWLibrary.php:2416
+msgid "rotated right"
+msgstr ""
+
+#: framework/WDWLibrary.php:2421 framework/WDWLibrary.php:2431
+#: framework/WDWLibrary.php:2436 framework/WDWLibrary.php:2458
+#: framework/WDWLibrary.php:2463
+msgid "edited"
+msgstr ""
+
+#: framework/WDWLibrary.php:2426
+#, fuzzy
+#| msgid "Reset"
+msgid "reset"
+msgstr "Ripristina"
+
+#: framework/WDWLibrary.php:2430
+#, fuzzy
+#| msgid "Hide info"
+msgid "Edit info"
+msgstr "Nascondi informazioni"
+
+#: framework/WDWLibrary.php:2457
+msgid "Add pricelist"
+msgstr ""
+
+#: framework/WDWLibrary.php:2462
+msgid "Remove pricelist"
+msgstr ""
+
+#: framework/WDWLibrary.php:2566
+#, fuzzy
+#| msgid "Share on Facebook"
+msgid "Photo Gallery Premium"
+msgstr "Condividi su Facebook."
+
+#: framework/WDWLibrary.php:2569
+msgid ""
+"Get more stunning views with fully customizable themes, powerful lightbox "
+"and much more."
+msgstr ""
+
+#: framework/WDWLibrary.php:2573 framework/WDWLibrary.php:2621
+msgid "Upgrade"
+msgstr ""
+
+#: framework/WDWLibrary.php:2586
+msgid "User guide"
+msgstr ""
+
+#: framework/WDWLibrary.php:2600 photo-gallery.php:1783
+msgid "Support Forum"
+msgstr ""
+
+#: framework/WDWLibrary.php:2613
+msgid "Forms"
+msgstr ""
+
+#: framework/WDWLibrary.php:2617 photo-gallery.php:446
+msgid "Add-ons"
+msgstr ""
+
+#: framework/WDWLibrary.php:2621
+msgid "Premium Version"
+msgstr ""
+
+#: framework/WDWLibrary.php:2755
+#, fuzzy
+#| msgid "Gallery is empty."
+msgid "All tags"
+msgstr "La galleria è vuota."
+
+#: framework/WDWLibraryEmbed.php:393 framework/WDWLibraryEmbed.php:402
+#: framework/WDWLibraryEmbed.php:404
+msgid "The entered URL is incorrect. Please check the URL and try again."
+msgstr ""
+
+#: framework/howto/data.php:4
+msgid "How to insert Photo Gallery (shortcode) ?"
+msgstr ""
+
+#: framework/howto/data.php:8
+msgid "Click Add Photo Gallery Button"
+msgstr ""
+
+#: framework/howto/data.php:9
+msgid ""
+"To add a gallery using shortcode, please find and click the \"Add Photo "
+"Gallery\" button in your post/page editor navigation."
+msgstr ""
+
+#: framework/howto/data.php:14
+msgid "Configure and Insert"
+msgstr ""
+
+#: framework/howto/data.php:15
+msgid ""
+"In the pop-up, choose gallery view type, gallery, theme and configure other "
+"options for your gallery. Click Insert into post button to add the gallery "
+"to the post/page."
+msgstr ""
+
+#: framework/howto/data.php:20 framework/howto/data.php:44
+#: framework/howto/data.php:70
+msgid "Congrats !"
+msgstr ""
+
+#: framework/howto/data.php:21
+msgid ""
+"You've added a gallery to your post/page. Click on Photo Gallery icon again "
+"if you want to make changes to your gallery."
+msgstr ""
+
+#: framework/howto/data.php:28
+msgid "How to insert Photo Gallery as widget ?"
+msgstr ""
+
+#: framework/howto/data.php:32
+#, fuzzy
+#| msgid "Gallery is empty."
+msgid "Add Gallery Widget"
+msgstr "La galleria è vuota."
+
+#: framework/howto/data.php:33
+msgid ""
+"In your WordPress dashboard go to Appearance > Widgets. Find Photo Gallery "
+"Widget in the list, click and choose the area you want to display the "
+"gallery and click \"Add Widget button\"."
+msgstr ""
+
+#: framework/howto/data.php:38
+msgid "Configure and Save"
+msgstr ""
+
+#: framework/howto/data.php:39
+msgid ""
+"Configure gallery options on the right side of the page, including gallery/"
+"album you want to display, image count, dimensions and more. Click save to "
+"display the changes on your website."
+msgstr ""
+
+#: framework/howto/data.php:45
+msgid ""
+"Great, you've added a gallery widget to your site. You can always go back to "
+"the widgets page on your dashboard to edit or delete the Photo Gallery "
+"Widget or add a new one."
+msgstr ""
+
+#: framework/howto/data.php:54
+msgid "Advanced: PHP code"
+msgstr ""
+
+#: framework/howto/data.php:55
+#, php-format
+msgid ""
+"%s This code should be inserted into a PHP file. This is a more advanced "
+"method of publishing and should be used in case you want the galleries to be "
+"integrated into your theme files ( for example in your website header or "
+"footer area ). You can't insert this code into your post / page editor."
+msgstr ""
+
+#: framework/howto/data.php:55
+msgid "Attention:"
+msgstr ""
+
+#: framework/howto/data.php:58
+msgid "Copy the Code"
+msgstr ""
+
+#: framework/howto/data.php:59
+msgid "Copy the PHP code that appears below before proceeding to next step."
+msgstr ""
+
+#: framework/howto/data.php:64
+msgid "Paste the Code"
+msgstr ""
+
+#: framework/howto/data.php:65
+msgid ""
+"In your dashboard navigation go to Appearance > Editor. Choose the specific "
+"section you want the gallery to appear and paste the PHP code you copied in "
+"that section. Press Update File button to save the changes in the code."
+msgstr ""
+
+#: framework/howto/data.php:71
+msgid ""
+"The Photo Gallery will now appear in the section of the site you’ve chosen."
+msgstr ""
+
+#: framework/howto/howto.php:339 framework/howto/howto.php:357
+msgid "How to ..."
+msgstr ""
+
+#: framework/howto/howto.php:409
+msgid "How to use"
+msgstr ""
+
+#: frontend/controllers/BWGControllerGalleryBox.php:74
+#: frontend/controllers/BWGControllerGalleryBox.php:79
+#: frontend/controllers/BWGControllerGalleryBox.php:88
+#: frontend/controllers/BWGControllerGalleryBox.php:96
+#: frontend/controllers/BWGControllerGalleryBox.php:106
+#, fuzzy, php-format
+#| msgid "Name field is required."
+msgid "The %s field is required."
+msgstr "Il nome è richiesto."
+
+#: frontend/controllers/BWGControllerGalleryBox.php:83
+#, fuzzy, php-format
+#| msgid "This is not a valid email address."
+msgid "The %s field must contain a valid email address."
+msgstr "Questo non è un indirizzo email valido. "
+
+#: frontend/controllers/BWGControllerGalleryBox.php:100
+#, fuzzy
+#| msgid "Error. Incorrect Verification Code."
+msgid "Incorrect Security code."
+msgstr "Errore. Non corretto del codice di verifica. "
+
+#: frontend/controllers/controller.php:22
+msgid "There is no theme selected or the theme was deleted."
+msgstr "Non c-è un tema selezionato o il tema è stato eliminato."
+
+#: frontend/controllers/controller.php:329
+#, fuzzy
+#| msgid "There is no gallery selected or the gallery was deleted."
+msgid "There is no album selected or the gallery was deleted."
+msgstr "Non hai selezionato una galleria o quella scelta è stata eliminata."
+
+#: frontend/controllers/controller.php:423
+#: frontend/controllers/controller.php:454
+msgid "There is no gallery selected or the gallery was deleted."
+msgstr "Non hai selezionato una galleria o quella scelta è stata eliminata."
+
+#: frontend/views/BWGViewAlbum_compact_preview.php:68
+#: frontend/views/BWGViewAlbum_extended_preview.php:70
+#: frontend/views/BWGViewAlbum_masonry_preview.php:62
+msgid "Album is empty."
+msgstr "Album è vuoto."
+
+#: frontend/views/BWGViewAlbum_extended_preview.php:153
+#: frontend/views/BWGViewAlbum_extended_preview.php:156
+msgid "More"
+msgstr "Di più"
+
+#: frontend/views/BWGViewAlbum_extended_preview.php:154
+msgid "Hide"
+msgstr "Nascondi"
+
+#: frontend/views/BWGViewBlog_style.php:143
+#: frontend/views/BWGViewGalleryBox.php:1235
+msgid "Show comments"
+msgstr "Mostra i commenti."
+
+#: frontend/views/BWGViewBlog_style.php:149
+#: frontend/views/BWGViewBlog_style.php:150
+#: frontend/views/BWGViewGalleryBox.php:1243
+#: frontend/views/BWGViewGalleryBox.php:1244
+msgid "Share on Facebook"
+msgstr "Condividi su Facebook."
+
+#: frontend/views/BWGViewBlog_style.php:156
+#: frontend/views/BWGViewBlog_style.php:157
+#: frontend/views/BWGViewGalleryBox.php:1250
+#: frontend/views/BWGViewGalleryBox.php:1251
+msgid "Share on Twitter"
+msgstr "Condividi su Twitter."
+
+#: frontend/views/BWGViewBlog_style.php:163
+#: frontend/views/BWGViewBlog_style.php:164
+#: frontend/views/BWGViewGalleryBox.php:1257
+#: frontend/views/BWGViewGalleryBox.php:1258
+msgid "Share on Google+"
+msgstr "Condividi su Google+."
+
+#: frontend/views/BWGViewBlog_style.php:170
+#: frontend/views/BWGViewBlog_style.php:171
+#: frontend/views/BWGViewGalleryBox.php:1264
+#: frontend/views/BWGViewGalleryBox.php:1265
+msgid "Share on Pinterest"
+msgstr "Condividi su Pinterest"
+
+#: frontend/views/BWGViewBlog_style.php:177
+#: frontend/views/BWGViewBlog_style.php:178
+#: frontend/views/BWGViewGalleryBox.php:1271
+#: frontend/views/BWGViewGalleryBox.php:1272
+msgid "Share on Tumblr"
+msgstr "Condividi su Tumblr"
+
+#: frontend/views/BWGViewBlog_style.php:185
+#, fuzzy
+#| msgid "Show comments"
+msgid "Show ecommerce"
+msgstr "Mostra i commenti."
+
+#: frontend/views/BWGViewDownload_gallery.php:53
+#, fuzzy
+#| msgid "There are no images in this gallery."
+msgid "There are no images to download."
+msgstr "Non ci sono immagini in questa galleria."
+
+#: frontend/views/BWGViewGalleryBox.php:1100
+msgid "The image has been deleted."
+msgstr "L'immagine è stata cancellata."
+
+#: frontend/views/BWGViewGalleryBox.php:1223
+#: frontend/views/BWGViewGalleryBox.php:2593
+#: frontend/views/BWGViewThumbnails.php:44
+#: frontend/views/BWGViewThumbnails_masonry.php:56
+#: frontend/views/BWGViewThumbnails_mosaic.php:73 photo-gallery.php:1320
+msgid "Play"
+msgstr "Giocare"
+
+#: frontend/views/BWGViewGalleryBox.php:1227
+#: frontend/views/BWGViewGalleryBox.php:2519 photo-gallery.php:1314
+msgid "Maximize"
+msgstr "Massimizzare"
+
+#: frontend/views/BWGViewGalleryBox.php:1231
+#: frontend/views/BWGViewGalleryBox.php:2521 photo-gallery.php:1315
+msgid "Fullscreen"
+msgstr "A schermo intero"
+
+#: frontend/views/BWGViewGalleryBox.php:1233
+#: frontend/views/BWGViewGalleryBox.php:2290
+msgid "Show info"
+msgstr "Mostra info"
+
+#: frontend/views/BWGViewGalleryBox.php:1237
+#: frontend/views/BWGViewGalleryBox.php:2301
+msgid "Show rating"
+msgstr "Mostra classificazione"
+
+#: frontend/views/BWGViewGalleryBox.php:1279
+msgid "Open image in original size."
+msgstr "Apri l-immagine in dimensioni originali."
+
+#: frontend/views/BWGViewGalleryBox.php:1294
+msgid "Download original image"
+msgstr "Apri l'immagine originale"
+
+#: frontend/views/BWGViewGalleryBox.php:1302
+#: frontend/views/BWGViewThumbnails.php:48
+#: frontend/views/BWGViewThumbnails_masonry.php:60
+#: frontend/views/BWGViewThumbnails_mosaic.php:91
+msgid "Ecommerce"
+msgstr ""
+
+#: frontend/views/BWGViewGalleryBox.php:1327
+msgid "Hits: "
+msgstr "Click: "
+
+#: frontend/views/BWGViewGalleryBox.php:1338
+msgid "Rated."
+msgstr "Valutato."
+
+#: frontend/views/BWGViewGalleryBox.php:1342
+#: frontend/views/BWGViewGalleryBox.php:1360
+msgid "Not rated yet."
+msgstr "Non ancora valutato. "
+
+#: frontend/views/BWGViewGalleryBox.php:1345
+#: frontend/views/BWGViewGalleryBox.php:1382
+msgid "Votes: "
+msgstr "Voti: "
+
+#: frontend/views/BWGViewGalleryBox.php:1380
+msgid "Cancel your rating."
+msgstr "Annulla il tuo voto."
+
+#: frontend/views/BWGViewGalleryBox.php:1382
+msgid "You have already rated."
+msgstr "Hai già votato. "
+
+#: frontend/views/BWGViewGalleryBox.php:1482 photo-gallery.php:1311
+msgid "Hide Comments"
+msgstr "Nascondi commenti"
+
+#: frontend/views/BWGViewGalleryBox.php:1501
+msgid "Verification Code"
+msgstr "Codice di verifica"
+
+#: frontend/views/BWGViewGalleryBox.php:1524
+#, php-format
+msgid ""
+"I consent collecting this data and processing it according to %s of this "
+"website."
+msgstr ""
+
+#: frontend/views/BWGViewGalleryBox.php:1525
+#: wd/templates/display_subscribe.php:39
+msgid "Privacy Policy"
+msgstr ""
+
+#: frontend/views/BWGViewGalleryBox.php:1535
+msgid "Submit"
+msgstr "Invia"
+
+#: frontend/views/BWGViewGalleryBox.php:1537
+msgid "Your comment is awaiting moderation"
+msgstr "Il tuo commento è in attesa di moderazione "
+
+#: frontend/views/BWGViewGalleryBox.php:1570 photo-gallery.php:1309
+#, fuzzy
+#| msgid "Hide Comments"
+msgid "Hide Ecommerce"
+msgstr "Nascondi commenti"
+
+#: frontend/views/BWGViewGalleryBox.php:1576
+#: frontend/views/BWGViewGalleryBox.php:1759
+msgid "Add to cart"
+msgstr ""
+
+#: frontend/views/BWGViewGalleryBox.php:1579
+#, fuzzy
+#| msgid "item"
+msgid "items"
+msgstr "Oggetto"
+
+#: frontend/views/BWGViewGalleryBox.php:1587
+msgid "Prints and products"
+msgstr ""
+
+#: frontend/views/BWGViewGalleryBox.php:1594
+msgid "Downloads"
+msgstr ""
+
+#: frontend/views/BWGViewGalleryBox.php:1608
+#: frontend/views/BWGViewGalleryBox.php:1720
+msgid "Price"
+msgstr ""
+
+#: frontend/views/BWGViewGalleryBox.php:1628
+msgid "Count"
+msgstr ""
+
+#: frontend/views/BWGViewGalleryBox.php:1708
+#: frontend/views/BWGViewGalleryBox.php:1752
+msgid "Total"
+msgstr ""
+
+#: frontend/views/BWGViewGalleryBox.php:1719
+msgid "Dimensions"
+msgstr ""
+
+#: frontend/views/BWGViewGalleryBox.php:1721
+msgid "Choose"
+msgstr ""
+
+#: frontend/views/BWGViewGalleryBox.php:1760
+msgid "View cart"
+msgstr ""
+
+#: frontend/views/BWGViewGalleryBox.php:1916
+#, fuzzy
+#| msgid "You must select at least one item."
+msgid "Please select at least one item"
+msgstr "devi selezionare almeno un oggetto."
+
+#: frontend/views/BWGViewGalleryBox.php:1950
+msgid "Please select Prints and products or Downloads"
+msgstr ""
+
+#: frontend/views/BWGViewGalleryBox.php:2277
+msgid "Hide info"
+msgstr "Nascondi informazioni"
+
+#: frontend/views/BWGViewGalleryBox.php:2297
+msgid "Hide rating"
+msgstr "Nascondi valutazione"
+
+#: frontend/views/BWGViewGalleryBox.php:2573
+msgid "Exit Fullscreen"
+msgstr "Uscita a schermo intero"
+
+#: frontend/views/BWGViewGalleryBox.php:2587
+#: frontend/views/BWGViewGalleryBox.php:2600 photo-gallery.php:1321
+msgid "Pause"
+msgstr "Pausa"
+
+#: frontend/views/BWGViewGalleryBox.php:2677
+msgid "Delete Comment"
+msgstr "Elimina commento"
+
+#: frontend/views/BWGViewThumbnails.php:47
+#: frontend/views/BWGViewThumbnails_masonry.php:59
+#: frontend/views/BWGViewThumbnails_mosaic.php:90
+msgid "Open"
+msgstr ""
+
+#: frontend/views/view.php:92 frontend/views/view.php:163
+#, fuzzy
+#| msgid "There are no images in this gallery."
+msgid "There are no images."
+msgstr "Non ci sono immagini in questa galleria."
+
+#: frontend/views/view.php:95 frontend/views/view.php:166
+#, fuzzy
+#| msgid "Show comments"
+msgid "No Images found."
+msgstr "Mostra i commenti."
+
+#: frontend/views/view.php:299
+#, fuzzy
+#| msgid "Download original image"
+msgid "Download gallery"
+msgstr "Apri l'immagine originale"
+
+#: frontend/views/view.php:337 frontend/views/view.php:346
+#: photo-gallery.php:1316
+msgid "SEARCH..."
+msgstr ""
+
+#: frontend/views/view.php:381
+#, fuzzy
+#| msgid "Order by: "
+msgid "Order by Default"
+msgstr "Ordina per"
+
+#: frontend/views/view.php:588
+msgid " item(s)"
+msgstr "elementi)"
+
+#: frontend/views/view.php:594
+msgid "Previous"
+msgstr "Precedente"
+
+#: frontend/views/view.php:595
+msgid "Next"
+msgstr "Avanti"
+
+#: frontend/views/view.php:614
+msgid "Go to the first page"
+msgstr "Vai alla prima pagina"
+
+#: frontend/views/view.php:615
+msgid "Go to the previous page"
+msgstr "Vai alla pagina precedente"
+
+#: frontend/views/view.php:622
+msgid "Go to the next page"
+msgstr "Vai alla pagina successiva"
+
+#: frontend/views/view.php:623
+msgid "Go to the last page"
+msgstr "Vai all'ultima pagina"
+
+#: frontend/views/view.php:636
+msgid "Load More..."
+msgstr "Carica altro…"
+
+#: insert.php:138
+msgid "Light"
+msgstr ""
+
+#: insert.php:144
+msgid "Dark"
+msgstr ""
+
+#: photo-gallery.php:239
+msgid "10WEB"
+msgstr ""
+
+#: photo-gallery.php:260
+msgid ""
+"When you leave a comment on this site, we send your name, email\n"
+"        address, IP address and comment text to example.com. Example.com "
+"does\n"
+"        not retain your personal data."
+msgstr ""
+
+#: photo-gallery.php:280
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+#: photo-gallery.php:309
+msgid "Nothing selected."
+msgstr ""
+
+#: photo-gallery.php:310
+msgid "- Select -"
+msgstr ""
+
+#: photo-gallery.php:343
+#, php-format
+msgid ""
+"Image edit functionality is not supported by your web host. We highly "
+"recommend you to contact your hosting provider and ask them to enable %s "
+"library."
+msgstr ""
+
+#: photo-gallery.php:343
+msgid "PHP GD"
+msgstr ""
+
+#: photo-gallery.php:344
+#, php-format
+msgid ""
+"Without image editing functions, image thumbnails will not be created, thus "
+"causing load time issues on published galleries. Furthermore, some of Photo "
+"Gallery's features, e.g. %s, %s, and %s, will not be available."
+msgstr ""
+
+#: photo-gallery.php:344
+msgid "crop"
+msgstr ""
+
+#: photo-gallery.php:344
+msgid "edit"
+msgstr ""
+
+#: photo-gallery.php:344
+#, fuzzy
+#| msgid "Not rated yet."
+msgid "rotate"
+msgstr "Non ancora valutato. "
+
+#: photo-gallery.php:353
+#, php-format
+msgid ""
+"Image edit functionality was just activated on your web host. Please go to "
+"%s, navigate to %s tab and press %s button."
+msgstr ""
+
+#: photo-gallery.php:353 photo-gallery.php:427
+msgid "Options"
+msgstr "Opzioni"
+
+#: photo-gallery.php:353
+#, fuzzy
+#| msgid "Previous"
+msgid "Options page"
+msgstr "Precedente"
+
+#: photo-gallery.php:419
+msgid "Add Galleries/Images"
+msgstr "Aggiungere Gallerie / Immagini"
+
+#: photo-gallery.php:474
+#, php-format
+msgid "The controller %s file not exist."
+msgstr ""
+
+#: photo-gallery.php:479
+#, php-format
+msgid "The view %s file not exist."
+msgstr ""
+
+#: photo-gallery.php:495 photo-gallery.php:500
+#, php-format
+msgid "The %s class not exist."
+msgstr ""
+
+#: photo-gallery.php:543 photo-gallery.php:577
+#, fuzzy
+#| msgid "You can't delete default theme"
+msgid "Do you want to delete selected items?"
+msgstr "Non puoi cancellare il tema di default"
+
+#: photo-gallery.php:544 photo-gallery.php:572
+msgid "You must select at least one item."
+msgstr "devi selezionare almeno un oggetto."
+
+#: photo-gallery.php:545
+#, fuzzy
+#| msgid "You can't delete default theme"
+msgid "Do you want to remove pricelist from selected items?"
+msgstr "Non puoi cancellare il tema di default"
+
+#: photo-gallery.php:552 photo-gallery.php:1298
+msgid "field is required."
+msgstr "il campo è obbligatiorio."
+
+#: photo-gallery.php:553
+msgid "You must select an image file."
+msgstr "È necessario selezionare un file di immag.."
+
+#: photo-gallery.php:554
+msgid "You must select an audio file."
+msgstr "È necessario selezionare un file audio."
+
+#: photo-gallery.php:555
+msgid ""
+"You do not have Instagram access token. Sign in with Instagram in Options -> "
+"Advanced tab -> Social. "
+msgstr ""
+
+#: photo-gallery.php:556
+msgid ""
+"You do not have Instagram CLIENT_ID. Input its value in Options->Embed "
+"options."
+msgstr ""
+
+#: photo-gallery.php:557
+msgid "Instagram recent post number must be between 1 and 33."
+msgstr ""
+"Instagram recente numero dei tuoi messaggi deve essere compreso tra 1 e 33."
+
+#: photo-gallery.php:559
+msgid "Please enter url to embed."
+msgstr "Si prega di inserire l-URL per incorporare."
+
+#: photo-gallery.php:560
+msgid "Error: cannot get response from the server."
+msgstr "Errore: non può ottenere risposta dal server."
+
+#: photo-gallery.php:561
+msgid "Error: something wrong happened at the server."
+msgstr "Errore: qualcosa di sbagliato è accaduto sul server."
+
+#: photo-gallery.php:562
+msgid "Error"
+msgstr "Errore"
+
+#: photo-gallery.php:564
+msgid "Hide order column"
+msgstr "Colonna Hide ordine"
+
+#: photo-gallery.php:565
+#, php-format
+msgid "Selected %d item."
+msgstr ""
+
+#: photo-gallery.php:566
+#, php-format
+msgid "Selected %d items."
+msgstr ""
+
+#: photo-gallery.php:567
+#, fuzzy
+#| msgid "Item Succesfully Saved."
+msgid "Items Succesfully Saved."
+msgstr "Oggeto salvato"
+
+#: photo-gallery.php:568
+#, fuzzy
+#| msgid "Item Succesfully Deleted."
+msgid "Item Succesfully Recovered."
+msgstr "Oggetto rimosso."
+
+#: photo-gallery.php:569
+msgid "Item Succesfully Published."
+msgstr "Oggetto pubblicato."
+
+#: photo-gallery.php:570
+msgid "Item Succesfully Unpublished."
+msgstr "Oggetto non più pubblicato."
+
+#: photo-gallery.php:571
+msgid "Item Succesfully Deleted."
+msgstr "Oggetto rimosso."
+
+#: photo-gallery.php:573
+#, fuzzy
+#| msgid "Items Succesfully Deleted."
+msgid "Items Succesfully resized."
+msgstr "Oggetti cancellati."
+
+#: photo-gallery.php:574
+#, fuzzy
+#| msgid "Item Succesfully Saved."
+msgid "Watermarks Succesfully Set."
+msgstr "Oggeto salvato"
+
+#: photo-gallery.php:575
+#, fuzzy
+#| msgid "Items Succesfully Deleted."
+msgid "Items Succesfully Reset."
+msgstr "Oggetti cancellati."
+
+#: photo-gallery.php:576
+msgid "Save Tag"
+msgstr "Vuoi eliminare gli elementi selezionati?"
+
+#: photo-gallery.php:578 photo-gallery.php:580
+msgid ""
+"This action will reset gallery type to mixed and will save that choice. You "
+"cannot undo it."
+msgstr ""
+
+#: photo-gallery.php:579
+msgid ""
+"After pressing save/apply buttons, you cannot change gallery type back to "
+"Instagram!"
+msgstr ""
+
+#: photo-gallery.php:581
+msgid "Insert"
+msgstr ""
+
+#: photo-gallery.php:582
+msgid "Failed to import images from media library"
+msgstr ""
+
+#: photo-gallery.php:583
+msgid "Sorry, only jpg, jpeg, gif, png types are allowed."
+msgstr ""
+
+#: photo-gallery.php:587
+#, fuzzy
+#| msgid "Items Succesfully Deleted."
+msgid "Thumbnails successfully recreated."
+msgstr "Oggetti cancellati."
+
+#: photo-gallery.php:588
+#, fuzzy
+#| msgid "The item is successfully set as default."
+msgid "All images are successfully reset."
+msgstr "Oggetto impostato come default."
+
+#: photo-gallery.php:917
+msgid "Insert Photo Gallery"
+msgstr ""
+
+#: photo-gallery.php:919
+msgid "Add Photo Gallery"
+msgstr ""
+
+#: photo-gallery.php:1299
+msgid "This is not a valid email address."
+msgstr "Questo non è un indirizzo e-mail valido."
+
+#: photo-gallery.php:1300
+msgid "There are no images matching your search."
+msgstr "Non ci sono immagini corrispondenti alla tua ricerca."
+
+#: photo-gallery.php:1305
+msgid "Select Tag"
+msgstr ""
+
+#: photo-gallery.php:1306
+#, fuzzy
+#| msgid "Order by: "
+msgid "Order By"
+msgstr "Ordina per"
+
+#: photo-gallery.php:1308
+#, fuzzy
+#| msgid "Show comments"
+msgid "Show Ecommerce"
+msgstr "Mostra i commenti."
+
+#: photo-gallery.php:1310
+msgid "Show Comments"
+msgstr "Mostra i commenti"
+
+#: photo-gallery.php:1312
+#, fuzzy
+#| msgid "Show Comments"
+msgid "how Comments"
+msgstr "Mostra i commenti"
+
+#: photo-gallery.php:1313
+msgid "Restore"
+msgstr "Ripristina"
+
+#: photo-gallery.php:1317
+msgid "No tags found"
+msgstr ""
+
+#: photo-gallery.php:1318
+msgid "All tags selected"
+msgstr ""
+
+#: photo-gallery.php:1319
+msgid "tags selected"
+msgstr ""
+
+#: photo-gallery.php:1365
+msgid ""
+"Photo Gallery is a fully responsive gallery plugin with advanced "
+"functionality. It allows having different image galleries for your posts and "
+"pages. You can create unlimited number of galleries, combine them into "
+"gallery groups, and provide descriptions and tags."
+msgstr ""
+
+#: photo-gallery.php:1369
+msgid "Easy Set-up and Management"
+msgstr ""
+
+#: photo-gallery.php:1370
+msgid ""
+"Create stunning, 100% responsive, SEO-friendly photo galleries in minutes. "
+"Use the File Manager with single-step and easy-to-manage functionality to "
+"rename, upload, copy, add and remove images and image directories. Otherwise "
+"use WordPress built in media uploader."
+msgstr ""
+
+#: photo-gallery.php:1373
+msgid "Unlimited Photos and Albums"
+msgstr ""
+
+#: photo-gallery.php:1374
+msgid ""
+"The plugin allows creating unlimited number of galleries or gallery groups "
+"and upload images in each gallery as many as you wish. Add single/ multiple "
+"galleries into your pages and posts with the help of functional shortcode; "
+"visual shortcodes for an easier management."
+msgstr ""
+
+#: photo-gallery.php:1377
+msgid "Customizable"
+msgstr ""
+
+#: photo-gallery.php:1378
+msgid ""
+"The gallery plugin is easily customizable. You can edit themes changing "
+"sizes and colors for different features. Specify the number of images to "
+"display in a single row in an gallery group. Additionally, you can customize "
+"thumbnail images by cropping, flipping and rotating them."
+msgstr ""
+
+#: photo-gallery.php:1381
+msgid "10 View Options"
+msgstr ""
+
+#: photo-gallery.php:1382
+msgid ""
+"Photo Gallery plugin allows displaying galleries and gallery groups in 10 "
+"elegant and beautiful views:, Thumbnails, Masonry, Mosaic, Slideshow, Image "
+"Browser, Masonry Album, Compact Album, Extended Album, Blog Style Gallery, "
+"Ecommerce."
+msgstr ""
+
+#: photo-gallery.php:1385
+msgid "Audio and Video Support"
+msgstr ""
+
+#: photo-gallery.php:1386
+msgid ""
+"You can include both videos and images within a single gallery. WordPress "
+"Photo Gallery Plugin supports YouTube and Vimeo videos within Galleries. "
+"It's also possible to add audio tracks for the image slideshow."
+msgstr ""
+
+#: photo-gallery.php:1392
+msgid "Installing"
+msgstr ""
+
+#: photo-gallery.php:1397
+msgid "Creating/Editing Galleries"
+msgstr ""
+
+#: photo-gallery.php:1401
+msgid "Instagram Gallery"
+msgstr ""
+
+#: photo-gallery.php:1407
+msgid "Creating/Editing Tags"
+msgstr ""
+
+#: photo-gallery.php:1412
+msgid "Creating/Editing Albums"
+msgstr ""
+
+#: photo-gallery.php:1417
+msgid "Editing Options"
+msgstr ""
+
+#: photo-gallery.php:1421
+msgid "Global Options"
+msgstr ""
+
+#: photo-gallery.php:1437
+msgid "Album Options"
+msgstr ""
+
+#: photo-gallery.php:1445
+msgid "Thumbnail Options"
+msgstr ""
+
+#: photo-gallery.php:1449
+msgid "Image Options"
+msgstr ""
+
+#: photo-gallery.php:1453
+msgid "Social Options"
+msgstr ""
+
+#: photo-gallery.php:1457
+msgid "Carousel Options"
+msgstr ""
+
+#: photo-gallery.php:1463
+msgid "Creating/Editing Themes"
+msgstr ""
+
+#: photo-gallery.php:1487
+msgid "Compact Album"
+msgstr ""
+
+#: photo-gallery.php:1491
+msgid "Masonry Album"
+msgstr ""
+
+#: photo-gallery.php:1495
+msgid "Extended Album"
+msgstr ""
+
+#: photo-gallery.php:1507
+msgid "Page Navigation"
+msgstr ""
+
+#: photo-gallery.php:1517
+msgid "Generating Shortcode"
+msgstr ""
+
+#: photo-gallery.php:1522
+#, fuzzy
+#| msgid "Hide Comments"
+msgid "Editing Comments"
+msgstr "Nascondi commenti"
+
+#: photo-gallery.php:1527
+msgid "Editing Ratings"
+msgstr ""
+
+#: photo-gallery.php:1532
+msgid "Publishing the Created Photo Gallery"
+msgstr ""
+
+#: photo-gallery.php:1536
+msgid "General Parameters"
+msgstr ""
+
+#: photo-gallery.php:1540
+msgid "Lightbox Parameters"
+msgstr ""
+
+#: photo-gallery.php:1550
+msgid "Publishing Photo Gallery Widgets"
+msgstr ""
+
+#: photo-gallery.php:1554
+msgid "Tag Cloud"
+msgstr ""
+
+#: photo-gallery.php:1566
+msgid "Photo Gallery Widget"
+msgstr ""
+
+#: photo-gallery.php:1635
+msgid "Albums"
+msgstr "Album"
+
+#: photo-gallery.php:1649
+#, fuzzy
+#| msgid "Gallery is empty."
+msgid "Gallery tags"
+msgstr "La galleria è vuota."
+
+#: photo-gallery.php:1697
+msgid "Photo gallery plugin autoupdate interval."
+msgstr "Galleria fotografica plug intervallo di aggiornamento automatico."
+
+#: photo-gallery.php:1740
+#, php-format
+msgid "Please update the %s add-on to start using."
+msgstr ""
+
+#: photo-gallery.php:1741
+#, php-format
+msgid "Please update the %s add-ons to start using."
+msgstr ""
+
+#: photo-gallery.php:1784
+#, fuzzy
+#| msgid "Rated."
+msgid "Rate"
+msgstr "Valutato."
+
+#: photo-gallery.php:1889
+#, php-format
+msgid ""
+"%s advises: Install brand new %s plugin to optimize your website images "
+"quickly and easily."
+msgstr ""
+
+#: photo-gallery.php:1889
+msgid "More details"
+msgstr ""
+
+#: photo-gallery.php:1889
+msgid "Image Optimizer WD"
+msgstr ""
+
+#: photo-gallery.php:1894
+msgid "Activate"
+msgstr ""
+
+#: photo-gallery.php:1895 photo-gallery.php:1902
+msgid "Optimize now"
+msgstr ""
+
+#: photo-gallery.php:1896
+msgid "Activation failed, please try again."
+msgstr ""
+
+#: photo-gallery.php:1900
+msgid "Install"
+msgstr ""
+
+#: photo-gallery.php:1901
+msgid "Activation"
+msgstr ""
+
+#: photo-gallery.php:1903
+msgid "Installation failed, please try again."
+msgstr ""
+
+#: wd/includes/deactivate.php:37
+msgid "Technical problems / hard to use"
+msgstr ""
+
+#: wd/includes/deactivate.php:41
+msgid "Free version is limited"
+msgstr ""
+
+#: wd/includes/deactivate.php:45
+msgid "Upgrading to paid version"
+msgstr ""
+
+#: wd/includes/deactivate.php:49
+msgid "Temporary deactivation"
+msgstr ""
+
+#: wd/includes/notices.php:211
+msgid "Leave A Review?"
+msgstr "Lascia un recensione?"
+
+#: wd/includes/notices.php:212
+#, php-format
+msgid ""
+"We hope you've enjoyed using WordPress %s! Would you consider leaving us a "
+"review on WordPress.org?"
+msgstr ""
+
+#: wd/includes/notices.php:213
+msgid "Sure! I'd love to!"
+msgstr "Certo! Mi piacerebbe!"
+
+#: wd/includes/notices.php:214
+msgid "I've already left a review"
+msgstr "Ho già lasciato una recensione"
+
+#: wd/includes/notices.php:215
+msgid "Maybe Later"
+msgstr "Forse più tardi"
+
+#: wd/includes/notices.php:216
+msgid "Never show again"
+msgstr "Non mostrare più"
+
+#: wd/templates/display_deactivation_popup.php:8
+msgid ""
+"Please let us know why you are deactivating. Your answer will help us to "
+"provide you support or sometimes offer discounts. (Optional)"
+msgstr ""
+
+#: wd/templates/display_deactivation_popup.php:22
+msgid "Skip and Deactivate"
+msgstr ""
+
+#: wd/templates/display_deactivation_popup.php:23
+msgid "Submit and Deactivate"
+msgstr ""
+
+#: wd/templates/display_overview.php:10 wd/templates/display_overview.php:119
+#, php-format
+msgid "Get Premium %s and Other Solutions Essential for Your WordPress Site."
+msgstr ""
+
+#: wd/templates/display_overview.php:13
+msgid "Try Free"
+msgstr ""
+
+#: wd/templates/display_overview.php:21 wd/templates/display_overview.php:81
+msgid "Premium "
+msgstr ""
+
+#: wd/templates/display_overview.php:27
+msgid "60+ pro plugins/Add-ons"
+msgstr ""
+
+#: wd/templates/display_overview.php:28
+msgid ""
+"Access 60+ plugins and add-ons, including key plugins, such as gallery, "
+"form, slider, social plugins and more."
+msgstr ""
+
+#: wd/templates/display_overview.php:32
+msgid "Unified dashboard"
+msgstr ""
+
+#: wd/templates/display_overview.php:33
+msgid ""
+"Manage your WordPress websites all in one place within a single dashboard. "
+"No need to switch between sites."
+msgstr ""
+
+#: wd/templates/display_overview.php:37
+msgid "Premium WordPress themes"
+msgstr ""
+
+#: wd/templates/display_overview.php:38
+msgid ""
+"Professionally designed, responsive themes for your website. Build fully-"
+"functional, elegant websites effortlessly."
+msgstr ""
+
+#: wd/templates/display_overview.php:43
+#, fuzzy
+#| msgid "Back"
+msgid "Backup"
+msgstr "Indietro"
+
+#: wd/templates/display_overview.php:44
+msgid ""
+"10Web cloud storage space. Easily and securely backup your website in our "
+"storage."
+msgstr ""
+
+#: wd/templates/display_overview.php:50
+msgid "SEO"
+msgstr ""
+
+#: wd/templates/display_overview.php:51
+msgid ""
+"Improve search rankings of your WordPress site with a comprehensive search "
+"engine optimization solution."
+msgstr ""
+
+#: wd/templates/display_overview.php:56
+msgid "Security"
+msgstr ""
+
+#: wd/templates/display_overview.php:57
+msgid ""
+"Protect your WordPress site from security issues and threats with a powerful "
+"security service coming soon to 10Web."
+msgstr ""
+
+#: wd/templates/display_overview.php:62
+msgid "Image optimization"
+msgstr ""
+
+#: wd/templates/display_overview.php:63
+msgid ""
+"Automatically resize and compress all images on your website to save space "
+"and improve site speed."
+msgstr ""
+
+#: wd/templates/display_overview.php:68
+msgid "Hosting"
+msgstr ""
+
+#: wd/templates/display_overview.php:69
+msgid ""
+"We’ll soon be offering affordable hosting solution with WordPress-friendly "
+"features and great customer support."
+msgstr ""
+
+#: wd/templates/display_overview.php:73 wd/templates/display_overview.php:121
+msgid "Get free for 14 days"
+msgstr ""
+
+#: wd/templates/display_overview.php:75 wd/templates/display_overview.php:96
+#, fuzzy
+#| msgid "Load More..."
+msgid "Learn More"
+msgstr "Carica altro…"
+
+#: wd/templates/display_overview.php:81
+msgid " features you get!"
+msgstr ""
+
+#: wd/templates/display_overview.php:94
+msgid "More great features of the plugin"
+msgstr ""
+
+#: wd/templates/display_overview.php:103
+msgid "Checkout how it works"
+msgstr ""
+
+#: wd/templates/display_overview.php:107
+msgid "Demo"
+msgstr ""
+
+#: wd/templates/display_overview.php:111
+msgid "User Guide"
+msgstr ""
+
+#: wd/templates/display_subscribe.php:5
+msgid "Hi there!"
+msgstr ""
+
+#: wd/templates/display_subscribe.php:6
+msgid "Allow 10Web to collect some usage data"
+msgstr ""
+
+#: wd/templates/display_subscribe.php:8
+#, php-format
+msgid ""
+"This will allow you to get more out of your plugin experience - get awesome "
+"customer support, receive exclusive deals and discounts on premium products "
+"and more. You can choose to skip this step, %s will still work just fine."
+msgstr ""
+
+#: wd/templates/display_subscribe.php:11
+msgid "What data is being collected?"
+msgstr ""
+
+#: wd/templates/display_subscribe.php:15
+msgid "Your name & Email address"
+msgstr ""
+
+#: wd/templates/display_subscribe.php:19
+msgid "Site URL, Wordpress version"
+msgstr ""
+
+#: wd/templates/display_subscribe.php:23
+msgid "List of plugins"
+msgstr ""
+
+#: wd/templates/display_subscribe.php:27
+msgid "Allow & Continue"
+msgstr ""
+
+#: wd/templates/display_subscribe.php:29
+msgid "Skip"
+msgstr ""
+
+#: wd/templates/display_subscribe.php:33
+msgid ""
+"We will not sell, share, or distribute your personal information to third "
+"parties."
+msgstr ""
+
+#: wd/templates/display_subscribe.php:45
+msgid "Terms of Use"
+msgstr ""
+
+#: wd/wd.php:72 wd/wd.php:76
+msgid "Premium"
+msgstr ""
+
+#, fuzzy
+#~| msgid "There are no images in this gallery."
+#~ msgid "The gallery images view type in the gallery group."
+#~ msgstr "Non ci sono immagini in questa galleria."
+
+#, fuzzy
+#~| msgid "Load More..."
+#~ msgid "Load more"
+#~ msgstr "Carica altro…"
+
+#, fuzzy
+#~| msgid "Album is empty."
+#~ msgid "Albums per page"
+#~ msgstr "L'album è vuoto."
+
+#, fuzzy
+#~| msgid "Album is empty."
+#~ msgid "Album title"
+#~ msgstr "L'album è vuoto."
+
+#, fuzzy
+#~| msgid "Album is empty."
+#~ msgid "Album view type"
+#~ msgstr "L'album è vuoto."
+
+#~ msgid "There is no album selected or the album was deleted."
+#~ msgstr "Non hai selezionato un album o l'album scelto è stato eliminato."
+
+#~ msgid "Gallery is empty."
+#~ msgstr "La galleria è vuota."
+
+#~ msgid "Error. Please install plugin again."
+#~ msgstr "Errore. Per favore, reinstalla il plugin."
+
+#~ msgid "Items Succesfully Published."
+#~ msgstr "Oggetti pubblicati."

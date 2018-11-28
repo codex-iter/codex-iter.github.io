@@ -1,0 +1,240 @@
+div[id^="bwg_container"] p {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+div[id^="bwg_container"] a {
+  border: none;
+  outline: none;
+  font-size: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.spider_popup_loading,
+.footer-list-block .bwp_gallery .spider_popup_loading,
+.footer-list-block .bwp_gallery_tags .spider_popup_loading {
+  /*background: url("../images/ajax_loader.gif") no-repeat scroll 0 0 / 50px 50px rgba(0, 0, 0, 0);*/
+  background-image: url("../images/ajax_loader.png");
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 50px 50px;
+  border: none !important;
+  display: none;
+  height: 50px;
+  left: 50%;
+  margin-left: -20px;
+  margin-top: -20px;
+  overflow: hidden;
+  position: fixed;
+  top: 50%;
+  width: 50px;
+  z-index: 10102;
+  animation: spin 2.5s infinite linear;
+  -moz-animation: spin 2.5s infinite linear;
+  -o-animation: spin 2.5s infinite linear;
+  -webkit-animation: spin 2.5s infinite linear;
+}
+
+.spider_ajax_loading {
+  border: none !important;
+  animation: spin 2.5s infinite linear;
+  -moz-animation: spin 2.5s infinite linear;
+  -o-animation: spin 2.5s infinite linear;
+  -webkit-animation: spin 2.5s infinite linear;
+}
+
+.spider_popup_overlay,
+.footer-list-block .bwp_gallery .spider_popup_overlay,
+.footer-list-block .bwp_gallery_tags .spider_popup_overlay {
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10100;
+}
+
+.spider_popup_close,
+.spider_popup_close_fullscreen {
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  cursor: pointer;
+  display: table;
+  line-height: 0;
+  position: absolute;
+  z-index: 11100;
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(359deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@-o-keyframes spin {
+  from {
+    -o-transform: rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(359deg);
+  }
+}
+
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(359deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+#spider_popup_left {
+  left: 0;
+}
+
+#spider_popup_right {
+  right: 0;
+}
+
+#spider_popup_left:hover,
+#spider_popup_right:hover {
+  visibility: visible;
+}
+
+#spider_popup_left:hover span {
+  left: 20px;
+}
+
+#spider_popup_right:hover span {
+  left: auto;
+  right: 20px;
+}
+
+#spider_popup_left,
+#spider_popup_right {
+  background: transparent url("../images/blank.gif") repeat scroll 0 0;
+  bottom: 35%;
+  cursor: pointer;
+  display: inline;
+  height: 30%;
+  outline: medium none;
+  position: absolute;
+  width: 35%;
+  z-index: 10130;
+}
+
+#spider_popup_left-ico,
+#spider_popup_right-ico {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: table;
+  line-height: 0;
+  margin-top: -15px;
+  position: absolute;
+  top: 50%;
+  z-index: 10135;
+}
+
+.bwg_captcha_refresh {
+  background-image: url("../images/captcha_refresh.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-width: 0;
+  cursor: pointer;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.bwg_captcha_input {
+  vertical-align: middle;
+  width: 75px !important;
+}
+
+.bwg_captcha_img {
+  cursor: pointer;
+  margin: 0 5px 0 5px;
+  vertical-align: middle;
+}
+
+.bwg_comment_error {
+  color: #FF0000;
+  display: block;
+}
+
+.bwg_image_info_container1,
+.bwg_image_rate_container1,
+.bwg_image_hit_container1 {
+  height: 100%;
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+}
+
+.bwg_image_rate_container1 {
+  display: none;
+}
+
+.bwg_image_info_container2,
+.bwg_image_rate_container2,
+.bwg_image_hit_container2 {
+  display: table;
+  height: 100%;
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+}
+
+.bwg_image_info_spun,
+.bwg_image_rate_spun,
+.bwg_image_hit_spun {
+  display: table-cell;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.bwg_image_info,
+.bwg_image_rate,
+.bwg_image_hit {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  word-wrap: break-word;
+  z-index: 11;
+}

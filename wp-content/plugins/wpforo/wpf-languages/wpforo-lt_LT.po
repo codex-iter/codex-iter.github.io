@@ -1,0 +1,6153 @@
+# Copyright (C) 2016 gVectors Team
+# This file is distributed under the same license as the wpForo package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Forum - wpForo\n"
+"POT-Creation-Date: 2018-08-31 19:42+0400\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Skaidrius Prascienis <email@skaidrius.com>\n"
+"Language-Team: \n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wpforo.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: wpf-admin/addons.php:14 wpf-admin/addons.php:22
+msgid "wpForo Addons"
+msgstr "wpforo Įskiepiai"
+
+#: wpf-admin/addons.php:28
+msgid ""
+"All wpForo addons are being developed by wpForo developers at gVectors Team. "
+"Addon prices also include a small donation to the hard work wpForo "
+"developers do for free. When you buy an addon, you also donate the free "
+"wpForo development and support. Addons are the only incoming source for "
+"wpForo developers. wpForo is a premium forum plugin which will always be "
+"available for free. There will never be paid and pro versions of this forum "
+"board. We have another dozens of awesome features in our to-do list which "
+"will also be added for free in future releases. So the free wpForo "
+"development always stays on the first priority and wpForo is being extended "
+"with new free functions and features even faster than before."
+msgstr ""
+"Visus wpForo įskiepius kuria wpForo kūrėjai gVektors komanda. Įskiepių kainą "
+"kaip pat sudaro maža padėka už sunkų darbą, kurį wpForo kūrėjai dirba "
+"nemokamai. Pirkdami įskiepį, remiate wpForo kūrimą ir palaikymą. Įskiepiai "
+"yra vienintelis wpForo kūrėjų įplaukų šaltinis. wpForo yra premium forumo "
+"įskiepis, kuris visada liks nemokamas. Niekada nebus šio forumo mokamų ar "
+"pro versijų. Mes taip pat netrukus pasiūlysime naują pluoštą papildomų "
+"savybių, esančių mūsų to-do sąraše, kurios ateities versijose bus taip pat "
+"nemokamos. Taigi, nemokamas wpForo kūrimas visada liks pirmuoju prioritetu "
+"ir wpForo bus tobulinamas papildant jį naujomis funkcijomis ir savybėmis dar "
+"greičiau nei anksčiau."
+
+#: wpf-admin/addons.php:31 wpf-admin/dashboard.php:37
+msgid "Thank you!<br> Sincerely yours,<br> gVectors Team"
+msgstr "Ačiū!<br> Nuoširdžiai Jūsų,<br> gVectors Komanda"
+
+#: wpf-admin/addons.php:51
+msgid "Installed"
+msgstr "Įdiegta"
+
+#: wpf-admin/addons.php:55
+msgid "Version"
+msgstr "Versija"
+
+#: wpf-admin/addons.php:56
+msgid "at least"
+msgstr "mažiausiai"
+
+#: wpf-admin/addons.php:58
+msgid "Details | Buy"
+msgstr "Detaliau | Pirkti"
+
+#: wpf-admin/addons.php:64
+msgid "More information about"
+msgstr "Daugiau informacijos apie"
+
+#: wpf-admin/admin.php:30 wpf-admin/admin.php:31
+#: wpf-includes/wpf-phrases.php:602
+msgid "Dashboard"
+msgstr "Valdymo skydelis"
+
+#: wpf-admin/admin.php:30 wpf-admin/admin.php:34 wpf-admin/dashboard.php:137
+#: wpf-admin/options-tabs/api.php:83 wpf-admin/options-tabs/styles.php:16
+#: wpf-admin/options.php:15 wpf-admin/tools-tabs/misc.php:92
+#: wpf-includes/integration/buddypress.php:11
+#: wpf-includes/integration/buddypress.php:57
+#: wpf-includes/integration/buddypress.php:129 wpf-includes/wpf-hooks.php:2195
+#: wpf-includes/wpf-phrases.php:123
+msgid "Forums"
+msgstr "Forumai"
+
+#: wpf-admin/admin.php:37 wpf-includes/wpf-hooks.php:22
+#: wpf-includes/wpf-hooks.php:2201
+msgid "Settings"
+msgstr "Nuostatos"
+
+#: wpf-admin/admin.php:40 wpf-includes/wpf-hooks.php:2205
+#: wpf-includes/wpf-phrases.php:728
+msgid "Tools"
+msgstr "Įrankiai"
+
+#: wpf-admin/admin.php:43 wpf-includes/wpf-hooks.php:2209
+msgid "Moderation"
+msgstr "Peržiūra"
+
+#: wpf-admin/admin.php:46 wpf-admin/dashboard.php:149 wpf-admin/member.php:10
+#: wpf-admin/options.php:18 wpf-admin/tools-tabs/misc.php:108
+#: wpf-admin/usergroup.php:31 wpf-includes/wpf-hooks.php:2213
+#: wpf-includes/wpf-phrases.php:178
+msgid "Members"
+msgstr "Nariai"
+
+#: wpf-admin/admin.php:49 wpf-admin/usergroup.php:8 wpf-admin/usergroup.php:155
+#: wpf-includes/wpf-hooks.php:2217
+msgid "Usergroups"
+msgstr "Vartotojų Grupės"
+
+#: wpf-admin/admin.php:52 wpf-includes/wpf-hooks.php:2223
+#: wpf-includes/wpf-phrases.php:603
+msgid "Phrases"
+msgstr "Frazės"
+
+#: wpf-admin/admin.php:55 wpf-includes/wpf-hooks.php:2229
+#: wpf-includes/wpf-phrases.php:604
+msgid "Themes"
+msgstr "Temos"
+
+#: wpf-admin/admin.php:58 wpf-admin/options.php:24
+#: wpf-includes/wpf-hooks.php:2233 wpf-includes/wpf-phrases.php:25
+msgid "Addons"
+msgstr "Įskiepiai"
+
+#: wpf-admin/dashboard.php:7 wpf-includes/wpf-phrases.php:408
+msgid "wpForo Dashboard"
+msgstr "wpForo valdymo skydelis"
+
+#: wpf-admin/dashboard.php:23 wpf-includes/wpf-phrases.php:361
+msgid "Welcome Message"
+msgstr "Pasisveikinimo pranešimas"
+
+#: wpf-admin/dashboard.php:27
+msgid "Welcome to wpForo"
+msgstr "Jus sveikina wpForo"
+
+#: wpf-admin/dashboard.php:29
+msgid ""
+"Thank you for using wpForo! wpForo is a professional bulletin board for "
+"WorPress, and the only forum software which comes with Multi-layout template "
+"system.\n"
+"                                    The \"Extended\", \"Simplified\" and "
+"\"Question &amp Answer\" layouts fit almost all type of discussions needs. "
+"You can use wpForo for small and extremely large communities. \n"
+"                                    <br />If you found some issue or bug "
+"please open a support topic in plugin page or in our support forum at "
+"gVectors.com. If you liked wpForo please leave some good review for this "
+"plugin. We really need your good reviews. \n"
+"                                    If you didn't like wpForo please leave a "
+"list of issues and requirements you'd like us to fix and add in near future. "
+"We're here to help you and improve wpForo as much as possible."
+msgstr ""
+"Dėkojame, kad naudojatės wpForo! wpForo yra profesionali WordPress diskusijų."
+
+#: wpf-admin/dashboard.php:57 wpf-includes/wpf-phrases.php:130
+msgid "General Information"
+msgstr "Pagrindinė informacija"
+
+#: wpf-admin/dashboard.php:61 wpf-includes/wpf-phrases.php:368
+msgid "You are currently running"
+msgstr "Šiuo metu naudojate"
+
+#: wpf-admin/dashboard.php:62 wpf-includes/wpf-phrases.php:18
+msgid "Active Theme"
+msgstr "Aktyvi Tema"
+
+#: wpf-admin/dashboard.php:63 wpf-includes/wpf-phrases.php:413
+msgid "wpForo Website"
+msgstr "wpForo Svetainė"
+
+#: wpf-admin/dashboard.php:64 wpf-includes/wpf-phrases.php:319
+msgid "Support Forum"
+msgstr "Priežiūros Forumas"
+
+#: wpf-admin/dashboard.php:75 wpf-includes/wpf-phrases.php:289
+msgid "Server Information"
+msgstr "Serverio Informacija"
+
+#: wpf-admin/dashboard.php:110 wpf-includes/wpf-phrases.php:46
+msgid "Available"
+msgstr "Galima"
+
+#: wpf-admin/dashboard.php:110
+msgid ""
+"The setTimestamp() method of PHP DateTime class is not available. Please "
+"make sure you use PHP 5.4 and higher version on your hosting service."
+msgstr ""
+
+#: wpf-admin/dashboard.php:131 wpf-includes/wpf-phrases.php:49
+msgid "Board Statistic"
+msgstr "Statistika"
+
+#: wpf-admin/dashboard.php:141 wpf-admin/options-tabs/posts.php:17
+#: wpf-admin/options-tabs/styles.php:22 wpf-includes/class-forums.php:676
+#: wpf-includes/wpf-phrases.php:338
+msgid "Topics"
+msgstr "Temos"
+
+#: wpf-admin/dashboard.php:145 wpf-admin/options-tabs/posts.php:18
+#: wpf-includes/class-forums.php:676 wpf-includes/wpf-phrases.php:232
+msgid "Posts"
+msgstr "Įrašai"
+
+#: wpf-admin/dashboard.php:153 wpf-includes/wpf-phrases.php:179
+msgid "Members Online"
+msgstr "Prisijungę Nariai"
+
+#: wpf-admin/dashboard.php:163
+msgid "Avatars Size"
+msgstr "Pseudoportreto Dydis"
+
+#: wpf-admin/dashboard.php:167
+msgid "Default Attachments Size"
+msgstr "Numatytasis Priedo Dydis"
+
+#: wpf-admin/dashboard.php:173
+msgid "Advanced Attachments"
+msgstr "Papildomi Priedai"
+
+#: wpf-admin/dashboard.php:174
+msgid "file(s)"
+msgstr "dokumentas (ai)"
+
+#: wpf-admin/dashboard.php:177
+msgid "Advanced Attachments Size"
+msgstr "Papildomo Priedo Dydis"
+
+#: wpf-admin/dashboard.php:182
+msgid "Total Size"
+msgstr "Visas Dydis"
+
+#: wpf-admin/dashboard.php:192 wpf-includes/wpf-phrases.php:614
+msgid "Forum Maintenance"
+msgstr "Forumo Tvarkymas"
+
+#: wpf-admin/dashboard.php:194
+msgid ""
+"This process may take a few seconds or dozens of minutes, please be patient "
+"and don't close this page. If you got 500 Server Error please don't worry, "
+"the data updating process is still working in MySQL server."
+msgstr ""
+"Šis procesas gali užtrukti keletą minučių. Prašome būti kantriems ir "
+"neužverti šio lango. Jeigu rodo 500 serverio klaidą nesijaudinkite, duomenų "
+"atnaujinimas serveryje tebevyksta."
+
+#: wpf-admin/dashboard.php:205
+msgid "Delete All Caches"
+msgstr "Trinti Visus Podėlius (Caches)"
+
+#: wpf-admin/dashboard.php:206 wpf-includes/wpf-phrases.php:616
+msgid "Update Forums Statistic"
+msgstr "Atnaujinti Forumo Statistiką"
+
+#: wpf-admin/dashboard.php:207
+msgid "Update Topics Statistic"
+msgstr ""
+
+#: wpf-admin/dashboard.php:208 wpf-includes/wpf-phrases.php:617
+msgid "Update Users Statistic"
+msgstr "Atnaujinti Vartotojų Statistiką"
+
+#: wpf-admin/dashboard.php:209 wpf-includes/wpf-phrases.php:618
+msgid "Delete Phrase Cache"
+msgstr "Trinti Frazių Podėlį (Cache)"
+
+#: wpf-admin/dashboard.php:210 wpf-includes/wpf-phrases.php:639
+msgid "Delete User Cache"
+msgstr "Trinti Vartotojo Podėlį (Cache)"
+
+#: wpf-admin/dashboard.php:211
+msgid "Synch User Profiles"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:9
+msgid "Plugin Usage Feedback"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:18
+msgid ""
+"Please let us know why you are deactivating. Choosing one of the options "
+"below you will help us make it better for you and for other users."
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:24
+msgid "I'll reactivate it later"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:28
+msgid "The plugin is not working"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:29
+msgid "What kind of problems do you have?"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:33
+msgid "It's not what I was looking for"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:37
+msgid "I couldn't understand how to make it work"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:38 wpf-admin/deactivation-dialog.php:43
+msgid "What type of features you want to be in the plugin?"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:42
+msgid "The plugin is great, but I need specific features"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:47
+msgid "I didn't like plugin design"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:48
+msgid "What part of design you don't like or want to change?"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:52
+msgid "The plugin works very slow"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:53
+msgid ""
+"Could you please describe which features of the plugin slows down your "
+"website?"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:57
+msgid "I found a better plugin"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:58
+msgid "Please provide a plugin name or URL"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:62
+msgid "Other"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:63 wpf-includes/wpf-hooks.php:1192
+msgid "Please provide more information"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:67
+msgid "Dismiss and never show again"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:68
+msgid "Submit &amp; Deactivate"
+msgstr ""
+
+#: wpf-admin/deactivation-dialog.php:71
+msgid "Thank you for your feedback!"
+msgstr ""
+
+#: wpf-admin/forum.php:13 wpf-includes/functions.php:803
+#: wpf-includes/wpf-phrases.php:301
+msgid "Show on screen"
+msgstr "Rodyti lange"
+
+#: wpf-admin/forum.php:15 wpf-admin/forum.php:130
+#: wpf-includes/wpf-phrases.php:113
+msgid "Forum Options"
+msgstr "Forumo Nuostatos"
+
+#: wpf-admin/forum.php:16 wpf-includes/wpf-phrases.php:223
+msgid "Permissions"
+msgstr "Leidimai"
+
+#: wpf-admin/forum.php:17 wpf-includes/wpf-phrases.php:306
+msgid "Slug"
+msgstr "Priežodis"
+
+#: wpf-admin/forum.php:18 wpf-includes/wpf-phrases.php:112
+msgid "Forum Meta"
+msgstr "Forumo Metaduomenys"
+
+#: wpf-admin/forum.php:21 wpf-includes/wpf-phrases.php:273
+msgid "Screen Layout"
+msgstr "Ekrano Maketas"
+
+#: wpf-admin/forum.php:22 wpf-includes/wpf-phrases.php:209
+msgid "Number of Columns"
+msgstr "Stulpelių Skaičius"
+
+#: wpf-admin/forum.php:32 wpf-includes/functions.php:817
+#: wpf-includes/wpf-phrases.php:274
+msgid "Screen Options"
+msgstr "Ekrano Nuostatos"
+
+#: wpf-admin/forum.php:43 wpf-includes/wpf-phrases.php:51
+msgid "Categories and Forums"
+msgstr "Kategorijos ir Forumai"
+
+#: wpf-admin/forum.php:44 wpf-admin/options-tabs/general.php:96
+#: wpf-admin/themes.php:10 wpf-admin/usergroup.php:8
+#: wpf-includes/wpf-phrases.php:20
+msgid "Add New"
+msgstr "Pridėti Naują"
+
+#: wpf-admin/forum.php:54 wpf-admin/forum.php:130 wpf-admin/forum.php:178
+#: wpf-admin/forum.php:194 wpf-admin/forum.php:203
+#: wpf-admin/options-tabs/accesses.php:19 wpf-admin/options-tabs/emails.php:12
+#: wpf-admin/options-tabs/emails.php:16 wpf-admin/options-tabs/emails.php:21
+#: wpf-admin/options-tabs/emails.php:28 wpf-admin/options-tabs/emails.php:40
+#: wpf-admin/options-tabs/emails.php:52 wpf-admin/options-tabs/features.php:68
+#: wpf-admin/options-tabs/general.php:14 wpf-admin/options-tabs/general.php:18
+#: wpf-admin/options-tabs/general.php:23 wpf-admin/options-tabs/general.php:33
+#: wpf-admin/options-tabs/general.php:78 wpf-admin/options-tabs/general.php:89
+#: wpf-admin/options-tabs/members.php:13 wpf-admin/options-tabs/members.php:27
+#: wpf-admin/options-tabs/members.php:46 wpf-admin/options-tabs/members.php:87
+#: wpf-admin/options-tabs/posts.php:70 wpf-admin/options-tabs/posts.php:75
+#: wpf-admin/options-tabs/posts.php:82 wpf-admin/options-tabs/posts.php:88
+#: wpf-admin/options-tabs/posts.php:93 wpf-admin/options-tabs/posts.php:100
+#: wpf-admin/options-tabs/posts.php:108 wpf-admin/options-tabs/posts.php:124
+#: wpf-admin/options-tabs/styles.php:43 wpf-admin/usergroup.php:28
+#: wpf-admin/usergroup.php:30 wpf-admin/usergroup.php:243
+#: wpf-themes/classic/functions.php:39 wpf-themes/classic/functions.php:48
+#: wpf-themes/classic/functions.php:55 wpf-themes/classic/functions.php:69
+#: wpf-themes/classic/functions.php:78 wpf-themes/classic/functions.php:85
+#: wpf-themes/classic/functions.php:107 wpf-themes/classic/functions.php:117
+msgid "Read the documentation"
+msgstr ""
+
+#: wpf-admin/forum.php:56
+msgid "Important Tips"
+msgstr "Svarbu žinoti"
+
+#: wpf-admin/forum.php:57 wpf-includes/wpf-phrases.php:225
+msgid "Please drag and drop forum panels to set parent-child hierarchy."
+msgstr ""
+"Norėdami nustatyti forumo hierarchiją, prašome pele vilkti forumo panelę."
+
+#: wpf-admin/forum.php:58
+msgid ""
+"If a category (blue panels) does not have forums (grey panels) it will not "
+"be displayed on front-end. Each category should contain at least one forum."
+msgstr ""
+"Jei kategorijos (melynos panelės) neturi forumų (pilkų panelių), jos nebus "
+"rodomos puslapyje. Kiekviena kategorija turi turėti mažiausiai vieną forumą."
+
+#: wpf-admin/forum.php:59
+msgid ""
+"Forums can be displayed with different layouts (Extended, Simplified, Q&A), "
+"just edit the top (blue panels) category and set the layout you want. Child "
+"forums' layout depends on the top category (blue panels) layout. They cannot "
+"have a different layout."
+msgstr ""
+"Forumai gali būti rodomi su skirtingais maketais (Išplėstinis, "
+"Supaprastintas, Klausimai ir Atsakymai), tiesiog keiskite aukštesnes "
+"(mėlynos panelės) kategorijas ir nustatykite norimą maketą. 'Vaikinis' "
+"forumo maketas priklauso nuo viršutinės kategorijos (melynos panelės) "
+"maketo. Jų maketai negali skirtis."
+
+#: wpf-admin/forum.php:75 wpf-includes/wpf-phrases.php:272
+msgid "Save forums order and hierarchy"
+msgstr "Išsaugoti forumo tvarką ir hierarchiją"
+
+#: wpf-admin/forum.php:112 wpf-includes/wpf-phrases.php:87
+msgid "Enter forum title here"
+msgstr "Įrašykite forumo vardą"
+
+#: wpf-admin/forum.php:117 wpf-includes/wpf-phrases.php:86
+msgid "Enter description here . . ."
+msgstr "Įrašykite forumo aprašymą..."
+
+#: wpf-admin/forum.php:118 wpf-includes/wpf-phrases.php:329
+msgid ""
+"This is a forum description. This content will be displayed under forum "
+"title on the forum list."
+msgstr ""
+"Tai yra forumo aprašymas. Šis turinys bus rodomas forumo sąraše po forumo "
+"pavadinimu."
+
+#: wpf-admin/forum.php:133 wpf-includes/wpf-phrases.php:221
+msgid "Parent Forum"
+msgstr "Tėvinis forumas"
+
+#: wpf-admin/forum.php:136 wpf-includes/wpf-phrases.php:204
+msgid "No parent"
+msgstr "Nėra tėvinio"
+
+#: wpf-admin/forum.php:141 wpf-includes/wpf-phrases.php:346
+msgid "Use as Category"
+msgstr "Vartoti kaip Kategoriją"
+
+#: wpf-admin/forum.php:143 wpf-includes/wpf-phrases.php:52
+msgid "Category Layout"
+msgstr "Kategorijos Maketas"
+
+#: wpf-admin/forum.php:151 wpf-includes/wpf-phrases.php:202
+msgid "No layout found."
+msgstr "Nerasta maketų."
+
+#: wpf-admin/forum.php:160 wpf-admin/forum.php:168
+#: wpf-includes/wpf-phrases.php:234
+msgid "Publish"
+msgstr "Skelbti"
+
+#: wpf-admin/forum.php:164 wpf-includes/wpf-phrases.php:37
+msgid "Are you sure you want to delete this forum?"
+msgstr "Ar Jūs tikrai norite ištrinti šį forumą?"
+
+#: wpf-admin/forum.php:164 wpf-admin/themes.php:73
+#: wpf-admin/tools-tabs/antispam.php:302 wpf-admin/usergroup.php:70
+#: wpf-admin/usergroup.php:375 wpf-includes/wpf-hooks.php:1140
+#: wpf-includes/wpf-phrases.php:66
+msgid "Delete"
+msgstr "Trinti"
+
+#: wpf-admin/forum.php:165 wpf-admin/usergroup.php:72
+#: wpf-includes/class-forums.php:682 wpf-includes/wpf-phrases.php:355
+msgid "View"
+msgstr "Peržiūrėti"
+
+#: wpf-admin/forum.php:166 wpf-admin/options-tabs/accesses.php:76
+#: wpf-includes/wpf-phrases.php:343
+msgid "Update"
+msgstr "Atnaujinti"
+
+#: wpf-admin/forum.php:178
+msgid "Forum Permissions"
+msgstr ""
+
+#: wpf-admin/forum.php:194 wpf-includes/wpf-phrases.php:118
+msgid "Forum Slug"
+msgstr "Forumo Trumpinys"
+
+#: wpf-admin/forum.php:197 wpf-includes/wpf-phrases.php:322
+msgid ""
+"The \"slug\" is the URL-friendly version of the name. It is usually all "
+"lowercase and contains only letters, numbers, and hyphens."
+msgstr ""
+"\"Trumpinys\" - URL draugiška vardo versija. Dažniausiai pradedamas mažąja "
+"raide, jį sudaro raidės, skaičiai ir brūkšneliai."
+
+#: wpf-admin/forum.php:203
+msgid "Forum Icon"
+msgstr "Forumo Ikona"
+
+#: wpf-admin/forum.php:206
+msgid "Font-awesome Icon"
+msgstr "Font-awesome ikona"
+
+#: wpf-admin/forum.php:208
+msgid "You can find all icons"
+msgstr "Galite rasti visas ikonas"
+
+#: wpf-admin/forum.php:208
+msgid "here"
+msgstr "čia"
+
+#: wpf-admin/forum.php:208
+msgid ""
+"Make sure you insert a class of font-awesome icon, it should start with fa- "
+"prefix like &quot;fas fa-comments&quot;."
+msgstr ""
+"Įsitikinkite, kad įrašėte font-awesome ikonos klasę, ji turi prasidėti "
+"priešdėliu fa- kaip &quot;fas fa-comments&quot;."
+
+#: wpf-admin/forum.php:215 wpf-includes/wpf-phrases.php:116
+msgid "Forum SEO"
+msgstr "Forumo SEO"
+
+#: wpf-admin/forum.php:218 wpf-includes/wpf-phrases.php:184
+msgid "Meta Description"
+msgstr "Meta Aprašymas"
+
+#: wpf-admin/forum.php:247 wpf-includes/wpf-phrases.php:328
+msgid "This action will also delete all sub-forums, topics and replies."
+msgstr "Šis veiksmas taip pat ištrins visus subforumus, temas ir atsakymus."
+
+#: wpf-admin/forum.php:255 wpf-includes/wpf-phrases.php:137
+msgid ""
+"If you want to delete this forum and keep its sub-forums, topics and "
+"replies, please select a new target forum in dropdown below"
+msgstr ""
+"Norėdami ištrinti šį forumą ir išsaugoti jo subforumus, temas ir atsakymus, "
+"prašome pasirinkti naują paskirties forumą iš pasirinkčių sąrašo"
+
+#: wpf-admin/forum.php:264 wpf-includes/wpf-phrases.php:26
+msgid ""
+"All sub-forums, topics and replies will be attached to selected forum. "
+"Layout will be inherited from this forum."
+msgstr ""
+"Visi subforumai, temos ir atsakymai bus prisegti prie pažymėto forumo. "
+"Maketas bus paveldėtas iš šio forumo."
+
+#: wpf-admin/moderation.php:10
+msgid "Topic and Post Moderation"
+msgstr "Temos ir Įrašo Priežiūra (moderavimas)"
+
+#: wpf-admin/options-tabs/accesses.php:14 wpf-includes/wpf-phrases.php:21
+msgid "Add New Forum Access"
+msgstr "Pridėti Naują Forumo Prieigą"
+
+#: wpf-admin/options-tabs/accesses.php:19 wpf-includes/wpf-phrases.php:15
+msgid "Access names"
+msgstr "Prieigų vardai"
+
+#: wpf-admin/options-tabs/accesses.php:20
+msgid ""
+"Forum Accesses are designed to do a Forum specific user permission control. "
+"These are set of permissions which are attached to certain Usergeoup in each "
+"forum. Thus users can have different permissions in different forums based "
+"on their Usergroup."
+msgstr ""
+
+#: wpf-admin/options-tabs/accesses.php:34
+#: wpf-admin/options-tabs/accesses.php:35
+#: wpf-admin/options-tabs/accesses.php:36
+msgid "This access is usually used for "
+msgstr "Ši prieiga įprastai naudojama "
+
+#: wpf-admin/options-tabs/accesses.php:34
+msgid "Guests"
+msgstr "Svečiai"
+
+#: wpf-admin/options-tabs/accesses.php:34
+#: wpf-admin/options-tabs/accesses.php:35
+#: wpf-admin/options-tabs/accesses.php:36
+msgid "usergroup"
+msgstr "vartotojų grupė"
+
+#: wpf-admin/options-tabs/accesses.php:35 wpf-includes/wpf-phrases.php:626
+msgid "Registered"
+msgstr "Registruotas"
+
+#: wpf-admin/options-tabs/accesses.php:36 wpf-includes/wpf-phrases.php:624
+msgid "Admin"
+msgstr "Administratorius"
+
+#: wpf-admin/options-tabs/accesses.php:40 wpf-includes/class-forums.php:678
+#: wpf-includes/functions.php:613 wpf-includes/wpf-phrases.php:381
+msgid "edit"
+msgstr "redaguoti"
+
+#: wpf-admin/options-tabs/accesses.php:42 wpf-includes/wpf-phrases.php:39
+msgid ""
+"Are you sure you want to remove this access set? Usergroups which attached "
+"to this access will lost all forum permissions."
+msgstr ""
+"Ar tikrai norite pašalinti šią prieigos rūšį? Šiai prieigai priskirtos "
+"Vartotojų Grupės neteks visų forumo leidimų."
+
+#: wpf-admin/options-tabs/accesses.php:42 wpf-includes/class-forums.php:680
+#: wpf-includes/functions.php:631 wpf-includes/functions.php:641
+#: wpf-includes/wpf-phrases.php:380
+msgid "delete"
+msgstr "trinti"
+
+#: wpf-admin/options-tabs/accesses.php:57 wpf-includes/wpf-phrases.php:14
+msgid "Access name"
+msgstr "Paskyros vardas"
+
+#: wpf-admin/options-tabs/accesses.php:76 wpf-includes/wpf-phrases.php:270
+msgid "Save"
+msgstr "Įrašyti"
+
+#: wpf-admin/options-tabs/api.php:22
+msgid "Facebook API Configuration"
+msgstr "Facebook API nustatymas"
+
+#: wpf-admin/options-tabs/api.php:23
+msgid ""
+"In order to get an App ID and Secret Key from Facebook, you’ll need to "
+"register a new application. Don’t worry – its very easy, and your "
+"application doesn't need to do anything. We only need the keys."
+msgstr ""
+"Norėdami gauti Facebook APP ID ir Secret Key, turite registruoti naują "
+"programą. Nesijaudinkite - tai labai lengva, o Jūsų programa neturi nieko "
+"daryti. Mums reikia tik raktų."
+
+#: wpf-admin/options-tabs/api.php:23
+msgid "Please follow to this instruction"
+msgstr "Prašome sekti šiais nurodymais"
+
+#: wpf-admin/options-tabs/api.php:26
+msgid "App ID"
+msgstr "App ID"
+
+#: wpf-admin/options-tabs/api.php:27
+msgid "App Secret"
+msgstr "App Secret"
+
+#: wpf-admin/options-tabs/api.php:32
+msgid "Facebook Login"
+msgstr "Facebook Prieiga"
+
+#: wpf-admin/options-tabs/api.php:33
+msgid "Adds Facebook Login button on Registration and Login pages."
+msgstr ""
+"Prideda Facebook Prieigos mygtuką į Registracijos ir Prisijungimo puslapius."
+
+#: wpf-admin/options-tabs/api.php:37 wpf-admin/options-tabs/api.php:49
+#: wpf-admin/options-tabs/api.php:60 wpf-admin/options-tabs/api.php:71
+#: wpf-admin/options-tabs/api.php:140 wpf-admin/options-tabs/api.php:147
+#: wpf-admin/options-tabs/members.php:94 wpf-admin/options-tabs/posts.php:26
+#: wpf-admin/options-tabs/posts.php:42 wpf-admin/options-tabs/posts.php:54
+#: wpf-admin/tools-tabs/legal.php:48 wpf-admin/tools-tabs/legal.php:60
+#: wpf-admin/tools-tabs/legal.php:82 wpf-admin/tools-tabs/legal.php:117
+#: wpf-admin/tools-tabs/legal.php:129 wpf-admin/tools-tabs/legal.php:148
+msgid "Enable"
+msgstr "Įgalinti"
+
+#: wpf-admin/options-tabs/api.php:38 wpf-admin/options-tabs/api.php:50
+#: wpf-admin/options-tabs/api.php:61 wpf-admin/options-tabs/api.php:72
+#: wpf-admin/options-tabs/api.php:141 wpf-admin/options-tabs/api.php:148
+#: wpf-admin/options-tabs/members.php:95 wpf-admin/options-tabs/posts.php:27
+#: wpf-admin/options-tabs/posts.php:43 wpf-admin/options-tabs/posts.php:55
+#: wpf-admin/tools-tabs/legal.php:49 wpf-admin/tools-tabs/legal.php:61
+#: wpf-admin/tools-tabs/legal.php:83 wpf-admin/tools-tabs/legal.php:118
+#: wpf-admin/tools-tabs/legal.php:130 wpf-admin/tools-tabs/legal.php:149
+msgid "Disable"
+msgstr "Atšaukti"
+
+#: wpf-admin/options-tabs/api.php:44
+msgid "Facebook SDK for JavaScript"
+msgstr "Facebook JavaScript SDK"
+
+#: wpf-admin/options-tabs/api.php:45
+msgid "Facebook API connection script (sharing, login, cross-posting...)"
+msgstr ""
+"Facebook API prisijungimo skriptas (bendrinimas, prisijungimas, įrašai "
+"keliose platformose...)"
+
+#: wpf-admin/options-tabs/api.php:56
+msgid "Facebook Login button on User Login page"
+msgstr "Facebook Prisijungimo mygtukas Vartotojo prisijungimo puslapyje"
+
+#: wpf-admin/options-tabs/api.php:67
+msgid "Facebook Login button on User Registration page"
+msgstr "Facebook Prisijungimo mygtukas Vartotojo registracijos puslapyje"
+
+#: wpf-admin/options-tabs/api.php:78
+msgid "Redirect to this page after success login"
+msgstr "Peradresuoti į šį puslapį sėkmingai prisijungus"
+
+#: wpf-admin/options-tabs/api.php:82 wpf-includes/wpf-phrases.php:633
+msgid "Profile"
+msgstr "Profilis"
+
+#: wpf-admin/options-tabs/api.php:84
+msgid "Custom"
+msgstr "Pritaikymas"
+
+#: wpf-admin/options-tabs/api.php:86
+msgid "Custom URL, e.g.: http://example.com/my-page/"
+msgstr "Pritaikytas URL, pvz., http://pavyzdys.com/mano-puslapis/"
+
+#: wpf-admin/options-tabs/api.php:86
+msgid "Custom URL"
+msgstr "Pritaikytas URL"
+
+#: wpf-admin/options-tabs/api.php:93
+msgid "Share Buttons"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:102
+msgid "Active Share Buttons"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:103
+msgid ""
+"Check the checkbox below share options to activate. <b>Please note, that the "
+"Facebook share button cannot be activated without Facebook API ID.</b> "
+"Please follow to the \"Facebook API Configuration\" option instruction above "
+"and fill the API ID field in order to activate Facebook Share button."
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:133
+msgid "Enable Share Buttons"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:138 wpf-admin/options-tabs/api.php:156
+#: wpf-admin/options-tabs/api.php:212
+msgid "General Share Buttons"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:145 wpf-admin/options-tabs/api.php:173
+#: wpf-admin/options-tabs/api.php:224
+msgid "Post Sharing Toggle"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:157
+msgid ""
+"General share buttons are forum and topic sharing buttons. They are located "
+"on the top and the bottom of each page. You can manage location of these "
+"buttons using \"Share Buttons Location\" options bellow."
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:161
+msgid "Grey"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:162
+msgid "Colored"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:165
+msgid "Icon"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:166
+msgid "Button"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:167
+msgid "Button &amp; Count"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:174
+msgid ""
+"Post sharing toggle allows you to share posts individually. You can see post "
+"sharing toggles on the left, right side or in top bar of each post. The "
+"toggle blue color is the current primary color (#12) of your forum style. "
+"For example, if you use the red forum style, the color of all share toggles "
+"will be red. This doesn't affect share button colors. They are always grey "
+"with original colors on mouse hover."
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:195 wpf-includes/wpf-phrases.php:55
+#: wpf-themes/classic/functions.php:43 wpf-themes/classic/functions.php:73
+#: wpf-themes/classic/functions.php:111
+msgid "Collapsed"
+msgstr "Suglaustas"
+
+#: wpf-admin/options-tabs/api.php:196 wpf-includes/wpf-phrases.php:89
+#: wpf-themes/classic/functions.php:42 wpf-themes/classic/functions.php:72
+#: wpf-themes/classic/functions.php:110
+msgid "Expanded"
+msgstr "Išplėstas"
+
+#: wpf-admin/options-tabs/api.php:199
+msgid "Mixed"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:200
+msgid "Figure"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:201
+msgid "Square"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:207
+msgid "Share Button Locations"
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:208
+msgid ""
+"The post sharing toggle can be displayed either on the left side or on the "
+"top of each post. The general share buttons can be displayed on both (top "
+"and bottom) locations."
+msgstr ""
+
+#: wpf-admin/options-tabs/api.php:245 wpf-admin/options-tabs/emails.php:164
+#: wpf-admin/options-tabs/features.php:89 wpf-admin/options-tabs/forums.php:16
+#: wpf-admin/options-tabs/general.php:103
+#: wpf-admin/options-tabs/members.php:181 wpf-admin/options-tabs/posts.php:135
+#: wpf-admin/options-tabs/styles.php:93 wpf-admin/tools-tabs/antispam.php:343
+#: wpf-admin/tools-tabs/cleanup.php:49 wpf-admin/tools-tabs/legal.php:179
+#: wpf-admin/tools-tabs/misc.php:134 wpf-includes/wpf-phrases.php:344
+msgid "Update Options"
+msgstr "Atnaujinti Nuostatas"
+
+#: wpf-admin/options-tabs/emails.php:12
+msgid "FROM Name"
+msgstr "NUO vardas"
+
+#: wpf-admin/options-tabs/emails.php:16
+msgid "FROM Email Address"
+msgstr "NUO el. pašto adresas"
+
+#: wpf-admin/options-tabs/emails.php:21
+msgid "Forum Admins email addresses"
+msgstr "Forumo Administratorių el. pašto adresai"
+
+#: wpf-admin/options-tabs/emails.php:22 wpf-includes/wpf-phrases.php:57
+msgid ""
+"Comma separated email addresses of forum administrators to get forum "
+"notifications. For example post report messages."
+msgstr ""
+"Kableliais atskirti forumo administratorių el. pašto adresai, kurie gaus "
+"forumo pranešimus (pvz., įrašo ataskaitos žinutes), ."
+
+#: wpf-admin/options-tabs/emails.php:28
+msgid "Notify Admins via email on new Topic"
+msgstr "El. paštu informuoti Administratorių apie naują temą"
+
+#: wpf-admin/options-tabs/emails.php:29
+msgid ""
+"Send Notification emails to all email addresses (comma separated ) of forum "
+"administrators when a new Topic is created."
+msgstr ""
+"Visiems forumo administratoriams el. paštu (adresai, atskiriami kableliais) "
+"siųsti  pranešimus kai sukuriama nauja tema."
+
+#: wpf-admin/options-tabs/emails.php:33 wpf-admin/options-tabs/emails.php:45
+#: wpf-admin/options-tabs/emails.php:148 wpf-admin/options-tabs/features.php:77
+#: wpf-admin/tools-tabs/antispam.php:31 wpf-admin/tools-tabs/antispam.php:40
+#: wpf-admin/tools-tabs/antispam.php:49 wpf-admin/tools-tabs/antispam.php:150
+#: wpf-admin/tools-tabs/antispam.php:159 wpf-admin/tools-tabs/antispam.php:169
+#: wpf-admin/tools-tabs/antispam.php:178 wpf-admin/tools-tabs/antispam.php:187
+#: wpf-admin/tools-tabs/antispam.php:196 wpf-admin/tools-tabs/antispam.php:205
+#: wpf-admin/tools-tabs/antispam.php:214 wpf-admin/tools-tabs/antispam.php:262
+#: wpf-admin/tools-tabs/cleanup.php:39 wpf-includes/functions-template.php:673
+#: wpf-includes/wpf-phrases.php:366
+msgid "Yes"
+msgstr "Taip"
+
+#: wpf-admin/options-tabs/emails.php:34 wpf-admin/options-tabs/emails.php:46
+#: wpf-admin/options-tabs/emails.php:149 wpf-admin/options-tabs/features.php:79
+#: wpf-admin/tools-tabs/antispam.php:32 wpf-admin/tools-tabs/antispam.php:41
+#: wpf-admin/tools-tabs/antispam.php:50 wpf-admin/tools-tabs/antispam.php:151
+#: wpf-admin/tools-tabs/antispam.php:160 wpf-admin/tools-tabs/antispam.php:170
+#: wpf-admin/tools-tabs/antispam.php:179 wpf-admin/tools-tabs/antispam.php:188
+#: wpf-admin/tools-tabs/antispam.php:197 wpf-admin/tools-tabs/antispam.php:206
+#: wpf-admin/tools-tabs/antispam.php:215 wpf-admin/tools-tabs/antispam.php:263
+#: wpf-admin/tools-tabs/cleanup.php:40 wpf-includes/functions-template.php:674
+#: wpf-includes/wpf-phrases.php:196
+msgid "No"
+msgstr "Ne"
+
+#: wpf-admin/options-tabs/emails.php:40
+msgid "Notify Admins via email on new Post"
+msgstr "Pranešti Administratorius el. paštu apie naują įrašą"
+
+#: wpf-admin/options-tabs/emails.php:41
+msgid ""
+"Send Notification emails to all email addresses (comma separated ) of forum "
+"administrators when a new Reply is created."
+msgstr ""
+"Visiems forumo administratoriams el. paštu (adresai, atskiriami kableliais) "
+"siųsti  pranešimus kai pateikiamas naujas atsakymas."
+
+#: wpf-admin/options-tabs/emails.php:52 wpf-includes/wpf-phrases.php:317
+msgid "Subscription Emails"
+msgstr "Prenumeratos El. pašto adresai"
+
+#: wpf-admin/options-tabs/emails.php:56 wpf-includes/wpf-phrases.php:314
+msgid "Subscribe confirmation email subject"
+msgstr "Prenumeratos patvirtinimo el. laiško pavadinimas"
+
+#: wpf-admin/options-tabs/emails.php:60 wpf-includes/wpf-phrases.php:313
+msgid "Subscribe confirmation email message"
+msgstr "Prenumeratos patvirtinimo el. laiško žinutės tekstas"
+
+#: wpf-admin/options-tabs/emails.php:64 wpf-includes/wpf-phrases.php:195
+msgid "New topic notification email subject"
+msgstr "Pranešimo apie naują temą el. laiško pavadinimas"
+
+#: wpf-admin/options-tabs/emails.php:68 wpf-includes/wpf-phrases.php:194
+msgid "New topic notification email message"
+msgstr "Pranešimo apie naują temą el. laiško žinutės tekstas"
+
+#: wpf-admin/options-tabs/emails.php:72 wpf-includes/wpf-phrases.php:193
+msgid "New reply notification email subject"
+msgstr "Pranešimo apie naują atsakymą el. laiško pavadinimas"
+
+#: wpf-admin/options-tabs/emails.php:76 wpf-includes/wpf-phrases.php:192
+msgid "New reply notification email message"
+msgstr "Pranešimo apie naują atsakymą el. laiško žinutės tekstas"
+
+#: wpf-admin/options-tabs/emails.php:81 wpf-includes/wpf-phrases.php:227
+msgid "Post Reporting Emails"
+msgstr "Pranešimo apie Įrašą el. laiškai"
+
+#: wpf-admin/options-tabs/emails.php:82 wpf-includes/wpf-phrases.php:331
+msgid "This message comes from post reporting pop-up form."
+msgstr "Ši žinutė atėjo iš įrašo pranešimo pop-up formos."
+
+#: wpf-admin/options-tabs/emails.php:87 wpf-includes/wpf-phrases.php:266
+msgid "Report message subject"
+msgstr "Prenumeratos patvirtinimo el. laiško žinutės tekstas"
+
+#: wpf-admin/options-tabs/emails.php:92 wpf-includes/wpf-phrases.php:265
+msgid "Report message body"
+msgstr "Pranešimo apie naują temą el. laiško žinutės tekstas"
+
+#: wpf-admin/options-tabs/emails.php:97
+msgid "New User Registration Email for admins"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:98 wpf-admin/options-tabs/emails.php:114
+msgid "This message comes when new user registers to site"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:103 wpf-admin/options-tabs/emails.php:119
+msgid "Message Subject"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:108 wpf-admin/options-tabs/emails.php:124
+msgid "Message Body"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:113
+msgid "New User Registration Email for user"
+msgstr ""
+
+#: wpf-admin/options-tabs/emails.php:129
+msgid "Reset Password Emails"
+msgstr "Slaptažodžio Atšaukimo El. laiškai"
+
+#: wpf-admin/options-tabs/emails.php:130
+msgid "This message comes from Reset Password form."
+msgstr "Ši žinutė atėjo iš Slaptažodžio atšaukimo pop-up formos."
+
+#: wpf-admin/options-tabs/emails.php:134
+msgid "Reset Password message body"
+msgstr "Slaptažodžio Atšaukimo el. laiškai"
+
+#: wpf-admin/options-tabs/emails.php:139
+msgid "User Mentioning Email"
+msgstr "Vartotojo Paminėjimo el. laiškai"
+
+#: wpf-admin/options-tabs/emails.php:144
+msgid "Enable Email Notification"
+msgstr "Įgalinti Informavimą el. laišku"
+
+#: wpf-admin/options-tabs/emails.php:154
+msgid "User Mention message subject"
+msgstr "Vartotojo Paminėjimo žinutės pavadinimas"
+
+#: wpf-admin/options-tabs/emails.php:158
+msgid "User Mention message body"
+msgstr "Vartotojo Paminėjimo žinutės turinys"
+
+#: wpf-admin/options-tabs/features.php:9 wpf-includes/wpf-phrases.php:294
+msgid "Show Admin Bar for Members"
+msgstr "Rodyti Vartotojams Administratoriaus eilutę"
+
+#: wpf-admin/options-tabs/features.php:9 wpf-includes/wpf-phrases.php:332
+msgid "This option doesn't affect website admins."
+msgstr "Šis pasirinkimas neįtakoja puslapio administratorių."
+
+#: wpf-admin/options-tabs/features.php:10 wpf-includes/wpf-phrases.php:296
+msgid "Show Forum Page Title"
+msgstr "Rodyti Forumo Puslapio pavadinimą"
+
+#: wpf-admin/options-tabs/features.php:11 wpf-includes/wpf-phrases.php:299
+msgid "Show Top/Menu Bar"
+msgstr "Rodyti Viršutinę/Meniu eilutę"
+
+#: wpf-admin/options-tabs/features.php:12 wpf-includes/wpf-phrases.php:298
+msgid "Show Top Search"
+msgstr "Rodyti Paiešką viršuje"
+
+#: wpf-admin/options-tabs/features.php:13 wpf-includes/wpf-phrases.php:295
+msgid "Show Breadcrumb"
+msgstr "Rodyti Puslapio Kelią"
+
+#: wpf-admin/options-tabs/features.php:14 wpf-includes/wpf-phrases.php:297
+msgid "Show Forum Statistic"
+msgstr "Rodyti Forumo Statistiką"
+
+#: wpf-admin/options-tabs/features.php:15
+msgid "Show Member Mention Nicknames"
+msgstr "Rodyti Vartotojo Paminėjimo Slapyvardį"
+
+#: wpf-admin/options-tabs/features.php:16
+msgid "Enable WordPress Shortcodes in Post Content"
+msgstr "Įgalinti WordPress Trumpuosius kodus Įrašuose"
+
+#: wpf-admin/options-tabs/features.php:17 wpf-includes/wpf-phrases.php:697
+msgid "Log Viewed Forums and Topics"
+msgstr "Sekti peržiūrėtus Forumus ir Temas"
+
+#: wpf-admin/options-tabs/features.php:18 wpf-includes/wpf-phrases.php:257
+msgid "Replace Author Link to Forum Profile"
+msgstr "Pakeisti Autoriaus Nuorodą į Forumo Profilį"
+
+#: wpf-admin/options-tabs/features.php:19 wpf-includes/wpf-phrases.php:258
+msgid "Replace Comment Author Link to Forum Profile"
+msgstr "Pakeisti Komentaro Autoriaus nuorodą į Forumo Profilį"
+
+#: wpf-admin/options-tabs/features.php:20 wpf-includes/wpf-phrases.php:636
+msgid "Enable User Registration"
+msgstr "Įgalinti Vartotojo Registraciją"
+
+#: wpf-admin/options-tabs/features.php:20 wpf-includes/wpf-phrases.php:637
+msgid ""
+"This option is not synced with WordPress \"Anyone can register\" option in "
+"Dashboard > Settings > General admin page. If this option is enabled new "
+"users will always be able to register."
+msgstr ""
+"Ši opcija nėra sugretinta su Wordpress Valdymo skydelis > Nuostatos > "
+"Pagrindinės administratoriaus puslapio opcija \"Kiekvienas gali registruotis"
+"\". Aktyvavus šią funkciją, nauji vartotojai visada turės galimybė "
+"registruotis."
+
+#: wpf-admin/options-tabs/features.php:21
+msgid "Enable User Registration email confirmation"
+msgstr "Įgalinti Vartotojo Registracijos patvirtinimą el. paštu"
+
+#: wpf-admin/options-tabs/features.php:21
+msgid ""
+"If you have enabled this option, after registering, user can not login "
+"without confirming the email."
+msgstr ""
+"Jeigu Jūs įgalinate šią opciją, vartotojas po registracijos negalės "
+"prisijungti nepatvirtinęs el. pašto adreso."
+
+#: wpf-admin/options-tabs/features.php:22 wpf-includes/wpf-phrases.php:260
+msgid "Replace Registration Page URL to Forum Registration Page URL"
+msgstr ""
+"Pakeisti Registracijos Puslapio URL į Forumo Registracijos Puslapio URL"
+
+#: wpf-admin/options-tabs/features.php:23 wpf-includes/wpf-phrases.php:259
+msgid "Replace Login Page URL to Forum Login Page URL"
+msgstr "Pakeisti Prisijungimo Puslapio URL į Forumo Prisijungimo Puslapio URL"
+
+#: wpf-admin/options-tabs/features.php:24 wpf-includes/wpf-phrases.php:698
+msgid "Replace Reset Password Page URL to Forum Reset Password Page URL"
+msgstr ""
+"Pakeisti Atnaujinti Slaptažodį Puslapio URL į Forumo Atnaujinti Slaptažodį "
+"Puslapio URL"
+
+#: wpf-admin/options-tabs/features.php:25 wpf-includes/wpf-phrases.php:256
+msgid "Replace Author Avatar with Forum Profile Avatar"
+msgstr "Pakeisti Autoriaus Pseudoportretą į Forumo Profilio Avatarą"
+
+#: wpf-admin/options-tabs/features.php:26 wpf-includes/wpf-phrases.php:77
+msgid "Enable Avatars"
+msgstr "Įgalinti Pseudoportretus"
+
+#: wpf-admin/options-tabs/features.php:27 wpf-includes/wpf-phrases.php:78
+msgid "Enable Custom Avatars"
+msgstr "Įgalinti pritaikytus Pseudoportretus"
+
+#: wpf-admin/options-tabs/features.php:28 wpf-includes/wpf-phrases.php:31
+msgid "Allow Member Signature"
+msgstr "Leisti Vartotojo Parašą"
+
+#: wpf-admin/options-tabs/features.php:29 wpf-includes/wpf-phrases.php:80
+msgid "Enable Member Rating"
+msgstr "Leisti Vartotojo Reitingavimą"
+
+#: wpf-admin/options-tabs/features.php:30 wpf-includes/wpf-phrases.php:81
+msgid "Enable Member Rating Titles"
+msgstr "Leisti Vartotojo Reitingavimo Pavadinimus"
+
+#: wpf-admin/options-tabs/features.php:31 wpf-includes/wpf-phrases.php:79
+msgid "Enable Member Cache"
+msgstr "Leisti Vartotojo Podėlį (Cache)"
+
+#: wpf-admin/options-tabs/features.php:32
+msgid "Enable Object Cache"
+msgstr "Leisti Objekto Podėlį (Cache)"
+
+#: wpf-admin/options-tabs/features.php:33
+msgid "Enable HTML Cache"
+msgstr "Leisti HTML Podėlį (Cache)"
+
+#: wpf-admin/options-tabs/features.php:34
+msgid "Enable Memory Cache"
+msgstr "Leisti Atminties Podėlį (Cache)"
+
+#: wpf-admin/options-tabs/features.php:35 wpf-includes/wpf-phrases.php:84
+msgid "Enable wpForo SEO for Meta Titles"
+msgstr "Įgalinti wpForo SEO Meta Pavadinimams"
+
+#: wpf-admin/options-tabs/features.php:36 wpf-includes/wpf-phrases.php:83
+msgid "Enable wpForo SEO for Meta Tags"
+msgstr "Įgalinti wpForo SEO Meta Žymėms"
+
+#: wpf-admin/options-tabs/features.php:37
+msgid "Enable User Profile Page indexing"
+msgstr "Įgalinti Vartotojo Profilio Puslapio indeksavimą"
+
+#: wpf-admin/options-tabs/features.php:38 wpf-includes/wpf-phrases.php:699
+msgid "Enable RSS Feed"
+msgstr "Įgalinti RSS Feed"
+
+#: wpf-admin/options-tabs/features.php:39
+msgid "Turn Off User Syncing Note"
+msgstr "Išjungti Vartotojo Gretinimo Žymą"
+
+#: wpf-admin/options-tabs/features.php:40
+msgid "BuddyPress Activity Integration"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:40
+msgid ""
+"Posts members activity (new topic, new reply, post like) to BuddyPress "
+"Profile Activity page."
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:41
+msgid "BuddyPress Notification Integration"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:41
+msgid ""
+"Creates notification on new forum reply in BuddyPress Profile Notification "
+"page."
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:42
+msgid "BuddyPress Profile Forum Tab Integration"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:42
+msgid ""
+"Adds \"Forums\" tab with \"Created Topics\", \"Posted Replies\", \"Liked "
+"Posts\" and \"Subscriptions\" sub-tabs to BuddyPress Profile page."
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:43
+msgid "Replace Forum Profile with BuddyPress Profile"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:43
+msgid "Replaces wpForo Member Profile page with BuddyPress Profile Page."
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:44
+msgid "Ultimate Member Notification Integration"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:44
+msgid ""
+"Creates notification on new forum reply in Ultimate Member Real-time "
+"Notification system."
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:45
+msgid "Ultimate Member Profile Forum Tab Integration"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:45
+msgid ""
+"Adds \"Forums\" tab with \"Created Topics\", \"Posted Replies\", \"Liked "
+"Posts\" and \"Subscriptions\" sub-tabs to Ultimate Member Profile page."
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:46
+msgid "Replace Forum Profile with Ultimate Member Profile"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:46
+msgid "Replaces wpForo Member Profile page with Ultimate Member Profile Page."
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:47 wpf-includes/wpf-phrases.php:82
+msgid "Enable wpForo Font-Awesome Lib"
+msgstr "Įgalinti wpForo Font-Awesome biblioteką"
+
+#: wpf-admin/options-tabs/features.php:48 wpf-includes/wpf-phrases.php:85
+msgid "Enable Output Buffer"
+msgstr "Įgalinti Išeinantį Buferį"
+
+#: wpf-admin/options-tabs/features.php:48 wpf-includes/wpf-phrases.php:330
+msgid ""
+"This feature is useful if you're adding content before or after [wpforo] "
+"shortcode in page content. Also it useful if forum is loaded before website "
+"header, on top of the front-end."
+msgstr ""
+"Ši opcija naudinga, jei papildote turinį prieš arba po [wpforo] trumpojo "
+"kodo. Taip pat ji naudinga jei forumas užkrautas prieš svetainės headerį, "
+"front-endo viršuje."
+
+#: wpf-admin/options-tabs/features.php:49
+msgid "Enable WordPress Date/Time Format"
+msgstr "Įgalinti WordPress Datos/Laiko Formatus"
+
+#: wpf-admin/options-tabs/features.php:49 wpf-includes/wpf-phrases.php:601
+msgid ""
+"You can manage WordPress date and time format in WordPress Settings > "
+"General admin page."
+msgstr ""
+"Jūs galite valdyti WordPress datos ir laiko formatą Wordpress Nuostatos > "
+"Pagrindinės administratoriaus puslapyje."
+
+#: wpf-admin/options-tabs/features.php:50 wpf-includes/wpf-phrases.php:612
+msgid "Enable Subscription Confirmation"
+msgstr "Įgalinti Registracijos Prenumeratą"
+
+#: wpf-admin/options-tabs/features.php:50 wpf-includes/wpf-phrases.php:613
+msgid "Forum and Topic subscription with double opt-in/confirmation system."
+msgstr ""
+"Forumo ir Temos prenumerata su dviguba prisijungimo/patvirtinimo sistema."
+
+#: wpf-admin/options-tabs/features.php:51
+msgid "Topic subscription option on post editor"
+msgstr "Temos prenumeratos opcija įrašo editoriuje"
+
+#: wpf-admin/options-tabs/features.php:51
+msgid ""
+"This option adds topic subscription checkbox next to new topic and post "
+"submit button."
+msgstr ""
+"Ši opcija prideda temos prenumeratos patvirtinimo 'checkbox'ą; šalia naujos "
+"temos ir skelbti įrašą mygtuko."
+
+#: wpf-admin/options-tabs/features.php:52
+msgid "Topic subscription option on post editor - checked/enabled"
+msgstr "Temos prenumeratos opcija įrašo redaktoriuje pažymėta/įgalinta"
+
+#: wpf-admin/options-tabs/features.php:52
+msgid ""
+"Enable this option if you want the topic subscription checkbox to be checked "
+"by default."
+msgstr ""
+"Įgalinkite šią opciją jei norite, kad temos prenumeratos opcija būtų "
+"pažymėta pagal nutylėjimą."
+
+#: wpf-admin/options-tabs/features.php:53
+msgid "Role-Usergroup Synchronization"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:53
+msgid ""
+"Keep enabled this option to synch WordPress User Roles with Forum "
+"Usergroups. This connection allows to automatically change Usergroup of a "
+"user when his/her User Role is changed by administrators or by membership "
+"plugins. In other words this option allows to manage Usergroups based on "
+"Users Roles, thus you can directly control users forum accesses based on "
+"Users Roles. If this option is turned off, User Roles don't have any "
+"affection to users forum accesses, they are only controlled by forum "
+"Usergroups."
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:54 wpf-includes/wpf-phrases.php:640
+msgid "Insert Forum Attachments to Media Library"
+msgstr "Įterpti Forumo Priedus į Media Biblioteką"
+
+#: wpf-admin/options-tabs/features.php:54 wpf-includes/wpf-phrases.php:641
+msgid ""
+"Enable this option to be able manage forum attachments in Dashboard > Media "
+"> Library admin page."
+msgstr ""
+"Įgalinkite šią opciją, kad valdyti forumo priedus Valdymo Skydelis > Media > "
+"Biblioteka administratoriaus puslapyje."
+
+#: wpf-admin/options-tabs/features.php:55 wpf-includes/wpf-phrases.php:605
+msgid "Enable Debug Mode"
+msgstr "Įgalinti Klaidų Taisymo Režimą"
+
+#: wpf-admin/options-tabs/features.php:55 wpf-includes/wpf-phrases.php:606
+msgid ""
+"If you got some issue with wpForo, please enable this option before asking "
+"for support, this outputs hidden important information to help us debug your "
+"issue."
+msgstr ""
+"Jeigu turite problemų su wpForo, prieš prašant priežiūros pagalbos, "
+"įgalinkite šią opciją - tai parodys viešai nerodomą reikalingą informaciją, "
+"kuri mums padės sprendžiant Jūsų problemą."
+
+#: wpf-admin/options-tabs/features.php:56 wpf-includes/wpf-phrases.php:134
+msgid "Help wpForo to grow, show plugin info"
+msgstr "Leiskite wpForo augti, parodykite Įskiepio informaciją"
+
+#: wpf-admin/options-tabs/features.php:56 wpf-includes/wpf-phrases.php:226
+msgid ""
+"Please enable this option to help wpForo get more popularity as your thank "
+"to the hard work we do for you totally free. This option adds a very small "
+"icon in forum footer, which will allow your site visitors recognize the name "
+"of forum solution you use."
+msgstr ""
+"Prašome įgalinti šią opciją ir taip padėti wpForo įgyti didesnį populiarumą "
+"kaip jūsų padėką už sunkų darbą, kurį mes dirbame jums nemokamai. Ši opcija "
+"prideda mažą ikoną forumo poraštėje (footer), kuri leis forumo lankytojams "
+"pažinti naudojamo forumo sprendimo vardą."
+
+#: wpf-admin/options-tabs/features.php:74
+msgid "Sitewide"
+msgstr ""
+
+#: wpf-admin/options-tabs/features.php:75 wpf-includes/class-subscribes.php:26
+#: wpf-includes/wpf-phrases.php:101 wpforo.php:258
+msgid "Forum"
+msgstr "Forumas"
+
+#: wpf-admin/options-tabs/features.php:80
+msgid "Thank you!"
+msgstr "Ačiū!"
+
+#: wpf-admin/options-tabs/general.php:14 wpf-includes/wpf-phrases.php:121
+msgid "Forum Title"
+msgstr "Forumo Pavadinimas"
+
+#: wpf-admin/options-tabs/general.php:18 wpf-includes/wpf-phrases.php:108
+msgid "Forum Description"
+msgstr "Forumo Aprašymas"
+
+#: wpf-admin/options-tabs/general.php:23 wpf-includes/wpf-phrases.php:107
+msgid "Forum Base URL"
+msgstr "Forumo Pagrindo URL"
+
+#: wpf-admin/options-tabs/general.php:24
+msgid ""
+"If you want to set forum on home page, please do not use the \"Turn "
+"WordPress to wpForo\" option. The correct instruction can be found in "
+"documentation here"
+msgstr ""
+
+#: wpf-admin/options-tabs/general.php:24
+msgid "Set Forum on Home Page"
+msgstr ""
+
+#: wpf-admin/options-tabs/general.php:33 wpf-includes/wpf-phrases.php:650
+msgid "Turn WordPress to wpForo"
+msgstr "Paversti Wordpress į woForo"
+
+#: wpf-admin/options-tabs/general.php:34
+msgid ""
+"This option will disable WordPress on front-end. Only forum pages and "
+"excluded post/pages will be available. wpForo will look like as a stand-"
+"alone forum."
+msgstr ""
+"Ši opcija išjungs WordPress front-ende. Bus pasiekiami tik forumo puslapiai "
+"ir išskirti įrašai/puslapiai. wpForo atrodys kaip atskiras forumas."
+
+#: wpf-admin/options-tabs/general.php:37
+msgid "Exclude page URLs"
+msgstr "Išskirti puslapio URL'us"
+
+#: wpf-admin/options-tabs/general.php:37
+msgid "one URL per line"
+msgstr "vienas URL eilutėje"
+
+#: wpf-admin/options-tabs/general.php:47 wpf-includes/wpf-hooks.php:2183
+msgid "Visit Forum"
+msgstr "Aplankyti forumą"
+
+#: wpf-admin/options-tabs/general.php:50
+msgid ""
+"wpForo PageID doesn't exist. Forums will not be loaded, please read this"
+msgstr ""
+"wpForo PuslapioID surasti nepavyko. Forumas nebus užkrautas, prašome "
+"perskaityti šią"
+
+#: wpf-admin/options-tabs/general.php:50
+msgid "support topic"
+msgstr "priežiūros temą"
+
+#: wpf-admin/options-tabs/general.php:52
+msgid "Forum Page ID"
+msgstr "Forumo Puslapio ID"
+
+#: wpf-admin/options-tabs/general.php:58
+msgid "Forum Page Slugs (URL Paths)"
+msgstr ""
+
+#: wpf-admin/options-tabs/general.php:59
+msgid ""
+"Here you can set custom base paths for forum pages. For example the default "
+"Profile URL base path is /profile/, if this conflicts with other plugins you "
+"can change it to /user/ or so..."
+msgstr ""
+
+#: wpf-admin/options-tabs/general.php:78 wpf-includes/wpf-phrases.php:64
+msgid "Dashboard Menu Position"
+msgstr "Valdymo Skydelio Meniu Padėtis"
+
+#: wpf-admin/options-tabs/general.php:79 wpf-includes/wpf-phrases.php:323
+msgid "The position in the menu order wpForo should appear."
+msgstr "Turėtų pasimatyti pozicija wpForo meniu eilėje."
+
+#: wpf-admin/options-tabs/general.php:80 wpf-includes/wpf-phrases.php:348
+msgid ""
+"Use greater than 5 - below Posts, 10 - below Media, 15 - below Links, 20 - "
+"below Pages, 25 - below comments, 60 - below first separator, 65 - below "
+"Plugins, 70 - below Users, 75 - below Tools, 80 - below Settings, 100 - "
+"below second separator"
+msgstr ""
+"Jei daugiau kaip 5 - po Irašai, 10 - po Media, 15 - po Nuorodos, 20 po "
+"Puslapiai, 25 po komentarais, 60 - po pirmu skirtuku, 65 - po Įskiepiai, 70 "
+"- po Vartotojai, 75 - po Įrankiai, 80 - po Nuostatos, 100 - po antruoju "
+"skirtuku"
+
+#: wpf-admin/options-tabs/general.php:84
+msgid "More info"
+msgstr "Daugiau informacijos"
+
+#: wpf-admin/options-tabs/general.php:89
+msgid "XML Based Language"
+msgstr ""
+
+#: wpf-admin/options-tabs/general.php:90
+msgid ""
+"This option is only related to XML language files. You should upload a "
+"translation XML file to have a new language option in this drop-down. If you "
+"are using PO/MO translation files you should change WordPress Language in "
+"Dashboard > Settings admin page to load according translation for wpForo."
+msgstr ""
+"Ši opcija susijusi tik su XML kalbų bylomis. Norint gauti naujos kalbos "
+"pasirinkimo opciją, turėtumėte įkelti XML bylą. Jeigu naudojate PO/MO "
+"vertimo bylas, turėtumėte pakeisti Wordpress Kalbą Valdymo Skydelyje > "
+"Nuostatos  administratoriaus puslapyje ir įkelti atitinkamą wpForo vertimą."
+
+#: wpf-admin/options-tabs/general.php:115 wpf-includes/wpf-phrases.php:144
+msgid "Language XML file"
+msgstr "Kalbos XML byla"
+
+#: wpf-admin/options-tabs/general.php:124 wpf-includes/wpf-phrases.php:22
+msgid "Add New Language"
+msgstr "Pridėti Naują Kalbą"
+
+#: wpf-admin/options-tabs/members.php:13 wpf-includes/wpf-phrases.php:217
+msgid "Online status timeout"
+msgstr "Baigėsi prisijungimo statuso laikas"
+
+#: wpf-admin/options-tabs/members.php:16 wpf-admin/options-tabs/posts.php:78
+#: wpf-admin/options-tabs/posts.php:85 wpf-admin/options-tabs/posts.php:96
+#: wpf-admin/options-tabs/posts.php:103 wpf-includes/wpf-phrases.php:390
+msgid "minutes"
+msgstr "minutės"
+
+#: wpf-admin/options-tabs/members.php:20
+msgid "Number of Members per Page"
+msgstr ""
+
+#: wpf-admin/options-tabs/members.php:27 wpf-includes/wpf-phrases.php:180
+msgid "Members URL structure"
+msgstr "Vartotojų URL struktūtra"
+
+#: wpf-admin/options-tabs/members.php:36 wpf-includes/wpf-phrases.php:700
+msgid "Members Search Type"
+msgstr "Vartotojų Paieškos Tipas"
+
+#: wpf-admin/options-tabs/members.php:39 wpf-includes/functions.php:366
+#: wpf-includes/functions.php:368 wpf-includes/wpf-phrases.php:275
+msgid "Search"
+msgstr "Ieškoti"
+
+#: wpf-admin/options-tabs/members.php:40
+msgid "Filter"
+msgstr "Filtras"
+
+#: wpf-admin/options-tabs/members.php:46 wpf-includes/wpf-phrases.php:62
+msgid "Custom Authorization URLs"
+msgstr "Pritaikytas Autorizacijos URL"
+
+#: wpf-admin/options-tabs/members.php:48
+msgid ""
+"Use this option only if you have set other pages for authorization. \n"
+"                        wpForo doesn't change its own URLs, these options "
+"are only for other plugin compatibility. \n"
+"                        For example, if you use BuddyPress or Ultimate "
+"Member plugin you can set these values:"
+msgstr ""
+"Naudokite šią opciją tik jei nustatėte kitus puslapius autorizacijai. \n"
+"                        wpForo nekeičia savo URL, šios opcijos skirtos kitų "
+"įskiepių pritaikymui. \n"
+"                        Pavyzdžiui, jei naudojate BuddyPress arba Ultimate "
+"Member įskiepį, galite nustatyti šias reikšmes:"
+
+#: wpf-admin/options-tabs/members.php:51 wpf-admin/options-tabs/members.php:57
+#: wpf-includes/wpf-phrases.php:162
+msgid "Login URL"
+msgstr "Prisijungimo URL"
+
+#: wpf-admin/options-tabs/members.php:52 wpf-admin/options-tabs/members.php:58
+#: wpf-includes/wpf-phrases.php:252
+msgid "Register URL"
+msgstr "Registracijos URL"
+
+#: wpf-admin/options-tabs/members.php:59 wpf-includes/wpf-phrases.php:164
+msgid "Lost Password URL"
+msgstr "Prarasto Slaptažodžio URL"
+
+#: wpf-admin/options-tabs/members.php:65
+msgid "Custom Redirection URLs after following actions"
+msgstr "Pritaikytas nukreipimo URL atlikus šiuos veiksmus"
+
+#: wpf-admin/options-tabs/members.php:67
+msgid "For member profile, account and subscription pages use following URLs:"
+msgstr ""
+"Vartotojo profiliui, paskyros ir registracijos puslapiui naudokite šiuos URL:"
+
+#: wpf-admin/options-tabs/members.php:79
+msgid "Redirect after login"
+msgstr "Nukreipti po prisijungimo"
+
+#: wpf-admin/options-tabs/members.php:80
+msgid "Redirect after registration"
+msgstr "Nukreipti po registracijos"
+
+#: wpf-admin/options-tabs/members.php:81
+msgid "Redirect after subscription confirmation"
+msgstr "Nukreipti po prenumeratos patvirtinimo"
+
+#: wpf-admin/options-tabs/members.php:87 wpf-includes/wpf-phrases.php:175
+msgid "Member Reputation and Titles"
+msgstr "Vartotojų Reitingai ir Pavadinimai"
+
+#: wpf-admin/options-tabs/members.php:91
+msgid "Member Custom Titles"
+msgstr "Vartotojų Pritaikyti Pavadinimai"
+
+#: wpf-admin/options-tabs/members.php:100
+msgid "Member Custom Title by default"
+msgstr "Vartotojų Pritaikyti Pavadinimai pagal nutylėjimą"
+
+#: wpf-admin/options-tabs/members.php:110 wpf-includes/wpf-phrases.php:247
+msgid "Rating Level"
+msgstr "Reitingo lygis"
+
+#: wpf-admin/options-tabs/members.php:111 wpf-includes/wpf-phrases.php:185
+msgid "Min Number of Posts"
+msgstr "Mažiausias Įrašų skaičius"
+
+#: wpf-admin/options-tabs/members.php:112 wpf-includes/wpf-phrases.php:176
+msgid "Member Title"
+msgstr "Vartotojo Pavadinimas"
+
+#: wpf-admin/options-tabs/members.php:113 wpf-includes/wpf-phrases.php:293
+msgid "Short Badge"
+msgstr "Trumpas Ženkliukas"
+
+#: wpf-admin/options-tabs/members.php:114 wpf-includes/wpf-phrases.php:128
+msgid "Full Badge"
+msgstr "Pilnas Ženkliukas"
+
+#: wpf-admin/options-tabs/members.php:115 wpf-includes/wpf-phrases.php:245
+msgid "Rating Color"
+msgstr "Reitingo spalva"
+
+#: wpf-admin/options-tabs/members.php:116 wpf-includes/wpf-phrases.php:246
+msgid "Rating Icon"
+msgstr "Reitingo Ikona"
+
+#: wpf-admin/options-tabs/members.php:116 wpf-includes/wpf-phrases.php:187
+msgid "More"
+msgstr "Daugiau"
+
+#: wpf-admin/options-tabs/members.php:121 wpf-includes/wpf-phrases.php:158
+msgid "Level"
+msgstr "Lygis"
+
+#: wpf-admin/options-tabs/members.php:122 wpf-includes/wpf-phrases.php:211
+msgid "Number of Posts"
+msgstr "Įrašų skaičius"
+
+#: wpf-admin/options-tabs/members.php:123 wpf-includes/wpf-phrases.php:63
+msgid "Custom Title"
+msgstr "Pritaikytas Pavadinimas"
+
+#: wpf-admin/options-tabs/members.php:126 wpf-admin/usergroup.php:34
+#: wpf-includes/wpf-phrases.php:56
+msgid "Color"
+msgstr "Spalva"
+
+#: wpf-admin/options-tabs/members.php:127 wpf-includes/wpf-phrases.php:48
+msgid "Badge Icon"
+msgstr "Ženkliuko spalva"
+
+#: wpf-admin/options-tabs/members.php:133
+msgid "Enable Reputation Titles for selected usergroups"
+msgstr "Įgalinti Reputacijos Pavadinimus pažymėtoms vartotojų grupėms"
+
+#: wpf-admin/options-tabs/members.php:134
+msgid ""
+"This option depends on \"Enable Member Rating Titles\" parent option, witch "
+"located in wpForo Settings > Features Tab"
+msgstr ""
+"Ši opcija priklauso nuo \"Įgalinti Vartotojų Reitingų Pavadinimus\" tėvinės "
+"opcijos, kurią galima rasti wpForo Nuostatos > Savybės Skiltyje"
+
+#: wpf-admin/options-tabs/members.php:147
+msgid "Enable Reputation Badges for selected usergroups"
+msgstr "Įgalinti Reputacijos Ženkliukus pažymėtoms vartotojų grupėms"
+
+#: wpf-admin/options-tabs/members.php:148
+msgid ""
+"This option depends on \"Enable Member Rating\" parent option, witch located "
+"in wpForo Settings > Features Tab"
+msgstr ""
+"Ši opcija priklauso nuo \"Įgalinti Vartotojų Reitingus\" tėvinės opcijos, "
+"kurią galima rasti wpForo Nuostatos > Savybės Skiltyje"
+
+#: wpf-admin/options-tabs/members.php:161
+msgid "Display Usergroup under Post Author Avatar"
+msgstr "Rodyti Vartotojų Grupę po Įrašo Autoriaus Pseudoportretu"
+
+#: wpf-admin/options-tabs/plugins.php:9
+msgid ""
+"Thank you for using wpForo. wpForo is a premium forum plugin which will "
+"always be available for free. There will never be paid and pro versions of "
+"this forum board. However this is a very large and hard project so we also "
+"develop paid addons (extensions), which will financially help us to keep "
+"improving and adding new features to the free wpForo plugin. Forum addons "
+"will also be actively developed. The first addons \"Advanced Media Uploader"
+"\", \"Polls\", \"Private Messages\" and \"Ad Manager\" will be available "
+"very soon. Once you got some addon and activated that, you will find "
+"settings in vertical subTabs here."
+msgstr ""
+"Dėkojame, kad naudojatės wpForo. wpForo yra premium įskiepis kuris visada "
+"liks nemokamas. Niekada nebus mokamų ar pro versijų. Tačiau tai yra labai "
+"didelis ir sunkus projektas. todėl mes taip pat kuriame mokamus papildymus "
+"(plėtinius), kurie padės mums finansiškai tobulinant ir papildant naujomis "
+"savybėmis nemokamą wpForo įskiepį. Forumo plėtiniai taip pat bus aktyviai "
+"kuriami. Pirmieji plėtiniai \"Pažangus Media Įkėliklis\", \"Apklausos\", "
+"\"Asmeninės žinutės\" ir \"Reklamų Valdiklis\" bus prieinami labai greitai. "
+"Gavus ir aktyvavus kurį nors plėtinįm jo nustatymus rasite vertikalioje "
+"subSkiltyje čia."
+
+#: wpf-admin/options-tabs/posts.php:14
+msgid "Recent Posts Display Type"
+msgstr "Naujausių Įrašų Rodymo Tipas"
+
+#: wpf-admin/options-tabs/posts.php:23
+msgid "Enable Topic Tags"
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:32
+msgid "Maximum Number of Tags per Topic"
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:37
+msgid "Display Topic Editing Information"
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:38
+msgid ""
+"The post edit logging information \"This post was modified 2 hours ago by "
+"John\" is displayed under modified topic first post content.."
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:49
+msgid "Display Post Editing Information"
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:50
+msgid ""
+"The post edit logging information \"This post was modified 2 hours ago by "
+"John\" is displayed under modified post content.."
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:61
+msgid "Limit Post Editing Information"
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:62
+msgid ""
+"Limit the post edit logging information \"This post was modified 2 hours ago "
+"by John\""
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:63
+msgid "Set this option value 0 if you want to disable limiting"
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:70 wpf-includes/wpf-phrases.php:213
+msgid "Number of Topics per Page"
+msgstr "Temų viename Lape skaičius"
+
+#: wpf-admin/options-tabs/posts.php:75 wpf-includes/wpf-phrases.php:30
+msgid "Allow Edit Own Topic for"
+msgstr "Leisti Redaguoti Sukurtą Temą"
+
+#: wpf-admin/options-tabs/posts.php:76 wpf-admin/options-tabs/posts.php:83
+#: wpf-admin/options-tabs/posts.php:94 wpf-admin/options-tabs/posts.php:101
+msgid "Set this option value 0 if you want to remove time limit."
+msgstr ""
+
+#: wpf-admin/options-tabs/posts.php:82 wpf-includes/wpf-phrases.php:27
+msgid "Allow Delete Own Topic for"
+msgstr "Leisti Trinti Sukurtą Temą"
+
+#: wpf-admin/options-tabs/posts.php:88 wpf-includes/wpf-phrases.php:212
+msgid "Number of Posts per Page"
+msgstr "Įrašų viename lape skaičius"
+
+#: wpf-admin/options-tabs/posts.php:93 wpf-includes/wpf-phrases.php:29
+msgid "Allow Edit Own Post for"
+msgstr "Leisti Redaguoti Sukurtą Įrašą"
+
+#: wpf-admin/options-tabs/posts.php:100 wpf-includes/wpf-phrases.php:28
+msgid "Allow Delete Own post for"
+msgstr "Leisti Trinti Sukurtą Įrašą"
+
+#: wpf-admin/options-tabs/posts.php:108 wpf-includes/wpf-phrases.php:169
+msgid "Maximum upload file size"
+msgstr "Didžiausias įkeliamos bylos dydis"
+
+#: wpf-admin/options-tabs/posts.php:109 wpf-includes/wpf-phrases.php:370
+msgid ""
+"You can not set this value more than \"upload_max_filesize\" and "
+"\"post_max_size\". If you want to increase server parameters please contact "
+"to your hosting service support."
+msgstr ""
+"Negalima nustatyti didesnės reikšmės negu \"upload-max-filesize\" ir "
+"\"post_max_size\". Jei norite padidinti serverio nustatymus, prašome "
+"kreiptis į jūsų priežiūros paslaugas teikiančią tarnybą."
+
+#: wpf-admin/options-tabs/posts.php:112 wpf-includes/wpf-phrases.php:166
+msgid "MB"
+msgstr "MB"
+
+#: wpf-admin/options-tabs/posts.php:115 wpf-includes/wpf-phrases.php:288
+msgid "Server \"upload_max_filesize\" is "
+msgstr "Serverio \"upload_max_filesize\" yra "
+
+#: wpf-admin/options-tabs/posts.php:116 wpf-includes/wpf-phrases.php:287
+msgid "Server \"post_max_size\" is "
+msgstr "Serverio \"post_max_size\" yra "
+
+#: wpf-admin/options-tabs/posts.php:124
+msgid "Attachment click - message for non-permitted users"
+msgstr "Priedo paspaudimo žinutė neįgalintiems vartotojams"
+
+#: wpf-admin/options-tabs/posts.php:125
+msgid ""
+"This message will be displayed when a non-permitted forum member clicks on "
+"attached file link in topic and posts."
+msgstr ""
+"Ši žinutė bus rodoma jei neįgalintas forumo narys paspaus prisegtą bylą "
+"temoje ar įraše."
+
+#: wpf-admin/options-tabs/styles.php:13
+msgid "Font Sizes"
+msgstr "Šrifto dydžiai"
+
+#: wpf-admin/options-tabs/styles.php:28 wpf-admin/tools-tabs/antispam.php:226
+#: wpf-includes/wpf-phrases.php:480
+msgid "Post Content"
+msgstr "Įrašo Turinys"
+
+#: wpf-admin/options-tabs/styles.php:36 wpf-includes/wpf-phrases.php:61
+msgid "Custom CSS Code"
+msgstr "Pritaikytas CSS Kodas"
+
+#: wpf-admin/options-tabs/styles.php:43
+msgid "Forum Color Styles"
+msgstr "Forumo Spalvų Stiliai"
+
+#: wpf-admin/options-tabs/styles.php:43
+msgid "Colors Documentation"
+msgstr ""
+
+#: wpf-admin/options.php:8 wpf-includes/wpf-phrases.php:117
+msgid "Forum Settings"
+msgstr "Forumo nuostatos"
+
+#: wpf-admin/options.php:14 wpf-includes/wpf-phrases.php:129
+msgid "General"
+msgstr "Pagrindinė informacija"
+
+#: wpf-admin/options.php:16 wpf-includes/wpf-phrases.php:105
+msgid "Forum Accesses"
+msgstr "Forumo Prieigos"
+
+#: wpf-admin/options.php:17 wpf-includes/wpf-phrases.php:339
+msgid "Topics &amp; Posts"
+msgstr "Temos &amp; Įrašai"
+
+#: wpf-admin/options.php:19 wpf-includes/wpf-phrases.php:76
+msgid "Emails"
+msgstr "El. laiškai"
+
+#: wpf-admin/options.php:20 wpf-includes/wpf-phrases.php:96
+msgid "Features"
+msgstr "Savybės"
+
+#: wpf-admin/options.php:22 wpf-includes/wpf-phrases.php:311
+msgid "Styles"
+msgstr "Stiliai"
+
+#: wpf-admin/options.php:23
+msgid "API's"
+msgstr "API"
+
+#: wpf-admin/phrase.php:10 wpf-includes/wpf-phrases.php:127
+msgid "Front-end Phrases"
+msgstr "Front-endo frazės"
+
+#: wpf-admin/themes.php:9 wpf-includes/wpf-phrases.php:120
+msgid "Forum Themes"
+msgstr "Forumo temos"
+
+#: wpf-admin/themes.php:46 wpf-includes/wpf-phrases.php:60
+msgid "Current active theme"
+msgstr "Dabartinė aktyvi tema"
+
+#: wpf-admin/themes.php:48 wpf-includes/wpf-phrases.php:138
+msgid "Inactive"
+msgstr "Neaktyvi"
+
+#: wpf-admin/themes.php:52 wpf-includes/wpf-phrases.php:143
+msgid "LAYOUTS"
+msgstr "MAKETAI"
+
+#: wpf-admin/themes.php:68 wpf-includes/wpf-phrases.php:17
+msgid "Activate"
+msgstr "Aktyvuoti"
+
+#: wpf-admin/themes.php:69 wpf-includes/wpf-phrases.php:124
+msgid "Fresh Installation"
+msgstr "Šviežias Įdiegimas"
+
+#: wpf-admin/themes.php:71 wpf-includes/wpf-phrases.php:140
+msgid "Install"
+msgstr "Įdiegimas"
+
+#: wpf-admin/themes.php:73 wpf-includes/wpf-phrases.php:38
+msgid "Are you sure you want to delete this theme files?"
+msgstr "Ar tikrai norite šią temos bylą?"
+
+#: wpf-admin/themes.php:76 wpf-includes/wpf-phrases.php:40
+msgid ""
+"Are you sure you want to reset all settings and style colors to default?"
+msgstr ""
+"Ar tikrai norite atšaukti visus nustatymus ir stiliaus spalvas į numatytas "
+"pagal nutylėjimą?"
+
+#: wpf-admin/themes.php:76 wpf-includes/wpf-phrases.php:268
+msgid "Reset Settings"
+msgstr "Atšaukti Nuustatymus"
+
+#: wpf-admin/themes.php:96 wpf-includes/wpf-phrases.php:201
+msgid "No layout found"
+msgstr "Nerasta maketų"
+
+#: wpf-admin/themes.php:107 wpf-includes/wpf-phrases.php:206
+msgid "No theme found"
+msgstr "Tema nerasta"
+
+#: wpf-admin/tools-tabs/antispam.php:11
+msgid ""
+"is not installed! For an advanced Spam Control please install Akismet "
+"antispam plugin, it works well with wpForo Spam Control system. Akismet is "
+"already integrated with wpForo. It'll help to filter posts and protect forum "
+"against spam attacks."
+msgstr ""
+"neįdiegtas! Pažangesnei Brukalo Kontrolėi prašome įdiegti Akismet įskiepį, "
+"kuris gerai veikia su wpForo Brukalo Kontrolės sistema. Akismet yra jau "
+"integruotas į wpForo. Jis padės filtruoti įrašus ir saugoti forumą nuo "
+"brukalo atakų."
+
+#: wpf-admin/tools-tabs/antispam.php:21
+msgid "Spam Control"
+msgstr "Brukalo kontrolė"
+
+#: wpf-admin/tools-tabs/antispam.php:22
+msgid ""
+"Some useful options to limit just registered users and minimize spam. This "
+"control don't affect users whose Usergroup has \"Can edit member\" and \"Can "
+"pass moderation\" permissions."
+msgstr ""
+"Kai kurios naudingos opcijos apriboja tik registruotus vartotojus ir mažina "
+"brukalą. Ši kontrolė neįtakoja vartotojų, kurių Vartotojų Grupė turi "
+"leidimus \"Gali redaguoti vartotojus\" ir \"Gali išvengti priežiūros\"."
+
+#: wpf-admin/tools-tabs/antispam.php:28
+msgid "Enable wpForo Spam Control"
+msgstr "Įgalinti wpForo Brukalo kontrolę"
+
+#: wpf-admin/tools-tabs/antispam.php:37
+msgid "Ban user when spam is suspected"
+msgstr "Užblokuoti vartotoją, įtariamą brukalu"
+
+#: wpf-admin/tools-tabs/antispam.php:46
+msgid "Notify via email when new user is banned"
+msgstr "Informuoti el. paštu kai naujas vartotojas yra užblokuotas"
+
+#: wpf-admin/tools-tabs/antispam.php:55
+msgid "Spam Suspicion Level for Topics"
+msgstr "Brukalo Įtarimo Lygis Temose"
+
+#: wpf-admin/tools-tabs/antispam.php:59
+msgid "Spam Suspicion Level for Posts"
+msgstr "Brukalo Įtarimo Lygis Įrašuose"
+
+#: wpf-admin/tools-tabs/antispam.php:64
+msgid " is enabled"
+msgstr " įgalinta"
+
+#: wpf-admin/tools-tabs/antispam.php:73
+msgid "New Registered User"
+msgstr "Naujas Registruotas Narys"
+
+#: wpf-admin/tools-tabs/antispam.php:74
+msgid ""
+"Some useful options to limit just registered users and minimize spam. These "
+"options don't affect users whose Usergroup has \"Can edit member\" and \"Can "
+"pass moderation\" permissions."
+msgstr ""
+"Kai kurios naudingos opcijos apriboja tik registruotus vartotojus ir mažina "
+"brukalą. Ši kontrolė neįtakoja vartotojų, kurių Vartotojų grupė turi "
+"leidimus \"Gali redaguoti vartotojus\" ir \"Gali išvengti priežiūros\"."
+
+#: wpf-admin/tools-tabs/antispam.php:81
+msgid "User is New (under hard spam control) during"
+msgstr "Naujas Vartotojas (atliekama griežta brukalo kontrolė) iki"
+
+#: wpf-admin/tools-tabs/antispam.php:83
+msgid "first"
+msgstr "pirmas"
+
+#: wpf-admin/tools-tabs/antispam.php:83
+msgid "posts"
+msgstr "įrašai"
+
+#: wpf-admin/tools-tabs/antispam.php:86
+msgid "Min number of posts to be able attach files"
+msgstr "Mažiausias įrašų skaičius, kad prisegti bylas"
+
+#: wpf-admin/tools-tabs/antispam.php:90
+msgid "Min number of posts to be able post links"
+msgstr "Mažiausias įrašų skaičius, kad įkelti nuorodas"
+
+#: wpf-admin/tools-tabs/antispam.php:95
+msgid "Do not allow to attach files with following extensions:"
+msgstr "Negalima įkelti bylų su šiais plėtiniais:"
+
+#: wpf-admin/tools-tabs/antispam.php:107
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: wpf-admin/tools-tabs/antispam.php:108
+msgid ""
+"reCAPTCHA protects you against spam and other types of automated abuse. It "
+"makes secure topic and post editors when Guest Posting is allowed, also it "
+"protects login and registration forms against spam attacks."
+msgstr ""
+"reCAPTCHA padeda jums kovoti prieš brukalą ir kitą automatinio pobūdžio "
+"poveikį. Jis padeda apsaugoti temų ir įrašų redaktorius kai Svečio Įrašai "
+"yra įgalinti, taip pat saugo prisijungimo ir registracijos formas nuo "
+"brukalo atakų."
+
+#: wpf-admin/tools-tabs/antispam.php:110
+msgid "reCAPTCHA API keys"
+msgstr "reCAPTCHA API raktai"
+
+#: wpf-admin/tools-tabs/antispam.php:112
+msgid ""
+"To start using reCAPTCHA, you need to sign up for an API key pair for your "
+"site."
+msgstr ""
+"Norėdami pradėti naudoti reCAPTCHA, turite prisijungti ir gauti API raktus "
+"jūsų svetainei."
+
+#: wpf-admin/tools-tabs/antispam.php:113
+msgid "Register your site and get API keys here &raquo;"
+msgstr "Registruokite jūsų svetainę ir gaukite API raktus čia &raquo;"
+
+#: wpf-admin/tools-tabs/antispam.php:120
+msgid "Site Key"
+msgstr "Svetainės Raktas"
+
+#: wpf-admin/tools-tabs/antispam.php:126
+msgid "Secret Key"
+msgstr "Slaptas Raktas"
+
+#: wpf-admin/tools-tabs/antispam.php:133
+msgid "reCAPTCHA Settings"
+msgstr "reCAPTCHA nuostatos"
+
+#: wpf-admin/tools-tabs/antispam.php:138
+msgid "reCAPTCHA Theme"
+msgstr "reCAPTCHA Tema"
+
+#: wpf-admin/tools-tabs/antispam.php:141
+msgid "Light"
+msgstr "Šviesi"
+
+#: wpf-admin/tools-tabs/antispam.php:142
+msgid "Dark"
+msgstr "Tamsi"
+
+#: wpf-admin/tools-tabs/antispam.php:147
+msgid "Guest Topic Editor"
+msgstr "Svečio Temos Redaktorius"
+
+#: wpf-admin/tools-tabs/antispam.php:156
+msgid "Guest Post Editor"
+msgstr "Svečio Įrašo Redaktorius"
+
+#: wpf-admin/tools-tabs/antispam.php:166
+msgid "wpForo Login Form"
+msgstr "wpForo Prisijungimo Forma"
+
+#: wpf-admin/tools-tabs/antispam.php:175
+msgid "wpForo Registration Form"
+msgstr "wpForo Registracijos Forma"
+
+#: wpf-admin/tools-tabs/antispam.php:184
+msgid "wpForo Reset Password Form"
+msgstr "wpForo Slaptažodžio Atšaukimo Forma"
+
+#: wpf-admin/tools-tabs/antispam.php:193
+msgid "WordPress Login Form"
+msgstr "WordPress Prisijungimo Forma"
+
+#: wpf-admin/tools-tabs/antispam.php:202
+msgid "WordPress Registration Form"
+msgstr "WordPress Registracijos Forma"
+
+#: wpf-admin/tools-tabs/antispam.php:211
+msgid "WordPress Reset Password Form"
+msgstr "WordPress Slaptažodžio Atšaukimo Forma"
+
+#: wpf-admin/tools-tabs/antispam.php:227
+msgid "Options to control and filter post content"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:234
+msgid "Allow extra HTML tags"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:235
+msgid ""
+"By default wpForo allows all secure HTML tags in post content. Allowing a "
+"new HTML tag may affect your forum security. For example the &lt;iframe&gt; "
+"and &lt;script&gt; HTML tags may be used by spammers and hackers to load 3rd "
+"party ads and viruses to forum."
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:236
+msgid "Example of adding a new HTML tags: "
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:253
+msgid "Possible Spam Attachments"
+msgstr "Galimi Brukalo Priedai"
+
+#: wpf-admin/tools-tabs/antispam.php:254
+msgid ""
+"This tool is designed to find attachment which have been uploaded by "
+"spammers. The tool checks most common spammer filenames and suggest to "
+"delete but you should check one by one and make sure those are spam files "
+"before deleting."
+msgstr ""
+"Šis įrankis sukurtas rasti priedus, kurie galėtų būti įkelti brukalo "
+"skleidėjų. Įrankis tikrina brukalo skleidėjų dažniausiai naudojamus bylų "
+"pavadinimus ir siūlo trinti, tačiau jūs turite patikrinti kiekvieną jų ir "
+"prieš trindami įsitikinti kad tai tikrai brukalas."
+
+#: wpf-admin/tools-tabs/antispam.php:259
+msgid "Enable File Scanner"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:269
+msgid "Exclude file extensions"
+msgstr ""
+
+#: wpf-admin/tools-tabs/antispam.php:275
+msgid "Directory"
+msgstr "Aplankas"
+
+#: wpf-admin/tools-tabs/antispam.php:302
+msgid "Delete this file"
+msgstr "Trinti šią bylą"
+
+#: wpf-admin/tools-tabs/antispam.php:302
+msgid "Are you sure you want to permanently delete this file?"
+msgstr "Ar Jūs tikrai norite visam laikui ištrinti šią bylą?"
+
+#: wpf-admin/tools-tabs/antispam.php:313
+msgid "Click to delete Blue marked files"
+msgstr "Spauskite kad trinti Melynai pažymėtas bylas"
+
+#: wpf-admin/tools-tabs/antispam.php:314
+msgid ""
+"Are you sure you want to delete all BLUE marked files listed here. Please "
+"download Wordpress /wp-content/uploads/wpforo/ folder to your local computer "
+"before deleting files, this is not undoable."
+msgstr ""
+"Ar tikrai norite ištrinti visas Melynai pažymėtas nurodytas bylas. Prieš "
+"trindami bylas prašome parsisiųsti Wordpress /wp-content/uploads/wpforo/ "
+"aplanką į jūsų kompiuterį, tai neatstatoma."
+
+#: wpf-admin/tools-tabs/antispam.php:315 wpf-admin/tools-tabs/antispam.php:321
+#: wpf-admin/tools-tabs/antispam.php:327 wpf-admin/tools-tabs/antispam.php:333
+msgid "Delete All"
+msgstr "Trinti Viską"
+
+#: wpf-admin/tools-tabs/antispam.php:318
+msgid "Click to delete Orange marked files"
+msgstr "Spauskite kad trinti Oranžine spalva pažymėtas bylas"
+
+#: wpf-admin/tools-tabs/antispam.php:320
+msgid ""
+"Are you sure you want to delete all ORANGE marked files listed here. Please "
+"download Wordpress /wp-content/uploads/wpforo/ folder to your local computer "
+"before deleting files, this is not undoable."
+msgstr ""
+"Ar tikrai norite ištrinti visas Oranžine spalva pažymėtas nurodytas bylas. "
+"Prieš trindami bylas prašome parsisiųsti Wordpress /wp-content/uploads/"
+"wpforo/ aplanką į jūsų kompiuterį, tai neatstatoma."
+
+#: wpf-admin/tools-tabs/antispam.php:324
+msgid "Click to delete Red marked files"
+msgstr "Spauskite kad trinti Raudonai pažymėtas bylas"
+
+#: wpf-admin/tools-tabs/antispam.php:326
+msgid ""
+"Are you sure you want to delete all RED marked files listed here. Please "
+"download Wordpress /wp-content/uploads/wpforo/ folder to your local computer "
+"before deleting files, this is not undoable."
+msgstr ""
+"Ar tikrai norite ištrinti visas Raudonai pažymėtas nurodytas bylas. Prieš "
+"trindami bylas prašome parsisiųsti Wordpress /wp-content/uploads/wpforo/ "
+"aplanką į jūsų kompiuterį, tai neatstatoma."
+
+#: wpf-admin/tools-tabs/antispam.php:330
+msgid "Click to delete Dark Red marked files"
+msgstr "Spauskite kad trinti Tamsiai Raudonai pažymėtas bylas"
+
+#: wpf-admin/tools-tabs/antispam.php:332
+msgid ""
+"Are you sure you want to delete all DARK RED marked files listed here. "
+"Please download Wordpress /wp-content/uploads/wpforo/ folder to your local "
+"computer before deleting files, this is not undoable."
+msgstr ""
+"Ar tikrai norite ištrinti visas Tamsiai Raudonai pažymėtas nurodytas bylas. "
+"Prieš trindami bylas prašome parsisiųsti Wordpress /wp-content/uploads/"
+"wpforo/ aplanką į jūsų kompiuterį, tai neatstatoma."
+
+#: wpf-admin/tools-tabs/cleanup.php:12
+msgid "Delete Inactive Users"
+msgstr "Trinti Neaktyvius Vartotojus"
+
+#: wpf-admin/tools-tabs/cleanup.php:13
+msgid ""
+"Inactive users are the account owners who have no topics, posts, comments "
+"and subscriptions for new content. In 99&#37; cases this kind of accounts "
+"are being registered by Spammers. This tool allows you to only keep active "
+"and known inactive users."
+msgstr ""
+"Neaktyvūs Vartotojai yra paskyrų savininkai, kurie nėra paskelbę įrašų, "
+"temų, komentarų ir nepriregistruoti prie naujo turinio. 99&#37; atvejais "
+"šios paskyros registruojamos kaip Brukalo skleidėjai. Šis įrankis sudaro "
+"galimybę jums išsaugoti tik aktyvius ar žinomus neaktyvius vartotojus."
+
+#: wpf-admin/tools-tabs/cleanup.php:19
+msgid "Inactive users who have been registered more than"
+msgstr "Neaktyvūs vartotojai, kurie užregistravo daugiau kaip"
+
+#: wpf-admin/tools-tabs/cleanup.php:20
+msgid "days ago"
+msgstr "dienas (prieš)"
+
+#: wpf-admin/tools-tabs/cleanup.php:25
+msgid "Filter by Usergroups"
+msgstr "Fltruoti pagal Vartotjų Grupes"
+
+#: wpf-admin/tools-tabs/cleanup.php:36
+msgid "Enable Auto-cleanup of inactive users"
+msgstr "Įgalinti neaktyvių vartotojų Auto-valymą"
+
+#: wpf-admin/tools-tabs/legal.php:15
+msgid "Forum Privacy Policy and GDPR compliant"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:15
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#: wpf-admin/tools-tabs/legal.php:18
+msgid ""
+"The General Data Protection Regulation (GDPR) (Regulation (EU) 2016/679) is "
+"a regulation by which the European Parliament, the Council of the European "
+"Union and the European Commission intend to strengthen and unify data "
+"protection for all individuals within the European Union (EU). After four "
+"years of preparation and debate the GDPR was finally approved by the EU "
+"Parliament on 14 April 2016. Enforcement date: 25 May 2018 - at which time "
+"those organizations in non-compliance may face heavy fines. More info at"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:19
+msgid "GDPR Key Changes"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:25
+msgid "Contact Information"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:27
+msgid ""
+"According to the GDPR, all users should have an option to contact website "
+"administrator in following cases:"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:29
+msgid "Obtain personal data and created content"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:30
+msgid "Delete account with created content"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:31
+msgid "Report user data access and control issue"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:32
+msgid "Report user rights violation"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:37
+msgid "URL to - Contact Us - page"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:38
+msgid ""
+"Please insert a page URL, where user can find a contact form or an "
+"information to contact the forum administrator."
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:43
+msgid "Checkbox: I Accept Website Terms and Privacy Policy"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:44 wpf-admin/tools-tabs/legal.php:78
+msgid ""
+"If this option is enabled, users must accept forum Terms and Privacy Policy "
+"by checking the required checkbox on registration form to be able create a "
+"forum account. The checkbox label can be managed in Forums > Phrases admin "
+"page."
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:55
+msgid "Checkbox: I Agree to Receive an Email Confirmation"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:56
+msgid ""
+"If this option is enabled, users must agree to receive an email confirmation "
+"with a link to set a password by checking the required checkbox on "
+"registration form to be able create a forum account. The checkbox label can "
+"be managed in Forums > Phrases admin page."
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:67
+msgid "Website Terms and Privacy Policy Pages"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:68
+msgid ""
+"Please insert URLs to your website Terms and Privacy Policy pages. Links to "
+"these pages will be included in registration form checkbox label (I'm agree "
+"with website terms and privacy policy) and in Forum Privacy Policy. The "
+"forum Privacy Policy does not cover your whole website, it is just an "
+"extension of your website main Privacy Policy. Thus it should be linked to "
+"according pages."
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:71
+msgid "URL to Website Terms page"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:71
+msgid "Terms Page URL"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:72
+msgid "URL to Website Privacy Policy page"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:72
+msgid "Privacy Policy Page URL"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:77
+msgid "Checkbox: I Agree to Forum Privacy Policy"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:89
+msgid "Forum Privacy Policy with GDPR compliant Template"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:90
+msgid ""
+"This is an example of forum Privacy Policy with GDPR compliant. It adapted "
+"to wpForo plugin functions and features. <u>In case you enable this privacy "
+"policy template you become responsible for the content of this template.</"
+"u>  Please read this text carefully and make sure it suits your community "
+"Privacy Policy. If it doesn't, you should edit this text and adapt it to "
+"your community rules. This template includes shortcodes [forum-name] and "
+"[forum-url]. They are automatically replaced on registration page with "
+"current forum details. Don't forget to add an information about your "
+"organization, location and contacting ways (page, email, phone, etc...). "
+"Also if you have a separate privacy policy page for website please add a "
+"link to that page."
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:112
+msgid "Checkbox: I Agree to create a forum account on Facebook Login"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:113
+msgid ""
+"If this option is enabled, the Facebook Login button becomes not-clickable "
+"until user accept automatic account creation process based on his/her "
+"Facebook public profile information. This checkbox and appropriate "
+"information will be displayed with Facebook Login button to comply with the "
+"GDPR"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:124
+msgid "Forum Cookies"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:125
+msgid ""
+"Please note, that this option is only related to wpForo cookies. This "
+"doesn't disable WordPress and other plugins cookies. wpForo stores a small "
+"amount of data in cookies, it used to track visited forums and topics (bold "
+"and normal titles). Also when a guest (not registered user) creates a topic "
+"or post a reply, wpForo stores guest name and email address in cookies. "
+"wpForo uses this information to detect current guest content (topics, posts) "
+"and display it to the guest even if the content is under moderation (not "
+"approved by moderators). Also wpForo stores guest name and email in cookies "
+"to keep filled these fields when he/she posts a new reply or creates a new "
+"topic."
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:137
+msgid "Forum Rules"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:143
+msgid "Checkbox: I Accept Forum Rules"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:144
+msgid ""
+"If this option is enabled, users must accept forum rules by checking the "
+"required checkbox on registration form to be able create a forum account. "
+"The label text of this checkbox can be managed in Forums > Phrases admin "
+"page. Search the label phrase, click on edit button and change it."
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:155
+msgid "Forum Rules Text"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:156
+msgid "This is a basic example of forum rules provided by"
+msgstr ""
+
+#: wpf-admin/tools-tabs/legal.php:156
+msgid "You should edit this text and adapt it to your community rules."
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:10
+msgid "SEO Tools"
+msgstr "SEO įrankiai"
+
+#: wpf-admin/tools-tabs/misc.php:18
+msgid "Allowed dofollow domains"
+msgstr "Leistini dofollow domenų vardai"
+
+#: wpf-admin/tools-tabs/misc.php:19
+msgid ""
+"wpForo adds nofollow to all links with external URLs. If you want to keep "
+"some domains as internal please insert domains one per line in the textarea "
+"bellow."
+msgstr ""
+"woForo prideda nofollow visoms nuorodoms su išorės URL. Jei norite išsaugoti "
+"kai kuriuos domenus kaip vidinius, prašome įrašyti žemiau esančiame teksto "
+"lauke domenus (po vieną eilutėje)."
+
+#: wpf-admin/tools-tabs/misc.php:26
+msgid "Noindex forum page URLs"
+msgstr "Neindeksuojami forumo puslapio URL"
+
+#: wpf-admin/tools-tabs/misc.php:27
+msgid ""
+"The noIndex code tells Google and other search engines to NOT index the "
+"page, so that it cannot be found in search results. Please insert page URLs "
+"you do not want to be indexed one per line in the textarea bellow."
+msgstr ""
+"Neindeksavimo kodas parodo Google ar kitoms paieškos tarnyboms NEINDEKSUOTI "
+"puslapio, kad jis nebūtų rodomas paieškos rezultatuose. Prašome nurodyti "
+"puslapio URL, kurių nenorite indeksuoti žemiau nurodytame teksto lauke (po "
+"vieną eilutėje)."
+
+#: wpf-admin/tools-tabs/misc.php:37
+msgid "Admin Note"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:45
+msgid "Admin message on forum front page"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:46
+msgid ""
+"If you have something important to say on forum front page, you can use this "
+"editor. The text will be displayed under forum breadcrumb menu, above forum "
+"and topic titles."
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:64
+msgid "Display for Usergroups"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:86
+msgid "Display on forum pages"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:96
+msgid "Forum (topic list)"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:100
+msgid "Topic (post list)"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:104 wpf-includes/wpf-phrases.php:701
+msgid "Recent Posts"
+msgstr "Naujausi įrašai"
+
+#: wpf-admin/tools-tabs/misc.php:112
+msgid "Profile Home"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:116
+msgid "Profile Account"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:120
+msgid "Profile Activity"
+msgstr ""
+
+#: wpf-admin/tools-tabs/misc.php:124
+msgid "Profile Subscriptions"
+msgstr ""
+
+#: wpf-admin/tools.php:8
+msgid "Forum Tools"
+msgstr "Forumo įrankiai"
+
+#: wpf-admin/tools.php:14
+msgid "Antispam"
+msgstr "AntiBrukalas"
+
+#: wpf-admin/tools.php:15
+msgid "Privacy &amp; Rules"
+msgstr ""
+
+#: wpf-admin/tools.php:17
+msgid "Misc"
+msgstr "Kita"
+
+#: wpf-admin/usergroup.php:12
+msgid "Role-Usergroup synchronization is complete!"
+msgstr ""
+
+#: wpf-admin/usergroup.php:14 wpf-admin/usergroup.php:16
+#: wpf-includes/class-notices.php:118 wpf-includes/wpf-phrases.php:69
+msgid "Dismiss this notice."
+msgstr "Šalinti žinutę."
+
+#: wpf-admin/usergroup.php:28 wpf-admin/usergroup.php:154
+#: wpf-admin/usergroup.php:282
+msgid "User Role"
+msgstr ""
+
+#: wpf-admin/usergroup.php:30 wpf-includes/wpf-phrases.php:676
+msgid "Usergroup"
+msgstr "Vartotojų Grupė"
+
+#: wpf-admin/usergroup.php:32 wpf-includes/wpf-hooks.php:1174
+msgid "Default"
+msgstr "Numatytasis"
+
+#: wpf-admin/usergroup.php:33
+msgid "Default Access"
+msgstr "Numatytoji prieiga"
+
+#: wpf-admin/usergroup.php:35
+msgid "ID"
+msgstr ""
+
+#: wpf-admin/usergroup.php:46 wpf-admin/usergroup.php:167
+msgid "View Users"
+msgstr ""
+
+#: wpf-admin/usergroup.php:63 wpf-admin/usergroup.php:242
+msgid "Usergroup Name"
+msgstr "Vartotojų Grupės Pavadinimas"
+
+#: wpf-admin/usergroup.php:65
+msgid "Also used as Secondary Usergroup"
+msgstr ""
+
+#: wpf-admin/usergroup.php:68
+msgid "Edit this usergroup"
+msgstr "Redaguoti šią vartotojų grupę"
+
+#: wpf-admin/usergroup.php:68 wpf-includes/wpf-phrases.php:73
+msgid "Edit"
+msgstr "Redaguoti"
+
+#: wpf-admin/usergroup.php:70
+msgid "Delete this usergroup"
+msgstr "Trinti šią vartotojų grupę"
+
+#: wpf-admin/usergroup.php:72
+msgid "View users list in this usergroup"
+msgstr "Peržiūrėti šios vartotojų grupės narių sąrašą"
+
+#: wpf-admin/usergroup.php:77
+msgid "The number of forum members with this usergroup. Click to view members."
+msgstr ""
+
+#: wpf-admin/usergroup.php:82
+msgid "is Default"
+msgstr "yra Numatytasis"
+
+#: wpf-admin/usergroup.php:85
+msgid "Users get the Default Usergroup on registration"
+msgstr ""
+
+#: wpf-admin/usergroup.php:85
+msgid "Set as Default"
+msgstr "Nustatyti kaip Numatytajį"
+
+#: wpf-admin/usergroup.php:93
+msgid "default (#15)"
+msgstr "numatytasis (#15)"
+
+#: wpf-admin/usergroup.php:105
+msgid "Synchronize Users Usergroups and Roles"
+msgstr ""
+
+#: wpf-admin/usergroup.php:106
+msgid "Synchronize"
+msgstr ""
+
+#: wpf-admin/usergroup.php:136
+msgid "Note:"
+msgstr ""
+
+#: wpf-admin/usergroup.php:137
+#, php-format
+msgid ""
+"The [Synchronize] button changes all users Usergroups according to the users "
+"Roles. For example, if you select \"Contributor\" Role for \"Registered\" "
+"Usergroup, all users with \"Contributor\" Role will get \"Registered\" "
+"Usergroup in forum. The synchronization process may take a few seconds or "
+"dozens of minutes, it depends on the number of users. Please be patient, "
+"don't close this page and wait until the progress counter says "
+"100% completed."
+msgstr ""
+
+#: wpf-admin/usergroup.php:146
+msgid "User Roles"
+msgstr ""
+
+#: wpf-admin/usergroup.php:148
+msgid ""
+"In the table above (Usergroups) you can see the list of all available forum "
+"Usergroups. The first column of this table displays selected User Roles "
+"which are synched with certain Usergroup. However some User Roles are still "
+"not synced with any Usergroup of your forum. You can find not-synced User "
+"Roles in the table below (User Roles). If you use any of these not-synced "
+"User Roles and you want to grant some forum accesses to users of these User "
+"Roles you should create new Usergroups for each of them. Once new Usergroup "
+"is created, you should use the [Synchronize] button in the table above to "
+"synchronize User Roles with new Usergroups."
+msgstr ""
+
+#: wpf-admin/usergroup.php:153
+msgid "Role Name"
+msgstr ""
+
+#: wpf-admin/usergroup.php:156
+msgid "Users"
+msgstr ""
+
+#: wpf-admin/usergroup.php:157
+msgid "Status"
+msgstr ""
+
+#: wpf-admin/usergroup.php:171
+msgid "Add Usergroup to synch"
+msgstr ""
+
+#: wpf-admin/usergroup.php:173
+msgid "Not Synched"
+msgstr ""
+
+#: wpf-admin/usergroup.php:174
+msgid "One User Role cannot be synched with multiple Usergroups."
+msgstr ""
+
+#: wpf-admin/usergroup.php:176
+msgid "Synched"
+msgstr ""
+
+#: wpf-admin/usergroup.php:213
+msgid "Complete!"
+msgstr ""
+
+#: wpf-admin/usergroup.php:242 wpf-includes/wpf-phrases.php:133
+msgid "Guest"
+msgstr "Svečias"
+
+#: wpf-admin/usergroup.php:258
+msgid "Usergroup Color"
+msgstr "Vartotojų Grupės spalva"
+
+#: wpf-admin/usergroup.php:259
+msgid "use default link color"
+msgstr "naudoti numatytąją nuorodos spalvą"
+
+#: wpf-admin/usergroup.php:291
+msgid "Default Forum Access"
+msgstr "Numatytoji forumo prieiga"
+
+#: wpf-admin/usergroup.php:299
+msgid ""
+"This is only used when a new Usergroup is created, it automatically gets the "
+"selected Forum Access in all forums."
+msgstr ""
+"Tai naudojama tik tada, kai sukurta nauja Vartotojų Grupė, ji automatiškai "
+"įgaus Forumo Prieigą visuose forumuose."
+
+#: wpf-admin/usergroup.php:303
+msgid "Display on Members List"
+msgstr "Rodyti Narių sąraše"
+
+#: wpf-admin/usergroup.php:307
+msgid "Can be also used as Secondary Usergroup"
+msgstr ""
+
+#: wpf-admin/usergroup.php:327 wpf-includes/wpf-phrases.php:374
+msgid "add"
+msgstr "pridėti"
+
+#: wpf-admin/usergroup.php:327
+msgid "save"
+msgstr "išsaugoti"
+
+#: wpf-admin/usergroup.php:348
+msgid "Delete Chosen Usergroup And Users"
+msgstr "Trinti šią Vartotojų Grupę ir Vartotojus"
+
+#: wpf-admin/usergroup.php:358
+msgid "Delete Chosen Usergroup And Join Users To Other Usergroup"
+msgstr ""
+"Trinti šią Vartotojų Grupę ir prijungti Vartotojus prie kitos Vartotojų "
+"Grupės"
+
+#: wpf-admin/usergroup.php:370
+msgid "Users will be join this usergroup"
+msgstr "Vartotojai bus prijungti prie šios vartotojų grupės"
+
+#: wpf-includes/class-api.php:203
+msgid "Please login into Facebook and then click connect button again"
+msgstr ""
+"Prašome prisijungti prie Facebook ir vėl paspausti prisijungimo mygtuką"
+
+#: wpf-includes/class-api.php:230
+msgid ""
+"Your email is required to be able authorize you here. Please try loging "
+"again. "
+msgstr ""
+"Jūsų el. pašto adresas reikalingas jūsų autorizacijai. Prašome dar kartą "
+"pabandyti prisijungti. "
+
+#: wpf-includes/class-api.php:235
+msgid "Invalid User"
+msgstr "Negalimas Vartotojas"
+
+#: wpf-includes/class-api.php:245 wpf-includes/wpf-phrases.php:638
+msgid "User registration is disabled"
+msgstr "Vartotojų registracija sustabdyta"
+
+#: wpf-includes/class-forums.php:31 wpf-includes/wpf-phrases.php:560
+msgid "Can view forum"
+msgstr "Gali matyti forumą"
+
+#: wpf-includes/class-forums.php:32 wpf-includes/wpf-phrases.php:561
+msgid "Can create topic"
+msgstr "Gali kurti temą"
+
+#: wpf-includes/class-forums.php:33 wpf-includes/wpf-phrases.php:562
+msgid "Can view topic"
+msgstr "Gali peržiūrėti temą"
+
+#: wpf-includes/class-forums.php:34 wpf-includes/wpf-phrases.php:563
+msgid "Can edit topic"
+msgstr "Gali keisti temą"
+
+#: wpf-includes/class-forums.php:35 wpf-includes/wpf-phrases.php:564
+msgid "Can delete topic"
+msgstr "Gali trinti temą"
+
+#: wpf-includes/class-forums.php:36 wpf-includes/wpf-phrases.php:565
+msgid "Can post reply"
+msgstr "Gali atsakyti"
+
+#: wpf-includes/class-forums.php:37 wpf-includes/wpf-phrases.php:566
+msgid "Can view replies"
+msgstr "Gali peržiūrėti atsakymus"
+
+#: wpf-includes/class-forums.php:38 wpf-includes/wpf-phrases.php:567
+msgid "Can edit replies"
+msgstr "Gali redaguoti atsakymus"
+
+#: wpf-includes/class-forums.php:39 wpf-includes/wpf-phrases.php:568
+msgid "Can delete replies"
+msgstr "Gali trinti atsakymus"
+
+#: wpf-includes/class-forums.php:40 wpf-includes/wpf-phrases.php:569
+msgid "Can edit own topic"
+msgstr "Gali redaguoti savo temą"
+
+#: wpf-includes/class-forums.php:41
+msgid "Can edit own reply"
+msgstr ""
+
+#: wpf-includes/class-forums.php:42 wpf-includes/wpf-phrases.php:571
+msgid "Can delete own topic"
+msgstr "Gali trinti savo temą"
+
+#: wpf-includes/class-forums.php:43 wpf-includes/wpf-phrases.php:572
+msgid "Can delete own reply"
+msgstr "Gali trinti savo atsakymą"
+
+#: wpf-includes/class-forums.php:44
+msgid "Can add tags"
+msgstr ""
+
+#: wpf-includes/class-forums.php:45
+msgid "Can subscribe"
+msgstr ""
+
+#: wpf-includes/class-forums.php:46 wpf-includes/wpf-phrases.php:573
+msgid "Can like"
+msgstr "Gali rodyti Patinka"
+
+#: wpf-includes/class-forums.php:47 wpf-includes/wpf-phrases.php:574
+msgid "Can report"
+msgstr "Gali pranešti"
+
+#: wpf-includes/class-forums.php:48 wpf-includes/wpf-phrases.php:575
+msgid "Can set topic sticky"
+msgstr "Gali nustatyti lipnią temą"
+
+#: wpf-includes/class-forums.php:49 wpf-includes/wpf-phrases.php:576
+msgid "Can set topic private"
+msgstr "Gali nustatyti privačią temą"
+
+#: wpf-includes/class-forums.php:50 wpf-includes/wpf-phrases.php:654
+msgid "Can set own topic private"
+msgstr "Gali nustatyti savo temą kaip privačią"
+
+#: wpf-includes/class-forums.php:51 wpf-includes/wpf-phrases.php:655
+msgid "Can view private topic"
+msgstr "Gali peržiūrėti privačią temą"
+
+#: wpf-includes/class-forums.php:52 wpf-includes/wpf-phrases.php:584
+msgid "Can approve/unapprove content"
+msgstr "Gali patvirtinti/nepatvirtinti turinio"
+
+#: wpf-includes/class-forums.php:53 wpf-includes/wpf-phrases.php:608
+msgid "Can set topic solved"
+msgstr "Gali pažymėti temą kaip išspręstą"
+
+#: wpf-includes/class-forums.php:54 wpf-includes/wpf-phrases.php:609
+msgid "Can set own topic solved"
+msgstr "Gali pažymėti savo temą kaip išspręstą"
+
+#: wpf-includes/class-forums.php:55 wpf-includes/wpf-phrases.php:577
+msgid "Can vote"
+msgstr "Gali balsuoti"
+
+#: wpf-includes/class-forums.php:56 wpf-includes/wpf-phrases.php:578
+msgid "Can attach file"
+msgstr "Gali prisegti bylą"
+
+#: wpf-includes/class-forums.php:57 wpf-includes/wpf-phrases.php:583
+msgid "Can view attached files"
+msgstr "Gali matyti prisegtas bylas"
+
+#: wpf-includes/class-forums.php:58 wpf-includes/wpf-phrases.php:579
+msgid "Can set topic answered"
+msgstr "Gali nustatyti, kad tema atsakyta"
+
+#: wpf-includes/class-forums.php:59 wpf-includes/wpf-phrases.php:580
+msgid "Can set own topic answered"
+msgstr "Gali nustatyti savo temą, kad ji atsakyta"
+
+#: wpf-includes/class-forums.php:60
+msgid "Can answer own question"
+msgstr ""
+
+#: wpf-includes/class-forums.php:61 wpf-includes/wpf-phrases.php:581
+msgid "Can close topic"
+msgstr "Gali uždaryti temą"
+
+#: wpf-includes/class-forums.php:62 wpf-includes/wpf-phrases.php:582
+msgid "Can move topic"
+msgstr "Gali perkelti temą"
+
+#: wpf-includes/class-forums.php:63 wpf-includes/wpf-phrases.php:585
+msgid "Can create poll"
+msgstr "Gali kurti apklausą"
+
+#: wpf-includes/class-forums.php:64 wpf-includes/wpf-phrases.php:586
+msgid "Can vote poll"
+msgstr "Gali balsuoti apklausoje"
+
+#: wpf-includes/class-forums.php:65 wpf-includes/wpf-phrases.php:587
+msgid "Can view poll result"
+msgstr "Gali matyti apklausos rezultatus"
+
+#: wpf-includes/class-forums.php:677
+msgid "Add a new Subforum"
+msgstr "Pridėti naują Subforumą"
+
+#: wpf-includes/class-forums.php:677
+msgid "Add a new Forum in this Category"
+msgstr "Pridėti naują Forumą šioje Kategorijoje"
+
+#: wpf-includes/class-members.php:137
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>KLAIDA</strong>: Prašome įvesti vartotojo vardą."
+
+#: wpf-includes/class-members.php:142
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+"<strong>KLAIDA</strong>: Šis vartotojo vardas negalimas, nes jame naudojami "
+"neleistini simboliai. Prašome įvesti tinkamą vartotojo vardą."
+
+#: wpf-includes/class-members.php:153
+msgid ""
+"<strong>ERROR</strong>: This username is already registered. Please choose "
+"another one."
+msgstr ""
+"<strong>KLAIDA</strong>: Šis vartotojo vardas jau užregistruotas. Prašome "
+"pasirinkti kitą."
+
+#: wpf-includes/class-members.php:158
+msgid "<strong>ERROR</strong>: Sorry, that username is not allowed."
+msgstr "<strong>KLAIDA</strong>: Atsiprašome, šis vartotojo vardas negalimas."
+
+#: wpf-includes/class-members.php:163
+msgid "<strong>ERROR</strong>: Please type your email address."
+msgstr "<strong>KLAIDA</strong>: Prašome įvesti el. pašto adresą."
+
+#: wpf-includes/class-members.php:168
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>KLAIDA</strong>: Atsiprašome, el. pašto adresas neteisingas."
+
+#: wpf-includes/class-members.php:174
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+"<strong>KLAIDA</strong>: Šis el. pašto adresas jau užregistruotas. Prašome "
+"pasirinkti kitą."
+
+#: wpf-includes/class-members.php:1806
+msgid "What should be done with wpForo content owned by this user?"
+msgstr "Ką daryti su šio vartotojo wpForo sukurtu turiniu?"
+
+#: wpf-includes/class-members.php:1808
+msgid "What should be done with wpForo content owned by these users?"
+msgstr "Ką daryti su šių vartotojų wpForo sukurtu turiniu?"
+
+#: wpf-includes/class-members.php:1812
+msgid "Delete all wpForo content."
+msgstr "Trinti visą wpForo turinį."
+
+#: wpf-includes/class-members.php:1814
+msgid "Attribute all content to:"
+msgstr "Priskirti visą turinį:"
+
+#: wpf-includes/class-moderation.php:159
+msgid ""
+"Probably spam file attachments have been detected by wpForo Spam Control. "
+"Please moderate suspected files in Forums &gt; Tools &gt; Antispam Tab."
+msgstr ""
+
+#: wpf-includes/class-notices.php:155
+msgid "New Addons for Your Forum!"
+msgstr "Nauji Jūsų Forumo Plėtiniai!"
+
+#: wpf-includes/class-notices.php:155
+msgid "Extend your forum with wpForo addons"
+msgstr "Išplėsti forumą wpForo plėtiniais"
+
+#: wpf-includes/class-notices.php:168
+msgid "View all Addons"
+msgstr "Peržiūrėti visus Plėtinius"
+
+#: wpf-includes/class-permissions.php:125 wpf-includes/wpf-phrases.php:420
+#, php-format
+msgid "%s access successfully added"
+msgstr "%s prieiga sėkmingai sukurta"
+
+#: wpf-includes/class-permissions.php:149 wpf-includes/wpf-phrases.php:421
+#, php-format
+msgid "%s access successfully edited"
+msgstr "%s prieiga sėkmingai pakeista"
+
+#: wpf-includes/class-phrases.php:181 wpf-includes/wpf-phrases.php:7
+msgid " Forum"
+msgstr " Forumas"
+
+#: wpf-includes/class-phrases.php:182 wpf-includes/wpf-phrases.php:6
+msgid " Discussion Board"
+msgstr " Diskusijų Lenta"
+
+#: wpf-includes/class-posts.php:39
+msgid "You are not permitted to view this attachment"
+msgstr "Jūs neturite prieigos peržiūrėti šio priedo"
+
+#: wpf-includes/class-subscribes.php:31
+msgid "Please confirm subscription to [entry_title]"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:32
+msgid ""
+"Hello [member_name]!<br>\r\n"
+" Thank you for subscribing.<br>\r\n"
+" This is an automated response.<br>\r\n"
+" We are glad to inform you that after confirmation you will get updates from "
+"- [entry_title].<br>\r\n"
+" Please click on link below to complete this step.<br>\r\n"
+" [confirm_link]"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:33
+msgid "New Topic"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:34
+msgid ""
+"Hello [member_name]!<br>\r\n"
+" New topic has been created on your subscribed forum - [forum].\r\n"
+" <br><br>\r\n"
+" <strong>[topic_title]</strong>\r\n"
+" <blockquote>\r\n"
+" [topic_desc]\r\n"
+" </blockquote>\r\n"
+" <br><hr>\r\n"
+" If you want to unsubscribe from this forum please use the link below.<br>"
+"\r\n"
+" [unsubscribe_link]"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:35
+msgid "New Reply"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:36
+msgid ""
+"Hello [member_name]!<br>\r\n"
+" New reply has been posted on your subscribed topic - [topic].\r\n"
+" <br><br>\r\n"
+" <strong>[reply_title]</strong>\r\n"
+" <blockquote >\r\n"
+" [reply_desc]\r\n"
+" </blockquote>\r\n"
+" <br><hr>\r\n"
+" If you want to unsubscribe from this topic please use the link below.<br>"
+"\r\n"
+" [unsubscribe_link]"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:37
+msgid "Forum Post Report"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:38
+msgid ""
+"<strong>Report details:</strong>\r\n"
+" Reporter: [reporter], <br>\r\n"
+" Message: [message],<br>\r\n"
+" <br>\r\n"
+" [post_url]"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:39
+msgid "[blogname] New User Registration"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:40
+msgid ""
+"New user registration on your site [blogname]:\r\n"
+"\r\n"
+"Username: [user_login]\r\n"
+"\r\n"
+"Email: [user_email]\r\n"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:41
+msgid "[blogname] Your username and password info"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:42
+msgid ""
+"Username: [user_login]\r\n"
+"\r\n"
+"To set your password, visit the following address:\r\n"
+"\r\n"
+"[set_password_url]\r\n"
+"\r\n"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:43
+msgid ""
+"Hello! <br>\r\n"
+"\r\n"
+" You asked us to reset your password for your account using the email "
+"address [user_login]. <br>\r\n"
+"\r\n"
+" If this was a mistake, or you didn't ask for a password reset, just ignore "
+"this email and nothing will happen. <br>\r\n"
+"\r\n"
+" To reset your password, visit the following address: <br>\r\n"
+"\r\n"
+" [reset_password_url] <br>\r\n"
+"\r\n"
+" Thanks!"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:48
+msgid "You have been mentioned in forum post"
+msgstr ""
+
+#: wpf-includes/class-subscribes.php:49
+msgid ""
+"Hi [mentioned-user-name]! <br>\r\n"
+"\r\n"
+" You have been mentioned in a post on \"[topic-title]\" by [author-user-"
+"name].<br/><br/>\r\n"
+"\r\n"
+" Post URL: [post-url]"
+msgstr ""
+
+#: wpf-includes/class-template.php:95
+msgid "Insert link"
+msgstr "Įterpti nuorodą"
+
+#: wpf-includes/class-template.php:96
+msgid "Link Text"
+msgstr "Nuorodos tekstas"
+
+#: wpf-includes/class-template.php:97
+msgid "Open link in a new tab"
+msgstr "Atverti nuorodą naujoje skiltyje"
+
+#: wpf-includes/class-template.php:1526 wpf-includes/wpf-phrases.php:327
+msgid "Theme file not readable"
+msgstr "Temos byla neskaitoma"
+
+#: wpf-includes/class-usergroups.php:23 wpf-includes/wpf-phrases.php:533
+msgid "Dashboard - Manage Forums"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:24 wpf-includes/wpf-phrases.php:534
+msgid "Dashboard - Manage Settings"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:25 wpf-includes/wpf-phrases.php:535
+msgid "Dashboard - Manage Tools"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:26 wpf-includes/wpf-phrases.php:539
+msgid "Dashboard - Manage Members"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:27 wpf-includes/wpf-phrases.php:536
+msgid "Dashboard - Moderate Topics & Posts"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:28 wpf-includes/wpf-phrases.php:542
+msgid "Dashboard - Manage Usergroups"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:29 wpf-includes/wpf-phrases.php:537
+msgid "Dashboard - Manage Phrases"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:30 wpf-includes/wpf-phrases.php:538
+msgid "Dashboard - Manage Themes"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:32 wpf-includes/wpf-phrases.php:540
+msgid "Dashboard - Can edit member"
+msgstr "Valdymo Skydelis - Gali redaguoti narius"
+
+#: wpf-includes/class-usergroups.php:33
+msgid "Dashboard - Can ban member"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:34 wpf-includes/wpf-phrases.php:541
+msgid "Dashboard - Can delete member"
+msgstr "Valdymo Skydelis - Gali trinti narius"
+
+#: wpf-includes/class-usergroups.php:36
+msgid "Front - Can pass moderation"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:37 wpf-includes/wpf-phrases.php:543
+msgid "Front - Can view members"
+msgstr "Priekis - Gali matyti narius"
+
+#: wpf-includes/class-usergroups.php:38 wpf-includes/wpf-phrases.php:544
+msgid "Front - Can view profiles"
+msgstr "Priekis - Gali matyti profilius"
+
+#: wpf-includes/class-usergroups.php:39
+msgid "Front - Can view member activity"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:40
+msgid "Front - Can view member subscriptions"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:42 wpf-includes/wpf-phrases.php:545
+msgid "Front - Can upload avatar"
+msgstr "Priekis - Gali įkelti pseudoportretą"
+
+#: wpf-includes/class-usergroups.php:43
+msgid "Front - Can have signaturee"
+msgstr ""
+
+#: wpf-includes/class-usergroups.php:44 wpf-includes/wpf-phrases.php:547
+msgid "Front - Can view avatars"
+msgstr "Priekis - Gali matyti pseudoportretus"
+
+#: wpf-includes/class-usergroups.php:46 wpf-includes/wpf-phrases.php:548
+msgid "Front - Can view member username"
+msgstr "Priekis - Gali matyti nario vartotojo vardą"
+
+#: wpf-includes/class-usergroups.php:47 wpf-includes/wpf-phrases.php:549
+msgid "Front - Can view member email"
+msgstr "Priekis - Gali matyti nario el. paštą"
+
+#: wpf-includes/class-usergroups.php:48 wpf-includes/wpf-phrases.php:550
+msgid "Front - Can view member title"
+msgstr "Priekis - Gali matyti nario pavadinimą"
+
+#: wpf-includes/class-usergroups.php:49
+msgid "Front - Can view member custom title"
+msgstr "Priekis - Gali matyti nario nustatytą pavadinimą"
+
+#: wpf-includes/class-usergroups.php:50 wpf-includes/wpf-phrases.php:551
+msgid "Front - Can view member reputation"
+msgstr "Priekis - Gali matyti nario reputaciją"
+
+#: wpf-includes/class-usergroups.php:51 wpf-includes/wpf-phrases.php:552
+msgid "Front - Can view member website"
+msgstr "Priekis - Gali matyti nario svetainę"
+
+#: wpf-includes/class-usergroups.php:52 wpf-includes/wpf-phrases.php:553
+msgid "Front - Can view member social networks"
+msgstr "Priekis - Gali matyti nario socialinius tinklų informaciją"
+
+#: wpf-includes/class-usergroups.php:53 wpf-includes/wpf-phrases.php:554
+msgid "Front - Can view member reg. date"
+msgstr "Priekis - Gali matyti nario reg. datą"
+
+#: wpf-includes/class-usergroups.php:54 wpf-includes/wpf-phrases.php:555
+msgid "Front - Can view member location"
+msgstr "Priekis - Gali matyti nario vietovę"
+
+#: wpf-includes/class-usergroups.php:55 wpf-includes/wpf-phrases.php:556
+msgid "Front - Can view member occupation"
+msgstr "Priekis - Gali matyti nario profesiją"
+
+#: wpf-includes/class-usergroups.php:56 wpf-includes/wpf-phrases.php:557
+msgid "Front - Can view member signature"
+msgstr "Priekis - Gali matyti nario parašą"
+
+#: wpf-includes/class-usergroups.php:57 wpf-includes/wpf-phrases.php:558
+msgid "Front - Can view member about me"
+msgstr "Priekis - Gali matyti nario Apie mane"
+
+#: wpf-includes/class-usergroups.php:58 wpf-includes/wpf-phrases.php:559
+msgid "Front - Can write PM"
+msgstr "Gali matyti forumą"
+
+#: wpf-includes/functions-installation.php:347
+msgid "Main Category"
+msgstr ""
+
+#: wpf-includes/functions-installation.php:347
+msgid "This is a simple category / section"
+msgstr ""
+
+#: wpf-includes/functions-installation.php:348
+msgid "Main Forum"
+msgstr ""
+
+#: wpf-includes/functions-installation.php:348
+msgid "This is a simple parent forum"
+msgstr ""
+
+#: wpf-includes/functions-installation.php:681
+msgid "Start Profile Synchronization"
+msgstr "Pradėti Profilio Sinchronizavimą"
+
+#: wpf-includes/functions-installation.php:681
+msgid "Continue Synchronization"
+msgstr "Tęsti Sinchronizavimą"
+
+#: wpf-includes/functions-installation.php:684
+msgid ""
+"This process may take a few seconds or dozens of minutes, please be patient "
+"and don't close this page."
+msgstr ""
+"Šis procesas gali užtrukti keletą minučių, prašome būti kantriems ir "
+"neužverti šio lango."
+
+#: wpf-includes/functions-installation.php:685
+msgid ""
+"You can permanently disable this message in Dashboard > Forums > Features "
+"admin page."
+msgstr ""
+"Jūs galite visam laikui atsisakyti šios žinutės Valdymo Skydelyje > Forumai "
+"> Features administratoriaus puslapyje."
+
+#: wpf-includes/functions-installation.php:687
+msgid "wpForo Forum Installation | "
+msgstr "wpForo Forumo Įdiegimas | "
+
+#: wpf-includes/functions-installation.php:688
+msgid ""
+"Forum users' profile data are not synchronized yet, this step is required! "
+"Please click the button below to complete installation."
+msgstr ""
+"Forumo vartotojo profilio duomenys dar nėra sinchronizuoti, šis žingsnis yra "
+"reikalingas! Prašome spustelėti mygtuką žemiau ir užbaigti įdiegimą."
+
+#: wpf-includes/functions-installation.php:699
+msgid ""
+"This process may take a few seconds or dozens of minutes, please be patient "
+"and don't close this page. Database backup is not required. If you got 500 "
+"Server Error please don't worry, the data updating process is still working "
+"in MySQL server."
+msgstr ""
+"Šis procesas gali užtrukti keletą minučių, prašome būti kantriems ir "
+"neužverti šio lango. Duomenų bazės atsarginė kopija nėra reikalinga. Jeigu "
+"gavote 500 Server Error, nesijaudinkite, duomenų atnaujinimo procesas veikia "
+"toliau MySQL serveryje."
+
+#: wpf-includes/functions-installation.php:700
+msgid "Updater Database"
+msgstr "Atnaujintojo Duomenų Bazė"
+
+#: wpf-includes/functions-installation.php:701
+msgid "wpForo - Update Database "
+msgstr "wpForo - Atnaujinti Duomenų Bazę "
+
+#: wpf-includes/functions-installation.php:702
+msgid "Please click the button below to complete wpForo update."
+msgstr "Prašome spustelėti mygtuką žemiau ir užbaigti wpForo atnaujinimą."
+
+#: wpf-includes/functions-template.php:7
+msgid "wpForo Menu"
+msgstr "wpForo Meniu"
+
+#: wpf-includes/functions-template.php:156 wpf-includes/wpf-phrases.php:410
+msgid "wpForo Sidebar"
+msgstr "wpForo Šoninis Skydelis"
+
+#: wpf-includes/functions-template.php:157 wpf-includes/wpf-phrases.php:191
+msgid ""
+"NOTE: If you're going to add widgets in this sidebar, please use 'Full "
+"Width' template for wpForo index page to avoid sidebar duplication."
+msgstr ""
+"DĖMĖSIO: Jei ruošiatės į šoninį skydelį įkelti valdiklius, prašome naudoti "
+"\"Pilnas plotis\" wpForo turinio maketą, kad nedubliuoti šoninio skydelio."
+
+#: wpf-includes/functions-template.php:195
+#: wpf-includes/functions-template.php:301
+#: wpf-includes/functions-template.php:364
+#: wpf-includes/functions-template.php:474
+#: wpf-includes/functions-template.php:572
+#: wpf-includes/functions-template.php:617
+#: wpf-includes/functions-template.php:668 wpf-includes/wpf-phrases.php:334
+msgid "Title"
+msgstr "Pavadinimas"
+
+#: wpf-includes/functions-template.php:368
+msgid "User Groups"
+msgstr ""
+
+#: wpf-includes/functions-template.php:374
+#: wpf-includes/functions-template.php:491
+#: wpf-includes/functions-template.php:575
+#: wpf-includes/functions-template.php:677 wpf-includes/wpf-phrases.php:210
+msgid "Number of Items"
+msgstr "Elementų skaičius"
+
+#: wpf-includes/functions-template.php:380 wpf-includes/wpf-phrases.php:70
+msgid "Display Avatars"
+msgstr "Rodyti Pseudoportretus"
+
+#: wpf-includes/functions-template.php:409
+msgid "Created Date"
+msgstr ""
+
+#: wpf-includes/functions-template.php:410
+msgid "Modified Date"
+msgstr ""
+
+#: wpf-includes/functions-template.php:411
+msgid "Posts Count"
+msgstr ""
+
+#: wpf-includes/functions-template.php:412
+msgid "Views Count"
+msgstr ""
+
+#: wpf-includes/functions-template.php:415
+msgid "DESC"
+msgstr ""
+
+#: wpf-includes/functions-template.php:416
+msgid "ASC"
+msgstr ""
+
+#: wpf-includes/functions-template.php:478
+msgid "Order by"
+msgstr ""
+
+#: wpf-includes/functions-template.php:495
+#: wpf-includes/functions-template.php:579 wpf-includes/wpf-phrases.php:72
+msgid "Display with Avatars"
+msgstr "Rodyti su Pseudoportretais"
+
+#: wpf-includes/functions-template.php:672
+msgid "Topic Counts"
+msgstr ""
+
+#: wpf-includes/functions.php:378
+msgid "Unapproved"
+msgstr "Nepatvirtinta"
+
+#: wpf-includes/functions.php:379
+msgid "Published"
+msgstr "Paskelbta"
+
+#: wpf-includes/functions.php:388 wpf-includes/wpf-phrases.php:597
+msgid "Active"
+msgstr "Aktyvi"
+
+#: wpf-includes/functions.php:389
+msgid "Banned"
+msgstr "Užblokuotas"
+
+#: wpf-includes/functions.php:402 wpf-includes/functions.php:704
+#: wpf-includes/wpf-phrases.php:50
+msgid "Bulk Actions"
+msgstr "Kiti Veiksmai"
+
+#: wpf-includes/functions.php:407 wpf-includes/functions.php:808
+#: wpf-includes/wpf-phrases.php:36
+msgid "Apply"
+msgstr "Pritaikyti"
+
+#: wpf-includes/functions.php:416 wpf-includes/wpf-phrases.php:300
+msgid "Show all forums"
+msgstr "Rodyti visus Forumus"
+
+#: wpf-includes/functions.php:429 wpf-includes/wpf-phrases.php:350
+msgid "filter by group"
+msgstr "filtruoti pagal grupę"
+
+#: wpf-includes/functions.php:441
+msgid "filter by status"
+msgstr "filtruoti pagal statusą"
+
+#: wpf-includes/functions.php:457
+msgid "filter by package"
+msgstr "filtruoti pagal sudėtį"
+
+#: wpf-includes/functions.php:486
+msgid "filter by user"
+msgstr "filtruoti pagal vartotoją"
+
+#: wpf-includes/functions.php:506 wpf-includes/functions.php:712
+#: wpf-includes/wpf-phrases.php:385
+msgid "item"
+msgstr "elementas"
+
+#: wpf-includes/functions.php:539 wpf-includes/functions.php:555
+#: wpf-includes/wpf-phrases.php:284
+msgid "Select All"
+msgstr "Žymėti viską"
+
+#: wpf-includes/functions.php:544 wpf-includes/functions.php:560
+msgid "Type"
+msgstr "Tipas"
+
+#: wpf-includes/functions.php:617 wpf-includes/wpf-phrases.php:383
+msgid "edit user"
+msgstr "redaguoti varotoją"
+
+#: wpf-includes/functions.php:621 wpf-includes/wpf-phrases.php:382
+msgid "edit profile"
+msgstr "redaguoti profilį"
+
+#: wpf-includes/functions.php:626
+msgid "unban user"
+msgstr "atblokuoti vartotoją"
+
+#: wpf-includes/functions.php:626
+msgid "ban user"
+msgstr "užblokuoti vartotoją"
+
+#: wpf-includes/functions.php:626
+msgid "Are you sure, you want to unban this user?"
+msgstr "Ar tikrai norite atblokuoti šį vartotoją?"
+
+#: wpf-includes/functions.php:626
+msgid "Are you sure, you want to ban this user?"
+msgstr "Ar tikrai norite užblokuoti šį vartotoją?"
+
+#: wpf-includes/functions.php:631 wpf-includes/functions.php:641
+#: wpf-includes/wpf-phrases.php:67
+msgid "Delete this item"
+msgstr "Trinti elementą"
+
+#: wpf-includes/functions.php:631 wpf-includes/functions.php:641
+#: wpf-includes/wpf-phrases.php:41
+msgid "Are you sure you want to DELETE this item?"
+msgstr "Ar tikrai norite TRINTI elementą?"
+
+#: wpf-includes/functions.php:636
+msgid "unapprove this item"
+msgstr "nepatvirtinti elemento"
+
+#: wpf-includes/functions.php:636
+msgid "Approve this item"
+msgstr "Patvirtinti elementą"
+
+#: wpf-includes/functions.php:636 wpf-includes/wpf-phrases.php:685
+msgid "unapprove"
+msgstr "nepatvirtinti"
+
+#: wpf-includes/functions.php:636 wpf-includes/wpf-phrases.php:684
+msgid "approve"
+msgstr "patvirtinti"
+
+#: wpf-includes/functions.php:658 wpf-includes/functions.php:659
+#: wpf-includes/wpf-phrases.php:404
+msgid "view"
+msgstr "peržiūrėti"
+
+#: wpf-includes/functions.php:683
+msgid "Topic"
+msgstr "Tema"
+
+#: wpf-includes/functions.php:683
+msgid "Post"
+msgstr "Įrašas"
+
+#: wpf-includes/functions.php:696 wpf-includes/wpf-phrases.php:200
+msgid "No items found"
+msgstr "Nieko neradome"
+
+#: wpf-includes/functions.php:807 wpf-includes/wpf-phrases.php:141
+msgid "Items"
+msgstr "Elementai"
+
+#: wpf-includes/functions.php:1206
+#, php-format
+msgid "Could not write file %s"
+msgstr "Bylos %s įrašyti nepavyko"
+
+#: wpf-includes/integration/buddypress.php:34
+msgid "Search Forums..."
+msgstr ""
+
+#: wpf-includes/integration/buddypress.php:78 wpf-includes/wpf-phrases.php:789
+msgid "Topics Started"
+msgstr ""
+
+#: wpf-includes/integration/buddypress.php:89 wpf-includes/wpf-phrases.php:790
+msgid "Replies Created"
+msgstr ""
+
+#: wpf-includes/integration/buddypress.php:100 wpf-includes/wpf-phrases.php:791
+msgid "Liked Posts"
+msgstr ""
+
+#: wpf-includes/integration/buddypress.php:112 wpf-includes/wpf-phrases.php:318
+msgid "Subscriptions"
+msgstr "Prenumeratos"
+
+#: wpf-includes/integration/buddypress.php:526
+msgid "Topic reply"
+msgstr ""
+
+#: wpf-includes/integration/buddypress.php:529
+#, php-format
+msgid "You have %d new replies"
+msgstr ""
+
+#: wpf-includes/integration/buddypress.php:533
+#, php-format
+msgid "You have %d new reply to %2$s from %3$s"
+msgstr ""
+
+#: wpf-includes/integration/buddypress.php:535
+#, php-format
+msgid "You have %d new reply to %s"
+msgstr ""
+
+#: wpf-includes/integration/buddypress.php:694
+msgid "Are you sure you wanted to do that?"
+msgstr ""
+
+#: wpf-includes/integration/buddypress.php:698
+msgid "You do not have permission to mark notifications for that user."
+msgstr ""
+
+#: wpf-includes/integration/ultimate-member.php:62
+#: wpf-includes/integration/ultimate-member.php:375
+msgid "User leaves a reply to wpForo topic"
+msgstr ""
+
+#: wpf-includes/integration/ultimate-member.php:64
+#: wpf-includes/integration/ultimate-member.php:377
+msgid "When a member replies to one of my forum topics"
+msgstr ""
+
+#: wpf-includes/integration/ultimate-member.php:67
+#: wpf-includes/integration/ultimate-member.php:380
+msgid "User replied to wpForo post"
+msgstr ""
+
+#: wpf-includes/integration/ultimate-member.php:69
+#: wpf-includes/integration/ultimate-member.php:382
+msgid "When a member replies to one of my post in forum topics"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:20 wpf-includes/wpf-phrases.php:136
+msgid ""
+"IMPORTANT! Uninstall is not a simple deactivation action. This action will "
+"permanently remove all forum data (forums, topics, replies, attachments...) "
+"from database. Please backup database before this action, you may need this "
+"forum data in future. If you are sure that you want to delete all forum data "
+"please confirm. If not, just cancel it, then you can deactivate this plugin, "
+"that will not remove forum data."
+msgstr ""
+"SVARBU! Išdiegimas nėra paprastas deaktyvavimo veiksmas. Šis veiksmas visam "
+"laikui pašalins visus forumo duomenis (forumus, temas, atsakymus, "
+"priedus...) iš duomenų bazės. Prašome padaryti duomenų bazės atsarginė "
+"kopiją prieš atliekant šį veiksmą, ateityje jums gali reikėti šio forumo "
+"duomenų. Jeigu tikrai norite trinti visus forumo duomenis prašome tai "
+"patvirtinti. Jei ne, tiesiog tai atšaukite, tada galėsite deaktyvuoti "
+"įskiepį, o tai nepašalins forumo duomenų."
+
+#: wpf-includes/wpf-hooks.php:20
+msgid "Uninstall"
+msgstr "Išdiegti"
+
+#: wpf-includes/wpf-hooks.php:1139
+msgid "Move"
+msgstr "Perkelti"
+
+#: wpf-includes/wpf-hooks.php:1174
+msgid "Clear"
+msgstr "Valyti"
+
+#: wpf-includes/wpf-hooks.php:1174
+msgid "Select Color"
+msgstr "Pasirinkti spalvą"
+
+#: wpf-includes/wpf-hooks.php:1191
+msgid "Please check one of reasons before sending feedback!"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:1208
+msgid ""
+"IMPORTANT: wpForo can't work with default permalink, please change permalink "
+"structure"
+msgstr ""
+"SVARBU: wpForo neveikia su numatytomis nuolatinėmis nuorodomis (permalink), "
+"prašome pakeisti nuorodų struktūrą"
+
+#: wpf-includes/wpf-hooks.php:1230
+msgid "Forum Profile Fields - wpForo"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:1238
+msgid "Forum - Usergroup"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:1243
+#, php-format
+msgid ""
+"Forum Usergroups are synched with User Roles based on the %s. When you "
+"change this user Role the Usergroup is automatically changed according to "
+"that table."
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:1253
+msgid "Role-Usergroup Synchronization is Turned ON!"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:1254
+msgid ""
+"This user Usergroup is automatically changed according to current Role. If "
+"you want to disable Role-Usergroup synchronization and manage Usergroups and "
+"User Roles independently, please navigate to <b>Forums > Settings > "
+"Features</b> admin page and disable \"Role-Usergroup Synchronization\" "
+"option."
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:1265
+msgid "Forum - Secondary Usergroups"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:1287
+msgid "Forum - User Timezone"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:1584 wpf-includes/wpf-hooks.php:1683
+msgid "Please Moderate: "
+msgstr "Prašome Peržiūrėti: "
+
+#: wpf-includes/wpf-hooks.php:1585
+msgid ""
+"This topic is currently unapproved. You can approve topics in Dashboard "
+"&raquo; Forums &raquo; Moderation admin page."
+msgstr ""
+"Ši tema nėra patvirtinta. Jūs galite patvirtinti temas Valdymo Skydelyje "
+"&raquo; Forumai &raquo; Peržiūra administratoriaus puslapyje."
+
+#: wpf-includes/wpf-hooks.php:1684
+msgid ""
+"This post is currently unapproved. You can approve posts in Dashboard "
+"&raquo; Forums &raquo; Moderation admin page."
+msgstr ""
+"Šis įrašas nėra patvirtintas. Jūs galite patvirtinti temas Valdymo Skydelyje "
+"&raquo; Forumai &raquo; Peržiūra administratoriaus puslapyje."
+
+#: wpf-includes/wpf-hooks.php:2175 wpf-includes/wpf-hooks.php:2197
+msgid "New Forum"
+msgstr "Naujas Forumas"
+
+#: wpf-includes/wpf-hooks.php:2177
+msgid "New User Group"
+msgstr "Nauja Vartotojų Grupė"
+
+#: wpf-includes/wpf-hooks.php:2179 wpf-includes/wpf-hooks.php:2225
+msgid "New Phrase"
+msgstr "Nauja Frazė"
+
+#: wpf-includes/wpf-hooks.php:2191
+msgid "Forum Dashboard"
+msgstr ""
+
+#: wpf-includes/wpf-hooks.php:2219
+msgid "New Usergroup"
+msgstr "Nauja Vartotojų Grupė"
+
+#: wpf-includes/wpf-phrases.php:8
+#, php-format
+msgid "%s and %s liked"
+msgstr "%s ir %s patinka"
+
+#: wpf-includes/wpf-phrases.php:9
+#, php-format
+msgid "%s liked"
+msgstr "%s patinka"
+
+#: wpf-includes/wpf-phrases.php:10
+#, php-format
+msgid "%s, %s and %s liked"
+msgstr "%s, %s ir %s patinka"
+
+#: wpf-includes/wpf-phrases.php:11
+#, php-format
+msgid "%s, %s, %s and %d people liked"
+msgstr "%s, %s, %s ir %d patinka"
+
+#: wpf-includes/wpf-phrases.php:12
+msgid "AOL IM"
+msgstr "AOL IM"
+
+#: wpf-includes/wpf-phrases.php:13
+msgid "About Me"
+msgstr "Apie Mane"
+
+#: wpf-includes/wpf-phrases.php:16
+msgid "Account"
+msgstr "Paskyra"
+
+#: wpf-includes/wpf-phrases.php:19
+msgid "Activity"
+msgstr "Aktyvumas"
+
+#: wpf-includes/wpf-phrases.php:23
+msgid "Add a comment"
+msgstr "Pridėti komentarą"
+
+#: wpf-includes/wpf-phrases.php:24
+msgid "Add topic"
+msgstr "Pridėti temą"
+
+#: wpf-includes/wpf-phrases.php:32
+msgid "Answer"
+msgstr "Atsakyti"
+
+#: wpf-includes/wpf-phrases.php:33
+msgid "Answer to"
+msgstr "Atsakyti"
+
+#: wpf-includes/wpf-phrases.php:34
+msgid "Answers"
+msgstr "Atsakymai"
+
+#: wpf-includes/wpf-phrases.php:35
+msgid "Any Date"
+msgstr "Bet kokia Data"
+
+#: wpf-includes/wpf-phrases.php:42
+msgid "Ascending order"
+msgstr "Didėjanti tvarka"
+
+#: wpf-includes/wpf-phrases.php:43
+msgid "Attach file:"
+msgstr "Prisegti bylą:"
+
+#: wpf-includes/wpf-phrases.php:44
+msgid "Attachments"
+msgstr "Priedai"
+
+#: wpf-includes/wpf-phrases.php:45
+msgid "Attachments Size"
+msgstr "Priedo dydis"
+
+#: wpf-includes/wpf-phrases.php:47
+msgid "Avatar"
+msgstr "Pseudoportretas"
+
+#: wpf-includes/wpf-phrases.php:53
+msgid "Change password"
+msgstr "Pakeisti slaptažodį"
+
+#: wpf-includes/wpf-phrases.php:54
+msgid "Choose Target Forum"
+msgstr "Pakeisti Pažymėtą Forumą"
+
+#: wpf-includes/wpf-phrases.php:58
+msgid "Comments"
+msgstr "Komentarai"
+
+#: wpf-includes/wpf-phrases.php:59
+msgid "Confirm my subscription"
+msgstr "Patvirtinti mano prenumeratą"
+
+#: wpf-includes/wpf-phrases.php:65
+msgid "Date"
+msgstr "Data"
+
+#: wpf-includes/wpf-phrases.php:68
+msgid "Descending order"
+msgstr "Mažejanti tvarka"
+
+#: wpf-includes/wpf-phrases.php:71
+msgid "Display Name"
+msgstr "Rodomas Vardas"
+
+#: wpf-includes/wpf-phrases.php:74
+msgid "Edited: "
+msgstr "Redaguota: "
+
+#: wpf-includes/wpf-phrases.php:75
+msgid "Email"
+msgstr "El. pašto adresas"
+
+#: wpf-includes/wpf-phrases.php:88
+msgid "Enter title here"
+msgstr "Įrašykite pavadinimą"
+
+#: wpf-includes/wpf-phrases.php:90
+msgid "Extended Layout - Intro posts"
+msgstr "Išplėstinis Maketas - Intro įrašai"
+
+#: wpf-includes/wpf-phrases.php:91
+msgid "Extended Layout - Intro topics"
+msgstr "Išplėstinis Maketas - Intro temos"
+
+#: wpf-includes/wpf-phrases.php:92
+msgid "Extended Layout - Number of intro posts"
+msgstr "Išplėstinis Maketas - intro įrašų skaičius"
+
+#: wpf-includes/wpf-phrases.php:93
+msgid "Extended Layout - Number of intro topics"
+msgstr "Išplėstinis Maketas - intro temų skaičius"
+
+#: wpf-includes/wpf-phrases.php:94
+msgid "Facebook"
+msgstr "Facebook"
+
+#: wpf-includes/wpf-phrases.php:95
+msgid "Failed to write file to disk"
+msgstr "Nepavyko įrašyti duomenų"
+
+#: wpf-includes/wpf-phrases.php:97
+msgid "File upload stopped by extension"
+msgstr "Bylos įkėlimą sustabdė plėtinys"
+
+#: wpf-includes/wpf-phrases.php:98
+msgid "Find Posts by User"
+msgstr "Rasti įrašus pagal Vartotoją"
+
+#: wpf-includes/wpf-phrases.php:99
+msgid "Find Topics Started by User"
+msgstr "Rasti įrašus kuriuos pradėjo Vartotojas"
+
+#: wpf-includes/wpf-phrases.php:100
+msgid "First post and replies"
+msgstr "Rasti įrašus ir atsakymus"
+
+#: wpf-includes/wpf-phrases.php:102
+msgid "Forum - Login"
+msgstr "Forumas - Prisijungti"
+
+#: wpf-includes/wpf-phrases.php:103
+msgid "Forum - Page Not Found"
+msgstr "Forumas - Puslapis nerastas"
+
+#: wpf-includes/wpf-phrases.php:104
+msgid "Forum - Registration"
+msgstr "Forumas - Registracija"
+
+#: wpf-includes/wpf-phrases.php:106
+msgid "Forum Admin Email Addresses"
+msgstr "Forumo Administracijos El. pašto adresai"
+
+#: wpf-includes/wpf-phrases.php:109
+msgid "Forum Home"
+msgstr "Forumo Pagrindinis"
+
+#: wpf-includes/wpf-phrases.php:110
+msgid "Forum Language"
+msgstr "Forumo Kalba"
+
+#: wpf-includes/wpf-phrases.php:111
+msgid "Forum Members"
+msgstr "Forumo Nariai"
+
+#: wpf-includes/wpf-phrases.php:114
+msgid "Forum Profile"
+msgstr "Forumo Profilis"
+
+#: wpf-includes/wpf-phrases.php:115
+msgid "Forum RSS Feed"
+msgstr "Forumo RSS Feed"
+
+#: wpf-includes/wpf-phrases.php:119
+msgid "Forum Statistics"
+msgstr "Forumo Statistika"
+
+#: wpf-includes/wpf-phrases.php:122
+msgid "Forum is empty"
+msgstr "Forumas tuščias"
+
+#: wpf-includes/wpf-phrases.php:125
+msgid "From Email Address"
+msgstr "Nuo EL. pašto adresas"
+
+#: wpf-includes/wpf-phrases.php:126
+msgid "From Name"
+msgstr "Nuo Vardas"
+
+#: wpf-includes/wpf-phrases.php:131
+msgid "Group"
+msgstr "Grupė"
+
+#: wpf-includes/wpf-phrases.php:132
+msgid "Google+"
+msgstr "Google+"
+
+#: wpf-includes/wpf-phrases.php:135
+msgid "ICQ"
+msgstr "ICQ"
+
+#: wpf-includes/wpf-phrases.php:139
+msgid "Insert member name or email"
+msgstr "Įrašykite vartotojo vardą arba el. pašto adresą"
+
+#: wpf-includes/wpf-phrases.php:142
+msgid "Joined"
+msgstr "Prisijungta"
+
+#: wpf-includes/wpf-phrases.php:145
+msgid "Last 24 hours"
+msgstr "Pastarosios 24 valandos"
+
+#: wpf-includes/wpf-phrases.php:146
+msgid "Last 3 Months"
+msgstr "Patarieji 3 Mėnesiai"
+
+#: wpf-includes/wpf-phrases.php:147
+msgid "Last 6 Months"
+msgstr "Patarieji 6 Mėnesiai"
+
+#: wpf-includes/wpf-phrases.php:148
+msgid "Last Active"
+msgstr "Paskutinį kartą Aktyvus"
+
+#: wpf-includes/wpf-phrases.php:149
+msgid "Last Month"
+msgstr "Pastarasis Mėnuo"
+
+#: wpf-includes/wpf-phrases.php:150
+msgid "Last Post"
+msgstr "Paskutinis Įrašas"
+
+#: wpf-includes/wpf-phrases.php:151
+msgid "Last Post Info"
+msgstr "Paskutinio Įrašo Informacija"
+
+#: wpf-includes/wpf-phrases.php:152
+msgid "Last Week"
+msgstr "Pastaroji Savaitė"
+
+#: wpf-includes/wpf-phrases.php:153
+msgid "Last Year ago"
+msgstr "Šiais metais"
+
+#: wpf-includes/wpf-phrases.php:154
+#, php-format
+msgid "Last post by %s"
+msgstr "Paskutinį įraša rašė %s"
+
+#: wpf-includes/wpf-phrases.php:155
+msgid "Latest Post"
+msgstr "Vėliausias Įrašas"
+
+#: wpf-includes/wpf-phrases.php:156
+msgid "Leave a reply"
+msgstr "Atsakyti"
+
+#: wpf-includes/wpf-phrases.php:157
+msgid "Length must be between 3 characters and 30 characters."
+msgstr "Ilgis turi būti tarp 3 ir 30 simbolių."
+
+#: wpf-includes/wpf-phrases.php:159
+msgid "Liked"
+msgstr "Patinka"
+
+#: wpf-includes/wpf-phrases.php:160
+msgid "Location"
+msgstr "Vieta"
+
+#: wpf-includes/wpf-phrases.php:161
+msgid "Login"
+msgstr "Prisijungti"
+
+#: wpf-includes/wpf-phrases.php:163
+msgid "Logout"
+msgstr "Atsijungti"
+
+#: wpf-includes/wpf-phrases.php:165
+msgid "Lost your password?"
+msgstr "Pamiršote slaptažodį?"
+
+#: wpf-includes/wpf-phrases.php:167
+msgid "MSN"
+msgstr "MSN"
+
+#: wpf-includes/wpf-phrases.php:168
+msgid "Maximum allowed file size is"
+msgstr "Didžiausias leistinas bylos dydis yra"
+
+#: wpf-includes/wpf-phrases.php:170
+msgid "Member Activity"
+msgstr "Vartotojo Aktyvumas"
+
+#: wpf-includes/wpf-phrases.php:171
+msgid "Member Information"
+msgstr "Vartotojo Informacija"
+
+#: wpf-includes/wpf-phrases.php:172
+msgid "Member Rating"
+msgstr "Vartotojo Reitingas"
+
+#: wpf-includes/wpf-phrases.php:173
+msgid "Member Rating Badge"
+msgstr "Vartotojo Reitingo Ženklelis"
+
+#: wpf-includes/wpf-phrases.php:174
+msgid "Member Reputation"
+msgstr "Vartotojo Reputacija"
+
+#: wpf-includes/wpf-phrases.php:177
+msgid "Member information"
+msgstr "Vartotojo Informacija"
+
+#: wpf-includes/wpf-phrases.php:181
+msgid "Members not found"
+msgstr "Vartotojas nerastas"
+
+#: wpf-includes/wpf-phrases.php:182
+msgid ""
+"You have been banned. Please contact to forum administrators for more "
+"information."
+msgstr ""
+"Jūs buvote užblokuotas. Norėdami gauti daugiau informacijos, prašome "
+"kreiptis į forumo administraciją."
+
+#: wpf-includes/wpf-phrases.php:183
+msgid "Messages"
+msgstr "Žinutės"
+
+#: wpf-includes/wpf-phrases.php:186
+msgid "Missing a temporary folder"
+msgstr "Nerastas tarpinis aplankas"
+
+#: wpf-includes/wpf-phrases.php:188
+msgid "Move Topic"
+msgstr "Perkelti Temą"
+
+#: wpf-includes/wpf-phrases.php:189
+msgid "Must be minimum 6 characters."
+msgstr "Mažiausiai 6 simboliai."
+
+#: wpf-includes/wpf-phrases.php:190
+msgid "My Profile"
+msgstr "Mano Profilis"
+
+#: wpf-includes/wpf-phrases.php:197
+msgid "No activity found for this member."
+msgstr "Nerasta šio vartotojo aktyvumo požymių."
+
+#: wpf-includes/wpf-phrases.php:198
+msgid "No file was uploaded"
+msgstr "Byla nebuvo įkelta"
+
+#: wpf-includes/wpf-phrases.php:199
+msgid "No forums were found here."
+msgstr "Forumų nerasta."
+
+#: wpf-includes/wpf-phrases.php:203
+msgid "No online members at the moment"
+msgstr "Šiuo metu nėra prisijungusių narių"
+
+#: wpf-includes/wpf-phrases.php:205
+msgid "No subscriptions found for this member."
+msgstr "Nerasta šio nario prenumeratų."
+
+#: wpf-includes/wpf-phrases.php:207
+msgid "No topics were found here"
+msgstr "Nerasta temų"
+
+#: wpf-includes/wpf-phrases.php:208
+msgid "Not available"
+msgstr "Nėra galimybės"
+
+#: wpf-includes/wpf-phrases.php:214
+msgid "Occupation"
+msgstr "Pareigos"
+
+#: wpf-includes/wpf-phrases.php:215
+msgid "Offline"
+msgstr "Neprisijungęs"
+
+#: wpf-includes/wpf-phrases.php:216
+msgid "Online"
+msgstr "Prisijungęs"
+
+#: wpf-includes/wpf-phrases.php:218
+msgid "Oops! The page you requested was not found!"
+msgstr "Deja. Ieškomo puslapio nepavyko rasti!"
+
+#: wpf-includes/wpf-phrases.php:219
+msgid "Our newest member"
+msgstr "Naujausias narys"
+
+#: wpf-includes/wpf-phrases.php:220
+msgid "Page"
+msgstr "Puslapis"
+
+#: wpf-includes/wpf-phrases.php:222
+msgid "Password"
+msgstr "Slaptažodis"
+
+#: wpf-includes/wpf-phrases.php:224
+#, php-format
+msgid "Please %s or %s"
+msgstr "Prašome %s arba %s"
+
+#: wpf-includes/wpf-phrases.php:228
+msgid "Post Title"
+msgstr "Įrašo Pavadinimas"
+
+#: wpf-includes/wpf-phrases.php:229
+msgid "Post link"
+msgstr "Įrašo nuoroda"
+
+#: wpf-includes/wpf-phrases.php:230
+msgid "Posted"
+msgstr "Paskelbta"
+
+#: wpf-includes/wpf-phrases.php:231
+msgid "Posted by"
+msgstr "Paskelbė"
+
+#: wpf-includes/wpf-phrases.php:233
+msgid "Powered by"
+msgstr "Įgalino"
+
+#: wpf-includes/wpf-phrases.php:235
+msgid "Q&A Layout - Number of intro topics"
+msgstr "\"Klausimai ir Atsakymai\" Maketas - Intro temų skaičius"
+
+#: wpf-includes/wpf-phrases.php:236
+msgid "Q&A layout - Intro topics"
+msgstr "\"Klausimai ir Atsakymai\" Maketas - Intro temos"
+
+#: wpf-includes/wpf-phrases.php:237
+msgid "Question Comments"
+msgstr "Klausimo komentarai"
+
+#: wpf-includes/wpf-phrases.php:238
+msgid "Questions"
+msgstr "Klausimai"
+
+#: wpf-includes/wpf-phrases.php:239
+msgid "Quote"
+msgstr "Citata"
+
+#: wpf-includes/wpf-phrases.php:240
+msgid "RE"
+msgstr "RE"
+
+#: wpf-includes/wpf-phrases.php:241
+msgid "REPLY:"
+msgstr "ATSAKYTI:"
+
+#: wpf-includes/wpf-phrases.php:242
+msgid "RSS"
+msgstr "RSS"
+
+#: wpf-includes/wpf-phrases.php:243
+msgid "Rating"
+msgstr "Reitingas"
+
+#: wpf-includes/wpf-phrases.php:244
+msgid "Rating Badge"
+msgstr "Reitingo Ženklelis"
+
+#: wpf-includes/wpf-phrases.php:248
+msgid "Received Likes"
+msgstr "Viso Patinka"
+
+#: wpf-includes/wpf-phrases.php:249
+msgid "Recent Questions"
+msgstr "Naujausi Klausimai"
+
+#: wpf-includes/wpf-phrases.php:250
+msgid "Recent Topics"
+msgstr "Naujausios Temos"
+
+#: wpf-includes/wpf-phrases.php:251
+msgid "Register"
+msgstr "Registruotis"
+
+#: wpf-includes/wpf-phrases.php:253
+msgid "Registered date"
+msgstr "Registracijos Data"
+
+#: wpf-includes/wpf-phrases.php:254
+msgid "Relevancy"
+msgstr "Sąsajos"
+
+#: wpf-includes/wpf-phrases.php:255
+msgid "Remember Me"
+msgstr "Atsiminti Mane"
+
+#: wpf-includes/wpf-phrases.php:261
+msgid "Replies"
+msgstr "Atsakymai"
+
+#: wpf-includes/wpf-phrases.php:262
+msgid "Replies not found"
+msgstr "Nerasta Atsakymų"
+
+#: wpf-includes/wpf-phrases.php:263
+msgid "Reply"
+msgstr "Atsakyti"
+
+#: wpf-includes/wpf-phrases.php:264
+msgid "Report"
+msgstr "Pranešti"
+
+#: wpf-includes/wpf-phrases.php:267
+msgid "Report to Administration"
+msgstr "Pranešti Administracijai"
+
+#: wpf-includes/wpf-phrases.php:269
+msgid "Result Info"
+msgstr "Informacija apie Rezultatus"
+
+#: wpf-includes/wpf-phrases.php:271
+msgid "Save Changes"
+msgstr "Išsaugoti"
+
+#: wpf-includes/wpf-phrases.php:276
+msgid "Search Entire Posts"
+msgstr "Ieškoti Visuose Įrašuose"
+
+#: wpf-includes/wpf-phrases.php:277
+msgid "Search Phrase"
+msgstr "Paieškos Frazė"
+
+#: wpf-includes/wpf-phrases.php:278
+msgid "Search Titles Only"
+msgstr "Ieškoti Pavadinimuose"
+
+#: wpf-includes/wpf-phrases.php:279
+msgid "Search Type"
+msgstr "Paieškos Tipas"
+
+#: wpf-includes/wpf-phrases.php:280
+msgid "Search in Forums"
+msgstr "Ieškoti Forumuose"
+
+#: wpf-includes/wpf-phrases.php:281
+msgid "Search in date period"
+msgstr "Ieškoti Datos periode"
+
+#: wpf-includes/wpf-phrases.php:282
+msgid "Search result for"
+msgstr "Ieškoti rezulttų"
+
+#: wpf-includes/wpf-phrases.php:283
+msgid "Search..."
+msgstr "Ieškoti..."
+
+#: wpf-includes/wpf-phrases.php:285
+msgid "Select Page"
+msgstr "Pasirinkite Puslapį"
+
+#: wpf-includes/wpf-phrases.php:286
+msgid "Send Report"
+msgstr "Pranešti"
+
+#: wpf-includes/wpf-phrases.php:290
+msgid "Set Topic Sticky"
+msgstr "Nustatyti Lipnią Temą"
+
+#: wpf-includes/wpf-phrases.php:291
+msgid ""
+"Set this option value 0 if you want to show all posts under topic intro area."
+msgstr ""
+"Norėdami rodyti visus įrašus esančius Temos Intro plote, nustatykite reikšmę "
+"0."
+
+#: wpf-includes/wpf-phrases.php:292
+msgid "Shop Account"
+msgstr "Prekybos paskyra"
+
+#: wpf-includes/wpf-phrases.php:302
+msgid "Sign In"
+msgstr "Prisijungti"
+
+#: wpf-includes/wpf-phrases.php:303
+msgid "Signature"
+msgstr "Parašas"
+
+#: wpf-includes/wpf-phrases.php:304
+msgid "Site Profile"
+msgstr "Svetainės Profilis"
+
+#: wpf-includes/wpf-phrases.php:305
+msgid "Skype"
+msgstr "Skype"
+
+#: wpf-includes/wpf-phrases.php:307
+msgid "Social Networks"
+msgstr "Socialiniai Tinklai"
+
+#: wpf-includes/wpf-phrases.php:308
+msgid "Sorry, something wrong with your data."
+msgstr "Deja, kažkas negerai su Jūsų duomenimis."
+
+#: wpf-includes/wpf-phrases.php:309
+msgid "Sort Search Results by"
+msgstr "Rūšiuoti Paieškos Rezultatus pagal"
+
+#: wpf-includes/wpf-phrases.php:310
+msgid "Specify avatar by URL"
+msgstr "Pritaikyti pseudoportretą pagal URL"
+
+#: wpf-includes/wpf-phrases.php:312
+msgid "Subforums"
+msgstr "Subforumai"
+
+#: wpf-includes/wpf-phrases.php:315
+msgid "Subscribe for new replies"
+msgstr "Prenumeruoti naujus atsakymus"
+
+#: wpf-includes/wpf-phrases.php:316
+msgid "Subscribe for new topics"
+msgstr "Prenumeruoti naujas temas"
+
+#: wpf-includes/wpf-phrases.php:320
+msgid ""
+"Thank you for using wpForo! wpForo is a professional bulletin board for "
+"WorPress, and the only forum software which comes with Multi-layout template "
+"system. The \"Extended"
+msgstr ""
+"Dėkojame, kad naudojatės wpForo! wpForo yra profesionali WordPress diskusijų "
+"knyga ir vienintelė forumo programinė įranga, sukurta veikti su Multi-maketų "
+"sistema. \"Išplėstinis"
+
+#: wpf-includes/wpf-phrases.php:321
+msgid ""
+"Thank you for using wpForo. wpForo is a premium forum plugin which will "
+"always be available for free. There will never be paid and pro versions of "
+"this forum board. However this is a very large and hard project so we also "
+"develop paid addons (extensions), which will financially help us to keep "
+"improving and adding new features to the free wpForo plugin. Forum addons "
+"will also be actively developed. The first addons \"Advanced Media Uploader"
+msgstr ""
+"Dėkojame, kad naudojatės wpForo. wpForo yra premium įskiepis kuris visada "
+"liks nemokamas. Niekada nebus mokamų ar pro versijų. Tačiau tai yra labai "
+"didelis ir sunkus projektas. todėl mes taip pat kuriame mokamus papildymus "
+"(plėtinius), kurie padės mums finansiškai tobulinant ir papildant naujomis "
+"savybėmis nemokamą wpForo įskiepį. Forumo plėtiniai taip pat bus aktyviai "
+"kuriami. Pirmieji plėtiniai \"Pažangus Media Įkėliklis"
+
+#: wpf-includes/wpf-phrases.php:324
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr ""
+"Įkeliamos bylos dydis viršija MAX_FILE_SIZE nuostatas, priskirtas HTML "
+"formoje"
+
+#: wpf-includes/wpf-phrases.php:325
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr "Įkeliamos bylos dydis viršija upload_max_filesize nuostatas php.ini"
+
+#: wpf-includes/wpf-phrases.php:326
+msgid "The uploaded file was only partially uploaded"
+msgstr "Įkeliama byla tik dalinai įkelta"
+
+#: wpf-includes/wpf-phrases.php:333
+msgid "Timezone"
+msgstr "Laiko Zona"
+
+#: wpf-includes/wpf-phrases.php:335
+msgid "Topic RSS Feed"
+msgstr "Temos RSS Feed"
+
+#: wpf-includes/wpf-phrases.php:336
+msgid "Topic Title"
+msgstr "Temos Pavadinimas"
+
+#: wpf-includes/wpf-phrases.php:337
+msgid "Topic title"
+msgstr "Temos pavadinimas"
+
+#: wpf-includes/wpf-phrases.php:340
+msgid "Twitter"
+msgstr "Twitter"
+
+#: wpf-includes/wpf-phrases.php:341
+msgid "Unknown upload error"
+msgstr "Nežinoma įkelties klaida"
+
+#: wpf-includes/wpf-phrases.php:342
+msgid "Unsubscribe"
+msgstr "Atsisakyti Prenumeratos"
+
+#: wpf-includes/wpf-phrases.php:345
+msgid "Upload an avatar"
+msgstr "Įkelti Pseudoportretą"
+
+#: wpf-includes/wpf-phrases.php:347
+msgid ""
+"Use comments to ask for more information or suggest improvements. Avoid "
+"answering questions in comments."
+msgstr ""
+"Naudokite komentarus klausti papildomos informacijos arba siūlyti "
+"tobulinimus. Komentaruose venkite atsakyti į klausimus."
+
+#: wpf-includes/wpf-phrases.php:349
+msgid "User"
+msgstr "Vartotojas"
+
+#: wpf-includes/wpf-phrases.php:351
+msgid "User Group"
+msgstr "Vartotojų Grupė"
+
+#: wpf-includes/wpf-phrases.php:352
+msgid "Usergroup has been successfully deleted."
+msgstr "Vartotojų Grupė sėkmingai ištrinta."
+
+#: wpf-includes/wpf-phrases.php:353
+msgid ""
+"Usergroup has been successfully deleted. All users of this usergroup have "
+"been moved to the usergroup you've chosen"
+msgstr ""
+"Vartotojų Grupė sėkmingai ištrinta. Visi šios Vartotojų Grupės Vartotojai "
+"perkelti į Jūsų pasirinktą Vartotojų Grupę"
+
+#: wpf-includes/wpf-phrases.php:354
+msgid "Username"
+msgstr "Vartotojo Vardas"
+
+#: wpf-includes/wpf-phrases.php:356
+msgid "View entire post"
+msgstr "Žiūrėti visą įrašą"
+
+#: wpf-includes/wpf-phrases.php:357
+msgid "View the latest post"
+msgstr "Žiūrėti vėliausius įrašus"
+
+#: wpf-includes/wpf-phrases.php:358
+msgid "Views"
+msgstr "Peržiūros"
+
+#: wpf-includes/wpf-phrases.php:359
+msgid "Votes"
+msgstr "Balsai"
+
+#: wpf-includes/wpf-phrases.php:360
+msgid "Website"
+msgstr "Svetainė"
+
+#: wpf-includes/wpf-phrases.php:362
+msgid "Wordpress avatar system"
+msgstr "Wordpreso Pseudoportretų sistema"
+
+#: wpf-includes/wpf-phrases.php:363
+msgid "Working"
+msgstr "Dirbama"
+
+#: wpf-includes/wpf-phrases.php:364
+msgid "Write message"
+msgstr "Rašyti žinutę"
+
+#: wpf-includes/wpf-phrases.php:365
+msgid "Yahoo"
+msgstr "Yahoo"
+
+#: wpf-includes/wpf-phrases.php:367
+msgid "You"
+msgstr "Jūs"
+
+#: wpf-includes/wpf-phrases.php:369
+#, php-format
+msgid "You can go to %s page or Search here"
+msgstr "Galite eiti į %s puslapį arba Ieškoti čia"
+
+#: wpf-includes/wpf-phrases.php:371
+msgid "Your Answer"
+msgstr "Jūsų Atsakymas"
+
+#: wpf-includes/wpf-phrases.php:372
+msgid "account"
+msgstr "paskyra"
+
+#: wpf-includes/wpf-phrases.php:373
+msgid "activity"
+msgstr "aktyvumas"
+
+#: wpf-includes/wpf-phrases.php:375
+msgid "add_new"
+msgstr "pridėti_naują"
+
+#: wpf-includes/wpf-phrases.php:376
+#, php-format
+msgid "%s ago"
+msgstr "prieš %s"
+
+#: wpf-includes/wpf-phrases.php:377
+msgid "by"
+msgstr "sukūrė"
+
+#: wpf-includes/wpf-phrases.php:378
+#, php-format
+msgid "by %s"
+msgstr "sukūrė: %s"
+
+#: wpf-includes/wpf-phrases.php:379
+msgid "confirm password"
+msgstr "patvirtinti slaptažodį"
+
+#: wpf-includes/wpf-phrases.php:384
+msgid "forums"
+msgstr "forumai"
+
+#: wpf-includes/wpf-phrases.php:386
+msgid "login"
+msgstr "prisijungti"
+
+#: wpf-includes/wpf-phrases.php:387
+msgid "logout"
+msgstr "atsijungti"
+
+#: wpf-includes/wpf-phrases.php:388
+msgid "matches"
+msgstr "atitikimai"
+
+#: wpf-includes/wpf-phrases.php:389
+msgid "members"
+msgstr "nariai"
+
+#: wpf-includes/wpf-phrases.php:391
+msgid "my profile"
+msgstr "mano profilis"
+
+#: wpf-includes/wpf-phrases.php:392
+msgid "new password"
+msgstr "naujas slaptažodis"
+
+#: wpf-includes/wpf-phrases.php:393
+msgid "new password again"
+msgstr "pakartokite naują slaptažodį"
+
+#: wpf-includes/wpf-phrases.php:394
+msgid "next"
+msgstr "kitas"
+
+#: wpf-includes/wpf-phrases.php:395
+msgid "old password"
+msgstr "senas slaptažodis"
+
+#: wpf-includes/wpf-phrases.php:396
+msgid "phrase_key"
+msgstr "frazės_raktas"
+
+#: wpf-includes/wpf-phrases.php:397
+msgid "phrase_value"
+msgstr "frazės_reikšmė"
+
+#: wpf-includes/wpf-phrases.php:398
+msgid "posted"
+msgstr "paskelbta"
+
+#: wpf-includes/wpf-phrases.php:399
+msgid "prev"
+msgstr "buv"
+
+#: wpf-includes/wpf-phrases.php:400
+msgid "register"
+msgstr "registruotis"
+
+#: wpf-includes/wpf-phrases.php:401
+msgid "replies"
+msgstr "atsakymai"
+
+#: wpf-includes/wpf-phrases.php:402
+msgid "subscriptions"
+msgstr "prenumeratos"
+
+#: wpf-includes/wpf-phrases.php:403
+msgid "update"
+msgstr "atnaujinti"
+
+#: wpf-includes/wpf-phrases.php:405
+msgid "view all posts"
+msgstr "peržiūrėti visus įrašus"
+
+#: wpf-includes/wpf-phrases.php:406
+msgid "view all questions"
+msgstr "peržiūrėti visus klausimus"
+
+#: wpf-includes/wpf-phrases.php:407
+msgid "view all topics"
+msgstr "peržiūrėti visas temas"
+
+#: wpf-includes/wpf-phrases.php:409
+msgid "wpForo Navigation"
+msgstr "wpForo Navigacija"
+
+#: wpf-includes/wpf-phrases.php:411
+msgid "wpForo User Timezone"
+msgstr "wpForo Vartotojo Laiko Juosta"
+
+#: wpf-includes/wpf-phrases.php:412
+msgid "wpForo Usergroup"
+msgstr "wpForo Vartotojų Grupė"
+
+#: wpf-includes/wpf-phrases.php:414
+msgid "{number}B"
+msgstr "{skaičius}B"
+
+#: wpf-includes/wpf-phrases.php:415
+msgid "{number}K"
+msgstr "{skaičius}K"
+
+#: wpf-includes/wpf-phrases.php:416
+msgid "{number}M"
+msgstr "{skaičius}M"
+
+#: wpf-includes/wpf-phrases.php:417
+msgid "{number}T"
+msgstr "{skaičius}T"
+
+#: wpf-includes/wpf-phrases.php:422
+msgid "Access add error"
+msgstr "Prieigos suteikimo klaida"
+
+#: wpf-includes/wpf-phrases.php:423
+msgid "Access delete error"
+msgstr "Prieigos panaikinimo klaida"
+
+#: wpf-includes/wpf-phrases.php:424
+msgid "Access edit error"
+msgstr "Prieigos redagavimo klaida"
+
+#: wpf-includes/wpf-phrases.php:425
+msgid "Access successfully deleted"
+msgstr "Prieiga sėkmingai ištrinta"
+
+#: wpf-includes/wpf-phrases.php:426
+msgid "Add Topic error: No forum selected"
+msgstr "Pridėti Temą klaida: Nepažymėtas forumas"
+
+#: wpf-includes/wpf-phrases.php:427
+msgid "All Checked topics successfully deleted"
+msgstr "Pažymėtos temos sėkmingai ištrintos"
+
+#: wpf-includes/wpf-phrases.php:428
+msgid "Can't add forum"
+msgstr "Nepavyko pridėti forumo"
+
+#: wpf-includes/wpf-phrases.php:429
+msgid "Can't add new language"
+msgstr "Nepavyko pridėti naujos kalbos"
+
+#: wpf-includes/wpf-phrases.php:430
+msgid "Can't delete this Usergroup"
+msgstr "Nepavyko trinti šios vartotojų grupės"
+
+#: wpf-includes/wpf-phrases.php:431
+msgid "Can't send confirmation email"
+msgstr "Nepavyko išsiųsti patvirtinimo el. laiško"
+
+#: wpf-includes/wpf-phrases.php:432
+msgid "Can't send report email"
+msgstr "Nepavyko išsiųsti ataskaitos el. laiško"
+
+#: wpf-includes/wpf-phrases.php:433
+msgid "Can't subscribe to this item"
+msgstr "Nepavyko prenumeruoti šio elemento"
+
+#: wpf-includes/wpf-phrases.php:434
+msgid "Can't write a post: This topic is closed"
+msgstr "Nepavyko įrašyti: Tema uždaryta"
+
+#: wpf-includes/wpf-phrases.php:435
+msgid "Can`t upload file"
+msgstr "Nepavyko įkelti bylos"
+
+#: wpf-includes/wpf-phrases.php:436
+msgid "Cannot update forum hierarchy"
+msgstr "Nepavyko atnaujinti forumo hierarchijos"
+
+#: wpf-includes/wpf-phrases.php:437
+msgid "Cannot update post data"
+msgstr "Nepavyko atnaujinti įrašo duomenų"
+
+#: wpf-includes/wpf-phrases.php:438
+msgid "Could not be unsubscribe from this item"
+msgstr "Nepavyko atsisakyti šio elemento prenumeratos"
+
+#: wpf-includes/wpf-phrases.php:439
+msgid "Email address exists. Please insert another."
+msgstr "El. pašto adresas jau užregistruotas. Prašome įvesti kitą."
+
+#: wpf-includes/wpf-phrases.php:440
+msgid "Error: Forum is not found"
+msgstr "Klaida: nerastas Forumas"
+
+#: wpf-includes/wpf-phrases.php:441
+msgid "Error: No topic selected"
+msgstr "Klaida: Nepažymėta tema"
+
+#: wpf-includes/wpf-phrases.php:442
+msgid "Error: Topic is not found"
+msgstr "Klaida: Tema nerasta"
+
+#: wpf-includes/wpf-phrases.php:443
+msgid "Error: please insert some text to report."
+msgstr "Klaida: prašome įterpti pranešimo tekstą."
+
+#: wpf-includes/wpf-phrases.php:444
+msgid "Features successfully updated"
+msgstr "Savybės sėkmingai atnaujintos"
+
+#: wpf-includes/wpf-phrases.php:445
+msgid "Features successfully updated, but previous value not changed"
+msgstr ""
+"Savybės sėkmingai atnaujintos, tačiau buvusios reikšmės pakeistos nebuvo"
+
+#: wpf-includes/wpf-phrases.php:446
+msgid "File type is not allowed"
+msgstr "Bylos tipas neleistinas"
+
+#: wpf-includes/wpf-phrases.php:447
+msgid "Forum Base URL successfully updated"
+msgstr "Forumo Pagrindinis URL sėkmingai atnaujintas"
+
+#: wpf-includes/wpf-phrases.php:448
+msgid "Forum deleting error"
+msgstr "Klaida trinant Forumą"
+
+#: wpf-includes/wpf-phrases.php:449
+msgid "Forum hierarchy successfully updated"
+msgstr "Forumo hierarchija sėkmingai atnaujinta"
+
+#: wpf-includes/wpf-phrases.php:450
+msgid "Forum is successfully merged"
+msgstr "Forumas sėkmingai apjungtas"
+
+#: wpf-includes/wpf-phrases.php:451
+msgid "Forum merging error"
+msgstr "Forumo apjungimo klaida"
+
+#: wpf-includes/wpf-phrases.php:452
+msgid "Forum options successfully updated"
+msgstr "Forumo nuostatos sėkmingai atnaujintos"
+
+#: wpf-includes/wpf-phrases.php:453
+msgid "Forum options successfully updated, but previous value not changed"
+msgstr ""
+"Forumo nuostatos sėkmingai atnaujintos, tačiau buvusios reikšmės pakeistos "
+"nebuvo"
+
+#: wpf-includes/wpf-phrases.php:454
+msgid "Forum successfully updated"
+msgstr "Forumas sėkmingai atnaujintos"
+
+#: wpf-includes/wpf-phrases.php:455
+msgid "Forum update error"
+msgstr "Forumo atnaujinimo klaida"
+
+#: wpf-includes/wpf-phrases.php:456
+msgid "General options successfully updated"
+msgstr "Pagrindinės nuostatos sėkmingai atnaujintos"
+
+#: wpf-includes/wpf-phrases.php:457
+msgid "Illegal character in username."
+msgstr "Neleistinas simbolis Vartotojo Varde."
+
+#: wpf-includes/wpf-phrases.php:458
+msgid "Insert your Email address."
+msgstr "Nurodykite El. pašto adresą."
+
+#: wpf-includes/wpf-phrases.php:459
+msgid "Invalid Email address"
+msgstr "Negalimas el. pašto adresas"
+
+#: wpf-includes/wpf-phrases.php:460
+msgid "Invalid request!"
+msgstr "Negalima užklausa!"
+
+#: wpf-includes/wpf-phrases.php:461
+msgid "Member options successfully updated"
+msgstr "Vartotojo nuostatos sėkmingai atnaujintos"
+
+#: wpf-includes/wpf-phrases.php:462
+msgid "Member options successfully updated, but previous value not changed"
+msgstr ""
+"Vartotojo nuostatos sėkmingai atnaujintos, tačiau buvusios reikšmės "
+"pakeistos nebuvo"
+
+#: wpf-includes/wpf-phrases.php:463
+msgid "Message has been sent"
+msgstr "Žinutė išsiųsta"
+
+#: wpf-includes/wpf-phrases.php:464
+msgid ""
+"New language successfully added and changed wpforo language to new language"
+msgstr "Nauja kalba sėkmingai pridėta ir wpForo kalba pakeista į naują kalbą"
+
+#: wpf-includes/wpf-phrases.php:465
+msgid "No Posts found for update"
+msgstr "Nerasta atnaujintų Įrašų"
+
+#: wpf-includes/wpf-phrases.php:466
+msgid "Password length must be between 6 characters and 20 characters."
+msgstr "Slaptažodžio ilgis turi būti tarp 6 ir 20 simbolių."
+
+#: wpf-includes/wpf-phrases.php:467
+msgid "Password mismatch."
+msgstr "Slaptažodžiai nesutampa."
+
+#: wpf-includes/wpf-phrases.php:468
+msgid "Permission denied"
+msgstr "Prieiga uždrausta"
+
+#: wpf-includes/wpf-phrases.php:469
+msgid "Permission denied for add forum"
+msgstr "Prieiga pridėti forumą uždrausta"
+
+#: wpf-includes/wpf-phrases.php:470
+msgid "Permission denied for delete forum"
+msgstr "Prieiga trinti forumą uždrausta"
+
+#: wpf-includes/wpf-phrases.php:471
+msgid "Permission denied for edit forum"
+msgstr "Prieiga redaguoti forumą uždrausta"
+
+#: wpf-includes/wpf-phrases.php:472
+msgid "Permission denied for this action"
+msgstr "Prieiga atlikti šį veiksmą uždrausta"
+
+#: wpf-includes/wpf-phrases.php:473
+msgid "Phrase add error"
+msgstr "Klaida pridedant Frazę"
+
+#: wpf-includes/wpf-phrases.php:474
+msgid "Phrase adding error"
+msgstr "Klaida pridedant Frazę"
+
+#: wpf-includes/wpf-phrases.php:475
+msgid "Phrase successfully added"
+msgstr "Frazė sėkmingai pridėta"
+
+#: wpf-includes/wpf-phrases.php:476
+msgid "Phrase successfully updates"
+msgstr "Frazė sėkmingai atnaujinta"
+
+#: wpf-includes/wpf-phrases.php:477
+msgid "Phrase update error"
+msgstr "Frazės atnaujinimo klaida"
+
+#: wpf-includes/wpf-phrases.php:478
+msgid "Please insert required fields!"
+msgstr "Pašome įterpti reikalingus laukelius!"
+
+#: wpf-includes/wpf-phrases.php:479
+msgid "Post delete error"
+msgstr "Klaida trinant Įrašą"
+
+#: wpf-includes/wpf-phrases.php:481
+msgid "Post options successfully updated"
+msgstr "Įrašo nuostatos sėkmingai atnaujintos"
+
+#: wpf-includes/wpf-phrases.php:482
+msgid "Post options successfully updated, but previous value not changed"
+msgstr ""
+"Įrašo nuostatos sėkmingai atnaujintos, tačiau buvusios reikšmės pakeistos "
+"nebuvo"
+
+#: wpf-includes/wpf-phrases.php:483
+msgid "Registration Error"
+msgstr "Registracijos Klaida"
+
+#: wpf-includes/wpf-phrases.php:484
+msgid "Reply request error"
+msgstr "Atsakymo užklausos klaida"
+
+#: wpf-includes/wpf-phrases.php:485
+msgid "Something wrong with profile data."
+msgstr "Kažkas negerai su profilio duomenimis."
+
+#: wpf-includes/wpf-phrases.php:486
+msgid "Subscribe options successfully updated"
+msgstr "Registracijos nuostatos sėkmingai atnaujintos"
+
+#: wpf-includes/wpf-phrases.php:487
+msgid "Subscribe options successfully updated, but previous value not changed"
+msgstr ""
+"Registracijos nuostatos sėkmingai atnaujintos, tačiau buvusios reikšmės "
+"pakeistos nebuvo"
+
+#: wpf-includes/wpf-phrases.php:488
+msgid "Success!"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:489
+msgid ""
+"Success! Thank you. Please check your email and click confirmation link "
+"below to complete this step."
+msgstr ""
+"Pavyko! Dėkojame. Norėdami baigti šį žingsnį, prašome patikrinti el. paštą "
+"ir paspausti žemiau esančią patvirtinimo nuorodą."
+
+#: wpf-includes/wpf-phrases.php:490
+msgid "Successfully updated"
+msgstr "Atnaujinimas sėkmingas"
+
+#: wpf-includes/wpf-phrases.php:491
+msgid "Successfully voted"
+msgstr "Balsavimas sėkmingas"
+
+#: wpf-includes/wpf-phrases.php:492
+msgid "The uploaded file size is too big"
+msgstr "Įkeliamos bylos dydis per didelis"
+
+#: wpf-includes/wpf-phrases.php:493
+msgid "Theme options successfully updated"
+msgstr "Temos nuostatos sėkmingai atnaujintos"
+
+#: wpf-includes/wpf-phrases.php:494
+msgid "This email address is already registered. Please insert another."
+msgstr "El. pašto adresas jau užregistruotas. Prašome įvesti kitą."
+
+#: wpf-includes/wpf-phrases.php:495
+msgid "This post successfully deleted"
+msgstr "Įrašas sėkmingai ištrintas"
+
+#: wpf-includes/wpf-phrases.php:496
+msgid "This post successfully edited"
+msgstr "Įrašas sėkmingai pakeistas"
+
+#: wpf-includes/wpf-phrases.php:497
+msgid "This topic successfully deleted"
+msgstr "Tema sėkmingai ištrinta"
+
+#: wpf-includes/wpf-phrases.php:498
+msgid "Topic Move Error"
+msgstr "Klaida perkeliant Temą"
+
+#: wpf-includes/wpf-phrases.php:499
+msgid "Topic add error"
+msgstr "Klaida pridedant Temą"
+
+#: wpf-includes/wpf-phrases.php:500
+msgid "Topic delete error"
+msgstr "Klaida trinant Temą"
+
+#: wpf-includes/wpf-phrases.php:501
+msgid "Topic edit error"
+msgstr "Klaida redaguojant Temą"
+
+#: wpf-includes/wpf-phrases.php:502
+msgid "Topic not found."
+msgstr "Tema nerasta."
+
+#: wpf-includes/wpf-phrases.php:503
+msgid "Topic successfully moved"
+msgstr "Tema sėkmingai perkelta"
+
+#: wpf-includes/wpf-phrases.php:504
+msgid "Topic successfully updated"
+msgstr "Tema sėkmingai atnaujinta"
+
+#: wpf-includes/wpf-phrases.php:505
+msgid "Topics delete error"
+msgstr "Klaida trinant Temą"
+
+#: wpf-includes/wpf-phrases.php:506
+msgid "User delete error"
+msgstr "Klaida trinant Vartotoją"
+
+#: wpf-includes/wpf-phrases.php:507
+msgid "User group add error"
+msgstr "Klaida pridedant Vartotojų Grupę"
+
+#: wpf-includes/wpf-phrases.php:508
+msgid "User group edit error"
+msgstr "Klaida redaguojant Vartotojų Grupę"
+
+#: wpf-includes/wpf-phrases.php:509
+msgid "User group successfully added"
+msgstr "Vartotojų Grupė sėkmingai pridėta"
+
+#: wpf-includes/wpf-phrases.php:510
+msgid "User group successfully edited"
+msgstr "Vartotojų Grupė sėkmingai pakeista"
+
+#: wpf-includes/wpf-phrases.php:511
+msgid "User successfully deleted from wpforo"
+msgstr "Vartotojas sėkmingai ištrintas iš wpForo"
+
+#: wpf-includes/wpf-phrases.php:512
+msgid "Username exists. Please insert another."
+msgstr "Vartotojo vardas jau užregistruotas. Prašome įvesti kitą."
+
+#: wpf-includes/wpf-phrases.php:513
+msgid "Username is missed."
+msgstr "Trūksta Vartotojo Vardo."
+
+#: wpf-includes/wpf-phrases.php:514
+msgid "Username length must be between 3 characters and 30 characters."
+msgstr "Vartotojo Vardo Ilgis turi būti tarp 3 ir 30 simbolių."
+
+#: wpf-includes/wpf-phrases.php:515
+msgid "Welcome to our Community!"
+msgstr "Sveiki atvykę į mūsų Bendruomenę!"
+
+#: wpf-includes/wpf-phrases.php:516
+msgid "Wrong post data"
+msgstr "Neteisingi įrašo duomenys"
+
+#: wpf-includes/wpf-phrases.php:517
+msgid "You are already voted this post"
+msgstr "Jau balsavote dėl šio Įrašo"
+
+#: wpf-includes/wpf-phrases.php:518
+msgid "You have been successfully subscribed"
+msgstr "Prenumerata sėkminga"
+
+#: wpf-includes/wpf-phrases.php:519
+msgid "You have been successfully unsubscribed"
+msgstr "Sėkmingai atsisakėte prenumeratos"
+
+#: wpf-includes/wpf-phrases.php:520
+msgid "You have no permission to edit this topic"
+msgstr "Neturite teisės redaguoti šio Įrašo"
+
+#: wpf-includes/wpf-phrases.php:521
+msgid "You don't have permission to create post in this forum"
+msgstr "Neturite teisės kurti įrašų šiame forume"
+
+#: wpf-includes/wpf-phrases.php:522
+msgid "You don't have permission to create topic into this forum"
+msgstr "Neturite teisės kurti temų šiame forume"
+
+#: wpf-includes/wpf-phrases.php:523
+msgid "You don't have permission to delete post from this forum"
+msgstr "Neturite teisės trinti įrašų šiame forume"
+
+#: wpf-includes/wpf-phrases.php:524
+msgid "You don't have permission to delete topic from this forum"
+msgstr "Neturite teisės trinti temų šiame forume"
+
+#: wpf-includes/wpf-phrases.php:525
+msgid "You don't have permission to edit post from this forum"
+msgstr "Neturite teisės redaguoti įrašų šiame forume"
+
+#: wpf-includes/wpf-phrases.php:526
+msgid "You successfully replied"
+msgstr "Atsakymas sėkmingas"
+
+#: wpf-includes/wpf-phrases.php:527
+msgid "Your forum successfully added"
+msgstr "Forumas sėkmingai pridėtas"
+
+#: wpf-includes/wpf-phrases.php:528
+msgid "Your forum successfully deleted"
+msgstr "Forumas sėkmingai ištrintas"
+
+#: wpf-includes/wpf-phrases.php:529
+msgid "Your profile data have been successfully updated."
+msgstr "Jūsų profilio duomenys sėkmingai atnaijinti."
+
+#: wpf-includes/wpf-phrases.php:530
+msgid "Your subscription for this item could not be confirmed"
+msgstr "Jūsų prenumeratos patvirtinti nėra galimybės"
+
+#: wpf-includes/wpf-phrases.php:531
+msgid "Your topic successfully added"
+msgstr "Tema sėkmingai pridėta"
+
+#: wpf-includes/wpf-phrases.php:546
+msgid "Front - Can have signature"
+msgstr "Priekis - Gali turėti parašą"
+
+#: wpf-includes/wpf-phrases.php:570
+msgid "Can edit own replay"
+msgstr "Gali redaguoti savo atsakymą"
+
+#: wpf-includes/wpf-phrases.php:588
+msgid "like"
+msgstr "patinka"
+
+#: wpf-includes/wpf-phrases.php:589
+msgid "unlike"
+msgstr "nepatinka"
+
+#: wpf-includes/wpf-phrases.php:590
+msgid "sticky"
+msgstr "lipni"
+
+#: wpf-includes/wpf-phrases.php:591
+msgid "unsticky"
+msgstr "nelipni"
+
+#: wpf-includes/wpf-phrases.php:592
+msgid "close"
+msgstr "uždaryti"
+
+#: wpf-includes/wpf-phrases.php:593
+msgid "open"
+msgstr "atverti"
+
+#: wpf-includes/wpf-phrases.php:594
+msgid "Topic Icons"
+msgstr "Temos Ikonos"
+
+#: wpf-includes/wpf-phrases.php:595
+msgid "New"
+msgstr "Nauja"
+
+#: wpf-includes/wpf-phrases.php:596
+msgid "Replied"
+msgstr "Atsakyta"
+
+#: wpf-includes/wpf-phrases.php:598
+msgid "Hot"
+msgstr "Karšta"
+
+#: wpf-includes/wpf-phrases.php:599
+msgid "Solved"
+msgstr "Išspręsta"
+
+#: wpf-includes/wpf-phrases.php:600
+msgid "Unsolved"
+msgstr "Neišspręsta"
+
+#: wpf-includes/wpf-phrases.php:610
+msgid "Old password is wrong"
+msgstr "Senas slaptažodis neteisingas"
+
+#: wpf-includes/wpf-phrases.php:611
+msgid "New Passwords do not match"
+msgstr "Nauji Slaptažodžiai nesutampa"
+
+#: wpf-includes/wpf-phrases.php:615
+msgid ""
+"This process may take a few seconds or dozens of minutes, it depends on "
+"database forum size and on server resources. Please be patient and don't "
+"close this page. If you got 500 Server Error please don't worry, the data "
+"updating process is still working in MySQL server."
+msgstr ""
+"Šis procesas gali užtrukti keletą minučių, tai priklauso nuo forumo duomenų "
+"bazės dydžio ir serverio resursų. Prašome būti kantriems ir neužverti šio "
+"lango. Jeigu rodo 500 serverio klaidą nesijaudinkite, duomenų atnaujinimas "
+"MySQL serveryje tebevyksta."
+
+#: wpf-includes/wpf-phrases.php:619
+msgid "Updated Successfully!"
+msgstr "Atnaujinta sėkmingai!"
+
+#: wpf-includes/wpf-phrases.php:620
+msgid "Deleted Successfully!"
+msgstr "Ištrinta Sėkmingai!"
+
+#: wpf-includes/wpf-phrases.php:621
+msgid "Closed"
+msgstr "Uždaryta"
+
+#: wpf-includes/wpf-phrases.php:622
+msgid "Forum Members List"
+msgstr "Forumo Narių sąrašas"
+
+#: wpf-includes/wpf-phrases.php:623
+msgid "are you sure you want to delete?"
+msgstr "ar tikrai norite ištrinti?"
+
+#: wpf-includes/wpf-phrases.php:625
+msgid "Moderator"
+msgstr "Prižiūrėtojas"
+
+#: wpf-includes/wpf-phrases.php:627
+msgid "Customer"
+msgstr "Vartotojas"
+
+#: wpf-includes/wpf-phrases.php:628
+msgid "No access"
+msgstr "Nėra prieigos"
+
+#: wpf-includes/wpf-phrases.php:629
+msgid "Read only access"
+msgstr "Prieiga tik skaityti"
+
+#: wpf-includes/wpf-phrases.php:630
+msgid "Standard access"
+msgstr "Standartinė prieiga"
+
+#: wpf-includes/wpf-phrases.php:631
+msgid "Moderator access"
+msgstr "Prižiūrėtojo prieiga"
+
+#: wpf-includes/wpf-phrases.php:632
+msgid "Full access"
+msgstr "Pilna prieiga"
+
+#: wpf-includes/wpf-phrases.php:635
+msgid "Incorrect file format. Allowed formats: jpeg, jpg, png, gif."
+msgstr "Neteisingas bylos formatas. Galimi formatai: jpeg, jpg, png, gif."
+
+#: wpf-includes/wpf-phrases.php:642
+msgid "Attachment removed"
+msgstr "Priedas pašalintas"
+
+#: wpf-includes/wpf-phrases.php:643
+msgid "Forum Posts"
+msgstr "Forumo Įrašai"
+
+#: wpf-includes/wpf-phrases.php:644
+msgid "Blog Posts"
+msgstr "Blogo Įrašai"
+
+#: wpf-includes/wpf-phrases.php:645
+msgid "Blog Comments"
+msgstr "Blogo Komentarai"
+
+#: wpf-includes/wpf-phrases.php:646
+#, php-format
+msgid "Welcome back %s!"
+msgstr "Sveiki sugrįžę %s!"
+
+#: wpf-includes/wpf-phrases.php:647
+msgid "Member Profile"
+msgstr "Vartotojo profilis"
+
+#: wpf-includes/wpf-phrases.php:648
+msgid "Member"
+msgstr "Vartotojas"
+
+#: wpf-includes/wpf-phrases.php:649
+msgid "You do not have permission to view this page"
+msgstr "Neturite teisės peržiūrėti šio puslapio"
+
+#: wpf-includes/wpf-phrases.php:651
+msgid ""
+"This option will disable WordPress on front-end. Only forum pages will be "
+"available. wpForo will look like as a stand-alone forum."
+msgstr ""
+"Ši opcija išjungs Wordpress front-ende. Tik forumas bus pasiekiamas. wpForo "
+"atrodys kaip atskirtas savarankiškas forumas."
+
+#: wpf-includes/wpf-phrases.php:656
+msgid "private"
+msgstr "privati"
+
+#: wpf-includes/wpf-phrases.php:657
+msgid "public"
+msgstr "vieša"
+
+#: wpf-includes/wpf-phrases.php:658
+msgid "Private Topic"
+msgstr "Privati tema"
+
+#: wpf-includes/wpf-phrases.php:659
+msgid "Only Admins and Moderators can see your private topics."
+msgstr "Tik Administracija ir Prižiūrėtojai gali matyti jūsų privačias temas."
+
+#: wpf-includes/wpf-phrases.php:660
+msgid "Forum ID is not detected"
+msgstr "Forumo Puslapio ID nenustatyta"
+
+#: wpf-includes/wpf-phrases.php:661
+msgid "You are not permitted to subscribe here"
+msgstr "Jūs negalite prenumeruoti"
+
+#: wpf-includes/wpf-phrases.php:662
+msgid "Subscribe to this topic"
+msgstr "Prenumeruoti šią temą"
+
+#: wpf-includes/wpf-phrases.php:665
+msgid "Awaiting moderation"
+msgstr "Laukiama peržiūros"
+
+#: wpf-includes/wpf-phrases.php:666
+msgid "Topic first post not found."
+msgstr "Nepavyko rasti temos pirmo įrašo."
+
+#: wpf-includes/wpf-phrases.php:667
+msgid "Topic first post data not found."
+msgstr "Nepavyko rasti temos pirmo įrašo duomenų."
+
+#: wpf-includes/wpf-phrases.php:668
+msgid "Settings successfully updated"
+msgstr "Savybės sėkmingai atnaujintos"
+
+#: wpf-includes/wpf-phrases.php:669
+msgid "Done!"
+msgstr "Atlikta!"
+
+#: wpf-includes/wpf-phrases.php:670 wpf-includes/wpf-phrases.php:775
+msgid "You are not allowed to attach this file type"
+msgstr "Neturite teisės prisegti šio tipo bylų"
+
+#: wpf-includes/wpf-phrases.php:671
+msgid "Post is empty"
+msgstr "Įrašas tuščias"
+
+#: wpf-includes/wpf-phrases.php:672
+msgid "removed link"
+msgstr "nuorada pašalinta"
+
+#: wpf-includes/wpf-phrases.php:673
+msgid "Submit"
+msgstr "Skelbti"
+
+#: wpf-includes/wpf-phrases.php:677
+msgid "Rating Title"
+msgstr "Reitingo Pavadinimas"
+
+#: wpf-includes/wpf-phrases.php:678
+msgid "User Title"
+msgstr "Vartotojo Pavadinimas"
+
+#: wpf-includes/wpf-phrases.php:679
+msgid "Anonymous"
+msgstr "Anonimas"
+
+#: wpf-includes/wpf-phrases.php:682
+msgid "approved"
+msgstr "patvirtinta"
+
+#: wpf-includes/wpf-phrases.php:683
+msgid "unapproved"
+msgstr "nepatvirtinta"
+
+#: wpf-includes/wpf-phrases.php:686
+msgid "--- Choose ---"
+msgstr "--- Pasirinkite ---"
+
+#: wpf-includes/wpf-phrases.php:687
+msgid "Required field"
+msgstr "Būtinas laukelis"
+
+#: wpf-includes/wpf-phrases.php:690
+msgid "Add Reply"
+msgstr "Atsakyti"
+
+#: wpf-includes/wpf-phrases.php:691
+msgid "Forums RSS Feed"
+msgstr "Forumų RSS Feed"
+
+#: wpf-includes/wpf-phrases.php:692
+msgid "Topics RSS Feed"
+msgstr "Temų RSS Feed"
+
+#: wpf-includes/wpf-phrases.php:693
+msgid "Find a member"
+msgstr "Rasti Vartotoją"
+
+#: wpf-includes/wpf-phrases.php:694
+msgid "Display Name or Nicename"
+msgstr "Rodyti Vardą arba Slapyvardį"
+
+#: wpf-includes/wpf-phrases.php:695
+msgid "Reset Search"
+msgstr "Trinti Paieškos reikšmes"
+
+#: wpf-includes/wpf-phrases.php:696
+msgid "Reset Result"
+msgstr "Trinti Paieškos rezultatus"
+
+#: wpf-includes/wpf-phrases.php:702
+msgid "No posts were found here"
+msgstr "Nerasta įrašų"
+
+#: wpf-includes/wpf-phrases.php:705
+msgid "forum link"
+msgstr "forumo nuoroda"
+
+#: wpf-includes/wpf-phrases.php:706
+msgid "in forum"
+msgstr "forume"
+
+#: wpf-includes/wpf-phrases.php:707
+msgid ""
+"You can mention a person using @nicename in post content to send that person "
+"an email message. When you post a topic or reply, forum sends an email "
+"message to the user letting them know that they have been mentioned on the "
+"post."
+msgstr ""
+"Galite paminėti asmenį įraše vartodami @slapyvardis ir šiam asmeniui apie "
+"tai bus pranešta el. paštu. Skelbiant įrašą ar atsakymą, forumas išsiųs el. "
+"pašto žinutę vartotoju, kurioje bus nurodyta, kad jis buvo paminėtas įrašė."
+
+#: wpf-includes/wpf-phrases.php:710
+msgid "You are not allowed to edit this post"
+msgstr "Neturite teisės redaguoti šio įrašo"
+
+#: wpf-includes/wpf-phrases.php:711
+msgid "Google reCAPTCHA verification failed"
+msgstr "Google reCAPTCHA įvesta klaidingai"
+
+#: wpf-includes/wpf-phrases.php:712
+msgid "ERROR: Can't connect to Google reCAPTCHA API"
+msgstr "KLAIDA: Nėra galimybės prisijungti prie Google reCAPTCHA API"
+
+#: wpf-includes/wpf-phrases.php:713
+msgid "Welcome!"
+msgstr "Sveiki Atvykę!"
+
+#: wpf-includes/wpf-phrases.php:714
+msgid "Join us today!"
+msgstr "Prisjunkite prie mūsų šiandien!"
+
+#: wpf-includes/wpf-phrases.php:715
+msgid ""
+"Enter your email address or username and we'll send you a link you can use "
+"to pick a new password."
+msgstr ""
+"Įveskite savo el. pašto adresą arba vartotojo vardą ir mes atsiųsime jums "
+"nuorodą, kurioje galėsite pasirinkti naują slaptažodį."
+
+#: wpf-includes/wpf-phrases.php:716
+msgid "Please Insert Your Email or Username"
+msgstr "Prašome nurodyti savo El. pašto adresą arba Vartotojo Vardą"
+
+#: wpf-includes/wpf-phrases.php:717
+msgid "Reset Password"
+msgstr "Iš naujo Nustatyti Slaptažodį"
+
+#: wpf-includes/wpf-phrases.php:718
+msgid "Forgot Your Password?"
+msgstr "Pamiršote Slaptažodį?"
+
+#: wpf-includes/wpf-phrases.php:721
+#, php-format
+msgid "%s created a new topic %s"
+msgstr "%s sukūrė naują temą %s"
+
+#: wpf-includes/wpf-phrases.php:722
+#, php-format
+msgid "%s replied to the topic %s"
+msgstr "%s parašė temoje %s"
+
+#: wpf-includes/wpf-phrases.php:723
+#, php-format
+msgid "%s liked forum post %s"
+msgstr "%s patinka forumo įrašas %s"
+
+#: wpf-includes/wpf-phrases.php:724
+msgid "Read more"
+msgstr "Skaityti daugiau"
+
+#: wpf-includes/wpf-phrases.php:725
+msgid "Forum topic"
+msgstr "Forumo tema"
+
+#: wpf-includes/wpf-phrases.php:726
+msgid "Forum post"
+msgstr "Forumo įrašas"
+
+#: wpf-includes/wpf-phrases.php:727
+msgid "Forum post like"
+msgstr "Patinka Forumo įrašas"
+
+#: wpf-includes/wpf-phrases.php:729
+msgid "Target Topic URL"
+msgstr "Tikslinės Temos URL"
+
+#: wpf-includes/wpf-phrases.php:730
+msgid "Target Topic not found"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:731
+msgid "Merge Topics"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:732
+msgid "Split Topic"
+msgstr "Išskirti Temą"
+
+#: wpf-includes/wpf-phrases.php:733
+msgid ""
+"Please copy the target topic URL from browser address bar and paste in the "
+"field below."
+msgstr ""
+"Prašome nukopijuoti tikslinės temos URL naršyklės adresų lauke ir įklijuoti "
+"į žemiau esantį laukelį."
+
+#: wpf-includes/wpf-phrases.php:734
+msgid ""
+"All posts will be merged and displayed (ordered) in target topic according "
+"to posts dates. If you want to append merged posts to the end of the target "
+"topic you should allow to update posts dates to current date by check the "
+"option below."
+msgstr ""
+"Visi įrašai bus apjungti ir parodyti (surūšiuoti) pažymėtoje temoje pagal "
+"įrašo datas. Jeigu norite prijungiamus įrašus perkelti į temos pabaigą, "
+"galite leisti atnaujinti įrašų datas, pažymėdami žemiau esančią opciją."
+
+#: wpf-includes/wpf-phrases.php:735
+msgid ""
+"Update post dates (current date) to allow append posts to the end of the "
+"target topic."
+msgstr ""
+"Atnaujinti įrašų datas (dabartine data) ir leisti pridėti įrašus į pažymėtos "
+"temos pabaigą."
+
+#: wpf-includes/wpf-phrases.php:736
+msgid "Update post titles with target topic title."
+msgstr "Atnaujinti įrašų pavadinimus pažymėtos temos pavadinimu."
+
+#: wpf-includes/wpf-phrases.php:737
+msgid ""
+"Topics once merged cannot be unmerged. This topic URL will no longer be "
+"available."
+msgstr ""
+"Apjungtos temos negali būti atskirtos. Šios temos URL daugiau nebebus "
+"pasiekiamas."
+
+#: wpf-includes/wpf-phrases.php:738
+msgid "Create New Topic"
+msgstr "Kurti Naują Temą"
+
+#: wpf-includes/wpf-phrases.php:739
+msgid ""
+"Create new topic with split posts. The first post of new topic becomes the "
+"earliest reply."
+msgstr ""
+"Kurti naują temą su atskirtais įrašais. Pirmas naujos temos įrašas bus "
+"laikomas anksčiausiu atsakymu."
+
+#: wpf-includes/wpf-phrases.php:740
+msgid "New Topic Title"
+msgstr "Naujos Temos Pavadinimas"
+
+#: wpf-includes/wpf-phrases.php:741
+msgid "New Topic Forum"
+msgstr "Naujas Temų Forumas"
+
+#: wpf-includes/wpf-phrases.php:742
+msgid "Select Posts to Split"
+msgstr "Pažymėti įrašus, kurios išskirti"
+
+#: wpf-includes/wpf-phrases.php:743
+msgid ""
+"Topic once split cannot be unsplit. The first post of new topic becomes the "
+"earliest reply."
+msgstr ""
+"Išskirta Tema negali būtų sujungta. Pirmas naujos temos įrašas bus laikomas "
+"anksčiausiu atsakymu."
+
+#: wpf-includes/wpf-phrases.php:744
+msgid "Merge"
+msgstr "Apjungti"
+
+#: wpf-includes/wpf-phrases.php:745
+msgid "Split"
+msgstr "Išskirti"
+
+#: wpf-includes/wpf-phrases.php:746
+msgid "Move Reply"
+msgstr "Perkelti Atsakymą"
+
+#: wpf-includes/wpf-phrases.php:747
+msgid ""
+"This action changes topic URL. Once the topic is moved to other forum the "
+"old URL of this topic will no longer be available."
+msgstr ""
+"Ši opcija pakeičia temos URL. Perkėlus temą į kitą forumą senasis URL "
+"nebebus pasiekiamas."
+
+#: wpf-includes/wpf-phrases.php:748
+#, php-format
+msgid ""
+"When you login first time using Facebook Login button, we collect your "
+"account %s information shared by Facebook, based on your privacy settings. "
+"We also get your email address to automatically create a forum account for "
+"you. Once your account is created, you'll be logged-in to this account and "
+"you'll receive a confirmation email."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:751
+msgid "No data submitted"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:752
+msgid "User profile fields not found"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:753
+msgid "field is required"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:754
+#, php-format
+msgid "field value must be at least %d"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:755
+#, php-format
+msgid "field value cannot be greater than %d"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:756
+#, php-format
+msgid "field length must be at least %d characters"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:757
+#, php-format
+msgid "field length can not be greater than %d characters"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:758
+msgid "field value is not a valid URL"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:759
+msgid "file type is not detected"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:760
+#, php-format
+msgid "file type %s is not allowed"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:761
+msgid "file is too large"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:762
+msgid "Success! Please check your mail for confirmation."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:763
+#, php-format
+msgid "Username length must be between %d characters and %d characters."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:764
+msgid "User registration is disabled."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:765
+msgid "Avatar image is too big maximum allowed size is 2MB"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:766
+msgid "One of the selected Usergroups cannot be set as Secondary"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:767
+msgid "The selected Usergroup is not found in allowed list"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:768
+msgid "The selected Usergroup cannot be set"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:769
+msgid "Admin and Moderator Usergroups are not permitted"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:770
+msgid "You have no permission to edit Usergroup field"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:771
+msgid "This nickname is already in use. Please insert another."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:772
+msgid "Nickname validation failed"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:773
+msgid "Numerical nicknames are not allowed. Please insert another."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:774
+#, php-format
+msgid "Maximum allowed file size is %s MB"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:776
+msgid "This email address is already registered. Please insert another"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:777
+#, php-format
+msgid "Allowed file types: %s"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:778
+msgid "Form name not found"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:779
+msgid "Form template not found"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:780
+msgid "Profile updated successfully"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:781
+msgid "User data update failed"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:782
+msgid "User profile update failed"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:783
+msgid "User custom field update failed"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:784
+msgid "Sorry, there was an error uploading attached file"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:785
+msgid "Edit Topic"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:786
+#, php-format
+msgid "This topic was modified %s by %s"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:787
+msgid "Edit Post"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:788
+#, php-format
+msgid "This post was modified %s by %s"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:792
+msgid "Topic link"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:793
+msgid "Forum Topics Started"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:794
+msgid "Forum Replies Created"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:795
+msgid "Liked Forum Posts"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:796
+msgid "Forum Subscriptions"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:798
+#, php-format
+msgid "Start typing tags here (maximum %d tags are allowed)..."
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:799
+msgid "Topic Tags"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:800
+msgid "Topic Tag"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:801
+msgid "Separate tags using a comma"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:802
+msgid "Tag"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:803
+msgid "Tags"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:804
+msgid "Find Topics by Tags"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:805
+msgid "Related Topics"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:806
+msgid "Next Topic"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:807
+msgid "Previous Topic"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:808
+msgid "All forum topics"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:809
+msgid "No tags found"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:810
+msgid "Forum contains no unread posts"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:811
+msgid "Forum contains unread posts"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:812
+msgid "Mark all read"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:813
+msgid "Not Replied"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:814
+msgid "default"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:815
+msgid "red"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:816
+msgid "green"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:817
+msgid "orange"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:818
+msgid "grey"
+msgstr ""
+
+#: wpf-includes/wpf-phrases.php:819
+msgid "dark"
+msgstr ""
+
+#: wpf-themes/classic/functions.php:39
+msgid "Extended Layout - Recent topics"
+msgstr "Išplėstinis Maketas - Intro temos"
+
+#: wpf-themes/classic/functions.php:48
+msgid "Extended Layout - Number of Recent topics"
+msgstr "Išplėstinis Maketas - Naujausių Temų Skaičius"
+
+#: wpf-themes/classic/functions.php:55
+msgid "Extended Layout - Recent topic length"
+msgstr "Išplėstinis Maketas - Naujausių temų ilgis"
+
+#: wpf-themes/classic/functions.php:56 wpf-themes/classic/functions.php:86
+msgid ""
+"Set this option value 0 if you want to show the whole title in recent topic "
+"area."
+msgstr ""
+"Norėdami rodyti visą pavadinimą naujausios temos vietoje, nustatykite "
+"reikšmę 0."
+
+#: wpf-themes/classic/functions.php:69
+msgid "Q&A layout - Recent topics"
+msgstr "\"Klausimai ir Atsakymai\" maketas - Naujausios temos"
+
+#: wpf-themes/classic/functions.php:78
+msgid "Q&A Layout - Number of Recent topics"
+msgstr "\"Klausimai ir Atsakymai\" Maketas - Naujausių temų skaičius"
+
+#: wpf-themes/classic/functions.php:85
+msgid "Q&A Layout - Recent topic length"
+msgstr "Klausimai ir Atsakymai Maketas - Naujausios temos ilgis"
+
+#: wpf-themes/classic/functions.php:107
+msgid "Extended Layout - Recent posts"
+msgstr "Išplėstinis Maketas - Naujausi įrašai"
+
+#: wpf-themes/classic/functions.php:117
+msgid "Extended Layout - Number of Recent posts"
+msgstr "Išplėstinis Maketas - Naujausių Įrašų Skaičius"
+
+#: wpf-themes/classic/functions.php:118
+msgid ""
+"Set this option value 0 if you want to show all posts in recent posts area."
+msgstr ""
+"Norėdami rodyti visus įrašus naujausio įrašo vietoje, nustatykite reikšmę 0."
+
+#: wpf-themes/classic/functions.php:126
+msgid "Extended Layout - Recent post length"
+msgstr "Išplėstinis Maketas - Naujausių įrašų ilgis"
+
+#: wpf-themes/classic/functions.php:127
+msgid ""
+"Set this option value 0 if you want to show the whole post content in recent "
+"post area."
+msgstr ""
+"Norėdami rodyti visą įrašo turinį naujausio įrašo vietoje, nustatykite "
+"reikšmę 0."
+
+#: wpforo.php:259
+msgid "Discussion Board"
+msgstr "Diskusijų Lenta"
+
+#: wpforo.php:768
+msgid ""
+"Allows to embed hundreds of video, social network, audio and photo content "
+"providers in forum topics and posts."
+msgstr ""
+"Leidžia prijungti šimtus video, socialinių tinklų, audio ir foto turinio "
+"paslaugų teikėjų prieigų prie forumo temų ir įrašų."
+
+#: wpforo.php:769
+msgid ""
+"wpForo Polls is a complete addon to help forum members create, vote and "
+"manage polls effectively. Comes with poll specific permissions and settings."
+msgstr ""
+"wpForo Apklausos yra pilnavertis plėtinys, leidžiantis nariams kurti, "
+"balsuoti ir efektyviai valdyti apklausas. Įdiegti specifiniai leidimai ir "
+"nuostatos."
+
+#: wpforo.php:770
+msgid ""
+"Awards myCRED points for forum activity. Integrates myCRED Badges and Ranks. "
+"Converts wpForo topic and posts, likes to myCRED points."
+msgstr ""
+"Suteikia myCRED taškų už aktyvumą forume. Integruoja myCRED Ženkliukus ir "
+"Reitingus. Paverčia wpFOro temas ir įrašus, \"Patinka\" myCRED taškais."
+
+#: wpforo.php:771
+msgid ""
+"Advanced user profile builder system. Allows to add new fields and manage "
+"profile page. Creates custom Registration, Account, Member Search forms."
+msgstr ""
+"Pažengusio vartotojo profilio kūrimo sistema. Leidžia kurti naujus laukelius "
+"ir valdyti profilio puslapį. Sukuria pritaikytas Registracijos, Paskyros ir "
+"Paieškos formas."
+
+#: wpforo.php:772
+msgid ""
+"Adds an advanced file attachment system to forum topics and posts. AJAX "
+"powered media uploading and displaying system with user specific library."
+msgstr ""
+"Prideda prie forumo temų ir įrašų pažangią bylų prisegimo sistemą. AJAX "
+"valdoma media įkėlimo ir rodymo sistema su į vartotoją orientuota biblioteka."
+
+#: wpforo.php:773
+msgid ""
+"Provides a safe way to communicate directly with other members. Messages are "
+"private and can only be viewed by conversation participants."
+msgstr ""
+"Suteikia saugią galimybę tiesiogiai bendrauti su kitais nariais. Žinutės yra "
+"privačios ir jas gali matyti tik pašnekovai."
+
+#: wpforo.php:774
+msgid ""
+"Blog to Forum and Forum to Blog content synchronization. Blog posts with "
+"Forum topics and Blog comments with Forum replies."
+msgstr ""
+"Blogas > Forumas ir Forumas > Blogas turinio sinchronizacija. Blogo įrašai "
+"su Forumo temomis ir Blogo komentarai su Forumo atsakymais."
+
+#: wpforo.php:775
+msgid ""
+"Ads Manager is a powerful yet simple advertisement management system, that "
+"allows you to add adverting banners between forums, topics and posts."
+msgstr ""
+"Reklamų valdiklis - paprastam tačiau galinga reklamos valdymo sistema, kuri "
+"leidžia pridėti reklamos skydelius tarp forumų, temų ir įrašų."
+
+#. Plugin Name of the plugin/theme
+msgid "wpForo"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpforo.com"
+msgstr "https://wpforo.com"
+
+#. Description of the plugin/theme
+msgid ""
+"WordPress Forum plugin. wpForo is a full-fledged forum solution for your "
+"community. Comes with multiple modern forum layouts."
+msgstr ""
+"WordPress Forumo įskiepis. wpForo yra pilnavertis sprendimas jūsų "
+"bendruomenei. Kartu pateikiama keletas šiuolaikiškų forumo atvaizdavimo "
+"maketų."
+
+#. Author of the plugin/theme
+msgid "gVectors Team (A. Chakhoyan, R. Hovhannisyan)"
+msgstr "gVectors Komanda (A. Chakhoyan, R. Hovhannisyan)"
+
+#. Author URI of the plugin/theme
+msgid "https://gvectors.com/"
+msgstr "https://gvectors.com/"
+
+#~ msgid "Enable BuddyPress Activity Integration"
+#~ msgstr "Įgalinti BuddyPress Aktyvumo Integravimą"
+
+#~ msgid ""
+#~ "If you use BuddyPress plugin, this option will post members activities "
+#~ "(new topic, new reply, post like) to BuddyPress Profile Activity page."
+#~ msgstr ""
+#~ "Jeigu naudojate BuddyPress įskiepį, ši opcija parodys narių aktyvumą "
+#~ "(nauja tema, naujas atsakymas, patinka įrašas) BuddyPress Profilio "
+#~ "Aktyvumo puslapyje,."
+
+#~ msgid "Cleanup"
+#~ msgstr "Valyti"
+
+#~ msgid "Usergroup id"
+#~ msgstr "Vartotojų Grupės id"
+
+#~ msgid "Users Count"
+#~ msgstr "Vartotojų skaičius"
+
+#~ msgid "New Users Default Group"
+#~ msgstr "Naujų Vartotojų Numatytoji Grupė"
+
+#~ msgid "Count of users in this usergroup"
+#~ msgstr "Vartotojų grupės narių skaičius"
+
+#~ msgid "DO NOT set this option on higher level user groups !!!"
+#~ msgstr "NENUSTATYKITE šios opcijos aukštesnio lygmens vartotojo grupėms !!!"
+
+#~ msgid "WordPress User Role"
+#~ msgstr "WordPress Vartotojo Rolė"
+
+#~ msgid ""
+#~ "Probably spam file attachments have been detected by wpForo Spam Control. "
+#~ "Please moderate suspected files here %s"
+#~ msgstr ""
+#~ "Brukalo kontrolė nustatė galimą brukalo bylos priedą. Prašome peržiūrėti "
+#~ "įtartinas bylas čia %s"
+
+#~ msgid "Community"
+#~ msgstr "Bendruomenė"
+
+#~ msgid "Success! Thank you Dear Friend"
+#~ msgstr "Pavyko! Ačiū jums, Brangus Drauge"
+
+#~ msgid "Dashboard - Can create forum"
+#~ msgstr "Valdymo Skydelis - Gali kurti forumą"
+
+#~ msgid "Dashboard - Can edit forum"
+#~ msgstr "Valdymo Skydelis - Gali redaguoti forumą"
+
+#~ msgid "Dashboard - Can delete forum"
+#~ msgstr "Valdymo Skydelis - Gali trinti forumą"
+
+#~ msgid "Dashboard - Members Menu"
+#~ msgstr "Valdymo Skydelis - Narių Meniu"
+
+#~ msgid "Dashboard - Usergroup Menu"
+#~ msgstr "Valdymo Skydelis - Vartotojų Grupių Meniu"
+
+#~ msgid "Front - Can view member last active date"
+#~ msgstr "Priekis - Gali matyti nario paskutinio aktyvumo datą"
+
+#~ msgid "Front - Can view member IP address"
+#~ msgstr "Priekis - Gali matyti nario IP adresą"
+
+#~ msgid "Front - Can view member phone number"
+#~ msgstr "Priekis - Gali matyti nario vartotojo tel. numerį"
+
+#~ msgid "Merge Topic"
+#~ msgstr "Apjungti Temą"
+
+#~ msgid "wpForo - Forums"
+#~ msgstr "wpForo - Forumai"

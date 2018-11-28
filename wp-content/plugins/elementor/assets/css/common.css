@@ -1,4 +1,4 @@
-/*! elementor - v2.3.2 - 17-11-2018 */
+/*! elementor - v2.3.3 - 28-11-2018 */
 .dialog-widget-content {
   background-color: #fff;
   position: absolute;
@@ -107,6 +107,8 @@
     height: 100%;
     width: 100%;
     border: 0; }
+  .elementor-fit-aspect-ratio video {
+    width: 100%; }
 
 .flatpickr-calendar {
   width: 280px; }

@@ -1,0 +1,78 @@
+#import-form .spinner.fbps-spinner {
+	float: left;
+}
+
+.spinner.fbps-spinner {
+	visibility: visible;
+	margin-top: 0;
+}
+
+.fbps-row {
+	width: 48%;
+	padding-right: 2%;
+	float: left;
+}
+
+.fbps-enabled {
+	display: none;
+}
+
+#fbps-page-album-list li,
+#fbps-import-list li {
+	display: inline-block;
+	width: 33%;
+}
+
+#fbps-album-list {
+	float: left;
+}
+
+#fbps-album-list li {
+	float: left;
+	width: 440px;
+	margin-right: 10px;
+	position: relative;
+}
+
+#fbps-album-list li h3 {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#fbps-album-list code {
+	cursor: pointer;
+	white-space: nowrap;
+	font-size: 11px;
+}
+
+#fbps-album-list small {
+	position: absolute;
+	top: 30px;
+	color: #0074a2;
+}
+
+a.fbps-image-sample {
+	height: 75px;
+	width: 75px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #ccc;
+	display: block;
+	float: left;
+	border: 1px solid #ccc;
+}
+
+.fbps-options {
+	margin-left: 85px;
+	margin-right: 10px;
+}
+
+.fbps-counter {
+	display: none;
+}
+
+#fbps-app img {
+	float: left;
+	margin-right: 5px;
+}

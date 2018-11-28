@@ -1,4 +1,4 @@
-/*! elementor - v2.3.2 - 17-11-2018 */
+/*! elementor - v2.3.3 - 28-11-2018 */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -1391,6 +1391,7 @@ ImageCarouselHandler = HandlerModule.extend({
 		var elementSettings = this.getElementSettings(),
 		    slidesToShow = +elementSettings.slides_to_show || 3,
 		    isSingleSlide = 1 === slidesToShow,
+		    defaultLGDevicesSlidesCount = isSingleSlide ? 1 : 2,
 		    breakpoints = elementorFrontend.config.breakpoints;
 
 		var slickOptions = {
@@ -1406,14 +1407,14 @@ ImageCarouselHandler = HandlerModule.extend({
 			responsive: [{
 				breakpoint: breakpoints.lg,
 				settings: {
-					slidesToShow: +elementSettings.slides_to_show_tablet || (isSingleSlide ? 1 : 2),
-					slidesToScroll: 1
+					slidesToShow: +elementSettings.slides_to_show_tablet || defaultLGDevicesSlidesCount,
+					slidesToScroll: +elementSettings.slides_to_scroll_tablet || defaultLGDevicesSlidesCount
 				}
 			}, {
 				breakpoint: breakpoints.md,
 				settings: {
 					slidesToShow: +elementSettings.slides_to_show_mobile || 1,
-					slidesToScroll: 1
+					slidesToScroll: +elementSettings.slides_to_scroll_mobile || 1
 				}
 			}]
 		};
@@ -1421,7 +1422,7 @@ ImageCarouselHandler = HandlerModule.extend({
 		if (isSingleSlide) {
 			slickOptions.fade = 'fade' === elementSettings.effect;
 		} else {
-			slickOptions.slidesToScroll = +elementSettings.slides_to_scroll;
+			slickOptions.slidesToScroll = +elementSettings.slides_to_scroll || defaultLGDevicesSlidesCount;
 		}
 
 		this.elements.$carousel.slick(slickOptions);
@@ -1893,11 +1894,7 @@ LightboxModule = ViewModule.extend({
 		    modal = this.getModal();
 
 		if ('hosted' === options.videoType) {
-			var videoParams = { src: options.url, autoplay: '' };
-
-			options.videoParams.forEach(function (param) {
-				videoParams[param] = '';
-			});
+			var videoParams = jQuery.extend({ src: options.url, autoplay: '' }, options.videoParams);
 
 			$videoElement = jQuery('<video>', videoParams);
 		} else {

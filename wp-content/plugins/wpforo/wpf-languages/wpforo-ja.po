@@ -1,0 +1,3063 @@
+# Translation of Plugins - Forum - wpForo - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Forum - wpForo - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-05-23 23:18+0400\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.6\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Forum - wpForo - Stable (latest release)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: gVectors Team <info@gvectors.com>\n"
+"Language-Team: \n"
+
+#: wpf-includes/class-notices.php:160
+msgid "View all Addons"
+msgstr "すべてのアドオンを表示"
+
+#: wpf-includes/class-notices.php:147
+msgid "Extend your forum with wpForo addons"
+msgstr "wpForo アドオンでフォーラムを拡張"
+
+#: wpf-includes/class-notices.php:147
+msgid "New Addons for Your Forum!"
+msgstr "フォーラムの新しいアドオン！"
+
+#: wpf-admin/forum.php:238
+msgid "Make sure you insert a class of font-awesome icon, it should start with fa- prefix like &quot;fa-comments&quot;."
+msgstr "Font Awesome アイコンのクラスを挿入しているか確認してください。&quot;fa-comments&quot; のように fa- 接頭辞で始まる必要があります"
+
+#: wpf-admin/forum.php:238
+msgid "here"
+msgstr "こちら"
+
+#: wpf-admin/forum.php:238
+msgid "You can find all icons"
+msgstr "次の場所で、すべてのアイコンを見つけることができます"
+
+#: wpf-admin/forum.php:236
+msgid "Font-awesome Icon"
+msgstr "Font-awesome アイコン"
+
+#: wpf-admin/forum.php:233
+msgid "Forum Icon"
+msgstr "フォーラムアイコン"
+
+#: wpf-includes/wpf-phrases.php:644
+msgid "You have not permission to this page"
+msgstr "あなたはこのページのアクセス権がありません"
+
+#: wpf-includes/wpf-phrases.php:181
+msgid "You have been banned. Please contact to forum administrators for more information."
+msgstr "あなたは禁止されています。詳細については、フォーラムの管理者にお問い合わせください。"
+
+#: wpf-includes/functions.php:497
+msgid "Are you sure, you want to ban this user?"
+msgstr "このユーザーを禁止にしてもよろしいですか ?"
+
+#: wpf-includes/functions.php:497
+msgid "Are you sure, you want to unban this user?"
+msgstr "このユーザーを禁止解除にしてもよろしいですか ?"
+
+#: wpf-includes/functions.php:497
+msgid "ban user"
+msgstr "禁止ユーザー"
+
+#: wpf-includes/functions.php:497
+msgid "unban user"
+msgstr "解除ユーザー"
+
+#: wpf-includes/functions.php:362
+msgid "filter by status"
+msgstr "状態で絞り込み"
+
+#: wpf-includes/functions.php:349 wpf-includes/wpf-phrases.php:350
+msgid "filter by group"
+msgstr "グループで絞り込み"
+
+#: wpf-includes/functions-installation.php:84
+msgid "You are not permitted to view this attachment"
+msgstr "この添付ファイルの表示は許可されていません"
+
+#: wpf-includes/class-members.php:1117
+msgid "Attribute all content to:"
+msgstr "すべてのコンテンツ属性: "
+
+#: wpf-includes/class-members.php:1115
+msgid "Delete all wpForo content."
+msgstr "すべての wpForo コンテンツを削除します。"
+
+#: wpf-includes/class-members.php:1111
+msgid "What should be done with wpForo content owned by these users?"
+msgstr "これらのユーザーが所有する wpForo コンテンツをどのようにしますか ?"
+
+#: wpf-includes/class-members.php:1109
+msgid "What should be done with wpForo content owned by this user?"
+msgstr "このユーザーが所有する wpForo コンテンツをどのようにしますか ?"
+
+#: wpf-includes/class-members.php:186
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr "<strong>エラー</strong>: このメールはすでに登録されています。別のメールアドレスを選択してください。"
+
+#: wpf-includes/class-members.php:181
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>エラー</strong>: メールアドレスが正しくありません。"
+
+#: wpf-includes/class-members.php:177
+msgid "<strong>ERROR</strong>: Please type your email address."
+msgstr "<strong>エラー</strong>: メールアドレスを入力してください。"
+
+#: wpf-includes/class-members.php:173
+msgid "<strong>ERROR</strong>: Sorry, that username is not allowed."
+msgstr "<strong>エラー</strong>: 申し訳ありません、そのユーザー名は許可されていません。"
+
+#: wpf-includes/class-members.php:169
+msgid "<strong>ERROR</strong>: This username is already registered. Please choose another one."
+msgstr "<strong>エラー</strong>: このユーザー名はすでに登録されています。別のものを選択してください。"
+
+#: wpf-includes/class-members.php:160
+msgid "<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
+msgstr "<strong>エラー</strong>: このユーザー名は不正な文字を使用しているため無効です。有効なユーザー名を入力してください。"
+
+#: wpf-includes/class-members.php:156
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>エラー</strong>: ユーザー名を入力してください。"
+
+#: wpf-includes/class-forums.php:548
+msgid "Add a new Forum in this Category"
+msgstr "このカテゴリーに新しいフォーラムを追加"
+
+#: wpf-includes/class-forums.php:548
+msgid "Add a new SubForum"
+msgstr "新しいサブフォーラムを追加"
+
+#: wpf-admin/options-tabs/posts.php:57
+msgid "This message will be displayed when a non-permitted forum member clicks on attached file link in topic and posts."
+msgstr "このメッセージは、許可されていないフォーラムメンバーが、トピックや投稿の添付ファイルリンクをクリックすると表示されます。"
+
+#: wpf-admin/options-tabs/posts.php:56
+msgid "Attachment click - message for non-permitted users"
+msgstr "添付ファイルのクリック - 許可されていないユーザーへのメッセージ"
+
+#: wpf-admin/options-tabs/general.php:69
+msgid "This option is only related to XML language files. You should upload a translation XML file to have a new language option in this drop-down. If you are using PO/MO translation files you should change WordPress Language in Dashboard > Settings admin page to load according translation for wpForo."
+msgstr "このオプションは、XML 言語ファイルにのみ関連しています。このドロップダウンでは、翻訳 XML ファイルをアップロードして新しい言語オプションを設定する必要があります。PO / MO 翻訳ファイルを使用している場合は、管理画面のダッシュボード > 設定で WordPress の言語を変更し、wpForo の翻訳に従って読み込む必要があります。"
+
+#: wpf-admin/options-tabs/general.php:28
+msgid "one URL per line"
+msgstr "1行に1つの URL"
+
+#: wpf-admin/options-tabs/general.php:28
+msgid "Exclude page URLs"
+msgstr "除外するページの URL"
+
+#: wpf-admin/options-tabs/general.php:25
+msgid "This option will disable WordPress on front-end. Only forum pages and excluded post/pages will be available. wpForo will look like as a stand-alone forum."
+msgstr "このオプションはフロントエンドで WordPress を無効にします。フォーラムページと除外された投稿 / ページのみが利用可能です。wpForo は単独のフォーラムのように見えます。"
+
+#: wpf-admin/options-tabs/features.php:35
+msgid "Enable this option if you want the topic subscription checkbox to be checked by default."
+msgstr "トピックの購読チェックボックスをデフォルトでオンにする場合は、このオプションを有効にしてください。"
+
+#: wpf-admin/options-tabs/features.php:35
+msgid "Topic subscription option on post editor - checked/enabled"
+msgstr "投稿エディタでトピックの購読オプション - チェック / 有効"
+
+#: wpf-admin/options-tabs/features.php:34
+msgid "This option adds topic subscription checkbox next to new topic and post submit button."
+msgstr "このオプションは、新しいトピックと送信後の送信ボタンの横に、トピックの購読をするチェックボックスを追加します。"
+
+#: wpf-admin/options-tabs/features.php:34
+msgid "Topic subscription option on post editor"
+msgstr "投稿エディタでトピックの購読オプション"
+
+#: wpf-admin/options-tabs/features.php:18
+msgid "If you have enabled this option, after registering, user can not login without confirming the email."
+msgstr "このオプションを有効にした場合、登録後、ユーザーはメールを確認せずにログインすることはできません。"
+
+#: wpf-admin/options-tabs/features.php:18
+msgid "Enable User Registration email confirmation"
+msgstr "ユーザー登録の確認メールを有効化する"
+
+#: wpf-admin/options-tabs/emails.php:42
+msgid "Send Notification emails to all email addresses (comma separated ) of forum administrators when a new Reply is created."
+msgstr "新しい返信が作成されると、フォーラム管理者すべてのメールアドレス (カンマ区切り) に通知メールを送信します。"
+
+#: wpf-admin/options-tabs/emails.php:41
+msgid "Notify Admins via email on new Post"
+msgstr "新しい投稿でメールを経由して管理者へ通知"
+
+#: wpf-admin/options-tabs/emails.php:30
+msgid "Send Notification emails to all email addresses (comma separated ) of forum administrators when a new Topic is created."
+msgstr "新しいトピックが作成されると、フォーラム管理者すべてのメールアドレス (カンマ区切り) に通知メールを送信します。"
+
+#: wpf-admin/options-tabs/emails.php:29
+msgid "Notify Admins via email on new Topic"
+msgstr "新しいトピックでメールを経由して管理者へ通知"
+
+#: wpf-admin/options-tabs/emails.php:22
+msgid "Forum Admins email addresses"
+msgstr "フォーラム管理者のメールアドレス"
+
+#: wpf-admin/options-tabs/emails.php:17
+msgid "FROM Email Address"
+msgstr "差出人のメールアドレス"
+
+#: wpf-admin/options-tabs/emails.php:13
+msgid "FROM Name"
+msgstr "差出人の名前"
+
+#: wpf-admin/options-tabs/accesses.php:26
+#: wpf-admin/options-tabs/accesses.php:27
+#: wpf-admin/options-tabs/accesses.php:28
+msgid "usergroup"
+msgstr "ユーザーグループ"
+
+#: wpf-admin/options-tabs/accesses.php:26
+msgid "Guests"
+msgstr "ゲスト"
+
+#: wpf-admin/options-tabs/accesses.php:26
+#: wpf-admin/options-tabs/accesses.php:27
+#: wpf-admin/options-tabs/accesses.php:28
+msgid "This access is usually used for "
+msgstr "このアクセスは通常、次のグループで使用されます"
+
+#: wpf-admin/forum.php:58
+msgid "Forums can be displayed with different layouts (Extended, Simplified, Q&A), just edit the top (blue panels) category and set the layout you want. Child forums' layout depends on the top category (blue panels) layout. They cannot have a different layout."
+msgstr "フォーラムは異なるレイアウト (拡張、シンプル、Q＆A) で表示することができ、トップ (青色のパネル) カテゴリーを編集して必要なレイアウトを設定するだけです。子フォーラムのレイアウトは、トップカテゴリー (青色パネル) のレイアウトに依存します。これらは異なるレイアウトを持つことはできません。"
+
+#: wpf-admin/forum.php:57
+msgid "If a category (blue panels) does not have forums (grey panels) it will not be displayed on front-end. Each category should contain at least one forum."
+msgstr "カテゴリー (青いパネル) にフォーラム (灰色のパネル) がない場合は、フロントエンドには表示されません。各カテゴリーには、少なくとも1つのフォーラムが含まれている必要があります。"
+
+#: wpf-admin/forum.php:55
+msgid "Important Tips"
+msgstr "重要なヒント"
+
+#: wpf-admin/dashboard.php:180
+msgid "Total Size"
+msgstr "合計サイズ"
+
+#: wpf-admin/dashboard.php:175
+msgid "Advanced Attachments Size"
+msgstr "高度な添付ファイルのサイズ"
+
+#: wpf-admin/dashboard.php:172
+msgid "file(s)"
+msgstr "ファイル"
+
+#: wpf-admin/dashboard.php:171
+msgid "Advanced Attachments"
+msgstr "高度な添付ファイル"
+
+#: wpf-admin/dashboard.php:165
+msgid "Default Attachments Size"
+msgstr "デフォルトの添付ファイルサイズ"
+
+#: wpf-admin/dashboard.php:161
+msgid "Avatars Size"
+msgstr "アバターサイズ"
+
+#: wpf-admin/addons.php:64
+msgid "More information about"
+msgstr "さらに詳しい情報について"
+
+#: wpf-admin/addons.php:58
+msgid "Details | Buy"
+msgstr "詳細 | 購入"
+
+#: wpf-admin/addons.php:56
+msgid "at least"
+msgstr "少なくても"
+
+#: wpf-admin/addons.php:55
+msgid "Version"
+msgstr "バージョン"
+
+#: wpf-admin/addons.php:51
+msgid "Installed"
+msgstr "インストール済み"
+
+#: wpf-admin/addons.php:28
+msgid "All wpForo addons are being developed by wpForo developers at gVectors Team. Addon prices also include a small donation to the hard work wpForo developers do for free. When you buy an addon, you also donate the free wpForo development and support. Addons are the only incoming source for wpForo developers. wpForo is a premium forum plugin which will always be available for free. There will never be paid and pro versions of this forum board. We have another dozens of awesome features in our to-do list which will also be added for free in future releases. So the free wpForo development always stays on the first priority and wpForo is being extended with new free functions and features even faster than before."
+msgstr "すべての wpForo アドオンは gVectors チームの wpForo 開発者によって開発されています。アドオンの価格には、開発者が無料で行うハードワークに対しての細やかな寄付も含まれています。アドオンを購入すると、無料の wpForo 開発とサポートにも寄付されます。アドオンは、wpForo 開発者の唯一の収入源です。また、wpForo は常に無料で利用できるプレミアムフォーラムプラグインでもあります。この掲示板の有料版とプロ版は決してありません。To-doリストには、今後数多くの素晴らしい機能が追加されています。将来のリリースでも無料で追加されます。無料の wpForo 開発は常に最優先事項に固定され、wpForo は以前よりもさらに新しい自由な関数と機能で拡張されていきます。"
+
+#: wpf-admin/addons.php:14 wpf-admin/addons.php:22
+msgid "wpForo Addons"
+msgstr "wpForo アドオン"
+
+#: wpforo.php:345
+msgid "Allows to embed hundreds of video, social network, audio and photo content providers in forum topics and posts."
+msgstr "数百のビデオ、SNS、オーディオ、写真コンテンツのプロバイダーをフォーラムのトピックや投稿に埋め込むことができます。"
+
+#: wpforo.php:344
+msgid "Adds an advanced file attachment system to forum topics and posts. AJAX powered media uploading and displaying system with user specific library."
+msgstr "フォーラムのトピックと投稿に高度な添付ファイルシステムを追加します。AJAX を使用したメディアアップロードおよび表示システムです。"
+
+#: wpf-admin/options-tabs/general.php:43
+msgid "Forum Page ID"
+msgstr "フォーラムのページ ID"
+
+#: wpf-admin/options-tabs/general.php:41
+msgid "suppor topic"
+msgstr "サポートトピック"
+
+#: wpf-admin/options-tabs/general.php:41
+msgid "wpForo PageID doesn't exist. Forums will not be loaded, please read this"
+msgstr "wpForo のページ ID が存在しません。フォーラムは読み込まれませんので、これをお読みください"
+
+#: wpf-includes/wpf-hooks.php:1044
+msgid "IMPORTANT: wpForo can't work with default permalink, please change permalink structure"
+msgstr "重要: wpForo はデフォルトのパーマリンクでは動作しませんので、パーマリンクの構成を変更してください"
+
+#: wpf-includes/wpf-phrases.php:643
+msgid "Member"
+msgstr "メンバー"
+
+#: wpf-includes/wpf-phrases.php:642
+msgid "Member Profile"
+msgstr "メンバープロファイル"
+
+#: wpf-includes/wpf-phrases.php:641
+msgid "Welcome back %s!"
+msgstr "おかえりなさい %s さん!"
+
+#: wpf-includes/wpf-phrases.php:640
+msgid "Blog Comments"
+msgstr "ブログコメント"
+
+#: wpf-includes/wpf-phrases.php:639
+msgid "Blog Posts"
+msgstr "ブログ投稿"
+
+#: wpf-includes/wpf-phrases.php:638
+msgid "Forum Posts"
+msgstr "フォーラム投稿"
+
+#: wpf-includes/wpf-phrases.php:637
+msgid "Attachment removed"
+msgstr "添付ファイルが削除されました"
+
+#: wpf-includes/wpf-phrases.php:633
+msgid "User registration is disabled"
+msgstr "現在、ユーザー登録は無効です"
+
+#: wpf-includes/wpf-phrases.php:630
+msgid "Incorrect file format. Allowed formats: jpeg, jpg, png, gif."
+msgstr "ファイル形式が正しくありません。許可された形式:  jpeg, jpg, png, gif"
+
+#: wpf-includes/wpf-phrases.php:320
+msgid "Thank you for using wpForo! wpForo is a professional bulletin board for WorPress, and the only forum software which comes with Multi-layout template system. The \"Extended"
+msgstr "wpForo をご利用いただきありがとうございます！ wpForo は WordPress 用のプロフェッショナルな掲示板で、マルチレイアウトのテンプレートシステムが付属している唯一のフォーラムソフトウェアです。\"拡張"
+
+#: wpf-admin/options-tabs/general.php:38
+msgid "Visit Forum"
+msgstr "フォーラムを表示"
+
+#: wpf-includes/wpf-phrases.php:646
+msgid "This option will disable WordPress on front-end. Only forum pages will be available. wpForo will look like as a stand-alone forum."
+msgstr "このオプションはフロントエンドで WordPress を無効にします。フォーラムページのみが利用可能になります。wpForo をスタンドアロンのフォーラムのように扱えます。"
+
+#: wpf-admin/options-tabs/general.php:24 wpf-includes/wpf-phrases.php:645
+msgid "Turn WordPress to wpForo"
+msgstr "WordPress を wpForo にする"
+
+#: wpf-admin/options-tabs/features.php:36 wpf-includes/wpf-phrases.php:636
+msgid "Enable this option to be able manage forum attachments in Dashboard > Media > Library admin page."
+msgstr "このオプションを有効にすると、管理者ページからダッシュボード > メディア > ライブラリで、フォーラムの添付ファイルを管理できるようになります。"
+
+#: wpf-admin/options-tabs/features.php:36 wpf-includes/wpf-phrases.php:635
+msgid "Insert Forum Attachments to Media Library"
+msgstr "メディアライブラリにフォーラムの添付ファイルを挿入"
+
+#: wpf-admin/options-tabs/features.php:17 wpf-includes/wpf-phrases.php:632
+msgid "This option is not synced with WordPress \"Anyone can register\" option in Dashboard > Settings > General admin page. If this option is enabled new users will always be able to register."
+msgstr "このオプションは、 WordPress の管理者ページから、ダッシュボード > 設定 > 一般の中の設定で \"だれでもユーザー登録ができるようにする\" オプションと同期はされません。このオプションを有効にすると、新規ユーザーは常に登録できます。"
+
+#: wpf-admin/options-tabs/features.php:17 wpf-includes/wpf-phrases.php:631
+msgid "Enable User Registration"
+msgstr "ユーザー登録を有効化"
+
+#: wpf-admin/dashboard.php:201 wpf-includes/wpf-phrases.php:634
+msgid "Delete User Cache"
+msgstr "ユーザーキャッシュを削除"
+
+#: wpf-includes/wpf-phrases.php:628
+msgid "Profile"
+msgstr "プロファイル"
+
+#: wpf-includes/wpf-phrases.php:627
+msgid "Full access"
+msgstr "フルアクセス"
+
+#: wpf-includes/wpf-phrases.php:626
+msgid "Moderator access"
+msgstr "モデレーターアクセス"
+
+#: wpf-includes/wpf-phrases.php:625
+msgid "Standard access"
+msgstr "標準アクセス"
+
+#: wpf-includes/wpf-phrases.php:624
+msgid "Read only access"
+msgstr "読み取り専用アクセス"
+
+#: wpf-includes/wpf-phrases.php:623
+msgid "No access"
+msgstr "アクセスなし"
+
+#: wpf-includes/wpf-phrases.php:622
+msgid "Customer"
+msgstr "カスタマー"
+
+#: wpf-admin/options-tabs/accesses.php:27 wpf-includes/wpf-phrases.php:621
+msgid "Registered"
+msgstr "登録者"
+
+#: wpf-includes/wpf-phrases.php:620
+msgid "Moderator"
+msgstr "モデレーター"
+
+#: wpf-admin/options-tabs/accesses.php:28 wpf-includes/wpf-phrases.php:619
+msgid "Admin"
+msgstr "管理者"
+
+#: wpf-includes/wpf-phrases.php:618
+msgid "are you sure you want to delete?"
+msgstr "削除してもよろしいですか?"
+
+#: wpf-includes/wpf-phrases.php:617
+msgid "Forum Members List"
+msgstr "フォーラムメンバー一覧"
+
+#: wpf-includes/wpf-phrases.php:616
+msgid "Closed"
+msgstr "クローズ"
+
+#: wpf-includes/wpf-phrases.php:615
+msgid "Deleted Successfully!"
+msgstr "正常に削除しました。"
+
+#: wpf-includes/wpf-phrases.php:614
+msgid "Updated Successfully!"
+msgstr "正常に更新しました。"
+
+#: wpf-includes/wpf-phrases.php:610
+msgid "This process may take a few seconds or dozens of minutes, it depends on database forum size and on server resources. Please be patient and don't close this page. If you got 500 Server Error please don't worry, the data updating process is still working in MySQL server."
+msgstr "この処理には、数秒または数十分かかる場合があります。これは、データベースのフォーラムサイズとサーバーリソースによって異なります。このページを閉じないでください。もし、500 Server Error が発生しても心配しないでください。データの更新処理は、しっかり MySQLサーバー側で動作しているので心配の必要はありません。"
+
+#: wpf-includes/wpf-phrases.php:606
+msgid "New Passwords do not match"
+msgstr "新しいパスワードが一致しません"
+
+#: wpf-includes/wpf-phrases.php:605
+msgid "Old password is wrong"
+msgstr "古いパスワードが間違っています"
+
+#: wpf-includes/wpf-phrases.php:604
+msgid "Can make own topic solved"
+msgstr "自分のトピックを解決済としてマーク"
+
+#: wpf-includes/wpf-phrases.php:603
+msgid "Can make topic solved"
+msgstr "トピックを解決済としてマーク"
+
+#: wpf-includes/wpf-phrases.php:595
+msgid "Unsolved"
+msgstr "未解決"
+
+#: wpf-includes/wpf-hooks.php:1021
+msgid "Select Color"
+msgstr "色を選択"
+
+#: wpf-includes/wpf-hooks.php:1021
+msgid "Default"
+msgstr "デフォルト"
+
+#: wpf-includes/wpf-hooks.php:1021
+msgid "Clear"
+msgstr "クリア"
+
+#: wpf-includes/functions-installation.php:54
+msgid "Discussion Board"
+msgstr "ディスカッション掲示板"
+
+#: wpf-admin/options-tabs/features.php:33 wpf-includes/wpf-phrases.php:608
+msgid "Forum and Topic subscription with double opt-in/confirmation system."
+msgstr "ダブルオプトイン / 確認システムによるフォーラムとトピックの定期購読ができます。"
+
+#: wpf-admin/options-tabs/features.php:33 wpf-includes/wpf-phrases.php:607
+msgid "Enable Subscription Confirmation"
+msgstr "購読の確認を有効にする"
+
+#: wpf-admin/dashboard.php:200 wpf-includes/wpf-phrases.php:613
+msgid "Delete Phrase Cache"
+msgstr "フレーズキャッシュを削除"
+
+#: wpf-admin/dashboard.php:199 wpf-includes/wpf-phrases.php:612
+msgid "Update Users Statistic"
+msgstr "ユーザーの統計を更新"
+
+#: wpf-admin/dashboard.php:198 wpf-includes/wpf-phrases.php:611
+msgid "Update Forums Statistic"
+msgstr "フォーラムの統計を更新"
+
+#: wpf-admin/dashboard.php:190
+msgid "This process may take a few seconds or dozens of minutes, please be patient and don't close this page. If you got 500 Server Error please don't worry, the data updating process is still working in MySQL server."
+msgstr "この処理には数秒か数十分かかる場合がありますので、このページを閉じないでください。もし、500 Server Error が発生しても心配しないでください。データの更新処理は、しっかり MySQL サーバー側で動作しているので心配の必要はありません。"
+
+#: wpf-admin/dashboard.php:188 wpf-includes/wpf-phrases.php:609
+msgid "Forum Maintenance"
+msgstr "フォーラムのメンテナンス"
+
+#: wpf-includes/wpf-phrases.php:594
+msgid "Solved"
+msgstr "解決済"
+
+#: wpf-includes/wpf-phrases.php:593
+msgid "Hot"
+msgstr "人気"
+
+#: wpf-includes/wpf-phrases.php:592
+msgid "Active"
+msgstr "アクティブ"
+
+#: wpf-includes/wpf-phrases.php:591
+msgid "Replied"
+msgstr "返信"
+
+#: wpf-includes/wpf-phrases.php:590
+msgid "New"
+msgstr "NEW"
+
+#: wpf-includes/wpf-phrases.php:589
+msgid "Topic Icons"
+msgstr "トピックアイコン"
+
+#: wpf-includes/wpf-phrases.php:588
+msgid "open"
+msgstr "オープン"
+
+#: wpf-includes/wpf-phrases.php:587
+msgid "close"
+msgstr "クローズ"
+
+#: wpf-includes/wpf-phrases.php:586
+msgid "unsticky"
+msgstr "固定解除"
+
+#: wpf-includes/wpf-phrases.php:585
+msgid "sticky"
+msgstr "固定"
+
+#: wpf-includes/wpf-phrases.php:584
+msgid "unlike"
+msgstr "いいね解除"
+
+#: wpf-includes/wpf-phrases.php:583
+msgid "like"
+msgstr "いいね！"
+
+#: wpf-includes/wpf-phrases.php:582
+msgid "Can move topic"
+msgstr "トピックを移動できます"
+
+#: wpf-includes/wpf-phrases.php:581
+msgid "Can close topic"
+msgstr "トピックをクローズできます"
+
+#: wpf-includes/wpf-phrases.php:580
+msgid "Can make own topic answered"
+msgstr "自分のトピックに回答できます"
+
+#: wpf-includes/wpf-phrases.php:579
+msgid "Can make topic answered"
+msgstr "トピックに回答できます"
+
+#: wpf-includes/wpf-phrases.php:578
+msgid "Can Attach File"
+msgstr "ファイルを添付できます"
+
+#: wpf-includes/wpf-phrases.php:577
+msgid "Can vote"
+msgstr "投票できます"
+
+#: wpf-includes/wpf-phrases.php:576
+msgid "Can make topic sticky"
+msgstr "トピックを固定できます"
+
+#: wpf-includes/wpf-phrases.php:575
+msgid "Can report"
+msgstr "報告できます"
+
+#: wpf-includes/wpf-phrases.php:574
+msgid "Can like"
+msgstr "いいね！できます"
+
+#: wpf-includes/wpf-phrases.php:573
+msgid "Can delete own replay"
+msgstr "自分の返信を削除できます"
+
+#: wpf-includes/wpf-phrases.php:572
+msgid "Can delete own topic"
+msgstr "自分のトピックを削除できます"
+
+#: wpf-includes/wpf-phrases.php:571
+msgid "Can edit own replay"
+msgstr "自分の返信を編集できます"
+
+#: wpf-includes/wpf-phrases.php:570
+msgid "Can edit own topic"
+msgstr "自分のトピックを編集できます"
+
+#: wpf-includes/wpf-phrases.php:569
+msgid "Can delete replies"
+msgstr "返信を削除できます"
+
+#: wpf-includes/wpf-phrases.php:568
+msgid "Can edit replies"
+msgstr "返信を編集できます"
+
+#: wpf-includes/wpf-phrases.php:567
+msgid "Can view replies"
+msgstr "返信を表示できます"
+
+#: wpf-includes/wpf-phrases.php:566
+msgid "Can post reply"
+msgstr "返信を投稿できます"
+
+#: wpf-includes/wpf-phrases.php:565
+msgid "Can delete topic"
+msgstr "トピックを削除できます"
+
+#: wpf-includes/wpf-phrases.php:564
+msgid "Can edit topic"
+msgstr "トピックを編集できます"
+
+#: wpf-includes/wpf-phrases.php:563
+msgid "Can view topic"
+msgstr "トピックを表示できます"
+
+#: wpf-includes/wpf-phrases.php:562
+msgid "Can create topic"
+msgstr "トピックを作成できます"
+
+#: wpf-includes/wpf-phrases.php:561
+msgid "Can view forum"
+msgstr "フォーラムを表示できます"
+
+#: wpf-includes/wpf-phrases.php:560
+msgid "Front - Can write PM"
+msgstr "フロント - PMに書き込むことができます"
+
+#: wpf-includes/wpf-phrases.php:559
+msgid "Front - Can view member phone number"
+msgstr "フロント - メンバーの電話番号を表示できます"
+
+#: wpf-includes/wpf-phrases.php:558
+msgid "Front - Can view member about me"
+msgstr "フロント - メンバーの自己紹介を表示できます"
+
+#: wpf-includes/wpf-phrases.php:557
+msgid "Front - Can view member signatur"
+msgstr "フロント - メンバーのサインを表示できます"
+
+#: wpf-includes/wpf-phrases.php:556
+msgid "Front - Can view member ocumpation"
+msgstr "フロント - メンバーの職業を表示できます"
+
+#: wpf-includes/wpf-phrases.php:555
+msgid "Front - Can view member location"
+msgstr "フロント - メンバーの出生国を表示できます "
+
+#: wpf-includes/wpf-phrases.php:554
+msgid "Front - Can view member ip address"
+msgstr "フロント - メンバーのIPアドレスを表示できます"
+
+#: wpf-includes/wpf-phrases.php:553
+msgid "Front - Can view member last active date"
+msgstr "フロント -  メンバーの最終訪問日を表示できます"
+
+#: wpf-includes/wpf-phrases.php:552
+msgid "Front - Can view member reg. date"
+msgstr "フロント -  メンバーの登録日を表示できます"
+
+#: wpf-includes/wpf-phrases.php:551
+msgid "Front - Can view member social networks"
+msgstr "フロント -  メンバーの SNS を表示できます"
+
+#: wpf-includes/wpf-phrases.php:550
+msgid "Front - Can view member website"
+msgstr "フロント -  メンバーのウェブサイトを表示できます"
+
+#: wpf-includes/wpf-phrases.php:549
+msgid "Front - Can view member reputation"
+msgstr "フロント -  メンバーの評価を表示できます"
+
+#: wpf-includes/wpf-phrases.php:548
+msgid "Front - Can view member custom title"
+msgstr "フロント -  メンバーのカスタムタイトルを表示できます"
+
+#: wpf-includes/wpf-phrases.php:547
+msgid "Front - Can view member title"
+msgstr "フロント -  メンバーのタイトルを表示できます"
+
+#: wpf-includes/wpf-phrases.php:546
+msgid "Front - Can view member email"
+msgstr "フロント -  メンバーのメールを表示できます"
+
+#: wpf-includes/wpf-phrases.php:545
+msgid "Front - Can view member username"
+msgstr "フロント -  メンバーのユーザー名を表示できます"
+
+#: wpf-includes/wpf-phrases.php:544
+msgid "Front - Can view avatars"
+msgstr "フロント -  メンバーのアバターを表示できます"
+
+#: wpf-includes/wpf-phrases.php:543
+msgid "Front - Can have signatur"
+msgstr "フロント -  サインができます"
+
+#: wpf-includes/wpf-phrases.php:542
+msgid "Front - Can upload avatar"
+msgstr "フロント - アバターをアップロードできます"
+
+#: wpf-includes/wpf-phrases.php:541
+msgid "Front - Can view profiles"
+msgstr "フロント - プロファイルを表示できます"
+
+#: wpf-includes/wpf-phrases.php:540
+msgid "Front - Can view members"
+msgstr "フロント - メンバーを表示できます"
+
+#: wpf-includes/wpf-phrases.php:539
+msgid "Dahsboard - Usergroup Menu"
+msgstr "ダッシュボード - ユーザーグループのメニュー"
+
+#: wpf-includes/wpf-phrases.php:538
+msgid "Dahsboard - Can delete member"
+msgstr "ダッシュボード - メンバーを削除できます"
+
+#: wpf-includes/wpf-phrases.php:537
+msgid "Dahsboard - Can edit member"
+msgstr "ダッシュボード - メンバーを編集できます"
+
+#: wpf-includes/wpf-phrases.php:536
+msgid "Dahsboard - Members Menu"
+msgstr "ダッシュボード - メンバーのメニュー"
+
+#: wpf-includes/wpf-phrases.php:535
+msgid "Dahsboard - Can delete forum"
+msgstr "ダッシュボード - フォーラムを削除できます"
+
+#: wpf-includes/wpf-phrases.php:534
+msgid "Dahsboard - Can edit forum"
+msgstr "ダッシュボード - フォーラムを編集できます"
+
+#: wpf-includes/wpf-phrases.php:533
+msgid "Dahsboard - Can create forum"
+msgstr "ダッシュボード - フォーラムを作成できます"
+
+#: wpf-includes/wpf-phrases.php:376
+msgid "%s ago"
+msgstr "%s 前"
+
+#: wpf-admin/options-tabs/features.php:37 wpf-includes/wpf-phrases.php:601
+msgid "If you got some issue with wpForo, please enable this option before asking for support, this outputs hidden important information to help us debug your issue."
+msgstr "wpForo で問題がある場合、サポートを依頼する前にこのオプションを有効にし、重要な情報のみ隠して出力し、問題のデバッグに役立てます。"
+
+#: wpf-admin/options-tabs/features.php:37 wpf-includes/wpf-phrases.php:600
+msgid "Enable Debug Mode"
+msgstr "デバッグモードを有効化"
+
+#: wpf-admin/options-tabs/features.php:32 wpf-includes/wpf-phrases.php:596
+msgid "You can manage WordPress date and time format in WordPress Settings > General admin page."
+msgstr "WordPress の管理者ページから一般 > 設定ページ内で WordPress の日付と時刻のフォーマットを管理できます。"
+
+#: wpf-admin/options-tabs/features.php:32
+msgid "Enable WordPress Date/Time Format"
+msgstr "WordPress の時間 / 日付フォーマットを有効"
+
+#: wpf-admin/admin.php:22 wpf-includes/wpf-phrases.php:599
+msgid "Themes"
+msgstr "テーマ"
+
+#: wpf-admin/admin.php:21 wpf-includes/wpf-phrases.php:598
+msgid "Phrases"
+msgstr "フレーズ"
+
+#: wpf-admin/admin.php:15 wpf-admin/admin.php:16
+#: wpf-includes/wpf-phrases.php:597
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: wpf-includes/class-template.php:34
+msgid "Open link in a new tab"
+msgstr "新しいタブでリンクを開く"
+
+#: wpf-includes/class-template.php:33
+msgid "Link Text"
+msgstr "リンクテキスト"
+
+#: wpf-includes/class-template.php:32
+msgid "Insert link"
+msgstr "リンクを挿入"
+
+#: wpf-admin/options-tabs/styles.php:43
+msgid "Forum Color Styles"
+msgstr "フォーラムのカラースタイル"
+
+#: wpf-admin/options-tabs/styles.php:36 wpf-includes/wpf-phrases.php:61
+msgid "Custom CSS Code"
+msgstr "カスタム CSS コード"
+
+#: wpf-admin/options-tabs/styles.php:28 wpf-includes/wpf-phrases.php:480
+msgid "Post Content"
+msgstr "投稿内容"
+
+#: wpf-admin/options-tabs/styles.php:13
+msgid "Font Sizes"
+msgstr "フォントサイズ"
+
+#: wpf-admin/options-tabs/features.php:31 wpf-includes/wpf-phrases.php:330
+msgid "This feature is useful if you're adding content before or after [wpforo] shortcode in page content. Also it useful if forum is loaded before website header, on top of the front-end."
+msgstr "この機能は、ページの内容にある [wpforo] ショートコードの前後にコンテンツを追加する場合に便利です。フォーラムがフロントエンドでウェブサイトヘッダーの前に読み込まれている場合にも便利です。"
+
+#: wpf-admin/options-tabs/features.php:31 wpf-includes/wpf-phrases.php:85
+msgid "Enable Output Buffer"
+msgstr "出力バッファを有効"
+
+#. Author URI of the plugin/theme
+msgid "http://gvectors.com/"
+msgstr "http://gvectors.com/"
+
+#. Author of the plugin/theme
+msgid "gVectors Team (A. Chakhoyan, R. Hovhannisyan)"
+msgstr "gVectors Team (A. Chakhoyan, R. Hovhannisyan)"
+
+#. Description of the plugin/theme
+msgid "Next Generation of WordPress Forum Softwares. Everything you need to run an efficient and professional community. Powerful and beautiful bulletin board with unique features."
+msgstr "次世代の WordPress フォーラムソフトウェア。効率的で専門的なコミュニティを運営するために必要なものをすべて。ユニークな機能を備えたパワフルで美しい掲示板です。"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wpforo.com"
+msgstr "http://wpforo.com"
+
+#. Plugin Name of the plugin/theme
+msgid "Forum - wpForo"
+msgstr "フォーラム - wpForo"
+
+#: wpf-includes/wpf-phrases.php:531
+msgid "Your topic successfully added"
+msgstr "正常にあなたのトピックを追加しました"
+
+#: wpf-includes/wpf-phrases.php:530
+msgid "Your subscription for this item could not be confirmed"
+msgstr "この項目の購読を確認できませんでした"
+
+#: wpf-includes/wpf-phrases.php:529
+msgid "Your profile data have been successfully updated."
+msgstr "正常にあなたのプロファイルデータが更新されました。"
+
+#: wpf-includes/wpf-phrases.php:528
+msgid "Your forum successfully deleted"
+msgstr "正常にフォーラムが削除されました"
+
+#: wpf-includes/wpf-phrases.php:527
+msgid "Your forum successfully added"
+msgstr "正常にフォーラムが追加されました"
+
+#: wpf-includes/wpf-phrases.php:526
+msgid "You successfully replied"
+msgstr "正常に返信しました"
+
+#: wpf-includes/wpf-phrases.php:525
+msgid "You haven't permission to edit post from this forum"
+msgstr "このフォーラムから投稿を編集する権限がありません"
+
+#: wpf-includes/wpf-phrases.php:524
+msgid "You haven't permission to delete topic from this forum"
+msgstr "このフォーラムからトピックを削除する権限がありません"
+
+#: wpf-includes/wpf-phrases.php:523
+msgid "You haven't permission to delete post from this forum"
+msgstr "このフォーラムから投稿を削除する権限がありません"
+
+#: wpf-includes/wpf-phrases.php:522
+msgid "You haven't permission to create topic into this forum"
+msgstr "このフォーラムにトピックを作成する権限がありません"
+
+#: wpf-includes/wpf-phrases.php:521
+msgid "You haven't permission to create post into this forum"
+msgstr "このフォーラムに投稿を作成する権限がありません"
+
+#: wpf-includes/wpf-phrases.php:520
+msgid "You have no permission to edit this topic"
+msgstr "このトピックを編集する権限がありません"
+
+#: wpf-includes/wpf-phrases.php:519
+msgid "You have been successfully unsubscribed"
+msgstr "正常に購読を解除しました"
+
+#: wpf-includes/wpf-phrases.php:518
+msgid "You have been successfully subscribed"
+msgstr "正常に購読しました"
+
+#: wpf-includes/wpf-phrases.php:517
+msgid "You are already voted this post"
+msgstr "すでにこの投稿に投票しています"
+
+#: wpf-includes/wpf-phrases.php:516
+msgid "Wrong post data"
+msgstr "間違った投稿データ"
+
+#: wpf-includes/wpf-phrases.php:515
+msgid "Welcome to our Community!"
+msgstr "私たちのコミュニティへようこそ。"
+
+#: wpf-includes/wpf-phrases.php:514
+msgid "Username length must be between 3 characters and 15 characters."
+msgstr "ユーザ名の長さは最低3文字から最大15文字の範囲内です。"
+
+#: wpf-includes/wpf-phrases.php:513
+msgid "Username is missed."
+msgstr "ユーザー名が不足しています。"
+
+#: wpf-includes/wpf-phrases.php:512
+msgid "Username exists. Please insert another."
+msgstr "既にユーザー名が存在します。 別のものを入力してください。"
+
+#: wpf-includes/wpf-phrases.php:511
+msgid "User successfully deleted from wpforo"
+msgstr "ユーザーは wpForo から正常に削除されました"
+
+#: wpf-includes/wpf-phrases.php:510
+msgid "User group successfully edited"
+msgstr "ユーザーグループを正常に編集しました"
+
+#: wpf-includes/wpf-phrases.php:509
+msgid "User group successfully added"
+msgstr "にユーザーグループを正常に追加しました"
+
+#: wpf-includes/wpf-phrases.php:508
+msgid "User group edit error"
+msgstr "ユーザーグループの編集エラー"
+
+#: wpf-includes/wpf-phrases.php:507
+msgid "User group add error"
+msgstr "ユーザーグループの追加エラー"
+
+#: wpf-includes/wpf-phrases.php:506
+msgid "User delete error"
+msgstr "ユーザーの削除エラー"
+
+#: wpf-includes/wpf-phrases.php:505
+msgid "Topics delete error"
+msgstr "トピックの削除エラー"
+
+#: wpf-includes/wpf-phrases.php:504
+msgid "Topic successfully updated"
+msgstr "正常にトピックが更新されました"
+
+#: wpf-includes/wpf-phrases.php:503
+msgid "Topic successfully moved"
+msgstr "正常にトピックが移動されました"
+
+#: wpf-includes/wpf-phrases.php:502
+msgid "Topic not found."
+msgstr "トピックが見つかりません。"
+
+#: wpf-includes/wpf-phrases.php:501
+msgid "Topic edit error"
+msgstr "トピックの編集エラー"
+
+#: wpf-includes/wpf-phrases.php:500
+msgid "Topic delete error"
+msgstr "トピックの削除エラー"
+
+#: wpf-includes/wpf-phrases.php:499
+msgid "Topic add error"
+msgstr "トピックの追加エラー"
+
+#: wpf-includes/wpf-phrases.php:498
+msgid "Topic Move Error"
+msgstr "トピックの移動エラー"
+
+#: wpf-includes/wpf-phrases.php:497
+msgid "This topic successfully deleted"
+msgstr "このトピックは正常に削除されました"
+
+#: wpf-includes/wpf-phrases.php:496
+msgid "This post successfully edited"
+msgstr "この投稿は正常に編集されました"
+
+#: wpf-includes/wpf-phrases.php:495
+msgid "This post successfully deleted"
+msgstr "この投稿は正常に削除されました"
+
+#: wpf-includes/wpf-phrases.php:494
+msgid "This email address is already registered. Please insert another."
+msgstr "このメールアドレスは既に登録されています。別のものを入力してください。"
+
+#: wpf-includes/wpf-phrases.php:493
+msgid "Theme options successfully updated"
+msgstr "テーマのオプションは正常に更新されました"
+
+#: wpf-includes/wpf-phrases.php:492
+msgid "The uploaded file size is too big"
+msgstr "アップロードされたファイルサイズが大きすぎます"
+
+#: wpf-includes/wpf-phrases.php:491
+msgid "Successfully voted"
+msgstr "正常に投票しました"
+
+#: wpf-includes/wpf-phrases.php:490
+msgid "Successfully updated"
+msgstr "正常に更新されました"
+
+#: wpf-includes/wpf-phrases.php:489
+msgid "Success! Thank you. Please check your email and click confirmation link below to complete this step."
+msgstr "成功しました。ありがとうございます。この手順を完了するには、メールを確認して以下の確認リンクをクリックしてください。"
+
+#: wpf-includes/wpf-phrases.php:488
+msgid "Success! Thank you Dear Friend"
+msgstr "成功しました。ありがとうございます。"
+
+#: wpf-includes/wpf-phrases.php:487
+msgid "Subscribe options successfully updated, but previous value not changed"
+msgstr "ユーザー登録のオプションが正常に更新されましたが、以前の値は変更されていません"
+
+#: wpf-includes/wpf-phrases.php:486
+msgid "Subscribe options successfully updated"
+msgstr "ユーザー登録のオプションは正常に更新されました"
+
+#: wpf-includes/wpf-phrases.php:485
+msgid "Something wrong with profile data."
+msgstr "プロファイルデータに問題があります。"
+
+#: wpf-includes/wpf-phrases.php:484
+msgid "Reply request error"
+msgstr "返信のリクエストエラー"
+
+#: wpf-includes/wpf-phrases.php:483
+msgid "Registration Error"
+msgstr "ユーザー登録のエラー"
+
+#: wpf-includes/wpf-phrases.php:482
+msgid "Post options successfully updated, but previous value not changed"
+msgstr "投稿のオプションは正常に更新されましたが、以前の値は変更されていません"
+
+#: wpf-includes/wpf-phrases.php:481
+msgid "Post options successfully updated"
+msgstr "投稿のオプションは正常に更新されました"
+
+#: wpf-includes/wpf-phrases.php:479
+msgid "Post delete error"
+msgstr "投稿の削除エラー"
+
+#: wpf-includes/wpf-phrases.php:478
+msgid "Please insert required fields!"
+msgstr "必須欄を入力してください。"
+
+#: wpf-includes/wpf-phrases.php:477
+msgid "Phrase update error"
+msgstr "フレーズの更新エラー"
+
+#: wpf-includes/wpf-phrases.php:476
+msgid "Phrase successfully updates"
+msgstr "フレーズは正常に更新されました"
+
+#: wpf-includes/wpf-phrases.php:475
+msgid "Phrase successfully added"
+msgstr "フレーズは正常に追加されました"
+
+#: wpf-includes/wpf-phrases.php:474
+msgid "Phrase adding error"
+msgstr "フレーズの追加中にエラーが発生しました"
+
+#: wpf-includes/wpf-phrases.php:473
+msgid "Phrase add error"
+msgstr "フレーズの追加エラー"
+
+#: wpf-includes/wpf-phrases.php:472
+msgid "Permission denied for this action"
+msgstr "この操作の権限が拒否されました"
+
+#: wpf-includes/wpf-phrases.php:471
+msgid "Permission denied for edit forum"
+msgstr "フォーラムを編集する権限が拒否されました"
+
+#: wpf-includes/wpf-phrases.php:470
+msgid "Permission denied for delete forum"
+msgstr "フォーラムを削除する権限が拒否されました"
+
+#: wpf-includes/wpf-phrases.php:469
+msgid "Permission denied for add forum"
+msgstr "フォーラムを追加する権限が拒否されました"
+
+#: wpf-includes/wpf-phrases.php:468
+msgid "Permission denied"
+msgstr "アクセス拒否"
+
+#: wpf-includes/wpf-phrases.php:467
+msgid "Password mismatch."
+msgstr "パスワードが一致しません。"
+
+#: wpf-includes/wpf-phrases.php:466
+msgid "Password length must be between 6 characters and 20 characters."
+msgstr "パスワードの長さは、最低6文字から最高20文字の間で入力する必要があります。"
+
+#: wpf-includes/wpf-phrases.php:465
+msgid "No Posts found for update"
+msgstr "更新する投稿が見つかりません"
+
+#: wpf-includes/wpf-phrases.php:464
+msgid "New language successfully added and changed  wpforo language to new language"
+msgstr "新しい言語が正常に追加され、wpforo の言語が新しい言語に変更されました"
+
+#: wpf-includes/wpf-phrases.php:463
+msgid "Message has been sent"
+msgstr "メッセージが送信されました"
+
+#: wpf-includes/wpf-phrases.php:462
+msgid "Member options successfully updated, but previous value not changed"
+msgstr "メンバーのオプションは正常に更新されましたが、以前の値は変更されていません"
+
+#: wpf-includes/wpf-phrases.php:461
+msgid "Member options successfully updated"
+msgstr "メンバーのオプションは正常に更新されました"
+
+#: wpf-includes/wpf-phrases.php:460
+msgid "Invalid request!"
+msgstr "無効なリクエスト。"
+
+#: wpf-includes/wpf-phrases.php:459
+msgid "Invalid Email address"
+msgstr "無効なメールアドレス"
+
+#: wpf-includes/wpf-phrases.php:458
+msgid "Insert your Email address."
+msgstr "メールアドレスを入力してください。"
+
+#: wpf-includes/wpf-phrases.php:457
+msgid "Illegal character in username."
+msgstr "ユーザー名に不正な文字があります。"
+
+#: wpf-includes/wpf-phrases.php:456
+msgid "General options successfully updated"
+msgstr "基本設定のオプションは正常に更新されました"
+
+#: wpf-includes/wpf-phrases.php:455
+msgid "Forum update error"
+msgstr "フォーラムの更新エラー"
+
+#: wpf-includes/wpf-phrases.php:454
+msgid "Forum successfully updated"
+msgstr "フォーラムは正常に更新されました"
+
+#: wpf-includes/wpf-phrases.php:453
+msgid "Forum options successfully updated, but previous value not changed"
+msgstr "フォーラムオプションは正常に更新されましたが、以前の値は変更されていません"
+
+#: wpf-includes/wpf-phrases.php:452
+msgid "Forum options successfully updated"
+msgstr "フォーラムのオプションは正常に更新されました"
+
+#: wpf-includes/wpf-phrases.php:451
+msgid "Forum merging error"
+msgstr "フォーラムのマージエラー"
+
+#: wpf-includes/wpf-phrases.php:450
+msgid "Forum is successfully merged"
+msgstr "フォーラムは正常にマージされました"
+
+#: wpf-includes/wpf-phrases.php:449
+msgid "Forum hierarchy successfully updated"
+msgstr "フォーラムの階層が正常に更新されました"
+
+#: wpf-includes/wpf-phrases.php:448
+msgid "Forum deleting error"
+msgstr "フォーラムの削除エラー"
+
+#: wpf-includes/wpf-phrases.php:447
+msgid "Forum Base URL successfully updated"
+msgstr "フォーラムのベース URL が正常に更新されました"
+
+#: wpf-includes/wpf-phrases.php:446
+msgid "File type is not allowed"
+msgstr "このファイルタイプは許可されていません"
+
+#: wpf-includes/wpf-phrases.php:445
+msgid "Features successfully updated, but previous value not changed"
+msgstr "機能は正常に更新されましたが、以前の値は変更されていません"
+
+#: wpf-includes/wpf-phrases.php:444
+msgid "Features successfully updated"
+msgstr "機能は正常に更新されました"
+
+#: wpf-includes/wpf-phrases.php:443
+msgid "Error: please inset some text to report."
+msgstr "エラー: 報告するテキストを入力してください。"
+
+#: wpf-includes/wpf-phrases.php:442
+msgid "Error: Topic is not found"
+msgstr "エラー: トピックが見つかりません"
+
+#: wpf-includes/wpf-phrases.php:441
+msgid "Error: No topic selected"
+msgstr "エラー: トピックが選択されていません"
+
+#: wpf-includes/wpf-phrases.php:440
+msgid "Error: Forum is not found"
+msgstr "エラー: フォーラムが見つかりません"
+
+#: wpf-includes/wpf-phrases.php:439
+msgid "Email address exists. Please insert another."
+msgstr "既にメールアドレスが存在します。 別のものを入力してください。"
+
+#: wpf-includes/wpf-phrases.php:438
+msgid "Could not be unsubscribe from this item"
+msgstr "この項目の購読を解除できませんでした"
+
+#: wpf-includes/wpf-phrases.php:437
+msgid "Cannot update post data"
+msgstr "投稿データを更新できません"
+
+#: wpf-includes/wpf-phrases.php:436
+msgid "Cannot update forum hierarchy"
+msgstr "フォーラムの階層を更新できません"
+
+#: wpf-includes/wpf-phrases.php:435
+msgid "Can`t upload file"
+msgstr "ファイルをアップロードできません"
+
+#: wpf-includes/wpf-phrases.php:434
+msgid "Can't write a post: This topic is closed"
+msgstr "投稿を書くことはできません: このトピックはクローズされています"
+
+#: wpf-includes/wpf-phrases.php:433
+msgid "Can't subscribe to this item"
+msgstr "この項目を購読できません"
+
+#: wpf-includes/wpf-phrases.php:432
+msgid "Can't send report email"
+msgstr "報告メールを送信できません"
+
+#: wpf-includes/wpf-phrases.php:431
+msgid "Can't send confirmation email"
+msgstr "確認メールを送信できません"
+
+#: wpf-includes/wpf-phrases.php:430
+msgid "Can't delete this Usergroup"
+msgstr "このユーザーグループを削除できません"
+
+#: wpf-includes/wpf-phrases.php:429
+msgid "Can't add new language"
+msgstr "新しい言語を追加できません"
+
+#: wpf-includes/wpf-phrases.php:428
+msgid "Can't add forum"
+msgstr "フォーラムを追加できません"
+
+#: wpf-includes/wpf-phrases.php:427
+msgid "All Checked topics successfully deleted"
+msgstr "正常にすべてのチェック済みトピックが削除されました"
+
+#: wpf-includes/wpf-phrases.php:426
+msgid "Add Topic error: No forum selected"
+msgstr "トピックの追加エラー: 選択したフォーラムがありません"
+
+#: wpf-includes/wpf-phrases.php:425
+msgid "Access successfully deleted"
+msgstr "アクセス権を正常に削除しました"
+
+#: wpf-includes/wpf-phrases.php:424
+msgid "Access edit error"
+msgstr "アクセス権の編集エラー"
+
+#: wpf-includes/wpf-phrases.php:423
+msgid "Access delete error"
+msgstr "アクセス権の削除エラー"
+
+#: wpf-includes/wpf-phrases.php:422
+msgid "Access add error"
+msgstr "アクセス権の追加エラー"
+
+#: wpf-includes/wpf-phrases.php:417
+msgid "{number}T"
+msgstr "{number}T"
+
+#: wpf-includes/wpf-phrases.php:416
+msgid "{number}M"
+msgstr "{number}M"
+
+#: wpf-includes/wpf-phrases.php:415
+msgid "{number}K"
+msgstr "{number}K"
+
+#: wpf-includes/wpf-phrases.php:414
+msgid "{number}B"
+msgstr "{number}B"
+
+#: wpf-includes/wpf-phrases.php:409
+msgid "wpForo Navigation"
+msgstr "wpForo ナビゲーション"
+
+#: wpf-includes/wpf-phrases.php:407
+msgid "view all topics"
+msgstr "すべてのトピックを表示"
+
+#: wpf-includes/wpf-phrases.php:406
+msgid "view all questions"
+msgstr "すべての質問を表示"
+
+#: wpf-includes/wpf-phrases.php:405
+msgid "view all posts"
+msgstr "すべての投稿を表示"
+
+#: wpf-includes/functions.php:518 wpf-includes/functions.php:519
+#: wpf-includes/wpf-phrases.php:404
+msgid "view"
+msgstr "表示"
+
+#: wpf-includes/wpf-phrases.php:403
+msgid "update"
+msgstr "更新"
+
+#: wpf-includes/wpf-phrases.php:402
+msgid "subscriptions"
+msgstr "購読"
+
+#: wpf-includes/wpf-phrases.php:401
+msgid "replies"
+msgstr "返信"
+
+#: wpf-includes/wpf-phrases.php:400
+msgid "register"
+msgstr "登録"
+
+#: wpf-includes/wpf-phrases.php:399
+msgid "prev"
+msgstr "前へ"
+
+#: wpf-includes/wpf-phrases.php:398
+msgid "posted"
+msgstr "投稿"
+
+#: wpf-includes/wpf-phrases.php:397
+msgid "phrase_value"
+msgstr "フレーズ値"
+
+#: wpf-includes/wpf-phrases.php:396
+msgid "phrase_key"
+msgstr "フレーズキー"
+
+#: wpf-includes/wpf-phrases.php:395
+msgid "old password"
+msgstr "古いパスワード"
+
+#: wpf-includes/wpf-phrases.php:394
+msgid "next"
+msgstr "次へ"
+
+#: wpf-includes/wpf-phrases.php:393
+msgid "new password again"
+msgstr "再度、新しいパスワード"
+
+#: wpf-includes/wpf-phrases.php:392
+msgid "new password"
+msgstr "新しいパスワード"
+
+#: wpf-includes/wpf-phrases.php:391
+msgid "my profile"
+msgstr "プロファイル"
+
+#: wpf-includes/wpf-phrases.php:389
+msgid "members"
+msgstr "メンバー"
+
+#: wpf-includes/wpf-phrases.php:388
+msgid "matches"
+msgstr "一致"
+
+#: wpf-includes/wpf-phrases.php:387
+msgid "logout"
+msgstr "ログアウト"
+
+#: wpf-includes/wpf-phrases.php:386
+msgid "login"
+msgstr "ログイン"
+
+#: wpf-includes/wpf-phrases.php:384
+msgid "forums"
+msgstr "フォーラム"
+
+#: wpf-includes/functions.php:490 wpf-includes/wpf-phrases.php:383
+msgid "edit user"
+msgstr "ユーザーを編集"
+
+#: wpf-includes/functions.php:493 wpf-includes/wpf-phrases.php:382
+msgid "edit profile"
+msgstr "プロファイルを編集"
+
+#: wpf-includes/wpf-phrases.php:379
+msgid "confirm password"
+msgstr "パスワードの確認"
+
+#: wpf-includes/wpf-phrases.php:378
+msgid "by %s"
+msgstr ": %s"
+
+#: wpf-includes/wpf-phrases.php:377
+msgid "by"
+msgstr ": "
+
+#: wpf-includes/wpf-phrases.php:375
+msgid "add_new"
+msgstr "新規追加"
+
+#: wpf-includes/wpf-phrases.php:373
+msgid "activity"
+msgstr "アクティビティ"
+
+#: wpf-includes/wpf-phrases.php:372
+msgid "account"
+msgstr "アカウント"
+
+#: wpf-includes/wpf-phrases.php:371
+msgid "Your Answer"
+msgstr "あなたの回答"
+
+#: wpf-includes/wpf-phrases.php:369
+msgid "You can go to %s page or Search here"
+msgstr "ページ %s に移動するか、ここで検索してください"
+
+#: wpf-includes/wpf-phrases.php:367
+msgid "You"
+msgstr "あなた"
+
+#: wpf-includes/wpf-phrases.php:365
+msgid "Yahoo"
+msgstr "Yahoo"
+
+#: wpf-includes/wpf-phrases.php:364
+msgid "Write message"
+msgstr "メッセージを書く"
+
+#: wpf-includes/wpf-phrases.php:363
+msgid "Working"
+msgstr "動作中"
+
+#: wpf-includes/wpf-phrases.php:362
+msgid "Wordpress avatar system"
+msgstr "WordPress のアバターシステム"
+
+#: wpf-includes/wpf-phrases.php:360
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: wpf-includes/wpf-phrases.php:359
+msgid "Votes"
+msgstr "投票"
+
+#: wpf-includes/wpf-phrases.php:358
+msgid "Views"
+msgstr "表示"
+
+#: wpf-includes/wpf-phrases.php:357
+msgid "View the latest post"
+msgstr "最新の投稿を表示"
+
+#: wpf-includes/wpf-phrases.php:356
+msgid "View entire post"
+msgstr "投稿全体を表示"
+
+#: wpf-includes/wpf-phrases.php:354
+msgid "Username"
+msgstr "ユーザー名"
+
+#: wpf-includes/wpf-phrases.php:353
+msgid "Usergroup has been successfully deleted. All users of this usergroup have been moved to the usergroup you've chosen"
+msgstr "正常にユーザーグループを削除しました。また、このユーザーグループのすべてのユーザーは、選択したユーザーグループに移動しました"
+
+#: wpf-includes/wpf-phrases.php:352
+msgid "Usergroup has been successfully deleted."
+msgstr "正常にユーザーグループを削除しました。"
+
+#: wpf-includes/wpf-phrases.php:351
+msgid "User Group"
+msgstr "ユーザーグループ"
+
+#: wpf-includes/wpf-phrases.php:349
+msgid "User"
+msgstr "ユーザー"
+
+#: wpf-includes/wpf-phrases.php:347
+msgid "Use comments to ask for more information or suggest improvements. Avoid answering questions in comments."
+msgstr "コメントを使用して詳細な情報をリクエストしたり、改善を提案したりします。コメントの質問には回答しないでください。"
+
+#: wpf-includes/wpf-phrases.php:345
+msgid "Upload an avatar"
+msgstr "アバターをアップロード"
+
+#: wpf-includes/wpf-phrases.php:342
+msgid "Unsubscribe"
+msgstr "購読解除"
+
+#: wpf-includes/wpf-phrases.php:341
+msgid "Unknown upload error"
+msgstr "不明なアップロードエラー"
+
+#: wpf-includes/wpf-phrases.php:340
+msgid "Twitter"
+msgstr "Twitter"
+
+#: wpf-includes/wpf-phrases.php:337
+msgid "Topic title"
+msgstr "トピックのタイトル"
+
+#: wpf-includes/wpf-phrases.php:336
+msgid "Topic Title"
+msgstr "トピックのタイトル"
+
+#: wpf-includes/wpf-phrases.php:335
+msgid "Topic RSS Feed"
+msgstr "トピックの RSS フィード"
+
+#: wpf-includes/wpf-phrases.php:333
+msgid "Timezone"
+msgstr "タイムゾーン"
+
+#: wpf-includes/wpf-phrases.php:326
+msgid "The uploaded file was only partially uploaded"
+msgstr "アップロードしたファイルは、一部のみがアップロードされました"
+
+#: wpf-includes/wpf-phrases.php:325
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr "アップロードしたファイルは php.ini の upload_max_filesize で指定された値を超えています"
+
+#: wpf-includes/wpf-phrases.php:324
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form"
+msgstr "アップロードしたファイルは、HTML から指定された MAX_FILE_SIZE の値を超えています"
+
+#: wpf-includes/wpf-phrases.php:321
+msgid "Thank you for using wpForo. wpForo is a premium forum plugin which will always be available for free. There will never be paid and pro versions of this forum board. However this is a very large and hard project so we also develop paid addons (extensions), which will financially help us to keep improving and adding new features to the free wpForo plugin. Forum addons will also be actively developed. The first addons \"Advanced Media Uploader"
+msgstr "wpForo をご利用いただきありがとうございます。wpForo は常に無料で利用できるプレミアムフォーラムプラグインです。このフォーラム掲示板の有料版とプロ版は決してありません。しかしながら、これは非常に巨大で難しいプロジェクトな故に、無料の wpForo プラグインに改善や新機能の追加を財政的に助ける有料アドオン (拡張機能) も開発しています。フォーラムアドオンも積極的に開発されます。最初のアドオン \"Advanced Media Uploader"
+
+#: wpf-includes/wpf-phrases.php:318
+msgid "Subscriptions"
+msgstr "購読"
+
+#: wpf-includes/wpf-phrases.php:316
+msgid "Subscribe for new topics"
+msgstr "新しいトピックを購読"
+
+#: wpf-includes/wpf-phrases.php:315
+msgid "Subscribe for new replies"
+msgstr "新しい返信を購読"
+
+#: wpf-includes/wpf-phrases.php:312
+msgid "Subforums"
+msgstr "サブフォーラム"
+
+#: wpf-includes/wpf-phrases.php:310
+msgid "Specify avatar by URL"
+msgstr "URL でアバターを指定"
+
+#: wpf-includes/wpf-phrases.php:309
+msgid "Sort Search Results by"
+msgstr "検索結果を並べ替え"
+
+#: wpf-includes/wpf-phrases.php:308
+msgid "Sorry, something wrong with your data."
+msgstr "申し訳ありません、あなたのデータにどこか問題があります。"
+
+#: wpf-includes/wpf-phrases.php:307
+msgid "Social Networks"
+msgstr "SNS"
+
+#: wpf-includes/wpf-phrases.php:305
+msgid "Skype"
+msgstr "Skype"
+
+#: wpf-includes/wpf-phrases.php:304
+msgid "Site Profile"
+msgstr "サイトのプロフィール"
+
+#: wpf-includes/wpf-phrases.php:303
+msgid "Signature"
+msgstr "署名"
+
+#: wpf-includes/wpf-phrases.php:302
+msgid "Sign In"
+msgstr "サインイン"
+
+#: wpf-includes/wpf-phrases.php:292
+msgid "Shop Account"
+msgstr "ショップアカウント"
+
+#: wpf-includes/wpf-phrases.php:291 wpf-themes/classic/functions.php:96
+msgid "Set this option value 0 if you want to show all posts under topic intro area."
+msgstr "トピックのイントロエリアにあるすべての投稿を表示する場合は、このオプションの値を0に設定してください。"
+
+#: wpf-includes/wpf-phrases.php:290
+msgid "Set Topic Sticky"
+msgstr "固定トピックの設定"
+
+#: wpf-includes/wpf-phrases.php:286
+msgid "Send Report"
+msgstr "レポートを送信"
+
+#: wpf-includes/wpf-phrases.php:285
+msgid "Select Page"
+msgstr "ページを選択"
+
+#: wpf-includes/wpf-phrases.php:283
+msgid "Search..."
+msgstr "検索..."
+
+#: wpf-includes/wpf-phrases.php:282
+msgid "Search result for"
+msgstr "検索結果: "
+
+#: wpf-includes/wpf-phrases.php:281
+msgid "Search in date period"
+msgstr "期間範囲で検索"
+
+#: wpf-includes/wpf-phrases.php:280
+msgid "Search in Forums"
+msgstr "フォーラムで検索"
+
+#: wpf-includes/wpf-phrases.php:279
+msgid "Search Type"
+msgstr "検索タイプ"
+
+#: wpf-includes/wpf-phrases.php:278
+msgid "Search Titles Only"
+msgstr "タイトルのみ検索"
+
+#: wpf-includes/wpf-phrases.php:277
+msgid "Search Phrase"
+msgstr "検索フレーズ"
+
+#: wpf-includes/wpf-phrases.php:276
+msgid "Search Entire Posts"
+msgstr "全体の投稿を検索"
+
+#: wpf-includes/wpf-phrases.php:275
+msgid "Search"
+msgstr "検索"
+
+#: wpf-includes/wpf-phrases.php:271
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: wpf-includes/wpf-phrases.php:269
+msgid "Result Info"
+msgstr "結果情報"
+
+#: wpf-includes/wpf-phrases.php:267
+msgid "Report to Administration"
+msgstr "管理者に報告"
+
+#: wpf-includes/wpf-phrases.php:264
+msgid "Report"
+msgstr "報告"
+
+#: wpf-includes/wpf-phrases.php:263
+msgid "Reply"
+msgstr "返信"
+
+#: wpf-includes/wpf-phrases.php:262
+msgid "Replies not found"
+msgstr "返信が見つかりません"
+
+#: wpf-includes/wpf-phrases.php:261
+msgid "Replies"
+msgstr "返信"
+
+#: wpf-includes/wpf-phrases.php:255
+msgid "Remember Me"
+msgstr "ログイン状態を保存する"
+
+#: wpf-includes/wpf-phrases.php:254
+msgid "Relevancy"
+msgstr "関連性"
+
+#: wpf-includes/wpf-phrases.php:253
+msgid "Registered date"
+msgstr "登録日"
+
+#: wpf-includes/wpf-phrases.php:251
+msgid "Register"
+msgstr "登録"
+
+#: wpf-includes/wpf-phrases.php:250
+msgid "Recent Topics"
+msgstr "最近のトピック"
+
+#: wpf-includes/wpf-phrases.php:249
+msgid "Recent Questions"
+msgstr "最近の質問"
+
+#: wpf-includes/wpf-phrases.php:248
+msgid "Received Likes"
+msgstr "獲得したいいね！"
+
+#: wpf-includes/wpf-phrases.php:244
+msgid "Rating Badge"
+msgstr "評価バッジ"
+
+#: wpf-includes/wpf-phrases.php:243
+msgid "Rating"
+msgstr "評価"
+
+#: wpf-includes/wpf-phrases.php:242
+msgid "RSS"
+msgstr "RSS"
+
+#: wpf-includes/wpf-phrases.php:241
+msgid "REPLY:"
+msgstr "返信: "
+
+#: wpf-includes/wpf-phrases.php:240
+msgid "RE"
+msgstr "RE"
+
+#: wpf-includes/wpf-phrases.php:239
+msgid "Quote"
+msgstr "引用"
+
+#: wpf-includes/wpf-phrases.php:238
+msgid "Questions"
+msgstr "質問"
+
+#: wpf-includes/wpf-phrases.php:237
+msgid "Question Comments"
+msgstr "質問コメント"
+
+#: wpf-includes/wpf-phrases.php:236 wpf-themes/classic/functions.php:56
+msgid "Q&A layout - Intro topics"
+msgstr "Q&A レイアウト - トピックの見出し"
+
+#: wpf-includes/wpf-phrases.php:235 wpf-themes/classic/functions.php:65
+msgid "Q&A Layout - Number of intro topics"
+msgstr "Q&A レイアウト - トピックの見出し数"
+
+#: wpf-includes/wpf-phrases.php:233
+msgid "Powered by"
+msgstr "Powered by"
+
+#: wpf-includes/wpf-phrases.php:231
+msgid "Posted by"
+msgstr "投稿者:"
+
+#: wpf-includes/wpf-phrases.php:230
+msgid "Posted"
+msgstr "投稿済"
+
+#: wpf-includes/wpf-phrases.php:229
+msgid "Post link"
+msgstr "投稿リンク"
+
+#: wpf-includes/wpf-phrases.php:228
+msgid "Post Title"
+msgstr "投稿タイトル"
+
+#: wpf-includes/wpf-phrases.php:224
+msgid "Please %s or %s"
+msgstr " %s または %s してください"
+
+#: wpf-includes/wpf-phrases.php:222
+msgid "Password"
+msgstr "パスワード"
+
+#: wpf-includes/wpf-phrases.php:220
+msgid "Page"
+msgstr "ページ"
+
+#: wpf-includes/wpf-phrases.php:219
+msgid "Our newest member"
+msgstr "最新のメンバー"
+
+#: wpf-includes/wpf-phrases.php:218
+msgid "Oops! The page you requested was not found!"
+msgstr "申し訳ありません。要求したページは見つかりませんでした。"
+
+#: wpf-includes/wpf-phrases.php:216
+msgid "Online"
+msgstr "オンライン"
+
+#: wpf-includes/wpf-phrases.php:215
+msgid "Offline"
+msgstr "オフライン"
+
+#: wpf-includes/wpf-phrases.php:214
+msgid "Occupation"
+msgstr "職業"
+
+#: wpf-includes/wpf-phrases.php:207
+msgid "No topics were found here"
+msgstr "ここにトピックは見つかりませんでした"
+
+#: wpf-includes/wpf-phrases.php:205
+msgid "No subscriptions found for this member."
+msgstr "このメンバーの購読は見つかりませんでした。"
+
+#: wpf-includes/wpf-phrases.php:203
+msgid "No online members at the moment"
+msgstr "現時点でのオンラインメンバーはいません"
+
+#: wpf-includes/wpf-phrases.php:199
+msgid "No forums were found here."
+msgstr "ここにフォーラムは見つかりませんでした。"
+
+#: wpf-includes/wpf-phrases.php:198
+msgid "No file was uploaded"
+msgstr "ファイルがアップロードされていません"
+
+#: wpf-includes/wpf-phrases.php:197
+msgid "No activity found for this member."
+msgstr "このメンバーのアクティビティは見つかりませんでした。"
+
+#: wpf-includes/wpf-phrases.php:190
+msgid "My Profile"
+msgstr "プロフィール"
+
+#: wpf-includes/wpf-phrases.php:189
+msgid "Must be minimum 6 characters."
+msgstr "最小6文字でなければなりません。"
+
+#: wpf-includes/wpf-phrases.php:188
+msgid "Move topic"
+msgstr "トピックを移動"
+
+#: wpf-includes/wpf-phrases.php:185
+msgid "Missing a temporary folder"
+msgstr "一時フォルダがありません"
+
+#: wpf-includes/wpf-phrases.php:182
+msgid "Messages"
+msgstr "メッセージ"
+
+#: wpf-includes/wpf-phrases.php:180
+msgid "Members not found"
+msgstr "メンバーが見つかりません"
+
+#: wpf-includes/wpf-phrases.php:176
+msgid "Member information"
+msgstr "メンバー情報"
+
+#: wpf-includes/wpf-phrases.php:173
+msgid "Member Rating Badge"
+msgstr "メンバー評価バッジ"
+
+#: wpf-includes/wpf-phrases.php:172
+msgid "Member Rating"
+msgstr "メンバー評価"
+
+#: wpf-includes/wpf-phrases.php:171
+msgid "Member Information"
+msgstr "メンバー情報"
+
+#: wpf-includes/wpf-phrases.php:170
+msgid "Member Activity"
+msgstr "メンバーのアクティビティ"
+
+#: wpf-includes/wpf-phrases.php:168
+msgid "Maximum allowed file size is"
+msgstr "許可された最大ファイルサイズ"
+
+#: wpf-includes/wpf-phrases.php:167
+msgid "MSN"
+msgstr "MSN"
+
+#: wpf-includes/wpf-phrases.php:165
+msgid "Lost your password?"
+msgstr "パスワードを忘れましたか?"
+
+#: wpf-includes/wpf-phrases.php:163
+msgid "Logout"
+msgstr "ログアウト"
+
+#: wpf-includes/wpf-phrases.php:161
+msgid "Login"
+msgstr "ログイン"
+
+#: wpf-includes/wpf-phrases.php:160
+msgid "Location"
+msgstr "位置"
+
+#: wpf-includes/wpf-phrases.php:159
+msgid "Liked"
+msgstr "いいね！"
+
+#: wpf-includes/wpf-phrases.php:157
+msgid "Length must be between 3 characters and 15 characters."
+msgstr "長さは最小3文字から最大15文字までになります。"
+
+#: wpf-includes/wpf-phrases.php:156
+msgid "Leave a reply"
+msgstr "返信する"
+
+#: wpf-includes/wpf-phrases.php:155
+msgid "Latest Post"
+msgstr "最新の投稿"
+
+#: wpf-includes/wpf-phrases.php:154
+msgid "Last post by %s"
+msgstr "最終投稿 %s"
+
+#: wpf-includes/wpf-phrases.php:153
+msgid "Last Year ago"
+msgstr "前年度"
+
+#: wpf-includes/wpf-phrases.php:152
+msgid "Last Week"
+msgstr "先週"
+
+#: wpf-includes/wpf-phrases.php:151
+msgid "Last Post Info"
+msgstr "最終の投稿情報"
+
+#: wpf-includes/wpf-phrases.php:150
+msgid "Last Post"
+msgstr "最終の投稿"
+
+#: wpf-includes/wpf-phrases.php:149
+msgid "Last Month"
+msgstr "先月"
+
+#: wpf-includes/wpf-phrases.php:148
+msgid "Last Active"
+msgstr "前回の訪問"
+
+#: wpf-includes/wpf-phrases.php:147
+msgid "Last 6 Months"
+msgstr "過去6ヵ月"
+
+#: wpf-includes/wpf-phrases.php:146
+msgid "Last 3 Months"
+msgstr "過去3ヵ月"
+
+#: wpf-includes/wpf-phrases.php:145
+msgid "Last 24 hours"
+msgstr "過去24時間"
+
+#: wpf-includes/wpf-phrases.php:142
+msgid "Joined"
+msgstr "参加"
+
+#: wpf-includes/wpf-phrases.php:139
+msgid "Insert member name or email"
+msgstr "メンバー名またはメールを入力"
+
+#: wpf-includes/wpf-phrases.php:135
+msgid "ICQ"
+msgstr "ICQ"
+
+#: wpf-includes/wpf-phrases.php:132
+msgid "Gtalk"
+msgstr "Gtalk"
+
+#: wpf-includes/wpf-phrases.php:131
+msgid "Group"
+msgstr "グループ"
+
+#: wpf-includes/wpf-phrases.php:122
+msgid "Forum is empty"
+msgstr "フォーラムは空です"
+
+#: wpf-includes/wpf-phrases.php:119
+msgid "Forum Statistics"
+msgstr "フォーラムの統計"
+
+#: wpf-includes/wpf-phrases.php:115
+msgid "Forum RSS Feed"
+msgstr "フォーラムの RSS フィード"
+
+#: wpf-includes/wpf-phrases.php:114
+msgid "Forum Profile"
+msgstr "フォーラムプロファイル"
+
+#: wpf-includes/wpf-phrases.php:111
+msgid "Forum Members"
+msgstr "フォーラムメンバー"
+
+#: wpf-includes/wpf-phrases.php:109
+msgid "Forum Home"
+msgstr "フォーラムホーム"
+
+#: wpf-includes/wpf-phrases.php:104
+msgid "Forum - Registration"
+msgstr "フォーラム - ユーザー登録"
+
+#: wpf-includes/wpf-phrases.php:103
+msgid "Forum - Page Not Found"
+msgstr "フォーラム - ページが見つかりません"
+
+#: wpf-includes/wpf-phrases.php:102
+msgid "Forum - Login"
+msgstr "フォーラム - ログイン"
+
+#: wpf-includes/functions-installation.php:53 wpf-includes/wpf-phrases.php:101
+msgid "Forum"
+msgstr "フォーラム"
+
+#: wpf-includes/wpf-phrases.php:100
+msgid "First post and replies"
+msgstr "最初の投稿と返信"
+
+#: wpf-includes/wpf-phrases.php:99
+msgid "Find Topics Started by User"
+msgstr "ユーザーで開始したトピックを検索"
+
+#: wpf-includes/wpf-phrases.php:98
+msgid "Find Posts by User"
+msgstr "ユーザーで投稿を検索"
+
+#: wpf-includes/wpf-phrases.php:97
+msgid "File upload stopped by extension"
+msgstr "拡張子が原因でファイルのアップロードを停止しました"
+
+#: wpf-includes/wpf-phrases.php:95
+msgid "Failed to write file to disk"
+msgstr "ディスクにファイルを書き込めませんでした"
+
+#: wpf-includes/wpf-phrases.php:94
+msgid "Facebook"
+msgstr "Facebook"
+
+#: wpf-includes/wpf-phrases.php:93 wpf-themes/classic/functions.php:44
+msgid "Extended Layout - Number of intro topics"
+msgstr "拡張レイアウト - トピックの見出し数"
+
+#: wpf-includes/wpf-phrases.php:92 wpf-themes/classic/functions.php:95
+msgid "Extended Layout - Number of intro posts"
+msgstr "拡張レイアウト - 投稿の見出し数"
+
+#: wpf-includes/wpf-phrases.php:91 wpf-themes/classic/functions.php:35
+msgid "Extended Layout - Intro topics"
+msgstr "拡張レイアウト - トピックの見出し"
+
+#: wpf-includes/wpf-phrases.php:90 wpf-themes/classic/functions.php:85
+msgid "Extended Layout - Intro posts"
+msgstr "拡張レイアウト - 投稿の見出し"
+
+#: wpf-includes/wpf-phrases.php:89 wpf-themes/classic/functions.php:38
+#: wpf-themes/classic/functions.php:59 wpf-themes/classic/functions.php:88
+msgid "Expanded"
+msgstr "広げる"
+
+#: wpf-includes/wpf-phrases.php:88
+msgid "Enter title here"
+msgstr "ここにタイトルを入力"
+
+#: wpf-includes/wpf-phrases.php:75
+msgid "Email"
+msgstr "メール"
+
+#: wpf-includes/wpf-phrases.php:74
+msgid "Edited: "
+msgstr "編集: "
+
+#: wpf-includes/wpf-phrases.php:71
+msgid "Display Name"
+msgstr "表示名"
+
+#: wpf-includes/wpf-phrases.php:68
+msgid "Descending order"
+msgstr "降順"
+
+#: wpf-includes/wpf-phrases.php:65
+msgid "Date"
+msgstr "日付"
+
+#: wpf-includes/wpf-phrases.php:59
+msgid "Confirm my subscription"
+msgstr "購読を確認"
+
+#: wpf-includes/wpf-phrases.php:58
+msgid "Comments"
+msgstr "コメント"
+
+#: wpf-includes/wpf-phrases.php:55 wpf-themes/classic/functions.php:39
+#: wpf-themes/classic/functions.php:60 wpf-themes/classic/functions.php:89
+msgid "Collapsed"
+msgstr "閉じる"
+
+#: wpf-includes/wpf-phrases.php:54
+msgid "Choose target forum"
+msgstr "ターゲットフォーラムを選択"
+
+#: wpf-includes/wpf-phrases.php:53
+msgid "Change password"
+msgstr "パスワードの変更"
+
+#: wpf-includes/wpf-phrases.php:47
+msgid "Avatar"
+msgstr "アバター"
+
+#: wpf-includes/wpf-phrases.php:43
+msgid "Attach file:"
+msgstr "添付ファイル: "
+
+#: wpf-includes/wpf-phrases.php:42
+msgid "Ascending order"
+msgstr "昇順"
+
+#: wpf-includes/wpf-phrases.php:35
+msgid "Any Date"
+msgstr "任意の日付"
+
+#: wpf-includes/wpf-phrases.php:34
+msgid "Answers"
+msgstr "回答"
+
+#: wpf-includes/wpf-phrases.php:33
+msgid "Answer to"
+msgstr "次に回答"
+
+#: wpf-includes/wpf-phrases.php:32
+msgid "Answer"
+msgstr "回答"
+
+#: wpf-includes/wpf-phrases.php:24
+msgid "Add topic"
+msgstr "トピックを追加"
+
+#: wpf-includes/wpf-phrases.php:23
+msgid "Add a comment"
+msgstr "コメントを追加"
+
+#: wpf-includes/wpf-phrases.php:19
+msgid "Activity"
+msgstr "アクティビティ"
+
+#: wpf-includes/wpf-phrases.php:16
+msgid "Account"
+msgstr "アカウント"
+
+#: wpf-includes/wpf-phrases.php:13
+msgid "About Me"
+msgstr "自己紹介"
+
+#: wpf-includes/wpf-phrases.php:12
+msgid "AOL IM"
+msgstr "AOL IM"
+
+#: wpf-includes/wpf-phrases.php:11
+msgid "%s, %s, %s and %d people liked"
+msgstr "%s, %s, %s と %d 人の方がいいね！"
+
+#: wpf-includes/wpf-phrases.php:10
+msgid "%s, %s and %s liked"
+msgstr "%s, %s と %s 件のいいね！"
+
+#: wpf-includes/wpf-phrases.php:9
+msgid "%s liked"
+msgstr "%s 件のいいね！"
+
+#: wpf-includes/wpf-phrases.php:8
+msgid "%s and %s liked"
+msgstr "%s と %s 件のいいね！"
+
+#: wpf-includes/wpf-hooks.php:1073 wpf-includes/wpf-phrases.php:411
+msgid "wpForo User Timezone"
+msgstr "wpForo ユーザーのタイムゾーン"
+
+#: wpf-includes/wpf-hooks.php:1065 wpf-includes/wpf-phrases.php:412
+msgid "wpForo Usergroup"
+msgstr "wpForo のユーザーグループ"
+
+#: wpf-includes/wpf-hooks.php:986 wpf-includes/wpf-phrases.php:187
+msgid "Move"
+msgstr "移動"
+
+#: wpf-admin/admin.php:18 wpf-includes/wpf-hooks.php:22
+msgid "Settings"
+msgstr "設定"
+
+#: wpf-includes/wpf-hooks.php:20
+msgid "Uninstall"
+msgstr "アインストール"
+
+#: wpf-includes/wpf-hooks.php:20 wpf-includes/wpf-phrases.php:136
+msgid "IMPORTANT! Uninstall is not a simple deactivation action. This action will permanently remove all forum data (forums, topics, replies, attachments...) from database. Please backup database before this action, you may need this forum data in future. If you are sure that you want to delete all forum data please confirm. If not, just cancel it, then you can deactivate this plugin, that will not remove forum data."
+msgstr "重要! アンインストールは単純に無効化操作だけではありません。この操作により、フォーラムのすべてのデータ (フォーラム、トピック、返信、添付ファイルなど) がデータベースから完全に削除されます。この操作の前にデータベースをバックアップしてください。今後このフォーラムのデータが必要になるかもしれません。すべてのフォーラムデータを削除したい場合は、確認をしてください。そうでない場合は、キャンセルをしてください。このプラグインを無効にするだけでは、フォーラムのデータは削除されません。"
+
+#: wpf-includes/functions.php:913
+msgid "Could not write file %s"
+msgstr "ファイル %s に書き込めませんでした"
+
+#: wpf-includes/functions.php:643 wpf-includes/wpf-phrases.php:141
+msgid "Items"
+msgstr "項目"
+
+#: wpf-includes/functions.php:550 wpf-includes/wpf-phrases.php:200
+msgid "No items found"
+msgstr "項目が見つかりません"
+
+#: wpf-includes/functions.php:501 wpf-includes/functions.php:505
+#: wpf-includes/wpf-phrases.php:41
+msgid "Are you sure you whant to DELETE this item?"
+msgstr "この項目を削除してもよろしいですか?"
+
+#: wpf-includes/functions.php:501 wpf-includes/functions.php:505
+#: wpf-includes/wpf-phrases.php:67
+msgid "Delete this item"
+msgstr "この項目を削除"
+
+#: wpf-includes/functions.php:415 wpf-includes/functions.php:431
+#: wpf-includes/wpf-phrases.php:284
+msgid "Select All"
+msgstr "すべて選択"
+
+#: wpf-includes/functions.php:382 wpf-includes/functions.php:566
+#: wpf-includes/wpf-phrases.php:385
+msgid "item"
+msgstr "項目"
+
+#: wpf-includes/functions.php:336 wpf-includes/wpf-phrases.php:300
+msgid "Show all forums"
+msgstr "すべてのフォーラムを表示"
+
+#: wpf-includes/functions.php:327 wpf-includes/functions.php:644
+#: wpf-includes/wpf-phrases.php:36
+msgid "Apply"
+msgstr "適用"
+
+#: wpf-includes/functions.php:322 wpf-includes/functions.php:558
+#: wpf-includes/wpf-phrases.php:50
+msgid "Bulk Actions"
+msgstr "一括操作"
+
+#: wpf-includes/functions-template.php:449
+#: wpf-includes/functions-template.php:526 wpf-includes/wpf-phrases.php:72
+msgid "Display with Avatars"
+msgstr "アバターで表示"
+
+#: wpf-includes/functions-template.php:374 wpf-includes/wpf-phrases.php:70
+msgid "Display Avatars"
+msgstr "アバターを表示"
+
+#: wpf-includes/functions-template.php:369
+#: wpf-includes/functions-template.php:445
+#: wpf-includes/functions-template.php:522 wpf-includes/wpf-phrases.php:210
+msgid "Number of Items"
+msgstr "項目の数"
+
+#: wpf-includes/functions-template.php:196
+#: wpf-includes/functions-template.php:303
+#: wpf-includes/functions-template.php:366
+#: wpf-includes/functions-template.php:442
+#: wpf-includes/functions-template.php:519
+#: wpf-includes/functions-template.php:566 wpf-includes/wpf-phrases.php:334
+msgid "Title"
+msgstr "タイトル"
+
+#: wpf-includes/functions-template.php:158 wpf-includes/wpf-phrases.php:191
+msgid "NOTE: If you're going to add widgets in this sidebar, please use 'Full Width' template for wpForo index page to avoid sidebar duplication."
+msgstr "注: このサイドバーにウィジェットを追加する場合は、サイドバーの重複を避けるために wpForo のインデックスページに 'Full Width' (全幅) テンプレートを使用してください。"
+
+#: wpf-includes/functions-template.php:157 wpf-includes/wpf-phrases.php:410
+msgid "wpForo Sidebar"
+msgstr "wpForo サイドバー"
+
+#: wpf-includes/functions-template.php:7
+msgid "wpForo Menu"
+msgstr "wpForo メニュー"
+
+#: wpf-includes/class-template.php:924 wpf-includes/wpf-phrases.php:327
+msgid "Theme file not readable"
+msgstr "テーマファイルが読み込めません"
+
+#: wpf-includes/class-phrases.php:167 wpf-includes/wpf-phrases.php:6
+msgid " Discussion Board"
+msgstr " ディスカッション掲示板"
+
+#: wpf-includes/class-phrases.php:166 wpf-includes/wpf-phrases.php:7
+msgid " Forum"
+msgstr " フォーラム"
+
+#: wpf-includes/class-permissions.php:141 wpf-includes/wpf-phrases.php:421
+msgid "%s access successfully edited"
+msgstr "正常にアクセス権 %s が編集されました"
+
+#: wpf-includes/class-permissions.php:116 wpf-includes/wpf-phrases.php:420
+msgid "%s access successfully added"
+msgstr "正常にアクセス権 %s が追加されました"
+
+#: wpf-includes/class-notices.php:131 wpf-includes/wpf-phrases.php:69
+msgid "Dismiss this notice."
+msgstr "この通知を非表示にします。"
+
+#: wpf-admin/usergroup.php:128
+msgid "Users will be join this usergroup"
+msgstr "ユーザーはこのユーザーグループに参加"
+
+#: wpf-admin/usergroup.php:116
+msgid "Delete Chosen Usergroup And Join Users To Other Usergroup"
+msgstr "選択したユーザーグループを削除し、他のユーザーグループにユーザーを参加"
+
+#: wpf-admin/usergroup.php:106
+msgid "Delete Chosen Usergroup And Users"
+msgstr "選択したユーザーグループとユーザーを削除"
+
+#: wpf-admin/usergroup.php:85
+msgid "save"
+msgstr "保存"
+
+#: wpf-admin/usergroup.php:85 wpf-includes/wpf-phrases.php:374
+msgid "add"
+msgstr "追加"
+
+#: wpf-admin/usergroup.php:62 wpf-includes/wpf-phrases.php:133
+msgid "Guest"
+msgstr "ゲスト"
+
+#: wpf-admin/usergroup.php:43
+msgid "Count of users in this usergroup"
+msgstr "このユーザーグループのユーザー数"
+
+#: wpf-admin/usergroup.php:39
+msgid "View users list in this usergroup"
+msgstr "このユーザーグループのユーザ一覧を表示"
+
+#: wpf-admin/usergroup.php:37
+msgid "Delete this usergroup"
+msgstr "このユーザーグループを削除"
+
+#: wpf-admin/usergroup.php:36 wpf-includes/wpf-phrases.php:73
+msgid "Edit"
+msgstr "編集"
+
+#: wpf-admin/usergroup.php:36
+msgid "Edit this usergroup"
+msgstr "このユーザーグループを編集"
+
+#: wpf-admin/usergroup.php:19
+msgid "Users Count"
+msgstr "ユーザー数"
+
+#: wpf-admin/usergroup.php:18 wpf-admin/usergroup.php:30
+#: wpf-admin/usergroup.php:62
+msgid "Usergroup Name"
+msgstr "ユーザーグループ名"
+
+#: wpf-admin/admin.php:20 wpf-admin/usergroup.php:8
+msgid "Usergroups"
+msgstr "ユーザーグループ"
+
+#: wpf-admin/themes.php:107 wpf-includes/wpf-phrases.php:206
+msgid "No theme found"
+msgstr "テーマが見つかりません"
+
+#: wpf-admin/themes.php:96 wpf-includes/wpf-phrases.php:201
+msgid "No layout found"
+msgstr "レイアウトが見つかりません"
+
+#: wpf-admin/themes.php:76 wpf-includes/wpf-phrases.php:268
+msgid "Reset Settings"
+msgstr "設定をリセット"
+
+#: wpf-admin/themes.php:76 wpf-includes/wpf-phrases.php:40
+msgid "Are you sure you want to reset all settings and style colors to default?"
+msgstr "すべての設定とスタイルカラーをデフォルトにリセットしてもよろしいですか?"
+
+#: wpf-admin/themes.php:73 wpf-includes/wpf-phrases.php:38
+msgid "Are you sure you want to delete this theme files?"
+msgstr "このテーマファイルを削除してもよろしいですか？"
+
+#: wpf-admin/themes.php:71 wpf-includes/wpf-phrases.php:140
+msgid "Install"
+msgstr "インストール"
+
+#: wpf-admin/themes.php:69 wpf-includes/wpf-phrases.php:124
+msgid "Fresh Installation"
+msgstr "新規インストール"
+
+#: wpf-admin/themes.php:68 wpf-includes/wpf-phrases.php:17
+msgid "Activate"
+msgstr "有効化"
+
+#: wpf-admin/themes.php:52 wpf-includes/wpf-phrases.php:143
+msgid "LAYOUTS"
+msgstr "レイアウト"
+
+#: wpf-admin/themes.php:48 wpf-includes/wpf-phrases.php:138
+msgid "Inactive"
+msgstr "無効化"
+
+#: wpf-admin/themes.php:46 wpf-includes/wpf-phrases.php:60
+msgid "Current active theme"
+msgstr "現在有効なテーマ"
+
+#: wpf-admin/themes.php:9 wpf-includes/wpf-phrases.php:120
+msgid "Forum Themes"
+msgstr "フォーラムのテーマ"
+
+#: wpf-admin/phrase.php:10 wpf-includes/wpf-phrases.php:127
+msgid "Front-end Phrases"
+msgstr "フロントエンドのフレーズ"
+
+#: wpf-admin/admin.php:23 wpf-admin/options.php:23
+#: wpf-includes/wpf-phrases.php:25
+msgid "Addons"
+msgstr "アドオン"
+
+#: wpf-admin/options.php:22 wpf-includes/wpf-phrases.php:311
+msgid "Styles"
+msgstr "スタイル"
+
+#: wpf-admin/options.php:20 wpf-includes/wpf-phrases.php:96
+msgid "Features"
+msgstr "機能"
+
+#: wpf-admin/options.php:19 wpf-includes/wpf-phrases.php:76
+msgid "Emails"
+msgstr "メール"
+
+#: wpf-admin/options.php:17 wpf-includes/wpf-phrases.php:339
+msgid "Topics &amp; Posts"
+msgstr "トピック &amp; 投稿"
+
+#: wpf-admin/options.php:16 wpf-includes/wpf-phrases.php:105
+msgid "Forum Accesses"
+msgstr "フォーラムアクセス権"
+
+#: wpf-admin/options.php:14 wpf-includes/wpf-phrases.php:129
+msgid "General"
+msgstr "基本設定"
+
+#: wpf-admin/options.php:8 wpf-includes/wpf-phrases.php:117
+msgid "Forum Settings"
+msgstr "フォーラムの設定"
+
+#: wpf-admin/options-tabs/emails.php:93 wpf-includes/wpf-phrases.php:265
+msgid "Report message body"
+msgstr "報告メッセージの本文"
+
+#: wpf-admin/options-tabs/emails.php:88 wpf-includes/wpf-phrases.php:266
+msgid "Report message subject"
+msgstr "報告メッセージの件名"
+
+#: wpf-admin/options-tabs/emails.php:83 wpf-includes/wpf-phrases.php:331
+msgid "This message comes from post reporting pop-up form."
+msgstr "このメッセージは、投稿報告ポップアップの差出人から来ます。"
+
+#: wpf-admin/options-tabs/emails.php:82 wpf-includes/wpf-phrases.php:227
+msgid "Post Reporting Emails"
+msgstr "投稿報告のメール"
+
+#: wpf-admin/options-tabs/emails.php:77 wpf-includes/wpf-phrases.php:192
+msgid "New reply notification email message"
+msgstr "新しい返信通知メールのメッセージ"
+
+#: wpf-admin/options-tabs/emails.php:73 wpf-includes/wpf-phrases.php:193
+msgid "New reply notification email subject"
+msgstr "新しい返信通知メールの件名"
+
+#: wpf-admin/options-tabs/emails.php:69 wpf-includes/wpf-phrases.php:194
+msgid "New topic notification email message"
+msgstr "新しいトピック通知メールのメッセージ"
+
+#: wpf-admin/options-tabs/emails.php:65 wpf-includes/wpf-phrases.php:195
+msgid "New topic notification email subject"
+msgstr "新しいトピック通知メールの件名"
+
+#: wpf-admin/options-tabs/emails.php:61 wpf-includes/wpf-phrases.php:313
+msgid "Subscribe confirmation email message"
+msgstr "購読確認メールのメッセージ"
+
+#: wpf-admin/options-tabs/emails.php:57 wpf-includes/wpf-phrases.php:314
+msgid "Subscribe confirmation email subject"
+msgstr "購読確認メールの件名"
+
+#: wpf-admin/options-tabs/emails.php:53 wpf-includes/wpf-phrases.php:317
+msgid "Subscription Emails"
+msgstr "購読メール"
+
+#: wpf-admin/options-tabs/emails.php:23 wpf-includes/wpf-phrases.php:57
+msgid "Comma separated email addresses of forum administrators to get forum notifications. For example post report messages."
+msgstr "フォーラム通知を受け取るには、フォーラム管理者のメールアドレスをカンマ区切りで指定してください。たとえば、レポートメッセージを投稿など。"
+
+#: wpf-includes/wpf-phrases.php:106
+msgid "Forum Admin Email Addresses"
+msgstr "フォーラム管理者のメールアドレス"
+
+#: wpf-includes/wpf-phrases.php:125
+msgid "From Email Address"
+msgstr "差出先メールアドレス"
+
+#: wpf-includes/wpf-phrases.php:126
+msgid "From Name"
+msgstr "差出人名"
+
+#: wpf-admin/options-tabs/posts.php:48 wpf-includes/wpf-phrases.php:287
+msgid "Server \"post_max_size\" is "
+msgstr "サーバーの \"post_max_size\" は"
+
+#: wpf-admin/options-tabs/posts.php:47 wpf-includes/wpf-phrases.php:288
+msgid "Server \"upload_max_filesize\" is "
+msgstr "サーバーの \"upload_max_filesize\" は"
+
+#: wpf-admin/options-tabs/posts.php:44 wpf-includes/wpf-phrases.php:166
+msgid "MB"
+msgstr "MB"
+
+#: wpf-admin/options-tabs/posts.php:41 wpf-includes/wpf-phrases.php:370
+msgid "You can not set this value more than \"upload_max_filesize\" and \"post_max_size\". If you want to increase server parameters please contact to your hosting service support."
+msgstr "この値を \"upload_max_filesize\" と \"post_max_size\" で指定された値以上に設定することはできません。サーバーのパラメータを増やしたい場合は、ホスティングサービスのサポートにお問い合わせください。"
+
+#: wpf-admin/options-tabs/posts.php:40 wpf-includes/wpf-phrases.php:169
+msgid "Maximum upload file size"
+msgstr "最大アップロードファイルのサイズ"
+
+#: wpf-admin/options-tabs/posts.php:34 wpf-includes/wpf-phrases.php:28
+msgid "Allow Delete Own post for"
+msgstr "自分の投稿の削除を許可"
+
+#: wpf-admin/options-tabs/posts.php:30 wpf-includes/wpf-phrases.php:29
+msgid "Allow Edit Own Post for"
+msgstr "自分の投稿の編集を許可"
+
+#: wpf-admin/options-tabs/posts.php:26 wpf-includes/wpf-phrases.php:212
+msgid "Number of Posts per Page"
+msgstr "ページあたりの投稿数"
+
+#: wpf-admin/options-tabs/posts.php:22 wpf-includes/wpf-phrases.php:27
+msgid "Allow Delete Own Topic for"
+msgstr "自分のトピックの削除を許可"
+
+#: wpf-admin/options-tabs/posts.php:18 wpf-includes/wpf-phrases.php:30
+msgid "Allow Edit Own Topic for"
+msgstr "自分のトピックの編集を許可"
+
+#: wpf-admin/options-tabs/posts.php:14 wpf-includes/wpf-phrases.php:213
+msgid "Number of Topics per Page"
+msgstr "ページあたりのトピック数"
+
+#: wpf-admin/options-tabs/plugins.php:9
+msgid "Thank you for using wpForo. wpForo is a premium forum plugin which will always be available for free. There will never be paid and pro versions of this forum board. However this is a very large and hard project so we also develop paid addons (extensions), which will financially help us to keep improving and adding new features to the free wpForo plugin. Forum addons will also be actively developed. The first addons \"Advanced Media Uploader\", \"Polls\", \"Private Messages\" and \"Ad Manager\" will be available very soon. Once you got some addon and activated that, you will find settings in vertical subTabs here."
+msgstr "wpForo をご利用いただきありがとうございます。wpForo は常に無料で利用できるプレミアムフォーラムプラグインです。このフォーラム掲示板の有料版とプロ版は決してありません。しかしながら、これは非常に巨大で難しいプロジェクトな故に、無料の wpForo プラグインに改善や新機能の追加を財政的に助ける有料アドオン (拡張機能) も開発しています。フォーラムアドオンも積極的に開発されます。最初のアドオン \"Advanced Media Uploader\"、\"Polls\"、\"Private Messages\"、\"Ad Manager\" は、早期に利用可能になります。どれかアドオンを取得して有効化した場合は、ここに垂直のサブタブ形式で設定を見つけることができます。"
+
+#: wpf-admin/options-tabs/members.php:95
+msgid "This option depends on \"Enable Member Rating Titles\" parent option, witch located in wpForo Settings > Features Tab"
+msgstr "このオプションは、wpForo の設定 > 機能タブ内にある、\"メンバー評価のタイトルを有効\" の親オプションです。"
+
+#: wpf-admin/options-tabs/members.php:94
+msgid "Enable Reputation Badges for selected usergroups"
+msgstr "選択したユーザーグループの評判バッジを有効化"
+
+#: wpf-admin/options-tabs/members.php:81
+msgid "This option depends on \"Enable Member Rating\" parent option, witch located in wpForo Settings > Features Tab"
+msgstr "このオプションは、wpForo の設定 > 機能タブ内にある、\"メンバー評価を有効\" の親オプションです。"
+
+#: wpf-admin/options-tabs/members.php:80
+msgid "Enable Reputation Titles for selected usergroups"
+msgstr "選択したユーザーグループの評判タイトルを有効化"
+
+#: wpf-admin/options-tabs/members.php:74 wpf-includes/wpf-phrases.php:48
+msgid "Badge Icon"
+msgstr "バッジアイコン"
+
+#: wpf-admin/options-tabs/members.php:73 wpf-includes/wpf-phrases.php:56
+msgid "Color"
+msgstr "色"
+
+#: wpf-admin/options-tabs/members.php:70 wpf-includes/wpf-phrases.php:63
+msgid "Custom Title"
+msgstr "カスタムタイトル"
+
+#: wpf-admin/options-tabs/members.php:69 wpf-includes/wpf-phrases.php:211
+msgid "Number of Posts"
+msgstr "投稿数"
+
+#: wpf-admin/options-tabs/members.php:68 wpf-includes/wpf-phrases.php:158
+msgid "Level"
+msgstr "レベル"
+
+#: wpf-admin/options-tabs/members.php:63 wpf-includes/wpf-phrases.php:186
+msgid "More"
+msgstr "詳細"
+
+#: wpf-admin/options-tabs/members.php:63 wpf-includes/wpf-phrases.php:246
+msgid "Rating Icon"
+msgstr "評価アイコン"
+
+#: wpf-admin/options-tabs/members.php:62 wpf-includes/wpf-phrases.php:245
+msgid "Rating Color"
+msgstr "評価の色"
+
+#: wpf-admin/options-tabs/members.php:61 wpf-includes/wpf-phrases.php:128
+msgid "Full Badge"
+msgstr "フルバッジ"
+
+#: wpf-admin/options-tabs/members.php:60 wpf-includes/wpf-phrases.php:293
+msgid "Short Badge"
+msgstr "ショートバッジ"
+
+#: wpf-admin/options-tabs/members.php:59 wpf-includes/wpf-phrases.php:175
+msgid "Member Title"
+msgstr "メンバーのタイトル"
+
+#: wpf-admin/options-tabs/members.php:58 wpf-includes/wpf-phrases.php:184
+msgid "Min Number of Posts"
+msgstr "最小投稿数"
+
+#: wpf-admin/options-tabs/members.php:57 wpf-includes/wpf-phrases.php:247
+msgid "Rating Level"
+msgstr "評価レベル"
+
+#: wpf-admin/options-tabs/members.php:49 wpf-includes/wpf-phrases.php:174
+msgid "Member Reputation"
+msgstr "メンバーの評価"
+
+#: wpf-admin/options-tabs/members.php:43 wpf-includes/wpf-phrases.php:164
+msgid "Lost Password URL"
+msgstr "パスワード忘れ URL"
+
+#: wpf-admin/options-tabs/members.php:36 wpf-admin/options-tabs/members.php:42
+#: wpf-includes/wpf-phrases.php:252
+msgid "Register URL"
+msgstr "ユーザー登録 URL"
+
+#: wpf-admin/options-tabs/members.php:35 wpf-admin/options-tabs/members.php:41
+#: wpf-includes/wpf-phrases.php:162
+msgid "Login URL"
+msgstr "ログイン URL"
+
+#: wpf-admin/options-tabs/members.php:32
+msgid ""
+"Use this option only if you have set other pages for authorization. \n"
+"                        wpForo doesn't change its own URLs, these options are only for other plugin compatibility. \n"
+"                        For example, if you use BuddyPress or Ultimate Member plugin you can set these values:"
+msgstr ""
+"このオプションは、承認用に他のページを設定したい場合にのみ使用してください。\n"
+" wpForo は独自のURLを変更しませんが、これらのオプションは他のプラグインとの互換性のためだけに存在します。\n"
+" たとえば、BuddyPress または Ultimate Member プラグインを使用する場合は、次の値を設定できます : "
+
+#: wpf-admin/options-tabs/members.php:30 wpf-includes/wpf-phrases.php:62
+msgid "Custom Authorization URLs"
+msgstr "カスタム認証の URL"
+
+#: wpf-admin/options-tabs/members.php:20 wpf-includes/wpf-phrases.php:179
+msgid "Members URL structure"
+msgstr "メンバーの URL 構造"
+
+#: wpf-admin/options-tabs/members.php:16 wpf-admin/options-tabs/posts.php:19
+#: wpf-admin/options-tabs/posts.php:23 wpf-admin/options-tabs/posts.php:31
+#: wpf-admin/options-tabs/posts.php:35 wpf-includes/wpf-phrases.php:390
+msgid "minutes"
+msgstr "分"
+
+#: wpf-admin/options-tabs/members.php:13 wpf-includes/wpf-phrases.php:217
+msgid "Online status timeout"
+msgstr "オンライン状態のタイムアウト"
+
+#: wpf-admin/options-tabs/general.php:103 wpf-includes/wpf-phrases.php:22
+msgid "Add New Language"
+msgstr "新しい言語を追加"
+
+#: wpf-admin/options-tabs/general.php:94 wpf-includes/wpf-phrases.php:144
+msgid "Language XML file"
+msgstr "言語の XML ファイル"
+
+#: wpf-admin/options-tabs/general.php:68 wpf-includes/wpf-phrases.php:110
+msgid "Forum Language"
+msgstr "フォーラムの言語"
+
+#: wpf-admin/options-tabs/general.php:59 wpf-includes/wpf-phrases.php:348
+msgid "Use greater than 5 - below Posts, 10 - below Media, 15 - below Links, 20 - below Pages, 25 - below comments, 60 - below first separator, 65 - below Plugins, 70 - below Users, 75 - below Tools, 80 - below Settings, 100 - below second separator"
+msgstr "5 以上で使用、JetPack のすぐ下は 3 が適切 - 投稿の下 10  - メディアの下 15 - リンクの下 20 - ページの下 25 - コメントの下 60 - 第一セパレータの下 65 - プラグインの下 70 - ユーザの下 75 - ツールの下 80 - 設定の下 100 - 第二セパレータの下は 100 位上"
+
+#: wpf-admin/options-tabs/general.php:58 wpf-includes/wpf-phrases.php:323
+msgid "The position in the menu order wpForo should appear."
+msgstr "ダッシュボード内で wpForo のメニューの表示順を決める位置パラメーターです。"
+
+#: wpf-admin/options-tabs/general.php:57 wpf-includes/wpf-phrases.php:64
+msgid "Dashboard Menu Position"
+msgstr "ダッシュボードでのメニュー位置"
+
+#: wpf-admin/options-tabs/general.php:15 wpf-includes/wpf-phrases.php:107
+msgid "Forum Base URL"
+msgstr "フォーラムのベース URL"
+
+#: wpf-admin/options-tabs/general.php:52 wpf-includes/wpf-phrases.php:108
+msgid "Forum Description"
+msgstr "フォーラムの説明"
+
+#: wpf-admin/options-tabs/general.php:48 wpf-includes/wpf-phrases.php:121
+msgid "Forum Title"
+msgstr "フォーラムのタイトル"
+
+#: wpf-admin/options-tabs/emails.php:99 wpf-admin/options-tabs/features.php:66
+#: wpf-admin/options-tabs/forums.php:16 wpf-admin/options-tabs/general.php:82
+#: wpf-admin/options-tabs/members.php:115 wpf-admin/options-tabs/posts.php:67
+#: wpf-admin/options-tabs/styles.php:93 wpf-includes/wpf-phrases.php:344
+msgid "Update Options"
+msgstr "オプションの更新"
+
+#: wpf-admin/options-tabs/emails.php:35 wpf-admin/options-tabs/emails.php:47
+#: wpf-admin/options-tabs/features.php:56 wpf-includes/wpf-phrases.php:196
+msgid "No"
+msgstr "いいえ"
+
+#: wpf-admin/options-tabs/emails.php:34 wpf-admin/options-tabs/emails.php:46
+#: wpf-admin/options-tabs/features.php:55 wpf-includes/wpf-phrases.php:366
+msgid "Yes"
+msgstr "はい"
+
+#: wpf-admin/options-tabs/features.php:38 wpf-includes/wpf-phrases.php:226
+msgid "Please enable this option to help wpForo get more popularity as your thank to the hard work we do for you totally free. This option adds a very small icon in forum footer, which will allow your site visitors recognize the name of forum solution you use."
+msgstr "このオプションを有効にして、この wpForo が完全に無料で今後も提供され続け、それに対し努力して頂いていることに感謝の意を表せます。このオプションはフォーラムのフッターに非常に小さなアイコンを追加し、サイトの訪問者が、使用しているフォーラムソリューションの名前を認識・確認できるようになります。"
+
+#: wpf-admin/options-tabs/features.php:38 wpf-includes/wpf-phrases.php:134
+msgid "Help wpForo to grow, show plugin info"
+msgstr "wpForo の成長を手助けするために、プラグイン情報を表示する"
+
+#: wpf-admin/options-tabs/features.php:30 wpf-includes/wpf-phrases.php:82
+msgid "Enable wpForo Font-Awesome Lib"
+msgstr "wpForo の Font-Awesome Lib を有効化"
+
+#: wpf-admin/options-tabs/features.php:29 wpf-includes/wpf-phrases.php:83
+msgid "Enable wpForo SEO for Meta Tags"
+msgstr "メタタグ用に wpForo SEO を有効化"
+
+#: wpf-admin/options-tabs/features.php:28 wpf-includes/wpf-phrases.php:84
+msgid "Enable wpForo SEO for Meta Titles"
+msgstr "メタタイトル用に wpForo SEO を有効化"
+
+#: wpf-admin/options-tabs/features.php:27 wpf-includes/wpf-phrases.php:79
+msgid "Enable Member Cache"
+msgstr "メンバーキャッシュを有効"
+
+#: wpf-admin/options-tabs/features.php:26 wpf-includes/wpf-phrases.php:81
+msgid "Enable Member Rating Titles"
+msgstr "メンバー評価のタイトルを有効"
+
+#: wpf-admin/options-tabs/features.php:25 wpf-includes/wpf-phrases.php:80
+msgid "Enable Member Rating"
+msgstr "メンバー評価を有効"
+
+#: wpf-admin/options-tabs/features.php:24 wpf-includes/wpf-phrases.php:31
+msgid "Allow Member Signature"
+msgstr "メンバーのサインを許可"
+
+#: wpf-admin/options-tabs/features.php:23 wpf-includes/wpf-phrases.php:78
+msgid "Enable Custom Avatars"
+msgstr "カスタムアバターを有効"
+
+#: wpf-admin/options-tabs/features.php:22 wpf-includes/wpf-phrases.php:77
+msgid "Enable Avatars"
+msgstr "アバターを有効"
+
+#: wpf-admin/options-tabs/features.php:21 wpf-includes/wpf-phrases.php:256
+msgid "Replace Author Avatar with Forum Profile Avatar"
+msgstr "アバターをフォーラムのプロファイルに置き換える"
+
+#: wpf-admin/options-tabs/features.php:20 wpf-includes/wpf-phrases.php:259
+msgid "Replace Login Page URL to Forum URL"
+msgstr "ログインページの URL をフォーラムの URL に置き換える"
+
+#: wpf-admin/options-tabs/features.php:19 wpf-includes/wpf-phrases.php:260
+msgid "Replace Registration Page URL to Forum URL"
+msgstr "登録ページの URL をフォーラムの URL に置き換える"
+
+#: wpf-admin/options-tabs/features.php:16 wpf-includes/wpf-phrases.php:258
+msgid "Replace Comment Author Link to Forum Profile"
+msgstr "コメント投稿者をフォーラムのプロファイルにリンク"
+
+#: wpf-admin/options-tabs/features.php:15 wpf-includes/wpf-phrases.php:257
+msgid "Replace Author Link to Forum Profile"
+msgstr "投稿者をフォーラムプロファイルにリンク"
+
+#: wpf-admin/options-tabs/features.php:14 wpf-includes/wpf-phrases.php:297
+msgid "Show Forum Statistic"
+msgstr "フォーラムの統計を表示"
+
+#: wpf-admin/options-tabs/features.php:13 wpf-includes/wpf-phrases.php:295
+msgid "Show Breadcrumb"
+msgstr "パンくずリストを表示"
+
+#: wpf-admin/options-tabs/features.php:12 wpf-includes/wpf-phrases.php:298
+msgid "Show Top Search"
+msgstr "トップ検索を表示"
+
+#: wpf-admin/options-tabs/features.php:11 wpf-includes/wpf-phrases.php:299
+msgid "Show Top/Menu Bar"
+msgstr "トップ / メニューバーを表示"
+
+#: wpf-admin/options-tabs/features.php:10 wpf-includes/wpf-phrases.php:296
+msgid "Show Forum Page Title"
+msgstr "フォーラムのページタイトルを表示"
+
+#: wpf-admin/options-tabs/features.php:9 wpf-includes/wpf-phrases.php:332
+msgid "This option doesn't affect website admins."
+msgstr "このオプションはウェブサイトの管理者には影響しません。"
+
+#: wpf-admin/options-tabs/features.php:9 wpf-includes/wpf-phrases.php:294
+msgid "Show Admin Bar for Members"
+msgstr "メンバーの管理バーを表示"
+
+#: wpf-admin/options-tabs/accesses.php:69 wpf-includes/wpf-phrases.php:343
+msgid "Update"
+msgstr "更新"
+
+#: wpf-admin/options-tabs/accesses.php:69 wpf-includes/wpf-phrases.php:270
+msgid "Save"
+msgstr "保存"
+
+#: wpf-admin/options-tabs/accesses.php:49 wpf-includes/wpf-phrases.php:14
+msgid "Access name"
+msgstr "アクセス権の名前"
+
+#: wpf-admin/options-tabs/accesses.php:34 wpf-includes/class-forums.php:551
+#: wpf-includes/functions.php:501 wpf-includes/functions.php:505
+#: wpf-includes/wpf-phrases.php:380
+msgid "delete"
+msgstr "削除"
+
+#: wpf-admin/options-tabs/accesses.php:34 wpf-includes/wpf-phrases.php:39
+msgid "Are you sure you want to remove this access set? Usergroups which attached to this access will lost all forum permissions."
+msgstr "このアクセスセットを削除してもよろしいですか？このアクセスに関連付けたユーザグループは、すべてのフォーラムアクセス権を失います。"
+
+#: wpf-admin/options-tabs/accesses.php:32 wpf-includes/class-forums.php:549
+#: wpf-includes/functions.php:487 wpf-includes/wpf-phrases.php:381
+msgid "edit"
+msgstr "編集"
+
+#: wpf-admin/options-tabs/accesses.php:13 wpf-includes/wpf-phrases.php:15
+msgid "Access names"
+msgstr "アクセス権の名前"
+
+#: wpf-admin/options-tabs/accesses.php:9 wpf-includes/wpf-phrases.php:21
+msgid "Add New Forum Access"
+msgstr "新しいフォーラムのアクセス権を追加"
+
+#: wpf-admin/forum.php:294 wpf-includes/wpf-phrases.php:26
+msgid "All sub-forums, topics and replies will be attached to selected forum. Layout will be inherited from this forum."
+msgstr "すべてのサブフォーラム、トピックと返信は選択されたフォーラムに添付されます。また、レイアウトはこのフォーラムから継承されます。"
+
+#: wpf-admin/forum.php:285 wpf-includes/wpf-phrases.php:137
+msgid "If you want to delete this forum and keep its sub-forums, topics and replies, please select a new target forum in dropdown below"
+msgstr "このフォーラムを削除し、そのサブフォーラム、トピック、および回答を保持したい場合は、下のドロップダウンで新しいターゲットフォーラムを選択してください"
+
+#: wpf-admin/forum.php:277 wpf-includes/wpf-phrases.php:328
+msgid "This action will also delete all sub-forums, topics and replies."
+msgstr "この操作は、すべてのサブフォーラム、トピック、および回答も削除します。"
+
+#: wpf-admin/forum.php:248 wpf-includes/wpf-phrases.php:183
+msgid "Meta Description"
+msgstr "メタの説明"
+
+#: wpf-admin/forum.php:245 wpf-includes/wpf-phrases.php:116
+msgid "Forum SEO"
+msgstr "フォーラム SEO"
+
+#: wpf-admin/forum.php:227 wpf-includes/wpf-phrases.php:322
+msgid "The \"slug\" is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
+msgstr "\"スラッグ\" は、URLフレンドリなバージョンの名前です。通常はすべて小文字で、数字とハイフンのみの文字で構成されます。"
+
+#: wpf-admin/forum.php:224 wpf-includes/wpf-phrases.php:118
+msgid "Forum Slug"
+msgstr "フォーラムのスラッグ"
+
+#: wpf-admin/forum.php:154 wpf-admin/usergroup.php:39
+#: wpf-includes/class-forums.php:553 wpf-includes/wpf-phrases.php:355
+msgid "View"
+msgstr "表示"
+
+#: wpf-admin/forum.php:153 wpf-admin/themes.php:73 wpf-admin/usergroup.php:37
+#: wpf-admin/usergroup.php:133 wpf-includes/wpf-hooks.php:987
+#: wpf-includes/wpf-phrases.php:66
+msgid "Delete"
+msgstr "削除"
+
+#: wpf-admin/forum.php:153 wpf-includes/wpf-phrases.php:37
+msgid "Are you sure you want to delete this forum?"
+msgstr "このフォーラムを削除してもよろしいですか?"
+
+#: wpf-admin/forum.php:149 wpf-admin/forum.php:156
+#: wpf-includes/wpf-phrases.php:234
+msgid "Publish"
+msgstr "公開"
+
+#: wpf-admin/forum.php:140 wpf-includes/wpf-phrases.php:202
+msgid "No layout found."
+msgstr "レイアウトは見つかりませんでした。"
+
+#: wpf-admin/forum.php:132 wpf-includes/wpf-phrases.php:52
+msgid "Category Layout"
+msgstr "カテゴリーのレイアウト"
+
+#: wpf-admin/forum.php:130 wpf-includes/wpf-phrases.php:346
+msgid "Use as Category"
+msgstr "カテゴリーとして使用"
+
+#: wpf-admin/forum.php:125 wpf-includes/wpf-phrases.php:204
+msgid "No parent"
+msgstr "親なし"
+
+#: wpf-admin/forum.php:122 wpf-includes/wpf-phrases.php:221
+msgid "Parent Forum"
+msgstr "親フォーラム"
+
+#: wpf-admin/forum.php:107 wpf-includes/wpf-phrases.php:329
+msgid "This is a forum description. This content will be displayed under forum title on the forum list."
+msgstr "これはフォーラムの説明です。この内容はフォーラムのタイトル下にあるフォーラム一覧に表示されます。"
+
+#: wpf-admin/forum.php:106 wpf-includes/wpf-phrases.php:86
+msgid "Enter description here . . ."
+msgstr "ここに説明を入力 . . ."
+
+#: wpf-admin/forum.php:101 wpf-includes/wpf-phrases.php:87
+msgid "Enter forum title here"
+msgstr "ここにフォーラムのタイトルを入力してください"
+
+#: wpf-admin/forum.php:74 wpf-includes/wpf-phrases.php:272
+msgid "Save forums order and hierarchy"
+msgstr "フォーラムの並び順と階層を保存"
+
+#: wpf-admin/forum.php:56 wpf-includes/wpf-phrases.php:225
+msgid "Please drag and drop forum panels to set parent-child hierarchy."
+msgstr "親子の階層を設定するには、フォーラムパネルをドラッグアンドドロップしてください。"
+
+#: wpf-admin/forum.php:44 wpf-admin/options-tabs/general.php:75
+#: wpf-admin/themes.php:10 wpf-admin/usergroup.php:8
+#: wpf-includes/wpf-phrases.php:20
+msgid "Add New"
+msgstr "新規追加"
+
+#: wpf-admin/forum.php:43 wpf-includes/wpf-phrases.php:51
+msgid "Categories and Forums"
+msgstr "カテゴリーとフォーラム"
+
+#: wpf-admin/forum.php:32 wpf-includes/functions.php:653
+#: wpf-includes/wpf-phrases.php:274
+msgid "Screen Options"
+msgstr "表示オプション"
+
+#: wpf-admin/forum.php:22 wpf-includes/wpf-phrases.php:209
+msgid "Number of Columns"
+msgstr "カラム数"
+
+#: wpf-admin/forum.php:21 wpf-includes/wpf-phrases.php:273
+msgid "Screen Layout"
+msgstr "表示レイアウト"
+
+#: wpf-admin/forum.php:18 wpf-includes/wpf-phrases.php:112
+msgid "Forum Meta"
+msgstr "フォーラムメタ"
+
+#: wpf-admin/forum.php:17 wpf-includes/wpf-phrases.php:306
+msgid "Slug"
+msgstr "スラッグ"
+
+#: wpf-admin/forum.php:16 wpf-includes/wpf-phrases.php:223
+msgid "Permissions"
+msgstr "パーミッション"
+
+#: wpf-admin/forum.php:15 wpf-admin/forum.php:119
+#: wpf-includes/wpf-phrases.php:113
+msgid "Forum Options"
+msgstr "フォーラムオプション"
+
+#: wpf-admin/forum.php:13 wpf-includes/functions.php:639
+#: wpf-includes/wpf-phrases.php:301
+msgid "Show on screen"
+msgstr "画面に表示"
+
+#: wpf-includes/wpf-phrases.php:45
+msgid "Attachments Size"
+msgstr "添付ファイルのサイズ"
+
+#: wpf-includes/wpf-phrases.php:44
+msgid "Attachments"
+msgstr "添付ファイル"
+
+#: wpf-admin/dashboard.php:152 wpf-includes/wpf-phrases.php:178
+msgid "Members Online"
+msgstr "オンラインメンバー"
+
+#: wpf-admin/admin.php:19 wpf-admin/dashboard.php:148 wpf-admin/member.php:10
+#: wpf-admin/options.php:18 wpf-includes/wpf-phrases.php:177
+msgid "Members"
+msgstr "メンバー"
+
+#: wpf-admin/dashboard.php:144 wpf-includes/class-forums.php:547
+#: wpf-includes/wpf-phrases.php:232
+msgid "Posts"
+msgstr "投稿"
+
+#: wpf-admin/dashboard.php:140 wpf-admin/options-tabs/styles.php:22
+#: wpf-includes/class-forums.php:547 wpf-includes/wpf-phrases.php:338
+msgid "Topics"
+msgstr "トピック"
+
+#: wpf-admin/admin.php:15 wpf-admin/admin.php:17 wpf-admin/dashboard.php:136
+#: wpf-admin/options-tabs/styles.php:16 wpf-admin/options.php:15
+#: wpf-includes/wpf-phrases.php:123
+msgid "Forums"
+msgstr "フォーラム"
+
+#: wpf-admin/dashboard.php:130 wpf-includes/wpf-phrases.php:49
+msgid "Board Statistic"
+msgstr "掲示板の統計"
+
+#: wpf-admin/dashboard.php:112 wpf-includes/wpf-phrases.php:208
+msgid "Not available"
+msgstr "利用不可"
+
+#: wpf-admin/dashboard.php:112 wpf-includes/wpf-phrases.php:46
+msgid "Available"
+msgstr "利用可能"
+
+#: wpf-admin/dashboard.php:78 wpf-includes/wpf-phrases.php:289
+msgid "Server Information"
+msgstr "サーバー情報"
+
+#: wpf-admin/dashboard.php:67 wpf-includes/wpf-phrases.php:319
+msgid "Support Forum"
+msgstr "サポートフォーラム"
+
+#: wpf-admin/dashboard.php:66 wpf-includes/wpf-phrases.php:413
+msgid "wpForo Website"
+msgstr "wpForo のウェブサイト"
+
+#: wpf-admin/dashboard.php:65 wpf-includes/wpf-phrases.php:18
+msgid "Active Theme"
+msgstr "有効なテーマ"
+
+#: wpf-admin/dashboard.php:64 wpf-includes/wpf-phrases.php:368
+msgid "You are currently running"
+msgstr "現在実行中のバージョン: "
+
+#: wpf-admin/dashboard.php:60 wpf-includes/wpf-phrases.php:130
+msgid "General Information"
+msgstr "一般的な情報"
+
+#: wpf-admin/dashboard.php:31
+msgid ""
+"Thank you for using wpForo! wpForo is a professional bulletin board for WorPress, and the only forum software which comes with Multi-layout template system.\n"
+"                                    The \"Extended\", \"Simplified\" and \"Question &amp Answer\" layouts fit almost all type of discussions needs. You can use wpForo for small and extremely large communities. \n"
+"                                    <br />If you found some issue or bug please open a support topic in plugin page or in our support forum at gVectors.com. If you liked wpForo please leave some good review for this plugin. We really need your good reviews. \n"
+"                                    If you didn't like wpForo please leave a list of issues and requirements you'd like us to fix and add in near future. We're here to help you and improve wpForo as much as possible."
+msgstr ""
+"wpForo をご利用いただきありがとうございます！wpForo は WordPress 用のプロフェッショナルな掲示板で、マルチレイアウトのテンプレートシステムが付属している唯一のフォーラムソフトウェアです。\n"
+" \"拡張\"、\"シンプル\"、\"質問 &amp 回答\" のレイアウトは、ほぼすべてのタイプのディスカッションニーズに適合します。小規模なコミュニティから非常に大規模なコミュニティまで幅広く wpForo を使うことができます。\n"
+" <br />問題やバグが見つかった場合は、プラグインページまたは gVectors.com のサポートフォーラムでサポートトピックを開いてください。wpForo を気に入って頂けたら、このプラグインの高評価レビューを残してください。私たちは、あなたの良い評価が本当に必要です。\n"
+" wpForo が好みに合わない場合は、近いうちに修正して追加してほしい問題やリクエストの一覧を残してください。 私たちはあなたを助け、wpForo を可能な限り改善するためにここにいます。"
+
+#: wpf-admin/dashboard.php:25 wpf-includes/wpf-phrases.php:361
+msgid "Welcome Message"
+msgstr "ウェルカムメッセージ"
+
+#: wpf-admin/dashboard.php:9 wpf-includes/wpf-phrases.php:408
+msgid "wpForo Dashboard"
+msgstr "wpForo ダッシュボード"

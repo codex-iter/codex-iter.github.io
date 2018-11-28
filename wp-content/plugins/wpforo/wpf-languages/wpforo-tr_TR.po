@@ -1,0 +1,5057 @@
+# Translation of Plugins - wpForo Forum - Stable (latest release) in Turkish
+# This file is distributed under the same license as the Plugins - wpForo Forum - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-07-13 19:39:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: tr\n"
+"Project-Id-Version: Plugins - wpForo Forum - Stable (latest release)\n"
+
+#: wpf-includes/wpf-phrases.php:749
+msgid "When you login first time using Facebook Login button, we collect your account %s information shared by Facebook, based on your privacy settings. We also get your email address to automatically create a forum account for you. Once your account is created, you'll be logged-in to this account and you'll receive a confirmation email."
+msgstr ""
+"Facebook Giriş düğmesini kullanarak ilk kez giriş yaptığınızda , hesabınızdan gizlilik ayarlarınıza göre Facebook tarafından paylaşılan %s bilgisini topluyoruz.  \n"
+"Ayrıca e-posta adresinizi kullanarak sizin için otomatik olarak bir forum hesabı oluşturuyoruz. Hesabınız oluşturulduktan sonra, bu hesaba giriş yapacaksınız ve bir onay e-postası alacaksınız."
+
+#: wpf-admin/options-tabs/posts.php:37
+msgid "The post edit logging information \"This post was modified 2 hours ago by John\" is displayed under modified post content.."
+msgstr "Kayıt düzenleme günlüğü bilgileri \"Bu yazı, Mehmet tarafından 2 saat önce değiştirildi\", değiştirilen içeriğin altında görüntülenir."
+
+#: wpf-admin/options-tabs/posts.php:36
+msgid "Display Post Editing Information"
+msgstr "İleti düzenleme bilgisini kaydet"
+
+#: wpf-admin/options-tabs/posts.php:25
+msgid "The post edit logging information \"This post was modified 2 hours ago by John\" is displayed under modified topic first post content.."
+msgstr "Mesaj düzenleme günlüğü bilgileri \"Bu yazı, Mehmet tarafından 2 saat önce değiştirildi\" konunun ilk mesajının altında görüntülenir.."
+
+#: wpf-admin/options-tabs/posts.php:24
+msgid "Display Topic Editing Information"
+msgstr "Başlık düzenleme bilgisini kaydet"
+
+#: wpf-includes/wpf-phrases.php:797
+msgid "Forum Subscriptions"
+msgstr "Forum Abonelikleri"
+
+#: wpf-includes/wpf-phrases.php:796
+msgid "Liked Forum Posts"
+msgstr "Beğenilen Forum İletileri"
+
+#: wpf-includes/wpf-phrases.php:795
+msgid "Forum Replies Created"
+msgstr "Eklenen Forum Cevapları"
+
+#: wpf-includes/wpf-phrases.php:794
+msgid "Forum Topics Started"
+msgstr "Açılan Forum Konuları"
+
+#: wpf-includes/wpf-phrases.php:793
+msgid "Topic link"
+msgstr "Konu bağlantısı"
+
+#: wpf-includes/wpf-phrases.php:789
+msgid "This post was modified %s by %s"
+msgstr "Bu ileti %s tarafından %s tarihinde düzenlendi"
+
+#: wpf-includes/wpf-phrases.php:788
+msgid "Edit Post"
+msgstr "İletiyi düzenle"
+
+#: wpf-includes/wpf-phrases.php:787
+msgid "This topic was modified %s by %s"
+msgstr "Bu konu %s tarafından %s tarihinde düzenlendi"
+
+#: wpf-includes/wpf-phrases.php:786
+msgid "Edit Topic"
+msgstr "Konuyu düzenle"
+
+#: wpf-includes/wpf-phrases.php:785
+msgid "Sorry, there was an error uploading attached file"
+msgstr "Üzgünüm, ekli dosyanın yüklenmesinde hata oluştu"
+
+#: wpf-includes/wpf-phrases.php:784
+msgid "User custom field update failed"
+msgstr "Üye özel alan güncellemesi başarısız oldu"
+
+#: wpf-includes/wpf-phrases.php:783
+msgid "User profile update failed"
+msgstr "Üye profili  güncellemesi başarısız oldu"
+
+#: wpf-includes/wpf-phrases.php:782
+msgid "User data update failed"
+msgstr "Üye verileri güncellemesi başarısız oldu"
+
+#: wpf-includes/wpf-phrases.php:781
+msgid "Profile updated successfully"
+msgstr "Profil başarıyla güncellendi"
+
+#: wpf-includes/wpf-phrases.php:780
+msgid "Form template not found"
+msgstr "Form teması bulunamadı"
+
+#: wpf-includes/wpf-phrases.php:779
+msgid "Form name not found"
+msgstr "Form ismi bulunamadı"
+
+#: wpf-includes/wpf-phrases.php:778
+msgid "Allowed file types: %s"
+msgstr "İzin verilen dosya türleri: %s"
+
+#: wpf-includes/wpf-phrases.php:777
+msgid "This email address is already registered. Please insert another"
+msgstr "Bu e-posta adresi zaten kayıtlı. Lütfen başka bir tane girin"
+
+#: wpf-includes/wpf-phrases.php:775
+msgid "Maximum allowed file size is %s MB"
+msgstr "İzin verilen maksimum dosya boyutu %s MB"
+
+#: wpf-includes/wpf-phrases.php:774
+msgid "Numerical nicknames are not allowed. Please insert another."
+msgstr "Sayısal takma adlara izin verilmez. Lütfen başka bir tane ekleyin."
+
+#: wpf-includes/wpf-phrases.php:773
+msgid "Nickname validation failed"
+msgstr "Takma ad doğrulama başarısız oldu"
+
+#: wpf-includes/wpf-phrases.php:772
+msgid "This nickname is already in use. Please insert another."
+msgstr "Bu üye adı zaten kullanılıyor. Lütfen başka bir tane ekleyin."
+
+#: wpf-includes/wpf-phrases.php:771
+msgid "You have no permission to edit Usergroup field"
+msgstr "Üye grubu alanını düzenleme izniniz yok"
+
+#: wpf-includes/wpf-phrases.php:770
+msgid "Admin and Moderator Usergroups are not permitted"
+msgstr "Yönetici ve Moderatör üye gruplarına izin verilmez"
+
+#: wpf-includes/wpf-phrases.php:769
+msgid "The selected Usergroup cannot be set"
+msgstr "Seçilen üye grubu ayarlanamaz"
+
+#: wpf-includes/wpf-phrases.php:768
+msgid "The selected Usergroup is not found in allowed list"
+msgstr "Seçilen üye grubu izin verilen listede bulunamadı"
+
+#: wpf-includes/wpf-phrases.php:767
+msgid "One of the selected Usergroups cannot be set as Secondary"
+msgstr "Seçilen üye gruplarından biri, İkincil olarak ayarlanamaz"
+
+#: wpf-includes/wpf-phrases.php:766
+msgid "Avatar image is too big maximum allowed size is 2MB"
+msgstr "Avatar çok büyük, izin verilen boyut 2 MB"
+
+#: wpf-includes/wpf-phrases.php:765
+msgid "User registration is disabled."
+msgstr "Üye kaydı etkin değil."
+
+#: wpf-includes/wpf-phrases.php:764
+msgid "Username length must be between %d characters and %d characters."
+msgstr "Üye adı uzunluğu %d ve %d karakter arasında olmalıdır."
+
+#: wpf-includes/wpf-phrases.php:763
+msgid "Success! Please check your mail for confirmation."
+msgstr "Başarılı! Lütfen onay için e-postanızı kontrol edin."
+
+#: wpf-includes/wpf-phrases.php:762
+msgid "file is too large"
+msgstr "dosya çok büyük"
+
+#: wpf-includes/wpf-phrases.php:761
+msgid "file type %s is not allowed"
+msgstr "%s dosya tipine izin verilmiyor"
+
+#: wpf-includes/wpf-phrases.php:760
+msgid "file type is not detected"
+msgstr "dosya tipi tespit edilemedi"
+
+#: wpf-includes/wpf-phrases.php:759
+msgid "field value is not a valid URL"
+msgstr "alan değeri geçerli bir URL değil"
+
+#: wpf-includes/wpf-phrases.php:758
+msgid "field length can not be greater than %d characters"
+msgstr "alan uzunluğu %d karakterden daha büyük olamaz "
+
+#: wpf-includes/wpf-phrases.php:757
+msgid "field length must be at least %d characters"
+msgstr "alan uzunluğu en az %d karakter olmalıdır"
+
+#: wpf-includes/wpf-phrases.php:756
+msgid "field value cannot be greater than %d"
+msgstr "alan değeri %d değerinden daha büyük olamaz"
+
+#: wpf-includes/wpf-phrases.php:755
+msgid "field value must be at least %d"
+msgstr "alan değeri en az %d olmalı "
+
+#: wpf-includes/wpf-phrases.php:754
+msgid "field is required"
+msgstr "alan gereklidir"
+
+#: wpf-includes/wpf-phrases.php:753
+msgid "User profile fields not found"
+msgstr "Üye profili alanları bulunamadı"
+
+#: wpf-includes/wpf-phrases.php:752
+msgid "No data submitted"
+msgstr "Herhangi bir veri gönderilmedi"
+
+#: wpf-includes/wpf-phrases.php:488
+msgid "Success!"
+msgstr "Başarılı!"
+
+#: wpf-includes/wpf-hooks.php:1891
+msgid "Forum Dashboard"
+msgstr "Forum Gösterge Paneli"
+
+#: wpf-includes/wpf-hooks.php:1267
+msgid "Forum - User Timezone"
+msgstr "Forum - Üye zaman dilimi"
+
+#: wpf-includes/wpf-hooks.php:1246
+msgid "Forum - Secondary Usergroups"
+msgstr "Forum - İkincil üye grubu"
+
+#: wpf-includes/wpf-hooks.php:1235
+msgid "This user Usergroup is automatically changed according to current Role. If you want to disable Role-Usergroup synchronization and manage Usergroups and User Roles independently, please navigate to <b>Forums > Settings > Features</b> admin page and disable \"Role-Usergroup Synchronization\" option."
+msgstr "Bu üye grubu mevcut Rol'e göre otomatik olarak değiştirilir. Rol-Üye Grubu senkronizasyonunu devre dışı bırakmak ve  Üye Gruplarını ve Kullanıcı Rollerini bağımsız olarak yönetmek istiyorsanız, lütfen <b>Forumlar > Ayarlar > Özellikler</b> yönetici sayfasına gidin ve \"Rol-Üye Grubu Eşzamanlaması\" seçeneğini devre dışı bırakın."
+
+#: wpf-includes/wpf-hooks.php:1234
+msgid "Role-Usergroup Synchronization is Turned ON!"
+msgstr "Rol - Üye Grubu Senkronizasyonu AÇIK!"
+
+#: wpf-includes/wpf-hooks.php:1224
+msgid "Forum Usergroups are synched with User Roles based on the %s. When you change this user Role the Usergroup is automatically changed according to that table."
+msgstr "Forum Üye Grupları, %s temel alınarak Kullanıcı Rolleri ile senkronize edilir. Bu kullanıcıyı değiştirdiğinizde, Üye Grubu, bu tabloya göre otomatik olarak değişir."
+
+#: wpf-includes/wpf-hooks.php:1219
+msgid "Forum - Usergroup"
+msgstr "Forum - Üye grubu"
+
+#: wpf-includes/wpf-hooks.php:1211
+msgid "Forum Profile Fields - wpForo"
+msgstr "Forum Profil Alanları - wpForo"
+
+#: wpf-includes/wpf-hooks.php:1172
+msgid "Please check one of reasons before sending feedback!"
+msgstr "Lütfen geri bildirim göndermeden önce nedenlerden birini seçiniz!"
+
+#: wpf-includes/integration/ultimate-member.php:69
+#: wpf-includes/integration/ultimate-member.php:379
+msgid "When a member replies to one of my post in forum topics"
+msgstr "Bir üye forum konularındaki yazıma yanıt verdiğinde"
+
+#: wpf-includes/integration/ultimate-member.php:67
+#: wpf-includes/integration/ultimate-member.php:377
+msgid "User replied to wpForo post"
+msgstr "Kullanıcı wpForo gönderisine cevap verdi"
+
+#: wpf-includes/integration/ultimate-member.php:64
+#: wpf-includes/integration/ultimate-member.php:374
+msgid "When a member replies to one of my forum topics"
+msgstr "Bir üye forum konularından birine yanıt verdiğinde"
+
+#: wpf-includes/integration/ultimate-member.php:62
+#: wpf-includes/integration/ultimate-member.php:372
+msgid "User leaves a reply to wpForo topic"
+msgstr "Kullanıcı, wpForo konusuna bir cevap bıraktı"
+
+#: wpf-admin/usergroup.php:307
+msgid "Can be also used as Secondary Usergroup"
+msgstr "İkincil üye grubu olarak da kullanılabilir"
+
+#: wpf-admin/usergroup.php:213
+msgid "Complete!"
+msgstr "Tamamlandı!"
+
+#: wpf-admin/usergroup.php:176
+msgid "Synched"
+msgstr "Senkronize edildi"
+
+#: wpf-admin/usergroup.php:174
+msgid "One User Role cannot be synched with multiple Usergroups."
+msgstr "Bir Kullanıcı Rolü birden çok Kullanıcı Grubu ile senkronize edilemez."
+
+#: wpf-admin/usergroup.php:173
+msgid "Not Synched"
+msgstr "Senkronize Edilmedi"
+
+#: wpf-admin/usergroup.php:171
+msgid "Add Usergroup to synch"
+msgstr "Senkronize etmek için Kullanıcı Grubu ekle"
+
+#: wpf-admin/usergroup.php:157
+msgid "Status"
+msgstr "Durum"
+
+#: wpf-admin/usergroup.php:156
+msgid "Users"
+msgstr "Üyeler"
+
+#: wpf-admin/usergroup.php:153
+msgid "Role Name"
+msgstr "Rol İsmi"
+
+#: wpf-admin/usergroup.php:148
+msgid "In the table above (Usergroups) you can see the list of all available forum Usergroups. The first column of this table displays selected User Roles which are synched with certain Usergroup. However some User Roles are still not synced with any Usergroup of your forum. You can find not-synced User Roles in the table below (User Roles). If you use any of these not-synced User Roles and you want to grant some forum accesses to users of these User Roles you should create new Usergroups for each of them. Once new Usergroup is created, you should use the [Synchronize] button in the table above to synchronize User Roles with new Usergroups."
+msgstr "Yukarıdaki tabloda (Üye Grupları) mevcut tüm forum üye gruplarının listesini görebilirsiniz. Bu tablonun ilk sütunu, belirli Üye Gruplarıyla senkronize edilen seçilmiş Kullanıcı Rollerini görüntüler. Bununla birlikte, bazı Kullanıcı Rolleri, forumunuzun herhangi bir Üye Grubuna hâlâ senkronize edilmiyor. Senkronize olmayan Kullanıcı Rollerini aşağıdaki tabloda bulabilirsiniz (Kullanıcı Rolleri). Bu senkronize Edilmemiş Kullanıcı Rollerinden herhangi birini kullanırsanız ve bu Kullanıcı Rollerinin kullanıcılarına bazı forum erişimi vermek istiyorsanız, her biri için yeni Üye Grupları oluşturmalısınız. Yeni Üye Grubu oluşturulduktan sonra, Kullanıcı Rollerini yeni Üye Gruplarıyla senkronize etmek için yukarıdaki tabloda bulunan [Senkronize Et] düğmesini kullanmalısınız."
+
+#: wpf-admin/usergroup.php:146
+msgid "User Roles"
+msgstr "Kullanıcı Rolleri"
+
+#: wpf-admin/usergroup.php:137
+msgid "The [Synchronize] button changes all users Usergroups according to the users Roles. For example, if you select \"Contributor\" Role for \"Registered\" Usergroup, all users with \"Contributor\" Role will get \"Registered\" Usergroup in forum. The synchronization process may take a few seconds or dozens of minutes, it depends on the number of users. Please be patient, don't close this page and wait until the progress counter says 100% completed."
+msgstr "[Senkronize Et] düğmesi, kullanıcı Rolleri'ne göre tüm üye gruplarını değiştirir. Örneğin, \"Kayıtlı\" Üye Grubu için \"Katkıda Bulunan\" Rolü'nü seçerseniz, \"Katılımcı\" Rolü olan tüm kullanıcılar forumda \"Kayıtlı\" Üye Grubu olur. Senkronizasyon işlemi birkaç saniye veya birkaç dakika sürebilir, kullanıcı sayısına bağlıdır. Lütfen sabırlı olun, bu sayfayı kapatmayın ve ilerleme sayacı %100 tamamlanana kadar bekleyin."
+
+#: wpf-admin/usergroup.php:136
+msgid "Note:"
+msgstr "Not:"
+
+#: wpf-admin/usergroup.php:106
+msgid "Synchronize"
+msgstr "Senkronize et"
+
+#: wpf-admin/usergroup.php:105
+msgid "Synchronize Users Usergroups and Roles"
+msgstr "Üyelerin üye gruplarını ve rollerini senkronize et"
+
+#: wpf-admin/usergroup.php:85
+msgid "Users get the Default Usergroup on registration"
+msgstr "İlk kayıtta üyenin atanacağı varsayılan grup"
+
+#: wpf-admin/usergroup.php:77
+msgid "The number of forum members with this usergroup. Click to view members."
+msgstr "Bu kullanıcı grubuyla forum üyelerinin sayısı. Üyeleri görmek için tıklayın."
+
+#: wpf-admin/usergroup.php:65
+msgid "Also used as Secondary Usergroup"
+msgstr "İkincil üye grubu olarak da kullanılıyor"
+
+#: wpf-admin/usergroup.php:46 wpf-admin/usergroup.php:167
+msgid "View Users"
+msgstr "Üyeleri Gör"
+
+#: wpf-admin/usergroup.php:35
+msgid "ID"
+msgstr "NO"
+
+#: wpf-admin/usergroup.php:28 wpf-admin/usergroup.php:154
+#: wpf-admin/usergroup.php:282
+msgid "User Role"
+msgstr "Üye Rolü"
+
+#: wpf-admin/usergroup.php:12
+msgid "Role-Usergroup synchronization is complete!"
+msgstr "Rol-Üye Grubu senkronizasyonu tamamlandı!"
+
+#: wpf-admin/tools-tabs/misc.php:124
+msgid "Profile Subscriptions"
+msgstr "Profil Abonelikleri"
+
+#: wpf-admin/tools-tabs/misc.php:120
+msgid "Profile Activity"
+msgstr "Profil Etkinlikleri"
+
+#: wpf-admin/tools-tabs/misc.php:116
+msgid "Profile Account"
+msgstr "Profil Hesabı"
+
+#: wpf-admin/tools-tabs/misc.php:112
+msgid "Profile Home"
+msgstr "Profil Ana Sayfası"
+
+#: wpf-admin/tools-tabs/misc.php:100
+msgid "Topic (post list)"
+msgstr "Konu (ileti listesi)"
+
+#: wpf-admin/tools-tabs/misc.php:96
+msgid "Forum (topic list)"
+msgstr "Forum (konu listesi)"
+
+#: wpf-admin/tools-tabs/misc.php:86
+msgid "Display on forum pages"
+msgstr "Şu sayfalarda görüntüle"
+
+#: wpf-admin/tools-tabs/misc.php:64
+msgid "Display for Usergroups"
+msgstr "Şu gruplara görüntüle"
+
+#: wpf-admin/tools-tabs/misc.php:46
+msgid "If you have something important to say on forum front page, you can use this editor. The text will be displayed under forum breadcrumb menu, above forum and topic titles."
+msgstr "Forumun ön sayfasında söylenecek önemli bir şey varsa, bu editörü kullanabilirsiniz. Metin, forum ve menü başlıkları altında forum breadcrumb menüsü altında görüntülenecektir."
+
+#: wpf-admin/tools-tabs/misc.php:45
+msgid "Admin message on forum front page"
+msgstr "Forum ön sayfasında yönetici mesajı"
+
+#: wpf-admin/tools-tabs/misc.php:37
+msgid "Admin Note"
+msgstr "Yönetici Notu"
+
+#: wpf-admin/options-tabs/styles.php:43
+msgid "Colors Documentation"
+msgstr "Renk Dökümantasyonu"
+
+#: wpf-admin/options-tabs/members.php:20
+msgid "Number of Members per Page"
+msgstr "Sayfa Başına Üye Sayısı"
+
+#: wpf-admin/options-tabs/general.php:69
+msgid "XML Based Language"
+msgstr "XML Tabanlı Dil"
+
+#: wpf-admin/options-tabs/general.php:16
+msgid "Set Forum on Home Page"
+msgstr "Ana Sayfayı Forum olarak ayarla"
+
+#: wpf-admin/options-tabs/general.php:16
+msgid "If you want to set forum on home page, please do not use the \"Turn WordPress to wpForo\" option. The correct instruction can be found in documentation here"
+msgstr "Ana sayfada forum ayarlamak isterseniz, lütfen \"WordPress den wpForo ya\" seçeneğini kullanmayın. Doğru talimatlar burada dokümantasyonda bulunabilir"
+
+#: wpf-admin/options-tabs/features.php:53
+msgid "Keep enabled this option to synch WordPress User Roles with Forum Usergroups. This connection allows to automatically change Usergroup of a user when his/her User Role is changed by administrators or by membership plugins. In other words this option allows to manage Usergroups based on Users Roles, thus you can directly control users forum accesses based on Users Roles. If this option is turned off, User Roles don't have any affection to users forum accesses, they are only controlled by forum Usergroups."
+msgstr "WordPress Kullanıcı Rollerini Forum Üye Gruplarıyla eşitlemek için bu seçeneği etkinleştirin. Bu bağlantı, Kullanıcı Rolü yöneticiler veya üyelik eklentileri tarafından değiştirildiği zaman bir kullanıcının Üye Grubunu otomatik olarak değiştirmeye izin verir. Başka bir deyişle, bu seçenek Kullanıcı Rollerini temel alarak Üye Gruplarını yönetmeye izin verir, böylece kullanıcılar için Kullanıcı Rolleri'ni temel alarak doğrudan forum erişimlerini kontrol edebilirsiniz. Bu seçenek kapatılırsa, Kullanıcı Rolleri kullanıcılara forum erişiminde herhangi bir ilgi göstermez, yalnızca forumdaki Kullanıcılar tarafından kontrol edilir."
+
+#: wpf-admin/options-tabs/features.php:53
+msgid "Role-Usergroup Synchronization"
+msgstr "Rol-Kullanıcı Grubu Senkronizasyonu"
+
+#: wpf-admin/options-tabs/features.php:46
+msgid "Replace Forum Profile with Ultimate Member Profile"
+msgstr "Forum profilini Ultimate Member profili ile değiştir"
+
+#: wpf-admin/options-tabs/features.php:45
+msgid "Adds \"Forums\" tab with \"Created Topics\", \"Posted Replies\", \"Liked Posts\" and \"Subscriptions\" sub-tabs to Ultimate Member Profile page."
+msgstr "\"Oluşturulan Konular\", \"Gönderilen Cevaplar\", \"Beğenilen İletiler\" ve \"Abonelikler\" alt sekmeleri ile \"Üye\" sekmesini \"Son Kullanıcı Profili\" sayfasına ekler."
+
+#: wpf-admin/options-tabs/features.php:45
+msgid "Ultimate Member Profile Forum Tab Integration"
+msgstr "Ultimate Member Profil Forum Sekme Entegrasyonu"
+
+#: wpf-admin/options-tabs/features.php:44
+msgid "Creates notification on new forum reply in Ultimate Member Real-time Notification system."
+msgstr "Ultimate Member Gerçek Zamanlı Bildirim sisteminde yeni forum yanıtı bildirimi oluşturur."
+
+#: wpf-admin/options-tabs/features.php:44
+msgid "Ultimate Member Notification Integration"
+msgstr "Ultimate Member Bildirim Entegrasyonu"
+
+#: wpf-admin/options-tabs/emails.php:113
+msgid "New User Registration Email for user"
+msgstr "Üye için Yeni Üye Kayıt E-postası"
+
+#: wpf-admin/options-tabs/emails.php:108 wpf-admin/options-tabs/emails.php:124
+msgid "Message Body"
+msgstr "Mesaj içeriği"
+
+#: wpf-admin/options-tabs/emails.php:103 wpf-admin/options-tabs/emails.php:119
+msgid "Message Subject"
+msgstr "Mesaj konusu"
+
+#: wpf-admin/options-tabs/emails.php:98 wpf-admin/options-tabs/emails.php:114
+msgid "This message comes when new user registers to site"
+msgstr "Bu mesaj, yeni üye siteye kaydolduğunda gelir"
+
+#: wpf-admin/options-tabs/emails.php:97
+msgid "New User Registration Email for admins"
+msgstr "Yöneticiler için Yeni Üye Kaydı E-postası"
+
+#: wpf-admin/options-tabs/accesses.php:20
+msgid "Forum Accesses are designed to do a Forum specific user permission control. These are set of permissions which are attached to certain Usergeoup in each forum. Thus users can have different permissions in different forums based on their Usergroup."
+msgstr "Forum Erişimleri, Foruma özel bir kullanıcı izni kontrolü yapmak için tasarlanmıştır. Bunlar, her forumda belirli Üye Grubuna eklenen izinler kümesidir. Bu sayede kullanıcılar farklı forumlarda Üye Gruplarına göre farklı izinlere sahip olabilirler."
+
+#: wpf-admin/forum.php:176
+msgid "Forum Permissions"
+msgstr "Forum İzinleri"
+
+#: wpf-admin/forum.php:54 wpf-admin/forum.php:130 wpf-admin/forum.php:176
+#: wpf-admin/forum.php:192 wpf-admin/forum.php:201
+#: wpf-admin/options-tabs/accesses.php:19 wpf-admin/options-tabs/emails.php:12
+#: wpf-admin/options-tabs/emails.php:16 wpf-admin/options-tabs/emails.php:21
+#: wpf-admin/options-tabs/emails.php:28 wpf-admin/options-tabs/emails.php:40
+#: wpf-admin/options-tabs/emails.php:52 wpf-admin/options-tabs/features.php:68
+#: wpf-admin/options-tabs/general.php:15 wpf-admin/options-tabs/general.php:25
+#: wpf-admin/options-tabs/general.php:49 wpf-admin/options-tabs/general.php:53
+#: wpf-admin/options-tabs/general.php:58 wpf-admin/options-tabs/general.php:69
+#: wpf-admin/options-tabs/members.php:13 wpf-admin/options-tabs/members.php:27
+#: wpf-admin/options-tabs/members.php:46 wpf-admin/options-tabs/members.php:87
+#: wpf-admin/options-tabs/posts.php:47 wpf-admin/options-tabs/posts.php:52
+#: wpf-admin/options-tabs/posts.php:59 wpf-admin/options-tabs/posts.php:65
+#: wpf-admin/options-tabs/posts.php:70 wpf-admin/options-tabs/posts.php:77
+#: wpf-admin/options-tabs/posts.php:85 wpf-admin/options-tabs/posts.php:101
+#: wpf-admin/options-tabs/styles.php:43 wpf-admin/usergroup.php:28
+#: wpf-admin/usergroup.php:30 wpf-admin/usergroup.php:243
+#: wpf-themes/classic/functions.php:39 wpf-themes/classic/functions.php:48
+#: wpf-themes/classic/functions.php:55 wpf-themes/classic/functions.php:69
+#: wpf-themes/classic/functions.php:78 wpf-themes/classic/functions.php:85
+#: wpf-themes/classic/functions.php:107 wpf-themes/classic/functions.php:117
+msgid "Read the documentation"
+msgstr "Dokümanı okuyun"
+
+#: wpf-admin/deactivation-dialog.php:71
+msgid "Thank you for your feedback!"
+msgstr "Geri bildiriminiz için teşekkür ederiz!"
+
+#: wpf-admin/deactivation-dialog.php:68
+msgid "Submit &amp; Deactivate"
+msgstr "Gönder &amp; Pasifleştir"
+
+#: wpf-admin/deactivation-dialog.php:67
+msgid "Dismiss and never show again"
+msgstr "Reddet ve bir daha asla gösterme"
+
+#: wpf-admin/deactivation-dialog.php:63 wpf-includes/wpf-hooks.php:1173
+msgid "Please provide more information"
+msgstr "Lütfen daha fazla bilgi girin"
+
+#: wpf-admin/deactivation-dialog.php:62
+msgid "Other"
+msgstr "Diğer"
+
+#: wpf-admin/deactivation-dialog.php:58
+msgid "Please provide a plugin name or URL"
+msgstr "Lütfen bir eklenti  adı veya URL belirtin"
+
+#: wpf-admin/deactivation-dialog.php:57
+msgid "I found a better plugin"
+msgstr "Daha iyi bir eklenti buldum"
+
+#: wpf-admin/deactivation-dialog.php:53
+msgid "Could you please describe which features of the plugin slows down your website?"
+msgstr "Eklentinin hangi özelliklerinin web sitenizi yavaşlattığını açıklar mısınız?"
+
+#: wpf-admin/deactivation-dialog.php:52
+msgid "The plugin works very slow"
+msgstr "Eklenti çok yavaş çalışıyor"
+
+#: wpf-admin/deactivation-dialog.php:48
+msgid "What part of design you don't like or want to change?"
+msgstr "Tasarımın ne gibi bir bölümünü beğenmiyorsunuz ya da değiştirmek istiyor sunuz?"
+
+#: wpf-admin/deactivation-dialog.php:47
+msgid "I didn't like plugin design"
+msgstr "Eklenti tasarımını beğenmedim"
+
+#: wpf-admin/deactivation-dialog.php:42
+msgid "The plugin is great, but I need specific features"
+msgstr "Eklenti harika, ancak belirli özelliklere ihtiyacım var"
+
+#: wpf-admin/deactivation-dialog.php:38 wpf-admin/deactivation-dialog.php:43
+msgid "What type of features you want to be in the plugin?"
+msgstr "Eklentide ne tür özellikler olmasını istersiniz?"
+
+#: wpf-admin/deactivation-dialog.php:37
+msgid "I couldn't understand how to make it work"
+msgstr "Nasıl çalıştığını anlayamadım"
+
+#: wpf-admin/deactivation-dialog.php:33
+msgid "It's not what I was looking for"
+msgstr "Bu eklenti aradığım şey değil"
+
+#: wpf-admin/deactivation-dialog.php:29
+msgid "What kind of problems do you have?"
+msgstr "Ne tür problemler yaşıyor sunuz?"
+
+#: wpf-admin/deactivation-dialog.php:28
+msgid "The plugin is not working"
+msgstr "Eklenti çalışmıyor"
+
+#: wpf-admin/deactivation-dialog.php:24
+msgid "I'll reactivate it later"
+msgstr "Daha sonra yeniden etkinleştireceğim"
+
+#: wpf-admin/deactivation-dialog.php:18
+msgid "Please let us know why you are deactivating. Choosing one of the options below you will help us make it better for you and for other users."
+msgstr "Lütfen neden devre dışı bıraktığınızı bize bildirin. Aşağıdaki seçeneklerden birini seçerek , sizin ve diğer üyeler için daha iyi hale getirmemize yardımcı olabilirsiniz ."
+
+#: wpf-admin/deactivation-dialog.php:9
+msgid "Plugin Usage Feedback"
+msgstr "Eklenti Kullanımı Geri Bildirimi"
+
+#: wpf-admin/dashboard.php:205
+msgid "Update Topics Statistic"
+msgstr "Konu istatistiğini güncelle"
+
+#: wpf-admin/dashboard.php:209
+msgid "Synch User Profiles"
+msgstr "Üye profillerini senkronize et"
+
+#: wpf-admin/dashboard.php:110
+msgid "The setTimestamp() method of PHP DateTime class is not available. Please make sure you use PHP 5.4 and higher version on your hosting service."
+msgstr "PHP DateTime sınıfının setTimestamp () yöntemi mevcut değil. Lütfen barındırma sağlayıcınızda PHP 5.4 ve daha yüksek sürüm kullanıldığından emin olun."
+
+#: wpf-includes/wpf-phrases.php:723
+msgid "%s replied to the topic %s"
+msgstr "%s, %s konusuna cevap yazdı"
+
+#: wpf-includes/integration/buddypress.php:694
+msgid "You do not have permission to mark notifications for that user."
+msgstr "Bu üye için bildirim yapma izniniz yok."
+
+#: wpf-includes/integration/buddypress.php:690
+msgid "Are you sure you wanted to do that?"
+msgstr "Bunu yapmak istediğinize emin misin ?"
+
+#: wpf-includes/integration/buddypress.php:533
+msgid "You have %d new reply to %s"
+msgstr "%s konusunda %d yeni cevabınız var"
+
+#: wpf-includes/integration/buddypress.php:531
+msgid "You have %d new reply to %2$s from %3$s"
+msgstr "%2$s konusuna %3$s tarafından %d yeni cevap var"
+
+#: wpf-includes/integration/buddypress.php:527
+msgid "You have %d new replies"
+msgstr "%d yeni cevabınız var"
+
+#: wpf-includes/integration/buddypress.php:524
+msgid "Topic reply"
+msgstr "Konu yanıtı"
+
+#: wpf-includes/integration/buddypress.php:100 wpf-includes/wpf-phrases.php:792
+msgid "Liked Posts"
+msgstr "Beğenilen Yazılar"
+
+#: wpf-includes/integration/buddypress.php:89 wpf-includes/wpf-phrases.php:791
+msgid "Replies Created"
+msgstr "Verilen Cevaplar"
+
+#: wpf-includes/integration/buddypress.php:78 wpf-includes/wpf-phrases.php:790
+msgid "Topics Started"
+msgstr "Konu Gönderim"
+
+#: wpf-includes/integration/buddypress.php:34
+msgid "Search Forums..."
+msgstr "Forumlarda Ara..."
+
+#: wpf-includes/functions-template.php:468
+msgid "Order by"
+msgstr "Sırala"
+
+#: wpf-includes/functions-template.php:406
+msgid "ASC"
+msgstr "ARTAN"
+
+#: wpf-includes/functions-template.php:405
+msgid "DESC"
+msgstr "AZALAN"
+
+#: wpf-includes/functions-template.php:402
+msgid "Views Count"
+msgstr "Görüntüleme"
+
+#: wpf-includes/functions-template.php:401
+msgid "Posts Count"
+msgstr "İleti Sayısı"
+
+#: wpf-includes/functions-template.php:400
+msgid "Modified Date"
+msgstr "Son Düzenleme"
+
+#: wpf-includes/functions-template.php:399
+msgid "Created Date"
+msgstr "Oluşturma"
+
+#: wpf-includes/class-moderation.php:159
+msgid "Probably spam file attachments have been detected by wpForo Spam Control. Please moderate suspected files in Forums &gt; Tools &gt; Antispam Tab."
+msgstr "Muhtemelen spam dosya ekleri wpForo Spam Denetimi tarafından algılandı. Lütfen forumdaki şüpheli dosyaları denetle &gt; Araçlar &gt; Antispam Sekmesi."
+
+#: wpf-admin/tools.php:15
+msgid "Privacy &amp; Rules"
+msgstr "Gizlilik &amp; Kurallar"
+
+#: wpf-admin/tools-tabs/legal.php:156
+msgid "You should edit this text and adapt it to your community rules."
+msgstr "Bu metni düzenlemeli ve topluluk kurallarına uyarlamalısınız."
+
+#: wpf-admin/tools-tabs/legal.php:156
+msgid "This is a basic example of forum rules provided by"
+msgstr "Bu, sağlanan forum kurallarının temel bir örneğidir"
+
+#: wpf-admin/tools-tabs/legal.php:155
+msgid "Forum Rules Text"
+msgstr "Forum Kuralları Metni"
+
+#: wpf-admin/tools-tabs/legal.php:144
+msgid "If this option is enabled, users must accept forum rules by checking the required checkbox on registration form to be able create a forum account. The label text of this checkbox can be managed in Forums > Phrases admin page. Search the label phrase, click on edit button and change it."
+msgstr "Bu seçenek etkinleştirilirse, kullanıcılar forum hesabı oluşturabilmek için kayıt formunda gerekli onay kutusunu işaretleyerek forum kurallarını kabul etmelidir. Bu onay kutusunun etiket metni Forumlar> İfadeler yönetici sayfasında yönetilebilir. Etiket ifadesini arayın, düzenle düğmesine tıklayın ve değiştirin."
+
+#: wpf-admin/tools-tabs/legal.php:143
+msgid "Checkbox: I Accept Forum Rules"
+msgstr "Onay Kutusu: Forum Kurallarını Kabul Ediyorum"
+
+#: wpf-admin/tools-tabs/legal.php:137
+msgid "Forum Rules"
+msgstr "Forum Kuralları"
+
+#: wpf-admin/tools-tabs/legal.php:125
+msgid "Please note, that this option is only related to wpForo cookies. This doesn't disable WordPress and other plugins cookies. wpForo stores a small amount of data in cookies, it used to track visited forums and topics (bold and normal titles). Also when a guest (not registered user) creates a topic or post a reply, wpForo stores guest name and email address in cookies. wpForo uses this information to detect current guest content (topics, posts) and display it to the guest even if the content is under moderation (not approved by moderators). Also wpForo stores guest name and email in cookies to keep filled these fields when he/she posts a new reply or creates a new topic."
+msgstr "Unutmayın, bu seçenek sadece wpForo çerezleri ile ilgilidir. Bu, WordPress ve diğer eklenti çerezlerini devre dışı bırakmaz. wpForo çerezlerde az miktarda veri depolar, ziyaret edilen forumları ve konuları (kalın ve normal başlıklar) izlemek için kullanılır. Ayrıca, bir misafir (kayıtlı olmayan kullanıcı) bir konu oluşturduğunda veya bir cevap yazdığında, wpForo çerezlerde misafir adını ve e-posta adresini depolar. wpForo, mevcut bilgileri (konuları, gönderileri) algılamak ve içerik denetimli olsa bile (moderatörler tarafından onaylanmasa bile) konuğa göstermek için bu bilgileri kullanır. Ayrıca wpForo, yeni bir yanıt gönderdiğinde veya yeni bir konu oluşturduğunda bu alanları doldurmak için çerezlere konuk adı ve e-posta gönderir."
+
+#: wpf-admin/tools-tabs/legal.php:124
+msgid "Forum Cookies"
+msgstr "Forum Çerezleri"
+
+#: wpf-admin/tools-tabs/legal.php:113
+msgid "If this option is enabled, the Facebook Login button becomes not-clickable until user accept automatic account creation process based on his/her Facebook public profile information. This checkbox and appropriate information will be displayed with Facebook Login button to comply with the GDPR"
+msgstr "Bu seçenek etkinleştirilirse, kullanıcı Facebook'un herkese açık profil bilgilerine dayanarak otomatik hesap oluşturma işlemini kabul edene kadar Facebook Giriş düğmesi tıklanamaz duruma gelir. Bu onay kutusu ve uygun bilgiler, GDPR'ye uymak için Facebook Giriş düğmesi ile görüntülenecektir."
+
+#: wpf-admin/tools-tabs/legal.php:112
+msgid "Checkbox: I Agree to create a forum account on Facebook Login"
+msgstr "Onay kutusu: Facebook oturumu ile bir forum hesabı oluşturmayı kabul ediyorum"
+
+#: wpf-admin/tools-tabs/legal.php:90
+msgid "This is an example of forum Privacy Policy with GDPR compliant. It adapted to wpForo plugin functions and features. <u>In case you enable this privacy policy template you become responsible for the content of this template.</u>  Please read this text carefully and make sure it suits your community Privacy Policy. If it doesn't, you should edit this text and adapt it to your community rules. This template includes shortcodes [forum-name] and [forum-url]. They are automatically replaced on registration page with current forum details. Don't forget to add an information about your organization, location and contacting ways (page, email, phone, etc...). Also if you have a separate privacy policy page for website please add a link to that page."
+msgstr "Bu, GDPR uyumlu bir forum Gizlilik Politikası örneğidir. WpForo eklenti işlevlerine ve özelliklerine uyarlanmıştır. <u>Bu gizlilik politikası şablonunu etkinleştirmeniz durumunda, bu şablonun içeriğinden sorumlu olursunuz.</u> Lütfen bu metni dikkatle okuyun ve topluluğunuzun Gizlilik Politikası'na uygun olduğundan emin olun. Yoksa, bu metni düzenleyip topluluk kurallarınıza uyarlamanız gerekir. Bu şablonda kısa kodlar [forum-adı] ve [forum-url] bulunmaktadır. Geçerli forum ayrıntıları ile otomatik olarak kayıt sayfasına değiştirilir. Kuruluşunuz, konumunuz ve iletişim yollarınız hakkında bilgi (sayfa, e-posta, telefon vb.) eklemeyi unutmayın. Ayrıca, web sitesi için ayrı bir gizlilik politikası sayfanız varsa, lütfen bu sayfaya bir bağlantısını da ekleyin."
+
+#: wpf-admin/tools-tabs/legal.php:89
+msgid "Forum Privacy Policy with GDPR compliant Template"
+msgstr "GDPR uyumlu Forum Gizlilik Politikası Şablonu"
+
+#: wpf-admin/tools-tabs/legal.php:77
+msgid "Checkbox: I Agree to Forum Privacy Policy"
+msgstr "Onay Kutusu: Forum Gizlilik Politikasını Kabul Ediyorum"
+
+#: wpf-admin/tools-tabs/legal.php:72
+msgid "Privacy Policy Page URL"
+msgstr "Gizlilik Politikası Sayfası URL"
+
+#: wpf-admin/tools-tabs/legal.php:72
+msgid "URL to Website Privacy Policy page"
+msgstr "Web Sitesi Gizlilik Politikası sayfasının URL'si"
+
+#: wpf-admin/tools-tabs/legal.php:71
+msgid "Terms Page URL"
+msgstr "Kurallar Sayfası URL"
+
+#: wpf-admin/tools-tabs/legal.php:71
+msgid "URL to Website Terms page"
+msgstr "Web Sitesi Kullanım Şartları sayfasının URL'si"
+
+#: wpf-admin/tools-tabs/legal.php:68
+msgid "Please insert URLs to your website Terms and Privacy Policy pages. Links to these pages will be included in registration form checkbox label (I'm agree with website terms and privacy policy) and in Forum Privacy Policy. The forum Privacy Policy does not cover your whole website, it is just an extension of your website main Privacy Policy. Thus it should be linked to according pages."
+msgstr "Lütfen URL'leri web sitenizin Şartlar ve Gizlilik Politikası sayfalarına ekleyin. Bu sayfalara bağlantılar, kayıt formu onay kutusu etiketine (web sitesi şartlarını ve gizlilik politikasını kabul ediyorum) ve Forum Gizlilik Politikasına dahil edilecektir. Forum Gizlilik Politikası web sitenizin tamamını kapsamıyor, sadece web sitenizin ana Gizlilik Politikası'nın bir uzantısı. Bu nedenle, sayfalara göre bağlanmalıdır.."
+
+#: wpf-admin/tools-tabs/legal.php:67
+msgid "Website Terms and Privacy Policy Pages"
+msgstr "Web Sitesi Kullanım Şartları ve Gizlilik Politikası Sayfaları"
+
+#: wpf-admin/tools-tabs/legal.php:56
+msgid "If this option is enabled, users must agree to receive an email confirmation with a link to set a password by checking the required checkbox on registration form to be able create a forum account. The checkbox label can be managed in Forums > Phrases admin page."
+msgstr "Bu seçenek etkinleştirilirse, kullanıcılar bir forum hesabı oluşturabilmek için kayıt formunda gerekli onay kutusunu işaretleyerek bir şifre belirlemek için bir bağlantıyla bir e-posta onayı almayı kabul etmelidir. Onay kutusu etiketi Forumlar> İfadeler yönetici sayfasında yönetilebilir."
+
+#: wpf-admin/tools-tabs/legal.php:55
+msgid "Checkbox: I Agree to Receive an Email Confirmation"
+msgstr "Onay Kutusu: E-posta Doğrulamasını Kabul Ediyorum"
+
+#: wpf-admin/tools-tabs/legal.php:44 wpf-admin/tools-tabs/legal.php:78
+msgid "If this option is enabled, users must accept forum Terms and Privacy Policy by checking the required checkbox on registration form to be able create a forum account. The checkbox label can be managed in Forums > Phrases admin page."
+msgstr "Bu seçenek etkinleştirilirse, kullanıcılar forum hesabı oluşturabilmek için kayıt formunda gerekli onay kutusunu işaretleyerek forum Şartları ve Gizlilik Politikasını kabul etmelidir. Onay kutusu etiketi Forumlar> İfadeler yönetici sayfasında yönetilebilir."
+
+#: wpf-admin/tools-tabs/legal.php:43
+msgid "Checkbox: I Accept Website Terms and Privacy Policy"
+msgstr "Onay Kutusu: Web Sitesi Kullanım Şartları ve Gizlilik Politikasını Kabul Ediyorum"
+
+#: wpf-admin/tools-tabs/legal.php:38
+msgid "Please insert a page URL, where user can find a contact form or an information to contact the forum administrator."
+msgstr "Lütfen, kullanıcının forum yöneticisi ile iletişim kurabileceği bir iletişim formu yada bilgi bulabileceği bir sayfa URL'si ekleyin."
+
+#: wpf-admin/tools-tabs/legal.php:37
+msgid "URL to - Contact Us - page"
+msgstr "İletişim Sayfası URL"
+
+#: wpf-admin/tools-tabs/legal.php:32
+msgid "Report user rights violation"
+msgstr "Kullanıcı hakları ihlalini bildirme"
+
+#: wpf-admin/tools-tabs/legal.php:31
+msgid "Report user data access and control issue"
+msgstr "Kullanıcı verisi erişimini ve kontrol sorununu rapor et"
+
+#: wpf-admin/tools-tabs/legal.php:30
+msgid "Delete account with created content"
+msgstr "Oluşturulan içerikle birlikte hesabı sil"
+
+#: wpf-admin/tools-tabs/legal.php:29
+msgid "Obtain personal data and created content"
+msgstr "Kişisel verileri ve oluşturulan içeriği edinin"
+
+#: wpf-admin/tools-tabs/legal.php:27
+msgid "According to the GDPR, all users should have an option to contact website administrator in following cases:"
+msgstr "GDPR 'ye göre, tüm kullanıcıların aşağıdaki durumlarda web sitesi yöneticisi ile iletişim kurma seçeneği bulunmalıdır:"
+
+#: wpf-admin/tools-tabs/legal.php:25
+msgid "Contact Information"
+msgstr "İletişim Bilgileri"
+
+#: wpf-admin/tools-tabs/legal.php:19
+msgid "GDPR Key Changes"
+msgstr "GDPR Önemli Değişiklikler"
+
+#: wpf-admin/tools-tabs/legal.php:18
+msgid "The General Data Protection Regulation (GDPR) (Regulation (EU) 2016/679) is a regulation by which the European Parliament, the Council of the European Union and the European Commission intend to strengthen and unify data protection for all individuals within the European Union (EU). After four years of preparation and debate the GDPR was finally approved by the EU Parliament on 14 April 2016. Enforcement date: 25 May 2018 - at which time those organizations in non-compliance may face heavy fines. More info at"
+msgstr "Genel Verilerin Korunması Yönetmeliği (GDPR) (Yönetmelik (AB) 2016/679) Avrupa Parlamentosu, Avrupa Birliği Konseyi ve Avrupa Komisyonu'nun Avrupa Birliği içindeki tüm bireyler için veri korumasını güçlendirmek ve birleştirmek niyetinde olduğu bir yönetmeliktir. (AB). Dört yıllık hazırlık ve tartışmadan sonra, GSYİH, 14 Nisan 2016 tarihinde AB Parlamentosu tarafından onaylandı. Yürürlük tarihi: 25 Mayıs 2018 - bu süre zarfında söz konusu kuruluşlar, ağır para cezalarıyla karşılaşabilirler. Daha fazla bilgi"
+
+#: wpf-admin/tools-tabs/legal.php:15
+msgid "Forum Privacy Policy and GDPR compliant"
+msgstr "Forum Gizlilik Politikası ve GDPR Yönetmeliği"
+
+#: wpf-admin/tools-tabs/antispam.php:269
+msgid "Exclude file extensions"
+msgstr "Hariçtutulan dosya uzantıları"
+
+#: wpf-admin/tools-tabs/antispam.php:259
+msgid "Enable File Scanner"
+msgstr "Dosya Tarayıcısını Etkinleştir"
+
+#: wpf-admin/tools-tabs/antispam.php:236
+msgid "Example of adding a new HTML tags: "
+msgstr "Yeni bir HTML etiketinin eklenmesi örneği:"
+
+#: wpf-admin/tools-tabs/antispam.php:235
+msgid "By default wpForo allows all secure HTML tags in post content. Allowing a new HTML tag may affect your forum security. For example the &lt;iframe&gt; and &lt;script&gt; HTML tags may be used by spammers and hackers to load 3rd party ads and viruses to forum."
+msgstr "Varsayılan olarak wpForo, post içerikteki tüm güvenli HTML etiketlerine izin verir. Yeni bir HTML etiketine izin vermek forum güvenliğinizi etkileyebilir. Örneğin, &lt;iframe&gt; ve &lt;script&gt; HTML etiketleri, üçüncü taraf reklamları ve virüsleri foruma yüklemek için spam gönderenler ve bilgisayar korsanları tarafından kullanılabilir."
+
+#: wpf-admin/tools-tabs/antispam.php:234
+msgid "Allow extra HTML tags"
+msgstr "Ekstra HTML etiketlerine izin ver"
+
+#: wpf-admin/tools-tabs/antispam.php:227
+msgid "Options to control and filter post content"
+msgstr "Yayın içeriğinin kontrolü ve filtrelenmesi için seçenekler"
+
+#: wpf-admin/options-tabs/posts.php:53 wpf-admin/options-tabs/posts.php:60
+#: wpf-admin/options-tabs/posts.php:71 wpf-admin/options-tabs/posts.php:78
+msgid "Set this option value 0 if you want to remove time limit."
+msgstr "Zaman sınırını kaldırmak istiyorsanız, bu seçeneği 0 olarak ayarlayın."
+
+#: wpf-admin/options-tabs/features.php:74
+msgid "Sitewide"
+msgstr "Site geneli"
+
+#: wpf-admin/options-tabs/features.php:43
+#: wpf-admin/options-tabs/features.php:46
+msgid "Replaces wpForo Member Profile page with BuddyPress Profile Page."
+msgstr "WpForo Üye Profili sayfasını BuddyPress Profil Sayfası ile değiştirir."
+
+#: wpf-admin/options-tabs/features.php:43
+msgid "Replace Forum Profile with BuddyPress Profile"
+msgstr "Forum Profili ile BuddyPress Profilini Değiştir"
+
+#: wpf-admin/options-tabs/features.php:42
+msgid "Adds \"Forums\" tab with \"Created Topics\", \"Posted Replies\", \"Liked Posts\" and \"Subscriptions\" sub-tabs to BuddyPress Profile page."
+msgstr "BuddyPress Profil sayfasına \"Oluşturulan Konular\", \"Gönderilen Cevaplar\", \"Beğenilen Mesajlar\" ve \"Abonelikler\" alt sekmeleri ile \"Forumlar\" sekmesini ekler."
+
+#: wpf-admin/options-tabs/features.php:42
+msgid "BuddyPress Profile Forum Tab Integration"
+msgstr "BuddyPress Profil Forum Sekme Entegrasyonu"
+
+#: wpf-admin/options-tabs/features.php:41
+msgid "Creates notification on new forum reply in BuddyPress Profile Notification page."
+msgstr "BuddyPress Profil Bildirimi sayfasında yeni forum yanıtı bildirimi oluşturur."
+
+#: wpf-admin/options-tabs/features.php:41
+msgid "BuddyPress Notification Integration"
+msgstr "BuddyPress Bildirim Entegrasyonu"
+
+#: wpf-admin/options-tabs/features.php:40
+msgid "Posts members activity (new topic, new reply, post like) to BuddyPress Profile Activity page."
+msgstr "BuddyPress Profil Etkinliği sayfasına mesaj gönderir. (yeni konu, yeni cevap, beğeni)"
+
+#: wpf-admin/options-tabs/features.php:40
+msgid "BuddyPress Activity Integration"
+msgstr "BuddyPress Etkinlik Entegrasyonu"
+
+#: wpf-admin/options-tabs/api.php:208
+msgid "The post sharing toggle can be displayed either on the left side or on the top of each post. The general share buttons can be displayed on both (top and bottom) locations."
+msgstr "Gönderi paylaşımı geçişi, solda veya her gönderinin üstünde gösterilebilir. Genel paylaşım düğmeleri, hem (üst ve alt) konumlarda görüntülenebilir."
+
+#: wpf-admin/options-tabs/api.php:207
+msgid "Share Button Locations"
+msgstr "Paylaşım Tuşu Konumu"
+
+#: wpf-admin/options-tabs/api.php:201
+msgid "Square"
+msgstr "Kare"
+
+#: wpf-admin/options-tabs/api.php:200
+msgid "Figure"
+msgstr "Resim"
+
+#: wpf-admin/options-tabs/api.php:199
+msgid "Mixed"
+msgstr "Karışık"
+
+#: wpf-admin/options-tabs/api.php:174
+msgid "Post sharing toggle allows you to share posts individually. You can see post sharing toggles on the left, right side or in top bar of each post. The toggle blue color is the current primary color (#12) of your forum style. For example, if you use the red forum style, the color of all share toggles will be red. This doesn't affect share button colors. They are always grey with original colors on mouse hover."
+msgstr "Yayın paylaşma geçişi, yayınları tek tek paylaşmanıza olanak tanır. Gönderi paylaşımını, her gönderinin solunda, sağında veya üst çubuğunda değiştirebileceğinizi görebilirsiniz. Geçiş mavisi rengi, forum stilinizin geçerli birincil rengi (# 12). Örneğin, kırmızı forum stilini kullanırsanız, tüm paylaşım geçişlerinin rengi kırmızı olur. Bu paylaşım düğmesi renklerini etkilemez. Fare vurgusunda her zaman orijinal renklerle gridirler."
+
+#: wpf-admin/options-tabs/api.php:167
+msgid "Button &amp; Count"
+msgstr "Tuş &amp; Göstergesi"
+
+#: wpf-admin/options-tabs/api.php:166
+msgid "Button"
+msgstr "Tuş"
+
+#: wpf-admin/options-tabs/api.php:165
+msgid "Icon"
+msgstr "İkon"
+
+#: wpf-admin/options-tabs/api.php:162
+msgid "Colored"
+msgstr "Renkli"
+
+#: wpf-admin/options-tabs/api.php:161
+msgid "Grey"
+msgstr "Gri"
+
+#: wpf-admin/options-tabs/api.php:157
+msgid "General share buttons are forum and topic sharing buttons. They are located on the top and the bottom of each page. You can manage location of these buttons using \"Share Buttons Location\" options bellow."
+msgstr "Genel paylaşım düğmeleri, forum ve konu paylaşma düğmeleridir. Her sayfanın üstünde ve altında bulunurlar. Bu düğmelerin konumunu \"Paylaşma Düğmeleri Konumu\" seçeneklerini kullanarak yönetebilirsiniz."
+
+#: wpf-admin/options-tabs/api.php:145 wpf-admin/options-tabs/api.php:173
+#: wpf-admin/options-tabs/api.php:224
+msgid "Post Sharing Toggle"
+msgstr "Yayın Paylaşımı Geçişi"
+
+#: wpf-admin/options-tabs/api.php:138 wpf-admin/options-tabs/api.php:156
+#: wpf-admin/options-tabs/api.php:212
+msgid "General Share Buttons"
+msgstr "Genel Paylaşım Tuşları"
+
+#: wpf-admin/options-tabs/api.php:133
+msgid "Enable Share Buttons"
+msgstr "Paylaşım tuşlarını etkinleştir"
+
+#: wpf-admin/options-tabs/api.php:103
+msgid "Check the checkbox below share options to activate. <b>Please note, that the Facebook share button cannot be activated without Facebook API ID.</b> Please follow to the \"Facebook API Configuration\" option instruction above and fill the API ID field in order to activate Facebook Share button."
+msgstr "Etkinleştirmek için aşağıdaki paylaşım seçeneklerine göz atın. <b>Facebook paylaşma düğmesinin Facebook API kimliği olmadan etkinleştirilemeyeceğini lütfen unutmayın.</b> Lütfen Facebook Paylaşım düğmesini etkinleştirmek için yukarıdaki \"Facebook API Yapılandırması\" seçeneği talimatını uygulayın ve API Kimliği alanını doldurun."
+
+#: wpf-admin/options-tabs/api.php:102
+msgid "Active Share Buttons"
+msgstr "Etkin Paylaşım Tuşları"
+
+#: wpf-includes/wpf-phrases.php:731
+msgid "Target Topic not found"
+msgstr "Hedef konu bulunamadı"
+
+#. Plugin Name of the plugin/theme
+msgid "wpForo"
+msgstr "wpForo"
+
+#: wpf-includes/wpf-phrases.php:748
+msgid "This action changes topic URL. Once the topic is moved to other forum the old URL of this topic will no longer be available."
+msgstr "Bu işlem konu URL'sini değiştirir. Konu başka bir foruma taşındıktan sonra, bu konunun eski URL'si artık kullanılamayacaktır."
+
+#: wpf-includes/wpf-phrases.php:747
+msgid "Move Reply"
+msgstr "Cevabı Taşı"
+
+#: wpf-includes/wpf-phrases.php:746
+msgid "Split"
+msgstr "Ayır"
+
+#: wpf-includes/wpf-phrases.php:745
+msgid "Merge"
+msgstr "Birleştir"
+
+#: wpf-includes/wpf-phrases.php:744
+msgid "Topic once split cannot be unsplit. The first post of new topic becomes the earliest reply."
+msgstr "Ayırma bir kez yapılmışsa tekrar birleştirilemez. Yeni konunun ilk iletisi ilk cevap olur."
+
+#: wpf-includes/wpf-phrases.php:743
+msgid "Select Posts to Split"
+msgstr "Ayırmak için mesajları seç"
+
+#: wpf-includes/wpf-phrases.php:742
+msgid "New Topic Forum"
+msgstr "Yeni Konu Forumu"
+
+#: wpf-includes/wpf-phrases.php:741
+msgid "New Topic Title"
+msgstr "Yeni Konu Başlığı"
+
+#: wpf-includes/wpf-phrases.php:740
+msgid "Create new topic with split posts. The first post of new topic becomes the earliest reply."
+msgstr "Ayrılan mesajlarla yeni konu oluşturun. Yeni konunun ilk iletisi ilk cevap olur."
+
+#: wpf-includes/wpf-phrases.php:739
+msgid "Create New Topic"
+msgstr "Yeni Konu Oluştur"
+
+#: wpf-includes/wpf-phrases.php:738
+msgid "Topics once merged cannot be unmerged. This topic URL will no longer be available."
+msgstr "Birleştirilen konular tekrar ayrılamaz. Bu konu URL'si artık kullanılamayacak."
+
+#: wpf-includes/wpf-phrases.php:737
+msgid "Update post titles with target topic title."
+msgstr "Konu başlıklarını hedef konu başlığıyla güncelleyin."
+
+#: wpf-includes/wpf-phrases.php:736
+msgid "Update post dates (current date) to allow append posts to the end of the target topic."
+msgstr "İletileri hedef konunun sonuna eklemeye izin vermek için gönderi tarihlerini (geçerli tarih) güncelleyin."
+
+#: wpf-includes/wpf-phrases.php:735
+msgid "All posts will be merged and displayed (ordered) in target topic according to posts dates. If you want to append merged posts to the end of the target topic you should allow to update posts dates to current date by check the option below."
+msgstr "Tüm mesajlar, yayın tarihlerine göre hedef başlıkta birleştirilecek ve görüntülenecektir. Birleştirilmiş yayınları hedef konunun sonuna eklemek isterseniz, aşağıdakileri işaretleyerek yayın tarihlerini mevcut tarihe güncellemenize izin vermelisiniz."
+
+#: wpf-includes/wpf-phrases.php:734
+msgid "Please copy the target topic URL from browser address bar and paste in the field below."
+msgstr "Lütfen hedef konu URL'sini tarayıcı adres çubuğundan kopyalayın ve aşağıdaki alana yapıştırın."
+
+#: wpf-includes/wpf-phrases.php:733
+msgid "Split Topic"
+msgstr "Konuyu Ayır"
+
+#: wpf-includes/wpf-phrases.php:732
+msgid "Merge Topics"
+msgstr "Konuyu Birleştir"
+
+#: wpf-includes/wpf-phrases.php:730
+msgid "Target Topic URL"
+msgstr "Hedef Konu URL"
+
+#: wpf-includes/wpf-phrases.php:728
+msgid "Forum post like"
+msgstr "Forum iletisi beğeni"
+
+#: wpf-includes/wpf-phrases.php:727
+msgid "Forum post"
+msgstr "Forum iletisi"
+
+#: wpf-includes/wpf-phrases.php:726
+msgid "Forum topic"
+msgstr "Forum konusu"
+
+#: wpf-includes/wpf-phrases.php:725
+msgid "Read more"
+msgstr "Devamı"
+
+#: wpf-includes/wpf-phrases.php:724
+msgid "%s liked forum post %s"
+msgstr "%s, %s forum iletisini beğendi"
+
+#: wpf-includes/wpf-phrases.php:722
+msgid "%s created a new topic %s"
+msgstr "%s, %s adında yeni bir konu oluşturdu"
+
+#: wpf-includes/wpf-phrases.php:588
+msgid "Can view poll result"
+msgstr "Anket sonucunu görebilir"
+
+#: wpf-includes/wpf-phrases.php:587
+msgid "Can vote poll"
+msgstr "Ankete oy verebilir"
+
+#: wpf-includes/wpf-phrases.php:586
+msgid "Can create poll"
+msgstr "Anket oluşturabilir"
+
+#: wpf-includes/wpf-phrases.php:585
+msgid "Can approve/unapprove content"
+msgstr "İçeriği onaylayabilir/reddedebilir"
+
+#: wpf-includes/wpf-phrases.php:584
+msgid "Can view attached files"
+msgstr "Ekli dosyaları görüntüleyebilir"
+
+#: wpf-admin/options-tabs/general.php:64
+msgid "More info"
+msgstr "Daha fazla bilgi"
+
+#: wpf-admin/options-tabs/features.php:80
+msgid "Thank you!"
+msgstr "Teşekkürler!"
+
+#: wpf-admin/options-tabs/features.php:16
+msgid "Enable WordPress Shortcodes in Post Content"
+msgstr "Gönderi İçeriğinde WordPress Kısa Kodlarını Etkinleştir"
+
+#: wpf-admin/dashboard.php:27
+msgid "Welcome to wpForo"
+msgstr "wpForo 'ya Hoşgeldiniz"
+
+#: wpf-admin/addons.php:31 wpf-admin/dashboard.php:37
+msgid "Thank you!<br> Sincerely yours,<br> gVectors Team"
+msgstr "Teşekkürler!<br> Saygılarımızla,<br> gVectors Takımı"
+
+#: wpf-admin/usergroup.php:303
+msgid "Display on Members List"
+msgstr "Üye Listesinde Görüntüle"
+
+#: wpf-includes/wpf-phrases.php:719
+msgid "Forgot Your Password?"
+msgstr "Unutulan parola?"
+
+#: wpf-includes/wpf-phrases.php:718
+msgid "Reset Password"
+msgstr "Parola sıfırla"
+
+#: wpf-includes/wpf-phrases.php:717
+msgid "Please Insert Your Email or Username"
+msgstr "Lütfen E-postanızı veya Kullanıcı Adınızı Giriniz"
+
+#: wpf-includes/wpf-phrases.php:716
+msgid "Enter your email address or username and we'll send you a link you can use to pick a new password."
+msgstr "E-posta adresinizi veya kullanıcı adınızı girin ve size yeni bir şifre almak için kullanabileceğiniz bir bağlantı gönderelim."
+
+#: wpf-includes/wpf-phrases.php:715
+msgid "Join us today!"
+msgstr "Bize şimdi katılın!"
+
+#: wpf-includes/wpf-phrases.php:714
+msgid "Welcome!"
+msgstr "Merhaba!"
+
+#: wpf-includes/wpf-phrases.php:713
+msgid "ERROR: Can't connect to Google reCAPTCHA API"
+msgstr "HATA: Google reCAPTCHA API bağlanamıyor"
+
+#: wpf-includes/wpf-phrases.php:712
+msgid "Google reCAPTCHA verification failed"
+msgstr "Google reCAPTCHA onaylama hatası"
+
+#: wpf-includes/wpf-phrases.php:711
+msgid "You are not allowed to edit this post"
+msgstr "Bu yazıyı düzenlemenize izin verilmiyor"
+
+#: wpf-admin/tools-tabs/antispam.php:211
+msgid "WordPress Reset Password Form"
+msgstr "WordPress Şifre Sıfırlama Formu"
+
+#: wpf-admin/tools-tabs/antispam.php:202
+msgid "WordPress Registration Form"
+msgstr "WordPress Kayıt Formu"
+
+#: wpf-admin/tools-tabs/antispam.php:193
+msgid "WordPress Login Form"
+msgstr "WordPress  Giriş Formu"
+
+#: wpf-admin/tools-tabs/antispam.php:184
+msgid "wpForo Reset Password Form"
+msgstr "wpForo Parola Sıfırlama Formu"
+
+#: wpf-admin/tools-tabs/antispam.php:175
+msgid "wpForo Registration Form"
+msgstr "wpForo Kayıt Formu"
+
+#: wpf-admin/tools-tabs/antispam.php:166
+msgid "wpForo Login Form"
+msgstr "wpForo Giriş Formu"
+
+#: wpf-admin/tools-tabs/antispam.php:156
+msgid "Guest Post Editor"
+msgstr "Konuk Yazım Editörü"
+
+#: wpf-admin/tools-tabs/antispam.php:147
+msgid "Guest Topic Editor"
+msgstr "Konuk Konu Editörü"
+
+#: wpf-admin/tools-tabs/antispam.php:142
+msgid "Dark"
+msgstr "Koyu"
+
+#: wpf-admin/tools-tabs/antispam.php:141
+msgid "Light"
+msgstr "Açık"
+
+#: wpf-admin/tools-tabs/antispam.php:138
+msgid "reCAPTCHA Theme"
+msgstr "reCAPTCHA Teması"
+
+#: wpf-admin/tools-tabs/antispam.php:133
+msgid "reCAPTCHA Settings"
+msgstr "reCAPTCHA Ayarları"
+
+#: wpf-admin/tools-tabs/antispam.php:126
+msgid "Secret Key"
+msgstr "Gizli Anahtar"
+
+#: wpf-admin/tools-tabs/antispam.php:120
+msgid "Site Key"
+msgstr "Site Anahtarı"
+
+#: wpf-admin/tools-tabs/antispam.php:113
+msgid "Register your site and get API keys here &raquo;"
+msgstr "Sitenizi kaydedin ve API anahtarlarını buradan edinin &raquo;"
+
+#: wpf-admin/tools-tabs/antispam.php:112
+msgid "To start using reCAPTCHA, you need to sign up for an API key pair for your site."
+msgstr "ReCAPTCHA'yı kullanmaya başlamak için siteniz için bir API anahtar çifti oluşturmalısınız."
+
+#: wpf-admin/tools-tabs/antispam.php:110
+msgid "reCAPTCHA API keys"
+msgstr "reCAPTCHA API anahtarları"
+
+#: wpf-admin/tools-tabs/antispam.php:108
+msgid "reCAPTCHA protects you against spam and other types of automated abuse. It makes secure topic and post editors when Guest Posting is allowed, also it protects login and registration forms against spam attacks."
+msgstr "reCAPTCHA sizi spam ve diğer kötüye kullanımlara karşı otomatik olarak korur. Misafir gönderiye izin verildiğinde konu ve ileti kontrolü yapar. Ayrıca giriş ve kayıt formlarını spam saldırılarına karşı korur."
+
+#: wpf-admin/tools-tabs/antispam.php:107
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: wpf-admin/options-tabs/posts.php:14
+msgid "Recent Posts Display Type"
+msgstr "Son Mesajlar Görüntüleme Türü"
+
+#: wpf-admin/options-tabs/members.php:81
+msgid "Redirect after subscription confirmation"
+msgstr "Abonelik onayından sonra yönlendir"
+
+#: wpf-admin/options-tabs/members.php:80
+msgid "Redirect after registration"
+msgstr "Kayıttan sonra yönlendir"
+
+#: wpf-admin/options-tabs/members.php:79
+msgid "Redirect after login"
+msgstr "Giriş yaptıktan sonra yönlendir"
+
+#: wpf-admin/options-tabs/members.php:67
+msgid "For member profile, account and subscription pages use following URLs:"
+msgstr "Üye profili için hesap ve abonelik sayfaları aşağıdaki URL'leri kullanır:"
+
+#: wpf-admin/options-tabs/members.php:65
+msgid "Custom Redirection URLs after following actions"
+msgstr "Aşağıdaki işlemlerden sonra Özel Yönlendirme URL'leri"
+
+#: wpf-admin/options-tabs/features.php:24 wpf-includes/wpf-phrases.php:699
+msgid "Replace Reset Password Page URL to Forum Reset Password Page URL"
+msgstr "Parola Sıfırla URL'sini Forumun Parola Sıfırlama Sayfası ile değiştir."
+
+#: wpf-admin/options-tabs/features.php:15
+msgid "Show Member Mention Nicknames"
+msgstr "Bahsedilen Kullanıcı Adlarını Göster"
+
+#. Description of the plugin/theme
+msgid "WordPress Forum plugin. wpForo is a full-fledged forum solution for your community. Comes with multiple modern forum layouts."
+msgstr "WordPress Forum eklentisi. wpForo topluluğunuz için tam teşekküllü bir forum çözümüdür. Çoklu modern forum düzenleri ile birlikte gelir."
+
+#: wpforo.php:758
+msgid "Awards myCRED points for forum activity. Integrates myCRED Badges and Ranks. Converts wpForo topic and posts, likes to myCRED points."
+msgstr "Forum etkinliği için myCRED puanları ile ödüllendirir. MyCRED Rozetleri ve Sıralarını bütünleştirir. WpForo konu ve iletileri myCRED puanlarından hoşlanır."
+
+#: wpforo.php:757
+msgid "wpForo Polls is a complete addon to help forum members create, vote and manage polls effectively. Comes with poll specific permissions and settings."
+msgstr "wpForo Anketler, forum üyelerinin anketleri etkili bir şekilde oluşturmalarına, oylamalarına ve yönetmelerine yardımcı olacak tam bir eklentidir. Ankete özel izinler ve ayarlarla birlikte gelir."
+
+#: wpf-themes/classic/functions.php:127
+msgid "Set this option value 0 if you want to show the whole post content in recent post area."
+msgstr "Son gönderi alanında tüm yayın içeriğinin gösterilmesini istiyorsanız, bu seçeneği 0 olarak ayarlayın."
+
+#: wpf-themes/classic/functions.php:126
+msgid "Extended Layout - Recent post length"
+msgstr "Genişletilmiş Düzen - Son ileti uzunluğu"
+
+#: wpf-themes/classic/functions.php:118
+msgid "Set this option value 0 if you want to show all posts in recent posts area."
+msgstr "Son gönderiler alanındaki tüm mesajları göstermek istiyorsanız, bu seçeneği 0 olarak ayarlayın."
+
+#: wpf-themes/classic/functions.php:117
+msgid "Extended Layout - Number of Recent posts"
+msgstr "Genişletilmiş Düzen - Son mesajların sayısı"
+
+#: wpf-themes/classic/functions.php:107
+msgid "Extended Layout - Recent posts"
+msgstr "Genişletilmiş Düzen - Son iletiler"
+
+#: wpf-themes/classic/functions.php:85
+msgid "Q&A Layout - Recent topic length"
+msgstr "Soru-Cevap Düzeni - Son konu uzunluğu"
+
+#: wpf-themes/classic/functions.php:78
+msgid "Q&A Layout - Number of Recent topics"
+msgstr "Soru-Cevap Düzeni - Son Konuların Sayısı"
+
+#: wpf-themes/classic/functions.php:69
+msgid "Q&A layout - Recent topics"
+msgstr "Soru-Cevap düzeni - Son konular"
+
+#: wpf-themes/classic/functions.php:56 wpf-themes/classic/functions.php:86
+msgid "Set this option value 0 if you want to show the whole title in recent topic area."
+msgstr "Son konu alanında başlığın tamamını göstermek istiyorsanız, bu seçeneği 0 olarak ayarlayın."
+
+#: wpf-themes/classic/functions.php:55
+msgid "Extended Layout - Recent topic length"
+msgstr "Genişletilmiş Düzen - Son konu uzunluğu"
+
+#: wpf-themes/classic/functions.php:48
+msgid "Extended Layout - Number of Recent topics"
+msgstr "Genişletilmiş Düzen - Son Konuların Sayısı"
+
+#: wpf-themes/classic/functions.php:39
+msgid "Extended Layout - Recent topics"
+msgstr "Genişletilmiş Düzen - Son konular"
+
+#: wpf-includes/wpf-phrases.php:708
+msgid "You can mention a person using @nicename in post content to send that person an email message. When you post a topic or reply, forum sends an email message to the user letting them know that they have been mentioned on the post."
+msgstr "Bu kişiye bir e-posta mesajı göndermek için, içerikte @nicename kullanarak ilgili kişiden söz edebilirsiniz. Bir konu veya cevap gönderdiğinizde, forum, kullanıcıya iletide kendinden bahsedildiğini bildiren bir e-posta mesajı gönderir."
+
+#: wpf-includes/wpf-phrases.php:707
+msgid "in forum"
+msgstr "forumda"
+
+#: wpf-includes/wpf-phrases.php:706
+msgid "forum link"
+msgstr "forum bağlantısı"
+
+#: wpf-includes/class-api.php:235
+msgid "Invalid User"
+msgstr "Geçersiz Kullanıcı"
+
+#: wpf-includes/class-api.php:230
+msgid "Your email is required to be able authorize you here. Please try loging again. "
+msgstr "E-postanız sizi burada yetkilendirmek için gereklidir. Lütfen tekrar giriş yapmayı deneyin."
+
+#: wpf-includes/class-api.php:203
+msgid "Please login into Facebook and then click connect button again"
+msgstr "Lütfen Facebook’a giriş yapın ve tekrar bağlan düğmesine tıklayın."
+
+#: wpf-admin/usergroup.php:259
+msgid "use default link color"
+msgstr "varsayılan bağlantı rengini kullan"
+
+#: wpf-admin/usergroup.php:258
+msgid "Usergroup Color"
+msgstr "Üye Grubu Rengi"
+
+#: wpf-admin/usergroup.php:93
+msgid "default (#15)"
+msgstr "varsayılan (#15)"
+
+#: wpf-admin/usergroup.php:33
+msgid "Default Access"
+msgstr "Varsayılan Erişim"
+
+#: wpf-admin/tools.php:17
+msgid "Misc"
+msgstr "Çeşitli"
+
+#: wpf-admin/tools-tabs/misc.php:27
+msgid "The noIndex code tells Google and other search engines to NOT index the page, so that it cannot be found in search results. Please insert page URLs you do not want to be indexed one per line in the textarea bellow."
+msgstr "NoIndex kodu, Google’ın ve diğer arama motorlarının, sayfayı arama motorlarında dizine eklememesi gerektiğini bildirir. Lütfen ilgili alana  satır başına bir tane olmak üzere dizine eklenmesini istemediğiniz sayfa URL'lerini girin."
+
+#: wpf-admin/tools-tabs/misc.php:26
+msgid "Noindex forum page URLs"
+msgstr "Noindex forum sayfası URL'leri"
+
+#: wpf-admin/tools-tabs/misc.php:19
+msgid "wpForo adds nofollow to all links with external URLs. If you want to keep some domains as internal please insert domains one per line in the textarea bellow."
+msgstr "wpForo, harici URL'lere sahip tüm bağlantılara nofollow ekler. Bazı alanları dahili olarak tutmak istiyorsanız, ilgili alana satır başına bir tane olmak üzere ekleyin."
+
+#: wpf-admin/tools-tabs/misc.php:18
+msgid "Allowed dofollow domains"
+msgstr "İzin verilen dofollow domainleri"
+
+#: wpf-admin/tools-tabs/misc.php:10
+msgid "SEO Tools"
+msgstr "AMO Araçları"
+
+#: wpf-admin/options.php:23
+msgid "API's"
+msgstr "API'ler"
+
+#: wpf-admin/tools-tabs/legal.php:15
+msgid "Documentation"
+msgstr "Dokümantasyon"
+
+#: wpf-admin/options-tabs/members.php:100
+msgid "Member Custom Title by default"
+msgstr "Varsayılan olarak Üye Özel Başlığı"
+
+#: wpf-admin/options-tabs/members.php:91
+msgid "Member Custom Titles"
+msgstr "Üye Özel Başlıkları"
+
+#: wpf-admin/options-tabs/features.php:23 wpf-includes/wpf-phrases.php:259
+msgid "Replace Login Page URL to Forum Login Page URL"
+msgstr "Giriş Sayfası URL'sini Forum Giriş Sayfası URL'sine değiştirin"
+
+#: wpf-admin/options-tabs/features.php:22 wpf-includes/wpf-phrases.php:260
+msgid "Replace Registration Page URL to Forum Registration Page URL"
+msgstr "Kayıt Sayfası URL'sini Forum Kayıt Sayfası URL'sine değiştirin"
+
+#: wpf-admin/options-tabs/emails.php:158
+msgid "User Mention message body"
+msgstr "Üye bahsediş ileti içeriği"
+
+#: wpf-admin/options-tabs/emails.php:154
+msgid "User Mention message subject"
+msgstr "Üye bahsediş ileti konusu"
+
+#: wpf-admin/options-tabs/emails.php:144
+msgid "Enable Email Notification"
+msgstr "E-posta  Bildirimini Etkinleştir"
+
+#: wpf-admin/options-tabs/emails.php:139
+msgid "User Mentioning Email"
+msgstr "Üyeye E-posta Gönderme"
+
+#: wpf-admin/options-tabs/api.php:86
+msgid "Custom URL"
+msgstr "Özel URL"
+
+#: wpf-admin/options-tabs/api.php:86
+msgid "Custom URL, e.g.: http://example.com/my-page/"
+msgstr "Özel URL, örn.: http://example.com/my-page/"
+
+#: wpf-admin/options-tabs/api.php:84
+msgid "Custom"
+msgstr "Özel"
+
+#: wpf-admin/options-tabs/api.php:78
+msgid "Redirect to this page after success login"
+msgstr "Oturum açıldığında bu sayfaya yönlendir"
+
+#: wpf-admin/options-tabs/api.php:67
+msgid "Facebook Login button on User Registration page"
+msgstr "Üye kayıt sayfasında facebook oturum açma tuşu"
+
+#: wpf-admin/options-tabs/api.php:56
+msgid "Facebook Login button on User Login page"
+msgstr "Oturum açma sayfasında facebook oturum açma tuşu"
+
+#: wpf-admin/options-tabs/api.php:45
+msgid "Facebook API connection script (sharing, login, cross-posting...)"
+msgstr "Facebook API bağlantı betiği (sharing, login, cross-posting...)"
+
+#: wpf-admin/options-tabs/api.php:44
+msgid "Facebook SDK for JavaScript"
+msgstr "Javascript için Facebook SDK "
+
+#: wpf-admin/options-tabs/api.php:38 wpf-admin/options-tabs/api.php:50
+#: wpf-admin/options-tabs/api.php:61 wpf-admin/options-tabs/api.php:72
+#: wpf-admin/options-tabs/api.php:141 wpf-admin/options-tabs/api.php:148
+#: wpf-admin/options-tabs/members.php:95 wpf-admin/options-tabs/posts.php:30
+#: wpf-admin/options-tabs/posts.php:42 wpf-admin/tools-tabs/legal.php:49
+#: wpf-admin/tools-tabs/legal.php:61 wpf-admin/tools-tabs/legal.php:83
+#: wpf-admin/tools-tabs/legal.php:118 wpf-admin/tools-tabs/legal.php:130
+#: wpf-admin/tools-tabs/legal.php:149
+msgid "Disable"
+msgstr "Etkisizleştir"
+
+#: wpf-admin/options-tabs/api.php:37 wpf-admin/options-tabs/api.php:49
+#: wpf-admin/options-tabs/api.php:60 wpf-admin/options-tabs/api.php:71
+#: wpf-admin/options-tabs/api.php:140 wpf-admin/options-tabs/api.php:147
+#: wpf-admin/options-tabs/members.php:94 wpf-admin/options-tabs/posts.php:29
+#: wpf-admin/options-tabs/posts.php:41 wpf-admin/tools-tabs/legal.php:48
+#: wpf-admin/tools-tabs/legal.php:60 wpf-admin/tools-tabs/legal.php:82
+#: wpf-admin/tools-tabs/legal.php:117 wpf-admin/tools-tabs/legal.php:129
+#: wpf-admin/tools-tabs/legal.php:148
+msgid "Enable"
+msgstr "Etkinleştir"
+
+#: wpf-admin/options-tabs/api.php:33
+msgid "Adds Facebook Login button on Registration and Login pages."
+msgstr "Kayıt ve oturum açma sayfalarına Facebook oturum tuşları ekler."
+
+#: wpf-admin/options-tabs/api.php:32
+msgid "Facebook Login"
+msgstr "Facebook Girişi"
+
+#: wpf-admin/options-tabs/api.php:27
+msgid "App Secret"
+msgstr "App Secret"
+
+#: wpf-admin/options-tabs/api.php:26
+msgid "App ID"
+msgstr "App ID"
+
+#: wpf-admin/options-tabs/api.php:23
+msgid "Please follow to this instruction"
+msgstr "Lütfen bu yönergeyi takip edin"
+
+#: wpf-admin/options-tabs/api.php:23
+msgid "In order to get an App ID and Secret Key from Facebook, you’ll need to register a new application. Don’t worry – its very easy, and your application doesn't need to do anything. We only need the keys."
+msgstr "App ID ve App Secret bilgilerini alabilmek için Facebook'ta yeni bir uygulama oluşturmalısınız. Üzülmeyin, bu çok kolaydır ve uygulamanızın birşey yapması gerekmez. Sadece anahtarlara ihtiyacımız var."
+
+#: wpf-admin/options-tabs/api.php:22
+msgid "Facebook API Configuration"
+msgstr "Facebook API Yapılandırması"
+
+#: wpf-includes/wpf-phrases.php:703
+msgid "No posts were found here"
+msgstr "Burada hiç yazı bulunamadı"
+
+#: wpf-admin/tools-tabs/misc.php:104 wpf-includes/wpf-phrases.php:702
+msgid "Recent Posts"
+msgstr "Son Yazılar"
+
+#: wpf-includes/wpf-phrases.php:697
+msgid "Reset Result"
+msgstr "Sonucu sil"
+
+#: wpf-includes/wpf-phrases.php:696
+msgid "Reset Search"
+msgstr "Aramayı sıfırla"
+
+#: wpf-includes/wpf-phrases.php:695
+msgid "Display Name or Nicename"
+msgstr "Kullanıcı adı yada takma ad"
+
+#: wpf-includes/wpf-phrases.php:694
+msgid "Find a member"
+msgstr "Üye ara"
+
+#: wpf-includes/wpf-phrases.php:693
+msgid "Topics RSS Feed"
+msgstr "Konular RSS Beslemesi"
+
+#: wpf-includes/wpf-phrases.php:692
+msgid "Forums RSS Feed"
+msgstr "Forumlar RSS Beslemesi"
+
+#: wpf-includes/wpf-phrases.php:691
+msgid "Add Reply"
+msgstr "Cevap gönder"
+
+#: wpf-includes/functions-installation.php:692
+msgid "Please click the button below to complete wpForo update."
+msgstr "WpForo güncellemesini tamamlamak için lütfen aşağıdaki düğmeyi tıklayın."
+
+#: wpf-includes/functions-installation.php:691
+msgid "wpForo - Update Database "
+msgstr "wpForo - Veritabanını Güncelle"
+
+#: wpf-includes/functions-installation.php:690
+msgid "Updater Database"
+msgstr "Güncelleyici Veritabanı"
+
+#: wpf-includes/functions-installation.php:689
+msgid "This process may take a few seconds or dozens of minutes, please be patient and don't close this page. Database backup is not required. If you got 500 Server Error please don't worry, the data updating process is still working in MySQL server."
+msgstr "Bu işlem birkaç saniye veya dakika sürebilir, lütfen sabırlı olun ve bu sayfayı kapatmayın. Veritabanı yedekleme gerekli değildir. 500 Sunucu Hatası alırsanız endişelenmeyin. Veri güncelleme işlemi yinede MySQL sunucusunda devam etmektedir."
+
+#: wpf-admin/options-tabs/features.php:38 wpf-includes/wpf-phrases.php:700
+msgid "Enable RSS Feed"
+msgstr "RSS beslemesini etkinleştir"
+
+#: wpf-admin/options-tabs/features.php:17 wpf-includes/wpf-phrases.php:698
+msgid "Log Viewed Forums and Topics"
+msgstr "Okunan forum ve konuları kaydet"
+
+#: wpforo.php:759
+msgid "Advanced user profile builder system. Allows to add new fields and manage profile page. Creates custom Registration, Account, Member Search forms."
+msgstr "Gelişmiş kullanıcı profili oluşturucu sistemi. Yeni alanlar eklemeye ve profil sayfasını yönetmeye izin verir. Özel Kayıt, Hesap, Üye Arama formları oluşturur."
+
+#: wpf-includes/wpf-phrases.php:688
+msgid "Required field"
+msgstr "Gerekli alan"
+
+#: wpf-includes/wpf-phrases.php:687
+msgid "--- Choose ---"
+msgstr "--- Seçin ---"
+
+#: wpf-includes/wpf-phrases.php:683
+msgid "approved"
+msgstr "onaylanmış"
+
+#: wpf-includes/wpf-phrases.php:650
+msgid "You do not have permission to view this page"
+msgstr "Bu sayfayı görüntüleme izniniz yok"
+
+#: wpf-admin/usergroup.php:299
+msgid "This is only used when a new Usergroup is created, it automatically gets the selected Forum Access in all forums."
+msgstr "Sadece yeni üye grubu oluşturulduğunda kullanılır. Tüm forumlardaki forum erişim yetkilerini gösterir."
+
+#: wpf-admin/usergroup.php:291
+msgid "Default Forum Access"
+msgstr "Varsayılan forum erişimi"
+
+#: wpf-admin/usergroup.php:85
+msgid "Set as Default"
+msgstr "Vaysayılan olarak ayarla"
+
+#: wpf-admin/usergroup.php:82
+msgid "is Default"
+msgstr "varsayılan"
+
+#: wpf-admin/options-tabs/members.php:40
+msgid "Filter"
+msgstr "Filtre"
+
+#: wpf-admin/options-tabs/members.php:36 wpf-includes/wpf-phrases.php:701
+msgid "Members Search Type"
+msgstr "Üye arama türü"
+
+#: wpf-admin/options-tabs/emails.php:134
+msgid "Reset Password message body"
+msgstr "Parola Sıfırla iletisi içeriği"
+
+#: wpf-admin/options-tabs/emails.php:130
+msgid "This message comes from Reset Password form."
+msgstr "Bu ileti Parolayı Sıfırla Formundan gelmektedir."
+
+#: wpf-admin/options-tabs/emails.php:129
+msgid "Reset Password Emails"
+msgstr "Parola e-postalarını sıfırla"
+
+#: wpforo.php:762
+msgid "Blog to Forum and Forum to Blog content synchronization. Blog posts with Forum topics and Blog comments with Forum replies."
+msgstr "Blog ile forum ve forum ile blog arası içerik senkronizasyonu. Blog yazıları ile forum konuları  ve blog yorumları ile forum cevapları."
+
+#: wpf-includes/wpf-phrases.php:680
+msgid "Anonymous"
+msgstr "Anonim"
+
+#: wpf-includes/wpf-phrases.php:679
+msgid "User Title"
+msgstr "Üye başlığı"
+
+#: wpf-includes/wpf-phrases.php:678
+msgid "Rating Title"
+msgstr "Değerlendirme başılığı"
+
+#: wpf-admin/usergroup.php:30 wpf-includes/wpf-phrases.php:677
+msgid "Usergroup"
+msgstr "Üye grubu"
+
+#: wpforo.php:763
+msgid "Ads Manager is a powerful yet simple advertisement management system, that allows you to add adverting banners between forums, topics and posts."
+msgstr "Reklam yöneticisi forumlar,konular ve yazılar arasına reklam bannerleri ekemenizi sağlayan basit ve güçlü bir reklam yönetim sistemidir"
+
+#: wpf-includes/wpf-hooks.php:1960
+msgid "New Usergroup"
+msgstr "Yeni üye grubu"
+
+#: wpf-includes/wpf-hooks.php:1884
+msgid "Community"
+msgstr "Topluluk"
+
+#: wpf-includes/wpf-hooks.php:1861 wpf-includes/wpf-hooks.php:1976
+msgid "New Phrase"
+msgstr "Yeni ifade"
+
+#: wpf-includes/wpf-hooks.php:1853
+msgid "New User Group"
+msgstr "Yeni üye grubu"
+
+#: wpf-includes/wpf-hooks.php:1845 wpf-includes/wpf-hooks.php:1908
+msgid "New Forum"
+msgstr "Yeni forum"
+
+#: wpf-includes/functions-installation.php:678
+msgid "Forum users' profile data are not synchronized yet, this step is required! Please click the button below to complete installation."
+msgstr "Forum kullanıcılarının profil verileri henüz eşitlenmedi, bu adım zorunludur. Kurulumu tamamlamak için lütfen aşağıdaki tuşu tıklayın."
+
+#: wpf-includes/functions-installation.php:677
+msgid "wpForo Forum Installation | "
+msgstr "WpForo Forum Kurulum |"
+
+#: wpf-includes/functions-installation.php:675
+msgid "You can permanently disable this message in Dashboard > Forums > Features admin page."
+msgstr "Bu mesajı kalıcı olarak Pano > Forumlar > Özellikler admin sayfasından iptal edebilirsiniz."
+
+#: wpf-includes/functions-installation.php:674
+msgid "This process may take a few seconds or dozens of minutes, please be patient and don't close this page."
+msgstr "Bu işlem birkaç yada onlarca dakika sürebilir, lütfen sabırlı olun ve bu sayfayı kapatmayın."
+
+#: wpf-includes/functions-installation.php:671
+msgid "Continue Synchronization"
+msgstr "Senkronizasyona devam et"
+
+#: wpf-includes/functions-installation.php:671
+msgid "Start Profile Synchronization"
+msgstr "Profil senkrozinasyonunu başlat"
+
+#: wpf-admin/tools-tabs/cleanup.php:36
+msgid "Enable Auto-cleanup of inactive users"
+msgstr "Aktif olmayan üyeler için otomatik temizlemeyi etkinleştir"
+
+#: wpf-admin/tools-tabs/cleanup.php:25
+msgid "Filter by Usergroups"
+msgstr "Üye grupları ile filtreleme"
+
+#: wpf-admin/tools-tabs/cleanup.php:20
+msgid "days ago"
+msgstr "gün önce"
+
+#: wpf-admin/tools-tabs/cleanup.php:19
+msgid "Inactive users who have been registered more than"
+msgstr "Kayıt süresi eski olan aktif olmayan üyeler"
+
+#: wpf-admin/tools-tabs/cleanup.php:13
+msgid "Inactive users are the account owners who have no topics, posts, comments and subscriptions for new content. In 99&#37; cases this kind of accounts are being registered by Spammers. This tool allows you to only keep active and known inactive users."
+msgstr "Etkinleştirilmemiş kullanıcılar, konusu, yazısı, yorumu ve aboneliği olmayan hesap sahipleridir. Bu tür hesapların %99'u istenmeyen gönderim yapan kişiler tarafından oluşturulmuştur. Bu araç etkin olan ve bilinen etkinolmayan kullanıcıları korumanıza olanak sağlar."
+
+#: wpf-admin/tools-tabs/cleanup.php:12
+msgid "Delete Inactive Users"
+msgstr "Aktif olmayan kullanıcıları sil"
+
+#: wpf-admin/options-tabs/members.php:161
+msgid "Display Usergroup under Post Author Avatar"
+msgstr "Yazar avatarının altında kullanıcı grubunu göster"
+
+#: wpf-admin/options-tabs/members.php:87 wpf-includes/wpf-phrases.php:175
+msgid "Member Reputation and Titles"
+msgstr "Üye itibar ve başlıkları"
+
+#: wpf-admin/options-tabs/features.php:39
+msgid "Turn Off User Syncing Note"
+msgstr "Kullanıcı senkronizasyon notlarını kapat"
+
+#: wpf-admin/options-tabs/features.php:37
+msgid "Enable User Profile Page indexing"
+msgstr "Kullanıcı profil sayfasının indekslenmesine izin ver"
+
+#: wpf-admin/options-tabs/features.php:34
+msgid "Enable Memory Cache"
+msgstr "Hafıza önbelleğini aktifleştir"
+
+#: wpf-admin/options-tabs/features.php:33
+msgid "Enable HTML Cache"
+msgstr "HTML önbelleğini aktifleştir"
+
+#: wpf-admin/options-tabs/features.php:32
+msgid "Enable Object Cache"
+msgstr "Nesne önbelleğini aktifleştir"
+
+#: wpf-admin/dashboard.php:203
+msgid "Delete All Caches"
+msgstr "Tüm önbelleği sil"
+
+#: wpf-includes/wpf-phrases.php:674
+msgid "Submit"
+msgstr "Gönder"
+
+#: wpf-includes/wpf-phrases.php:673
+msgid "removed link"
+msgstr "bağlantı kaldırılmış"
+
+#: wpf-includes/wpf-phrases.php:672
+msgid "Post is empty"
+msgstr "Gönderi boş"
+
+#: wpf-includes/wpf-phrases.php:671 wpf-includes/wpf-phrases.php:776
+msgid "You are not allowed to attach this file type"
+msgstr "Bu dosya türünü eklemenize izin verilmiyor"
+
+#: wpf-includes/wpf-phrases.php:684
+msgid "unapproved"
+msgstr "Onaylanmayan"
+
+#: wpf-includes/wpf-phrases.php:670
+msgid "Done!"
+msgstr "Tamam"
+
+#: wpf-includes/wpf-phrases.php:669
+msgid "Settings successfully updated"
+msgstr "Ayarlar başarıyla güncellendi"
+
+#: wpf-includes/wpf-phrases.php:668
+msgid "Topic first post data not found."
+msgstr "Konunun ilk yazı verisi bulunamadı."
+
+#: wpf-includes/wpf-phrases.php:667
+msgid "Topic first post not found."
+msgstr "Konunun ilk yazısı bulunamadı."
+
+#: wpf-includes/wpf-phrases.php:666
+msgid "Awaiting moderation"
+msgstr "Moderasyon bekliyor"
+
+#: wpf-includes/wpf-hooks.php:1664
+msgid "This post is currently unapproved. You can approve posts in Dashboard &raquo; Forums &raquo; Moderation admin page."
+msgstr "Bu yazı şu anda onaylı değildir. Pano &raquo; Forumlar &raquo;  Moderasyon yönetim sayfasından onaylayabilirsiniz. "
+
+#: wpf-includes/wpf-hooks.php:1565
+msgid "This topic is currently unapproved. You can approve topics in Dashboard &raquo; Forums &raquo; Moderation admin page."
+msgstr "Bu başlık şu anda onaylı değildir. Pano &raquo; forumlar &raquo; moderasyon yönetim sayfasından onaylayabilirsiniz."
+
+#: wpf-includes/wpf-hooks.php:1564 wpf-includes/wpf-hooks.php:1663
+msgid "Please Moderate: "
+msgstr "Lütfen moderasyon işlemi yapın:"
+
+#: wpf-includes/functions.php:683
+msgid "Post"
+msgstr "Yazı"
+
+#: wpf-includes/functions.php:683
+msgid "Topic"
+msgstr "Konu"
+
+#: wpf-includes/functions.php:636 wpf-includes/wpf-phrases.php:685
+msgid "approve"
+msgstr "onayla"
+
+#: wpf-includes/functions.php:636 wpf-includes/wpf-phrases.php:686
+msgid "unapprove"
+msgstr "onaylama"
+
+#: wpf-includes/functions.php:636
+msgid "Approve this item"
+msgstr "Bu öğeyi onayla"
+
+#: wpf-includes/functions.php:636
+msgid "unapprove this item"
+msgstr "Bu öğeyi onaylama"
+
+#: wpf-includes/functions.php:544 wpf-includes/functions.php:560
+msgid "Type"
+msgstr "Tür"
+
+#: wpf-includes/functions.php:486
+msgid "filter by user"
+msgstr "kullanıcıya göre filtrele"
+
+#: wpf-includes/functions.php:389
+msgid "Banned"
+msgstr "Yasaklı"
+
+#: wpf-includes/functions.php:379
+msgid "Published"
+msgstr "Yayınlandı"
+
+#: wpf-includes/functions.php:378
+msgid "Unapproved"
+msgstr "Onaylanmadı"
+
+#: wpf-admin/tools.php:14
+msgid "Antispam"
+msgstr "Antispam"
+
+#: wpf-admin/tools.php:8
+msgid "Forum Tools"
+msgstr "Forum araçları"
+
+#: wpf-admin/tools-tabs/antispam.php:332
+msgid "Are you sure you want to delete all DARK RED marked files listed here. Please download Wordpress /wp-content/uploads/wpforo/ folder to your local computer before deleting files, this is not undoable."
+msgstr "Burada listelenen tüm KOYU KIRMIZI işaretli dosyaları silmek istediğinizden emin misiniz. Dosyaları silmeden önce lütfen Wordpress /wp-content/uploads/wpforo/ klasörünü yerel bilgisayarınıza indirin, bu işlem geri alınamaz."
+
+#: wpf-admin/tools-tabs/antispam.php:330
+msgid "Click to delete Dark Red marked files"
+msgstr "Koyu Kırmızı işaretli dosyaları silmek için tıklayın"
+
+#: wpf-admin/tools-tabs/antispam.php:326
+msgid "Are you sure you want to delete all RED marked files listed here. Please download Wordpress /wp-content/uploads/wpforo/ folder to your local computer before deleting files, this is not undoable."
+msgstr "Burada listelenen tüm KIRMIZI işaretli dosyaları silmek istediğinizden emin misiniz. Dosyaları silmeden önce lütfen Wordpress /wp-content/uploads/wpforo/ klasörünü yerel bilgisayarınıza indirin, bu işlem geri alınamaz."
+
+#: wpf-admin/tools-tabs/antispam.php:324
+msgid "Click to delete Red marked files"
+msgstr "Kırmızı işaretli dosyaları silmek için tıklayın"
+
+#: wpf-admin/tools-tabs/antispam.php:320
+msgid "Are you sure you want to delete all ORANGE marked files listed here. Please download Wordpress /wp-content/uploads/wpforo/ folder to your local computer before deleting files, this is not undoable."
+msgstr "Burada listelenen tüm TURUNCU işaretli dosyaları silmek istediğinizden emin misiniz. Dosyaları silmeden önce lütfen Wordpress /wp-content/uploads/wpforo/klasörünü yerel bilgisayarınıza indirin, bu geri alınamaz."
+
+#: wpf-admin/tools-tabs/antispam.php:318
+msgid "Click to delete Orange marked files"
+msgstr "Turuncu işaretli dosyaları silmek için tıklayın"
+
+#: wpf-admin/tools-tabs/antispam.php:315 wpf-admin/tools-tabs/antispam.php:321
+#: wpf-admin/tools-tabs/antispam.php:327 wpf-admin/tools-tabs/antispam.php:333
+msgid "Delete All"
+msgstr "Tümünü Sil"
+
+#: wpf-admin/tools-tabs/antispam.php:314
+msgid "Are you sure you want to delete all BLUE marked files listed here. Please download Wordpress /wp-content/uploads/wpforo/ folder to your local computer before deleting files, this is not undoable."
+msgstr "Burada listelenen tüm MAVİ işaretli dosyaları silmek istediğinizden emin misiniz. Dosyaları silmeden önce lütfen Wordpress /wp-content/uploads/wpforo/klasörünü yerel bilgisayarınıza indirin, bu işlem geri alınamaz."
+
+#: wpf-admin/tools-tabs/antispam.php:313
+msgid "Click to delete Blue marked files"
+msgstr "Mavi işaretli dosyaları silmek için tıklayın"
+
+#: wpf-admin/tools-tabs/antispam.php:302
+msgid "Are you sure you want to permanently delete this file?"
+msgstr "Bu dosyayı kalıcı olarak silmek istediğinden emin misin?"
+
+#: wpf-admin/tools-tabs/antispam.php:302
+msgid "Delete this file"
+msgstr "Bu dosyayı sil"
+
+#: wpf-admin/tools-tabs/antispam.php:275
+msgid "Directory"
+msgstr "Dizin"
+
+#: wpf-admin/tools-tabs/antispam.php:254
+msgid "This tool is designed to find attachment which have been uploaded by spammers. The tool checks most common spammer filenames and suggest to delete but you should check one by one and make sure those are spam files before deleting."
+msgstr "Bu araç, spam gönderenler tarafından yüklenen eki bulmak üzere tasarlanmıştır. Araç, en yaygın spam dosya adlarını kontrol eder ve silmek için öneride bulunur, Fakat birer birer kontrol etmeli ve bunları silinmeden önce spam dosyaları olduğundan emin olmalısınız."
+
+#: wpf-admin/tools-tabs/antispam.php:253
+msgid "Possible Spam Attachments"
+msgstr "Muhtemel istenmeyen dosya ekleri"
+
+#: wpf-admin/tools-tabs/antispam.php:95
+msgid "Do not allow to attach files with following extensions:"
+msgstr "Aşağıdaki uzantılar için dosya eklerine izin verme:"
+
+#: wpf-admin/tools-tabs/antispam.php:90
+msgid "Min number of posts to be able post links"
+msgstr "Bağlantı gönderebilmek için gerekli en az yazı sayısı"
+
+#: wpf-admin/tools-tabs/antispam.php:86
+msgid "Min number of posts to be able attach files"
+msgstr "Dosya eki için gerekli en az yazı sayısı"
+
+#: wpf-admin/tools-tabs/antispam.php:83
+msgid "posts"
+msgstr "yazılar"
+
+#: wpf-admin/tools-tabs/antispam.php:83
+msgid "first"
+msgstr "ilk"
+
+#: wpf-admin/tools-tabs/antispam.php:81
+msgid "User is New (under hard spam control) during"
+msgstr "Yeni Kullanıcının (spam kontrolünde) süresi"
+
+#: wpf-admin/tools-tabs/antispam.php:74
+msgid "Some useful options to limit just registered users and minimize spam. These options don't affect users whose Usergroup has \"Can edit member\" and \"Can pass moderation\" permissions."
+msgstr "Spam miktarını en aza indiren ve sadece kayıtlı kullanıcıları sınırlandıran bazı kullanışlı seçenekler. Bu seçenekler, kullanıcı grubu \"Üye düzenleyebilir\" ve \"yetkilendirmeyi geçebilir\" izinlerine sahip olan kullanıcıları etkilemez."
+
+#: wpf-admin/tools-tabs/antispam.php:73
+msgid "New Registered User"
+msgstr "Yeni kayıtlı kullanıcı"
+
+#: wpf-admin/tools-tabs/antispam.php:64
+msgid " is enabled"
+msgstr "etkinleştirildi"
+
+#: wpf-admin/tools-tabs/antispam.php:59
+msgid "Spam Suspicion Level for Posts"
+msgstr "Yazılar İçin spam şüphe seviyesi"
+
+#: wpf-admin/tools-tabs/antispam.php:55
+msgid "Spam Suspicion Level for Topics"
+msgstr "Konular için spam şüphe seviyesi"
+
+#: wpf-admin/tools-tabs/antispam.php:46
+msgid "Notify via email when new user is banned"
+msgstr "Yeni kullanıcı yasaklandığında e-posta ile bildir"
+
+#: wpf-admin/tools-tabs/antispam.php:37
+msgid "Ban user when spam is suspected"
+msgstr "Gereksiz ileti şüphesinde kullanıcıyı yasakla"
+
+#: wpf-admin/tools-tabs/antispam.php:28
+msgid "Enable wpForo Spam Control"
+msgstr "wpForo spam kontrolünü etkinleştir"
+
+#: wpf-admin/tools-tabs/antispam.php:22
+msgid "Some useful options to limit just registered users and minimize spam. This control don't affect users whose Usergroup has \"Can edit member\" and \"Can pass moderation\" permissions."
+msgstr "Spam miktarını en aza indiren ve sadece kayıtlı kullanıcıları sınırlandıran bazı kullanışlı seçenekler. Bu seçenekler, kullanıcı grubu \"Üye düzenleyebilir\" ve \"yetkilendirmeyi geçebilir\" izinlerine sahip olan kullanıcıları etkilemez."
+
+#: wpf-admin/tools-tabs/antispam.php:21
+msgid "Spam Control"
+msgstr "Spam kontrol"
+
+#: wpf-admin/tools-tabs/antispam.php:11
+msgid "is not installed! For an advanced Spam Control please install Akismet antispam plugin, it works well with wpForo Spam Control system. Akismet is already integrated with wpForo. It'll help to filter posts and protect forum against spam attacks."
+msgstr "yüklü değil. Gelişmiş bir spam kontrolü için lütfen Akismet antispam eklentisini kurun, wpForo bu spam kontrol sistemi ile oldukça iyi çalışır. Akismet zaten wpForo ile entegredir. Yazıları filtrelemek ve forumu spam saldırılarına karşı korumak için yardımcı olacaktır."
+
+#: wpf-admin/moderation.php:10
+msgid "Topic and Post Moderation"
+msgstr "Konu ve yazı yönetimi"
+
+#: wpf-admin/admin.php:29 wpf-includes/wpf-hooks.php:1935
+msgid "Moderation"
+msgstr "Moderasyon"
+
+#: wpf-admin/admin.php:28 wpf-includes/wpf-hooks.php:1926
+#: wpf-includes/wpf-phrases.php:729
+msgid "Tools"
+msgstr "Araçlar"
+
+#: wpf-includes/wpf-phrases.php:663
+msgid "Subscribe to this topic"
+msgstr "Bu konuya abone ol"
+
+#: wpforo.php:761
+msgid "Provides a safe way to communicate directly with other members. Messages are private and can only be viewed by conversation participants."
+msgstr "Diğer üyelerle doğrudan iletişim kurmanın güvenli bir yolunu sağlar. Mesajlar özeldir ve yalnızca katılımcıları tarafından görülebilir."
+
+#: wpf-includes/wpf-phrases.php:662
+msgid "You are not permitted to subscribe here"
+msgstr "Buraya abone olmanıza izin verilmiyor"
+
+#: wpf-includes/wpf-phrases.php:661
+msgid "Forum ID is not detected"
+msgstr "Forum ID bulunamadı"
+
+#: wpf-includes/wpf-phrases.php:660
+msgid "Only Admins and Moderators can see your private topics."
+msgstr "Özel konularınızı yalnızca yöneticiler ve moderatörler görebilir."
+
+#: wpf-includes/wpf-phrases.php:659
+msgid "Private Topic"
+msgstr "Özel konu"
+
+#: wpf-includes/wpf-phrases.php:658
+msgid "public"
+msgstr "genel"
+
+#: wpf-includes/wpf-phrases.php:657
+msgid "private"
+msgstr "özel"
+
+#: wpf-includes/wpf-phrases.php:656
+msgid "Can view private topic"
+msgstr "Özel konuyu görebilir"
+
+#: wpf-includes/wpf-phrases.php:655
+msgid "Can set own topic private"
+msgstr "Kendi konusunu özel yapabilir"
+
+#: wpf-includes/wpf-phrases.php:577
+msgid "Can set topic private"
+msgstr "Konuyu özel olarak ayarlayabilir"
+
+#: wpf-includes/wpf-phrases.php:132
+msgid "Google+"
+msgstr "Google+"
+
+#: wpf-includes/functions.php:457
+msgid "filter by package"
+msgstr "pakete göre filtrele"
+
+#: wpf-includes/class-notices.php:168
+msgid "View all Addons"
+msgstr "Tüm eklentileri gör"
+
+#: wpf-includes/class-notices.php:155
+msgid "Extend your forum with wpForo addons"
+msgstr "Forumunuzu wpForo eklentileri ile genişletin"
+
+#: wpf-includes/class-notices.php:155
+msgid "New Addons for Your Forum!"
+msgstr "Forumunuz için yeni eklentiler"
+
+#: wpf-admin/forum.php:206
+msgid "Make sure you insert a class of font-awesome icon, it should start with fa- prefix like &quot;fas fa-comments&quot;."
+msgstr "Bir font-awesome simge sınıfını eklediğinizden emin olun. fa- öneki ile başlamalıdır. örnek: &quot;fas fa-comments&quot;."
+
+#: wpf-admin/forum.php:206
+msgid "here"
+msgstr "buraya tıklayın"
+
+#: wpf-admin/forum.php:206
+msgid "You can find all icons"
+msgstr "Tüm ikonlar için "
+
+#: wpf-admin/forum.php:204
+msgid "Font-awesome Icon"
+msgstr "Font-awesome ikon"
+
+#: wpf-admin/forum.php:201
+msgid "Forum Icon"
+msgstr "Forum ikon"
+
+#: wpf-includes/wpf-phrases.php:182
+msgid "You have been banned. Please contact to forum administrators for more information."
+msgstr "Yasaklandınız. Daha fazla bilgi için lütfen forum yöneticilerine iletişime geçin."
+
+#: wpf-includes/functions.php:626
+msgid "Are you sure, you want to ban this user?"
+msgstr "Bu üyeyi yasaklamak istediğinizden emin misiniz?"
+
+#: wpf-includes/functions.php:626
+msgid "Are you sure, you want to unban this user?"
+msgstr "Bu üyenin yasağını kaldırmak istediğinizden emin misiniz?"
+
+#: wpf-includes/functions.php:626
+msgid "ban user"
+msgstr "üyeyi yasakla"
+
+#: wpf-includes/functions.php:626
+msgid "unban user"
+msgstr "üyenin yasağını kaldır"
+
+#: wpf-includes/functions.php:441
+msgid "filter by status"
+msgstr "duruma göre filtrele"
+
+#: wpf-includes/functions.php:429 wpf-includes/wpf-phrases.php:350
+msgid "filter by group"
+msgstr "Gruba göre filtrele"
+
+#: wpf-includes/class-posts.php:37
+msgid "You are not permitted to view this attachment"
+msgstr "Bu eki görmenize izin verilmiyor"
+
+#: wpf-includes/class-members.php:1809
+msgid "Attribute all content to:"
+msgstr "Tüm içeriğin niteliğini değiştir:"
+
+#: wpf-includes/class-members.php:1807
+msgid "Delete all wpForo content."
+msgstr "Tüm wpForo içeriğini sil."
+
+#: wpf-includes/class-members.php:1803
+msgid "What should be done with wpForo content owned by these users?"
+msgstr "Bu üyelerin sahip olduğu wpForo içeriği ile ne yapılacak?"
+
+#: wpf-includes/class-members.php:1801
+msgid "What should be done with wpForo content owned by this user?"
+msgstr "Bu üyenin sahip olduğu wpForo içeriği ile ne yapılacak?"
+
+#: wpf-includes/class-members.php:174
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr "<strong>HATA</strong>: Bu e-posta adresi zaten kayıtlı, başka bir tane seçin."
+
+#: wpf-includes/class-members.php:168
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>HATA</strong>: Bu e-posta adresi yanlış."
+
+#: wpf-includes/class-members.php:163
+msgid "<strong>ERROR</strong>: Please type your email address."
+msgstr "<strong>HATA</strong>: Lütfen e-posta adresinizi girin."
+
+#: wpf-includes/class-members.php:158
+msgid "<strong>ERROR</strong>: Sorry, that username is not allowed."
+msgstr "<strong>HATA</strong>: Üzgünüz, bu üye adına izin verilmiyor."
+
+#: wpf-includes/class-members.php:153
+msgid "<strong>ERROR</strong>: This username is already registered. Please choose another one."
+msgstr "<strong>HATA</strong>: Bu kullanıcı adı zaten kayıtlı. Lütfen başka bir tane seçin."
+
+#: wpf-includes/class-members.php:142
+msgid "<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
+msgstr "<strong>HATA</strong>: Bu kullanıcı adı uygun değil çünkü geçersiz karakterler içeriyor. Lütfen geçerli bir kullanıcı adı girin."
+
+#: wpf-includes/class-members.php:137
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>HATA</strong>: Lütfen bir kullanıcı adı girin."
+
+#: wpf-includes/class-forums.php:666
+msgid "Add a new Forum in this Category"
+msgstr "Bu kategoriye yeni bir forum ekle"
+
+#: wpf-includes/class-forums.php:666
+msgid "Add a new Subforum"
+msgstr "Yeni alt forum ekle"
+
+#: wpf-admin/options-tabs/posts.php:102
+msgid "This message will be displayed when a non-permitted forum member clicks on attached file link in topic and posts."
+msgstr "Bu mesaj, izni olmayan bir üye konu ve yazılardaki ekli dosya bağlantısını tıkladığında görüntülenir."
+
+#: wpf-admin/options-tabs/posts.php:101
+msgid "Attachment click - message for non-permitted users"
+msgstr "Yetkisiz üyeler için dosya eki tıklandığında görüntülenecek mesaj"
+
+#: wpf-admin/options-tabs/general.php:70
+msgid "This option is only related to XML language files. You should upload a translation XML file to have a new language option in this drop-down. If you are using PO/MO translation files you should change WordPress Language in Dashboard > Settings admin page to load according translation for wpForo."
+msgstr "Bu seçenek yalnızca XML dil dosyaları ile ilgilidir. Açılır listede yer alması için yeni bir XML çeviri dosyası yüklemelisiniz. Sitenizde PO/MO çeviri dosyalarını kullanıyorsanız, wpForo' nun dilini değiştirmek için Kontrol Paneli > Ayarlar > Genel sayfasından WordPress dilini değiştirmelisiniz."
+
+#: wpf-admin/options-tabs/general.php:29
+msgid "one URL per line"
+msgstr "her satır için bir URL"
+
+#: wpf-admin/options-tabs/general.php:29
+msgid "Exclude page URLs"
+msgstr "Hariç tutulan sayfa URL'leri"
+
+#: wpf-admin/options-tabs/general.php:26
+msgid "This option will disable WordPress on front-end. Only forum pages and excluded post/pages will be available. wpForo will look like as a stand-alone forum."
+msgstr "Bu seçenek ana sayfanızda WordPress'i devre dışı bırakacaktır. Yalnızca forum sayfaları ve hariç tutulan yazı sayfaları yayınlanacaktır. WpForo, alan adınızda çalışan tek başına bir forum gibi görünecektir."
+
+#: wpf-admin/options-tabs/features.php:52
+msgid "Enable this option if you want the topic subscription checkbox to be checked by default."
+msgstr "Varsayılan olarak konu aboneliği onay kutusunun işaretli olmasını isterseniz bu seçeneği etkinleştirin."
+
+#: wpf-admin/options-tabs/features.php:52
+msgid "Topic subscription option on post editor - checked/enabled"
+msgstr "Yazı editöründeki konu abonelik seçeneği - işaretlendi / etkinleştirildi"
+
+#: wpf-admin/options-tabs/features.php:51
+msgid "This option adds topic subscription checkbox next to new topic and post submit button."
+msgstr "Bu seçenek yeni konu ve yazı gönder butonunun yanına konu aboneliği onay kutusu ekleyecektir."
+
+#: wpf-admin/options-tabs/features.php:51
+msgid "Topic subscription option on post editor"
+msgstr "Yazı editöründe konu abonelik seçeneği"
+
+#: wpf-admin/options-tabs/features.php:21
+msgid "If you have enabled this option, after registering, user can not login without confirming the email."
+msgstr "Bu seçeneği etkinleştirdiyseniz, kayıt işleminden sonra, kullanıcı e-postayı doğrulamadan giriş yapamaz."
+
+#: wpf-admin/options-tabs/features.php:21
+msgid "Enable User Registration email confirmation"
+msgstr "Üye kaydı e-posta doğrulamasını etkinleştir"
+
+#: wpf-admin/options-tabs/emails.php:41
+msgid "Send Notification emails to all email addresses (comma separated ) of forum administrators when a new Reply is created."
+msgstr "Yeni bir yanıt oluşturulduğunda, bildirim e-postalarını tüm forum yöneticilerine yada tüm e-posta adreslerine (virgül ile ayrılmış) gönder."
+
+#: wpf-admin/options-tabs/emails.php:40
+msgid "Notify Admins via email on new Post"
+msgstr "Yeni yazılarda yöneticilere e-posta bildirimi gönder"
+
+#: wpf-admin/options-tabs/emails.php:29
+msgid "Send Notification emails to all email addresses (comma separated ) of forum administrators when a new Topic is created."
+msgstr "Yeni bir konu oluşturulduğunda, bildirim e-postalarını tüm forum yöneticilerine yada tüm e-posta adreslerine (virgül ile ayrılmış) gönder."
+
+#: wpf-admin/options-tabs/emails.php:28
+msgid "Notify Admins via email on new Topic"
+msgstr "Yeni konularda yöneticilere e-posta bildirimi gönder"
+
+#: wpf-admin/options-tabs/emails.php:21
+msgid "Forum Admins email addresses"
+msgstr "Forum yöneticileri e-posta adresleri"
+
+#: wpf-admin/options-tabs/emails.php:16
+msgid "FROM Email Address"
+msgstr "Gönderen e-posta adresi"
+
+#: wpf-admin/options-tabs/emails.php:12
+msgid "FROM Name"
+msgstr "Gönderen ismi"
+
+#: wpf-admin/options-tabs/accesses.php:34
+#: wpf-admin/options-tabs/accesses.php:35
+#: wpf-admin/options-tabs/accesses.php:36
+msgid "usergroup"
+msgstr "üye grubu"
+
+#: wpf-admin/options-tabs/accesses.php:34
+msgid "Guests"
+msgstr "Misafirler"
+
+#: wpf-admin/options-tabs/accesses.php:34
+#: wpf-admin/options-tabs/accesses.php:35
+#: wpf-admin/options-tabs/accesses.php:36
+msgid "This access is usually used for "
+msgstr "Bu erişim genellikle şunun için kullanılır.. "
+
+#: wpf-admin/forum.php:59
+msgid "Forums can be displayed with different layouts (Extended, Simplified, Q&A), just edit the top (blue panels) category and set the layout you want. Child forums' layout depends on the top category (blue panels) layout. They cannot have a different layout."
+msgstr "Forumlar farklı şablonlar ile gösterilebilir (Genişletilmiş, Basitleştirilmiş, Soru-Cevap), sadece üstteki (mavi paneller) kategoriyi düzenleyin ve istediğiniz şablonu seçin. Alt forumlar üst kategori (mavi panel) şablonunu kullanır. Farklı şablonları yoktur."
+
+#: wpf-admin/forum.php:58
+msgid "If a category (blue panels) does not have forums (grey panels) it will not be displayed on front-end. Each category should contain at least one forum."
+msgstr "Eğer bir kategorinin (mavi paneller) forumları (gri paneller) yoksa, ön sayfada görüntülenmez. Her kategori en az bir forum içermelidir."
+
+#: wpf-admin/forum.php:56
+msgid "Important Tips"
+msgstr "Önemli ipuçları"
+
+#: wpf-admin/dashboard.php:182
+msgid "Total Size"
+msgstr "Toplam boyut"
+
+#: wpf-admin/dashboard.php:177
+msgid "Advanced Attachments Size"
+msgstr "Gelişmiş dosya eki boyutu"
+
+#: wpf-admin/dashboard.php:174
+msgid "file(s)"
+msgstr "dosya(lar)"
+
+#: wpf-admin/dashboard.php:173
+msgid "Advanced Attachments"
+msgstr "Gelişmiş dosya ekleri"
+
+#: wpf-admin/dashboard.php:167
+msgid "Default Attachments Size"
+msgstr "Varsayılan dosya eki boyutu"
+
+#: wpf-admin/dashboard.php:163
+msgid "Avatars Size"
+msgstr "Avatar boyutu"
+
+#: wpf-admin/addons.php:64
+msgid "More information about"
+msgstr "Hakkında daha fazla bilgi"
+
+#: wpf-admin/addons.php:58
+msgid "Details | Buy"
+msgstr "Detaylar | satın al"
+
+#: wpf-admin/addons.php:56
+msgid "at least"
+msgstr "en az"
+
+#: wpf-admin/addons.php:55
+msgid "Version"
+msgstr "Sürüm"
+
+#: wpf-admin/addons.php:51
+msgid "Installed"
+msgstr "Kurulu"
+
+#: wpf-admin/addons.php:28
+msgid "All wpForo addons are being developed by wpForo developers at gVectors Team. Addon prices also include a small donation to the hard work wpForo developers do for free. When you buy an addon, you also donate the free wpForo development and support. Addons are the only incoming source for wpForo developers. wpForo is a premium forum plugin which will always be available for free. There will never be paid and pro versions of this forum board. We have another dozens of awesome features in our to-do list which will also be added for free in future releases. So the free wpForo development always stays on the first priority and wpForo is being extended with new free functions and features even faster than before."
+msgstr "Tüm wpForo eklentileri, gVectors Ekibi'ndeki wpForo geliştiricileri tarafından geliştirilmektedir. Addon fiyatları, wpForo geliştiricilerinin ücretsiz olarak yaptığı bu zor iş için küçük bir bağış da barındırır. Bir eklenti satın aldığınızda, ücretsiz wpForo geliştirme ve desteğine de bağışta bulunursunuz. Eklentiler, wpForo geliştiricileri için tek gelir kaynağıdır. WpForo, herzamna ücretsiz sunulacak olan premium bir eklentidir. Bu forum panosunun hiçbir zaman ücretli ve premium sürümü olmayacaktır. Yapılacaklar listemizde, gelecekteki sürümlerde ücretsiz olarak eklenecek düzinelerce muhteşem özellik var. Böylece, ücretsiz wpForo gelişimi her zaman birinci önceliği korur ve wpForo, yeni ücretsiz fonksiyonlarla genişletilebilir ve daha önce hiç olmadığı kadar hızlandırılabilir."
+
+#: wpf-admin/addons.php:14 wpf-admin/addons.php:22
+msgid "wpForo Addons"
+msgstr "wpForo eklentileri"
+
+#: wpforo.php:756
+msgid "Allows to embed hundreds of video, social network, audio and photo content providers in forum topics and posts."
+msgstr "Forum konularına ve yazılarına yüzlerce video, sosyal ağ, ses ve fotoğraf içeriği eklemenize olanak sağlar."
+
+#: wpforo.php:760
+msgid "Adds an advanced file attachment system to forum topics and posts. AJAX powered media uploading and displaying system with user specific library."
+msgstr "Forum konularına ve yazılarına gelişmiş bir dosya eki sistemi ekler. Kullanıcı tarafından belirlenen kütüphaneler için Ajax ile geliştirilmiş ortam yükleme ve görüntüleme sistemi."
+
+#: wpf-admin/options-tabs/general.php:44
+msgid "Forum Page ID"
+msgstr "Forum sayfa ID"
+
+#: wpf-admin/options-tabs/general.php:42
+msgid "support topic"
+msgstr "destek başlığı"
+
+#: wpf-admin/options-tabs/general.php:42
+msgid "wpForo PageID doesn't exist. Forums will not be loaded, please read this"
+msgstr "wpForo PageID  bulunamadı. Forumlar yüklenemiyor, lütfen bunu okuyun"
+
+#: wpf-includes/wpf-hooks.php:1189
+msgid "IMPORTANT: wpForo can't work with default permalink, please change permalink structure"
+msgstr "ÖNEMLİ: wpForo şuanki permalink ile çalışamıyor, lütfen permalink yapısını değiştirin"
+
+#: wpf-includes/wpf-phrases.php:649
+msgid "Member"
+msgstr "Üye"
+
+#: wpf-includes/wpf-phrases.php:648
+msgid "Member Profile"
+msgstr "Üye profili"
+
+#: wpf-includes/wpf-phrases.php:647
+msgid "Welcome back %s!"
+msgstr "Tekrar hoşgeldin %s"
+
+#: wpf-includes/wpf-phrases.php:646
+msgid "Blog Comments"
+msgstr "Blog yorumları"
+
+#: wpf-includes/wpf-phrases.php:645
+msgid "Blog Posts"
+msgstr "Blog yazıları"
+
+#: wpf-includes/wpf-phrases.php:644
+msgid "Forum Posts"
+msgstr "Forum yazıları"
+
+#: wpf-includes/wpf-phrases.php:643
+msgid "Attachment removed"
+msgstr "Dosya eki kaldırıldı"
+
+#: wpf-includes/class-api.php:245 wpf-includes/wpf-phrases.php:639
+msgid "User registration is disabled"
+msgstr "Üye kaydı devre dışı"
+
+#: wpf-includes/wpf-phrases.php:636
+msgid "Incorrect file format. Allowed formats: jpeg, jpg, png, gif."
+msgstr "Geçersiz dosya formatı. Kabul edilen formatlar: jpeg, jpg, png, gif."
+
+#: wpf-includes/wpf-phrases.php:320
+msgid "Thank you for using wpForo! wpForo is a professional bulletin board for WorPress, and the only forum software which comes with Multi-layout template system. The \"Extended"
+msgstr "WpForo'yu kullandığınız için teşekkür ederiz. wpForo, WordPress için profesyonel bir bülten panosu ve çoklu şablon sistemi ile birlikte gelen tek forum yazılımdır."
+
+#: wpf-admin/options-tabs/general.php:39
+msgid "Visit Forum"
+msgstr "Forumu ziyaret et"
+
+#: wpf-includes/wpf-phrases.php:652
+msgid "This option will disable WordPress on front-end. Only forum pages will be available. wpForo will look like as a stand-alone forum."
+msgstr "Bu seçenek ana sayfanızda WordPress'i devre dışı bırakacaktır. Sadece forum sayfaları yayında olacaktır, wpForo tek başına bir forum gibi görünecektir."
+
+#: wpf-admin/options-tabs/general.php:25 wpf-includes/wpf-phrases.php:651
+msgid "Turn WordPress to wpForo"
+msgstr "WordPress'i wpForo'ya dönüştür"
+
+#: wpf-admin/options-tabs/features.php:54 wpf-includes/wpf-phrases.php:642
+msgid "Enable this option to be able manage forum attachments in Dashboard > Media > Library admin page."
+msgstr "Forum dosya eklerini yönetmek için kontrol paneli > ortam > kütüphane yönetim sayfasından bu seçeneği etkinleştirin."
+
+#: wpf-admin/options-tabs/features.php:54 wpf-includes/wpf-phrases.php:641
+msgid "Insert Forum Attachments to Media Library"
+msgstr "Forum eklerini ortam kütüphanesine ekle"
+
+#: wpf-admin/options-tabs/features.php:20 wpf-includes/wpf-phrases.php:638
+msgid "This option is not synced with WordPress \"Anyone can register\" option in Dashboard > Settings > General admin page. If this option is enabled new users will always be able to register."
+msgstr "Bu seçenek, kontrol paneli > ayarlar > genel sayfasındaki \"isteyen herkes kayıt olabilir\" seçeneğini WordPress ile senkronize etmez. Bu seçenek etkinleştirildiğinde, yeni kullanıcılar her zaman kayıt olabilir."
+
+#: wpf-admin/options-tabs/features.php:20 wpf-includes/wpf-phrases.php:637
+msgid "Enable User Registration"
+msgstr "Üye kaydını aktifleştir"
+
+#: wpf-admin/dashboard.php:208 wpf-includes/wpf-phrases.php:640
+msgid "Delete User Cache"
+msgstr "Üye önbelleğini sil"
+
+#: wpf-admin/options-tabs/api.php:82 wpf-includes/wpf-phrases.php:634
+msgid "Profile"
+msgstr "Profil"
+
+#: wpf-includes/wpf-phrases.php:633
+msgid "Full access"
+msgstr "Tam erişim"
+
+#: wpf-includes/wpf-phrases.php:632
+msgid "Moderator access"
+msgstr "Görevli erişimi"
+
+#: wpf-includes/wpf-phrases.php:631
+msgid "Standard access"
+msgstr "Standart erişim"
+
+#: wpf-includes/wpf-phrases.php:630
+msgid "Read only access"
+msgstr "Sadece okuma erişimi"
+
+#: wpf-includes/wpf-phrases.php:629
+msgid "No access"
+msgstr "Erişim yok"
+
+#: wpf-includes/wpf-phrases.php:628
+msgid "Customer"
+msgstr "Müşteri"
+
+#: wpf-admin/options-tabs/accesses.php:35 wpf-includes/wpf-phrases.php:627
+msgid "Registered"
+msgstr "Kayıtlı"
+
+#: wpf-includes/wpf-phrases.php:626
+msgid "Moderator"
+msgstr "Görevli"
+
+#: wpf-admin/options-tabs/accesses.php:36 wpf-includes/wpf-phrases.php:625
+msgid "Admin"
+msgstr "Yönetici"
+
+#: wpf-includes/wpf-phrases.php:624
+msgid "are you sure you want to delete?"
+msgstr "silmek istediğinizden emin misiniz?"
+
+#: wpf-includes/wpf-phrases.php:623
+msgid "Forum Members List"
+msgstr "Forum üye listesi"
+
+#: wpf-includes/wpf-phrases.php:622
+msgid "Closed"
+msgstr "Kapalı"
+
+#: wpf-includes/wpf-phrases.php:621
+msgid "Deleted Successfully!"
+msgstr "Başarıyla silindi"
+
+#: wpf-includes/wpf-phrases.php:620
+msgid "Updated Successfully!"
+msgstr "Başarıyla güncellendi"
+
+#: wpf-includes/wpf-phrases.php:616
+msgid "This process may take a few seconds or dozens of minutes, it depends on database forum size and on server resources. Please be patient and don't close this page. If you got 500 Server Error please don't worry, the data updating process is still working in MySQL server."
+msgstr "Forum veritabanı boyutuna ve sunucu kaynaklarına bağlı olarak bu işlem birkaç saniye veya onlarca dakika alabilir. Lütfen sabırlı olun ve bu sayfayı kapatmayın. 500 sunucu hatası aldıysanız lütfen endişelenmeyin, veri güncelleme işlemi hala MySQL sunucusunda çalışıyor."
+
+#: wpf-includes/wpf-phrases.php:612
+msgid "New Passwords do not match"
+msgstr "Yeni parolalar eşleşmiyor"
+
+#: wpf-includes/wpf-phrases.php:611
+msgid "Old password is wrong"
+msgstr "Eski parola yanlış"
+
+#: wpf-includes/wpf-phrases.php:610
+msgid "Can set own topic solved"
+msgstr "Kendi başlığını çözülmüş olarak ayarlayabilir"
+
+#: wpf-includes/wpf-phrases.php:609
+msgid "Can set topic solved"
+msgstr "Başlığı çözüme kavuşturabilir"
+
+#: wpf-includes/wpf-phrases.php:601
+msgid "Unsolved"
+msgstr "Çözülmemiş"
+
+#: wpf-includes/wpf-hooks.php:1155
+msgid "Select Color"
+msgstr "Renk seç"
+
+#: wpf-admin/usergroup.php:32 wpf-includes/wpf-hooks.php:1155
+msgid "Default"
+msgstr "Varsayılan"
+
+#: wpf-includes/wpf-hooks.php:1155
+msgid "Clear"
+msgstr "Temizle"
+
+#: wpforo.php:247
+msgid "Discussion Board"
+msgstr "Tartışma forumu"
+
+#: wpf-admin/options-tabs/features.php:50 wpf-includes/wpf-phrases.php:614
+msgid "Forum and Topic subscription with double opt-in/confirmation system."
+msgstr "Forum ve konu aboneliği için çift yönlü doğrulama sistemi."
+
+#: wpf-admin/options-tabs/features.php:50 wpf-includes/wpf-phrases.php:613
+msgid "Enable Subscription Confirmation"
+msgstr "Abonelik doğrulamayı etkinleştir"
+
+#: wpf-admin/dashboard.php:207 wpf-includes/wpf-phrases.php:619
+msgid "Delete Phrase Cache"
+msgstr "Cümle önbelleğini sil"
+
+#: wpf-admin/dashboard.php:206 wpf-includes/wpf-phrases.php:618
+msgid "Update Users Statistic"
+msgstr "Üye istatistiklerini güncelle"
+
+#: wpf-admin/dashboard.php:204 wpf-includes/wpf-phrases.php:617
+msgid "Update Forums Statistic"
+msgstr "Forum istatistiklerini güncelle"
+
+#: wpf-admin/dashboard.php:192
+msgid "This process may take a few seconds or dozens of minutes, please be patient and don't close this page. If you got 500 Server Error please don't worry, the data updating process is still working in MySQL server."
+msgstr "Forum veritabanı boyutuna ve sunucu kaynaklarına bağlı olarak bu işlem birkaç saniye veya onlarca dakika alabilir. Lütfen sabırlı olun ve bu sayfayı kapatmayın. 500 sunucu hatası aldıysanız lütfen endişelenmeyin, veri güncelleme işlemi hala MySQL sunucusunda çalışıyor."
+
+#: wpf-admin/dashboard.php:190 wpf-includes/wpf-phrases.php:615
+msgid "Forum Maintenance"
+msgstr "Forum bakım modu"
+
+#: wpf-includes/wpf-phrases.php:600
+msgid "Solved"
+msgstr "Çözüldü"
+
+#: wpf-includes/wpf-phrases.php:599
+msgid "Hot"
+msgstr "Sıcak"
+
+#: wpf-includes/functions.php:388 wpf-includes/wpf-phrases.php:598
+msgid "Active"
+msgstr "Aktif"
+
+#: wpf-includes/wpf-phrases.php:597
+msgid "Replied"
+msgstr "Cevaplandı"
+
+#: wpf-includes/wpf-phrases.php:596
+msgid "New"
+msgstr "Yeni"
+
+#: wpf-includes/wpf-phrases.php:595
+msgid "Topic Icons"
+msgstr "Konu ikonları"
+
+#: wpf-includes/wpf-phrases.php:594
+msgid "open"
+msgstr "aç"
+
+#: wpf-includes/wpf-phrases.php:593
+msgid "close"
+msgstr "kapat"
+
+#: wpf-includes/wpf-phrases.php:592
+msgid "unsticky"
+msgstr "sabit değil"
+
+#: wpf-includes/wpf-phrases.php:591
+msgid "sticky"
+msgstr "sabit"
+
+#: wpf-includes/wpf-phrases.php:590
+msgid "unlike"
+msgstr "beğenme"
+
+#: wpf-includes/wpf-phrases.php:589
+msgid "like"
+msgstr "beğen"
+
+#: wpf-includes/wpf-phrases.php:583
+msgid "Can move topic"
+msgstr "Konuyu taşıyabilir"
+
+#: wpf-includes/wpf-phrases.php:582
+msgid "Can close topic"
+msgstr "Konuyu kapatabilir"
+
+#: wpf-includes/wpf-phrases.php:581
+msgid "Can set own topic answered"
+msgstr "Kendi konusunu cevap verilmiş yapabilir"
+
+#: wpf-includes/wpf-phrases.php:580
+msgid "Can set topic answered"
+msgstr "Konuyu cevap verilmiş yapabilir"
+
+#: wpf-includes/wpf-phrases.php:579
+msgid "Can attach file"
+msgstr "Dosya ekleyebilir"
+
+#: wpf-includes/wpf-phrases.php:578
+msgid "Can vote"
+msgstr "Oylayabilir"
+
+#: wpf-includes/wpf-phrases.php:576
+msgid "Can set topic sticky"
+msgstr "Konuyu yapışkan yapabilir"
+
+#: wpf-includes/wpf-phrases.php:575
+msgid "Can report"
+msgstr "Raporlayabilir"
+
+#: wpf-includes/wpf-phrases.php:574
+msgid "Can like"
+msgstr "Beğenebilir"
+
+#: wpf-includes/wpf-phrases.php:573
+msgid "Can delete own reply"
+msgstr "Kendi cevabını silebilir"
+
+#: wpf-includes/wpf-phrases.php:572
+msgid "Can delete own topic"
+msgstr "Kendi konusunu silebilir"
+
+#: wpf-includes/wpf-phrases.php:571
+msgid "Can edit own replay"
+msgstr "Kendi cevabını düzenleyebilir"
+
+#: wpf-includes/wpf-phrases.php:570
+msgid "Can edit own topic"
+msgstr "Kendi konusunu düzenleyebilir"
+
+#: wpf-includes/wpf-phrases.php:569
+msgid "Can delete replies"
+msgstr "Cevapları silebilir"
+
+#: wpf-includes/wpf-phrases.php:568
+msgid "Can edit replies"
+msgstr "Cevapları düzenleyebilir"
+
+#: wpf-includes/wpf-phrases.php:567
+msgid "Can view replies"
+msgstr "Cevapları görüntüleyebilir"
+
+#: wpf-includes/wpf-phrases.php:566
+msgid "Can post reply"
+msgstr "Cevap gönderebilir"
+
+#: wpf-includes/wpf-phrases.php:565
+msgid "Can delete topic"
+msgstr "Konu silebilir"
+
+#: wpf-includes/wpf-phrases.php:564
+msgid "Can edit topic"
+msgstr "Konu düzenleyebilir"
+
+#: wpf-includes/wpf-phrases.php:563
+msgid "Can view topic"
+msgstr "Konu görüntüleyebilir"
+
+#: wpf-includes/wpf-phrases.php:562
+msgid "Can create topic"
+msgstr "Konu oluşturabilir"
+
+#: wpf-includes/wpf-phrases.php:561
+msgid "Can view forum"
+msgstr "Forumu görüntüleyebilir"
+
+#: wpf-includes/wpf-phrases.php:560
+msgid "Front - Can write PM"
+msgstr "Ön - özel mesaj yazabilir"
+
+#: wpf-includes/wpf-phrases.php:559
+msgid "Front - Can view member phone number"
+msgstr "Ön - üye telefon numarasını görebilir"
+
+#: wpf-includes/wpf-phrases.php:558
+msgid "Front - Can view member about me"
+msgstr "Ön - üye hakkında bilgisini görebilir"
+
+#: wpf-includes/wpf-phrases.php:557
+msgid "Front - Can view member signature"
+msgstr "Ön - üye imzasını görebilir"
+
+#: wpf-includes/wpf-phrases.php:556
+msgid "Front - Can view member occupation"
+msgstr "Ön - üye mesleğini görüntüleyebilir"
+
+#: wpf-includes/wpf-phrases.php:555
+msgid "Front - Can view member location"
+msgstr "Ön - üyenin konumunu görüntüleyebilir"
+
+#: wpf-includes/wpf-phrases.php:554
+msgid "Front - Can view member IP address"
+msgstr "Ön - üye IP adresini görüntüleyebilir"
+
+#: wpf-includes/wpf-phrases.php:553
+msgid "Front - Can view member last active date"
+msgstr "Ön - üye son etkinlik tarihini görüntüleyebilir"
+
+#: wpf-includes/wpf-phrases.php:552
+msgid "Front - Can view member reg. date"
+msgstr "Ön - üye kayıt tarihini görüntüleyebilir"
+
+#: wpf-includes/wpf-phrases.php:551
+msgid "Front - Can view member social networks"
+msgstr "Ön - üye sosyal hesaplarını görüntüleyebilir"
+
+#: wpf-includes/wpf-phrases.php:550
+msgid "Front - Can view member website"
+msgstr "Ön - üye web sitesini görüntüleyebilir"
+
+#: wpf-includes/wpf-phrases.php:549
+msgid "Front - Can view member reputation"
+msgstr "Ön - üye itibar puanını görüntüleyebilir"
+
+#: wpf-includes/wpf-phrases.php:548
+msgid "Front - Can view member custom title"
+msgstr "Ön - üye özel başlığını görüntüleyebilir"
+
+#: wpf-includes/wpf-phrases.php:547
+msgid "Front - Can view member title"
+msgstr "Ön - üye başlığını görüntüleyebilir"
+
+#: wpf-includes/wpf-phrases.php:546
+msgid "Front - Can view member email"
+msgstr "Ön - üye e-posta adresini görüntüleyebilir"
+
+#: wpf-includes/wpf-phrases.php:545
+msgid "Front - Can view member username"
+msgstr "Ön - üye kullanıcı adını görüntüleyebilir"
+
+#: wpf-includes/wpf-phrases.php:544
+msgid "Front - Can view avatars"
+msgstr "Ön - avatarları görüntüleyebilir"
+
+#: wpf-includes/wpf-phrases.php:543
+msgid "Front - Can have signature"
+msgstr "Ön - imza kullanabilir"
+
+#: wpf-includes/wpf-phrases.php:542
+msgid "Front - Can upload avatar"
+msgstr "Ön - avatar yükleyebilir"
+
+#: wpf-includes/wpf-phrases.php:541
+msgid "Front - Can view profiles"
+msgstr "Ön - profilleri görüntüleyebilir"
+
+#: wpf-includes/wpf-phrases.php:540
+msgid "Front - Can view members"
+msgstr "Ön - üyeleri görüntüleyebilir"
+
+#: wpf-includes/wpf-phrases.php:539
+msgid "Dashboard - Usergroup Menu"
+msgstr "Kontrol paneli -  üye grubu menüsü"
+
+#: wpf-includes/wpf-phrases.php:538
+msgid "Dashboard - Can delete member"
+msgstr "Kontrol paneli - üye silebilir"
+
+#: wpf-includes/wpf-phrases.php:537
+msgid "Dashboard - Can edit member"
+msgstr "Kontrol paneli - üye düzenleyebilir"
+
+#: wpf-includes/wpf-phrases.php:536
+msgid "Dashboard - Members Menu"
+msgstr "Kontrol paneli - üyeler Menüsü"
+
+#: wpf-includes/wpf-phrases.php:535
+msgid "Dashboard - Can delete forum"
+msgstr "Kontrol paneli - forum silebilir"
+
+#: wpf-includes/wpf-phrases.php:534
+msgid "Dashboard - Can edit forum"
+msgstr "Kontrol Paneli - forumu düzenleyebilir"
+
+#: wpf-includes/wpf-phrases.php:533
+msgid "Dashboard - Can create forum"
+msgstr "Kontrol paneli - forum oluşturabilir"
+
+#: wpf-includes/wpf-phrases.php:376
+msgid "%s ago"
+msgstr "%s önce"
+
+#: wpf-admin/options-tabs/features.php:55 wpf-includes/wpf-phrases.php:607
+msgid "If you got some issue with wpForo, please enable this option before asking for support, this outputs hidden important information to help us debug your issue."
+msgstr "WpForo ile ilgili bir sorununuz varsa, destek istemeden önce lütfen bu seçeneği etkinleştirin,bu bize sorununuzu gidermemize yardımcı olması için önemli bilgiler gönderir."
+
+#: wpf-admin/options-tabs/features.php:55 wpf-includes/wpf-phrases.php:606
+msgid "Enable Debug Mode"
+msgstr "Hata ayıklama modunu etkinleştir"
+
+#: wpf-admin/options-tabs/features.php:49 wpf-includes/wpf-phrases.php:602
+msgid "You can manage WordPress date and time format in WordPress Settings > General admin page."
+msgstr "WordPress tarih ve saat biçimini WordPress ayarlar > genel sayfasından yönetebilirsiniz."
+
+#: wpf-admin/options-tabs/features.php:49
+msgid "Enable WordPress Date/Time Format"
+msgstr "WordPress tarih/saat formatını etkinleştir"
+
+#: wpf-admin/admin.php:33 wpf-includes/wpf-hooks.php:1985
+#: wpf-includes/wpf-phrases.php:605
+msgid "Themes"
+msgstr "Temalar"
+
+#: wpf-admin/admin.php:32 wpf-includes/wpf-hooks.php:1969
+#: wpf-includes/wpf-phrases.php:604
+msgid "Phrases"
+msgstr "Tümceler"
+
+#: wpf-admin/admin.php:24 wpf-admin/admin.php:25
+#: wpf-includes/wpf-phrases.php:603
+msgid "Dashboard"
+msgstr "Kontrol paneli"
+
+#: wpf-includes/class-template.php:84
+msgid "Open link in a new tab"
+msgstr "Bağlantıyı yeni sekmede aç"
+
+#: wpf-includes/class-template.php:83
+msgid "Link Text"
+msgstr "Bağlantı yazısı"
+
+#: wpf-includes/class-template.php:82
+msgid "Insert link"
+msgstr "Bağlantı ekle"
+
+#: wpf-admin/options-tabs/styles.php:43
+msgid "Forum Color Styles"
+msgstr "Forum renk stilleri"
+
+#: wpf-admin/options-tabs/styles.php:36 wpf-includes/wpf-phrases.php:61
+msgid "Custom CSS Code"
+msgstr "Özel css kodu"
+
+#: wpf-admin/options-tabs/styles.php:28 wpf-admin/tools-tabs/antispam.php:226
+#: wpf-includes/wpf-phrases.php:480
+msgid "Post Content"
+msgstr "Yazı içeriği"
+
+#: wpf-admin/options-tabs/styles.php:13
+msgid "Font Sizes"
+msgstr "Yazıtipi boyutu"
+
+#: wpf-admin/options-tabs/features.php:48 wpf-includes/wpf-phrases.php:330
+msgid "This feature is useful if you're adding content before or after [wpforo] shortcode in page content. Also it useful if forum is loaded before website header, on top of the front-end."
+msgstr "Bu özellik, sayfa içeriğinde [wpforo] kısa kodundan önce veya sonra içerik eklerseniz kullanışlıdır. Ayrıca forum, ön sayfada web sitesi başlığından önce yüklenmişse kullanışlıdır."
+
+#: wpf-admin/options-tabs/features.php:48 wpf-includes/wpf-phrases.php:85
+msgid "Enable Output Buffer"
+msgstr "Çıkış önbelleğini etkinleştir"
+
+#. Author URI of the plugin/theme
+msgid "https://gvectors.com/"
+msgstr "http://gvectors.com/"
+
+#. Author of the plugin/theme
+msgid "gVectors Team (A. Chakhoyan, R. Hovhannisyan)"
+msgstr "gVectors Takımı (A. Chakhoyan, R. Hovhannisyan)"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpforo.com"
+msgstr "http://wpforo.com"
+
+#: wpf-includes/wpf-phrases.php:531
+msgid "Your topic successfully added"
+msgstr "Konu başarıyla eklendi"
+
+#: wpf-includes/wpf-phrases.php:530
+msgid "Your subscription for this item could not be confirmed"
+msgstr "Bu öğe için aboneliğiniz onaylanmıyor"
+
+#: wpf-includes/wpf-phrases.php:529
+msgid "Your profile data have been successfully updated."
+msgstr "Profil verileriniz başarıyla güncellendi"
+
+#: wpf-includes/wpf-phrases.php:528
+msgid "Your forum successfully deleted"
+msgstr "Forumunuz başarıyla silindi"
+
+#: wpf-includes/wpf-phrases.php:527
+msgid "Your forum successfully added"
+msgstr "Forumunuz başarıyla eklendi"
+
+#: wpf-includes/wpf-phrases.php:526
+msgid "You successfully replied"
+msgstr "Başarıyla cevapladınız"
+
+#: wpf-includes/wpf-phrases.php:525
+msgid "You don't have permission to edit post from this forum"
+msgstr "Bu forumda ileti düzenleme izniniz yok"
+
+#: wpf-includes/wpf-phrases.php:524
+msgid "You don't have permission to delete topic from this forum"
+msgstr "Bu konuyu forumdan silmek için izniniz yok"
+
+#: wpf-includes/wpf-phrases.php:523
+msgid "You don't have permission to delete post from this forum"
+msgstr "Bu forumdan ileti silme izniniz yok"
+
+#: wpf-includes/wpf-phrases.php:522
+msgid "You don't have permission to create topic into this forum"
+msgstr "Bu foruma konu oluşturmak için izniniz yok"
+
+#: wpf-includes/wpf-phrases.php:521
+msgid "You don't have permission to create post in this forum"
+msgstr "Bu foruma yazı yazmak için izniniz yok"
+
+#: wpf-includes/wpf-phrases.php:520
+msgid "You have no permission to edit this topic"
+msgstr "Bu konuyu düzenlemek için izniniz yok"
+
+#: wpf-includes/wpf-phrases.php:519
+msgid "You have been successfully unsubscribed"
+msgstr "Aboneliğiniz başarıyla iptal edildi"
+
+#: wpf-includes/wpf-phrases.php:518
+msgid "You have been successfully subscribed"
+msgstr "Başarıyla abone oldunuz"
+
+#: wpf-includes/wpf-phrases.php:517
+msgid "You are already voted this post"
+msgstr "Bu yazıyı zaten oyladınız"
+
+#: wpf-includes/wpf-phrases.php:516
+msgid "Wrong post data"
+msgstr "Hatalı yazı verisi"
+
+#: wpf-includes/wpf-phrases.php:515
+msgid "Welcome to our Community!"
+msgstr "Topluluğumuza hoş geldiniz"
+
+#: wpf-includes/wpf-phrases.php:514
+msgid "Username length must be between 3 characters and 30 characters."
+msgstr "Kullanıcı adı uzunluğu 3 ile 15 karakter arasında olmalı."
+
+#: wpf-includes/wpf-phrases.php:513
+msgid "Username is missed."
+msgstr "Kullanıcı adı eksik."
+
+#: wpf-includes/wpf-phrases.php:512
+msgid "Username exists. Please insert another."
+msgstr "Kullanıcı adı mevcut. Lütfen başka bir tane ekleyin."
+
+#: wpf-includes/wpf-phrases.php:511
+msgid "User successfully deleted from wpforo"
+msgstr "Kullanıcı wpforo'dan başarıyla silindi"
+
+#: wpf-includes/wpf-phrases.php:510
+msgid "User group successfully edited"
+msgstr "Üye grubu başarıyla düzenlendi"
+
+#: wpf-includes/wpf-phrases.php:509
+msgid "User group successfully added"
+msgstr "Üye grubu başarıyla eklendi"
+
+#: wpf-includes/wpf-phrases.php:508
+msgid "User group edit error"
+msgstr "Üye grubu düzenleme hatası"
+
+#: wpf-includes/wpf-phrases.php:507
+msgid "User group add error"
+msgstr "Üye grubu ekleme hatası"
+
+#: wpf-includes/wpf-phrases.php:506
+msgid "User delete error"
+msgstr "Üye silme hatası"
+
+#: wpf-includes/wpf-phrases.php:505
+msgid "Topics delete error"
+msgstr "Konu silme hatası"
+
+#: wpf-includes/wpf-phrases.php:504
+msgid "Topic successfully updated"
+msgstr "Konu başarıyla güncellendi"
+
+#: wpf-includes/wpf-phrases.php:503
+msgid "Topic successfully moved"
+msgstr "Konu başarıyla taşındı"
+
+#: wpf-includes/wpf-phrases.php:502
+msgid "Topic not found."
+msgstr "Konu bulunamadı."
+
+#: wpf-includes/wpf-phrases.php:501
+msgid "Topic edit error"
+msgstr "Konu düzenleme hatası"
+
+#: wpf-includes/wpf-phrases.php:500
+msgid "Topic delete error"
+msgstr "Konu silme hatası"
+
+#: wpf-includes/wpf-phrases.php:499
+msgid "Topic add error"
+msgstr "Konu ekleme hatası"
+
+#: wpf-includes/wpf-phrases.php:498
+msgid "Topic Move Error"
+msgstr "Konu taşıma hatası"
+
+#: wpf-includes/wpf-phrases.php:497
+msgid "This topic successfully deleted"
+msgstr "Bu konu başarıyla silindi"
+
+#: wpf-includes/wpf-phrases.php:496
+msgid "This post successfully edited"
+msgstr "Bu yazı başarıyla düzenlendi"
+
+#: wpf-includes/wpf-phrases.php:495
+msgid "This post successfully deleted"
+msgstr "Bu yazı başarıyla silindi"
+
+#: wpf-includes/wpf-phrases.php:494
+msgid "This email address is already registered. Please insert another."
+msgstr "Bu e-posta adresi zaten kayıtlı. Lütfen başka bir tane ekleyin."
+
+#: wpf-includes/wpf-phrases.php:493
+msgid "Theme options successfully updated"
+msgstr "Tema seçenekleri başarıyla güncellendi"
+
+#: wpf-includes/wpf-phrases.php:492
+msgid "The uploaded file size is too big"
+msgstr "Yüklenen dosya boyutu çok büyük"
+
+#: wpf-includes/wpf-phrases.php:491
+msgid "Successfully voted"
+msgstr "Başarıyla oylandı"
+
+#: wpf-includes/wpf-phrases.php:490
+msgid "Successfully updated"
+msgstr "Başarıyla güncellendi"
+
+#: wpf-includes/wpf-phrases.php:489
+msgid "Success! Thank you. Please check your email and click confirmation link below to complete this step."
+msgstr "Başarılı.Teşekkürler.Lütfen e- postanızı kontrol edin ve bu adımı tamamlamak için aşağıdaki onay bağlantısını tıklayın ."
+
+#: wpf-includes/wpf-phrases.php:487
+msgid "Subscribe options successfully updated, but previous value not changed"
+msgstr "Abonelik seçenekleri başarıyla güncellendi, ancak önceki değeri değişmedi"
+
+#: wpf-includes/wpf-phrases.php:486
+msgid "Subscribe options successfully updated"
+msgstr "Abonelik seçenekleri başarıyla güncellendi"
+
+#: wpf-includes/wpf-phrases.php:485
+msgid "Something wrong with profile data."
+msgstr "Profil verilerinde bir hata var."
+
+#: wpf-includes/wpf-phrases.php:484
+msgid "Reply request error"
+msgstr "Yanıt isteği hatası"
+
+#: wpf-includes/wpf-phrases.php:483
+msgid "Registration Error"
+msgstr "Kayıt hatası"
+
+#: wpf-includes/wpf-phrases.php:482
+msgid "Post options successfully updated, but previous value not changed"
+msgstr "Mesaj  seçenekleri başarıyla güncellendi, ancak önceki değeri değişmedi"
+
+#: wpf-includes/wpf-phrases.php:481
+msgid "Post options successfully updated"
+msgstr "Mesaj  seçenekleri başarıyla güncellendi"
+
+#: wpf-includes/wpf-phrases.php:479
+msgid "Post delete error"
+msgstr "Yazı silme hatası"
+
+#: wpf-includes/wpf-phrases.php:478
+msgid "Please insert required fields!"
+msgstr "Lütfen gerekli alanları doldurun"
+
+#: wpf-includes/wpf-phrases.php:477
+msgid "Phrase update error"
+msgstr "Cümle güncelleme hatası"
+
+#: wpf-includes/wpf-phrases.php:476
+msgid "Phrase successfully updates"
+msgstr "Cümle başarıyla güncellendi"
+
+#: wpf-includes/wpf-phrases.php:475
+msgid "Phrase successfully added"
+msgstr "Cümle başarılı bir şekilde eklendi"
+
+#: wpf-includes/wpf-phrases.php:474
+msgid "Phrase adding error"
+msgstr "Cümle ekleme hatası"
+
+#: wpf-includes/wpf-phrases.php:473
+msgid "Phrase add error"
+msgstr "Kelime ekleme hatası"
+
+#: wpf-includes/wpf-phrases.php:472
+msgid "Permission denied for this action"
+msgstr "Bu işlem için izin verilmiyor"
+
+#: wpf-includes/wpf-phrases.php:471
+msgid "Permission denied for edit forum"
+msgstr "Forumu düzenleme izni reddedildi"
+
+#: wpf-includes/wpf-phrases.php:470
+msgid "Permission denied for delete forum"
+msgstr "Forumu silme izni reddedildi"
+
+#: wpf-includes/wpf-phrases.php:469
+msgid "Permission denied for add forum"
+msgstr "Forum ekleme izni reddedildi"
+
+#: wpf-includes/wpf-phrases.php:468
+msgid "Permission denied"
+msgstr "İzin reddedildi"
+
+#: wpf-includes/wpf-phrases.php:467
+msgid "Password mismatch."
+msgstr "Parola eşleşmiyor."
+
+#: wpf-includes/wpf-phrases.php:466
+msgid "Password length must be between 6 characters and 20 characters."
+msgstr "Şifre uzunluğu 6 ile 20 karakter arasında olmalıdır."
+
+#: wpf-includes/wpf-phrases.php:465
+msgid "No Posts found for update"
+msgstr "Güncelleme için yazı bulunamadı"
+
+#: wpf-includes/wpf-phrases.php:464
+msgid "New language successfully added and changed wpforo language to new language"
+msgstr "Yeni dil başarıyla eklendi ve wpforo dili yeni dile çevrildi"
+
+#: wpf-includes/wpf-phrases.php:463
+msgid "Message has been sent"
+msgstr "Mesaj gönderildi"
+
+#: wpf-includes/wpf-phrases.php:462
+msgid "Member options successfully updated, but previous value not changed"
+msgstr "Üye seçenekleri başarıyla güncellendi, ancak önceki değer değişmedi"
+
+#: wpf-includes/wpf-phrases.php:461
+msgid "Member options successfully updated"
+msgstr "Üye seçenekleri başarıyla güncellendi"
+
+#: wpf-includes/wpf-phrases.php:460
+msgid "Invalid request!"
+msgstr "Geçersiz istek"
+
+#: wpf-includes/wpf-phrases.php:459
+msgid "Invalid Email address"
+msgstr "Geçersiz e-posta  adresi"
+
+#: wpf-includes/wpf-phrases.php:458
+msgid "Insert your Email address."
+msgstr "E-posta adresini ekle"
+
+#: wpf-includes/wpf-phrases.php:457
+msgid "Illegal character in username."
+msgstr "Kullanıcı adında geçersiz karakter var."
+
+#: wpf-includes/wpf-phrases.php:456
+msgid "General options successfully updated"
+msgstr "Genel seçenekler başarıyla güncellendi"
+
+#: wpf-includes/wpf-phrases.php:455
+msgid "Forum update error"
+msgstr "Forum  güncelleme  hatası"
+
+#: wpf-includes/wpf-phrases.php:454
+msgid "Forum successfully updated"
+msgstr "Forum başarıyla güncellendi"
+
+#: wpf-includes/wpf-phrases.php:453
+msgid "Forum options successfully updated, but previous value not changed"
+msgstr "Forum  seçenekleri başarıyla güncellendi, ancak önceki değeri değişmedi"
+
+#: wpf-includes/wpf-phrases.php:452
+msgid "Forum options successfully updated"
+msgstr "Forum  seçenekleri başarıyla güncellendi"
+
+#: wpf-includes/wpf-phrases.php:451
+msgid "Forum merging error"
+msgstr "Forum birleştirme hatası"
+
+#: wpf-includes/wpf-phrases.php:450
+msgid "Forum is successfully merged"
+msgstr "Forum başarıyla birleştirildi"
+
+#: wpf-includes/wpf-phrases.php:449
+msgid "Forum hierarchy successfully updated"
+msgstr "Forum  hiyerarşisi başarıyla güncellendi"
+
+#: wpf-includes/wpf-phrases.php:448
+msgid "Forum deleting error"
+msgstr "Forum silme hatası"
+
+#: wpf-includes/wpf-phrases.php:447
+msgid "Forum Base URL successfully updated"
+msgstr "Forum taban URL başarıyla güncellendi"
+
+#: wpf-includes/wpf-phrases.php:446
+msgid "File type is not allowed"
+msgstr "Dosya türüne izin verilmiyor"
+
+#: wpf-includes/wpf-phrases.php:445
+msgid "Features successfully updated, but previous value not changed"
+msgstr "Özellikler başarıyla güncellendi, ancak önceki değer değişmedi"
+
+#: wpf-includes/wpf-phrases.php:444
+msgid "Features successfully updated"
+msgstr "Özellikler başarıyla güncellendi"
+
+#: wpf-includes/wpf-phrases.php:443
+msgid "Error: please insert some text to report."
+msgstr "Hata: lütfen rapor edilecek metni ekleyin."
+
+#: wpf-includes/wpf-phrases.php:442
+msgid "Error: Topic is not found"
+msgstr "Hata: Konu bulunamadı"
+
+#: wpf-includes/wpf-phrases.php:441
+msgid "Error: No topic selected"
+msgstr "Hata: Konu seçilmedi"
+
+#: wpf-includes/wpf-phrases.php:440
+msgid "Error: Forum is not found"
+msgstr "Hata: forum bulunamadı"
+
+#: wpf-includes/wpf-phrases.php:439
+msgid "Email address exists. Please insert another."
+msgstr "E-posta  zaten adresi var. Lütfen başka bir tane ekleyin."
+
+#: wpf-includes/wpf-phrases.php:438
+msgid "Could not be unsubscribe from this item"
+msgstr "Bu öğeden abonelik iptal edilemedi"
+
+#: wpf-includes/wpf-phrases.php:437
+msgid "Cannot update post data"
+msgstr "Yazı verileri güncellenemedi"
+
+#: wpf-includes/wpf-phrases.php:436
+msgid "Cannot update forum hierarchy"
+msgstr "Forum hiyerarşisi güncellenemedi"
+
+#: wpf-includes/wpf-phrases.php:435
+msgid "Can`t upload file"
+msgstr "Dosya yüklenemedi"
+
+#: wpf-includes/wpf-phrases.php:434
+msgid "Can't write a post: This topic is closed"
+msgstr "Yazı gönderilemiyor: bu konu kapanmış"
+
+#: wpf-includes/wpf-phrases.php:433
+msgid "Can't subscribe to this item"
+msgstr "Bu öğeye abone olunamaz"
+
+#: wpf-includes/wpf-phrases.php:432
+msgid "Can't send report email"
+msgstr "Rapor e-postası gönderilemiyor"
+
+#: wpf-includes/wpf-phrases.php:431
+msgid "Can't send confirmation email"
+msgstr "Onay e-postası gönderilemiyor"
+
+#: wpf-includes/wpf-phrases.php:430
+msgid "Can't delete this Usergroup"
+msgstr "Bu üye grubu silinemiyor"
+
+#: wpf-includes/wpf-phrases.php:429
+msgid "Can't add new language"
+msgstr "Yeni dil eklenemiyor"
+
+#: wpf-includes/wpf-phrases.php:428
+msgid "Can't add forum"
+msgstr "Forum eklenemiyor"
+
+#: wpf-includes/wpf-phrases.php:427
+msgid "All Checked topics successfully deleted"
+msgstr "Seçilen tüm konular başarıyla silindi"
+
+#: wpf-includes/wpf-phrases.php:426
+msgid "Add Topic error: No forum selected"
+msgstr "Konu ekleme hatası: hiçbir forum seçilmedi"
+
+#: wpf-includes/wpf-phrases.php:425
+msgid "Access successfully deleted"
+msgstr "Erişim başarıyla silindi"
+
+#: wpf-includes/wpf-phrases.php:424
+msgid "Access edit error"
+msgstr "Erişim düzenleme hatası"
+
+#: wpf-includes/wpf-phrases.php:423
+msgid "Access delete error"
+msgstr "Erişim silme hatası"
+
+#: wpf-includes/wpf-phrases.php:422
+msgid "Access add error"
+msgstr "Erişim ekleme hatası"
+
+#: wpf-includes/wpf-phrases.php:417
+msgid "{number}T"
+msgstr "{number}T"
+
+#: wpf-includes/wpf-phrases.php:416
+msgid "{number}M"
+msgstr "{number}M"
+
+#: wpf-includes/wpf-phrases.php:415
+msgid "{number}K"
+msgstr "{number}K"
+
+#: wpf-includes/wpf-phrases.php:414
+msgid "{number}B"
+msgstr "{number}B"
+
+#: wpf-includes/wpf-phrases.php:409
+msgid "wpForo Navigation"
+msgstr "WpForo navigasyon"
+
+#: wpf-includes/wpf-phrases.php:407
+msgid "view all topics"
+msgstr "Tüm konuları görüntüle"
+
+#: wpf-includes/wpf-phrases.php:406
+msgid "view all questions"
+msgstr "tüm soruları görüntüle"
+
+#: wpf-includes/wpf-phrases.php:405
+msgid "view all posts"
+msgstr "tüm yazıları göster"
+
+#: wpf-includes/functions.php:658 wpf-includes/functions.php:659
+#: wpf-includes/wpf-phrases.php:404
+msgid "view"
+msgstr "gör"
+
+#: wpf-includes/wpf-phrases.php:403
+msgid "update"
+msgstr "güncelle"
+
+#: wpf-includes/wpf-phrases.php:402
+msgid "subscriptions"
+msgstr "abonelikler"
+
+#: wpf-includes/wpf-phrases.php:401
+msgid "replies"
+msgstr "cevaplar"
+
+#: wpf-includes/wpf-phrases.php:400
+msgid "register"
+msgstr "kayıt"
+
+#: wpf-includes/wpf-phrases.php:399
+msgid "prev"
+msgstr "önceki"
+
+#: wpf-includes/wpf-phrases.php:398
+msgid "posted"
+msgstr "gönderildi"
+
+#: wpf-includes/wpf-phrases.php:397
+msgid "phrase_value"
+msgstr "phrase_value"
+
+#: wpf-includes/wpf-phrases.php:396
+msgid "phrase_key"
+msgstr "phrase_key"
+
+#: wpf-includes/wpf-phrases.php:395
+msgid "old password"
+msgstr "eski parola"
+
+#: wpf-includes/wpf-phrases.php:394
+msgid "next"
+msgstr "sonraki"
+
+#: wpf-includes/wpf-phrases.php:393
+msgid "new password again"
+msgstr "yeni şifre tekrar"
+
+#: wpf-includes/wpf-phrases.php:392
+msgid "new password"
+msgstr "Yeni Parola"
+
+#: wpf-includes/wpf-phrases.php:391
+msgid "my profile"
+msgstr "profilim"
+
+#: wpf-includes/wpf-phrases.php:389
+msgid "members"
+msgstr "üyeler"
+
+#: wpf-includes/wpf-phrases.php:388
+msgid "matches"
+msgstr "eşleşmeler"
+
+#: wpf-includes/wpf-phrases.php:387
+msgid "logout"
+msgstr "çıkış yap"
+
+#: wpf-includes/wpf-phrases.php:386
+msgid "login"
+msgstr "giriş yap"
+
+#: wpf-includes/wpf-phrases.php:384
+msgid "forums"
+msgstr "forumlar"
+
+#: wpf-includes/functions.php:617 wpf-includes/wpf-phrases.php:383
+msgid "edit user"
+msgstr "üye düzenle"
+
+#: wpf-includes/functions.php:621 wpf-includes/wpf-phrases.php:382
+msgid "edit profile"
+msgstr "profili düzenle"
+
+#: wpf-includes/wpf-phrases.php:379
+msgid "confirm password"
+msgstr "şifreyi onayla"
+
+#: wpf-includes/wpf-phrases.php:378
+msgid "by %s"
+msgstr "gön: %s"
+
+#: wpf-includes/wpf-phrases.php:377
+msgid "by"
+msgstr "gön:"
+
+#: wpf-includes/wpf-phrases.php:375
+msgid "add_new"
+msgstr "add_new"
+
+#: wpf-includes/wpf-phrases.php:373
+msgid "activity"
+msgstr "aktivite"
+
+#: wpf-includes/wpf-phrases.php:372
+msgid "account"
+msgstr "hesap"
+
+#: wpf-includes/wpf-phrases.php:371
+msgid "Your Answer"
+msgstr "Cevabınız"
+
+#: wpf-includes/wpf-phrases.php:369
+msgid "You can go to %s page or Search here"
+msgstr "%s sayfasına gidebilir yada buradan arama yapabilirsiniz"
+
+#: wpf-includes/wpf-phrases.php:367
+msgid "You"
+msgstr "Siz"
+
+#: wpf-includes/wpf-phrases.php:365
+msgid "Yahoo"
+msgstr "Yahoo"
+
+#: wpf-includes/wpf-phrases.php:364
+msgid "Write message"
+msgstr "Mesaj yaz"
+
+#: wpf-includes/wpf-phrases.php:363
+msgid "Working"
+msgstr "Çalışıyor"
+
+#: wpf-includes/wpf-phrases.php:362
+msgid "Wordpress avatar system"
+msgstr "Wordpress avatar sistemi"
+
+#: wpf-includes/wpf-phrases.php:360
+msgid "Website"
+msgstr "Web sitesi"
+
+#: wpf-includes/wpf-phrases.php:359
+msgid "Votes"
+msgstr "oy"
+
+#: wpf-includes/wpf-phrases.php:358
+msgid "Views"
+msgstr "Görüntüleme"
+
+#: wpf-includes/wpf-phrases.php:357
+msgid "View the latest post"
+msgstr "Son yazıyı görüntüle"
+
+#: wpf-includes/wpf-phrases.php:356
+msgid "View entire post"
+msgstr "Geçerli yazıyı görüntüle"
+
+#: wpf-includes/wpf-phrases.php:354
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+#: wpf-includes/wpf-phrases.php:353
+msgid "Usergroup has been successfully deleted. All users of this usergroup have been moved to the usergroup you've chosen"
+msgstr "Üye grubu başarıyla silindi. Tüm kullanıcılar seçtiğiniz üye grubuna taşındı"
+
+#: wpf-includes/wpf-phrases.php:352
+msgid "Usergroup has been successfully deleted."
+msgstr "Üye grubu başarıyla silindi."
+
+#: wpf-includes/wpf-phrases.php:351
+msgid "User Group"
+msgstr "Üye grubu"
+
+#: wpf-includes/wpf-phrases.php:349
+msgid "User"
+msgstr "Kullanıcı"
+
+#: wpf-includes/wpf-phrases.php:347
+msgid "Use comments to ask for more information or suggest improvements. Avoid answering questions in comments."
+msgstr "Daha fazla bilgi için yorumları kullanın yada geliştirme önerilerinde bulunun. Yorumlarda soru cevaplamaktan kaçının."
+
+#: wpf-includes/wpf-phrases.php:345
+msgid "Upload an avatar"
+msgstr "Avatar yükle"
+
+#: wpf-includes/wpf-phrases.php:342
+msgid "Unsubscribe"
+msgstr "Abonelik iptal"
+
+#: wpf-includes/wpf-phrases.php:341
+msgid "Unknown upload error"
+msgstr "Bilinmeyen yükleme  hatası"
+
+#: wpf-includes/wpf-phrases.php:340
+msgid "Twitter"
+msgstr "Twitter"
+
+#: wpf-includes/wpf-phrases.php:337
+msgid "Topic title"
+msgstr "Konu başlığı"
+
+#: wpf-includes/wpf-phrases.php:336
+msgid "Topic Title"
+msgstr "Konu başlığı"
+
+#: wpf-includes/wpf-phrases.php:335
+msgid "Topic RSS Feed"
+msgstr "Konu RSS kaynağı"
+
+#: wpf-includes/wpf-phrases.php:333
+msgid "Timezone"
+msgstr "Saat dilimi"
+
+#: wpf-includes/wpf-phrases.php:326
+msgid "The uploaded file was only partially uploaded"
+msgstr "Yüklemeye çalışılan dosya kısmen yüklendi"
+
+#: wpf-includes/wpf-phrases.php:325
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr "Yüklenen dosya, php.ini dosyasındaki upload_max_filesize boyutunu aşıyor"
+
+#: wpf-includes/wpf-phrases.php:324
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form"
+msgstr "Yüklenen dosya, HTML formunda belirtilen MAX_FILE_SIZE boyutunu aşıyor"
+
+#: wpf-includes/wpf-phrases.php:321
+msgid "Thank you for using wpForo. wpForo is a premium forum plugin which will always be available for free. There will never be paid and pro versions of this forum board. However this is a very large and hard project so we also develop paid addons (extensions), which will financially help us to keep improving and adding new features to the free wpForo plugin. Forum addons will also be actively developed. The first addons \"Advanced Media Uploader"
+msgstr "WpForo'yu kullandığınız için teşekkür ederiz. wpForo herzaman ücretsiz sunulacak olan premium forum eklentisidir. Bu forum panosunun hiçbir zaman ücretli ve pro sürümleri olmayacaktır. Hernekadar bu büyük ve zorlu bir proje olsa da wpforo eklentisini geliştirmemize ve yeni özellikler eklememize yardımcı olacak gelir sağlamak adına bazı ücretli eklenti geliştirmelerimiz de bulunmaktadır. Forum eklentileri aktif olarak geliştirilmektedir.İlk eklenti \"Gelişmiş Ortam Yükleyicisi\""
+
+#: wpf-includes/integration/buddypress.php:112 wpf-includes/wpf-phrases.php:318
+msgid "Subscriptions"
+msgstr "Abonelikler"
+
+#: wpf-includes/wpf-phrases.php:316
+msgid "Subscribe for new topics"
+msgstr "Yeni konulara abone ol"
+
+#: wpf-includes/wpf-phrases.php:315
+msgid "Subscribe for new replies"
+msgstr "Yeni cevaplara abone ol"
+
+#: wpf-includes/wpf-phrases.php:312
+msgid "Subforums"
+msgstr "Alt forumlar"
+
+#: wpf-includes/wpf-phrases.php:310
+msgid "Specify avatar by URL"
+msgstr "Avatarı URL olarak belirt"
+
+#: wpf-includes/wpf-phrases.php:309
+msgid "Sort Search Results by"
+msgstr "Arama sonuçlarını sırala :"
+
+#: wpf-includes/wpf-phrases.php:308
+msgid "Sorry, something wrong with your data."
+msgstr "Üzgünüz, verilerinizle ilgili bir sorun var."
+
+#: wpf-includes/wpf-phrases.php:307
+msgid "Social Networks"
+msgstr "Sosyal ağlar"
+
+#: wpf-includes/wpf-phrases.php:305
+msgid "Skype"
+msgstr "Skype"
+
+#: wpf-includes/wpf-phrases.php:304
+msgid "Site Profile"
+msgstr "Site profili"
+
+#: wpf-includes/wpf-phrases.php:303
+msgid "Signature"
+msgstr "İmza"
+
+#: wpf-includes/wpf-phrases.php:302
+msgid "Sign In"
+msgstr "Oturum aç"
+
+#: wpf-includes/wpf-phrases.php:292
+msgid "Shop Account"
+msgstr "Mağaza hesabı"
+
+#: wpf-includes/wpf-phrases.php:291
+msgid "Set this option value 0 if you want to show all posts under topic intro area."
+msgstr "Konu giriş kısmında tüm yazıları göstermek için bu seçeneği 0 olarak ayarlayın."
+
+#: wpf-includes/wpf-phrases.php:290
+msgid "Set Topic Sticky"
+msgstr "Konuyu sabit olarak ayarla"
+
+#: wpf-includes/wpf-phrases.php:286
+msgid "Send Report"
+msgstr "Rapor Gönder"
+
+#: wpf-includes/wpf-phrases.php:285
+msgid "Select Page"
+msgstr "Sayfa seç"
+
+#: wpf-includes/wpf-phrases.php:283
+msgid "Search..."
+msgstr "Ara..."
+
+#: wpf-includes/wpf-phrases.php:282
+msgid "Search result for"
+msgstr "Arama sonucu"
+
+#: wpf-includes/wpf-phrases.php:281
+msgid "Search in date period"
+msgstr "Belirli bir tarih periyodunda ara"
+
+#: wpf-includes/wpf-phrases.php:280
+msgid "Search in Forums"
+msgstr "Forumlarda ara"
+
+#: wpf-includes/wpf-phrases.php:279
+msgid "Search Type"
+msgstr "Arama türü"
+
+#: wpf-includes/wpf-phrases.php:278
+msgid "Search Titles Only"
+msgstr "Sadece başlıkları ara"
+
+#: wpf-includes/wpf-phrases.php:277
+msgid "Search Phrase"
+msgstr "Cümle ara"
+
+#: wpf-includes/wpf-phrases.php:276
+msgid "Search Entire Posts"
+msgstr "Mevcut yazıları ara"
+
+#: wpf-admin/options-tabs/members.php:39 wpf-includes/wpf-phrases.php:275
+msgid "Search"
+msgstr "Ara"
+
+#: wpf-includes/wpf-phrases.php:271
+msgid "Save Changes"
+msgstr "Değişiklikleri kaydet"
+
+#: wpf-includes/wpf-phrases.php:269
+msgid "Result Info"
+msgstr "Sonuç bilgisi"
+
+#: wpf-includes/wpf-phrases.php:267
+msgid "Report to Administration"
+msgstr "Yönetime rapor et"
+
+#: wpf-includes/wpf-phrases.php:264
+msgid "Report"
+msgstr "Rapor"
+
+#: wpf-includes/wpf-phrases.php:263
+msgid "Reply"
+msgstr "cevap"
+
+#: wpf-includes/wpf-phrases.php:262
+msgid "Replies not found"
+msgstr "Cevap bulunamadı"
+
+#: wpf-includes/wpf-phrases.php:261
+msgid "Replies"
+msgstr "Cevaplar"
+
+#: wpf-includes/wpf-phrases.php:255
+msgid "Remember Me"
+msgstr "Beni hatırla"
+
+#: wpf-includes/wpf-phrases.php:254
+msgid "Relevancy"
+msgstr "uygunluk"
+
+#: wpf-includes/wpf-phrases.php:253
+msgid "Registered date"
+msgstr "Kayıt tarihi"
+
+#: wpf-includes/wpf-phrases.php:251
+msgid "Register"
+msgstr "Kayıt ol"
+
+#: wpf-includes/wpf-phrases.php:250
+msgid "Recent Topics"
+msgstr "Son konular"
+
+#: wpf-includes/wpf-phrases.php:249
+msgid "Recent Questions"
+msgstr "Son sorular"
+
+#: wpf-includes/wpf-phrases.php:248
+msgid "Received Likes"
+msgstr "Alınan beğeniler"
+
+#: wpf-includes/wpf-phrases.php:244
+msgid "Rating Badge"
+msgstr "Oylama rozeti"
+
+#: wpf-includes/wpf-phrases.php:243
+msgid "Rating"
+msgstr "Değerlendirme"
+
+#: wpf-includes/wpf-phrases.php:242
+msgid "RSS"
+msgstr "RSS"
+
+#: wpf-includes/wpf-phrases.php:241
+msgid "REPLY:"
+msgstr "Cevapla:"
+
+#: wpf-includes/wpf-phrases.php:240
+msgid "RE"
+msgstr "Cevap"
+
+#: wpf-includes/wpf-phrases.php:239
+msgid "Quote"
+msgstr "Alıntı"
+
+#: wpf-includes/wpf-phrases.php:238
+msgid "Questions"
+msgstr "Sorular"
+
+#: wpf-includes/wpf-phrases.php:237
+msgid "Question Comments"
+msgstr "Soru yorumları"
+
+#: wpf-includes/wpf-phrases.php:236
+msgid "Q&A layout - Intro topics"
+msgstr "S&C düzeni - giriş konuları"
+
+#: wpf-includes/wpf-phrases.php:235
+msgid "Q&A Layout - Number of intro topics"
+msgstr "S&C şablonu - Giriş başlık sayısı"
+
+#: wpf-includes/wpf-phrases.php:233
+msgid "Powered by"
+msgstr "Oluşturulma"
+
+#: wpf-includes/wpf-phrases.php:231
+msgid "Posted by"
+msgstr "Gönderen"
+
+#: wpf-includes/wpf-phrases.php:230
+msgid "Posted"
+msgstr "Gönderildi"
+
+#: wpf-includes/wpf-phrases.php:229
+msgid "Post link"
+msgstr "Yazı bağlantısı"
+
+#: wpf-includes/wpf-phrases.php:228
+msgid "Post Title"
+msgstr "Yazı başlığı"
+
+#: wpf-includes/wpf-phrases.php:224
+msgid "Please %s or %s"
+msgstr "Lütfen %s yada %s"
+
+#: wpf-includes/wpf-phrases.php:222
+msgid "Password"
+msgstr "Parola"
+
+#: wpf-includes/wpf-phrases.php:220
+msgid "Page"
+msgstr "Sayfa"
+
+#: wpf-includes/wpf-phrases.php:219
+msgid "Our newest member"
+msgstr "En yeni üyemiz"
+
+#: wpf-includes/wpf-phrases.php:218
+msgid "Oops! The page you requested was not found!"
+msgstr "İstediğiniz sayfa bulunamadı"
+
+#: wpf-includes/wpf-phrases.php:216
+msgid "Online"
+msgstr "Çevrimiçi"
+
+#: wpf-includes/wpf-phrases.php:215
+msgid "Offline"
+msgstr "Çevrimdışı"
+
+#: wpf-includes/wpf-phrases.php:214
+msgid "Occupation"
+msgstr "Meslek"
+
+#: wpf-includes/wpf-phrases.php:207
+msgid "No topics were found here"
+msgstr "Burada hiç konu bulunamadı"
+
+#: wpf-includes/wpf-phrases.php:205
+msgid "No subscriptions found for this member."
+msgstr "Bu üye için abonelik bulunamadı."
+
+#: wpf-includes/wpf-phrases.php:203
+msgid "No online members at the moment"
+msgstr "Şuanda çevrimiçi üye yok"
+
+#: wpf-includes/wpf-phrases.php:199
+msgid "No forums were found here."
+msgstr "Burada hiç forum bulunamadı."
+
+#: wpf-includes/wpf-phrases.php:198
+msgid "No file was uploaded"
+msgstr "Hiçbir dosya yüklenmedi"
+
+#: wpf-includes/wpf-phrases.php:197
+msgid "No activity found for this member."
+msgstr "Bu üye için etkinlik bulunamadı."
+
+#: wpf-includes/wpf-phrases.php:190
+msgid "My Profile"
+msgstr "Profilim"
+
+#: wpf-includes/wpf-phrases.php:189
+msgid "Must be minimum 6 characters."
+msgstr "En az 6 karakter olmalıdır."
+
+#: wpf-includes/wpf-phrases.php:188
+msgid "Move Topic"
+msgstr "Konuyu taşı"
+
+#: wpf-includes/wpf-phrases.php:186
+msgid "Missing a temporary folder"
+msgstr "Geçici klasör eksik"
+
+#: wpf-includes/wpf-phrases.php:183
+msgid "Messages"
+msgstr "Mesajlar"
+
+#: wpf-includes/wpf-phrases.php:181
+msgid "Members not found"
+msgstr "Üyeler bulunamadı"
+
+#: wpf-includes/wpf-phrases.php:177
+msgid "Member information"
+msgstr "Üye bilgileri"
+
+#: wpf-includes/wpf-phrases.php:173
+msgid "Member Rating Badge"
+msgstr "Üye değerlendirme rozeti"
+
+#: wpf-includes/wpf-phrases.php:172
+msgid "Member Rating"
+msgstr "Üye değerlendirme"
+
+#: wpf-includes/wpf-phrases.php:171
+msgid "Member Information"
+msgstr "Üye bilgisi"
+
+#: wpf-includes/wpf-phrases.php:170
+msgid "Member Activity"
+msgstr "Üye etkinliği"
+
+#: wpf-includes/wpf-phrases.php:168
+msgid "Maximum allowed file size is"
+msgstr "İzin verilen maksimum dosya boyutu"
+
+#: wpf-includes/wpf-phrases.php:167
+msgid "MSN"
+msgstr "MSN"
+
+#: wpf-includes/wpf-phrases.php:165
+msgid "Lost your password?"
+msgstr "Parolanı mı unuttun?"
+
+#: wpf-includes/wpf-phrases.php:163
+msgid "Logout"
+msgstr "Çıkış yap"
+
+#: wpf-includes/wpf-phrases.php:161
+msgid "Login"
+msgstr "Giriş yap"
+
+#: wpf-includes/wpf-phrases.php:160
+msgid "Location"
+msgstr "Konum"
+
+#: wpf-includes/wpf-phrases.php:159
+msgid "Liked"
+msgstr "Beğenildi"
+
+#: wpf-includes/wpf-phrases.php:157
+msgid "Length must be between 3 characters and 30 characters."
+msgstr "Uzunluk 3 ile 15 karakter arasında olmalıdır."
+
+#: wpf-includes/wpf-phrases.php:156
+msgid "Leave a reply"
+msgstr "Cevap yaz"
+
+#: wpf-includes/wpf-phrases.php:155
+msgid "Latest Post"
+msgstr "En son yazı"
+
+#: wpf-includes/wpf-phrases.php:154
+msgid "Last post by %s"
+msgstr "Son mesaj %s"
+
+#: wpf-includes/wpf-phrases.php:153
+msgid "Last Year ago"
+msgstr "Geçen yıl"
+
+#: wpf-includes/wpf-phrases.php:152
+msgid "Last Week"
+msgstr "Geçen hafta"
+
+#: wpf-includes/wpf-phrases.php:151
+msgid "Last Post Info"
+msgstr "Son yazı bilgisi"
+
+#: wpf-includes/wpf-phrases.php:150
+msgid "Last Post"
+msgstr "Son yazı"
+
+#: wpf-includes/wpf-phrases.php:149
+msgid "Last Month"
+msgstr "Geçen ay"
+
+#: wpf-includes/wpf-phrases.php:148
+msgid "Last Active"
+msgstr "Son aktif"
+
+#: wpf-includes/wpf-phrases.php:147
+msgid "Last 6 Months"
+msgstr "Son 6 ay"
+
+#: wpf-includes/wpf-phrases.php:146
+msgid "Last 3 Months"
+msgstr "Son 3 ay"
+
+#: wpf-includes/wpf-phrases.php:145
+msgid "Last 24 hours"
+msgstr "Son 24 saat"
+
+#: wpf-includes/wpf-phrases.php:142
+msgid "Joined"
+msgstr "Katılım "
+
+#: wpf-includes/wpf-phrases.php:139
+msgid "Insert member name or email"
+msgstr "Üye adını veya e- postasını girin"
+
+#: wpf-includes/wpf-phrases.php:135
+msgid "ICQ"
+msgstr "ICQ"
+
+#: wpf-includes/wpf-phrases.php:131
+msgid "Group"
+msgstr "Grup"
+
+#: wpf-includes/wpf-phrases.php:122
+msgid "Forum is empty"
+msgstr "Forum boş"
+
+#: wpf-includes/wpf-phrases.php:119
+msgid "Forum Statistics"
+msgstr "Forum istatistikleri"
+
+#: wpf-includes/wpf-phrases.php:115
+msgid "Forum RSS Feed"
+msgstr "Forum  RSS kaynağı"
+
+#: wpf-includes/wpf-phrases.php:114
+msgid "Forum Profile"
+msgstr "Forum profili"
+
+#: wpf-includes/wpf-phrases.php:111
+msgid "Forum Members"
+msgstr "Forum üyeleri"
+
+#: wpf-includes/wpf-hooks.php:1869 wpf-includes/wpf-phrases.php:109
+msgid "Forum Home"
+msgstr "Forum anasayfa"
+
+#: wpf-includes/wpf-phrases.php:104
+msgid "Forum - Registration"
+msgstr "Forum - kayıt"
+
+#: wpf-includes/wpf-phrases.php:103
+msgid "Forum - Page Not Found"
+msgstr "Forum - sayfa bulunamadı"
+
+#: wpf-includes/wpf-phrases.php:102
+msgid "Forum - Login"
+msgstr "Forum - giriş yap"
+
+#: wpf-admin/options-tabs/features.php:75 wpf-includes/wpf-phrases.php:101
+#: wpforo.php:246
+msgid "Forum"
+msgstr "Forum"
+
+#: wpf-includes/wpf-phrases.php:100
+msgid "First post and replies"
+msgstr "İlk yazı ve cevaplar"
+
+#: wpf-includes/wpf-phrases.php:99
+msgid "Find Topics Started by User"
+msgstr "Üye tarafından başlatılan konuları bul"
+
+#: wpf-includes/wpf-phrases.php:98
+msgid "Find Posts by User"
+msgstr "Üye mesajlarını bul"
+
+#: wpf-includes/wpf-phrases.php:97
+msgid "File upload stopped by extension"
+msgstr "Dosya yükleme işlemi eklenti tarafından durduruldu"
+
+#: wpf-includes/wpf-phrases.php:95
+msgid "Failed to write file to disk"
+msgstr "Diske dosya yazma hatası"
+
+#: wpf-includes/wpf-phrases.php:94
+msgid "Facebook"
+msgstr "Facebook"
+
+#: wpf-includes/wpf-phrases.php:93
+msgid "Extended Layout - Number of intro topics"
+msgstr "Genişletişmiş şablon - giriş konu sayısı"
+
+#: wpf-includes/wpf-phrases.php:92
+msgid "Extended Layout - Number of intro posts"
+msgstr "Genişletişmiş şablon - giriş yazı sayısı"
+
+#: wpf-includes/wpf-phrases.php:91
+msgid "Extended Layout - Intro topics"
+msgstr "Genişletişmiş şablon - giriş konuları"
+
+#: wpf-includes/wpf-phrases.php:90
+msgid "Extended Layout - Intro posts"
+msgstr "Genişletişmiş şablon - giriş yazıları"
+
+#: wpf-admin/options-tabs/api.php:196 wpf-includes/wpf-phrases.php:89
+#: wpf-themes/classic/functions.php:42 wpf-themes/classic/functions.php:72
+#: wpf-themes/classic/functions.php:110
+msgid "Expanded"
+msgstr "Genişletilmiş"
+
+#: wpf-includes/wpf-phrases.php:88
+msgid "Enter title here"
+msgstr "Başlığı buraya girin"
+
+#: wpf-includes/wpf-phrases.php:75
+msgid "Email"
+msgstr "E-posta"
+
+#: wpf-includes/wpf-phrases.php:74
+msgid "Edited: "
+msgstr "Düzenleme"
+
+#: wpf-includes/wpf-phrases.php:71
+msgid "Display Name"
+msgstr "Görüntülenen isim"
+
+#: wpf-includes/wpf-phrases.php:68
+msgid "Descending order"
+msgstr "Azalan sıralama"
+
+#: wpf-includes/wpf-phrases.php:65
+msgid "Date"
+msgstr "Tarih"
+
+#: wpf-includes/wpf-phrases.php:59
+msgid "Confirm my subscription"
+msgstr "Aboneliğimi onayla"
+
+#: wpf-includes/wpf-phrases.php:58
+msgid "Comments"
+msgstr "Yorumlar"
+
+#: wpf-admin/options-tabs/api.php:195 wpf-includes/wpf-phrases.php:55
+#: wpf-themes/classic/functions.php:43 wpf-themes/classic/functions.php:73
+#: wpf-themes/classic/functions.php:111
+msgid "Collapsed"
+msgstr "Daraltılmış"
+
+#: wpf-includes/wpf-phrases.php:54
+msgid "Choose Target Forum"
+msgstr "Hedef forumu seçin"
+
+#: wpf-includes/wpf-phrases.php:53
+msgid "Change password"
+msgstr "Parola değiştir"
+
+#: wpf-includes/wpf-phrases.php:47
+msgid "Avatar"
+msgstr "Avatar"
+
+#: wpf-includes/wpf-phrases.php:43
+msgid "Attach file:"
+msgstr "Dosya eki:"
+
+#: wpf-includes/wpf-phrases.php:42
+msgid "Ascending order"
+msgstr "Artan sıralama"
+
+#: wpf-includes/wpf-phrases.php:35
+msgid "Any Date"
+msgstr "Herhangi bir tarih"
+
+#: wpf-includes/wpf-phrases.php:34
+msgid "Answers"
+msgstr "Cevaplar"
+
+#: wpf-includes/wpf-phrases.php:33
+msgid "Answer to"
+msgstr "Cevap"
+
+#: wpf-includes/wpf-phrases.php:32
+msgid "Answer"
+msgstr "Cevap"
+
+#: wpf-includes/wpf-phrases.php:24
+msgid "Add topic"
+msgstr "Konu ekle"
+
+#: wpf-includes/wpf-phrases.php:23
+msgid "Add a comment"
+msgstr "Yorum yaz"
+
+#: wpf-includes/wpf-phrases.php:19
+msgid "Activity"
+msgstr "Aktivite"
+
+#: wpf-includes/wpf-phrases.php:16
+msgid "Account"
+msgstr "Hesap"
+
+#: wpf-includes/wpf-phrases.php:13
+msgid "About Me"
+msgstr "Hakkımda"
+
+#: wpf-includes/wpf-phrases.php:12
+msgid "AOL IM"
+msgstr "AOL IM"
+
+#: wpf-includes/wpf-phrases.php:11
+msgid "%s, %s, %s and %d people liked"
+msgstr "%s, %s, %s ve %d kişi beğendi"
+
+#: wpf-includes/wpf-phrases.php:10
+msgid "%s, %s and %s liked"
+msgstr "%s, %s ve %s beğendi"
+
+#: wpf-includes/wpf-phrases.php:9
+msgid "%s liked"
+msgstr "%s beğenme"
+
+#: wpf-includes/wpf-phrases.php:8
+msgid "%s and %s liked"
+msgstr "%s ve %s beğendi"
+
+#: wpf-includes/wpf-phrases.php:411
+msgid "wpForo User Timezone"
+msgstr "wpForo üye saat dilimi"
+
+#: wpf-includes/wpf-phrases.php:412
+msgid "wpForo Usergroup"
+msgstr "wpForo üye grubu"
+
+#: wpf-includes/wpf-hooks.php:1120
+msgid "Move"
+msgstr "Taşı"
+
+#: wpf-admin/admin.php:27 wpf-includes/wpf-hooks.php:22
+#: wpf-includes/wpf-hooks.php:1917
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: wpf-includes/wpf-hooks.php:20
+msgid "Uninstall"
+msgstr "Kurulumu kaldır"
+
+#: wpf-includes/wpf-hooks.php:20 wpf-includes/wpf-phrases.php:136
+msgid "IMPORTANT! Uninstall is not a simple deactivation action. This action will permanently remove all forum data (forums, topics, replies, attachments...) from database. Please backup database before this action, you may need this forum data in future. If you are sure that you want to delete all forum data please confirm. If not, just cancel it, then you can deactivate this plugin, that will not remove forum data."
+msgstr "ÖNEMLİ! Kaldırma basit bir devre dışı bırakma eylemi değildir. Bu işlem, tüm forum verilerini (forumlar, konular, cevaplar, dosya ekleri ...) veritabanından kalıcı olarak kaldıracaktır. Lütfen bu eylemden önce veritabanını yedekleyin, gelecekte bu forum verisine ihtiyacınız olabilir. Tüm forum verilerini silmek istediğinizden eminseniz lütfen onaylayın. Eğer değilseniz, sadece iptal edin, sonrasında bu eklentiyi devre dışı bırakmak forum verilerinizi kaldırmayacaktır."
+
+#: wpf-includes/functions.php:1238
+msgid "Could not write file %s"
+msgstr "Dosya yazılamadı %s"
+
+#: wpf-includes/functions.php:807 wpf-includes/wpf-phrases.php:141
+msgid "Items"
+msgstr "Öğe"
+
+#: wpf-includes/functions.php:696 wpf-includes/wpf-phrases.php:200
+msgid "No items found"
+msgstr "Hiçbir öğe bulunamadı"
+
+#: wpf-includes/functions.php:631 wpf-includes/functions.php:641
+#: wpf-includes/wpf-phrases.php:41
+msgid "Are you sure you want to DELETE this item?"
+msgstr "Bu öğeyi silmek istediğinizden emin misiniz?"
+
+#: wpf-includes/functions.php:631 wpf-includes/functions.php:641
+#: wpf-includes/wpf-phrases.php:67
+msgid "Delete this item"
+msgstr "Bu öğeyi sil"
+
+#: wpf-includes/functions.php:539 wpf-includes/functions.php:555
+#: wpf-includes/wpf-phrases.php:284
+msgid "Select All"
+msgstr "Hepsini seç"
+
+#: wpf-includes/functions.php:506 wpf-includes/functions.php:712
+#: wpf-includes/wpf-phrases.php:385
+msgid "item"
+msgstr "öğe"
+
+#: wpf-includes/functions.php:416 wpf-includes/wpf-phrases.php:300
+msgid "Show all forums"
+msgstr "Tüm forumları göster"
+
+#: wpf-includes/functions.php:407 wpf-includes/functions.php:808
+#: wpf-includes/wpf-phrases.php:36
+msgid "Apply"
+msgstr "Uygula"
+
+#: wpf-includes/functions.php:402 wpf-includes/functions.php:704
+#: wpf-includes/wpf-phrases.php:50
+msgid "Bulk Actions"
+msgstr "Toplu işlemler"
+
+#: wpf-includes/functions-template.php:485
+#: wpf-includes/functions-template.php:570 wpf-includes/wpf-phrases.php:72
+msgid "Display with Avatars"
+msgstr "Avatarlar ile göster"
+
+#: wpf-includes/functions-template.php:371 wpf-includes/wpf-phrases.php:70
+msgid "Display Avatars"
+msgstr "Avatarları göster"
+
+#: wpf-includes/functions-template.php:366
+#: wpf-includes/functions-template.php:481
+#: wpf-includes/functions-template.php:566 wpf-includes/wpf-phrases.php:210
+msgid "Number of Items"
+msgstr "Öğe sayısı"
+
+#: wpf-includes/functions-template.php:195
+#: wpf-includes/functions-template.php:301
+#: wpf-includes/functions-template.php:363
+#: wpf-includes/functions-template.php:464
+#: wpf-includes/functions-template.php:563
+#: wpf-includes/functions-template.php:609 wpf-includes/wpf-phrases.php:334
+msgid "Title"
+msgstr "Başlık"
+
+#: wpf-includes/functions-template.php:157 wpf-includes/wpf-phrases.php:191
+msgid "NOTE: If you're going to add widgets in this sidebar, please use 'Full Width' template for wpForo index page to avoid sidebar duplication."
+msgstr "NOT: Bu kenar çubuğuna bileşen ekleyecekseniz, lütfen kenar çubuğunun kopyalanmasını önlemek için wpForo dizin sayfası için 'Tam Genişlik' şablonunu kullanın."
+
+#: wpf-includes/functions-template.php:156 wpf-includes/wpf-phrases.php:410
+msgid "wpForo Sidebar"
+msgstr "wpForo kenar çubuğu"
+
+#: wpf-includes/functions-template.php:7
+msgid "wpForo Menu"
+msgstr "wpForo menü"
+
+#: wpf-includes/class-template.php:1457 wpf-includes/wpf-phrases.php:327
+msgid "Theme file not readable"
+msgstr "Tema dosyası okunabilir değil"
+
+#: wpf-includes/class-phrases.php:182 wpf-includes/wpf-phrases.php:6
+msgid " Discussion Board"
+msgstr " Tartışma Forumu"
+
+#: wpf-includes/class-phrases.php:181 wpf-includes/wpf-phrases.php:7
+msgid " Forum"
+msgstr " Forum"
+
+#: wpf-includes/class-permissions.php:149 wpf-includes/wpf-phrases.php:421
+msgid "%s access successfully edited"
+msgstr "%s erişim başarıyla düzenlendi"
+
+#: wpf-includes/class-permissions.php:125 wpf-includes/wpf-phrases.php:420
+msgid "%s access successfully added"
+msgstr "%s erişim başarıyla eklendi"
+
+#: wpf-admin/usergroup.php:14 wpf-admin/usergroup.php:16
+#: wpf-includes/class-notices.php:118 wpf-includes/wpf-phrases.php:69
+msgid "Dismiss this notice."
+msgstr "Bu bildirimi yoksay."
+
+#: wpf-admin/usergroup.php:370
+msgid "Users will be join this usergroup"
+msgstr "Kullanıcılar bu üye grubuna katılabilecek"
+
+#: wpf-admin/usergroup.php:358
+msgid "Delete Chosen Usergroup And Join Users To Other Usergroup"
+msgstr "Seçili Üye Grubunu Sil ve Kullanıcıları Başka Gruba Aktar"
+
+#: wpf-admin/usergroup.php:348
+msgid "Delete Chosen Usergroup And Users"
+msgstr "Seçili üye grubunu ve kullanıcıları sil"
+
+#: wpf-admin/usergroup.php:327
+msgid "save"
+msgstr "kaydet"
+
+#: wpf-admin/usergroup.php:327 wpf-includes/wpf-phrases.php:374
+msgid "add"
+msgstr "ekle"
+
+#: wpf-admin/usergroup.php:242 wpf-includes/wpf-phrases.php:133
+msgid "Guest"
+msgstr "Misafir"
+
+#: wpf-admin/usergroup.php:72
+msgid "View users list in this usergroup"
+msgstr "Bu üye grubundaki kullanıcıları listele"
+
+#: wpf-admin/usergroup.php:70
+msgid "Delete this usergroup"
+msgstr "Bu kullanıcı grubunu sil"
+
+#: wpf-admin/usergroup.php:68 wpf-includes/wpf-phrases.php:73
+msgid "Edit"
+msgstr "Düzenle"
+
+#: wpf-admin/usergroup.php:68
+msgid "Edit this usergroup"
+msgstr "Bu kullanıcı grubunu düzenle"
+
+#: wpf-admin/usergroup.php:63 wpf-admin/usergroup.php:242
+msgid "Usergroup Name"
+msgstr "Kullanıcı grubu ismi"
+
+#: wpf-admin/admin.php:31 wpf-admin/usergroup.php:8 wpf-admin/usergroup.php:155
+#: wpf-includes/wpf-hooks.php:1953
+msgid "Usergroups"
+msgstr "Gruplar"
+
+#: wpf-admin/themes.php:107 wpf-includes/wpf-phrases.php:206
+msgid "No theme found"
+msgstr "Tema bulunamadı"
+
+#: wpf-admin/themes.php:96 wpf-includes/wpf-phrases.php:201
+msgid "No layout found"
+msgstr "Şablon bulunamadı"
+
+#: wpf-admin/themes.php:76 wpf-includes/wpf-phrases.php:268
+msgid "Reset Settings"
+msgstr "Ayarları sıfırla"
+
+#: wpf-admin/themes.php:76 wpf-includes/wpf-phrases.php:40
+msgid "Are you sure you want to reset all settings and style colors to default?"
+msgstr "Tüm ayarları ve renk stillerini varsayılan değerlere sıfırlamak istediğinizden emin misiniz?"
+
+#: wpf-admin/themes.php:73 wpf-includes/wpf-phrases.php:38
+msgid "Are you sure you want to delete this theme files?"
+msgstr "Bu tema dosyalarını silmek istediğinizden emin misiniz ?"
+
+#: wpf-admin/themes.php:71 wpf-includes/wpf-phrases.php:140
+msgid "Install"
+msgstr "Kurulum"
+
+#: wpf-admin/themes.php:69 wpf-includes/wpf-phrases.php:124
+msgid "Fresh Installation"
+msgstr "Yeni kurulum"
+
+#: wpf-admin/themes.php:68 wpf-includes/wpf-phrases.php:17
+msgid "Activate"
+msgstr "Etkinleştir"
+
+#: wpf-admin/themes.php:52 wpf-includes/wpf-phrases.php:143
+msgid "LAYOUTS"
+msgstr "Şablonlar"
+
+#: wpf-admin/themes.php:48 wpf-includes/wpf-phrases.php:138
+msgid "Inactive"
+msgstr "Etkisiz"
+
+#: wpf-admin/themes.php:46 wpf-includes/wpf-phrases.php:60
+msgid "Current active theme"
+msgstr "Geçerli aktif tema"
+
+#: wpf-admin/themes.php:9 wpf-includes/wpf-phrases.php:120
+msgid "Forum Themes"
+msgstr "Forum temaları"
+
+#: wpf-admin/phrase.php:10 wpf-includes/wpf-phrases.php:127
+msgid "Front-end Phrases"
+msgstr "Tümceler"
+
+#: wpf-admin/admin.php:34 wpf-admin/options.php:24
+#: wpf-includes/wpf-hooks.php:1994 wpf-includes/wpf-phrases.php:25
+msgid "Addons"
+msgstr "Eklentiler"
+
+#: wpf-admin/options.php:22 wpf-includes/wpf-phrases.php:311
+msgid "Styles"
+msgstr "Stiller"
+
+#: wpf-admin/options.php:20 wpf-includes/wpf-phrases.php:96
+msgid "Features"
+msgstr "Özellikler"
+
+#: wpf-admin/options.php:19 wpf-includes/wpf-phrases.php:76
+msgid "Emails"
+msgstr "E-postalar"
+
+#: wpf-admin/options.php:17 wpf-includes/wpf-phrases.php:339
+msgid "Topics &amp; Posts"
+msgstr "Konular &amp; yazılar"
+
+#: wpf-admin/options.php:16 wpf-includes/wpf-phrases.php:105
+msgid "Forum Accesses"
+msgstr "Forum erişimleri"
+
+#: wpf-admin/options.php:14 wpf-includes/wpf-phrases.php:129
+msgid "General"
+msgstr "Genel"
+
+#: wpf-admin/options.php:8 wpf-includes/wpf-phrases.php:117
+msgid "Forum Settings"
+msgstr "Forum ayarları"
+
+#: wpf-admin/options-tabs/emails.php:92 wpf-includes/wpf-phrases.php:265
+msgid "Report message body"
+msgstr "Mesaj içeriğini raporla"
+
+#: wpf-admin/options-tabs/emails.php:87 wpf-includes/wpf-phrases.php:266
+msgid "Report message subject"
+msgstr "Rapor mesajı konusu"
+
+#: wpf-admin/options-tabs/emails.php:82 wpf-includes/wpf-phrases.php:331
+msgid "This message comes from post reporting pop-up form."
+msgstr "Bu mesaj, yazı raporlama açılır penceresinden gelmektedir."
+
+#: wpf-admin/options-tabs/emails.php:81 wpf-includes/wpf-phrases.php:227
+msgid "Post Reporting Emails"
+msgstr "Konu raporlama e-postaları"
+
+#: wpf-admin/options-tabs/emails.php:76 wpf-includes/wpf-phrases.php:192
+msgid "New reply notification email message"
+msgstr "Yeni cevap bildirimi e-posta mesajı"
+
+#: wpf-admin/options-tabs/emails.php:72 wpf-includes/wpf-phrases.php:193
+msgid "New reply notification email subject"
+msgstr "Yeni cevap bildirimi e-posta konusu"
+
+#: wpf-admin/options-tabs/emails.php:68 wpf-includes/wpf-phrases.php:194
+msgid "New topic notification email message"
+msgstr "Yeni konu bildirim e-posta mesajı"
+
+#: wpf-admin/options-tabs/emails.php:64 wpf-includes/wpf-phrases.php:195
+msgid "New topic notification email subject"
+msgstr "Yeni konu  bildirimi e-postası konusu"
+
+#: wpf-admin/options-tabs/emails.php:60 wpf-includes/wpf-phrases.php:313
+msgid "Subscribe confirmation email message"
+msgstr "Abonelik onaylama e-posta mesajı"
+
+#: wpf-admin/options-tabs/emails.php:56 wpf-includes/wpf-phrases.php:314
+msgid "Subscribe confirmation email subject"
+msgstr "Abonelik onay e-postası konusu"
+
+#: wpf-admin/options-tabs/emails.php:52 wpf-includes/wpf-phrases.php:317
+msgid "Subscription Emails"
+msgstr "Abonelik E- postaları"
+
+#: wpf-admin/options-tabs/emails.php:22 wpf-includes/wpf-phrases.php:57
+msgid "Comma separated email addresses of forum administrators to get forum notifications. For example post report messages."
+msgstr "Forum bildirimlerini almak için virgül ile ayrılmış forum yöneticilerinin e-posta adresleri.Örneğin yazı rapor mesajları."
+
+#: wpf-includes/wpf-phrases.php:106
+msgid "Forum Admin Email Addresses"
+msgstr "Forum yönetici e-posta adresleri"
+
+#: wpf-includes/wpf-phrases.php:125
+msgid "From Email Address"
+msgstr "Gönderen e-posta adresi"
+
+#: wpf-includes/wpf-phrases.php:126
+msgid "From Name"
+msgstr "Kimden"
+
+#: wpf-admin/options-tabs/posts.php:93 wpf-includes/wpf-phrases.php:287
+msgid "Server \"post_max_size\" is "
+msgstr "Sunucu \"post_max_size\" "
+
+#: wpf-admin/options-tabs/posts.php:92 wpf-includes/wpf-phrases.php:288
+msgid "Server \"upload_max_filesize\" is "
+msgstr "Sonucu \"Upload_max_filesize\" boyutu "
+
+#: wpf-admin/options-tabs/posts.php:89 wpf-includes/wpf-phrases.php:166
+msgid "MB"
+msgstr "MB"
+
+#: wpf-admin/options-tabs/posts.php:86 wpf-includes/wpf-phrases.php:370
+msgid "You can not set this value more than \"upload_max_filesize\" and \"post_max_size\". If you want to increase server parameters please contact to your hosting service support."
+msgstr "Bu değeri \"upload_max_filesize\" ve \"post_max_size\" değerlerinden daha fazlaya ayarlayamazsınız. Sunucu parametrelerini artırmak istiyorsanız, lütfen hosting sağlayıcınızın desteğine başvurun."
+
+#: wpf-admin/options-tabs/posts.php:85 wpf-includes/wpf-phrases.php:169
+msgid "Maximum upload file size"
+msgstr "Maksimum dosya yükleme boyutu"
+
+#: wpf-admin/options-tabs/posts.php:77 wpf-includes/wpf-phrases.php:28
+msgid "Allow Delete Own post for"
+msgstr "Kendi yazısını silmeye izin ver"
+
+#: wpf-admin/options-tabs/posts.php:70 wpf-includes/wpf-phrases.php:29
+msgid "Allow Edit Own Post for"
+msgstr "Kendi yazısını düzenlemeye izin ver"
+
+#: wpf-admin/options-tabs/posts.php:65 wpf-includes/wpf-phrases.php:212
+msgid "Number of Posts per Page"
+msgstr "Sayfa başına yazı sayısı"
+
+#: wpf-admin/options-tabs/posts.php:59 wpf-includes/wpf-phrases.php:27
+msgid "Allow Delete Own Topic for"
+msgstr "Kendi konusunu silmeye izin ver"
+
+#: wpf-admin/options-tabs/posts.php:52 wpf-includes/wpf-phrases.php:30
+msgid "Allow Edit Own Topic for"
+msgstr "Kendi konusunu düzenlemeye izin ver"
+
+#: wpf-admin/options-tabs/posts.php:47 wpf-includes/wpf-phrases.php:213
+msgid "Number of Topics per Page"
+msgstr "Sayfa başına konu sayısı"
+
+#: wpf-admin/options-tabs/plugins.php:9
+msgid "Thank you for using wpForo. wpForo is a premium forum plugin which will always be available for free. There will never be paid and pro versions of this forum board. However this is a very large and hard project so we also develop paid addons (extensions), which will financially help us to keep improving and adding new features to the free wpForo plugin. Forum addons will also be actively developed. The first addons \"Advanced Media Uploader\", \"Polls\", \"Private Messages\" and \"Ad Manager\" will be available very soon. Once you got some addon and activated that, you will find settings in vertical subTabs here."
+msgstr "WpForo'yu kullandığınız için teşekkür ederiz. wpForo herzaman ücretsiz sunulacak olan premium forum eklentisidir. Bu forum panosunun hiçbir zaman ücretli ve pro sürümleri olmayacaktır. Hernekadar bu büyük ve zorlu bir proje olsa da wpforo eklentisini geliştirmemize ve yeni özellikler eklememize yardımcı olacak gelir sağlamak adına bazı ücretli eklenti geliştirmelerimiz de bulunmaktadır. Forum eklentileri aktif olarak geliştirilmektedir.İlk eklentiler \"Gelişmiş Ortam Yükleyicisi\",\"anketler\",\"özel mesajlar\" ve \"reklam yönetimi\" çok yakında kullanılabilir olacaktır.Bazı eklentileri alıp aktiflediğinizde yatay alt sekmelerde gerekli ayarları bulacaksınız."
+
+#: wpf-admin/options-tabs/members.php:134
+msgid "This option depends on \"Enable Member Rating Titles\" parent option, witch located in wpForo Settings > Features Tab"
+msgstr "Bu seçenek, wpforo ayarlar > özellikler sekmesindeki \"Üye başlığı değerlendirmelerini etkinleştir\" ana seçeneğine bağlıdır"
+
+#: wpf-admin/options-tabs/members.php:147
+msgid "Enable Reputation Badges for selected usergroups"
+msgstr "Seçili üye grupları için itibar rozetini etkinleştir"
+
+#: wpf-admin/options-tabs/members.php:148
+msgid "This option depends on \"Enable Member Rating\" parent option, witch located in wpForo Settings > Features Tab"
+msgstr "Bu seçenek, wpforo ayarlar > özellikler sekmesindeki \"üye değerlendirmeyi etkinleştir\" ana seçeneğine bağlıdır"
+
+#: wpf-admin/options-tabs/members.php:133
+msgid "Enable Reputation Titles for selected usergroups"
+msgstr "Seçili üye grupları için itibar başlıklarını etkinleştir"
+
+#: wpf-admin/options-tabs/members.php:127 wpf-includes/wpf-phrases.php:48
+msgid "Badge Icon"
+msgstr "Rozet ikonu"
+
+#: wpf-admin/options-tabs/members.php:126 wpf-admin/usergroup.php:34
+#: wpf-includes/wpf-phrases.php:56
+msgid "Color"
+msgstr "Renk"
+
+#: wpf-admin/options-tabs/members.php:123 wpf-includes/wpf-phrases.php:63
+msgid "Custom Title"
+msgstr "Özel başlık"
+
+#: wpf-admin/options-tabs/members.php:122 wpf-includes/wpf-phrases.php:211
+msgid "Number of Posts"
+msgstr "Yazı sayısı"
+
+#: wpf-admin/options-tabs/members.php:121 wpf-includes/wpf-phrases.php:158
+msgid "Level"
+msgstr "Seviye"
+
+#: wpf-admin/options-tabs/members.php:116 wpf-includes/wpf-phrases.php:187
+msgid "More"
+msgstr "Daha fazla"
+
+#: wpf-admin/options-tabs/members.php:116 wpf-includes/wpf-phrases.php:246
+msgid "Rating Icon"
+msgstr "Değerlendirme ikonu"
+
+#: wpf-admin/options-tabs/members.php:115 wpf-includes/wpf-phrases.php:245
+msgid "Rating Color"
+msgstr "Değerlendirme rengi"
+
+#: wpf-admin/options-tabs/members.php:114 wpf-includes/wpf-phrases.php:128
+msgid "Full Badge"
+msgstr "Tam rozet"
+
+#: wpf-admin/options-tabs/members.php:113 wpf-includes/wpf-phrases.php:293
+msgid "Short Badge"
+msgstr "Kısa rozet"
+
+#: wpf-admin/options-tabs/members.php:112 wpf-includes/wpf-phrases.php:176
+msgid "Member Title"
+msgstr "Üye başlığı"
+
+#: wpf-admin/options-tabs/members.php:111 wpf-includes/wpf-phrases.php:185
+msgid "Min Number of Posts"
+msgstr "Minimum yazı sayısı"
+
+#: wpf-admin/options-tabs/members.php:110 wpf-includes/wpf-phrases.php:247
+msgid "Rating Level"
+msgstr "Değerlendirme seviyesi"
+
+#: wpf-includes/wpf-phrases.php:174
+msgid "Member Reputation"
+msgstr "Üye itibarı"
+
+#: wpf-admin/options-tabs/members.php:59 wpf-includes/wpf-phrases.php:164
+msgid "Lost Password URL"
+msgstr "Kayıp parola URL"
+
+#: wpf-admin/options-tabs/members.php:52 wpf-admin/options-tabs/members.php:58
+#: wpf-includes/wpf-phrases.php:252
+msgid "Register URL"
+msgstr "Kayıt URL"
+
+#: wpf-admin/options-tabs/members.php:51 wpf-admin/options-tabs/members.php:57
+#: wpf-includes/wpf-phrases.php:162
+msgid "Login URL"
+msgstr "Giriş URL"
+
+#: wpf-admin/options-tabs/members.php:48
+msgid ""
+"Use this option only if you have set other pages for authorization. \n"
+"                        wpForo doesn't change its own URLs, these options are only for other plugin compatibility. \n"
+"                        For example, if you use BuddyPress or Ultimate Member plugin you can set these values:"
+msgstr ""
+"Bu seçeneği yalnızca yetkilendirme için başka sayfaları ayarladıysanız kullanın. \n"
+"                        WpForo kendi URL'lerini değiştirmez, bu seçenekler yalnızca diğer eklentilerin uyumluluğu içindir. \n"
+"                        Örneğin, BuddyPress veya Ultimate Member eklentisini kullanıyorsanız, bu değerleri ayarlayabilirsiniz:"
+
+#: wpf-admin/options-tabs/members.php:46 wpf-includes/wpf-phrases.php:62
+msgid "Custom Authorization URLs"
+msgstr "Özel yetkilendirme URL'leri"
+
+#: wpf-admin/options-tabs/members.php:27 wpf-includes/wpf-phrases.php:180
+msgid "Members URL structure"
+msgstr "Üye URL yapısı"
+
+#: wpf-admin/options-tabs/members.php:16 wpf-admin/options-tabs/posts.php:55
+#: wpf-admin/options-tabs/posts.php:62 wpf-admin/options-tabs/posts.php:73
+#: wpf-admin/options-tabs/posts.php:80 wpf-includes/wpf-phrases.php:390
+msgid "minutes"
+msgstr "dakika"
+
+#: wpf-admin/options-tabs/members.php:13 wpf-includes/wpf-phrases.php:217
+msgid "Online status timeout"
+msgstr "Çevirim içi durum zaman aşımı"
+
+#: wpf-admin/options-tabs/general.php:104 wpf-includes/wpf-phrases.php:22
+msgid "Add New Language"
+msgstr "Yeni Çeviri Ekle"
+
+#: wpf-admin/options-tabs/general.php:95 wpf-includes/wpf-phrases.php:144
+msgid "Language XML file"
+msgstr "Dil XML dosyası"
+
+#: wpf-includes/wpf-phrases.php:110
+msgid "Forum Language"
+msgstr "Forum dili"
+
+#: wpf-admin/options-tabs/general.php:60 wpf-includes/wpf-phrases.php:348
+msgid "Use greater than 5 - below Posts, 10 - below Media, 15 - below Links, 20 - below Pages, 25 - below comments, 60 - below first separator, 65 - below Plugins, 70 - below Users, 75 - below Tools, 80 - below Settings, 100 - below second separator"
+msgstr "Yazı altı için 5'ten büyük kullanın - medya altı için 10, bağlantı altı için 15,sayfa altıiçin 20, yorum altı için 25, ilk ayıraç altı için 60,eklenti altı için 65, kullanıcı altı için 70, araç altı için 75, ayar altı için 80, ikinci ayıraç altı için 100"
+
+#: wpf-admin/options-tabs/general.php:59 wpf-includes/wpf-phrases.php:323
+msgid "The position in the menu order wpForo should appear."
+msgstr "Menü sıralamasında wpForo'nun konumu."
+
+#: wpf-admin/options-tabs/general.php:58 wpf-includes/wpf-phrases.php:64
+msgid "Dashboard Menu Position"
+msgstr "Kontrol paneli menü pozisyonu"
+
+#: wpf-admin/options-tabs/general.php:15 wpf-includes/wpf-phrases.php:107
+msgid "Forum Base URL"
+msgstr "Forum ana URL"
+
+#: wpf-admin/options-tabs/general.php:53 wpf-includes/wpf-phrases.php:108
+msgid "Forum Description"
+msgstr "Forum açıklaması"
+
+#: wpf-admin/options-tabs/general.php:49 wpf-includes/wpf-phrases.php:121
+msgid "Forum Title"
+msgstr "Forum başlığı"
+
+#: wpf-admin/options-tabs/api.php:245 wpf-admin/options-tabs/emails.php:164
+#: wpf-admin/options-tabs/features.php:89 wpf-admin/options-tabs/forums.php:16
+#: wpf-admin/options-tabs/general.php:83 wpf-admin/options-tabs/members.php:181
+#: wpf-admin/options-tabs/posts.php:112 wpf-admin/options-tabs/styles.php:93
+#: wpf-admin/tools-tabs/antispam.php:343 wpf-admin/tools-tabs/cleanup.php:49
+#: wpf-admin/tools-tabs/legal.php:179 wpf-admin/tools-tabs/misc.php:134
+#: wpf-includes/wpf-phrases.php:344
+msgid "Update Options"
+msgstr "Seçenekleri güncelle"
+
+#: wpf-admin/options-tabs/emails.php:34 wpf-admin/options-tabs/emails.php:46
+#: wpf-admin/options-tabs/emails.php:149 wpf-admin/options-tabs/features.php:79
+#: wpf-admin/tools-tabs/antispam.php:32 wpf-admin/tools-tabs/antispam.php:41
+#: wpf-admin/tools-tabs/antispam.php:50 wpf-admin/tools-tabs/antispam.php:151
+#: wpf-admin/tools-tabs/antispam.php:160 wpf-admin/tools-tabs/antispam.php:170
+#: wpf-admin/tools-tabs/antispam.php:179 wpf-admin/tools-tabs/antispam.php:188
+#: wpf-admin/tools-tabs/antispam.php:197 wpf-admin/tools-tabs/antispam.php:206
+#: wpf-admin/tools-tabs/antispam.php:215 wpf-admin/tools-tabs/antispam.php:263
+#: wpf-admin/tools-tabs/cleanup.php:40 wpf-includes/wpf-phrases.php:196
+msgid "No"
+msgstr "Hayır"
+
+#: wpf-admin/options-tabs/emails.php:33 wpf-admin/options-tabs/emails.php:45
+#: wpf-admin/options-tabs/emails.php:148 wpf-admin/options-tabs/features.php:77
+#: wpf-admin/tools-tabs/antispam.php:31 wpf-admin/tools-tabs/antispam.php:40
+#: wpf-admin/tools-tabs/antispam.php:49 wpf-admin/tools-tabs/antispam.php:150
+#: wpf-admin/tools-tabs/antispam.php:159 wpf-admin/tools-tabs/antispam.php:169
+#: wpf-admin/tools-tabs/antispam.php:178 wpf-admin/tools-tabs/antispam.php:187
+#: wpf-admin/tools-tabs/antispam.php:196 wpf-admin/tools-tabs/antispam.php:205
+#: wpf-admin/tools-tabs/antispam.php:214 wpf-admin/tools-tabs/antispam.php:262
+#: wpf-admin/tools-tabs/cleanup.php:39 wpf-includes/wpf-phrases.php:366
+msgid "Yes"
+msgstr "Evet"
+
+#: wpf-admin/options-tabs/features.php:56 wpf-includes/wpf-phrases.php:226
+msgid "Please enable this option to help wpForo get more popularity as your thank to the hard work we do for you totally free. This option adds a very small icon in forum footer, which will allow your site visitors recognize the name of forum solution you use."
+msgstr "WpForo'nun daha popüler hale gelmesine yardım etmek için,size sunduğumuz bu ücretsiz ve zor çalışmanın teşekkürü olarak bu seçeneği aktifleştirin. Bu seçenek forum altbilgisine site ziyaretçilerinizin kullandığınız forum çözümünün adını tanımasına olanak tanıyacak çok küçük bir simge ekler."
+
+#: wpf-admin/options-tabs/features.php:56 wpf-includes/wpf-phrases.php:134
+msgid "Help wpForo to grow, show plugin info"
+msgstr "wpForo'nun gelişmesine yardım et, eklenti bilgisini göster"
+
+#: wpf-admin/options-tabs/features.php:47 wpf-includes/wpf-phrases.php:82
+msgid "Enable wpForo Font-Awesome Lib"
+msgstr "wpForo font-Awesome kütüphanesini etkinleştir"
+
+#: wpf-admin/options-tabs/features.php:36 wpf-includes/wpf-phrases.php:83
+msgid "Enable wpForo SEO for Meta Tags"
+msgstr "Meta etiketler için wpforo SEO'yu etkinleştir"
+
+#: wpf-admin/options-tabs/features.php:35 wpf-includes/wpf-phrases.php:84
+msgid "Enable wpForo SEO for Meta Titles"
+msgstr "Meta başlıklar için wpforo SEO'yu etkinleştir"
+
+#: wpf-admin/options-tabs/features.php:31 wpf-includes/wpf-phrases.php:79
+msgid "Enable Member Cache"
+msgstr "Üye önbelleğini etkinleştir"
+
+#: wpf-admin/options-tabs/features.php:30 wpf-includes/wpf-phrases.php:81
+msgid "Enable Member Rating Titles"
+msgstr "Üye Puanlama Başlıklarını Etkinleştir"
+
+#: wpf-admin/options-tabs/features.php:29 wpf-includes/wpf-phrases.php:80
+msgid "Enable Member Rating"
+msgstr "Üye değerlendirmeyi etkinleştir"
+
+#: wpf-admin/options-tabs/features.php:28 wpf-includes/wpf-phrases.php:31
+msgid "Allow Member Signature"
+msgstr "Üye imzalarına izin ver"
+
+#: wpf-admin/options-tabs/features.php:27 wpf-includes/wpf-phrases.php:78
+msgid "Enable Custom Avatars"
+msgstr "Özel avatarları etkinleştir"
+
+#: wpf-admin/options-tabs/features.php:26 wpf-includes/wpf-phrases.php:77
+msgid "Enable Avatars"
+msgstr "Avatarları etkinleştir"
+
+#: wpf-admin/options-tabs/features.php:25 wpf-includes/wpf-phrases.php:256
+msgid "Replace Author Avatar with Forum Profile Avatar"
+msgstr "Yazar avatarını forum profil avatarı ile değiştir"
+
+#: wpf-admin/options-tabs/features.php:19 wpf-includes/wpf-phrases.php:258
+msgid "Replace Comment Author Link to Forum Profile"
+msgstr "Yazar yorum bağlantısı ile forum profil bağlantısını değiştir"
+
+#: wpf-admin/options-tabs/features.php:18 wpf-includes/wpf-phrases.php:257
+msgid "Replace Author Link to Forum Profile"
+msgstr "Yazar bağlantısı ile forum profilini değiştir"
+
+#: wpf-admin/options-tabs/features.php:14 wpf-includes/wpf-phrases.php:297
+msgid "Show Forum Statistic"
+msgstr "Forum istatistiğini göster"
+
+#: wpf-admin/options-tabs/features.php:13 wpf-includes/wpf-phrases.php:295
+msgid "Show Breadcrumb"
+msgstr "Gezinme çubuğunu göster"
+
+#: wpf-admin/options-tabs/features.php:12 wpf-includes/wpf-phrases.php:298
+msgid "Show Top Search"
+msgstr "Üst aramayı göster"
+
+#: wpf-admin/options-tabs/features.php:11 wpf-includes/wpf-phrases.php:299
+msgid "Show Top/Menu Bar"
+msgstr "Üst menü çubuğunu göster"
+
+#: wpf-admin/options-tabs/features.php:10 wpf-includes/wpf-phrases.php:296
+msgid "Show Forum Page Title"
+msgstr "Forum sayfa başlığını göster"
+
+#: wpf-admin/options-tabs/features.php:9 wpf-includes/wpf-phrases.php:332
+msgid "This option doesn't affect website admins."
+msgstr "Bu ayar site yöneticilerini etkilemez."
+
+#: wpf-admin/options-tabs/features.php:9 wpf-includes/wpf-phrases.php:294
+msgid "Show Admin Bar for Members"
+msgstr "Üyeler için yönetim çubuğunu göster"
+
+#: wpf-admin/options-tabs/accesses.php:76 wpf-includes/wpf-phrases.php:343
+msgid "Update"
+msgstr "Güncelle"
+
+#: wpf-admin/options-tabs/accesses.php:76 wpf-includes/wpf-phrases.php:270
+msgid "Save"
+msgstr "Kaydet"
+
+#: wpf-admin/options-tabs/accesses.php:57 wpf-includes/wpf-phrases.php:14
+msgid "Access name"
+msgstr "Erişim adı"
+
+#: wpf-admin/options-tabs/accesses.php:42 wpf-includes/class-forums.php:669
+#: wpf-includes/functions.php:631 wpf-includes/functions.php:641
+#: wpf-includes/wpf-phrases.php:380
+msgid "delete"
+msgstr "sil"
+
+#: wpf-admin/options-tabs/accesses.php:42 wpf-includes/wpf-phrases.php:39
+msgid "Are you sure you want to remove this access set? Usergroups which attached to this access will lost all forum permissions."
+msgstr "Bu erişim ayarını silmek istediğinizden emin misiniz? Bu erişime ekli olan üye grupları tüm forum izinlerini kaybedecektir."
+
+#: wpf-admin/options-tabs/accesses.php:40 wpf-includes/class-forums.php:667
+#: wpf-includes/functions.php:613 wpf-includes/wpf-phrases.php:381
+msgid "edit"
+msgstr "düzenle"
+
+#: wpf-admin/options-tabs/accesses.php:19 wpf-includes/wpf-phrases.php:15
+msgid "Access names"
+msgstr "Erişim adları"
+
+#: wpf-admin/options-tabs/accesses.php:14 wpf-includes/wpf-phrases.php:21
+msgid "Add New Forum Access"
+msgstr "Yeni forum erişimi ekle"
+
+#: wpf-admin/forum.php:262 wpf-includes/wpf-phrases.php:26
+msgid "All sub-forums, topics and replies will be attached to selected forum. Layout will be inherited from this forum."
+msgstr "Tüm alt forumlar, konular ve cevaplar seçilen foruma eklenecektir. Bu forumdan alınan şablon kullanılacaktır."
+
+#: wpf-admin/forum.php:253 wpf-includes/wpf-phrases.php:137
+msgid "If you want to delete this forum and keep its sub-forums, topics and replies, please select a new target forum in dropdown below"
+msgstr "Bu forumu silmek ve alt forumlarını, konularını ve iletilerini saklamak isterseniz, lütfen aşağıdaki açılan menüden yeni bir hedef forum seçin"
+
+#: wpf-admin/forum.php:245 wpf-includes/wpf-phrases.php:328
+msgid "This action will also delete all sub-forums, topics and replies."
+msgstr "Bu işlem aynı zamanda tüm alt forumları, konuları ve cevapları silecek."
+
+#: wpf-admin/forum.php:216 wpf-includes/wpf-phrases.php:184
+msgid "Meta Description"
+msgstr "Meta açıklama"
+
+#: wpf-admin/forum.php:213 wpf-includes/wpf-phrases.php:116
+msgid "Forum SEO"
+msgstr "Forum SEO"
+
+#: wpf-admin/forum.php:195 wpf-includes/wpf-phrases.php:322
+msgid "The \"slug\" is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
+msgstr "Kısa ad, \"Slug\",  ismin URL dostu versiyonudur Genellikle hepsi küçük ve yalnızca harf, sayı ve kısa çizgiler (-) içerir."
+
+#: wpf-admin/forum.php:192 wpf-includes/wpf-phrases.php:118
+msgid "Forum Slug"
+msgstr "Forum kısa ad"
+
+#: wpf-admin/forum.php:165 wpf-admin/usergroup.php:72
+#: wpf-includes/class-forums.php:671 wpf-includes/wpf-phrases.php:355
+msgid "View"
+msgstr "Görüntüle"
+
+#: wpf-admin/forum.php:164 wpf-admin/themes.php:73
+#: wpf-admin/tools-tabs/antispam.php:302 wpf-admin/usergroup.php:70
+#: wpf-admin/usergroup.php:375 wpf-includes/wpf-hooks.php:1121
+#: wpf-includes/wpf-phrases.php:66
+msgid "Delete"
+msgstr "Sil"
+
+#: wpf-admin/forum.php:164 wpf-includes/wpf-phrases.php:37
+msgid "Are you sure you want to delete this forum?"
+msgstr "Bu forumu silmek istediğinizden emin misiniz?"
+
+#: wpf-admin/forum.php:160 wpf-admin/forum.php:167
+#: wpf-includes/wpf-phrases.php:234
+msgid "Publish"
+msgstr "Yayımla"
+
+#: wpf-admin/forum.php:151 wpf-includes/wpf-phrases.php:202
+msgid "No layout found."
+msgstr "Şablon bulunamadı."
+
+#: wpf-admin/forum.php:143 wpf-includes/wpf-phrases.php:52
+msgid "Category Layout"
+msgstr "Kategori şablonu"
+
+#: wpf-admin/forum.php:141 wpf-includes/wpf-phrases.php:346
+msgid "Use as Category"
+msgstr "Kategori olarak kullan"
+
+#: wpf-admin/forum.php:136 wpf-includes/wpf-phrases.php:204
+msgid "No parent"
+msgstr "Yok"
+
+#: wpf-admin/forum.php:133 wpf-includes/wpf-phrases.php:221
+msgid "Parent Forum"
+msgstr "Bağlı forum"
+
+#: wpf-admin/forum.php:118 wpf-includes/wpf-phrases.php:329
+msgid "This is a forum description. This content will be displayed under forum title on the forum list."
+msgstr "Bu forum açıklamasıdır. Bu içerik forum listesinde forum başlığı altında görünecektir."
+
+#: wpf-admin/forum.php:117 wpf-includes/wpf-phrases.php:86
+msgid "Enter description here . . ."
+msgstr "Açıklamayı buraya girin..."
+
+#: wpf-admin/forum.php:112 wpf-includes/wpf-phrases.php:87
+msgid "Enter forum title here"
+msgstr "Forum başlığını buraya girin"
+
+#: wpf-admin/forum.php:75 wpf-includes/wpf-phrases.php:272
+msgid "Save forums order and hierarchy"
+msgstr "Forum sıralaması ve hiyerarşiyi kaydet"
+
+#: wpf-admin/forum.php:57 wpf-includes/wpf-phrases.php:225
+msgid "Please drag and drop forum panels to set parent-child hierarchy."
+msgstr "Lütfen forum panellerini sürükle bırak yaparak ana kategori- alt kategori hiyerarşisini ayarlayın."
+
+#: wpf-admin/forum.php:44 wpf-admin/options-tabs/general.php:76
+#: wpf-admin/themes.php:10 wpf-admin/usergroup.php:8
+#: wpf-includes/wpf-phrases.php:20
+msgid "Add New"
+msgstr "Yeni ekle"
+
+#: wpf-admin/forum.php:43 wpf-includes/wpf-phrases.php:51
+msgid "Categories and Forums"
+msgstr "Kategoriler ve forumlar"
+
+#: wpf-admin/forum.php:32 wpf-includes/functions.php:817
+#: wpf-includes/wpf-phrases.php:274
+msgid "Screen Options"
+msgstr "Ekran seçenekleri"
+
+#: wpf-admin/forum.php:22 wpf-includes/wpf-phrases.php:209
+msgid "Number of Columns"
+msgstr "Sütun sayısı"
+
+#: wpf-admin/forum.php:21 wpf-includes/wpf-phrases.php:273
+msgid "Screen Layout"
+msgstr "Ekran şablonu"
+
+#: wpf-admin/forum.php:18 wpf-includes/wpf-phrases.php:112
+msgid "Forum Meta"
+msgstr "Forum meta"
+
+#: wpf-admin/forum.php:17 wpf-includes/wpf-phrases.php:306
+msgid "Slug"
+msgstr "Kısa ad"
+
+#: wpf-admin/forum.php:16 wpf-includes/wpf-phrases.php:223
+msgid "Permissions"
+msgstr "İzinler"
+
+#: wpf-admin/forum.php:15 wpf-admin/forum.php:130
+#: wpf-includes/wpf-phrases.php:113
+msgid "Forum Options"
+msgstr "Forum ayarları"
+
+#: wpf-admin/forum.php:13 wpf-includes/functions.php:803
+#: wpf-includes/wpf-phrases.php:301
+msgid "Show on screen"
+msgstr "Ekranda göster"
+
+#: wpf-includes/wpf-phrases.php:45
+msgid "Attachments Size"
+msgstr "Dosya eki boyutu"
+
+#: wpf-includes/wpf-phrases.php:44
+msgid "Attachments"
+msgstr "Dosya ekleri"
+
+#: wpf-admin/dashboard.php:153 wpf-includes/wpf-phrases.php:179
+msgid "Members Online"
+msgstr "Çevrimiçi üyeler"
+
+#: wpf-admin/admin.php:30 wpf-admin/dashboard.php:149 wpf-admin/member.php:10
+#: wpf-admin/options.php:18 wpf-admin/tools-tabs/misc.php:108
+#: wpf-admin/usergroup.php:31 wpf-includes/wpf-hooks.php:1944
+#: wpf-includes/wpf-phrases.php:178
+msgid "Members"
+msgstr "Üyeler"
+
+#: wpf-admin/dashboard.php:145 wpf-admin/options-tabs/posts.php:18
+#: wpf-includes/class-forums.php:665 wpf-includes/wpf-phrases.php:232
+msgid "Posts"
+msgstr "Gönderiler"
+
+#: wpf-admin/dashboard.php:141 wpf-admin/options-tabs/posts.php:17
+#: wpf-admin/options-tabs/styles.php:22 wpf-includes/class-forums.php:665
+#: wpf-includes/wpf-phrases.php:338
+msgid "Topics"
+msgstr "Konular"
+
+#: wpf-admin/admin.php:24 wpf-admin/admin.php:26 wpf-admin/dashboard.php:137
+#: wpf-admin/options-tabs/api.php:83 wpf-admin/options-tabs/styles.php:16
+#: wpf-admin/options.php:15 wpf-admin/tools-tabs/misc.php:92
+#: wpf-includes/integration/buddypress.php:11
+#: wpf-includes/integration/buddypress.php:57
+#: wpf-includes/integration/buddypress.php:129 wpf-includes/wpf-hooks.php:1901
+#: wpf-includes/wpf-phrases.php:123
+msgid "Forums"
+msgstr "Forumlar"
+
+#: wpf-admin/dashboard.php:131 wpf-includes/wpf-phrases.php:49
+msgid "Board Statistic"
+msgstr "Forum istatistikleri"
+
+#: wpf-includes/wpf-phrases.php:208
+msgid "Not available"
+msgstr "Mevcut değil"
+
+#: wpf-admin/dashboard.php:110 wpf-includes/wpf-phrases.php:46
+msgid "Available"
+msgstr "Mevcut"
+
+#: wpf-admin/dashboard.php:75 wpf-includes/wpf-phrases.php:289
+msgid "Server Information"
+msgstr "Sunucu bilgisi"
+
+#: wpf-admin/dashboard.php:64 wpf-includes/wpf-phrases.php:319
+msgid "Support Forum"
+msgstr "Destek forumu"
+
+#: wpf-admin/dashboard.php:63 wpf-includes/wpf-phrases.php:413
+msgid "wpForo Website"
+msgstr "Websitesi"
+
+#: wpf-admin/dashboard.php:62 wpf-includes/wpf-phrases.php:18
+msgid "Active Theme"
+msgstr "Aktif tema"
+
+#: wpf-admin/dashboard.php:61 wpf-includes/wpf-phrases.php:368
+msgid "You are currently running"
+msgstr "Sürüm "
+
+#: wpf-admin/dashboard.php:57 wpf-includes/wpf-phrases.php:130
+msgid "General Information"
+msgstr "Genel bilgi"
+
+#: wpf-admin/dashboard.php:29
+msgid ""
+"Thank you for using wpForo! wpForo is a professional bulletin board for WorPress, and the only forum software which comes with Multi-layout template system.\n"
+"                                    The \"Extended\", \"Simplified\" and \"Question &amp Answer\" layouts fit almost all type of discussions needs. You can use wpForo for small and extremely large communities. \n"
+"                                    <br />If you found some issue or bug please open a support topic in plugin page or in our support forum at gVectors.com. If you liked wpForo please leave some good review for this plugin. We really need your good reviews. \n"
+"                                    If you didn't like wpForo please leave a list of issues and requirements you'd like us to fix and add in near future. We're here to help you and improve wpForo as much as possible."
+msgstr ""
+"wpForo'yu kullandığınız için teşekkür ederiz. wpForo, WordPress için profesyonel bir ileti panosu ve çoklu düzen şablonuyla birlikte gelen tek forum yazılımıdır.\n"
+"                                    \"Genişletilmiş\", \"Basitleştirilmiş\" ve \"Soru &amp Cevap\" düzenleri hemen hemen her tür forum ihtiyaçlarına uygundur. WpForo'yu hem küçük hemde son derece büyük topluluklar için kullanabilirsiniz. \n"
+"                                    <br /> Bir sorun veya hata bulduysanız lütfen eklenti sayfasında veya gVectors.com' daki destek forumumuzda bir başlık açın. WpForo'yu sevdiyseniz, lütfen bu eklenti için iyi bir inceleme yazabilirsiniz. Gerçekten de iyi değerlendirmelere ihtiyacımız var. \n"
+"                                    WpForo'yu beğenmediyseniz, düzeltilmesi ve yakın gelecekte eklenmesi için bir hata düzeltme ve istek listesi gönderin. WpForo'yu olabildiğince geliştirmek ve  size yardım etmek için buradayız."
+
+#: wpf-admin/dashboard.php:23 wpf-includes/wpf-phrases.php:361
+msgid "Welcome Message"
+msgstr "Hoşgeldiniz!"
+
+#: wpf-admin/dashboard.php:7 wpf-includes/wpf-phrases.php:408
+msgid "wpForo Dashboard"
+msgstr "wpForo kontrol paneli"
