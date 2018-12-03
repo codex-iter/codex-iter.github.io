@@ -1,4 +1,5 @@
 <?php
+
 /**
  * GDPR Checkbox field.
  *
@@ -18,13 +19,13 @@ class WPForms_Field_GDPR_Checkbox extends WPForms_Field {
 	public function init() {
 
 		// Define field type information.
-		$this->name     = esc_html__( 'GDPR Agreement', 'wpforms' );
+		$this->name     = esc_html__( 'GDPR Agreement', 'wpforms-lite' );
 		$this->type     = 'gdpr-checkbox';
 		$this->icon     = 'fa-check-square-o';
-		$this->order    = 50;
+		$this->order    = 500;
 		$this->defaults = array(
 			1 => array(
-				'label'   => esc_html__( 'I consent to having this website store my submitted information so they can respond to my inquiry.', 'wpforms' ),
+				'label'   => esc_html__( 'I consent to having this website store my submitted information so they can respond to my inquiry.', 'wpforms-lite' ),
 				'value'   => '',
 				'image'   => '',
 				'default' => '',
@@ -50,7 +51,7 @@ class WPForms_Field_GDPR_Checkbox extends WPForms_Field {
 	 */
 	public function field_default_required( $required, $field ) {
 
-		if ( 'gdpr-checkbox' === $field['type'] ) {
+		if ( $this->type === $field['type'] ) {
 			return true;
 		}
 
@@ -64,7 +65,7 @@ class WPForms_Field_GDPR_Checkbox extends WPForms_Field {
 	 *
 	 * @param array $properties Field properties.
 	 * @param array $field      Field settings.
-	 * @param array $form_data  Form data.
+	 * @param array $form_data  Form data and settings.
 	 *
 	 * @return array
 	 */
@@ -88,12 +89,10 @@ class WPForms_Field_GDPR_Checkbox extends WPForms_Field {
 		// Set input properties.
 		foreach ( $choices as $key => $choice ) {
 
-			$depth = isset( $choice['depth'] ) ? absint( $choice['depth'] ) : 1;
-
 			$properties['inputs'][ $key ] = array(
 				'container' => array(
 					'attr'  => array(),
-					'class' => array( "choice-{$key}", "depth-{$depth}" ),
+					'class' => array( "choice-{$key}" ),
 					'data'  => array(),
 					'id'    => '',
 				),
@@ -128,6 +127,14 @@ class WPForms_Field_GDPR_Checkbox extends WPForms_Field {
 	}
 
 	/**
+	 * @inheritdoc
+	 */
+	public function is_dynamic_population_allowed( $properties, $field ) {
+
+		return false;
+	}
+
+	/**
 	 * Field options panel inside the builder.
 	 *
 	 * @since 1.4.6
@@ -137,45 +144,65 @@ class WPForms_Field_GDPR_Checkbox extends WPForms_Field {
 	public function field_options( $field ) {
 
 		// Field is always required.
-		$this->field_element( 'text', $field, array(
-			'type'  => 'hidden',
-			'slug'  => 'required',
-			'value' => '1',
-		) );
+		$this->field_element(
+			'text',
+			$field,
+			array(
+				'type'  => 'hidden',
+				'slug'  => 'required',
+				'value' => '1',
+			)
+		);
 
 		// -------------------------------------------------------------------//
 		// Basic field options
 		// -------------------------------------------------------------------//
 
 		// Options open markup.
-		$this->field_option( 'basic-options', $field, array(
-			'markup' => 'open',
-		) );
+		$this->field_option(
+			'basic-options',
+			$field,
+			array(
+				'markup' => 'open',
+			)
+		);
 
 		// Label.
 		$this->field_option( 'label', $field );
 
 		// Choices.
-		$this->field_option( 'choices', $field, array(
-			'label' => esc_html__( 'Agreement', 'wpforms' )
-		) );
+		$this->field_option(
+			'choices',
+			$field,
+			array(
+				'label' => esc_html__( 'Agreement', 'wpforms-lite' ),
+			)
+		);
 
 		// Description.
 		$this->field_option( 'description', $field );
 
 		// Options close markup.
-		$this->field_option( 'basic-options', $field, array(
-			'markup' => 'close',
-		) );
+		$this->field_option(
+			'basic-options',
+			$field,
+			array(
+				'markup' => 'close',
+			)
+		);
 
 		// -------------------------------------------------------------------//
 		// Advanced field options
 		// -------------------------------------------------------------------//
 
 		// Options open markup.
-		$this->field_option( 'advanced-options', $field, array(
-			'markup' => 'open',
-		) );
+		$this->field_option(
+			'advanced-options',
+			$field,
+			array(
+				'markup' => 'open',
+			)
+		);
 
 		// Hide label.
 		$this->field_option( 'label_hide', $field );
@@ -184,9 +211,13 @@ class WPForms_Field_GDPR_Checkbox extends WPForms_Field {
 		$this->field_option( 'css', $field );
 
 		// Options close markup.
-		$this->field_option( 'advanced-options', $field, array(
-			'markup' => 'close',
-		) );
+		$this->field_option(
+			'advanced-options',
+			$field,
+			array(
+				'markup' => 'close',
+			)
+		);
 	}
 
 	/**
@@ -215,7 +246,7 @@ class WPForms_Field_GDPR_Checkbox extends WPForms_Field {
 	 *
 	 * @param array $field      Field settings.
 	 * @param array $deprecated Deprecated array.
-	 * @param array $form_data  Form data.
+	 * @param array $form_data  Form data and settings.
 	 */
 	public function field_display( $field, $deprecated, $form_data ) {
 
@@ -223,7 +254,8 @@ class WPForms_Field_GDPR_Checkbox extends WPForms_Field {
 		$container = $field['properties']['input_container'];
 		$choices   = $field['properties']['inputs'];
 
-		printf( '<ul %s>',
+		printf(
+			'<ul %s>',
 			wpforms_html_attributes( $container['id'], $container['class'], $container['data'] )
 		);
 
@@ -234,17 +266,20 @@ class WPForms_Field_GDPR_Checkbox extends WPForms_Field {
 					$required = wpforms_get_field_required_label();
 				}
 
-				printf( '<li %s>',
+				printf(
+					'<li %s>',
 					wpforms_html_attributes( $choice['container']['id'], $choice['container']['class'], $choice['container']['data'], $choice['container']['attr'] )
 				);
 					// Normal display.
-					printf( '<input type="checkbox" %s %s %s>',
+					printf(
+						'<input type="checkbox" %s %s %s>',
 						wpforms_html_attributes( $choice['id'], $choice['class'], $choice['data'], $choice['attr'] ),
 						esc_attr( $choice['required'] ),
 						checked( '1', $choice['default'], false )
 					);
 
-					printf( '<label %s>%s%s</label>',
+					printf(
+						'<label %s>%s%s</label>',
 						wpforms_html_attributes( $choice['label']['id'], $choice['label']['class'], $choice['label']['data'], $choice['label']['attr'] ),
 						wp_kses_post( $choice['label']['text'] ),
 						$required
@@ -263,7 +298,7 @@ class WPForms_Field_GDPR_Checkbox extends WPForms_Field {
 	 *
 	 * @param int   $field_id     Field ID.
 	 * @param array $field_submit Submitted form data.
-	 * @param array $form_data    Form data.
+	 * @param array $form_data    Form data and settings.
 	 */
 	public function format( $field_id, $field_submit, $form_data ) {
 
@@ -275,4 +310,5 @@ class WPForms_Field_GDPR_Checkbox extends WPForms_Field {
 		);
 	}
 }
+
 new WPForms_Field_GDPR_Checkbox();

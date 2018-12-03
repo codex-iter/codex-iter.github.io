@@ -36,7 +36,7 @@ abstract class FormBuilder implements FormBuilderInterface {
 	protected $type = 'connection';
 
 	/**
-	 * Form data.
+	 * Form data and settings.
 	 *
 	 * @since 1.4.7
 	 *
@@ -108,8 +108,8 @@ abstract class FormBuilder implements FormBuilderInterface {
 				<table class="wpforms-builder-provider-connection-fields-table">
 					<thead>
 						<tr>
-							<th><?php \esc_html_e( 'Custom Field Name', 'wpforms' ); ?></th>
-							<th colspan="3"><?php \esc_html_e( 'Form Field Value', 'wpforms' ); ?></th>
+							<th><?php \esc_html_e( 'Custom Field Name', 'wpforms-lite' ); ?></th>
+							<th colspan="3"><?php \esc_html_e( 'Form Field Value', 'wpforms-lite' ); ?></th>
 						</tr>
 					</thead>
 					<tbody>
@@ -119,12 +119,12 @@ abstract class FormBuilder implements FormBuilderInterface {
 									<td>
 										<input type="text" value="{{ item.name }}"
 										       name="providers[<?php echo \esc_attr( $this->core->slug ); ?>][{{ data.connection.id }}][fields_meta][{{ meta_id }}][name]"
-										       placeholder="<?php \esc_attr_e( 'Field Name', 'wpforms' ); ?>"
+										       placeholder="<?php \esc_attr_e( 'Field Name', 'wpforms-lite' ); ?>"
 										/>
 									</td>
 									<td>
 										<select name="providers[<?php echo \esc_attr( $this->core->slug ); ?>][{{ data.connection.id }}][fields_meta][{{ meta_id }}][field_id]">
-											<option value=""><?php \esc_html_e( '--- Select Field ---', 'wpforms' ); ?></option>
+											<option value=""><?php \esc_html_e( '--- Select Field ---', 'wpforms-lite' ); ?></option>
 
 											<# _.each( data.fields, function( field, key ) { #>
 												<option value="{{ field.id }}"
@@ -137,13 +137,13 @@ abstract class FormBuilder implements FormBuilderInterface {
 									</td>
 									<td class="add">
 										<button class="button-secondary js-wpforms-builder-provider-connection-fields-add"
-										        title="<?php \esc_attr_e( 'Add Another', 'wpforms' ); ?>">
+										        title="<?php \esc_attr_e( 'Add Another', 'wpforms-lite' ); ?>">
 											<i class="fa fa-plus-circle"></i>
 										</button>
 									</td>
 									<td class="delete">
 										<button class="button js-wpforms-builder-provider-connection-fields-delete <# if ( meta_id === 0 ) { #>hidden<# } #>"
-										        title="<?php \esc_attr_e( 'Remove', 'wpforms' ); ?>">
+										        title="<?php \esc_attr_e( 'Remove', 'wpforms-lite' ); ?>">
 											<i class="fa fa-minus-circle"></i>
 										</button>
 									</td>
@@ -154,12 +154,12 @@ abstract class FormBuilder implements FormBuilderInterface {
 								<td>
 									<input type="text" value=""
 									       name="providers[<?php echo \esc_attr( $this->core->slug ); ?>][{{ data.connection.id }}][fields_meta][0][name]"
-									       placeholder="<?php \esc_attr_e( 'Field Name', 'wpforms' ); ?>"
+									       placeholder="<?php \esc_attr_e( 'Field Name', 'wpforms-lite' ); ?>"
 									/>
 								</td>
 								<td>
 									<select name="providers[<?php echo \esc_attr( $this->core->slug ); ?>][{{ data.connection.id }}][fields_meta][0][field_id]">
-										<option value=""><?php \esc_html_e( '--- Select Field ---', 'wpforms' ); ?></option>
+										<option value=""><?php \esc_html_e( '--- Select Field ---', 'wpforms-lite' ); ?></option>
 
 										<# _.each( data.fields, function( field, key ) { #>
 											<option value="{{ field.id }}">
@@ -170,13 +170,13 @@ abstract class FormBuilder implements FormBuilderInterface {
 								</td>
 								<td class="add">
 									<button class="button-secondary js-wpforms-builder-provider-connection-fields-add"
-									        title="<?php \esc_attr_e( 'Add Another', 'wpforms' ); ?>">
+									        title="<?php \esc_attr_e( 'Add Another', 'wpforms-lite' ); ?>">
 										<i class="fa fa-plus-circle"></i>
 									</button>
 								</td>
 								<td class="delete">
 									<button class="button js-wpforms-builder-provider-connection-fields-delete hidden"
-									        title="<?php \esc_attr_e( 'Delete', 'wpforms' ); ?>">
+									        title="<?php \esc_attr_e( 'Delete', 'wpforms-lite' ); ?>">
 										<i class="fa fa-minus-circle"></i>
 									</button>
 								</td>
@@ -186,7 +186,7 @@ abstract class FormBuilder implements FormBuilderInterface {
 				</table><!-- /.wpforms-builder-provider-connection-fields-table -->
 
 				<p class="description">
-					<?php \esc_html_e( 'Map custom fields (or properties) to form fields values.', 'wpforms' ); ?>
+					<?php \esc_html_e( 'Map custom fields (or properties) to form fields values.', 'wpforms-lite' ); ?>
 				</p>
 
 			</div><!-- /.wpforms-builder-provider-connection-fields -->
@@ -202,7 +202,7 @@ abstract class FormBuilder implements FormBuilderInterface {
 					'parent'     => 'providers',
 					'panel'      => esc_attr( $this->core->slug ),
 					'subsection' => '%connection_id%',
-					'reference'  => esc_html__( 'Marketing provider connection', 'wpforms' ),
+					'reference'  => esc_html__( 'Marketing provider connection', 'wpforms-lite' ),
 				),
 				false
 			);
@@ -221,8 +221,6 @@ abstract class FormBuilder implements FormBuilderInterface {
 
 		$min = \wpforms_get_min_suffix();
 
-		// TODO: When switched to PHP 5.3+ - enable this.
-		/*
 		\wp_enqueue_script(
 			'wpforms-admin-builder-templates',
 			WPFORMS_PLUGIN_URL . "assets/js/components/admin/builder/templates{$min}.js",
@@ -230,7 +228,6 @@ abstract class FormBuilder implements FormBuilderInterface {
 			WPFORMS_VERSION,
 			true
 		);
-		*/
 
 		\wp_enqueue_script(
 			'wpforms-admin-builder-providers',
@@ -255,13 +252,13 @@ abstract class FormBuilder implements FormBuilderInterface {
 		if ( ! \wpforms_current_user_can() ) {
 			\wp_send_json_error(
 				array(
-					'error' => \esc_html__( 'You do not have permission to perform this action.', 'wpforms' ),
+					'error' => \esc_html__( 'You do not have permission to perform this action.', 'wpforms-lite' ),
 				)
 			);
 		}
 
 		// Process required values.
-		$error = array( 'error' => \esc_html__( 'Something went wrong while performing an AJAX request.', 'wpforms' ) );
+		$error = array( 'error' => \esc_html__( 'Something went wrong while performing an AJAX request.', 'wpforms-lite' ) );
 
 		if (
 			empty( $_POST['id'] ) ||
@@ -384,13 +381,13 @@ abstract class FormBuilder implements FormBuilderInterface {
 			<button class="wpforms-builder-provider-title-add js-wpforms-builder-provider-connection-add <?php echo $is_configured ? '' : 'hidden'; ?>"
 			        data-form_id="<?php echo \absint( $_GET['form_id'] ); ?>"
 			        data-provider="<?php echo \esc_attr( $this->core->slug ); ?>">
-				<?php \esc_html_e( 'Add New Connection', 'wpforms' ); ?>
+				<?php \esc_html_e( 'Add New Connection', 'wpforms-lite' ); ?>
 			</button>
 
 			<button class="wpforms-builder-provider-title-add js-wpforms-builder-provider-account-add <?php echo ! $is_configured ? '' : 'hidden'; ?>"
 			        data-form_id="<?php echo \absint( $_GET['form_id'] ); ?>"
 			        data-provider="<?php echo \esc_attr( $this->core->slug ); ?>">
-				<?php \esc_html_e( 'Add New Account', 'wpforms' ); ?>
+				<?php \esc_html_e( 'Add New Account', 'wpforms-lite' ); ?>
 			</button>
 
 		</div>

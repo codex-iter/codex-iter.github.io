@@ -120,16 +120,16 @@ class WPForms_Ninja_Forms extends WPForms_Importer {
 			'settings' => array(
 				'form_title'             => $nf_form_name,
 				'form_desc'              => '',
-				'submit_text'            => esc_html__( 'Submit', 'wpforms' ),
-				'submit_text_processing' => esc_html__( 'Sending', 'wpforms' ),
+				'submit_text'            => esc_html__( 'Submit', 'wpforms-lite' ),
+				'submit_text_processing' => esc_html__( 'Sending', 'wpforms-lite' ),
 				'honeypot'               => '1',
 				'notification_enable'    => '1',
 				'notifications'          => array(
 					1 => array(
-						'notification_name' => esc_html__( 'Notification 1', 'wpforms' ),
+						'notification_name' => esc_html__( 'Notification 1', 'wpforms-lite' ),
 						'email'             => '{admin_email}',
 						/* translators: %s - Ninja Forms form name. */
-						'subject'           => sprintf( esc_html__( 'New Entry: %s', 'wpforms' ), $nf_form_name ),
+						'subject'           => sprintf( esc_html__( 'New Entry: %s', 'wpforms-lite' ), $nf_form_name ),
 						'sender_name'       => get_bloginfo( 'name' ),
 						'sender_address'    => '{admin_email}',
 						'replyto'           => '',
@@ -139,7 +139,7 @@ class WPForms_Ninja_Forms extends WPForms_Importer {
 				'confirmations'          => array(
 					1 => array(
 						'type'           => 'message',
-						'message'        => esc_html__( 'Thanks for contacting us! We will be in touch with you shortly.', 'wpforms' ),
+						'message'        => esc_html__( 'Thanks for contacting us! We will be in touch with you shortly.', 'wpforms-lite' ),
 						'message_scroll' => '1',
 					),
 				),
@@ -152,7 +152,7 @@ class WPForms_Ninja_Forms extends WPForms_Importer {
 			wp_send_json_success( array(
 				'error' => true,
 				'name'  => sanitize_text_field( $nf_form_name ),
-				'msg'   => esc_html__( 'No form fields found.', 'wpforms' ),
+				'msg'   => esc_html__( 'No form fields found.', 'wpforms-lite' ),
 			) );
 		}
 
@@ -228,7 +228,7 @@ class WPForms_Ninja_Forms extends WPForms_Importer {
 					$form['fields'][ $field_id ] = array(
 						'id'          => $field_id,
 						'type'        => 'checkbox',
-						'label'       => esc_html__( 'Single Checkbox Field', 'wpforms' ),
+						'label'       => esc_html__( 'Single Checkbox Field', 'wpforms-lite' ),
 						'choices'     => array(
 							1 => array(
 								'label' => $label,
@@ -403,10 +403,10 @@ class WPForms_Ninja_Forms extends WPForms_Importer {
 		// Setup email notifications.
 		$action_count    = 1;
 		$action_defaults = array(
-			'notification_name' => esc_html__( 'Notification', 'wpforms' ) . " $action_count",
+			'notification_name' => esc_html__( 'Notification', 'wpforms-lite' ) . " $action_count",
 			'email'             => '{admin_email}',
 			/* translators: %s - Ninja Forms form name. */
-			'subject'           => sprintf( esc_html__( 'New Entry: %s', 'wpforms' ), $nf_form_name ),
+			'subject'           => sprintf( esc_html__( 'New Entry: %s', 'wpforms-lite' ), $nf_form_name ),
 			'sender_name'       => get_bloginfo( 'name' ),
 			'sender_address'    => '{admin_email}',
 			'replyto'           => '',
@@ -419,7 +419,7 @@ class WPForms_Ninja_Forms extends WPForms_Importer {
 				continue;
 			}
 
-			$action_defaults['notification_name'] = esc_html__( 'Notification', 'wpforms' ) . " $action_count";
+			$action_defaults['notification_name'] = esc_html__( 'Notification', 'wpforms-lite' ) . " $action_count";
 
 			$form['settings']['notifications'][ $action_count ] = $action_defaults;
 
@@ -473,7 +473,7 @@ class WPForms_Ninja_Forms extends WPForms_Importer {
 		} else {
 			$label = sprintf(
 				/* translators: %1$s - field type; %2$s - field name if available. */
-				esc_html__( '%1$s Field', 'wpforms' ),
+				esc_html__( '%1$s Field', 'wpforms-lite' ),
 				ucfirst( $field['type'] )
 			);
 		}

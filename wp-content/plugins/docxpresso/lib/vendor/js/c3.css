@@ -1,0 +1,223 @@
+/*-- Chart --*/
+
+
+.h5p_page .c3 svg {
+  font: 10px sans-serif;
+}
+.h5p_page .c3 path, .h5p_page .c3 line {
+  fill: none;
+  stroke: #000;
+}
+.h5p_page .c3 text {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.h5p_page .c3-legend-item-tile,
+.h5p_page .c3-xgrid-focus,
+.h5p_page .c3-ygrid,
+.h5p_page .c3-event-rect,
+.h5p_page .c3-bars path {
+  shape-rendering: crispEdges;
+}
+
+.h5p_page .c3-chart-arc path {
+  stroke: #fff;
+
+}
+.h5p_page .c3-chart-arc text {
+  fill: #fff;
+  font-size: 13px;
+}
+
+/*-- Axis --*/
+
+.h5p_page .c3-axis-x .tick {
+}
+.h5p_page .c3-axis-x-label {
+}
+
+.h5p_page .c3-axis-y .tick {
+}
+.h5p_page .c3-axis-y-label {
+}
+
+.h5p_page .c3-axis-y2 .tick {
+}
+.h5p_page .c3-axis-y2-label {
+}
+
+/*-- Grid --*/
+
+.h5p_page .c3-grid line {
+  stroke: #aaa;
+}
+.h5p_page .c3-grid text {
+  fill: #aaa;
+}
+.h5p_page .c3-xgrid, .h5p_page .c3-ygrid {
+  stroke-dasharray: 3 3;
+}
+.h5p_page .c3-xgrid-focus {
+}
+
+/*-- Text on Chart --*/
+
+.h5p_page .c3-text {
+}
+
+.h5p_page .c3-text.h5p_page .c3-empty {
+  fill: #808080;
+  font-size: 2em;
+}
+
+/*-- Line --*/
+
+.h5p_page .c3-line {
+  stroke-width: 1px;
+}
+/*-- Point --*/
+
+.h5p_page .c3-circle._expanded_ {
+  stroke-width: 1px;
+  stroke: white;
+}
+.h5p_page .c3-selected-circle {
+  fill: white;
+  stroke-width: 2px;
+}
+
+/*-- Bar --*/
+
+.h5p_page .c3-bar {
+  stroke-width: 0;
+}
+.h5p_page .c3-bar._expanded_ {
+  fill-opacity: 0.75;
+}
+
+/*-- Arc --*/
+
+.h5p_page .c3-chart-arcs-title {
+  font-size: 1.3em;
+}
+
+/*-- Focus --*/
+
+.h5p_page .c3-target.h5p_page .c3-focused {
+  opacity: 1;
+}
+.h5p_page .c3-target.h5p_page .c3-focused path.h5p_page .c3-line, .h5p_page .c3-target.h5p_page .c3-focused path.h5p_page .c3-step {
+  stroke-width: 2px;
+}
+.h5p_page .c3-target.h5p_page .c3-defocused {
+  opacity: 0.3 !important;
+}
+
+
+/*-- Region --*/
+
+.h5p_page .c3-region {
+  fill: steelblue;
+  fill-opacity: .1;
+}
+
+/*-- Brush --*/
+
+.h5p_page .c3-brush .extent {
+  fill-opacity: .1;
+}
+
+/*-- Select - Drag --*/
+
+.h5p_page .c3-dragarea {
+}
+
+/*-- Legend --*/
+
+.h5p_page .c3-legend-item {
+  font-size: 12px;
+}
+.h5p_page .c3-legend-item-hidden {
+  opacity: 0.15;
+}
+
+.h5p_page .c3-legend-background {
+  opacity: 0.75;
+  fill: white;
+  stroke: lightgray;
+  stroke-width: 1
+}
+
+/*-- Tooltip --*/
+
+.h5p_page .c3-tooltip-container {
+  z-index: 10;
+  /*top: 0 !important;
+  left:0 !important;*/
+}
+.h5p_page .c3-tooltip {
+  text-indent: 0;
+  border-collapse:collapse;
+  border-spacing:0;
+  background-color:#fff;
+  empty-cells:show;
+  -webkit-box-shadow: 7px 7px 12px -9px rgb(119,119,119);
+     -moz-box-shadow: 7px 7px 12px -9px rgb(119,119,119);
+          box-shadow: 7px 7px 12px -9px rgb(119,119,119);
+  opacity: 0.9;
+}
+.h5p_page .c3-tooltip tr {
+  border:1px solid #CCC;
+}
+.h5p_page .c3-tooltip th {
+  background-color: #aaa;
+  font-size:14px;
+  padding:2px 5px;
+  text-align:left;
+  color:#FFF;
+}
+.h5p_page .c3-tooltip td {
+  font-size:13px;
+  padding: 3px 6px;
+  background-color:#fff;
+  color: #444;
+  font-weight: normal;
+  border-left:1px dotted #999;
+}
+.h5p_page .c3-tooltip td > span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 6px;
+}
+.h5p_page .c3-tooltip td.value{
+  text-align: right;
+}
+
+.h5p_page .c3-area {
+  stroke-width: 0;
+  opacity: 0.2;
+}
+
+.h5p_page .c3-chart-arcs .h5p_page .c3-chart-arcs-background {
+  fill: #e0e0e0;
+  stroke: none;
+}
+.h5p_page .c3-chart-arcs .h5p_page .c3-chart-arcs-gauge-unit {
+  fill: #000;
+  font-size: 16px;
+}
+.h5p_page .c3-chart-arcs .h5p_page .c3-chart-arcs-gauge-max {
+  fill: #777;
+}
+.h5p_page .c3-chart-arcs .h5p_page .c3-chart-arcs-gauge-min {
+  fill: #777;
+}
+
+.h5p_page .c3-chart-arc .h5p_page .c3-gauge-value {
+  fill: #000;
+/*  font-size: 28px !important;*/
+}
+

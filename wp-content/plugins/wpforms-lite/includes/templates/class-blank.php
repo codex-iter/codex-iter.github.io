@@ -18,9 +18,9 @@ class WPForms_Template_Blank extends WPForms_Template {
 	 */
 	public function init() {
 
-		$this->name        = esc_html__( 'Blank Form', 'wpforms' );
+		$this->name        = esc_html__( 'Blank Form', 'wpforms-lite' );
 		$this->slug        = 'blank';
-		$this->description = esc_html__( 'The blank form allows you to create any type of form using our drag & drop builder.', 'wpforms' );
+		$this->description = esc_html__( 'The blank form allows you to create any type of form using our drag & drop builder.', 'wpforms-lite' );
 		$this->includes    = '';
 		$this->icon        = '';
 		$this->modal       = '';
@@ -31,7 +31,7 @@ class WPForms_Template_Blank extends WPForms_Template {
 			'settings' => array(
 				'honeypot'                    => '1',
 				'confirmation_message_scroll' => '1',
-				'submit_text_processing'      => esc_html__( 'Sending...', 'wpforms' ),
+				'submit_text_processing'      => esc_html__( 'Sending...', 'wpforms-lite' ),
 			),
 			'meta'     => array(
 				'template' => $this->slug,

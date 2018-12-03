@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Number text field.
  *
@@ -18,23 +19,23 @@ class WPForms_Field_Number extends WPForms_Field {
 	public function init() {
 
 		// Define field type information.
-		$this->name  = esc_html__( 'Numbers', 'wpforms' );
+		$this->name  = esc_html__( 'Numbers', 'wpforms-lite' );
 		$this->type  = 'number';
 		$this->icon  = 'fa-hashtag';
-		$this->order = 13;
+		$this->order = 130;
 	}
 
 	/**
 	 * Field options panel inside the builder.
 	 *
 	 * @since 1.0.0
+	 *
 	 * @param array $field
 	 */
 	public function field_options( $field ) {
-
-		// -------------------------------------------------------------------//
-		// Basic field options.
-		// -------------------------------------------------------------------//
+		/*
+		 * Basic field options.
+		 */
 
 		// Options open markup.
 		$args = array(
@@ -57,9 +58,9 @@ class WPForms_Field_Number extends WPForms_Field {
 		);
 		$this->field_option( 'basic-options', $field, $args );
 
-		// -------------------------------------------------------------------//
-		// Advanced field options.
-		// -------------------------------------------------------------------//
+		/*
+		 * Advanced field options.
+		 */
 
 		// Options open markup.
 		$args = array(
@@ -93,6 +94,7 @@ class WPForms_Field_Number extends WPForms_Field {
 	 * Field preview inside the builder.
 	 *
 	 * @since 1.0.0
+	 *
 	 * @param array $field
 	 */
 	public function field_preview( $field ) {
@@ -114,6 +116,7 @@ class WPForms_Field_Number extends WPForms_Field {
 	 * Field display on the form front-end.
 	 *
 	 * @since 1.0.0
+	 *
 	 * @param array $field
 	 * @param array $deprecated
 	 * @param array $form_data
@@ -124,7 +127,8 @@ class WPForms_Field_Number extends WPForms_Field {
 		$primary = $field['properties']['inputs']['primary'];
 
 		// Primary field.
-		printf( '<input type="number" %s %s>',
+		printf(
+			'<input type="number" %s %s>',
 			wpforms_html_attributes( $primary['id'], $primary['class'], $primary['data'], $primary['attr'] ),
 			$primary['required']
 		);
@@ -134,7 +138,8 @@ class WPForms_Field_Number extends WPForms_Field {
 	 * Validates field on form submit.
 	 *
 	 * @since 1.0.0
-	 * @param int $field_id
+	 *
+	 * @param int   $field_id
 	 * @param array $field_submit
 	 * @param array $form_data
 	 */
@@ -154,7 +159,7 @@ class WPForms_Field_Number extends WPForms_Field {
 
 		// Check if value is numeric.
 		if ( ! empty( $field_submit ) && ! is_numeric( $field_submit ) ) {
-			wpforms()->process->errors[ $form_id ][ $field_id ] = apply_filters( 'wpforms_valid_number_label', esc_html__( 'Please enter a valid number.', 'wpforms' ) );
+			wpforms()->process->errors[ $form_id ][ $field_id ] = apply_filters( 'wpforms_valid_number_label', esc_html__( 'Please enter a valid number.', 'wpforms-lite' ) );
 		}
 	}
 
@@ -162,7 +167,8 @@ class WPForms_Field_Number extends WPForms_Field {
 	 * Formats and sanitizes field.
 	 *
 	 * @since 1.3.5
-	 * @param int $field_id
+	 *
+	 * @param int   $field_id
 	 * @param array $field_submit
 	 * @param array $form_data
 	 */
@@ -181,4 +187,5 @@ class WPForms_Field_Number extends WPForms_Field {
 		);
 	}
 }
+
 new WPForms_Field_Number();

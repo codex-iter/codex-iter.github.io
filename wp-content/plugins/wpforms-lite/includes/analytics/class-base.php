@@ -46,7 +46,7 @@ abstract class WPForms_Analytics_Integration {
 	public $icon;
 
 	/**
-	 * Form data.
+	 * Form data and settings.
 	 *
 	 * @since 1.1.0
 	 * @var array

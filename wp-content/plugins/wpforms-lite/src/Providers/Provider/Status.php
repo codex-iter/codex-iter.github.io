@@ -24,7 +24,7 @@ class Status {
 	private $provider;
 
 	/**
-	 * Form data.
+	 * Form data and settings.
 	 *
 	 * @since 1.4.8
 	 *

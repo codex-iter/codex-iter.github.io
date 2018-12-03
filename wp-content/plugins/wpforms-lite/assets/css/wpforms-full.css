@@ -1239,11 +1239,13 @@ div.wpforms-container-full .wpforms-form .wpforms-screen-reader-element {
 
 .edit-post-visual-editor .wpforms-gutenberg-form-selector-wrap h2 {
 	width: 100%;
+	padding: 0;
 	margin-bottom: 0.5em;
 }
 
 .edit-post-visual-editor .wpforms-gutenberg-form-selector-wrap img {
 	margin-right: 25px;
+	width: initial;
 }
 
 .edit-post-visual-editor .wpforms-gutenberg-form-selector-wrap .components-base-control {

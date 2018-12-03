@@ -500,14 +500,14 @@
 
 #wpforms-panel-fields .wpforms-field-option-payment-multiple .wpforms-field-option-row-choices li input[type=text],
 #wpforms-panel-fields .wpforms-field-option-payment-select .wpforms-field-option-row-choices li input[type=text] {
-	width: 46%;
+	width: 45%;
 }
 
 #wpforms-panel-fields .wpforms-field-option-payment-multiple .wpforms-field-option-row-choices li input[type=text].value,
 #wpforms-panel-fields .wpforms-field-option-payment-select .wpforms-field-option-row-choices li input[type=text].value {
 	display: block;
 	margin: 0 0 0 5px;
-	width: 22%;
+	width: 21%;
 	display: inline-block;
 }
 

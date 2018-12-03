@@ -85,7 +85,7 @@ class WPForms_Pirate_Forms extends WPForms_Importer {
 			return array();
 		}
 
-		return array( 0 => esc_html__( 'Default Form', 'wpforms' ) );
+		return array( 0 => esc_html__( 'Default Form', 'wpforms-lite' ) );
 	}
 
 	/**
@@ -173,7 +173,7 @@ class WPForms_Pirate_Forms extends WPForms_Importer {
 		}
 
 		if ( empty( $pf_form_id ) ) {
-			$pf_form_name = esc_html__( 'Default Form', 'wpforms' );
+			$pf_form_name = esc_html__( 'Default Form', 'wpforms-lite' );
 		} else {
 			$pf_form_name = get_post_field( 'post_title', $pf_form_id );
 		}
@@ -240,7 +240,7 @@ class WPForms_Pirate_Forms extends WPForms_Importer {
 					$fields[ $field_id ] = array(
 						'id'         => $field_id,
 						'type'       => 'checkbox',
-						'label'      => esc_html__( 'Single Checkbox Field', 'wpforms' ),
+						'label'      => esc_html__( 'Single Checkbox Field', 'wpforms-lite' ),
 						'choices'    => array(
 							1 => array(
 								'label' => $label,
@@ -332,7 +332,7 @@ class WPForms_Pirate_Forms extends WPForms_Importer {
 					$fields[ $field_id ] = array(
 						'id'         => $field_id,
 						'type'       => 'checkbox',
-						'label'      => esc_html__( 'Single Checkbox Field', 'wpforms' ),
+						'label'      => esc_html__( 'Single Checkbox Field', 'wpforms-lite' ),
 						'choices'    => array(
 							1 => array(
 								'label' => $label,
@@ -423,7 +423,7 @@ class WPForms_Pirate_Forms extends WPForms_Importer {
 				array(
 					'error' => true,
 					'name'  => $pf_form_name,
-					'msg'   => esc_html__( 'No form fields found.', 'wpforms' ),
+					'msg'   => esc_html__( 'No form fields found.', 'wpforms-lite' ),
 				)
 			);
 		}
@@ -437,15 +437,15 @@ class WPForms_Pirate_Forms extends WPForms_Importer {
 				'form_title'             => $pf_form_name,
 				'form_desc'              => '',
 				'submit_text'            => stripslashes( $pf_form['pirateformsopt_label_submit_btn'] ),
-				'submit_text_processing' => esc_html__( 'Sending', 'wpforms' ),
+				'submit_text_processing' => esc_html__( 'Sending', 'wpforms-lite' ),
 				'honeypot'               => empty( $pf_form['pirateformsopt_recaptcha_field'] ) ? '0' : '1',
 				'notification_enable'    => '1',
 				'notifications'          => array(
 					1 => array(
-						'notification_name' => esc_html__( 'Default Notification', 'wpforms' ),
+						'notification_name' => esc_html__( 'Default Notification', 'wpforms-lite' ),
 						'email'             => $pf_form['pirateformsopt_email_recipients'],
 						/* translators: %s - PirateForms form name. */
-						'subject'           => sprintf( esc_html__( 'New Entry: %s', 'wpforms' ), $pf_form_name ),
+						'subject'           => sprintf( esc_html__( 'New Entry: %s', 'wpforms-lite' ), $pf_form_name ),
 						'sender_name'       => get_bloginfo( 'name' ),
 						'sender_address'    => $this->get_smarttags( $pf_form['pirateformsopt_email'], $fields ),
 						'replyto'           => '',
@@ -456,7 +456,7 @@ class WPForms_Pirate_Forms extends WPForms_Importer {
 					1 => array(
 						'type'           => empty( $pf_form['pirateformsopt_thank_you_url'] ) ? 'message' : 'page',
 						'page'           => (int) $pf_form['pirateformsopt_thank_you_url'],
-						'message'        => ! empty( $pf_form['pirateformsopt_label_submit'] ) ? $pf_form['pirateformsopt_label_submit'] : esc_html__( 'Thanks for contacting us! We will be in touch with you shortly.', 'wpforms' ),
+						'message'        => ! empty( $pf_form['pirateformsopt_label_submit'] ) ? $pf_form['pirateformsopt_label_submit'] : esc_html__( 'Thanks for contacting us! We will be in touch with you shortly.', 'wpforms-lite' ),
 						'message_scroll' => '1',
 					),
 				),
@@ -577,7 +577,7 @@ class WPForms_Pirate_Forms extends WPForms_Importer {
 			return;
 		}
 
-		// We do not use \WPMailSMTP\Options class here to avoid problems with PHP 5.2.
+		// TODO: change to \WPMailSMTP\Options in future.
 		$options = get_option( 'wp_mail_smtp', array() );
 
 		$options['mail']['from_email'] = $this->get_smarttags( $pf_form['pirateformsopt_email'], $form['fields'] );

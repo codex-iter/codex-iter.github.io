@@ -90,8 +90,8 @@ class WPForms_Contact_Form_7 extends WPForms_Importer {
 		if ( ! $cf7_form ) {
 			wp_send_json_error( array(
 				'error' => true,
-				'name'  => esc_html__( 'Unknown Form', 'wpforms' ),
-				'msg'   => esc_html__( 'The form you are trying to import does not exist.', 'wpforms' ),
+				'name'  => esc_html__( 'Unknown Form', 'wpforms-lite' ),
+				'msg'   => esc_html__( 'The form you are trying to import does not exist.', 'wpforms-lite' ),
 			) );
 		}
 
@@ -112,16 +112,16 @@ class WPForms_Contact_Form_7 extends WPForms_Importer {
 			'settings' => array(
 				'form_title'             => $cf7_form_name,
 				'form_desc'              => '',
-				'submit_text'            => esc_html__( 'Submit', 'wpforms' ),
-				'submit_text_processing' => esc_html__( 'Sending', 'wpforms' ),
+				'submit_text'            => esc_html__( 'Submit', 'wpforms-lite' ),
+				'submit_text_processing' => esc_html__( 'Sending', 'wpforms-lite' ),
 				'honeypot'               => '1',
 				'notification_enable'    => '1',
 				'notifications'          => array(
 					1 => array(
-						'notification_name' => esc_html__( 'Notification 1', 'wpforms' ),
+						'notification_name' => esc_html__( 'Notification 1', 'wpforms-lite' ),
 						'email'             => '{admin_email}',
 						/* translators: %s - Contact Form 7 form name. */
-						'subject'           => sprintf( esc_html__( 'New Entry: %s', 'wpforms' ), $cf7_form_name ),
+						'subject'           => sprintf( esc_html__( 'New Entry: %s', 'wpforms-lite' ), $cf7_form_name ),
 						'sender_name'       => get_bloginfo( 'name' ),
 						'sender_address'    => '{admin_email}',
 						'replyto'           => '',
@@ -131,7 +131,7 @@ class WPForms_Contact_Form_7 extends WPForms_Importer {
 				'confirmations'          => array(
 					1 => array(
 						'type'           => 'message',
-						'message'        => esc_html__( 'Thanks for contacting us! We will be in touch with you shortly.', 'wpforms' ),
+						'message'        => esc_html__( 'Thanks for contacting us! We will be in touch with you shortly.', 'wpforms-lite' ),
 						'message_scroll' => '1',
 					),
 				),
@@ -144,7 +144,7 @@ class WPForms_Contact_Form_7 extends WPForms_Importer {
 			wp_send_json_success( array(
 				'error' => true,
 				'name'  => sanitize_text_field( $cf7_form_name ),
-				'msg'   => esc_html__( 'No form fields found.', 'wpforms' ),
+				'msg'   => esc_html__( 'No form fields found.', 'wpforms-lite' ),
 			) );
 		}
 
@@ -313,7 +313,7 @@ class WPForms_Contact_Form_7 extends WPForms_Importer {
 					$form['fields'][ $field_id ] = array(
 						'id'         => $field_id,
 						'type'       => 'checkbox',
-						'label'      => esc_html__( 'Acceptance Field', 'wpforms' ),
+						'label'      => esc_html__( 'Acceptance Field', 'wpforms-lite' ),
 						'choices'    => array(
 							1 => array(
 								'label' => $label,
@@ -408,10 +408,10 @@ class WPForms_Contact_Form_7 extends WPForms_Importer {
 			// Check if a secondary notification is enabled, if so set defaults
 			// and set it up.
 			$form['settings']['notifications'][2] = array(
-				'notification_name' => esc_html__( 'Notification 2', 'wpforms' ),
+				'notification_name' => esc_html__( 'Notification 2', 'wpforms-lite' ),
 				'email'             => '{admin_email}',
 				/* translators: %s - Contact Form 7 form name. */
-				'subject'           => sprintf( esc_html__( 'New Entry: %s', 'wpforms' ), $cf7_form_name ),
+				'subject'           => sprintf( esc_html__( 'New Entry: %s', 'wpforms-lite' ), $cf7_form_name ),
 				'sender_name'       => get_bloginfo( 'name' ),
 				'sender_address'    => '{admin_email}',
 				'replyto'           => '',
@@ -478,7 +478,7 @@ class WPForms_Contact_Form_7 extends WPForms_Importer {
 	 *
 	 * @since 1.4.2
 	 *
-	 * @param string $form Form data.
+	 * @param string $form Form data and settings.
 	 * @param string $type Field type.
 	 * @param string $name Field name.
 	 *
@@ -501,7 +501,7 @@ class WPForms_Contact_Form_7 extends WPForms_Importer {
 
 		$label = sprintf(
 			/* translators: %1$s - field type; %2$s - field name if available. */
-			esc_html__( '%1$s Field %2$s', 'wpforms' ),
+			esc_html__( '%1$s Field %2$s', 'wpforms-lite' ),
 			ucfirst( $type ),
 			! empty( $name ) ? "($name)" : ''
 		);

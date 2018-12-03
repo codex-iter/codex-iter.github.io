@@ -48,9 +48,9 @@ class WPForms_Overview_Table extends WP_List_Table {
 
 		$columns = array(
 			'cb'        => '<input type="checkbox" />',
-			'form_name' => esc_html__( 'Name', 'wpforms' ),
-			'shortcode' => esc_html__( 'Shortcode', 'wpforms' ),
-			'created'   => esc_html__( 'Created', 'wpforms' ),
+			'form_name' => esc_html__( 'Name', 'wpforms-lite' ),
+			'shortcode' => esc_html__( 'Shortcode', 'wpforms-lite' ),
+			'created'   => esc_html__( 'Created', 'wpforms-lite' ),
 		);
 
 		return apply_filters( 'wpforms_overview_table_columns', $columns );
@@ -137,7 +137,7 @@ class WPForms_Overview_Table extends WP_List_Table {
 				),
 				admin_url( 'admin.php?page=wpforms-builder' )
 			),
-			esc_html__( 'Edit This Form', 'wpforms' ),
+			esc_html__( 'Edit This Form', 'wpforms-lite' ),
 			$name
 		);
 
@@ -154,8 +154,8 @@ class WPForms_Overview_Table extends WP_List_Table {
 				),
 				admin_url( 'admin.php?page=wpforms-builder' )
 			),
-			esc_html__( 'Edit This Form', 'wpforms' ),
-			esc_html__( 'Edit', 'wpforms' )
+			esc_html__( 'Edit This Form', 'wpforms-lite' ),
+			esc_html__( 'Edit', 'wpforms-lite' )
 		);
 
 		// Entries.
@@ -168,16 +168,16 @@ class WPForms_Overview_Table extends WP_List_Table {
 				),
 				admin_url( 'admin.php?page=wpforms-entries' )
 			),
-			esc_html__( 'View entries', 'wpforms' ),
-			esc_html__( 'Entries', 'wpforms' )
+			esc_html__( 'View entries', 'wpforms-lite' ),
+			esc_html__( 'Entries', 'wpforms-lite' )
 		);
 
 		// Preview.
 		$row_actions['preview_'] = sprintf(
 			'<a href="%s" title="%s" target="_blank" rel="noopener noreferrer">%s</a>',
 			esc_url( wpforms()->preview->form_preview_url( $form->ID ) ),
-			esc_html__( 'View preview', 'wpforms' ),
-			esc_html__( 'Preview', 'wpforms' )
+			esc_html__( 'View preview', 'wpforms-lite' ),
+			esc_html__( 'Preview', 'wpforms-lite' )
 		);
 
 		// Duplicate.
@@ -193,8 +193,8 @@ class WPForms_Overview_Table extends WP_List_Table {
 				),
 				'wpforms_duplicate_form_nonce'
 			),
-			esc_html__( 'Duplicate this form', 'wpforms' ),
-			esc_html__( 'Duplicate', 'wpforms' )
+			esc_html__( 'Duplicate this form', 'wpforms-lite' ),
+			esc_html__( 'Duplicate', 'wpforms-lite' )
 		);
 
 		// Delete.
@@ -210,8 +210,8 @@ class WPForms_Overview_Table extends WP_List_Table {
 				),
 				'wpforms_delete_form_nonce'
 			),
-			esc_html__( 'Delete this form', 'wpforms' ),
-			esc_html__( 'Delete', 'wpforms' )
+			esc_html__( 'Delete this form', 'wpforms-lite' ),
+			esc_html__( 'Delete', 'wpforms-lite' )
 		);
 
 		// Build the row action links and return the value.
@@ -228,7 +228,7 @@ class WPForms_Overview_Table extends WP_List_Table {
 	public function get_bulk_actions() {
 
 		$actions = array(
-			'delete' => esc_html__( 'Delete', 'wpforms' ),
+			'delete' => esc_html__( 'Delete', 'wpforms-lite' ),
 		);
 
 		return $actions;
@@ -269,9 +269,9 @@ class WPForms_Overview_Table extends WP_List_Table {
 					<p>
 						<?php
 						if ( count( $ids ) === 1 ) {
-							esc_html_e( 'Form was successfully deleted.', 'wpforms' );
+							esc_html_e( 'Form was successfully deleted.', 'wpforms-lite' );
 						} else {
-							esc_html_e( 'Forms were successfully deleted.', 'wpforms' );
+							esc_html_e( 'Forms were successfully deleted.', 'wpforms-lite' );
 						}
 						?>
 					</p>
@@ -281,7 +281,7 @@ class WPForms_Overview_Table extends WP_List_Table {
 				?>
 				<div class="notice updated">
 					<p>
-						<?php esc_html_e( 'Security check failed. Please try again.', 'wpforms' ); ?>
+						<?php esc_html_e( 'Security check failed. Please try again.', 'wpforms-lite' ); ?>
 					</p>
 				</div>
 				<?php
@@ -300,9 +300,9 @@ class WPForms_Overview_Table extends WP_List_Table {
 					<p>
 						<?php
 						if ( count( $ids ) === 1 ) {
-							esc_html_e( 'Form was successfully duplicated.', 'wpforms' );
+							esc_html_e( 'Form was successfully duplicated.', 'wpforms-lite' );
 						} else {
-							esc_html_e( 'Forms were successfully duplicated.', 'wpforms' );
+							esc_html_e( 'Forms were successfully duplicated.', 'wpforms-lite' );
 						}
 						?>
 					</p>
@@ -312,7 +312,7 @@ class WPForms_Overview_Table extends WP_List_Table {
 				?>
 				<div class="notice updated">
 					<p>
-						<?php esc_html_e( 'Security check failed. Please try again.', 'wpforms' ); ?>
+						<?php esc_html_e( 'Security check failed. Please try again.', 'wpforms-lite' ); ?>
 					</p>
 				</div>
 				<?php
@@ -329,7 +329,7 @@ class WPForms_Overview_Table extends WP_List_Table {
 		printf(
 			wp_kses(
 				/* translators: %s - admin area page builder page URL. */
-				__( 'Whoops, you haven\'t created a form yet. Want to <a href="%s">give it a go</a>?', 'wpforms' ),
+				__( 'Whoops, you haven\'t created a form yet. Want to <a href="%s">give it a go</a>?', 'wpforms-lite' ),
 				array(
 					'a' => array(
 						'href' => array(),

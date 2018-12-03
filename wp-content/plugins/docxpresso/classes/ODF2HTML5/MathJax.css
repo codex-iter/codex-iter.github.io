@@ -1,0 +1,84 @@
+<style type="text/css">
+.h5p_page p span.doxMathFormula .mjx-chtml {display: inline-block; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0}
+.h5p_page p span.doxMathFormula .MJXc-display {display: block; text-align: center; margin: 0em 0; padding: 0}
+.h5p_page p span.doxMathFormula .mjx-chtml[tabindex]:focus, body :focus .mjx-chtml[tabindex] {display: inline-table}
+.h5p_page p span.doxMathFormula .mjx-math {display: inline-block; border-collapse: separate; border-spacing: 0}
+.h5p_page p span.doxMathFormula .mjx-math * {display: inline-block; text-align: left}
+.h5p_page p span.doxMathFormula .mjx-numerator {display: block; text-align: center}
+.h5p_page p span.doxMathFormula .mjx-denominator {display: block; text-align: center}
+.h5p_page p span.doxMathFormula .MJXc-stacked {height: 0; position: relative}
+.h5p_page p span.doxMathFormula .MJXc-stacked > * {position: absolute}
+.h5p_page p span.doxMathFormula .MJXc-bevelled > * {display: inline-block}
+.h5p_page p span.doxMathFormula .mjx-stack {display: inline-block}
+.h5p_page p span.doxMathFormula .mjx-op {display: block}
+.h5p_page p span.doxMathFormula .mjx-under {display: table-cell}
+.h5p_page p span.doxMathFormula .mjx-over {display: block}
+.h5p_page p span.doxMathFormula .mjx-over > * {padding-left: 0px!important; padding-right: 0px!important}
+.h5p_page p span.doxMathFormula .mjx-under > * {padding-left: 0px!important; padding-right: 0px!important}
+.h5p_page p span.doxMathFormula .mjx-stack > .mjx-sup {display: block}
+.h5p_page p span.doxMathFormula .mjx-stack > .mjx-sub {display: block}
+.h5p_page p span.doxMathFormula .mjx-prestack > .mjx-presup {display: block}
+.h5p_page p span.doxMathFormula .mjx-prestack > .mjx-presub {display: block}
+.h5p_page p span.doxMathFormula .mjx-delim-h > .mjx-char {display: inline-block}
+.h5p_page p span.doxMathFormula .mjx-surd {vertical-align: top}
+.h5p_page p span.doxMathFormula .mjx-mphantom * {visibility: hidden}
+.h5p_page p span.doxMathFormula .mjx-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 2px 3px; font-style: normal; font-size: 90%}
+.h5p_page p span.doxMathFormula .mjx-annotation-xml {line-height: normal}
+.h5p_page p span.doxMathFormula .mjx-menclose > svg {fill: none; stroke: currentColor}
+.h5p_page p span.doxMathFormula .mjx-mtr {display: table-row}
+.h5p_page p span.doxMathFormula .mjx-mlabeledtr {display: table-row}
+.h5p_page p span.doxMathFormula .mjx-mtd {display: table-cell; text-align: center}
+.h5p_page p span.doxMathFormula .mjx-label {display: block}
+.h5p_page p span.doxMathFormula .mjx-box {display: inline-block}
+.h5p_page p span.doxMathFormula .mjx-block {display: block}
+.h5p_page p span.doxMathFormula .mjx-span {display: span}
+.h5p_page p span.doxMathFormula .mjx-char {display: block; white-space: pre}
+.h5p_page p span.doxMathFormula .mjx-itable {display: inline-table}
+.h5p_page p span.doxMathFormula .mjx-row {display: table-row}
+.h5p_page p span.doxMathFormula .mjx-cell {display: table-cell}
+.h5p_page p span.doxMathFormula .mjx-table {display: table; width: 100%}
+.h5p_page p span.doxMathFormula .mjx-line {display: block; height: 0}
+.h5p_page p span.doxMathFormula .mjx-strut {width: 0; padding-top: 1em}
+.h5p_page p span.doxMathFormula .mjx-vsize {width: 0}
+.h5p_page p span.doxMathFormula .MJXc-space1 {margin-left: .167em}
+.h5p_page p span.doxMathFormula .MJXc-space2 {margin-left: .222em}
+.h5p_page p span.doxMathFormula .MJXc-space3 {margin-left: .278em}
+.h5p_page p span.doxMathFormula .mjx-chartest {display: block; visibility: hidden; position: absolute; top: 0; line-height: normal; font-size: 500%}
+.h5p_page p span.doxMathFormula .mjx-chartest .mjx-char {display: inline}
+.h5p_page p span.doxMathFormula .mjx-chartest .mjx-box {padding-top: 1000px}
+.h5p_page p span.doxMathFormula .MJXc-processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.h5p_page p span.doxMathFormula .MJXc-processed {display: none}
+.h5p_page p span.doxMathFormula .mjx-test {display: block; font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow: hidden; height: 1px}
+.h5p_page p span.doxMathFormula .mjx-ex-box-test {position: absolute; width: 1px; height: 60ex}
+.h5p_page p span.doxMathFormula #MathJax_CHTML_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.h5p_page p span.doxMathFormula .mjx-chtml .mjx-noError {line-height: 1.2; vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+.h5p_page p span.doxMathFormula .MJXc-TeX-unknown-R {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: normal; font-weight: normal}
+.h5p_page p span.doxMathFormula .MJXc-TeX-unknown-I {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: italic; font-weight: normal}
+.h5p_page p span.doxMathFormula .MJXc-TeX-unknown-B {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: normal; font-weight: bold}
+.h5p_page p span.doxMathFormula .MJXc-TeX-unknown-BI {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: italic; font-weight: bold}
+.h5p_page p span.doxMathFormula .MJXc-TeX-ams-R {font-family: MJXc-TeX-ams-R,MJXc-TeX-ams-Rw}
+.h5p_page p span.doxMathFormula .MJXc-TeX-cal-B {font-family: MJXc-TeX-cal-B,MJXc-TeX-cal-Bx,MJXc-TeX-cal-Bw}
+.h5p_page p span.doxMathFormula .MJXc-TeX-frak-R {font-family: MJXc-TeX-frak-R,MJXc-TeX-frak-Rw}
+.h5p_page p span.doxMathFormula .MJXc-TeX-frak-B {font-family: MJXc-TeX-frak-B,MJXc-TeX-frak-Bx,MJXc-TeX-frak-Bw}
+.h5p_page p span.doxMathFormula .MJXc-TeX-math-BI {font-family: MJXc-TeX-math-BI,MJXc-TeX-math-BIx,MJXc-TeX-math-BIw}
+.h5p_page p span.doxMathFormula .MJXc-TeX-sans-R {font-family: MJXc-TeX-sans-R,MJXc-TeX-sans-Rw}
+.h5p_page p span.doxMathFormula .MJXc-TeX-sans-B {font-family: MJXc-TeX-sans-B,MJXc-TeX-sans-Bx,MJXc-TeX-sans-Bw}
+.h5p_page p span.doxMathFormula .MJXc-TeX-sans-I {font-family: MJXc-TeX-sans-I,MJXc-TeX-sans-Ix,MJXc-TeX-sans-Iw}
+.h5p_page p span.doxMathFormula .MJXc-TeX-script-R {font-family: MJXc-TeX-script-R,MJXc-TeX-script-Rw}
+.h5p_page p span.doxMathFormula .MJXc-TeX-type-R {font-family: MJXc-TeX-type-R,MJXc-TeX-type-Rw}
+.h5p_page p span.doxMathFormula .MJXc-TeX-cal-R {font-family: MJXc-TeX-cal-R,MJXc-TeX-cal-Rw}
+.h5p_page p span.doxMathFormula .MJXc-TeX-main-B {font-family: MJXc-TeX-main-B,MJXc-TeX-main-Bx,MJXc-TeX-main-Bw}
+.h5p_page p span.doxMathFormula .MJXc-TeX-main-I {font-family: MJXc-TeX-main-I,MJXc-TeX-main-Ix,MJXc-TeX-main-Iw}
+.h5p_page p span.doxMathFormula .MJXc-TeX-main-R {font-family: MJXc-TeX-main-R,MJXc-TeX-main-Rw}
+.h5p_page p span.doxMathFormula .MJXc-TeX-math-I {font-family: MJXc-TeX-math-I,MJXc-TeX-math-Ix,MJXc-TeX-math-Iw}
+.h5p_page p span.doxMathFormula .MJXc-TeX-size1-R {font-family: MJXc-TeX-size1-R,MJXc-TeX-size1-Rw}
+.h5p_page p span.doxMathFormula .MJXc-TeX-size2-R {font-family: MJXc-TeX-size2-R,MJXc-TeX-size2-Rw}
+.h5p_page p span.doxMathFormula .MJXc-TeX-size3-R {font-family: MJXc-TeX-size3-R,MJXc-TeX-size3-Rw}
+.h5p_page p span.doxMathFormula .MJXc-TeX-size4-R {font-family: MJXc-TeX-size4-R,MJXc-TeX-size4-Rw}
+.h5p_page p span.doxMathFormula .mjx-sub span.mjx-char {font-size: 70.7%}
+.h5p_page p span.doxMathFormula .mjx-sup span.mjx-char {font-size: 70.7%}
+.h5p_page p span.doxMathFormula .mjx-under span.mjx-char {font-size: 70.7%}
+.h5p_page p span.doxMathFormula .mjx-over span.mjx-char {font-size: 70.7%}
+.h5p_page p span.doxMathFormula .mjx-root span.mjx-char {font-size: 70.7%;}
+.h5p_page p span.doxMathFormula .mjx-root {font-size: auto !important ; width: 0.5em !important; vertical-align: 1.2em !important}
+</style>

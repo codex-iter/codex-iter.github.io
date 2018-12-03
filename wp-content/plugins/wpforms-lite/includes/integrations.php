@@ -29,44 +29,44 @@ function wpforms_visual_composer_shortcode() {
 
 	if ( ! empty( $wpf ) ) {
 		$forms = array(
-			esc_html__( 'Select a form to display', 'wpforms' ) => '',
+			esc_html__( 'Select a form to display', 'wpforms-lite' ) => '',
 		);
 		foreach ( $wpf as $form ) {
 			$forms[ $form->post_title ] = $form->ID;
 		}
 	} else {
 		$forms = array(
-			esc_html__( 'No forms found', 'wpforms' ) => '',
+			esc_html__( 'No forms found', 'wpforms-lite' ) => '',
 		);
 	}
 
 	vc_map(
 		array(
-			'name'        => esc_html__( 'WPForms', 'wpforms' ),
+			'name'        => esc_html__( 'WPForms', 'wpforms-lite' ),
 			'base'        => 'wpforms',
 			'icon'        => WPFORMS_PLUGIN_URL . 'assets/images/sullie-vc.png',
-			'category'    => esc_html__( 'Content', 'wpforms' ),
-			'description' => esc_html__( 'Add your form', 'wpforms' ),
+			'category'    => esc_html__( 'Content', 'wpforms-lite' ),
+			'description' => esc_html__( 'Add your form', 'wpforms-lite' ),
 			'params'      => array(
 				array(
 					'type'        => 'dropdown',
-					'heading'     => esc_html__( 'Form', 'wpforms' ),
+					'heading'     => esc_html__( 'Form', 'wpforms-lite' ),
 					'param_name'  => 'id',
 					'value'       => $forms,
 					'save_always' => true,
-					'description' => esc_html__( 'Select a form to add it to your post or page.', 'wpforms' ),
+					'description' => esc_html__( 'Select a form to add it to your post or page.', 'wpforms-lite' ),
 					'admin_label' => true,
 				),
 				array(
 					'type'        => 'dropdown',
-					'heading'     => esc_html__( 'Display Form Name', 'wpforms' ),
+					'heading'     => esc_html__( 'Display Form Name', 'wpforms-lite' ),
 					'param_name'  => 'title',
 					'value'       => array(
-						esc_html__( 'No', 'wpforms' )  => 'false',
-						esc_html__( 'Yes', 'wpforms' ) => 'true',
+						esc_html__( 'No', 'wpforms-lite' )  => 'false',
+						esc_html__( 'Yes', 'wpforms-lite' ) => 'true',
 					),
 					'save_always' => true,
-					'description' => esc_html__( 'Would you like to display the forms name?', 'wpforms' ),
+					'description' => esc_html__( 'Would you like to display the forms name?', 'wpforms-lite' ),
 					'dependency'  => array(
 						'element'   => 'id',
 						'not_empty' => true,
@@ -74,14 +74,14 @@ function wpforms_visual_composer_shortcode() {
 				),
 				array(
 					'type'        => 'dropdown',
-					'heading'     => esc_html__( 'Display Form Description', 'wpforms' ),
+					'heading'     => esc_html__( 'Display Form Description', 'wpforms-lite' ),
 					'param_name'  => 'description',
 					'value'       => array(
-						esc_html__( 'No', 'wpforms' )  => 'false',
-						esc_html__( 'Yes', 'wpforms' ) => 'true',
+						esc_html__( 'No', 'wpforms-lite' )  => 'false',
+						esc_html__( 'Yes', 'wpforms-lite' ) => 'true',
 					),
 					'save_always' => true,
-					'description' => esc_html__( 'Would you like to display the forms description?', 'wpforms' ),
+					'description' => esc_html__( 'Would you like to display the forms description?', 'wpforms-lite' ),
 					'dependency'  => array(
 						'element'   => 'id',
 						'not_empty' => true,

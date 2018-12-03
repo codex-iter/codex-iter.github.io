@@ -59,8 +59,8 @@ class Jetpack_Sync_Module_Posts extends Jetpack_Sync_Module {
 		 *
 		 * @module sync
 		 *
-		 * $param array $feedback_ids feedback post IDs
-		 * $param string $meta_key to be deleted
+		 * @param array $feedback_ids feedback post IDs
+		 * @param string $meta_key to be deleted
 		 */
 		do_action( 'jetpack_post_meta_batch_delete', $feedback_ids, '_feedback_akismet_values');
 	}
@@ -294,7 +294,7 @@ class Jetpack_Sync_Module_Posts extends Jetpack_Sync_Module {
 			'editpost' === $_POST['action'] &&
 			'1' === $_GET['classic-editor'] &&
 			'1' === $_GET['meta_box'] &&
-			Jetpack::is_gutenberg_available()
+			Jetpack_Gutenberg::is_gutenberg_available()
 		);
 	}
 

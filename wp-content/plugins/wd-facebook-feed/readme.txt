@@ -4,7 +4,7 @@ Tags: customizable facebook feed, facebook, facebook events, facebook feed, face
 Requires at least: 3.4
 Requires PHP: 5.2
 Tested up to: 4.9
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -99,6 +99,9 @@ If you think you found a bug in WD Facebook Feed or have any problem/question co
 The plugin uses Facebook API to get public data from Facebook. All the received data is cached in WordPress database for some short customizable period to provide optimization. You can delete or update cached data. You can optionally enable like button for Facebook page. If you do so, Facebook will load some JS and embedded content which may track visitors. Facebook embeds are regulated under terms of Facebook privacy policy https://www.facebook.com/policy.php.
 
 == Changelog ==
+
+= 1.1.3 =
+* Added: Facebook widget in 10Web Builder  
 
 = 1.1.2 =
 * Fixed: Inserting shortcode when when no feed is selected    

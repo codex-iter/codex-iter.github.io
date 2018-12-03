@@ -35,14 +35,14 @@ class WPForms_Logging {
 	public function register_post_type() {
 
 		$log_args = array(
-			'labels'              => array( 'name' => esc_html__( 'WPForms Logs', 'wpforms' ), 'menu_name' => esc_html__( 'Logs', 'wpforms' ) ),
+			'labels'              => array( 'name' => esc_html__( 'WPForms Logs', 'wpforms-lite' ), 'menu_name' => esc_html__( 'Logs', 'wpforms-lite' ) ),
 			'public'              => false,
 			'exclude_from_search' => true,
 			'publicly_queryable'  => false,
 			'show_ui'             => false,
 			'query_var'           => false,
 			'rewrite'             => false,
-			'capability_type'     => 'post',
+			'capability_type'     => wpforms_get_capability_manage_options(),
 			'supports'            => array( 'title', 'editor' ),
 			'can_export'          => false,
 			'show_in_menu'        => 'wpforms-overview',

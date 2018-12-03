@@ -31,28 +31,30 @@ class WPForms_Smart_Tags {
 	public function get( $return = 'array' ) {
 
 		$tags = array(
-			'admin_email'         => esc_html__( 'Site Administrator Email', 'wpforms' ),
-			'entry_id'            => esc_html__( 'Entry ID', 'wpforms' ),
-			'form_id'             => esc_html__( 'Form ID', 'wpforms' ),
-			'form_name'           => esc_html__( 'Form Name', 'wpforms' ),
-			'page_title'          => esc_html__( 'Embedded Post/Page Title', 'wpforms' ),
-			'page_url'            => esc_html__( 'Embedded Post/Page URL', 'wpforms' ),
-			'page_id'             => esc_html__( 'Embedded Post/Page ID', 'wpforms' ),
-			'date format="m/d/Y"' => esc_html__( 'Date', 'wpforms' ),
-			'query_var key=""'    => esc_html__( 'Query String Variable', 'wpforms' ),
-			'user_ip'             => esc_html__( 'User IP Address', 'wpforms' ),
-			'user_id'             => esc_html__( 'User ID', 'wpforms' ),
-			'user_display'        => esc_html__( 'User Display Name', 'wpforms' ),
-			'user_full_name'      => esc_html__( 'User Full Name', 'wpforms' ),
-			'user_email'          => esc_html__( 'User Email', 'wpforms' ),
-			'author_id'           => esc_html__( 'Author ID', 'wpforms' ),
-			'author_display'      => esc_html__( 'Author Name', 'wpforms' ),
-			'author_email'        => esc_html__( 'Author Email', 'wpforms' ),
-			'url_referer'         => esc_html__( 'Referrer URL', 'wpforms' ),
-			'url_login'           => esc_html__( 'Login URL', 'wpforms' ),
-			'url_logout'          => esc_html__( 'Logout URL', 'wpforms' ),
-			'url_register'        => esc_html__( 'Register URL', 'wpforms' ),
-			'url_lost_password'   => esc_html__( 'Lost Password URL', 'wpforms' ),
+			'admin_email'         => esc_html__( 'Site Administrator Email', 'wpforms-lite' ),
+			'entry_id'            => esc_html__( 'Entry ID', 'wpforms-lite' ),
+			'form_id'             => esc_html__( 'Form ID', 'wpforms-lite' ),
+			'form_name'           => esc_html__( 'Form Name', 'wpforms-lite' ),
+			'page_title'          => esc_html__( 'Embedded Post/Page Title', 'wpforms-lite' ),
+			'page_url'            => esc_html__( 'Embedded Post/Page URL', 'wpforms-lite' ),
+			'page_id'             => esc_html__( 'Embedded Post/Page ID', 'wpforms-lite' ),
+			'date format="m/d/Y"' => esc_html__( 'Date', 'wpforms-lite' ),
+			'query_var key=""'    => esc_html__( 'Query String Variable', 'wpforms-lite' ),
+			'user_ip'             => esc_html__( 'User IP Address', 'wpforms-lite' ),
+			'user_id'             => esc_html__( 'User ID', 'wpforms-lite' ),
+			'user_display'        => esc_html__( 'User Display Name', 'wpforms-lite' ),
+			'user_full_name'      => esc_html__( 'User Full Name', 'wpforms-lite' ),
+			'user_first_name'     => esc_html__( 'User First Name', 'wpforms-lite' ),
+			'user_last_name'      => esc_html__( 'User Last Name', 'wpforms-lite' ),
+			'user_email'          => esc_html__( 'User Email', 'wpforms-lite' ),
+			'author_id'           => esc_html__( 'Author ID', 'wpforms-lite' ),
+			'author_display'      => esc_html__( 'Author Name', 'wpforms-lite' ),
+			'author_email'        => esc_html__( 'Author Email', 'wpforms-lite' ),
+			'url_referer'         => esc_html__( 'Referrer URL', 'wpforms-lite' ),
+			'url_login'           => esc_html__( 'Login URL', 'wpforms-lite' ),
+			'url_logout'          => esc_html__( 'Logout URL', 'wpforms-lite' ),
+			'url_register'        => esc_html__( 'Register URL', 'wpforms-lite' ),
+			'url_lost_password'   => esc_html__( 'Lost Password URL', 'wpforms-lite' ),
 		);
 
 		$tags = apply_filters( 'wpforms_smart_tags', $tags );
@@ -80,8 +82,8 @@ class WPForms_Smart_Tags {
 	 *
 	 * @since 1.0.0
 	 *
-	 * @param string $content The string to preprocess.
-	 * @param array $form_data Array of the form data.
+	 * @param string $content      The string to preprocess.
+	 * @param array $form_data     Form data and settings.
 	 * @param string|array $fields Form fields.
 	 * @param int|string $entry_id Entry ID.
 	 *
@@ -158,6 +160,26 @@ class WPForms_Smart_Tags {
 						if ( is_user_logged_in() ) {
 							$user = wp_get_current_user();
 							$name = sanitize_text_field( $user->user_firstname . ' ' . $user->user_lastname );
+						} else {
+							$name = '';
+						}
+						$content = str_replace( '{' . $tag . '}', $name, $content );
+						break;
+
+					case 'user_first_name':
+						if ( is_user_logged_in() ) {
+							$user = wp_get_current_user();
+							$name = sanitize_text_field( $user->user_firstname );
+						} else {
+							$name = '';
+						}
+						$content = str_replace( '{' . $tag . '}', $name, $content );
+						break;
+
+					case 'user_last_name':
+						if ( is_user_logged_in() ) {
+							$user = wp_get_current_user();
+							$name = sanitize_text_field( $user->user_lastname );
 						} else {
 							$name = '';
 						}
@@ -259,10 +281,14 @@ class WPForms_Smart_Tags {
 		// We can only process field smart tags if we have $fields
 		if ( ! empty( $ids[1] ) && ! empty( $fields ) ) {
 
-			foreach ( $ids[1] as $key => $field_id ) {
-				$value = ! empty( $fields[ $field_id ]['value'] ) ? wpforms_sanitize_textarea_field( $fields[ $field_id ]['value'] ) : '';
 
-				$content = str_replace( '{field_id="' . $field_id . '"}', $value, $content );
+
+			foreach ( $ids[1] as $key => $parts ) {
+				$field_parts = explode( '|', $parts );
+				$field_id    = $field_parts[0];
+				$field_key   = ! empty( $field_parts[1] ) ? sanitize_key( $field_parts[1] ) : 'value';
+				$value       = ! empty( $fields[ $field_id ][ $field_key ] ) ? wpforms_sanitize_textarea_field( $fields[ $field_id ][ $field_key ] ) : '';
+				$content     = str_replace( '{field_id="' . $parts . '"}', $value, $content );
 			}
 		}
 

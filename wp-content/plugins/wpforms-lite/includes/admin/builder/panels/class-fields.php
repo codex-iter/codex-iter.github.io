@@ -19,7 +19,7 @@ class WPForms_Builder_Panel_Fields extends WPForms_Builder_Panel {
 	public function init() {
 
 		// Define panel information.
-		$this->name    = esc_html__( 'Fields', 'wpforms' );
+		$this->name    = esc_html__( 'Fields', 'wpforms-lite' );
 		$this->slug    = 'fields';
 		$this->icon    = 'fa-list-alt';
 		$this->order   = 10;
@@ -67,14 +67,14 @@ class WPForms_Builder_Panel_Fields extends WPForms_Builder_Panel {
 
 			<li class="wpforms-tab" id="add-fields">
 				<a href="#" class="active">
-					<?php esc_html_e( 'Add Fields', 'wpforms' ); ?>
+					<?php esc_html_e( 'Add Fields', 'wpforms-lite' ); ?>
 					<i class="fa fa-angle-down"></i>
 				</a>
 			</li>
 
 			<li class="wpforms-tab" id="field-options">
 				<a href="#">
-					<?php esc_html_e( 'Field Options', 'wpforms' ); ?>
+					<?php esc_html_e( 'Field Options', 'wpforms-lite' ); ?>
 					<i class="fa fa-angle-right"></i>
 				</a>
 			</li>
@@ -102,7 +102,7 @@ class WPForms_Builder_Panel_Fields extends WPForms_Builder_Panel {
 		if ( ! $this->form ) {
 			echo '<div class="wpforms-alert wpforms-alert-info">';
 			echo wp_kses(
-				__( 'You need to <a href="#" class="wpforms-panel-switch" data-panel="setup">setup your form</a> before you can manage the fields.', 'wpforms' ),
+				__( 'You need to <a href="#" class="wpforms-panel-switch" data-panel="setup">setup your form</a> before you can manage the fields.', 'wpforms-lite' ),
 				array(
 					'a' => array(
 						'href'       => array(),
@@ -139,7 +139,7 @@ class WPForms_Builder_Panel_Fields extends WPForms_Builder_Panel {
 				<?php endif; ?>
 
 				<?php
-				$submit = ! empty( $this->form_data['settings']['submit_text'] ) ? $this->form_data['settings']['submit_text'] : esc_html__( 'Submit', 'wpforms' );
+				$submit = ! empty( $this->form_data['settings']['submit_text'] ) ? $this->form_data['settings']['submit_text'] : esc_html__( 'Submit', 'wpforms-lite' );
 				printf( '<p class="wpforms-field-submit"><input type="submit" value="%s" class="wpforms-field-submit-button"></p>', esc_attr( $submit ) );
 				?>
 
@@ -160,15 +160,15 @@ class WPForms_Builder_Panel_Fields extends WPForms_Builder_Panel {
 
 		$fields = array(
 			'standard' => array(
-				'group_name' => esc_html__( 'Standard Fields', 'wpforms' ),
+				'group_name' => esc_html__( 'Standard Fields', 'wpforms-lite' ),
 				'fields'     => array(),
 			),
 			'fancy'    => array(
-				'group_name' => esc_html__( 'Fancy Fields', 'wpforms' ),
+				'group_name' => esc_html__( 'Fancy Fields', 'wpforms-lite' ),
 				'fields'     => array(),
 			),
 			'payment'  => array(
-				'group_name' => esc_html__( 'Payment Fields', 'wpforms' ),
+				'group_name' => esc_html__( 'Payment Fields', 'wpforms-lite' ),
 				'fields'     => array(),
 			),
 		);
@@ -183,7 +183,7 @@ class WPForms_Builder_Panel_Fields extends WPForms_Builder_Panel {
 
 			echo '<a href="#" class="wpforms-add-fields-heading" data-group="' . esc_attr( $id ) . '">';
 
-			echo esc_html( $group['group_name'] );
+			echo '<span>' . esc_html( $group['group_name'] ) . '</span>';
 
 			echo '<i class="fa fa-angle-down"></i>';
 
@@ -218,7 +218,7 @@ class WPForms_Builder_Panel_Fields extends WPForms_Builder_Panel {
 
 		// Check to make sure the form actually has fields created already.
 		if ( empty( $this->form_data['fields'] ) ) {
-			printf( '<p class="no-fields">%s</p>', esc_html__( 'You don\'t have any fields yet.', 'wpforms' ) );
+			printf( '<p class="no-fields">%s</p>', esc_html__( 'You don\'t have any fields yet.', 'wpforms-lite' ) );
 
 			return;
 		}
@@ -250,7 +250,7 @@ class WPForms_Builder_Panel_Fields extends WPForms_Builder_Panel {
 
 		// Check to make sure the form actually has fields created already.
 		if ( empty( $this->form_data['fields'] ) ) {
-			printf( '<p class="no-fields-preview">%s</p>', esc_html__( 'You don\'t have any fields yet. Add some!', 'wpforms' ) );
+			printf( '<p class="no-fields-preview">%s</p>', esc_html__( 'You don\'t have any fields yet. Add some!', 'wpforms-lite' ) );
 
 			return;
 		}
@@ -272,11 +272,11 @@ class WPForms_Builder_Panel_Fields extends WPForms_Builder_Panel {
 
 			printf( '<div class="wpforms-field wpforms-field-%s %s" id="wpforms-field-%d" data-field-id="%d" data-field-type="%s">', $field['type'], $css, $field['id'], $field['id'], $field['type'] );
 
-			printf( '<a href="#" class="wpforms-field-duplicate" title="%s"><i class="fa fa-files-o" aria-hidden="true"></i></a>', esc_html__( 'Duplicate Field', 'wpforms' ) );
+			printf( '<a href="#" class="wpforms-field-duplicate" title="%s"><i class="fa fa-files-o" aria-hidden="true"></i></a>', esc_html__( 'Duplicate Field', 'wpforms-lite' ) );
 
-			printf( '<a href="#" class="wpforms-field-delete" title="%s"><i class="fa fa-times-circle" aria-hidden="true"></i></a>', esc_html__( 'Delete Field', 'wpforms' ) );
+			printf( '<a href="#" class="wpforms-field-delete" title="%s"><i class="fa fa-times-circle" aria-hidden="true"></i></a>', esc_html__( 'Delete Field', 'wpforms-lite' ) );
 
-			printf( '<span class="wpforms-field-helper">%s</span>', esc_html__( 'Click to edit. Drag to reorder.', 'wpforms' ) );
+			printf( '<span class="wpforms-field-helper">%s</span>', esc_html__( 'Click to edit. Drag to reorder.', 'wpforms-lite' ) );
 
 			do_action( "wpforms_builder_fields_previews_{$field['type']}", $field );
 

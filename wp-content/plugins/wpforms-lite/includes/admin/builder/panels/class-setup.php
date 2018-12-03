@@ -19,7 +19,7 @@ class WPForms_Builder_Panel_Setup extends WPForms_Builder_Panel {
 	public function init() {
 
 		// Define panel information.
-		$this->name  = esc_html__( 'Setup', 'wpforms' );
+		$this->name  = esc_html__( 'Setup', 'wpforms-lite' );
 		$this->slug  = 'setup';
 		$this->icon  = 'fa-cog';
 		$this->order = 5;
@@ -53,18 +53,18 @@ class WPForms_Builder_Panel_Setup extends WPForms_Builder_Panel {
 		$additional_count     = count( $additional_templates );
 		?>
 		<div id="wpforms-setup-form-name">
-			<span><?php esc_html_e( 'Form Name', 'wpforms' ); ?></span>
-			<input type="text" id="wpforms-setup-name" placeholder="<?php esc_attr_e( 'Enter your form name here&hellip;', 'wpforms' ); ?>">
+			<span><?php esc_html_e( 'Form Name', 'wpforms-lite' ); ?></span>
+			<input type="text" id="wpforms-setup-name" placeholder="<?php esc_attr_e( 'Enter your form name here&hellip;', 'wpforms-lite' ); ?>">
 		</div>
 
 		<div class="wpforms-setup-title core">
-			<?php esc_html_e( 'Select a Template', 'wpforms' ); ?>
+			<?php esc_html_e( 'Select a Template', 'wpforms-lite' ); ?>
 		</div>
 
 		<p class="wpforms-setup-desc core">
 			<?php
 			echo wp_kses(
-				__( 'To speed up the process, you can select from one of our pre-made templates or start with a <strong><a href="#" class="wpforms-trigger-blank">blank form.</a></strong>', 'wpforms' ),
+				__( 'To speed up the process, you can select from one of our pre-made templates or start with a <strong><a href="#" class="wpforms-trigger-blank">blank form.</a></strong>', 'wpforms-lite' ),
 				array(
 					'strong' => array(),
 					'a'      => array(
@@ -79,7 +79,7 @@ class WPForms_Builder_Panel_Setup extends WPForms_Builder_Panel {
 		<?php $this->template_select_options( $core_templates, 'core' ); ?>
 
 		<div class="wpforms-setup-title additional">
-			<?php esc_html_e( 'Additional Templates', 'wpforms' ); ?>
+			<?php esc_html_e( 'Additional Templates', 'wpforms-lite' ); ?>
 			<?php echo ! empty( $additional_count ) ? '<span class="count">(' . $additional_count . ')</span>' : ''; ?>
 		</div>
 
@@ -90,7 +90,7 @@ class WPForms_Builder_Panel_Setup extends WPForms_Builder_Panel {
 				printf(
 					wp_kses(
 						/* translators: %1$s - WPForms.com URL to a template suggestion, %2$s - WPForms.com URL to a doc about custom templates. */
-						__( 'Have a suggestion for a new template? <a href="%1$s" target="_blank" rel="noopener noreferrer">We\'d love to hear it</a>. Also, you can <a href="%1$s" target="_blank" rel="noopener noreferrer">create your own templates</a>!', 'wpforms' ),
+						__( 'Have a suggestion for a new template? <a href="%1$s" target="_blank" rel="noopener noreferrer">We\'d love to hear it</a>. Also, you can <a href="%1$s" target="_blank" rel="noopener noreferrer">create your own templates</a>!', 'wpforms-lite' ),
 						array(
 							'a' => array(
 								'href'   => array(),
@@ -107,7 +107,7 @@ class WPForms_Builder_Panel_Setup extends WPForms_Builder_Panel {
 
 			<div class="wpforms-setup-template-search-wrap">
 				<i class="fa fa-search" aria-hidden="true"></i>
-				<input type="text" id="wpforms-setup-template-search" value="" placeholder="<?php esc_attr_e( 'Search additional templates...', 'wpforms' ); ?>">
+				<input type="text" id="wpforms-setup-template-search" value="" placeholder="<?php esc_attr_e( 'Search additional templates...', 'wpforms-lite' ); ?>">
 			</div>
 
 			<?php $this->template_select_options( $additional_templates, 'additional' ); ?>
@@ -119,7 +119,7 @@ class WPForms_Builder_Panel_Setup extends WPForms_Builder_Panel {
 				printf(
 					wp_kses(
 						/* translators: %1$s - WPForms.com URL to an addon page, %2$s - WPForms.com URL to a docs article. */
-						__( 'More are available in the <a href="%1$s" target="_blank" rel="noopener noreferrer">Form Templates Pack addon</a> or by <a href="%2$s" target="_blank" rel="noopener noreferrer">creating your own</a>.', 'wpforms' ),
+						__( 'More are available in the <a href="%1$s" target="_blank" rel="noopener noreferrer">Form Templates Pack addon</a> or by <a href="%2$s" target="_blank" rel="noopener noreferrer">creating your own</a>.', 'wpforms-lite' ),
 						array(
 							'a' => array(
 								'href'   => array(),
@@ -167,7 +167,7 @@ class WPForms_Builder_Panel_Setup extends WPForms_Builder_Panel {
 
 						<div class="wpforms-template-name wpforms-clear">
 							<?php echo esc_html( $template['name'] ); ?>
-							<?php echo $selected ? '<span class="selected">' . esc_html__( 'Selected', 'wpforms' ) . '</span>' : ''; ?>
+							<?php echo $selected ? '<span class="selected">' . esc_html__( 'Selected', 'wpforms-lite' ) . '</span>' : ''; ?>
 						</div>
 
 						<?php if ( ! empty( $template['description'] ) ) : ?>
@@ -179,7 +179,7 @@ class WPForms_Builder_Panel_Setup extends WPForms_Builder_Panel {
 						<?php
 						$template_name = sprintf(
 							/* translators: %s - Form template name. */
-							esc_html__( '%s template', 'wpforms' ),
+							esc_html__( '%s template', 'wpforms-lite' ),
 							$template['name']
 						);
 						?>
@@ -192,7 +192,7 @@ class WPForms_Builder_Panel_Setup extends WPForms_Builder_Panel {
 								<?php
 								printf(
 									/* translators: %s - Form template name. */
-									esc_html__( 'Create a %s', 'wpforms' ),
+									esc_html__( 'Create a %s', 'wpforms-lite' ),
 									$template['name']
 								);
 								?>

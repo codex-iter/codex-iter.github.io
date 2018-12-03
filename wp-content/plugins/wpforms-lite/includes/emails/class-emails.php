@@ -89,7 +89,7 @@ class WPForms_WP_Emails {
 	private $template;
 
 	/**
-	 * Form data.
+	 * Form data and settings.
 	 *
 	 * @since 1.1.3
 	 *
@@ -328,7 +328,7 @@ class WPForms_WP_Emails {
 	public function send( $to, $subject, $message, $attachments = array() ) {
 
 		if ( ! did_action( 'init' ) && ! did_action( 'admin_init' ) ) {
-			_doing_it_wrong( __FUNCTION__, esc_html__( 'You cannot send emails with WPForms_WP_Emails() until init/admin_init has been reached.', 'wpforms' ), null );
+			_doing_it_wrong( __FUNCTION__, esc_html__( 'You cannot send emails with WPForms_WP_Emails() until init/admin_init has been reached.', 'wpforms-lite' ), null );
 
 			return false;
 		}
@@ -489,7 +489,7 @@ class WPForms_WP_Emails {
 						if ( ! empty( $field['position'] ) && 'bottom' === $field['position'] ) {
 							continue;
 						}
-						$title      = ! empty( $field['title'] ) ? $field['title'] : esc_html__( 'Page Break', 'wpforms' );
+						$title      = ! empty( $field['title'] ) ? $field['title'] : esc_html__( 'Page Break', 'wpforms-lite' );
 						$field_name = str_repeat( '&mdash;', 6 ) . ' ' . $title . ' ' . str_repeat( '&mdash;', 6 );
 					} elseif ( 'html' === $field['type'] ) {
 						$field_name = null;
@@ -505,13 +505,13 @@ class WPForms_WP_Emails {
 					}
 
 					$field_name = $this->fields[ $field_id ]['name'];
-					$field_val  = empty( $this->fields[ $field_id ]['value'] ) && '0' !== $this->fields[ $field_id ]['value'] ? '<em>' . esc_html__( '(empty)', 'wpforms' ) . '</em>' : $this->fields[ $field_id ]['value'];
+					$field_val  = empty( $this->fields[ $field_id ]['value'] ) && '0' !== $this->fields[ $field_id ]['value'] ? '<em>' . esc_html__( '(empty)', 'wpforms-lite' ) . '</em>' : $this->fields[ $field_id ]['value'];
 				}
 
 				if ( empty( $field_name ) && ! is_null( $field_name ) ) {
 					$field_name = sprintf(
 						/* translators: %d - field ID. */
-						esc_html__( 'Field ID #%d', 'wpforms' ),
+						esc_html__( 'Field ID #%d', 'wpforms-lite' ),
 						absint( $field['id'] )
 					);
 				}
@@ -547,13 +547,13 @@ class WPForms_WP_Emails {
 					continue;
 				}
 
-				$field_val  = empty( $field['value'] ) && '0' !== $field['value'] ? esc_html__( '(empty)', 'wpforms' ) : $field['value'];
+				$field_val  = empty( $field['value'] ) && '0' !== $field['value'] ? esc_html__( '(empty)', 'wpforms-lite' ) : $field['value'];
 				$field_name = $field['name'];
 
 				if ( empty( $field_name ) ) {
 					$field_name = sprintf(
 						/* translators: %d - field ID. */
-						esc_html__( 'Field ID #%d', 'wpforms' ),
+						esc_html__( 'Field ID #%d', 'wpforms-lite' ),
 						absint( $field['id'] )
 					);
 				}
@@ -565,7 +565,7 @@ class WPForms_WP_Emails {
 		}
 
 		if ( empty( $message ) ) {
-			$empty_message = esc_html__( 'An empty form was submitted.', 'wpforms' );
+			$empty_message = esc_html__( 'An empty form was submitted.', 'wpforms-lite' );
 			$message       = $html ? wpautop( $empty_message ) : $empty_message;
 		}
 

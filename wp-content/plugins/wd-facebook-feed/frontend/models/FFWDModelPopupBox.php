@@ -69,7 +69,7 @@ class FFWDModelPopupBox {
     global $wpdb;
     $row = $wpdb->get_row($wpdb->prepare('SELECT * FROM ' . $wpdb->prefix . 'wd_fb_info WHERE published=1 AND id="%d"', $id));
     // set access token
-    $this->access_token = $row->access_token;
+    $this->access_token = $row->page_access_token;
     $graph_url_for_page_info = str_replace (
       array('{FB_ID}', '{EDGE}', '{ACCESS_TOKEN}', '{FIELDS}', '{LIMIT}', '{OTHER}'),
       array($row->from, '', 'access_token=' . $this->access_token . '&', 'fields=picture,name,link&', '', ''),

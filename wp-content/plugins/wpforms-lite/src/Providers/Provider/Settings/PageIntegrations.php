@@ -78,7 +78,7 @@ abstract class PageIntegrations implements PageIntegrationsInterface {
 			<div class="wpforms-settings-provider-header wpforms-clear" data-provider="<?php echo \esc_attr( $this->core->slug ); ?>">
 
 				<div class="wpforms-settings-provider-logo">
-					<i title="<?php \esc_attr_e( 'Show Accounts', 'wpforms' ); ?>" class="fa fa-chevron-<?php echo \esc_attr( $arrow ); ?>"></i>
+					<i title="<?php \esc_attr_e( 'Show Accounts', 'wpforms-lite' ); ?>" class="fa fa-chevron-<?php echo \esc_attr( $arrow ); ?>"></i>
 					<img src="<?php echo \esc_url( $this->core->icon ); ?>">
 				</div>
 
@@ -87,10 +87,10 @@ abstract class PageIntegrations implements PageIntegrationsInterface {
 					<p>
 						<?php
 						/* translators: %s - provider name. */
-						\printf( \esc_html__( 'Integrate %s with WPForms', 'wpforms' ), \esc_html( $this->core->name ) );
+						\printf( \esc_html__( 'Integrate %s with WPForms', 'wpforms-lite' ), \esc_html( $this->core->name ) );
 						?>
 					</p>
-					<span class="connected-indicator green"><i class="fa fa-check-circle-o"></i>&nbsp;<?php \esc_html_e( 'Connected', 'wpforms' ); ?></span>
+					<span class="connected-indicator green"><i class="fa fa-check-circle-o"></i>&nbsp;<?php \esc_html_e( 'Connected', 'wpforms-lite' ); ?></span>
 				</div>
 
 			</div>
@@ -105,8 +105,8 @@ abstract class PageIntegrations implements PageIntegrationsInterface {
 								echo '<li class="wpforms-clear">';
 								echo '<span class="label">' . \esc_html( $account['label'] ) . '</span>';
 								/* translators: %s - Connection date. */
-								echo '<span class="date">' . \sprintf( \esc_html__( 'Connected on: %s', 'wpforms' ), \date_i18n( \get_option( 'date_format' ), $account['date'] ) ) . '</span>';
-								echo '<span class="remove"><a href="#" data-provider="' . \esc_attr( $this->core->slug ) . '" data-key="' . $key . '">' . \esc_html__( 'Disconnect', 'wpforms' ) . '</a></span>';
+								echo '<span class="date">' . \sprintf( \esc_html__( 'Connected on: %s', 'wpforms-lite' ), \date_i18n( \get_option( 'date_format' ), $account['date'] ) ) . '</span>';
+								echo '<span class="remove"><a href="#" data-provider="' . \esc_attr( $this->core->slug ) . '" data-key="' . $key . '">' . \esc_html__( 'Disconnect', 'wpforms-lite' ) . '</a></span>';
 								echo '</li>';
 							}
 						}
@@ -132,19 +132,19 @@ abstract class PageIntegrations implements PageIntegrationsInterface {
 	protected function display_add_new() {
 
 		/* translators: %s - provider name. */
-		$title = \sprintf( \esc_html__( 'Connect to %s', 'wpforms' ), $this->core->name );
+		$title = \sprintf( \esc_html__( 'Connect to %s', 'wpforms-lite' ), $this->core->name );
 		?>
 
 		<p class="wpforms-settings-provider-accounts-toggle">
 			<a class="wpforms-btn wpforms-btn-md wpforms-btn-light-grey" href="#" data-provider="<?php echo \esc_attr( $this->core->slug ); ?>">
-				<i class="fa fa-plus"></i> <?php \esc_html_e( 'Add New Account', 'wpforms' ); ?>
+				<i class="fa fa-plus"></i> <?php \esc_html_e( 'Add New Account', 'wpforms-lite' ); ?>
 			</a>
 		</p>
 
 		<div class="wpforms-settings-provider-accounts-connect">
 
 			<form>
-				<p><?php \esc_html_e( 'Please fill out all of the fields below to add your new provider account.', 'wpforms' ); ?></span></p>
+				<p><?php \esc_html_e( 'Please fill out all of the fields below to add your new provider account.', 'wpforms-lite' ); ?></span></p>
 
 				<p class="wpforms-settings-provider-accounts-connect-fields">
 					<?php $this->display_add_new_connection_fields(); ?>
@@ -182,7 +182,7 @@ abstract class PageIntegrations implements PageIntegrationsInterface {
 		if ( ! \wpforms_current_user_can() ) {
 			\wp_send_json_error(
 				array(
-					'error' => \esc_html__( 'You do not have permission', 'wpforms' ),
+					'error' => \esc_html__( 'You do not have permission', 'wpforms-lite' ),
 				)
 			);
 		}
@@ -190,7 +190,7 @@ abstract class PageIntegrations implements PageIntegrationsInterface {
 		if ( empty( $_POST['provider'] ) || empty( $_POST['key'] ) ) {
 			\wp_send_json_error(
 				array(
-					'error' => \esc_html__( 'Missing data', 'wpforms' ),
+					'error' => \esc_html__( 'Missing data', 'wpforms-lite' ),
 				)
 			);
 		}
@@ -206,7 +206,7 @@ abstract class PageIntegrations implements PageIntegrationsInterface {
 		} else {
 			\wp_send_json_error(
 				array(
-					'error' => \esc_html__( 'Connection missing', 'wpforms' ),
+					'error' => \esc_html__( 'Connection missing', 'wpforms-lite' ),
 				)
 			);
 		}
@@ -232,7 +232,7 @@ abstract class PageIntegrations implements PageIntegrationsInterface {
 		if ( ! \wpforms_current_user_can() ) {
 			\wp_send_json_error(
 				array(
-					'error' => \esc_html__( 'You do not have permissions.', 'wpforms' ),
+					'error' => \esc_html__( 'You do not have permissions.', 'wpforms-lite' ),
 				)
 			);
 		}
@@ -240,7 +240,7 @@ abstract class PageIntegrations implements PageIntegrationsInterface {
 		if ( empty( $_POST['data'] ) ) {
 			\wp_send_json_error(
 				array(
-					'error' => \esc_html__( 'Missing required data in payload.', 'wpforms' ),
+					'error' => \esc_html__( 'Missing required data in payload.', 'wpforms-lite' ),
 				)
 			);
 		}

@@ -72,7 +72,7 @@ function wpforms_settings_missing_callback( $args ) {
 
 	return sprintf(
 		/* translators: %s - ID of a setting. */
-		esc_html__( 'The callback function used for the %s setting is missing.', 'wpforms' ),
+		esc_html__( 'The callback function used for the %s setting is missing.', 'wpforms-lite' ),
 		'<strong>' . wpforms_sanitize_key( $args['id'] ) . '</strong>'
 	);
 }
@@ -102,14 +102,14 @@ function wpforms_settings_content_callback( $args ) {
 function wpforms_settings_license_callback( $args ) {
 
 	// Lite users don't need to worry about license keys.
-	if ( ! wpforms()->pro || ! class_exists( 'WPForms_License' ) ) {
-		$output  = '<p>' . esc_html__( 'You\'re using WPForms Lite - no license needed. Enjoy!', 'wpforms' ) . ' 🙂</p>';
+	if ( ! wpforms()->pro || ! class_exists( 'WPForms_License', false ) ) {
+		$output  = '<p>' . esc_html__( 'You\'re using WPForms Lite - no license needed. Enjoy!', 'wpforms-lite' ) . ' 🙂</p>';
 		$output .=
 			'<p>' .
 			sprintf(
 				wp_kses(
 					/* translators: %s - WPForms.com upgrade URL. */
-					__( 'To unlock more features consider <strong><a href="%s" target="_blank" rel="noopener noreferrer" class="wpforms-upgrade-modal">upgrading to PRO</a></strong>.', 'wpforms' ),
+					__( 'To unlock more features consider <strong><a href="%s" target="_blank" rel="noopener noreferrer" class="wpforms-upgrade-modal">upgrading to PRO</a></strong>.', 'wpforms-lite' ),
 					array(
 						'a'      => array(
 							'href'   => array(),
@@ -120,13 +120,13 @@ function wpforms_settings_license_callback( $args ) {
 						'strong' => array(),
 					)
 				),
-				wpforms_admin_upgrade_link( 'settings-license' )
+				esc_url( wpforms_admin_upgrade_link( 'settings-license' ) )
 			) .
 			'</p>';
 		$output .=
 			'<p class="discount-note">' .
 				wp_kses(
-					__( 'As a valued WPForms Lite user you receive <strong>20% off</strong>, automatically applied at checkout!', 'wpforms' ),
+					__( 'As a valued WPForms Lite user you receive <strong>20% off</strong>, automatically applied at checkout!', 'wpforms-lite' ),
 					array(
 						'strong' => array(),
 						'br'     => array(),
@@ -141,24 +141,24 @@ function wpforms_settings_license_callback( $args ) {
 	$type = wpforms_setting( 'type', '', 'wpforms_license' );
 
 	$output  = '<input type="password" id="wpforms-setting-license-key" value="' . esc_attr( $key ) . '" />';
-	$output .= '<button id="wpforms-setting-license-key-verify" class="wpforms-btn wpforms-btn-md wpforms-btn-orange">' . esc_html__( 'Verify Key', 'wpforms' ) . '</button>';
+	$output .= '<button id="wpforms-setting-license-key-verify" class="wpforms-btn wpforms-btn-md wpforms-btn-orange">' . esc_html__( 'Verify Key', 'wpforms-lite' ) . '</button>';
 
 	// Offer option to deactivate the key.
 	$class   = empty( $key ) ? 'wpforms-hide' : '';
-	$output .= '<button id="wpforms-setting-license-key-deactivate" class="wpforms-btn wpforms-btn-md wpforms-btn-light-grey ' . $class . '">' . esc_html__( 'Deactivate Key', 'wpforms' ) . '</button>';
+	$output .= '<button id="wpforms-setting-license-key-deactivate" class="wpforms-btn wpforms-btn-md wpforms-btn-light-grey ' . $class . '">' . esc_html__( 'Deactivate Key', 'wpforms-lite' ) . '</button>';
 
 	// If we have previously looked up the license type, display it.
 	$class   = empty( $type ) ? 'wpforms-hide' : '';
 	$output .= '<p class="type ' . $class . '">' .
 				sprintf(
 					/* translators: $s - license type. */
-					esc_html__( 'Your license key type is %s.', 'wpforms' ),
+					esc_html__( 'Your license key type is %s.', 'wpforms-lite' ),
 					'<strong>' . esc_html( $type ) . '</strong>'
 				) .
 				'</p>';
 	$output .= '<p class="desc ' . $class . '">' .
 				wp_kses(
-					__( 'If your license has been upgraded or is incorrect, <a href="#" id="wpforms-setting-license-key-refresh">click here to force a refresh</a>.', 'wpforms' ),
+					__( 'If your license has been upgraded or is incorrect, <a href="#" id="wpforms-setting-license-key-refresh">click here to force a refresh</a>.', 'wpforms-lite' ),
 					array(
 						'a' => array(
 							'href' => array(),
@@ -314,7 +314,7 @@ function wpforms_settings_image_callback( $args ) {
 	}
 
 	$output .= '<input type="text" id="wpforms-setting-' . $id . '" name="' . $id . '" value="' . esc_url_raw( $value ) . '">';
-	$output .= '<button class="wpforms-btn wpforms-btn-md wpforms-btn-light-grey">' . esc_html__( 'Upload Image', 'wpforms' ) . '</button>';
+	$output .= '<button class="wpforms-btn wpforms-btn-md wpforms-btn-light-grey">' . esc_html__( 'Upload Image', 'wpforms-lite' ) . '</button>';
 
 	if ( ! empty( $args['desc'] ) ) {
 		$output .= '<p class="desc">' . wp_kses_post( $args['desc'] ) . '</p>';

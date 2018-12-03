@@ -15,12 +15,11 @@
  *
  * @since 1.0.2
  *
- * @param mixed $form_id
- * @param bool  $title
- * @param bool  $desc
+ * @param mixed $form_id Form ID.
+ * @param bool  $title Form title.
+ * @param bool  $desc Form description.
  */
 function wpforms_display( $form_id = false, $title = false, $desc = false ) {
-
 	wpforms()->frontend->output( $form_id, $title, $desc );
 }
 
@@ -144,7 +143,6 @@ function wpforms_setting( $key, $default = false, $option = 'wpforms_settings' )
  * @return string
  */
 function wpforms_sanitize_key( $key = '' ) {
-
 	return preg_replace( '/[^a-zA-Z0-9_\-\.\:\/]/', '', $key );
 }
 
@@ -154,7 +152,7 @@ function wpforms_sanitize_key( $key = '' ) {
  * @since 1.0.5
  *
  * @param array|string $type
- * @param array        $form
+ * @param array|object $form
  * @param bool         $multiple
  *
  * @return bool
@@ -174,27 +172,26 @@ function wpforms_has_field_type( $type, $form, $multiple = false ) {
 		}
 
 		return $field;
-	} else {
-
-		if ( is_object( $form ) && ! empty( $form->post_content ) ) {
-			$form_data = wpforms_decode( $form->post_content );
-		} elseif ( is_array( $form ) ) {
-			$form_data = $form;
-		}
-
-		if ( empty( $form_data['fields'] ) ) {
-			return false;
-		}
-
-		foreach ( $form_data['fields'] as $single_field ) {
-			if ( in_array( $single_field['type'], $type, true ) ) {
-				$field = true;
-				break;
-			}
-		}
-
-		return $field;
 	}
+
+	if ( is_object( $form ) && ! empty( $form->post_content ) ) {
+		$form_data = wpforms_decode( $form->post_content );
+	} elseif ( is_array( $form ) ) {
+		$form_data = $form;
+	}
+
+	if ( empty( $form_data['fields'] ) ) {
+		return false;
+	}
+
+	foreach ( $form_data['fields'] as $single_field ) {
+		if ( in_array( $single_field['type'], $type, true ) ) {
+			$field = true;
+			break;
+		}
+	}
+
+	return $field;
 }
 
 /**
@@ -203,7 +200,7 @@ function wpforms_has_field_type( $type, $form, $multiple = false ) {
  * @since 1.4.5
  *
  * @param string $setting
- * @param array  $form
+ * @param object|array  $form
  * @param bool   $multiple
  *
  * @return bool
@@ -222,28 +219,27 @@ function wpforms_has_field_setting( $setting, $form, $multiple = false ) {
 		}
 
 		return $field;
-	} else {
-
-		if ( is_object( $form ) && ! empty( $form->post_content ) ) {
-			$form_data = wpforms_decode( $form->post_content );
-		} elseif ( is_array( $form ) ) {
-			$form_data = $form;
-		}
-
-		if ( empty( $form_data['fields'] ) ) {
-			return false;
-		}
-
-		foreach ( $form_data['fields'] as $single_field ) {
-
-			if ( ! empty( $single_field[ $setting ] ) ) {
-				$field = true;
-				break;
-			}
-		}
-
-		return $field;
 	}
+
+	if ( is_object( $form ) && ! empty( $form->post_content ) ) {
+		$form_data = wpforms_decode( $form->post_content );
+	} elseif ( is_array( $form ) ) {
+		$form_data = $form;
+	}
+
+	if ( empty( $form_data['fields'] ) ) {
+		return false;
+	}
+
+	foreach ( $form_data['fields'] as $single_field ) {
+
+		if ( ! empty( $single_field[ $setting ] ) ) {
+			$field = true;
+			break;
+		}
+	}
+
+	return $field;
 }
 
 /**
@@ -282,9 +278,9 @@ function wpforms_has_pagebreak( $form = false ) {
 
 	if ( $pagebreak ) {
 		return $pages;
-	} else {
-		return false;
 	}
+
+	return false;
 }
 
 /**
@@ -381,9 +377,9 @@ function wpforms_get_pagebreak_details( $form = false ) {
 		$details['current'] = 1;
 
 		return $details;
-	} else {
-		return false;
 	}
+
+	return false;
 }
 
 /**
@@ -469,9 +465,9 @@ function wpforms_sanitize_classes( $classes, $convert = false ) {
 	}
 	if ( $array ) {
 		return $convert ? implode( ' ', $css ) : $css;
-	} else {
-		return $convert ? $css : implode( ' ', $css );
 	}
+
+	return $convert ? $css : implode( ' ', $css );
 }
 
 /**
@@ -496,12 +492,16 @@ function wpforms_size_to_bytes( $size ) {
 	switch ( strtoupper( $suffix ) ) {
 		case 'P':
 			$value *= 1024;
+			break;
 		case 'T':
 			$value *= 1024;
+			break;
 		case 'G':
 			$value *= 1024;
+			break;
 		case 'M':
 			$value *= 1024;
+			break;
 		case 'K':
 			$value *= 1024;
 			break;
@@ -603,7 +603,7 @@ function wpforms_get_form_fields( $form = false, $whitelist = array() ) {
 		'payment-multiple',
 		'payment-select',
 		'payment-total',
-		'net_promoter_score'
+		'net_promoter_score',
 	);
 	$allowed_form_fields = apply_filters( 'wpforms_get_form_fields_allowed', $allowed_form_fields );
 
@@ -648,37 +648,34 @@ function wpforms_get_form_field_meta( $id = '', $key = '', $form_data = '' ) {
  * Get meta key value for a form field.
  *
  * @since 1.3.1
+ * @since 1.5.0 More strict parameters. Always return an array.
  *
- * @param string $key Meta key.
- * @param string $value
- * @param mixed  $form_data Form data array.
+ * @param string $key       Meta key.
+ * @param string $value     Meta value to check against.
+ * @param array  $form_data Form data array.
  *
- * @return string
+ * @return array|bool Empty array, when no data is found.
  */
-function wpforms_get_form_fields_by_meta( $key = '', $value = '', $form_data = '' ) {
-
-	if ( empty( $key ) || empty( $value ) || empty( $form_data['fields'] ) ) {
-		return false;
-	}
+function wpforms_get_form_fields_by_meta( $key, $value, $form_data ) {
 
 	$found = array();
 
+	if ( empty( $key ) || empty( $value ) || empty( $form_data['fields'] ) ) {
+		return $found;
+	}
+
 	foreach ( $form_data['fields'] as $id => $field ) {
 
-		if ( ! empty( $field['meta'][ $key ] ) && $value == $field['meta'][ $key ] ) {
+		if ( ! empty( $field['meta'][ $key ] ) && $value === $field['meta'][ $key ] ) {
 			$found[ $id ] = $field;
 		}
 	}
 
-	if ( ! empty( $found ) ) {
-		return $found;
-	} else {
-		return false;
-	}
+	return $found;
 }
 
 /**
- * US States
+ * US States.
  *
  * @since 1.0.0
  *
@@ -687,57 +684,57 @@ function wpforms_get_form_fields_by_meta( $key = '', $value = '', $form_data = '
 function wpforms_us_states() {
 
 	$states = array(
-		'AL' => esc_html__( 'Alabama', 'wpforms' ),
-		'AK' => esc_html__( 'Alaska', 'wpforms' ),
-		'AZ' => esc_html__( 'Arizona', 'wpforms' ),
-		'AR' => esc_html__( 'Arkansas', 'wpforms' ),
-		'CA' => esc_html__( 'California', 'wpforms' ),
-		'CO' => esc_html__( 'Colorado', 'wpforms' ),
-		'CT' => esc_html__( 'Connecticut', 'wpforms' ),
-		'DE' => esc_html__( 'Delaware', 'wpforms' ),
-		'DC' => esc_html__( 'District of Columbia', 'wpforms' ),
-		'FL' => esc_html__( 'Florida', 'wpforms' ),
-		'GA' => esc_html_x( 'Georgia', 'US State', 'wpforms' ),
-		'HI' => esc_html__( 'Hawaii', 'wpforms' ),
-		'ID' => esc_html__( 'Idaho', 'wpforms' ),
-		'IL' => esc_html__( 'Illinois', 'wpforms' ),
-		'IN' => esc_html__( 'Indiana', 'wpforms' ),
-		'IA' => esc_html__( 'Iowa', 'wpforms' ),
-		'KS' => esc_html__( 'Kansas', 'wpforms' ),
-		'KY' => esc_html__( 'Kentucky', 'wpforms' ),
-		'LA' => esc_html__( 'Louisiana', 'wpforms' ),
-		'ME' => esc_html__( 'Maine', 'wpforms' ),
-		'MD' => esc_html__( 'Maryland', 'wpforms' ),
-		'MA' => esc_html__( 'Massachusetts', 'wpforms' ),
-		'MI' => esc_html__( 'Michigan', 'wpforms' ),
-		'MN' => esc_html__( 'Minnesota', 'wpforms' ),
-		'MS' => esc_html__( 'Mississippi', 'wpforms' ),
-		'MO' => esc_html__( 'Missouri', 'wpforms' ),
-		'MT' => esc_html__( 'Montana', 'wpforms' ),
-		'NE' => esc_html__( 'Nebraska', 'wpforms' ),
-		'NV' => esc_html__( 'Nevada', 'wpforms' ),
-		'NH' => esc_html__( 'New Hampshire', 'wpforms' ),
-		'NJ' => esc_html__( 'New Jersey', 'wpforms' ),
-		'NM' => esc_html__( 'New Mexico', 'wpforms' ),
-		'NY' => esc_html__( 'New York', 'wpforms' ),
-		'NC' => esc_html__( 'North Carolina', 'wpforms' ),
-		'ND' => esc_html__( 'North Dakota', 'wpforms' ),
-		'OH' => esc_html__( 'Ohio', 'wpforms' ),
-		'OK' => esc_html__( 'Oklahoma', 'wpforms' ),
-		'OR' => esc_html__( 'Oregon', 'wpforms' ),
-		'PA' => esc_html__( 'Pennsylvania', 'wpforms' ),
-		'RI' => esc_html__( 'Rhode Island', 'wpforms' ),
-		'SC' => esc_html__( 'South Carolina', 'wpforms' ),
-		'SD' => esc_html__( 'South Dakota', 'wpforms' ),
-		'TN' => esc_html__( 'Tennessee', 'wpforms' ),
-		'TX' => esc_html__( 'Texas', 'wpforms' ),
-		'UT' => esc_html__( 'Utah', 'wpforms' ),
-		'VT' => esc_html__( 'Vermont', 'wpforms' ),
-		'VA' => esc_html__( 'Virginia', 'wpforms' ),
-		'WA' => esc_html__( 'Washington', 'wpforms' ),
-		'WV' => esc_html__( 'West Virginia', 'wpforms' ),
-		'WI' => esc_html__( 'Wisconsin', 'wpforms' ),
-		'WY' => esc_html__( 'Wyoming', 'wpforms' ),
+		'AL' => esc_html__( 'Alabama', 'wpforms-lite' ),
+		'AK' => esc_html__( 'Alaska', 'wpforms-lite' ),
+		'AZ' => esc_html__( 'Arizona', 'wpforms-lite' ),
+		'AR' => esc_html__( 'Arkansas', 'wpforms-lite' ),
+		'CA' => esc_html__( 'California', 'wpforms-lite' ),
+		'CO' => esc_html__( 'Colorado', 'wpforms-lite' ),
+		'CT' => esc_html__( 'Connecticut', 'wpforms-lite' ),
+		'DE' => esc_html__( 'Delaware', 'wpforms-lite' ),
+		'DC' => esc_html__( 'District of Columbia', 'wpforms-lite' ),
+		'FL' => esc_html__( 'Florida', 'wpforms-lite' ),
+		'GA' => esc_html_x( 'Georgia', 'US State', 'wpforms-lite' ),
+		'HI' => esc_html__( 'Hawaii', 'wpforms-lite' ),
+		'ID' => esc_html__( 'Idaho', 'wpforms-lite' ),
+		'IL' => esc_html__( 'Illinois', 'wpforms-lite' ),
+		'IN' => esc_html__( 'Indiana', 'wpforms-lite' ),
+		'IA' => esc_html__( 'Iowa', 'wpforms-lite' ),
+		'KS' => esc_html__( 'Kansas', 'wpforms-lite' ),
+		'KY' => esc_html__( 'Kentucky', 'wpforms-lite' ),
+		'LA' => esc_html__( 'Louisiana', 'wpforms-lite' ),
+		'ME' => esc_html__( 'Maine', 'wpforms-lite' ),
+		'MD' => esc_html__( 'Maryland', 'wpforms-lite' ),
+		'MA' => esc_html__( 'Massachusetts', 'wpforms-lite' ),
+		'MI' => esc_html__( 'Michigan', 'wpforms-lite' ),
+		'MN' => esc_html__( 'Minnesota', 'wpforms-lite' ),
+		'MS' => esc_html__( 'Mississippi', 'wpforms-lite' ),
+		'MO' => esc_html__( 'Missouri', 'wpforms-lite' ),
+		'MT' => esc_html__( 'Montana', 'wpforms-lite' ),
+		'NE' => esc_html__( 'Nebraska', 'wpforms-lite' ),
+		'NV' => esc_html__( 'Nevada', 'wpforms-lite' ),
+		'NH' => esc_html__( 'New Hampshire', 'wpforms-lite' ),
+		'NJ' => esc_html__( 'New Jersey', 'wpforms-lite' ),
+		'NM' => esc_html__( 'New Mexico', 'wpforms-lite' ),
+		'NY' => esc_html__( 'New York', 'wpforms-lite' ),
+		'NC' => esc_html__( 'North Carolina', 'wpforms-lite' ),
+		'ND' => esc_html__( 'North Dakota', 'wpforms-lite' ),
+		'OH' => esc_html__( 'Ohio', 'wpforms-lite' ),
+		'OK' => esc_html__( 'Oklahoma', 'wpforms-lite' ),
+		'OR' => esc_html__( 'Oregon', 'wpforms-lite' ),
+		'PA' => esc_html__( 'Pennsylvania', 'wpforms-lite' ),
+		'RI' => esc_html__( 'Rhode Island', 'wpforms-lite' ),
+		'SC' => esc_html__( 'South Carolina', 'wpforms-lite' ),
+		'SD' => esc_html__( 'South Dakota', 'wpforms-lite' ),
+		'TN' => esc_html__( 'Tennessee', 'wpforms-lite' ),
+		'TX' => esc_html__( 'Texas', 'wpforms-lite' ),
+		'UT' => esc_html__( 'Utah', 'wpforms-lite' ),
+		'VT' => esc_html__( 'Vermont', 'wpforms-lite' ),
+		'VA' => esc_html__( 'Virginia', 'wpforms-lite' ),
+		'WA' => esc_html__( 'Washington', 'wpforms-lite' ),
+		'WV' => esc_html__( 'West Virginia', 'wpforms-lite' ),
+		'WI' => esc_html__( 'Wisconsin', 'wpforms-lite' ),
+		'WY' => esc_html__( 'Wyoming', 'wpforms-lite' ),
 	);
 
 	return apply_filters( 'wpforms_us_states', $states );
@@ -753,261 +750,261 @@ function wpforms_us_states() {
 function wpforms_countries() {
 
 	$countries = array(
-		'AF' => esc_html__( 'Afghanistan', 'wpforms' ),
-		'AX' => esc_html__( 'Åland Islands', 'wpforms' ),
-		'AL' => esc_html__( 'Albania', 'wpforms' ),
-		'DZ' => esc_html__( 'Algeria', 'wpforms' ),
-		'AS' => esc_html__( 'American Samoa', 'wpforms' ),
-		'AD' => esc_html__( 'Andorra', 'wpforms' ),
-		'AO' => esc_html__( 'Angola', 'wpforms' ),
-		'AI' => esc_html__( 'Anguilla', 'wpforms' ),
-		'AQ' => esc_html__( 'Antarctica', 'wpforms' ),
-		'AG' => esc_html__( 'Antigua and Barbuda', 'wpforms' ),
-		'AR' => esc_html__( 'Argentina', 'wpforms' ),
-		'AM' => esc_html__( 'Armenia', 'wpforms' ),
-		'AW' => esc_html__( 'Aruba', 'wpforms' ),
-		'AU' => esc_html__( 'Australia', 'wpforms' ),
-		'AT' => esc_html__( 'Austria', 'wpforms' ),
-		'AZ' => esc_html__( 'Azerbaijan', 'wpforms' ),
-		'BS' => esc_html__( 'Bahamas', 'wpforms' ),
-		'BH' => esc_html__( 'Bahrain', 'wpforms' ),
-		'BD' => esc_html__( 'Bangladesh', 'wpforms' ),
-		'BB' => esc_html__( 'Barbados', 'wpforms' ),
-		'BY' => esc_html__( 'Belarus', 'wpforms' ),
-		'BE' => esc_html__( 'Belgium', 'wpforms' ),
-		'BZ' => esc_html__( 'Belize', 'wpforms' ),
-		'BJ' => esc_html__( 'Benin', 'wpforms' ),
-		'BM' => esc_html__( 'Bermuda', 'wpforms' ),
-		'BT' => esc_html__( 'Bhutan', 'wpforms' ),
-		'BO' => esc_html__( 'Bolivia (Plurinational State of)', 'wpforms' ),
-		'BA' => esc_html__( 'Bosnia and Herzegovina', 'wpforms' ),
-		'BW' => esc_html__( 'Botswana', 'wpforms' ),
-		'BV' => esc_html__( 'Bouvet Island', 'wpforms' ),
-		'BR' => esc_html__( 'Brazil', 'wpforms' ),
-		'IO' => esc_html__( 'British Indian Ocean Territory', 'wpforms' ),
-		'BN' => esc_html__( 'Brunei Darussalam', 'wpforms' ),
-		'BG' => esc_html__( 'Bulgaria', 'wpforms' ),
-		'BF' => esc_html__( 'Burkina Faso', 'wpforms' ),
-		'BI' => esc_html__( 'Burundi', 'wpforms' ),
-		'CV' => esc_html__( 'Cabo Verde', 'wpforms' ),
-		'KH' => esc_html__( 'Cambodia', 'wpforms' ),
-		'CM' => esc_html__( 'Cameroon', 'wpforms' ),
-		'CA' => esc_html__( 'Canada', 'wpforms' ),
-		'KY' => esc_html__( 'Cayman Islands', 'wpforms' ),
-		'CF' => esc_html__( 'Central African Republic', 'wpforms' ),
-		'TD' => esc_html__( 'Chad', 'wpforms' ),
-		'CL' => esc_html__( 'Chile', 'wpforms' ),
-		'CN' => esc_html__( 'China', 'wpforms' ),
-		'CX' => esc_html__( 'Christmas Island', 'wpforms' ),
-		'CC' => esc_html__( 'Cocos (Keeling) Islands', 'wpforms' ),
-		'CO' => esc_html__( 'Colombia', 'wpforms' ),
-		'KM' => esc_html__( 'Comoros', 'wpforms' ),
-		'CG' => esc_html__( 'Congo', 'wpforms' ),
-		'CD' => esc_html__( 'Congo (Democratic Republic of the)', 'wpforms' ),
-		'CK' => esc_html__( 'Cook Islands', 'wpforms' ),
-		'CR' => esc_html__( 'Costa Rica', 'wpforms' ),
-		'CI' => esc_html__( 'Côte d\'Ivoire', 'wpforms' ),
-		'HR' => esc_html__( 'Croatia', 'wpforms' ),
-		'CU' => esc_html__( 'Cuba', 'wpforms' ),
-		'CW' => esc_html__( 'Curaçao', 'wpforms' ),
-		'CY' => esc_html__( 'Cyprus', 'wpforms' ),
-		'CZ' => esc_html__( 'Czech Republic', 'wpforms' ),
-		'DK' => esc_html__( 'Denmark', 'wpforms' ),
-		'DJ' => esc_html__( 'Djibouti', 'wpforms' ),
-		'DM' => esc_html__( 'Dominica', 'wpforms' ),
-		'DO' => esc_html__( 'Dominican Republic', 'wpforms' ),
-		'EC' => esc_html__( 'Ecuador', 'wpforms' ),
-		'EG' => esc_html__( 'Egypt', 'wpforms' ),
-		'SV' => esc_html__( 'El Salvador', 'wpforms' ),
-		'GQ' => esc_html__( 'Equatorial Guinea', 'wpforms' ),
-		'ER' => esc_html__( 'Eritrea', 'wpforms' ),
-		'EE' => esc_html__( 'Estonia', 'wpforms' ),
-		'ET' => esc_html__( 'Ethiopia', 'wpforms' ),
-		'FK' => esc_html__( 'Falkland Islands (Malvinas)', 'wpforms' ),
-		'FO' => esc_html__( 'Faroe Islands', 'wpforms' ),
-		'FJ' => esc_html__( 'Fiji', 'wpforms' ),
-		'FI' => esc_html__( 'Finland', 'wpforms' ),
-		'FR' => esc_html__( 'France', 'wpforms' ),
-		'GF' => esc_html__( 'French Guiana', 'wpforms' ),
-		'PF' => esc_html__( 'French Polynesia', 'wpforms' ),
-		'TF' => esc_html__( 'French Southern Territories', 'wpforms' ),
-		'GA' => esc_html__( 'Gabon', 'wpforms' ),
-		'GM' => esc_html__( 'Gambia', 'wpforms' ),
-		'GE' => esc_html_x( 'Georgia', 'Country', 'wpforms' ),
-		'DE' => esc_html__( 'Germany', 'wpforms' ),
-		'GH' => esc_html__( 'Ghana', 'wpforms' ),
-		'GI' => esc_html__( 'Gibraltar', 'wpforms' ),
-		'GR' => esc_html__( 'Greece', 'wpforms' ),
-		'GL' => esc_html__( 'Greenland', 'wpforms' ),
-		'GD' => esc_html__( 'Grenada', 'wpforms' ),
-		'GP' => esc_html__( 'Guadeloupe', 'wpforms' ),
-		'GU' => esc_html__( 'Guam', 'wpforms' ),
-		'GT' => esc_html__( 'Guatemala', 'wpforms' ),
-		'GG' => esc_html__( 'Guernsey', 'wpforms' ),
-		'GN' => esc_html__( 'Guinea', 'wpforms' ),
-		'GW' => esc_html__( 'Guinea-Bissau', 'wpforms' ),
-		'GY' => esc_html__( 'Guyana', 'wpforms' ),
-		'HT' => esc_html__( 'Haiti', 'wpforms' ),
-		'HM' => esc_html__( 'Heard Island and McDonald Islands', 'wpforms' ),
-		'HN' => esc_html__( 'Honduras', 'wpforms' ),
-		'HK' => esc_html__( 'Hong Kong', 'wpforms' ),
-		'HU' => esc_html__( 'Hungary', 'wpforms' ),
-		'IS' => esc_html__( 'Iceland', 'wpforms' ),
-		'IN' => esc_html__( 'India', 'wpforms' ),
-		'ID' => esc_html__( 'Indonesia', 'wpforms' ),
-		'IR' => esc_html__( 'Iran (Islamic Republic of)', 'wpforms' ),
-		'IQ' => esc_html__( 'Iraq', 'wpforms' ),
-		'IE' => esc_html__( 'Ireland (Republic of)', 'wpforms' ),
-		'IM' => esc_html__( 'Isle of Man', 'wpforms' ),
-		'IL' => esc_html__( 'Israel', 'wpforms' ),
-		'IT' => esc_html__( 'Italy', 'wpforms' ),
-		'JM' => esc_html__( 'Jamaica', 'wpforms' ),
-		'JP' => esc_html__( 'Japan', 'wpforms' ),
-		'JE' => esc_html__( 'Jersey', 'wpforms' ),
-		'JO' => esc_html__( 'Jordan', 'wpforms' ),
-		'KZ' => esc_html__( 'Kazakhstan', 'wpforms' ),
-		'KE' => esc_html__( 'Kenya', 'wpforms' ),
-		'KI' => esc_html__( 'Kiribati', 'wpforms' ),
-		'KP' => esc_html__( 'Korea (Democratic People\'s Republic of)', 'wpforms' ),
-		'KR' => esc_html__( 'Korea (Republic of)', 'wpforms' ),
-		'KW' => esc_html__( 'Kuwait', 'wpforms' ),
-		'KG' => esc_html__( 'Kyrgyzstan', 'wpforms' ),
-		'LA' => esc_html__( 'Lao People\'s Democratic Republic', 'wpforms' ),
-		'LV' => esc_html__( 'Latvia', 'wpforms' ),
-		'LB' => esc_html__( 'Lebanon', 'wpforms' ),
-		'LS' => esc_html__( 'Lesotho', 'wpforms' ),
-		'LR' => esc_html__( 'Liberia', 'wpforms' ),
-		'LY' => esc_html__( 'Libya', 'wpforms' ),
-		'LI' => esc_html__( 'Liechtenstein', 'wpforms' ),
-		'LT' => esc_html__( 'Lithuania', 'wpforms' ),
-		'LU' => esc_html__( 'Luxembourg', 'wpforms' ),
-		'MO' => esc_html__( 'Macao', 'wpforms' ),
-		'MK' => esc_html__( 'Macedonia (Republic of)', 'wpforms' ),
-		'MG' => esc_html__( 'Madagascar', 'wpforms' ),
-		'MW' => esc_html__( 'Malawi', 'wpforms' ),
-		'MY' => esc_html__( 'Malaysia', 'wpforms' ),
-		'MV' => esc_html__( 'Maldives', 'wpforms' ),
-		'ML' => esc_html__( 'Mali', 'wpforms' ),
-		'MT' => esc_html__( 'Malta', 'wpforms' ),
-		'MH' => esc_html__( 'Marshall Islands', 'wpforms' ),
-		'MQ' => esc_html__( 'Martinique', 'wpforms' ),
-		'MR' => esc_html__( 'Mauritania', 'wpforms' ),
-		'MU' => esc_html__( 'Mauritius', 'wpforms' ),
-		'YT' => esc_html__( 'Mayotte', 'wpforms' ),
-		'MX' => esc_html__( 'Mexico', 'wpforms' ),
-		'FM' => esc_html__( 'Micronesia (Federated States of)', 'wpforms' ),
-		'MD' => esc_html__( 'Moldova (Republic of)', 'wpforms' ),
-		'MC' => esc_html__( 'Monaco', 'wpforms' ),
-		'MN' => esc_html__( 'Mongolia', 'wpforms' ),
-		'ME' => esc_html__( 'Montenegro', 'wpforms' ),
-		'MS' => esc_html__( 'Montserrat', 'wpforms' ),
-		'MA' => esc_html__( 'Morocco', 'wpforms' ),
-		'MZ' => esc_html__( 'Mozambique', 'wpforms' ),
-		'MM' => esc_html__( 'Myanmar', 'wpforms' ),
-		'NA' => esc_html__( 'Namibia', 'wpforms' ),
-		'NR' => esc_html__( 'Nauru', 'wpforms' ),
-		'NP' => esc_html__( 'Nepal', 'wpforms' ),
-		'NL' => esc_html__( 'Netherlands', 'wpforms' ),
-		'NC' => esc_html__( 'New Caledonia', 'wpforms' ),
-		'NZ' => esc_html__( 'New Zealand', 'wpforms' ),
-		'NI' => esc_html__( 'Nicaragua', 'wpforms' ),
-		'NE' => esc_html__( 'Niger', 'wpforms' ),
-		'NG' => esc_html__( 'Nigeria', 'wpforms' ),
-		'NU' => esc_html__( 'Niue', 'wpforms' ),
-		'NF' => esc_html__( 'Norfolk Island', 'wpforms' ),
-		'MP' => esc_html__( 'Northern Mariana Islands', 'wpforms' ),
-		'NO' => esc_html__( 'Norway', 'wpforms' ),
-		'OM' => esc_html__( 'Oman', 'wpforms' ),
-		'PK' => esc_html__( 'Pakistan', 'wpforms' ),
-		'PW' => esc_html__( 'Palau', 'wpforms' ),
-		'PS' => esc_html__( 'Palestine (State of)', 'wpforms' ),
-		'PA' => esc_html__( 'Panama', 'wpforms' ),
-		'PG' => esc_html__( 'Papua New Guinea', 'wpforms' ),
-		'PY' => esc_html__( 'Paraguay', 'wpforms' ),
-		'PE' => esc_html__( 'Peru', 'wpforms' ),
-		'PH' => esc_html__( 'Philippines', 'wpforms' ),
-		'PN' => esc_html__( 'Pitcairn', 'wpforms' ),
-		'PL' => esc_html__( 'Poland', 'wpforms' ),
-		'PT' => esc_html__( 'Portugal', 'wpforms' ),
-		'PR' => esc_html__( 'Puerto Rico', 'wpforms' ),
-		'QA' => esc_html__( 'Qatar', 'wpforms' ),
-		'RE' => esc_html__( 'Réunion', 'wpforms' ),
-		'RO' => esc_html__( 'Romania', 'wpforms' ),
-		'RU' => esc_html__( 'Russian Federation', 'wpforms' ),
-		'RW' => esc_html__( 'Rwanda', 'wpforms' ),
-		'BL' => esc_html__( 'Saint Barthélemy', 'wpforms' ),
-		'SH' => esc_html__( 'Saint Helena, Ascension and Tristan da Cunha', 'wpforms' ),
-		'KN' => esc_html__( 'Saint Kitts and Nevis', 'wpforms' ),
-		'LC' => esc_html__( 'Saint Lucia', 'wpforms' ),
-		'MF' => esc_html__( 'Saint Martin (French part)', 'wpforms' ),
-		'PM' => esc_html__( 'Saint Pierre and Miquelon', 'wpforms' ),
-		'VC' => esc_html__( 'Saint Vincent and the Grenadines', 'wpforms' ),
-		'WS' => esc_html__( 'Samoa', 'wpforms' ),
-		'SM' => esc_html__( 'San Marino', 'wpforms' ),
-		'ST' => esc_html__( 'Sao Tome and Principe', 'wpforms' ),
-		'SA' => esc_html__( 'Saudi Arabia', 'wpforms' ),
-		'SN' => esc_html__( 'Senegal', 'wpforms' ),
-		'RS' => esc_html__( 'Serbia', 'wpforms' ),
-		'SC' => esc_html__( 'Seychelles', 'wpforms' ),
-		'SL' => esc_html__( 'Sierra Leone', 'wpforms' ),
-		'SG' => esc_html__( 'Singapore', 'wpforms' ),
-		'SX' => esc_html__( 'Sint Maarten (Dutch part)', 'wpforms' ),
-		'SK' => esc_html__( 'Slovakia', 'wpforms' ),
-		'SI' => esc_html__( 'Slovenia', 'wpforms' ),
-		'SB' => esc_html__( 'Solomon Islands', 'wpforms' ),
-		'SO' => esc_html__( 'Somalia', 'wpforms' ),
-		'ZA' => esc_html__( 'South Africa', 'wpforms' ),
-		'GS' => esc_html__( 'South Georgia and the South Sandwich Islands', 'wpforms' ),
-		'SS' => esc_html__( 'South Sudan', 'wpforms' ),
-		'ES' => esc_html__( 'Spain', 'wpforms' ),
-		'LK' => esc_html__( 'Sri Lanka', 'wpforms' ),
-		'SD' => esc_html__( 'Sudan', 'wpforms' ),
-		'SR' => esc_html__( 'Suriname', 'wpforms' ),
-		'SJ' => esc_html__( 'Svalbard and Jan Mayen', 'wpforms' ),
-		'SZ' => esc_html__( 'Swaziland', 'wpforms' ),
-		'SE' => esc_html__( 'Sweden', 'wpforms' ),
-		'CH' => esc_html__( 'Switzerland', 'wpforms' ),
-		'SY' => esc_html__( 'Syrian Arab Republic', 'wpforms' ),
-		'TW' => esc_html__( 'Taiwan, Province of China', 'wpforms' ),
-		'TJ' => esc_html__( 'Tajikistan', 'wpforms' ),
-		'TZ' => esc_html__( 'Tanzania (United Republic of)', 'wpforms' ),
-		'TH' => esc_html__( 'Thailand', 'wpforms' ),
-		'TL' => esc_html__( 'Timor-Leste', 'wpforms' ),
-		'TG' => esc_html__( 'Togo', 'wpforms' ),
-		'TK' => esc_html__( 'Tokelau', 'wpforms' ),
-		'TO' => esc_html__( 'Tonga', 'wpforms' ),
-		'TT' => esc_html__( 'Trinidad and Tobago', 'wpforms' ),
-		'TN' => esc_html__( 'Tunisia', 'wpforms' ),
-		'TR' => esc_html__( 'Turkey', 'wpforms' ),
-		'TM' => esc_html__( 'Turkmenistan', 'wpforms' ),
-		'TC' => esc_html__( 'Turks and Caicos Islands', 'wpforms' ),
-		'TV' => esc_html__( 'Tuvalu', 'wpforms' ),
-		'UG' => esc_html__( 'Uganda', 'wpforms' ),
-		'UA' => esc_html__( 'Ukraine', 'wpforms' ),
-		'AE' => esc_html__( 'United Arab Emirates', 'wpforms' ),
-		'GB' => esc_html__( 'United Kingdom of Great Britain and Northern Ireland', 'wpforms' ),
-		'US' => esc_html__( 'United States of America', 'wpforms' ),
-		'UM' => esc_html__( 'United States Minor Outlying Islands', 'wpforms' ),
-		'UY' => esc_html__( 'Uruguay', 'wpforms' ),
-		'UZ' => esc_html__( 'Uzbekistan', 'wpforms' ),
-		'VU' => esc_html__( 'Vanuatu', 'wpforms' ),
-		'VA' => esc_html__( 'Vatican City State', 'wpforms' ),
-		'VE' => esc_html__( 'Venezuela (Bolivarian Republic of)', 'wpforms' ),
-		'VN' => esc_html__( 'Viet Nam', 'wpforms' ),
-		'VG' => esc_html__( 'Virgin Islands (British)', 'wpforms' ),
-		'VI' => esc_html__( 'Virgin Islands (U.S.)', 'wpforms' ),
-		'WF' => esc_html__( 'Wallis and Futuna', 'wpforms' ),
-		'EH' => esc_html__( 'Western Sahara', 'wpforms' ),
-		'YE' => esc_html__( 'Yemen', 'wpforms' ),
-		'ZM' => esc_html__( 'Zambia', 'wpforms' ),
-		'ZW' => esc_html__( 'Zimbabwe', 'wpforms' ),
+		'AF' => esc_html__( 'Afghanistan', 'wpforms-lite' ),
+		'AX' => esc_html__( 'Åland Islands', 'wpforms-lite' ),
+		'AL' => esc_html__( 'Albania', 'wpforms-lite' ),
+		'DZ' => esc_html__( 'Algeria', 'wpforms-lite' ),
+		'AS' => esc_html__( 'American Samoa', 'wpforms-lite' ),
+		'AD' => esc_html__( 'Andorra', 'wpforms-lite' ),
+		'AO' => esc_html__( 'Angola', 'wpforms-lite' ),
+		'AI' => esc_html__( 'Anguilla', 'wpforms-lite' ),
+		'AQ' => esc_html__( 'Antarctica', 'wpforms-lite' ),
+		'AG' => esc_html__( 'Antigua and Barbuda', 'wpforms-lite' ),
+		'AR' => esc_html__( 'Argentina', 'wpforms-lite' ),
+		'AM' => esc_html__( 'Armenia', 'wpforms-lite' ),
+		'AW' => esc_html__( 'Aruba', 'wpforms-lite' ),
+		'AU' => esc_html__( 'Australia', 'wpforms-lite' ),
+		'AT' => esc_html__( 'Austria', 'wpforms-lite' ),
+		'AZ' => esc_html__( 'Azerbaijan', 'wpforms-lite' ),
+		'BS' => esc_html__( 'Bahamas', 'wpforms-lite' ),
+		'BH' => esc_html__( 'Bahrain', 'wpforms-lite' ),
+		'BD' => esc_html__( 'Bangladesh', 'wpforms-lite' ),
+		'BB' => esc_html__( 'Barbados', 'wpforms-lite' ),
+		'BY' => esc_html__( 'Belarus', 'wpforms-lite' ),
+		'BE' => esc_html__( 'Belgium', 'wpforms-lite' ),
+		'BZ' => esc_html__( 'Belize', 'wpforms-lite' ),
+		'BJ' => esc_html__( 'Benin', 'wpforms-lite' ),
+		'BM' => esc_html__( 'Bermuda', 'wpforms-lite' ),
+		'BT' => esc_html__( 'Bhutan', 'wpforms-lite' ),
+		'BO' => esc_html__( 'Bolivia (Plurinational State of)', 'wpforms-lite' ),
+		'BA' => esc_html__( 'Bosnia and Herzegovina', 'wpforms-lite' ),
+		'BW' => esc_html__( 'Botswana', 'wpforms-lite' ),
+		'BV' => esc_html__( 'Bouvet Island', 'wpforms-lite' ),
+		'BR' => esc_html__( 'Brazil', 'wpforms-lite' ),
+		'IO' => esc_html__( 'British Indian Ocean Territory', 'wpforms-lite' ),
+		'BN' => esc_html__( 'Brunei Darussalam', 'wpforms-lite' ),
+		'BG' => esc_html__( 'Bulgaria', 'wpforms-lite' ),
+		'BF' => esc_html__( 'Burkina Faso', 'wpforms-lite' ),
+		'BI' => esc_html__( 'Burundi', 'wpforms-lite' ),
+		'CV' => esc_html__( 'Cabo Verde', 'wpforms-lite' ),
+		'KH' => esc_html__( 'Cambodia', 'wpforms-lite' ),
+		'CM' => esc_html__( 'Cameroon', 'wpforms-lite' ),
+		'CA' => esc_html__( 'Canada', 'wpforms-lite' ),
+		'KY' => esc_html__( 'Cayman Islands', 'wpforms-lite' ),
+		'CF' => esc_html__( 'Central African Republic', 'wpforms-lite' ),
+		'TD' => esc_html__( 'Chad', 'wpforms-lite' ),
+		'CL' => esc_html__( 'Chile', 'wpforms-lite' ),
+		'CN' => esc_html__( 'China', 'wpforms-lite' ),
+		'CX' => esc_html__( 'Christmas Island', 'wpforms-lite' ),
+		'CC' => esc_html__( 'Cocos (Keeling) Islands', 'wpforms-lite' ),
+		'CO' => esc_html__( 'Colombia', 'wpforms-lite' ),
+		'KM' => esc_html__( 'Comoros', 'wpforms-lite' ),
+		'CG' => esc_html__( 'Congo', 'wpforms-lite' ),
+		'CD' => esc_html__( 'Congo (Democratic Republic of the)', 'wpforms-lite' ),
+		'CK' => esc_html__( 'Cook Islands', 'wpforms-lite' ),
+		'CR' => esc_html__( 'Costa Rica', 'wpforms-lite' ),
+		'CI' => esc_html__( 'Côte d\'Ivoire', 'wpforms-lite' ),
+		'HR' => esc_html__( 'Croatia', 'wpforms-lite' ),
+		'CU' => esc_html__( 'Cuba', 'wpforms-lite' ),
+		'CW' => esc_html__( 'Curaçao', 'wpforms-lite' ),
+		'CY' => esc_html__( 'Cyprus', 'wpforms-lite' ),
+		'CZ' => esc_html__( 'Czech Republic', 'wpforms-lite' ),
+		'DK' => esc_html__( 'Denmark', 'wpforms-lite' ),
+		'DJ' => esc_html__( 'Djibouti', 'wpforms-lite' ),
+		'DM' => esc_html__( 'Dominica', 'wpforms-lite' ),
+		'DO' => esc_html__( 'Dominican Republic', 'wpforms-lite' ),
+		'EC' => esc_html__( 'Ecuador', 'wpforms-lite' ),
+		'EG' => esc_html__( 'Egypt', 'wpforms-lite' ),
+		'SV' => esc_html__( 'El Salvador', 'wpforms-lite' ),
+		'GQ' => esc_html__( 'Equatorial Guinea', 'wpforms-lite' ),
+		'ER' => esc_html__( 'Eritrea', 'wpforms-lite' ),
+		'EE' => esc_html__( 'Estonia', 'wpforms-lite' ),
+		'ET' => esc_html__( 'Ethiopia', 'wpforms-lite' ),
+		'FK' => esc_html__( 'Falkland Islands (Malvinas)', 'wpforms-lite' ),
+		'FO' => esc_html__( 'Faroe Islands', 'wpforms-lite' ),
+		'FJ' => esc_html__( 'Fiji', 'wpforms-lite' ),
+		'FI' => esc_html__( 'Finland', 'wpforms-lite' ),
+		'FR' => esc_html__( 'France', 'wpforms-lite' ),
+		'GF' => esc_html__( 'French Guiana', 'wpforms-lite' ),
+		'PF' => esc_html__( 'French Polynesia', 'wpforms-lite' ),
+		'TF' => esc_html__( 'French Southern Territories', 'wpforms-lite' ),
+		'GA' => esc_html__( 'Gabon', 'wpforms-lite' ),
+		'GM' => esc_html__( 'Gambia', 'wpforms-lite' ),
+		'GE' => esc_html_x( 'Georgia', 'Country', 'wpforms-lite' ),
+		'DE' => esc_html__( 'Germany', 'wpforms-lite' ),
+		'GH' => esc_html__( 'Ghana', 'wpforms-lite' ),
+		'GI' => esc_html__( 'Gibraltar', 'wpforms-lite' ),
+		'GR' => esc_html__( 'Greece', 'wpforms-lite' ),
+		'GL' => esc_html__( 'Greenland', 'wpforms-lite' ),
+		'GD' => esc_html__( 'Grenada', 'wpforms-lite' ),
+		'GP' => esc_html__( 'Guadeloupe', 'wpforms-lite' ),
+		'GU' => esc_html__( 'Guam', 'wpforms-lite' ),
+		'GT' => esc_html__( 'Guatemala', 'wpforms-lite' ),
+		'GG' => esc_html__( 'Guernsey', 'wpforms-lite' ),
+		'GN' => esc_html__( 'Guinea', 'wpforms-lite' ),
+		'GW' => esc_html__( 'Guinea-Bissau', 'wpforms-lite' ),
+		'GY' => esc_html__( 'Guyana', 'wpforms-lite' ),
+		'HT' => esc_html__( 'Haiti', 'wpforms-lite' ),
+		'HM' => esc_html__( 'Heard Island and McDonald Islands', 'wpforms-lite' ),
+		'HN' => esc_html__( 'Honduras', 'wpforms-lite' ),
+		'HK' => esc_html__( 'Hong Kong', 'wpforms-lite' ),
+		'HU' => esc_html__( 'Hungary', 'wpforms-lite' ),
+		'IS' => esc_html__( 'Iceland', 'wpforms-lite' ),
+		'IN' => esc_html__( 'India', 'wpforms-lite' ),
+		'ID' => esc_html__( 'Indonesia', 'wpforms-lite' ),
+		'IR' => esc_html__( 'Iran (Islamic Republic of)', 'wpforms-lite' ),
+		'IQ' => esc_html__( 'Iraq', 'wpforms-lite' ),
+		'IE' => esc_html__( 'Ireland (Republic of)', 'wpforms-lite' ),
+		'IM' => esc_html__( 'Isle of Man', 'wpforms-lite' ),
+		'IL' => esc_html__( 'Israel', 'wpforms-lite' ),
+		'IT' => esc_html__( 'Italy', 'wpforms-lite' ),
+		'JM' => esc_html__( 'Jamaica', 'wpforms-lite' ),
+		'JP' => esc_html__( 'Japan', 'wpforms-lite' ),
+		'JE' => esc_html__( 'Jersey', 'wpforms-lite' ),
+		'JO' => esc_html__( 'Jordan', 'wpforms-lite' ),
+		'KZ' => esc_html__( 'Kazakhstan', 'wpforms-lite' ),
+		'KE' => esc_html__( 'Kenya', 'wpforms-lite' ),
+		'KI' => esc_html__( 'Kiribati', 'wpforms-lite' ),
+		'KP' => esc_html__( 'Korea (Democratic People\'s Republic of)', 'wpforms-lite' ),
+		'KR' => esc_html__( 'Korea (Republic of)', 'wpforms-lite' ),
+		'KW' => esc_html__( 'Kuwait', 'wpforms-lite' ),
+		'KG' => esc_html__( 'Kyrgyzstan', 'wpforms-lite' ),
+		'LA' => esc_html__( 'Lao People\'s Democratic Republic', 'wpforms-lite' ),
+		'LV' => esc_html__( 'Latvia', 'wpforms-lite' ),
+		'LB' => esc_html__( 'Lebanon', 'wpforms-lite' ),
+		'LS' => esc_html__( 'Lesotho', 'wpforms-lite' ),
+		'LR' => esc_html__( 'Liberia', 'wpforms-lite' ),
+		'LY' => esc_html__( 'Libya', 'wpforms-lite' ),
+		'LI' => esc_html__( 'Liechtenstein', 'wpforms-lite' ),
+		'LT' => esc_html__( 'Lithuania', 'wpforms-lite' ),
+		'LU' => esc_html__( 'Luxembourg', 'wpforms-lite' ),
+		'MO' => esc_html__( 'Macao', 'wpforms-lite' ),
+		'MK' => esc_html__( 'Macedonia (Republic of)', 'wpforms-lite' ),
+		'MG' => esc_html__( 'Madagascar', 'wpforms-lite' ),
+		'MW' => esc_html__( 'Malawi', 'wpforms-lite' ),
+		'MY' => esc_html__( 'Malaysia', 'wpforms-lite' ),
+		'MV' => esc_html__( 'Maldives', 'wpforms-lite' ),
+		'ML' => esc_html__( 'Mali', 'wpforms-lite' ),
+		'MT' => esc_html__( 'Malta', 'wpforms-lite' ),
+		'MH' => esc_html__( 'Marshall Islands', 'wpforms-lite' ),
+		'MQ' => esc_html__( 'Martinique', 'wpforms-lite' ),
+		'MR' => esc_html__( 'Mauritania', 'wpforms-lite' ),
+		'MU' => esc_html__( 'Mauritius', 'wpforms-lite' ),
+		'YT' => esc_html__( 'Mayotte', 'wpforms-lite' ),
+		'MX' => esc_html__( 'Mexico', 'wpforms-lite' ),
+		'FM' => esc_html__( 'Micronesia (Federated States of)', 'wpforms-lite' ),
+		'MD' => esc_html__( 'Moldova (Republic of)', 'wpforms-lite' ),
+		'MC' => esc_html__( 'Monaco', 'wpforms-lite' ),
+		'MN' => esc_html__( 'Mongolia', 'wpforms-lite' ),
+		'ME' => esc_html__( 'Montenegro', 'wpforms-lite' ),
+		'MS' => esc_html__( 'Montserrat', 'wpforms-lite' ),
+		'MA' => esc_html__( 'Morocco', 'wpforms-lite' ),
+		'MZ' => esc_html__( 'Mozambique', 'wpforms-lite' ),
+		'MM' => esc_html__( 'Myanmar', 'wpforms-lite' ),
+		'NA' => esc_html__( 'Namibia', 'wpforms-lite' ),
+		'NR' => esc_html__( 'Nauru', 'wpforms-lite' ),
+		'NP' => esc_html__( 'Nepal', 'wpforms-lite' ),
+		'NL' => esc_html__( 'Netherlands', 'wpforms-lite' ),
+		'NC' => esc_html__( 'New Caledonia', 'wpforms-lite' ),
+		'NZ' => esc_html__( 'New Zealand', 'wpforms-lite' ),
+		'NI' => esc_html__( 'Nicaragua', 'wpforms-lite' ),
+		'NE' => esc_html__( 'Niger', 'wpforms-lite' ),
+		'NG' => esc_html__( 'Nigeria', 'wpforms-lite' ),
+		'NU' => esc_html__( 'Niue', 'wpforms-lite' ),
+		'NF' => esc_html__( 'Norfolk Island', 'wpforms-lite' ),
+		'MP' => esc_html__( 'Northern Mariana Islands', 'wpforms-lite' ),
+		'NO' => esc_html__( 'Norway', 'wpforms-lite' ),
+		'OM' => esc_html__( 'Oman', 'wpforms-lite' ),
+		'PK' => esc_html__( 'Pakistan', 'wpforms-lite' ),
+		'PW' => esc_html__( 'Palau', 'wpforms-lite' ),
+		'PS' => esc_html__( 'Palestine (State of)', 'wpforms-lite' ),
+		'PA' => esc_html__( 'Panama', 'wpforms-lite' ),
+		'PG' => esc_html__( 'Papua New Guinea', 'wpforms-lite' ),
+		'PY' => esc_html__( 'Paraguay', 'wpforms-lite' ),
+		'PE' => esc_html__( 'Peru', 'wpforms-lite' ),
+		'PH' => esc_html__( 'Philippines', 'wpforms-lite' ),
+		'PN' => esc_html__( 'Pitcairn', 'wpforms-lite' ),
+		'PL' => esc_html__( 'Poland', 'wpforms-lite' ),
+		'PT' => esc_html__( 'Portugal', 'wpforms-lite' ),
+		'PR' => esc_html__( 'Puerto Rico', 'wpforms-lite' ),
+		'QA' => esc_html__( 'Qatar', 'wpforms-lite' ),
+		'RE' => esc_html__( 'Réunion', 'wpforms-lite' ),
+		'RO' => esc_html__( 'Romania', 'wpforms-lite' ),
+		'RU' => esc_html__( 'Russian Federation', 'wpforms-lite' ),
+		'RW' => esc_html__( 'Rwanda', 'wpforms-lite' ),
+		'BL' => esc_html__( 'Saint Barthélemy', 'wpforms-lite' ),
+		'SH' => esc_html__( 'Saint Helena, Ascension and Tristan da Cunha', 'wpforms-lite' ),
+		'KN' => esc_html__( 'Saint Kitts and Nevis', 'wpforms-lite' ),
+		'LC' => esc_html__( 'Saint Lucia', 'wpforms-lite' ),
+		'MF' => esc_html__( 'Saint Martin (French part)', 'wpforms-lite' ),
+		'PM' => esc_html__( 'Saint Pierre and Miquelon', 'wpforms-lite' ),
+		'VC' => esc_html__( 'Saint Vincent and the Grenadines', 'wpforms-lite' ),
+		'WS' => esc_html__( 'Samoa', 'wpforms-lite' ),
+		'SM' => esc_html__( 'San Marino', 'wpforms-lite' ),
+		'ST' => esc_html__( 'Sao Tome and Principe', 'wpforms-lite' ),
+		'SA' => esc_html__( 'Saudi Arabia', 'wpforms-lite' ),
+		'SN' => esc_html__( 'Senegal', 'wpforms-lite' ),
+		'RS' => esc_html__( 'Serbia', 'wpforms-lite' ),
+		'SC' => esc_html__( 'Seychelles', 'wpforms-lite' ),
+		'SL' => esc_html__( 'Sierra Leone', 'wpforms-lite' ),
+		'SG' => esc_html__( 'Singapore', 'wpforms-lite' ),
+		'SX' => esc_html__( 'Sint Maarten (Dutch part)', 'wpforms-lite' ),
+		'SK' => esc_html__( 'Slovakia', 'wpforms-lite' ),
+		'SI' => esc_html__( 'Slovenia', 'wpforms-lite' ),
+		'SB' => esc_html__( 'Solomon Islands', 'wpforms-lite' ),
+		'SO' => esc_html__( 'Somalia', 'wpforms-lite' ),
+		'ZA' => esc_html__( 'South Africa', 'wpforms-lite' ),
+		'GS' => esc_html__( 'South Georgia and the South Sandwich Islands', 'wpforms-lite' ),
+		'SS' => esc_html__( 'South Sudan', 'wpforms-lite' ),
+		'ES' => esc_html__( 'Spain', 'wpforms-lite' ),
+		'LK' => esc_html__( 'Sri Lanka', 'wpforms-lite' ),
+		'SD' => esc_html__( 'Sudan', 'wpforms-lite' ),
+		'SR' => esc_html__( 'Suriname', 'wpforms-lite' ),
+		'SJ' => esc_html__( 'Svalbard and Jan Mayen', 'wpforms-lite' ),
+		'SZ' => esc_html__( 'Swaziland', 'wpforms-lite' ),
+		'SE' => esc_html__( 'Sweden', 'wpforms-lite' ),
+		'CH' => esc_html__( 'Switzerland', 'wpforms-lite' ),
+		'SY' => esc_html__( 'Syrian Arab Republic', 'wpforms-lite' ),
+		'TW' => esc_html__( 'Taiwan, Province of China', 'wpforms-lite' ),
+		'TJ' => esc_html__( 'Tajikistan', 'wpforms-lite' ),
+		'TZ' => esc_html__( 'Tanzania (United Republic of)', 'wpforms-lite' ),
+		'TH' => esc_html__( 'Thailand', 'wpforms-lite' ),
+		'TL' => esc_html__( 'Timor-Leste', 'wpforms-lite' ),
+		'TG' => esc_html__( 'Togo', 'wpforms-lite' ),
+		'TK' => esc_html__( 'Tokelau', 'wpforms-lite' ),
+		'TO' => esc_html__( 'Tonga', 'wpforms-lite' ),
+		'TT' => esc_html__( 'Trinidad and Tobago', 'wpforms-lite' ),
+		'TN' => esc_html__( 'Tunisia', 'wpforms-lite' ),
+		'TR' => esc_html__( 'Turkey', 'wpforms-lite' ),
+		'TM' => esc_html__( 'Turkmenistan', 'wpforms-lite' ),
+		'TC' => esc_html__( 'Turks and Caicos Islands', 'wpforms-lite' ),
+		'TV' => esc_html__( 'Tuvalu', 'wpforms-lite' ),
+		'UG' => esc_html__( 'Uganda', 'wpforms-lite' ),
+		'UA' => esc_html__( 'Ukraine', 'wpforms-lite' ),
+		'AE' => esc_html__( 'United Arab Emirates', 'wpforms-lite' ),
+		'GB' => esc_html__( 'United Kingdom of Great Britain and Northern Ireland', 'wpforms-lite' ),
+		'US' => esc_html__( 'United States of America', 'wpforms-lite' ),
+		'UM' => esc_html__( 'United States Minor Outlying Islands', 'wpforms-lite' ),
+		'UY' => esc_html__( 'Uruguay', 'wpforms-lite' ),
+		'UZ' => esc_html__( 'Uzbekistan', 'wpforms-lite' ),
+		'VU' => esc_html__( 'Vanuatu', 'wpforms-lite' ),
+		'VA' => esc_html__( 'Vatican City State', 'wpforms-lite' ),
+		'VE' => esc_html__( 'Venezuela (Bolivarian Republic of)', 'wpforms-lite' ),
+		'VN' => esc_html__( 'Viet Nam', 'wpforms-lite' ),
+		'VG' => esc_html__( 'Virgin Islands (British)', 'wpforms-lite' ),
+		'VI' => esc_html__( 'Virgin Islands (U.S.)', 'wpforms-lite' ),
+		'WF' => esc_html__( 'Wallis and Futuna', 'wpforms-lite' ),
+		'EH' => esc_html__( 'Western Sahara', 'wpforms-lite' ),
+		'YE' => esc_html__( 'Yemen', 'wpforms-lite' ),
+		'ZM' => esc_html__( 'Zambia', 'wpforms-lite' ),
+		'ZW' => esc_html__( 'Zimbabwe', 'wpforms-lite' ),
 	);
 
 	return apply_filters( 'wpforms_countries', $countries );
 }
 
 /**
- * Calendar Months
+ * Calendar Months.
  *
  * @since 1.3.7
  * @return array
@@ -1015,25 +1012,25 @@ function wpforms_countries() {
 function wpforms_months() {
 
 	$months = array(
-		'Jan' => esc_html__( 'January', 'wpforms' ),
-		'Feb' => esc_html__( 'February', 'wpforms' ),
-		'Mar' => esc_html__( 'March', 'wpforms' ),
-		'Apr' => esc_html__( 'April', 'wpforms' ),
-		'May' => esc_html__( 'May', 'wpforms' ),
-		'Jun' => esc_html__( 'June', 'wpforms' ),
-		'Jul' => esc_html__( 'July', 'wpforms' ),
-		'Aug' => esc_html__( 'August', 'wpforms' ),
-		'Sep' => esc_html__( 'September', 'wpforms' ),
-		'Oct' => esc_html__( 'October', 'wpforms' ),
-		'Nov' => esc_html__( 'November', 'wpforms' ),
-		'Dec' => esc_html__( 'December', 'wpforms' ),
+		'Jan' => esc_html__( 'January', 'wpforms-lite' ),
+		'Feb' => esc_html__( 'February', 'wpforms-lite' ),
+		'Mar' => esc_html__( 'March', 'wpforms-lite' ),
+		'Apr' => esc_html__( 'April', 'wpforms-lite' ),
+		'May' => esc_html__( 'May', 'wpforms-lite' ),
+		'Jun' => esc_html__( 'June', 'wpforms-lite' ),
+		'Jul' => esc_html__( 'July', 'wpforms-lite' ),
+		'Aug' => esc_html__( 'August', 'wpforms-lite' ),
+		'Sep' => esc_html__( 'September', 'wpforms-lite' ),
+		'Oct' => esc_html__( 'October', 'wpforms-lite' ),
+		'Nov' => esc_html__( 'November', 'wpforms-lite' ),
+		'Dec' => esc_html__( 'December', 'wpforms-lite' ),
 	);
 
 	return apply_filters( 'wpforms_months', $months );
 }
 
 /**
- * Calendar Days
+ * Calendar Days.
  *
  * @since 1.3.7
  * @return array
@@ -1041,13 +1038,13 @@ function wpforms_months() {
 function wpforms_days() {
 
 	$days = array(
-		'Sun' => esc_html__( 'Sunday', 'wpforms' ),
-		'Mon' => esc_html__( 'Monday', 'wpforms' ),
-		'Tue' => esc_html__( 'Tuesday', 'wpforms' ),
-		'Wed' => esc_html__( 'Wednesday', 'wpforms' ),
-		'Thu' => esc_html__( 'Thursday', 'wpforms' ),
-		'Fri' => esc_html__( 'Friday', 'wpforms' ),
-		'Sat' => esc_html__( 'Saturday', 'wpforms' ),
+		'Sun' => esc_html__( 'Sunday', 'wpforms-lite' ),
+		'Mon' => esc_html__( 'Monday', 'wpforms-lite' ),
+		'Tue' => esc_html__( 'Tuesday', 'wpforms-lite' ),
+		'Wed' => esc_html__( 'Wednesday', 'wpforms-lite' ),
+		'Thu' => esc_html__( 'Thursday', 'wpforms-lite' ),
+		'Fri' => esc_html__( 'Friday', 'wpforms-lite' ),
+		'Sat' => esc_html__( 'Saturday', 'wpforms-lite' ),
 	);
 
 	return apply_filters( 'wpforms_days', $days );
@@ -1203,16 +1200,17 @@ function wpforms_light_or_dark( $color, $dark = '#000000', $light = '#FFFFFF' ) 
  * nests to accommodate any hierarchy.
  *
  * @since 1.3.9
+ * @since 1.5.0 Return array only. Empty array of no data.
  *
- * @param array $args
- * @param bool $flat
+ * @param array $args Object arguments to pass to data retrieval function.
+ * @param bool  $flat Preserve hierarchy or not. False by default - preserve it.
  *
- * @return bool|array
+ * @return array
  */
 function wpforms_get_hierarchical_object( $args = array(), $flat = false ) {
 
 	if ( empty( $args['taxonomy'] ) && empty( $args['post_type'] ) ) {
-		return false;
+		return array();
 	}
 
 	$children   = array();
@@ -1246,7 +1244,7 @@ function wpforms_get_hierarchical_object( $args = array(), $flat = false ) {
 	}
 
 	if ( empty( $items ) || is_wp_error( $items ) ) {
-		return false;
+		return array();
 	}
 
 	foreach ( $items as $item ) {
@@ -1345,7 +1343,7 @@ function _wpforms_get_hierarchical_object_flatten( $array, &$output, $ref_name =
  *
  * @param array $field     Field settings.
  * @param int   $form_id   Form ID.
- * @param array $form_data Form data.
+ * @param array $form_data Form data and settings.
  *
  * @return false|array
  */
@@ -1517,7 +1515,7 @@ function wpforms_debug_data( $data, $echo = true ) {
 		$output .= "=================== WPFORMS DEBUG ===================\n\n";
 
 		if ( is_array( $data ) || is_object( $data ) ) {
-			$output .= ( print_r( $data, true ) ); // phpcs:ignore
+			$output .= print_r( $data, true ); // phpcs:ignore
 		} else {
 			$output .= $data;
 		}
@@ -1538,7 +1536,7 @@ function wpforms_debug_data( $data, $echo = true ) {
  * @since 1.0.0
  *
  * @param string $title Title of a log message.
- * @param string $message Content of a log message.
+ * @param mixed $message Content of a log message.
  * @param array  $args Expected keys: form_id, meta, parent.
  */
 function wpforms_log( $title = '', $message = '', $args = array() ) {
@@ -1590,57 +1588,6 @@ function wpforms_log( $title = '', $message = '', $args = array() ) {
 	// Create log entry.
 	wpforms()->logs->add( $title, $message, $parent, $parent, $meta );
 }
-
-/**
- * Array replace recursive, for PHP 5.2.
- */
-if ( ! function_exists( 'array_replace_recursive' ) ) :
-	/**
-	 * PHP-agnostic version of {@link array_replace_recursive()}.
-	 *
-	 * The array_replace_recursive() function is a PHP 5.3 function. WordPress
-	 * currently supports down to PHP 5.2, so this method is a workaround
-	 * for PHP 5.2.
-	 *
-	 * Note: array_replace_recursive() supports infinite arguments, but for our use-
-	 * case, we only need to support two arguments.
-	 *
-	 * Subject to removal once WordPress makes PHP 5.3.0 the minimum requirement.
-	 *
-	 * @since 1.2.3
-	 * @see http://php.net/manual/en/function.array-replace-recursive.php#109390
-	 *
-	 * @param  array $base Array with keys needing to be replaced.
-	 * @param  array $replacements Array with the replaced keys.
-	 *
-	 * @return array
-	 */
-	function array_replace_recursive( $base = array(), $replacements = array() ) {
-		// PHP 5.2-compatible version
-		// http://php.net/manual/en/function.array-replace-recursive.php#109390.
-		foreach ( array_slice( func_get_args(), 1 ) as $replacements ) {
-			$bref_stack = array( &$base );
-			$head_stack = array( $replacements );
-			$counter    = count( $head_stack );
-			do {
-				end( $bref_stack );
-				$bref = &$bref_stack[ key( $bref_stack ) ];
-				$head = array_pop( $head_stack );
-				unset( $bref_stack[ key( $bref_stack ) ] );
-				foreach ( array_keys( $head ) as $key ) {
-					if ( isset( $key, $bref ) && is_array( $bref[ $key ] ) && is_array( $head[ $key ] ) ) {
-						$bref_stack[] = &$bref[ $key ];
-						$head_stack[] = $head[ $key ];
-					} else {
-						$bref[ $key ] = $head[ $key ];
-					}
-				}
-			} while ( $counter );
-		}
-
-		return $base;
-	}
-endif;
 
 /**
  * Check whether the current page is in AMP mode or not.
@@ -1705,7 +1652,7 @@ function wpforms_get_min_suffix() {
  * @return string
  */
 function wpforms_get_required_label() {
-	return apply_filters( 'wpforms_required_label', esc_html__( 'This field is required.', 'wpforms' ) );
+	return apply_filters( 'wpforms_required_label', esc_html__( 'This field is required.', 'wpforms-lite' ) );
 }
 
 /**
@@ -1854,7 +1801,8 @@ function wpforms_update_providers_options( $provider, $options, $key = '' ) {
  *
  * @since 1.3.9
  *
- * @param string $slug Slug identifier for a specifc WPForms admin page.
+ * @param string $slug Slug identifier for a specific WPForms admin page.
+ * @param string $view Slug identifier for a specific WPForms admin page view ("subpage").
  *
  * @return boolean
  */
@@ -1871,19 +1819,74 @@ function wpforms_is_admin_page( $slug = '', $view = '' ) {
 
 	// Check against page slug identifier.
 	if (
-		( ! empty( $slug ) && 'wpforms-' . $slug !== $_REQUEST['page'] )
-		|| ( empty( $slug ) && 'wpforms-builder' === $_REQUEST['page'] )
+		( ! empty( $slug ) && 'wpforms-' . $slug !== $_REQUEST['page'] ) ||
+		( empty( $slug ) && 'wpforms-builder' === $_REQUEST['page'] )
 	) {
 		return false;
 	}
 
 	// Check against sub-level page view.
 	if (
-		! empty( $view )
-		&& ( empty( $_REQUEST['view'] ) || $view !== $_REQUEST['view'] )
+		! empty( $view ) &&
+		( empty( $_REQUEST['view'] ) || $view !== $_REQUEST['view'] )
 	) {
 		return false;
 	}
 
 	return true;
+}
+
+/**
+ * Get the ISO 639-2 Language Code from user/site locale.
+ *
+ * @see http://www.loc.gov/standards/iso639-2/php/code_list.php
+ *
+ * @since 1.5.0
+ *
+ * @return string
+ */
+function wpforms_get_language_code() {
+
+	$default_lang = 'en';
+	$locale       = get_user_locale();
+
+	if ( ! empty( $locale ) ) {
+		$lang = explode( '_', $locale );
+		if ( ! empty( $lang ) && is_array( $lang ) ) {
+			$default_lang = strtolower( $lang[0] );
+		}
+	}
+
+	return $default_lang;
+}
+
+/**
+ * Determine if we should show the "Show Values" toggle for checkbox, radio, or
+ * select fields in form builder. Legacy.
+ *
+ * @since 1.5.0
+ *
+ * @return bool
+ */
+function wpforms_show_fields_options_setting() {
+
+	return apply_filters( 'wpforms_fields_show_options_setting', false );
+}
+
+/**
+ * Check if a string is empty.
+ *
+ * @since 1.5.0
+ *
+ * @param string $string String to test.
+ *
+ * @return bool
+ */
+function wpforms_is_empty_string( $string ) {
+
+	if ( is_string( $string ) && '' === $string ) {
+		return true;
+	}
+
+	return false;
 }

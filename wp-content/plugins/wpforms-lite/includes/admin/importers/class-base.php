@@ -111,7 +111,7 @@ abstract class WPForms_Importer implements WPForms_Importer_Interface {
 			wp_send_json_success( array(
 				'error' => true,
 				'name'  => sanitize_text_field( $form['settings']['form_title'] ),
-				'msg'   => esc_html__( 'There was an error while creating a new form.', 'wpforms' ),
+				'msg'   => esc_html__( 'There was an error while creating a new form.', 'wpforms-lite' ),
 			) );
 		}
 

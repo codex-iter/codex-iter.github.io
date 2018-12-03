@@ -75,7 +75,7 @@ class Notifications implements IntegrationInterface {
 		return sprintf(
 			\wp_kses(
 				/* translators: %s - URL WP Mail SMTP settings. */
-				\__( 'This setting is disabled because you have the "Force From Name" setting enabled in <a href="%s" rel="noopener noreferrer" target="_blank">WP Mail SMTP</a>.', 'wpforms' ),
+				\__( 'This setting is disabled because you have the "Force From Name" setting enabled in <a href="%s" rel="noopener noreferrer" target="_blank">WP Mail SMTP</a>.', 'wpforms-lite' ),
 				array(
 					'a' => array(
 						'href'   => array(),
@@ -106,7 +106,7 @@ class Notifications implements IntegrationInterface {
 		return sprintf(
 			\wp_kses(
 				/* translators: %s - URL WP Mail SMTP settings. */
-				\__( 'This setting is disabled because you have the "Force From Email" setting enabled in <a href="%s" rel="noopener noreferrer" target="_blank">WP Mail SMTP</a>.', 'wpforms' ),
+				\__( 'This setting is disabled because you have the "Force From Email" setting enabled in <a href="%s" rel="noopener noreferrer" target="_blank">WP Mail SMTP</a>.', 'wpforms-lite' ),
 				array(
 					'a' => array(
 						'href'   => array(),

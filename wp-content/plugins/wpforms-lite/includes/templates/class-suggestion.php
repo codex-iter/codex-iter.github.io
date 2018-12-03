@@ -18,9 +18,9 @@ class WPForms_Template_Suggestion extends WPForms_Template {
 	 */
 	public function init() {
 
-		$this->name        = esc_html__( 'Suggestion Form', 'wpforms' );
+		$this->name        = esc_html__( 'Suggestion Form', 'wpforms-lite' );
 		$this->slug        = 'suggestion';
-		$this->description = esc_html__( 'Ask your users for suggestions with this simple form template. You can add and remove fields as needed.', 'wpforms' );
+		$this->description = esc_html__( 'Ask your users for suggestions with this simple form template. You can add and remove fields as needed.', 'wpforms-lite' );
 		$this->includes    = '';
 		$this->icon        = '';
 		$this->modal       = '';
@@ -31,34 +31,34 @@ class WPForms_Template_Suggestion extends WPForms_Template {
 				'0' => array(
 					'id'       => '0',
 					'type'     => 'name',
-					'label'    => esc_html__( 'Name', 'wpforms' ),
+					'label'    => esc_html__( 'Name', 'wpforms-lite' ),
 					'required' => '1',
 					'size'     => 'medium',
 				),
 				'1' => array(
 					'id'          => '1',
 					'type'        => 'email',
-					'label'       => esc_html__( 'Email', 'wpforms' ),
-					'description' => esc_html__( 'Please enter your email, so we can follow up with you.', 'wpforms' ),
+					'label'       => esc_html__( 'Email', 'wpforms-lite' ),
+					'description' => esc_html__( 'Please enter your email, so we can follow up with you.', 'wpforms-lite' ),
 					'required'    => '1',
 					'size'        => 'medium',
 				),
 				'2' => array(
 					'id'       => '2',
 					'type'     => 'radio',
-					'label'    => esc_html__( 'Which department do you have a suggestion for?', 'wpforms' ),
+					'label'    => esc_html__( 'Which department do you have a suggestion for?', 'wpforms-lite' ),
 					'choices'  => array(
 						'1' => array(
-							'label' => esc_html__( 'Sales', 'wpforms' ),
+							'label' => esc_html__( 'Sales', 'wpforms-lite' ),
 						),
 						'2' => array(
-							'label' => esc_html__( 'Customer Support', 'wpforms' ),
+							'label' => esc_html__( 'Customer Support', 'wpforms-lite' ),
 						),
 						'3' => array(
-							'label' => esc_html__( 'Product Development', 'wpforms' ),
+							'label' => esc_html__( 'Product Development', 'wpforms-lite' ),
 						),
 						'4' => array(
-							'label' => esc_html__( 'Other', 'wpforms' ),
+							'label' => esc_html__( 'Other', 'wpforms-lite' ),
 						),
 					),
 					'required' => '1',
@@ -66,14 +66,14 @@ class WPForms_Template_Suggestion extends WPForms_Template {
 				'3' => array(
 					'id'       => '3',
 					'type'     => 'text',
-					'label'    => esc_html__( 'Subject', 'wpforms' ),
+					'label'    => esc_html__( 'Subject', 'wpforms-lite' ),
 					'required' => '1',
 					'size'     => 'medium',
 				),
 				'4' => array(
 					'id'       => '4',
 					'type'     => 'textarea',
-					'label'    => esc_html__( 'Message', 'wpforms' ),
+					'label'    => esc_html__( 'Message', 'wpforms-lite' ),
 					'required' => '1',
 					'size'     => 'medium',
 				),
@@ -88,7 +88,7 @@ class WPForms_Template_Suggestion extends WPForms_Template {
 				),
 				'honeypot'                    => '1',
 				'confirmation_message_scroll' => '1',
-				'submit_text_processing'      => esc_html__( 'Sending...', 'wpforms' ),
+				'submit_text_processing'      => esc_html__( 'Sending...', 'wpforms-lite' ),
 			),
 			'meta'     => array(
 				'template' => $this->slug,

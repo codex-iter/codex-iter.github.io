@@ -1,5 +1,21 @@
 == Changelog ==
 
+= 1.5.0 =
+- IMPORTANT: Support for PHP 5.2 has been discontinued. If you are running PHP 5.2, you MUST upgrade PHP before installing WPForms 1.5. Failure to do that will disable WPForms core functionality.
+- Added: Dashboard widget.
+- Added: WPForms Challenge: an interactive step-by-step guide to creating a form for new users.
+- Added: Dynamic field population, available to enable from form settings.
+- Added: "About Us" admin page (WPForms > About Us).
+- Added: {user_first_name} and {user_last_name} Smart Tags.
+- Changed: Improved randomizing if field is configured to randomize items.
+- Changed: Improved i18n support.
+- Fixed: Form builder errors if user had Visual Editor disabled in profile.
+- Fixed: Form builder Windows styling issues.
+- Fixed: Form builder dynamic choices warning not always removing.
+- Fixed: Form builder "Show Layout" CSS formatting.
+- Fixed: reCAPTCHA compatibility when form is inside OptinMonster popup.
+- Fixed: Gutenberg block returning error if no forms have been created.
+
 = 1.4.9 =
 - Added: Pirate Forms importer.
 - Changed: Some form builder tooltips to contain documentation links.

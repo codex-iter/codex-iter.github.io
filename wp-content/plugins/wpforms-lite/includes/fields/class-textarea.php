@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Paragraph text field.
  *
@@ -17,49 +18,55 @@ class WPForms_Field_Textarea extends WPForms_Field {
 	 */
 	public function init() {
 
-		// Define field type information
-		$this->name  = esc_html__( 'Paragraph Text', 'wpforms' );
+		// Define field type information.
+		$this->name  = esc_html__( 'Paragraph Text', 'wpforms-lite' );
 		$this->type  = 'textarea';
 		$this->icon  = 'fa-paragraph';
-		$this->order = 5;
+		$this->order = 50;
 	}
 
 	/**
 	 * Field options panel inside the builder.
 	 *
 	 * @since 1.0.0
-	 * @param array $field
+	 *
+	 * @param array $field Field data and settings.
 	 */
 	public function field_options( $field ) {
-
-		// -------------------------------------------------------------------//
-		// Basic field options.
-		// -------------------------------------------------------------------//
+		/*
+		 * Basic field options.
+		 */
 
 		// Options open markup.
-		$args = array(
-			'markup' => 'open',
+		$this->field_option(
+			'basic-options',
+			$field,
+			array(
+				'markup' => 'open',
+			)
 		);
-		$this->field_option( 'basic-options', $field, $args );
 
 		// Label.
 		$this->field_option( 'label', $field );
 
-		// Description
+		// Description.
 		$this->field_option( 'description', $field );
 
 		// Required toggle.
 		$this->field_option( 'required', $field );
 
 		// Options close markup.
-		$args = array(
-			'markup' => 'close',
+		$this->field_option(
+			'basic-options',
+			$field,
+			array(
+				'markup' => 'close',
+			)
 		);
-		$this->field_option( 'basic-options', $field, $args );
 
-		// -------------------------------------------------------------------//
-		// Advanced field options.
-		// -------------------------------------------------------------------//
+		/*
+		 * Advanced field options.
+		 */
 
 		// Options open markup.
 		$args = array(
@@ -80,16 +87,20 @@ class WPForms_Field_Textarea extends WPForms_Field {
 		$this->field_option( 'css', $field );
 
 		// Options close markup.
-		$args = array(
-			'markup' => 'close',
+		$this->field_option(
+			'advanced-options',
+			$field,
+			array(
+				'markup' => 'close',
+			)
 		);
-		$this->field_option( 'advanced-options', $field, $args );
 	}
 
 	/**
 	 * Field preview inside the builder.
 	 *
 	 * @since 1.0.0
+	 *
 	 * @param array $field
 	 */
 	public function field_preview( $field ) {
@@ -111,6 +122,7 @@ class WPForms_Field_Textarea extends WPForms_Field {
 	 * Field display on the form front-end.
 	 *
 	 * @since 1.0.0
+	 *
 	 * @param array $field
 	 * @param array $deprecated
 	 * @param array $form_data
@@ -122,10 +134,8 @@ class WPForms_Field_Textarea extends WPForms_Field {
 		$value   = '';
 
 		if ( ! empty( $primary['attr']['value'] ) ) {
-			$value = $primary['attr']['value'];
+			$value = wpforms_sanitize_textarea_field( $primary['attr']['value'] );
 			unset( $primary['attr']['value'] );
-
-			$value = wpforms_sanitize_textarea_field( $value );
 		}
 
 		// Primary field.
@@ -137,4 +147,5 @@ class WPForms_Field_Textarea extends WPForms_Field {
 		);
 	}
 }
+
 new WPForms_Field_Textarea();

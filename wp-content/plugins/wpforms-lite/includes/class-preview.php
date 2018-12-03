@@ -120,9 +120,9 @@ class WPForms_Preview {
 				$(document).on('click', '.toggle-empty', function(e) {
 					e.preventDefault();
 					if ( ! showEmpty ) {
-						$(this).text('<?php esc_html_e( 'Hide empty fields', 'wpforms' ); ?>');
+						$(this).text('<?php esc_html_e( 'Hide empty fields', 'wpforms-lite' ); ?>');
 					} else {
-						$(this).text('<?php esc_html_e( 'Show empty fields', 'wpforms' ); ?>');
+						$(this).text('<?php esc_html_e( 'Show empty fields', 'wpforms-lite' ); ?>');
 					}
 					$('.field.empty').toggle();
 					showEmpty = !showEmpty;
@@ -131,9 +131,9 @@ class WPForms_Preview {
 				$(document).on('click', '.toggle-notes', function(e) {
 					e.preventDefault();
 					if ( ! showNotes ) {
-						$(this).text('<?php esc_html_e( 'Hide notes', 'wpforms' ); ?>');
+						$(this).text('<?php esc_html_e( 'Hide notes', 'wpforms-lite' ); ?>');
 					} else {
-						$(this).text('<?php esc_html_e( 'Show notes', 'wpforms' ); ?>');
+						$(this).text('<?php esc_html_e( 'Show notes', 'wpforms-lite' ); ?>');
 					}
 					$('.notes, .notes-head').toggle();
 					showNotes = !showNotes;
@@ -142,9 +142,9 @@ class WPForms_Preview {
 				$(document).on('click', '.toggle-view', function(e) {
 					e.preventDefault();
 					if ( ! showCompact ) {
-						$(this).text('<?php esc_html_e( 'Normal view', 'wpforms' ); ?>');
+						$(this).text('<?php esc_html_e( 'Normal view', 'wpforms-lite' ); ?>');
 					} else {
-						$(this).text('<?php esc_html_e( 'Compact view', 'wpforms' ); ?>');
+						$(this).text('<?php esc_html_e( 'Compact view', 'wpforms-lite' ); ?>');
 					}
 					$('body').toggleClass('compact');
 					showCompact = !showCompact;
@@ -156,16 +156,16 @@ class WPForms_Preview {
 			<div class="wpforms-preview" id="print">
 				<h1>
 					<?php /* translators: %d - entry ID. */ ?>
-					<?php echo sanitize_text_field( $form_data['settings']['form_title'] ); ?> <span> - <?php printf( esc_html__( 'Entry #%d', 'wpforms' ), absint( $entry->entry_id ) ); ?></span>
+					<?php echo sanitize_text_field( $form_data['settings']['form_title'] ); ?> <span> - <?php printf( esc_html__( 'Entry #%d', 'wpforms-lite' ), absint( $entry->entry_id ) ); ?></span>
 					<div class="buttons">
-						<a href="" class="button button-secondary close-window"><?php esc_html_e( 'Close', 'wpforms' ); ?></a>
-						<a href="" class="button button-primary print"><?php esc_html_e( 'Print', 'wpforms' ); ?></a>
+						<a href="" class="button button-secondary close-window"><?php esc_html_e( 'Close', 'wpforms-lite' ); ?></a>
+						<a href="" class="button button-primary print"><?php esc_html_e( 'Print', 'wpforms-lite' ); ?></a>
 					</div>
 				</h1>
 				<div class="actions">
-					<a href="#" class="toggle-empty"><?php esc_html_e( 'Show empty fields', 'wpforms' ); ?></a> &bull;
-					<?php echo ! empty( $entry->entry_notes ) ? '<a href="#" class="toggle-notes">' . esc_html__( 'Show notes', 'wpforms' ) . '</a> &bull;' : ''; ?>
-					<a href="#" class="toggle-view"><?php esc_html_e( 'Compact view', 'wpforms' ); ?></a>
+					<a href="#" class="toggle-empty"><?php esc_html_e( 'Show empty fields', 'wpforms-lite' ); ?></a> &bull;
+					<?php echo ! empty( $entry->entry_notes ) ? '<a href="#" class="toggle-notes">' . esc_html__( 'Show notes', 'wpforms-lite' ) . '</a> &bull;' : ''; ?>
+					<a href="#" class="toggle-view"><?php esc_html_e( 'Compact view', 'wpforms-lite' ); ?></a>
 				</div>
 				<?php
 				$fields = apply_filters( 'wpforms_entry_single_data', wpforms_decode( $entry->fields ), $entry, $form_data );
@@ -173,7 +173,7 @@ class WPForms_Preview {
 				if ( empty( $fields ) ) {
 
 					// Whoops, no fields! This shouldn't happen under normal use cases.
-					echo '<p class="no-fields">' . esc_html__( 'This entry does not have any fields', 'wpforms' ) . '</p>';
+					echo '<p class="no-fields">' . esc_html__( 'This entry does not have any fields', 'wpforms-lite' ) . '</p>';
 
 				} else {
 
@@ -190,11 +190,11 @@ class WPForms_Preview {
 
 							echo '<p class="field-name">';
 								/* translators: %d - field ID */
-								echo ! empty( $field['name'] ) ? wp_strip_all_tags( $field['name'] ) : sprintf( esc_html__( 'Field ID #%d', 'wpforms' ), absint( $field['id'] ) );
+								echo ! empty( $field['name'] ) ? wp_strip_all_tags( $field['name'] ) : sprintf( esc_html__( 'Field ID #%d', 'wpforms-lite' ), absint( $field['id'] ) );
 							echo '</p>';
 
 							echo '<p class="field-value">';
-								echo ! empty( $field_value ) ? nl2br( make_clickable( $field_value ) ) : esc_html__( 'Empty', 'wpforms' );
+								echo ! empty( $field_value ) ? nl2br( make_clickable( $field_value ) ) : esc_html__( 'Empty', 'wpforms-lite' );
 							echo '</p>';
 
 						echo '</div>';
@@ -205,7 +205,7 @@ class WPForms_Preview {
 
 				if ( ! empty( $entry->entry_notes ) ) {
 
-					echo '<h2 class="notes-head">' . esc_html__( 'Notes', 'wpforms' ) . '</h2>';
+					echo '<h2 class="notes-head">' . esc_html__( 'Notes', 'wpforms-lite' ) . '</h2>';
 
 					echo '<div class="notes">';
 
@@ -219,7 +219,7 @@ class WPForms_Preview {
 						echo '<div class="note">';
 							echo '<div class="note-byline">';
 								/* translators: %1$s - user name; %2$s - date */
-								printf( esc_html__( 'Added by %1$s on %2$s', 'wpforms' ), $user_name, $date );
+								printf( esc_html__( 'Added by %1$s on %2$s', 'wpforms-lite' ), $user_name, $date );
 							echo '</div>';
 							echo '<div class="note-text">' . wp_kses_post( $note->data ) . '</div>';
 						echo '</div>';
@@ -267,13 +267,13 @@ class WPForms_Preview {
 		}
 
 		// Create the custom preview page.
-		$content = '<p>' . esc_html__( 'This is the WPForms preview page. All your form previews will be handled on this page.', 'wpforms' ) . '</p>';
-		$content .= '<p>' . esc_html__( 'The page is set to private, so it is not publicly accessible. Please do not delete this page :) .', 'wpforms' ) . '</p>';
+		$content = '<p>' . esc_html__( 'This is the WPForms preview page. All your form previews will be handled on this page.', 'wpforms-lite' ) . '</p>';
+		$content .= '<p>' . esc_html__( 'The page is set to private, so it is not publicly accessible. Please do not delete this page :) .', 'wpforms-lite' ) . '</p>';
 		$args    = array(
 			'post_type'      => 'page',
 			'post_name'      => 'wpforms-preview',
 			'post_author'    => 1,
-			'post_title'     => esc_html__( 'WPForms Preview', 'wpforms' ),
+			'post_title'     => esc_html__( 'WPForms Preview', 'wpforms-lite' ),
 			'post_status'    => 'private',
 			'post_content'   => $content,
 			'comment_status' => 'closed',
@@ -374,14 +374,14 @@ class WPForms_Preview {
 		}
 
 		// Customize the page content.
-		$title     = ! empty( $form['settings']['form_title'] ) ? sanitize_text_field( $form['settings']['form_title'] ) : esc_html__( 'Form', 'wpforms' );
+		$title     = ! empty( $form['settings']['form_title'] ) ? sanitize_text_field( $form['settings']['form_title'] ) : esc_html__( 'Form', 'wpforms-lite' );
 		$shortcode = ! empty( $form['id'] ) ? '[wpforms id="' . absint( $form['id'] ) . '"]' : '';
-		$content   = esc_html__( 'This is a preview of your form. This page is not publicly accessible.', 'wpforms' );
+		$content   = esc_html__( 'This is a preview of your form. This page is not publicly accessible.', 'wpforms-lite' );
 		if ( ! empty( $_GET['new_window'] ) ) {
-			$content .= ' <a href="javascript:window.close();">' . esc_html__( 'Close this window', 'wpforms' ) . '.</a>';
+			$content .= ' <a href="javascript:window.close();">' . esc_html__( 'Close this window', 'wpforms-lite' ) . '.</a>';
 		}
 		/* translators: %s - Form name. */
-		$posts[0]->post_title   = sprintf( esc_html__( '%s Preview', 'wpforms' ), $title );
+		$posts[0]->post_title   = sprintf( esc_html__( '%s Preview', 'wpforms-lite' ), $title );
 		$posts[0]->post_content = $content . $shortcode;
 		$posts[0]->post_status  = 'public';
 

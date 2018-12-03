@@ -2,9 +2,9 @@
 Contributors: wpforms, jaredatch, smub, slaFFik
 Tags: contact form, contact form plugin, forms, form builder, custom form, contact button, contact me, custom contact form, form manager, form, forms builder, forms creator, captcha, recaptcha, Akismet, email form, web form, feedback form, payment form, survey form, donation form, email submit form, message form, mailchimp, mailchimp form, aweber, aweber form, paypal, paypal form, stripe, stripe form, getresponse, getresponse form, email subscription, contact form widget, user registration form, wordpress registration, wordpress login form
 Requires at least: 4.8
-Tested up to: 4.9.8
+Tested up to: 5.0
 Stable tag: trunk
-Requires PHP: 5.2.4
+Requires PHP: 5.3.3
 License: GNU General Public License v2.0 or later
 
 The best WordPress contact form plugin. Drag & Drop online form builder that helps you create beautiful contact forms with just a few clicks.
@@ -68,9 +68,9 @@ See what one business owner has to say about WPForms' contact form:
 >As a business owner, time is my most valuable asset. WPForms allow me to create smart contact forms with just a few clicks. With their pre-built form templates and the drag & drop builder, I can create a new form that works in less than 2 minutes without writing a single line of code. Well worth the investment.<br>
 > David Henzel - Co-founder of MaxCDN
 
-= Surveys & Polls = 
+= Surveys & Polls =
 
-Along with contact form, you can also use WPForms to create surveys and polls. 
+Along with contact form, you can also use WPForms to create surveys and polls.
 
 Our <a href="https://wpforms.com/addons/surveys-and-polls-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion" rel="friend">WordPress Survey plugin addon</a> comes with smart survey fields including likert scale, star ratings, multiple choice, Net Promoter Score (NPS), and more.
 
@@ -82,7 +82,7 @@ You can also use the surveys & polls addon to easily create a poll on your site.
 
 Just like the contact form, you can embed your surveys and polls inside any post, page, or widget area in WordPress.
 
-= Payment Form, Donation Form, Booking Form, and More = 
+= Payment Form, Donation Form, Booking Form, and More =
 
 While WPForms started out as a contact form plugin, it has evolved into a powerful forms solution that you can use to create a payment form, donation form, registration form, online booking form, and more.
 
@@ -121,7 +121,7 @@ We also knew that our developer friends may want to extend contact forms further
 * <a href="https://wpforms.com/addons/form-locker-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion" rel="friend">Form Locker</a> - Manage form permissions and add access control rules including password-protected forms, members only forms, limit contact form entry per person, close form after specific date / time, etc.
 * <a href="https://wpforms.com/addons/offline-forms-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion" rel="friend">Offline Forms</a> - Let your visitors save their entered data offline and submit when their internet connection is restored.
 
-= Integrations = 
+= Integrations =
 
 * <a href="https://wpforms.com/addons/paypal-standard-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion" rel="friend">PayPal Payment Forms</a> - Create PayPal forms to easily collect payments, donations, and online orders.
 * <a href="https://wpforms.com/addons/stripe-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion" rel="friend">Stripe Forms</a> - Easily collect credit card payments, donations, and online orders with our Stripe addon.
@@ -143,7 +143,7 @@ Want to unlock more features? <a href="https://wpforms.com/?utm_source=wprepo&ut
 
 This plugin is created by <a href="https://www.jaredatchison.com/" rel="friend" title="Jared Atchison">Jared Atchison</a> and <a href="https://syedbalkhi.com/" rel="friend" title="Syed Balkhi">Syed Balkhi</a>.
 
-= Branding Guideline = 
+= Branding Guideline =
 
 WPForms&reg; is a registered trademark of WPForms LLC. When writing about the contact form plugin by WPForms, please make sure to uppercase the initial 3 letters.
 
@@ -265,6 +265,22 @@ Thank you
 Syed Balkhi
 
 == Changelog ==
+
+= 1.5.0 =
+- **IMPORTANT: Support for PHP 5.2 has been discontinued.** If you are running PHP 5.2, you _MUST_ upgrade PHP before installing WPForms 1.5. Failure to do that will disable WPForms core functionality.
+- Added: Dashboard widget.
+- Added: WPForms Challenge: an interactive step-by-step guide to creating a form for new users.
+- Added: Dynamic field population, available to enable from form settings.
+- Added: "About Us" admin page (WPForms > About Us).
+- Added: {user_first_name} and {user_last_name} Smart Tags.
+- Changed: Improved randomizing if field is configured to randomize items.
+- Changed: Improved i18n support.
+- Fixed: Form builder errors if user had Visual Editor disabled in profile.
+- Fixed: Form builder Windows styling issues.
+- Fixed: Form builder dynamic choices warning not always removing.
+- Fixed: Form builder "Show Layout" CSS formatting.
+- Fixed: reCAPTCHA compatibility when form is inside OptinMonster popup.
+- Fixed: Gutenberg block returning error if no forms have been created.
 
 = 1.4.9 =
 - Added: Pirate Forms importer.

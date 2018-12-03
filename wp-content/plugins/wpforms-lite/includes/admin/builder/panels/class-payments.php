@@ -19,7 +19,7 @@ class WPForms_Builder_Panel_Payments extends WPForms_Builder_Panel {
 	public function init() {
 
 		// Define panel information.
-		$this->name    = esc_html__( 'Payments', 'wpforms' );
+		$this->name    = esc_html__( 'Payments', 'wpforms-lite' );
 		$this->slug    = 'payments';
 		$this->icon    = 'fa-usd';
 		$this->order   = 10;
@@ -38,7 +38,7 @@ class WPForms_Builder_Panel_Payments extends WPForms_Builder_Panel {
 			return;
 		}
 
-		$this->panel_sidebar_section( esc_html__( 'Default', 'wpforms' ), 'default' );
+		$this->panel_sidebar_section( esc_html__( 'Default', 'wpforms-lite' ), 'default' );
 
 		do_action( 'wpforms_payments_panel_sidebar', $this->form );
 	}
@@ -59,7 +59,7 @@ class WPForms_Builder_Panel_Payments extends WPForms_Builder_Panel {
 			// yet let the user know we need a form to setup a payment.
 			echo '<div class="wpforms-alert wpforms-alert-info">';
 				echo wp_kses(
-					__( 'You need to <a href="#" class="wpforms-panel-switch" data-panel="setup">setup your form</a> before you can manage these settings.', 'wpforms' ),
+					__( 'You need to <a href="#" class="wpforms-panel-switch" data-panel="setup">setup your form</a> before you can manage these settings.', 'wpforms-lite' ),
 					array(
 						'a' => array(
 							'href'       => array(),
@@ -79,7 +79,7 @@ class WPForms_Builder_Panel_Payments extends WPForms_Builder_Panel {
 			echo '<div class="wpforms-panel-content-section wpforms-panel-content-section-info">';
 			echo '<p>Payment integrations are not available on your plan.</p>';
 			echo '<p>Please upgrade to PRO to unlock all the payment integrations and more awesome features.</p>';
-			echo '<a href="' . wpforms_admin_upgrade_link( 'builder-payments' ) . '" class="wpforms-btn wpforms-btn-orange wpforms-btn-lg" target="_blank" rel="noopener noreferrer">' . esc_html__( 'Upgrade to PRO', 'wpforms' ) . '</a>';
+			echo '<a href="' . esc_url( wpforms_admin_upgrade_link( 'builder-payments' ) ) . '" class="wpforms-btn wpforms-btn-orange wpforms-btn-lg" target="_blank" rel="noopener noreferrer">' . esc_html__( 'Upgrade to PRO', 'wpforms-lite' ) . '</a>';
 			echo '</div>';
 
 		} else if ( empty( $payments_active ) ) {
@@ -88,20 +88,20 @@ class WPForms_Builder_Panel_Payments extends WPForms_Builder_Panel {
 			// activated let the user know they need to install/activate an
 			// addon to setup a payment.
 			echo '<div class="wpforms-panel-content-section wpforms-panel-content-section-info">';
-			echo '<h5>' . esc_html__( 'Install Your Payment Integration', 'wpforms' ) . '</h5>';
+			echo '<h5>' . esc_html__( 'Install Your Payment Integration', 'wpforms-lite' ) . '</h5>';
 			echo
 				'<p>' .
 				sprintf(
 					wp_kses(
 						/* translators: %s - Addons page URL. */
-						__( 'It seems you do not have any payment addons activated. You can head over to the <a href="%s">Addons page</a> to install and activate the addon for your payment service.', 'wpforms' ),
+						__( 'It seems you do not have any payment addons activated. You can head over to the <a href="%s">Addons page</a> to install and activate the addon for your payment service.', 'wpforms-lite' ),
 						array(
 							'a' => array(
 								'href' => array(),
 							),
 						)
 					),
-					admin_url( 'admin.php?page=wpforms-addons' )
+					esc_url( admin_url( 'admin.php?page=wpforms-addons' ) )
 				) .
 				'</p>';
 			echo '</div>';
@@ -109,8 +109,8 @@ class WPForms_Builder_Panel_Payments extends WPForms_Builder_Panel {
 
 			// Everything is good - display default instructions.
 			echo '<div class="wpforms-panel-content-section wpforms-panel-content-section-default">';
-			echo '<h5>' . esc_html__( 'Select Your Payment Integration', 'wpforms' ) . '</h5>';
-			echo '<p>' . esc_html__( 'Select your payment provider from the options on the left. If you don\'t see your payment service listed, then let us know and we\'ll do our best to get it added as fast as possible.', 'wpforms' ) . '</p>';
+			echo '<h5>' . esc_html__( 'Select Your Payment Integration', 'wpforms-lite' ) . '</h5>';
+			echo '<p>' . esc_html__( 'Select your payment provider from the options on the left. If you don\'t see your payment service listed, then let us know and we\'ll do our best to get it added as fast as possible.', 'wpforms-lite' ) . '</p>';
 			echo '</div>';
 		}
 

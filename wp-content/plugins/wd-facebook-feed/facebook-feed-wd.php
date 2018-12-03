@@ -4,7 +4,7 @@
  * Plugin Name: WD Facebook Feed
  * Plugin URI: https://web-dorado.com/products/wordpress-facebook-feed-plugin.html
  * Description:WD Facebook Feed is a completely customizable, responsive solution to help you display your Facebook feed on your WordPress website.
- * Version: 1.1.2
+ * Version: 1.1.3
  * Author: WebDorado
  * Author URI: https://web-dorado.com/wordpress-plugins-bundle.html
  * License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
@@ -17,7 +17,7 @@ define( 'WD_FFWD_URL', plugins_url( plugin_basename( dirname( __FILE__ ) ) ) );
 define( 'WD_FFWD_PRO', true );
 define( 'WD_FB_PREFIX', 'ffwd' );
 if(! defined( 'FFWD_VERSION' ) ){
-  define ('FFWD_VERSION',"1.1.2");
+  define ('FFWD_VERSION',"1.1.3");
 }
 
 
@@ -1182,4 +1182,13 @@ add_filter("plugin_row_meta", 'ffwd_add_plugin_meta_links', 10, 2);
 if (!class_exists('Linkify')) {
     include_once WD_FFWD_DIR . '/framework/linkify/LinkifyInterface.php';
     include_once WD_FFWD_DIR . '/framework/linkify/Linkify.php';
+}
+
+/*ELEMENTOR*/
+add_action('plugins_loaded', 'ffwd_elementor');
+function ffwd_elementor(){
+  if(defined('ELEMENTOR_VERSION')) {
+    include_once 'elementor/elementor.php';
+    FFWDElementor::get_instance();
+  }
 }

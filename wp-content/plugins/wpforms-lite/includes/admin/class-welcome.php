@@ -37,8 +37,8 @@ class WPForms_Welcome {
 
 		// Getting started - shows after installation.
 		add_dashboard_page(
-			esc_html__( 'Welcome to WPForms', 'wpforms' ),
-			esc_html__( 'Welcome to WPForms', 'wpforms' ),
+			esc_html__( 'Welcome to WPForms', 'wpforms-lite' ),
+			esc_html__( 'Welcome to WPForms', 'wpforms-lite' ),
 			apply_filters( 'wpforms_welcome_cap', 'manage_options' ),
 			'wpforms-getting-started',
 			array( $this, 'output' )
@@ -111,32 +111,32 @@ class WPForms_Welcome {
 				<div class="intro">
 
 					<div class="sullie">
-						<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/sullie.png" alt="<?php esc_attr_e( 'Sullie the WPForms mascot', 'wpforms' ); ?>">
+						<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/sullie.png" alt="<?php esc_attr_e( 'Sullie the WPForms mascot', 'wpforms-lite' ); ?>">
 					</div>
 
 					<div class="block">
-						<h1><?php esc_html_e( 'Welcome to WPForms', 'wpforms' ); ?></h1>
-						<h6><?php esc_html_e( 'Thank you for choosing WPForms - the most powerful drag & drop WordPress form builder in the market.', 'wpforms' ); ?></h6>
+						<h1><?php esc_html_e( 'Welcome to WPForms', 'wpforms-lite' ); ?></h1>
+						<h6><?php esc_html_e( 'Thank you for choosing WPForms - the most powerful drag & drop WordPress form builder in the market.', 'wpforms-lite' ); ?></h6>
 					</div>
 
-					<a href="#" class="play-video" title="<?php esc_attr_e( 'Watch how to create your first form', 'wpforms' ); ?>">
-						<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/welcome-video.png" alt="<?php esc_attr_e( 'Watch how to create your first form', 'wpforms' ); ?>" class="video-thumbnail">
+					<a href="#" class="play-video" title="<?php esc_attr_e( 'Watch how to create your first form', 'wpforms-lite' ); ?>">
+						<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/welcome-video.png" alt="<?php esc_attr_e( 'Watch how to create your first form', 'wpforms-lite' ); ?>" class="video-thumbnail">
 					</a>
 
 					<div class="block">
 
-						<h6><?php esc_html_e( 'WPForms makes it easy to create forms in WordPress. You can watch the video tutorial or read our guide on how create your first form.', 'wpforms' ); ?></h6>
+						<h6><?php esc_html_e( 'WPForms makes it easy to create forms in WordPress. You can watch the video tutorial or read our guide on how create your first form.', 'wpforms-lite' ); ?></h6>
 
 						<div class="button-wrap wpforms-clear">
 							<div class="left">
-								<a href="<?php echo admin_url( 'admin.php?page=wpforms-builder' ); ?>" class="wpforms-btn wpforms-btn-block wpforms-btn-lg wpforms-btn-orange">
-									<?php esc_html_e( 'Create Your First Form', 'wpforms' ); ?>
+								<a href="<?php echo esc_url( admin_url( 'admin.php?page=wpforms-builder' ) ); ?>" class="wpforms-btn wpforms-btn-block wpforms-btn-lg wpforms-btn-orange">
+									<?php esc_html_e( 'Create Your First Form', 'wpforms-lite' ); ?>
 								</a>
 							</div>
 							<div class="right">
 								<a href="https://wpforms.com/docs/creating-first-form/?utm_source=WordPress&amp;utm_medium=link&amp;utm_campaign=liteplugin"
 									class="wpforms-btn wpforms-btn-block wpforms-btn-lg wpforms-btn-grey" target="_blank" rel="noopener noreferrer">
-									<?php esc_html_e( 'Read the Full Guide', 'wpforms' ); ?>
+									<?php esc_html_e( 'Read the Full Guide', 'wpforms-lite' ); ?>
 								</a>
 							</div>
 						</div>
@@ -145,73 +145,86 @@ class WPForms_Welcome {
 
 				</div><!-- /.intro -->
 
+				<div class="challenge">
+
+					<div class="block">
+						<h1><?php esc_html_e( 'Take the WPForms Challenge', 'wpforms' ); ?></h1>
+						<h6><?php esc_html_e( 'Create your first form with our guided setup wizard in less than 5 minutes to experience the WPForms difference.', 'wpforms' ); ?></h6>
+						<div class="button-wrap">
+                            <a href="<?php echo esc_url( admin_url( 'admin.php?page=wpforms-builder&challenge=start' ) ); ?>" class="wpforms-btn wpforms-btn-lg wpforms-btn-orange">
+                                <?php esc_html_e( 'Start the WPForms Challenge', 'wpforms' ); ?>
+                            </a>
+						</div>
+					</div>
+				</div>
+
 				<div class="features">
 
 					<div class="block">
 
-						<h1><?php esc_html_e( 'WPForms Features &amp; Addons', 'wpforms' ); ?></h1>
-						<h6><?php esc_html_e( 'WPForms is both easy to use and extremely powerful. We have tons of helpful features that allow us to give you everything you need from a form builder.', 'wpforms' ); ?></h6>
+						<h1><?php esc_html_e( 'WPForms Features &amp; Addons', 'wpforms-lite' ); ?></h1>
+						<h6><?php esc_html_e( 'WPForms is both easy to use and extremely powerful. We have tons of helpful features that allow us to give you everything you need from a form builder.', 'wpforms-lite' ); ?></h6>
 
 						<div class="feature-list wpforms-clear">
 
 							<div class="feature-block first">
 								<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/welcome-feature-icon-1.png">
-								<h5><?php esc_html_e( 'Drag &amp; Drop Form Builder', 'wpforms' ); ?></h5>
-								<p><?php esc_html_e( 'Easily create an amazing form in just a few minutes without writing any code.', 'wpforms' ); ?></p>
+								<h5><?php esc_html_e( 'Drag &amp; Drop Form Builder', 'wpforms-lite' ); ?></h5>
+								<p><?php esc_html_e( 'Easily create an amazing form in just a few minutes without writing any code.', 'wpforms-lite' ); ?></p>
 							</div>
 
 							<div class="feature-block last">
 								<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/welcome-feature-icon-2.png">
-								<h5><?php esc_html_e( 'Form Templates', 'wpforms' ); ?></h5>
-								<p><?php esc_html_e( 'Start with pre-built form templates to save even more time.', 'wpforms' ); ?></p>
+								<h5><?php esc_html_e( 'Form Templates', 'wpforms-lite' ); ?></h5>
+								<p><?php esc_html_e( 'Start with pre-built form templates to save even more time.', 'wpforms-lite' ); ?></p>
 							</div>
 
 							<div class="feature-block first">
 								<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/welcome-feature-icon-3.png">
-								<h5><?php esc_html_e( 'Responsive Mobile Friendly', 'wpforms' ); ?></h5>
-								<p><?php esc_html_e( 'WPForms is 100% responsive meaning it works on mobile, tablets & desktop.', 'wpforms' ); ?></p>
+								<h5><?php esc_html_e( 'Responsive Mobile Friendly', 'wpforms-lite' ); ?></h5>
+								<p><?php esc_html_e( 'WPForms is 100% responsive meaning it works on mobile, tablets & desktop.', 'wpforms-lite' ); ?></p>
 							</div>
 
 							<div class="feature-block last">
 								<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/welcome-feature-icon-4.png">
-								<h5><?php esc_html_e( 'Smart Conditional Logic', 'wpforms' ); ?></h5>
-								<p><?php esc_html_e( 'Easily create high performance forms with our smart conditional logic.', 'wpforms' ); ?></p>
+								<h5><?php esc_html_e( 'Smart Conditional Logic', 'wpforms-lite' ); ?></h5>
+								<p><?php esc_html_e( 'Easily create high performance forms with our smart conditional logic.', 'wpforms-lite' ); ?></p>
 							</div>
 
 							<div class="feature-block first">
 								<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/welcome-feature-icon-5.png">
-								<h5><?php esc_html_e( 'Instant Notifications', 'wpforms' ); ?></h5>
-								<p><?php esc_html_e( 'Respond to leads quickly with our instant form notification feature for your team.', 'wpforms' ); ?></p>
+								<h5><?php esc_html_e( 'Instant Notifications', 'wpforms-lite' ); ?></h5>
+								<p><?php esc_html_e( 'Respond to leads quickly with our instant form notification feature for your team.', 'wpforms-lite' ); ?></p>
 							</div>
 
 							<div class="feature-block last">
 								<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/welcome-feature-icon-6.png">
-								<h5><?php esc_html_e( 'Entry Management', 'wpforms' ); ?></h5>
-								<p><?php esc_html_e( 'View all your leads in one place to streamline your workflow.', 'wpforms' ); ?></p>
+								<h5><?php esc_html_e( 'Entry Management', 'wpforms-lite' ); ?></h5>
+								<p><?php esc_html_e( 'View all your leads in one place to streamline your workflow.', 'wpforms-lite' ); ?></p>
 							</div>
 
 							<div class="feature-block first">
 								<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/welcome-feature-icon-7.png">
-								<h5><?php esc_html_e( 'Payments Made Easy', 'wpforms' ); ?></h5>
-								<p><?php esc_html_e( 'Easily collect payments, donations, and online orders without hiring a developer.', 'wpforms' ); ?></p>
+								<h5><?php esc_html_e( 'Payments Made Easy', 'wpforms-lite' ); ?></h5>
+								<p><?php esc_html_e( 'Easily collect payments, donations, and online orders without hiring a developer.', 'wpforms-lite' ); ?></p>
 							</div>
 
 							<div class="feature-block last">
 								<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/welcome-feature-icon-8.png">
-								<h5><?php esc_html_e( 'Marketing &amp; Subscriptions', 'wpforms' ); ?></h5>
-								<p><?php esc_html_e( 'Create subscription forms and connect with your email marketing service.', 'wpforms' ); ?></p>
+								<h5><?php esc_html_e( 'Marketing &amp; Subscriptions', 'wpforms-lite' ); ?></h5>
+								<p><?php esc_html_e( 'Create subscription forms and connect with your email marketing service.', 'wpforms-lite' ); ?></p>
 							</div>
 
 							<div class="feature-block first">
 								<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/welcome-feature-icon-9.png">
-								<h5><?php esc_html_e( 'Easy to Embed', 'wpforms' ); ?></h5>
-								<p><?php esc_html_e( 'Easily embed your forms in blog posts, pages, sidebar widgets, footer, etc.', 'wpforms' ); ?></p>
+								<h5><?php esc_html_e( 'Easy to Embed', 'wpforms-lite' ); ?></h5>
+								<p><?php esc_html_e( 'Easily embed your forms in blog posts, pages, sidebar widgets, footer, etc.', 'wpforms-lite' ); ?></p>
 							</div>
 
 							<div class="feature-block last">
 								<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/welcome-feature-icon-10.png">
-								<h5><?php esc_html_e( 'Spam Protection', 'wpforms' ); ?></h5>
-								<p><?php esc_html_e( 'Our smart captcha and honeypot automatically prevent spam submissions.', 'wpforms' ); ?></p>
+								<h5><?php esc_html_e( 'Spam Protection', 'wpforms-lite' ); ?></h5>
+								<p><?php esc_html_e( 'Our smart captcha and honeypot automatically prevent spam submissions.', 'wpforms-lite' ); ?></p>
 							</div>
 
 						</div>
@@ -219,7 +232,7 @@ class WPForms_Welcome {
 						<div class="button-wrap">
 							<a href="https://wpforms.com/features/?utm_source=WordPress&amp;utm_medium=link&amp;utm_campaign=liteplugin&amp;utm_content=welcome"
 								class="wpforms-btn wpforms-btn-lg wpforms-btn-grey" rel="noopener noreferrer" target="_blank">
-								<?php esc_html_e( 'See All Features', 'wpforms' ); ?>
+								<?php esc_html_e( 'See All Features', 'wpforms-lite' ); ?>
 							</a>
 						</div>
 
@@ -232,32 +245,32 @@ class WPForms_Welcome {
 					<div class="block wpforms-clear">
 
 						<div class="left">
-							<h2><?php esc_html_e( 'Upgrade to PRO', 'wpforms' ); ?></h2>
+							<h2><?php esc_html_e( 'Upgrade to PRO', 'wpforms-lite' ); ?></h2>
 							<ul>
-								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'PayPal', 'wpforms' ); ?></li>
-								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Post Submissions', 'wpforms' ); ?></li>
-								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Stripe', 'wpforms' ); ?></li>
-								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Signatures', 'wpforms' ); ?></li>
-								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'User Registration', 'wpforms' ); ?></li>
-								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Form Abandonment', 'wpforms' ); ?></li>
-								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Geolocation', 'wpforms' ); ?></li>
-								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Polls', 'wpforms' ); ?></li>
-								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Zapier', 'wpforms' ); ?></li>
-								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Unlimited Sites', 'wpforms' ); ?></li>
-								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Surveys', 'wpforms' ); ?></li>
-								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Priority Support', 'wpforms' ); ?></li>
+								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'PayPal', 'wpforms-lite' ); ?></li>
+								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Post Submissions', 'wpforms-lite' ); ?></li>
+								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Stripe', 'wpforms-lite' ); ?></li>
+								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Signatures', 'wpforms-lite' ); ?></li>
+								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'User Registration', 'wpforms-lite' ); ?></li>
+								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Form Abandonment', 'wpforms-lite' ); ?></li>
+								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Geolocation', 'wpforms-lite' ); ?></li>
+								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Polls', 'wpforms-lite' ); ?></li>
+								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Zapier', 'wpforms-lite' ); ?></li>
+								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Unlimited Sites', 'wpforms-lite' ); ?></li>
+								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Surveys', 'wpforms-lite' ); ?></li>
+								<li><span class="dashicons dashicons-yes"></span> <?php esc_html_e( 'Priority Support', 'wpforms-lite' ); ?></li>
 							</ul>
 						</div>
 
 						<div class="right">
-							<h2><span><?php esc_html_e( 'PRO', 'wpforms' ); ?></span></h2>
+							<h2><span><?php esc_html_e( 'PRO', 'wpforms-lite' ); ?></span></h2>
 							<div class="price">
 								<span class="amount">199</span><br>
-								<span class="term"><?php esc_html_e( 'per year', 'wpforms' ); ?></span>
+								<span class="term"><?php esc_html_e( 'per year', 'wpforms-lite' ); ?></span>
 							</div>
-							<a href="<?php echo wpforms_admin_upgrade_link( 'welcome' ); ?>" rel="noopener noreferrer" target="_blank"
+							<a href="<?php echo esc_url( wpforms_admin_upgrade_link( 'welcome' ) ); ?>" rel="noopener noreferrer" target="_blank"
 								class="wpforms-btn wpforms-btn-block wpforms-btn-lg wpforms-btn-orange wpforms-upgrade-modal">
-								<?php esc_html_e( 'Upgrade Now', 'wpforms' ); ?>
+								<?php esc_html_e( 'Upgrade Now', 'wpforms-lite' ); ?>
 							</a>
 						</div>
 
@@ -269,18 +282,18 @@ class WPForms_Welcome {
 
 					<div class="block">
 
-						<h1><?php esc_html_e( 'Testimonials', 'wpforms' ); ?></h1>
+						<h1><?php esc_html_e( 'Testimonials', 'wpforms-lite' ); ?></h1>
 
 						<div class="testimonial-block wpforms-clear">
 							<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/welcome-testimonial-bill.jpg">
-							<p><?php esc_html_e( 'WPForms is by far the easiest form plugin to use. My clients love it – it’s one of the few plugins they can use without any training. As a developer I appreciate how fast, modern, clean and extensible it is.', 'wpforms' ); ?>
+							<p><?php esc_html_e( 'WPForms is by far the easiest form plugin to use. My clients love it – it’s one of the few plugins they can use without any training. As a developer I appreciate how fast, modern, clean and extensible it is.', 'wpforms-lite' ); ?>
 							<p>
 							<p><strong>Bill Erickson</strong>, Erickson Web Consulting</p>
 						</div>
 
 						<div class="testimonial-block wpforms-clear">
 							<img src="<?php echo WPFORMS_PLUGIN_URL; ?>assets/images/welcome-testimonial-david.jpg">
-							<p><?php esc_html_e( 'As a business owner, time is my most valuable asset. WPForms allow me to create smart online forms with just a few clicks. With their pre-built form templates and the drag & drop builder, I can create a new form that works in less than 2 minutes without writing a single line of code. Well worth the investment.', 'wpforms' ); ?>
+							<p><?php esc_html_e( 'As a business owner, time is my most valuable asset. WPForms allow me to create smart online forms with just a few clicks. With their pre-built form templates and the drag & drop builder, I can create a new form that works in less than 2 minutes without writing a single line of code. Well worth the investment.', 'wpforms-lite' ); ?>
 							<p>
 							<p><strong>David Henzel</strong>, MaxCDN</p>
 						</div>
@@ -295,16 +308,16 @@ class WPForms_Welcome {
 
 						<div class="button-wrap wpforms-clear">
 							<div class="left">
-								<a href="<?php echo admin_url( 'admin.php?page=wpforms-builder' ); ?>"
+								<a href="<?php echo esc_url( admin_url( 'admin.php?page=wpforms-builder' ) ); ?>"
 									class="wpforms-btn wpforms-btn-block wpforms-btn-lg wpforms-btn-orange">
-									<?php esc_html_e( 'Create Your First Form', 'wpforms' ); ?>
+									<?php esc_html_e( 'Create Your First Form', 'wpforms-lite' ); ?>
 								</a>
 							</div>
 							<div class="right">
-								<a href="<?php echo wpforms_admin_upgrade_link( 'welcome' ); ?>" target="_blank" rel="noopener noreferrer"
+								<a href="<?php echo esc_url( wpforms_admin_upgrade_link( 'welcome' ) ); ?>" target="_blank" rel="noopener noreferrer"
 									class="wpforms-btn wpforms-btn-block wpforms-btn-lg wpforms-btn-trans-green wpforms-upgrade-modal">
 									<span class="underline">
-										<?php esc_html_e( 'Upgrade to WPForms Pro', 'wpforms' ); ?> <span class="dashicons dashicons-arrow-right"></span>
+										<?php esc_html_e( 'Upgrade to WPForms Pro', 'wpforms-lite' ); ?> <span class="dashicons dashicons-arrow-right"></span>
 									</span>
 								</a>
 							</div>

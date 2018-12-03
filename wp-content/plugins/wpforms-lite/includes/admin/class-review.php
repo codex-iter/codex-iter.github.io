@@ -68,7 +68,7 @@ class WPForms_Review {
 		}
 
 		// Logic is slightly different depending on what's at our disposal.
-		if ( wpforms()->pro && class_exists( 'WPForms_Entry_Handler' ) ) {
+		if ( wpforms()->pro && class_exists( 'WPForms_Entry_Handler', false ) ) {
 			$this->review();
 		} else {
 			$this->review_lite();
@@ -93,12 +93,12 @@ class WPForms_Review {
 		// We have a candidate! Output a review message.
 		?>
 		<div class="notice notice-info is-dismissible wpforms-review-notice">
-			<p><?php esc_html_e( 'Hey, I noticed you collected over 50 entries from WPForms - that’s awesome! Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation?', 'wpforms' ); ?></p>
-			<p><strong><?php echo wp_kses( __( '~ Syed Balkhi<br>Co-Founder of WPForms', 'wpforms' ), array( 'br' => array() ) ); ?></strong></p>
+			<p><?php esc_html_e( 'Hey, I noticed you collected over 50 entries from WPForms - that’s awesome! Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation?', 'wpforms-lite' ); ?></p>
+			<p><strong><?php echo wp_kses( __( '~ Syed Balkhi<br>Co-Founder of WPForms', 'wpforms-lite' ), array( 'br' => array() ) ); ?></strong></p>
 			<p>
-				<a href="https://wordpress.org/support/plugin/wpforms-lite/reviews/?filter=5#new-post" class="wpforms-dismiss-review-notice wpforms-review-out" target="_blank" rel="noopener"><?php esc_html_e( 'Ok, you deserve it', 'wpforms' ); ?></a><br>
-				<a href="#" class="wpforms-dismiss-review-notice" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'Nope, maybe later', 'wpforms' ); ?></a><br>
-				<a href="#" class="wpforms-dismiss-review-notice" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'I already did', 'wpforms' ); ?></a>
+				<a href="https://wordpress.org/support/plugin/wpforms-lite/reviews/?filter=5#new-post" class="wpforms-dismiss-review-notice wpforms-review-out" target="_blank" rel="noopener"><?php esc_html_e( 'Ok, you deserve it', 'wpforms-lite' ); ?></a><br>
+				<a href="#" class="wpforms-dismiss-review-notice" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'Nope, maybe later', 'wpforms-lite' ); ?></a><br>
+				<a href="#" class="wpforms-dismiss-review-notice" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'I already did', 'wpforms-lite' ); ?></a>
 			</p>
 		</div>
 		<script type="text/javascript">
@@ -157,12 +157,12 @@ class WPForms_Review {
 		// We have a candidate! Output a review message.
 		?>
 		<div class="notice notice-info is-dismissible wpforms-review-notice">
-			<p><?php esc_html_e( 'Hey, I noticed you created a contact form with WPForms - that’s awesome! Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation?', 'wpforms' ); ?></p>
-			<p><strong><?php echo wp_kses( __( '~ Syed Balkhi<br>Co-Founder of WPForms', 'wpforms' ), array( 'br' => array() ) ); ?></strong></p>
+			<p><?php esc_html_e( 'Hey, I noticed you created a contact form with WPForms - that’s awesome! Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation?', 'wpforms-lite' ); ?></p>
+			<p><strong><?php echo wp_kses( __( '~ Syed Balkhi<br>Co-Founder of WPForms', 'wpforms-lite' ), array( 'br' => array() ) ); ?></strong></p>
 			<p>
-				<a href="https://wordpress.org/support/plugin/wpforms-lite/reviews/?filter=5#new-post" class="wpforms-dismiss-review-notice wpforms-review-out" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'Ok, you deserve it', 'wpforms' ); ?></a><br>
-				<a href="#" class="wpforms-dismiss-review-notice" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'Nope, maybe later', 'wpforms' ); ?></a><br>
-				<a href="#" class="wpforms-dismiss-review-notice" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'I already did', 'wpforms' ); ?></a>
+				<a href="https://wordpress.org/support/plugin/wpforms-lite/reviews/?filter=5#new-post" class="wpforms-dismiss-review-notice wpforms-review-out" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'Ok, you deserve it', 'wpforms-lite' ); ?></a><br>
+				<a href="#" class="wpforms-dismiss-review-notice" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'Nope, maybe later', 'wpforms-lite' ); ?></a><br>
+				<a href="#" class="wpforms-dismiss-review-notice" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'I already did', 'wpforms-lite' ); ?></a>
 			</p>
 		</div>
 		<script type="text/javascript">
@@ -215,7 +215,7 @@ class WPForms_Review {
 			$text = sprintf(
 				wp_kses(
 					/* translators: $1$s - WPForms plugin name; $2$s - WP.org review link; $3$s - WP.org review link. */
-					__( 'Please rate %1$s <a href="%2$s" target="_blank" rel="noopener noreferrer">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href="%3$s" target="_blank" rel="noopener">WordPress.org</a> to help us spread the word. Thank you from the WPForms team!', 'wpforms' ),
+					__( 'Please rate %1$s <a href="%2$s" target="_blank" rel="noopener noreferrer">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href="%3$s" target="_blank" rel="noopener">WordPress.org</a> to help us spread the word. Thank you from the WPForms team!', 'wpforms-lite' ),
 					array(
 						'a' => array(
 							'href'   => array(),

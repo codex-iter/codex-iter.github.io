@@ -42,9 +42,9 @@ class WPForms_Admin_Editor {
 		printf(
 			'<a href="#" class="button wpforms-insert-form-button" data-editor="%s" title="%s">%s %s</a>',
 			esc_attr( $editor_id ),
-			esc_attr__( 'Add Form', 'wpforms' ),
+			esc_attr__( 'Add Form', 'wpforms-lite' ),
 			$icon,
-			__( 'Add Form', 'wpforms' )
+			__( 'Add Form', 'wpforms-lite' )
 		);
 
 		// If we have made it this far then load the JS.
@@ -68,8 +68,8 @@ class WPForms_Admin_Editor {
 		<div id="wpforms-modal-wrap" style="display: none">
 			<form id="wpforms-modal" tabindex="-1">
 				<div id="wpforms-modal-title">
-					<?php esc_html_e( 'Insert Form', 'wpforms' ); ?>
-					<button type="button" id="wpforms-modal-close"><span class="screen-reader-text"><?php esc_html_e( 'Close', 'wpforms' ); ?></span></button>
+					<?php esc_html_e( 'Insert Form', 'wpforms-lite' ); ?>
+					<button type="button" id="wpforms-modal-close"><span class="screen-reader-text"><?php esc_html_e( 'Close', 'wpforms-lite' ); ?></span></button>
 				</div>
 				<div id="wpforms-modal-inner">
 
@@ -78,8 +78,8 @@ class WPForms_Admin_Editor {
 						echo '<p id="wpforms-modal-notice">';
 						printf(
 							wp_kses(
-								/* translators: %s - WPForms documenation link. */
-								__( 'Heads up! Don\'t forget to test your form. <a href="%s" target="_blank" rel="noopener noreferrer">Check out our complete guide</a>!', 'wpforms' ),
+								/* translators: %s - WPForms documentation link. */
+								__( 'Heads up! Don\'t forget to test your form. <a href="%s" target="_blank" rel="noopener noreferrer">Check out our complete guide</a>!', 'wpforms-lite' ),
 								array(
 									'a' => array(
 										'href'   => array(),
@@ -94,20 +94,20 @@ class WPForms_Admin_Editor {
 						$args  = apply_filters( 'wpforms_modal_select', array() );
 						$forms = wpforms()->form->get( '', $args );
 						if ( ! empty( $forms ) ) {
-							printf( '<p><label for="wpforms-modal-select-form">%s</label></p>', esc_html__( 'Select a form below to insert', 'wpforms' ) );
+							printf( '<p><label for="wpforms-modal-select-form">%s</label></p>', esc_html__( 'Select a form below to insert', 'wpforms-lite' ) );
 							echo '<select id="wpforms-modal-select-form">';
 							foreach ( $forms as $form ) {
 								printf( '<option value="%d">%s</option>', $form->ID, esc_html( $form->post_title ) );
 							}
 							echo '</select><br>';
-							printf( '<p class="wpforms-modal-inline"><input type="checkbox" id="wpforms-modal-checkbox-title"><label for="wpforms-modal-checkbox-title">%s</label></p>', esc_html__( 'Show form name', 'wpforms' ) );
-							printf( '<p class="wpforms-modal-inline"><input type="checkbox" id="wpforms-modal-checkbox-description"><label for="wpforms-modal-checkbox-description">%s</label></p>', esc_html__( 'Show form description', 'wpforms' ) );
+							printf( '<p class="wpforms-modal-inline"><input type="checkbox" id="wpforms-modal-checkbox-title"><label for="wpforms-modal-checkbox-title">%s</label></p>', esc_html__( 'Show form name', 'wpforms-lite' ) );
+							printf( '<p class="wpforms-modal-inline"><input type="checkbox" id="wpforms-modal-checkbox-description"><label for="wpforms-modal-checkbox-description">%s</label></p>', esc_html__( 'Show form description', 'wpforms-lite' ) );
 						} else {
 							echo '<p>';
 							printf(
 								wp_kses(
 									/* translators: %s - WPForms Builder page. */
-									__( 'Whoops, you haven\'t created a form yet. Want to <a href="%s">give it a go</a>?', 'wpforms' ),
+									__( 'Whoops, you haven\'t created a form yet. Want to <a href="%s">give it a go</a>?', 'wpforms-lite' ),
 									array(
 										'a' => array(
 											'href' => array(),
@@ -123,11 +123,11 @@ class WPForms_Admin_Editor {
 				</div>
 				<div class="submitbox">
 					<div id="wpforms-modal-cancel">
-						<a class="submitdelete deletion" href="#"><?php esc_html_e( 'Cancel', 'wpforms' ); ?></a>
+						<a class="submitdelete deletion" href="#"><?php esc_html_e( 'Cancel', 'wpforms-lite' ); ?></a>
 					</div>
 					<?php if ( ! empty( $forms ) ) : ?>
 						<div id="wpforms-modal-update">
-							<button class="button button-primary" id="wpforms-modal-submit"><?php esc_html_e( 'Add Form', 'wpforms' ); ?></button>
+							<button class="button button-primary" id="wpforms-modal-submit"><?php esc_html_e( 'Add Form', 'wpforms-lite' ); ?></button>
 						</div>
 					<?php endif; ?>
 				</div>

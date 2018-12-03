@@ -1,0 +1,180 @@
+.docxpressoPlugin {
+	font-size: 83.35%;
+}
+
+.h5p_layout {
+    box-sizing: content-box !important;
+}
+
+.h5p_layout *{
+    float: none;
+    text-align: initial;
+	box-sizing: border-box;
+}
+/*to make sure that floating elements are always inside the document bounds*/
+.h5p_layout:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/* a default layout for documents without maste styles */
+.h5p_default_layout {
+    margin-top: 3.6rem;
+    margin-left: 8.50464rem;
+    margin-bottom: 3.6rem;
+    margin-right: 8.50464rem;
+    writing-mode: lr-tb;
+}
+/*hack for IE */
+wbr:after { content: "\00200B"; }
+
+/*hack to get some extra top margin for anchors if needed*/
+.h5p_layout span[id^="_Toc"]{
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+/* Remove unwanted numbering styles */
+.h5p_layout .removeNumbering:before{
+    content: initial !important;
+    display: none;
+    all: initial !important;
+}
+
+/* give zero default top and bottom paddings for paragraphs*/
+.h5p_layout p {
+    color: #000000;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.h5p_layout span {
+    color: #000000;
+    font-weight: normal;
+}
+.h5p_layout span.dropcap {
+    color: inherit;
+    font-family: inherit !important;
+}
+.h5p_layout h1, .h5p_layout h2, .h5p_layout h3, .h5p_layout h4, .h5p_layout h5, .h5p_layout h6 {
+    margin-top: 0;
+    margin-bottom: 0;    
+	font-family: inherit;
+    font-weight: 500;
+    line-height: 1;
+    color: inherit;
+}
+/* give zero default top and bottom paddings for paragraphs in tables*/
+.h5p_layout table p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.h5p_layout ul, .h5p_layout ol {
+	list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    padding-left: 0;
+}
+
+.h5p_layout ul li, .h5p_layout ol li {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    
+}
+.h5p_layout li p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.h5p_layout table {
+    border: none;
+}
+.h5p_layout td {
+    vertical-align: top;
+    border: none;
+}
+.h5p_layout th {
+    vertical-align: top;
+    border: none;
+}
+.h5p_layout div {
+    margin-bottom: 10pt;
+}
+
+.h5p_layout img {
+    margin: 0;
+    padding: 0;
+}
+
+.h5p_layout ul ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.h5p_layout li {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none !important;
+}
+
+.h5p_layout ul, .h5p_layout ol {
+    list-style-type: none !important;
+}
+
+.h5p_layout td[data-sorting] p:before, .h5p_layout th[data-sorting] p:before {
+    content: ' ';
+    padding-right: 16px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALAQMAAACTYuVlAAAAA3NCSVQICAjb4U/gAAAABlBMVEUjLTD////tm/tRAAAACXBIWXMAAAsSAAALEgHS3X78AAAAFnRFWHRDcmVhdGlvbiBUaW1lADAyLzEwLzE2RFpLjQAAACB0RVh0U29mdHdhcmUATWFjcm9tZWRpYSBGaXJld29ya3MgTVi7kSokAAAAI0lEQVR4nGP4/4Dh9wOGjw8YHjxgOJDA8B9MPgCLAMX/PwAANZUStiyS6NsAAAAASUVORK5CYII=);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.sortDecorator {
+    border-bottom: 3px solid #b70000 !important;
+}
+
+/* This is a spacial class designed to remove unwanted bullets when a li has
+ul as its first child*/
+.h5p_layout .removeBullet:before {
+    content: none !important;
+}
+
+/*responsive tables*/
+.h5p_layout div.dxoResponsiveTable{
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: auto !important;
+	overflow-y: hidden;
+}
+
+/* chart tooltips */
+.c3-tooltip-container td.name {
+    white-space: nowrap;
+}
+
+/* External services*/
+.h5p_layout iframe {
+    resize: vertical;
+    border: 1px solid #fff;
+}
+
+.h5p_layout div.youtube {
+    position:relative;
+    padding-bottom:56.25%;
+    height:0;
+    overflow:hidden;
+    background-color: transparent;
+}
+
+.h5p_layout div.youtube iframe {
+    resize: none;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+

@@ -18,7 +18,7 @@ class WPForms_Builder_Panel_Analytics extends WPForms_Builder_Panel {
 	public function init() {
 
 		// Define panel information.
-		$this->name    = esc_html__( 'Analytics', 'wpforms' );
+		$this->name    = esc_html__( 'Analytics', 'wpforms-lite' );
 		$this->slug    = 'analytics';
 		$this->icon    = 'fa-bar-chart';
 		$this->order   = 10;
@@ -52,12 +52,12 @@ class WPForms_Builder_Panel_Analytics extends WPForms_Builder_Panel {
 			'wpforms_builder_providers',
 			array(
 				'url'                => esc_url( add_query_arg( array( 'view' => 'providers' ) ) ),
-				'confirm_save'       => esc_html__( 'We need to save your progress to continue to the Marketing panel. Is that OK?', 'wpforms' ),
-				'confirm_connection' => esc_html__( 'Are you sure you want to delete this connection?', 'wpforms' ),
-				'prompt_connection'  => esc_html__( 'Enter a %type% nickname', 'wpforms' ),
-				'prompt_placeholder' => esc_html__( 'Eg: Newsletter Optin', 'wpforms' ),
-				'error_name'         => esc_html__( 'You must provide a connection nickname', 'wpforms' ),
-				'required_field'     => esc_html__( 'Field required', 'wpforms' ),
+				'confirm_save'       => esc_html__( 'We need to save your progress to continue to the Marketing panel. Is that OK?', 'wpforms-lite' ),
+				'confirm_connection' => esc_html__( 'Are you sure you want to delete this connection?', 'wpforms-lite' ),
+				'prompt_connection'  => esc_html__( 'Enter a %type% nickname', 'wpforms-lite' ),
+				'prompt_placeholder' => esc_html__( 'Eg: Newsletter Optin', 'wpforms-lite' ),
+				'error_name'         => esc_html__( 'You must provide a connection nickname', 'wpforms-lite' ),
+				'required_field'     => esc_html__( 'Field required', 'wpforms-lite' ),
 			)
 		);
 	}
@@ -74,7 +74,7 @@ class WPForms_Builder_Panel_Analytics extends WPForms_Builder_Panel {
 			return;
 		}
 
-		$this->panel_sidebar_section( esc_html__( 'Default', 'wpforms' ), 'default' );
+		$this->panel_sidebar_section( esc_html__( 'Default', 'wpforms-lite' ), 'default' );
 
 		do_action( 'wpforms_analytics_panel_sidebar', $this->form );
 	}
@@ -95,7 +95,7 @@ class WPForms_Builder_Panel_Analytics extends WPForms_Builder_Panel {
 			// yet let the user know we need a form to setup a provider.
 			echo '<div class="wpforms-alert wpforms-alert-info">';
 			echo wp_kses(
-				__( 'You need to <a href="#" class="wpforms-panel-switch" data-panel="setup">setup your form</a> before you can manage these settings.', 'wpforms' ),
+				__( 'You need to <a href="#" class="wpforms-panel-switch" data-panel="setup">setup your form</a> before you can manage these settings.', 'wpforms-lite' ),
 				array(
 					'a' => array(
 						'href'       => array(),
@@ -115,12 +115,12 @@ class WPForms_Builder_Panel_Analytics extends WPForms_Builder_Panel {
 			// activated let the user know they need to install/activate an
 			// addon to setup a provider.
 			echo '<div class="wpforms-panel-content-section wpforms-panel-content-section-info">';
-			echo '<h5>' . esc_html__( 'Install Your Analytic Integration', 'wpforms' ) . '</h5>';
+			echo '<h5>' . esc_html__( 'Install Your Analytic Integration', 'wpforms-lite' ) . '</h5>';
 			echo '<p>' .
 				sprintf(
 					wp_kses(
 						/* translators: %s - plugin admin area Addons page. */
-						__( 'It seems you do not have any analytics plugins or addons activated. We recommend <a href="%s">MonsterInsights</a>.', 'wpforms' ),
+						__( 'It seems you do not have any analytics plugins or addons activated. We recommend <a href="%s">MonsterInsights</a>.', 'wpforms-lite' ),
 						array(
 							'a' => array(
 								'href' => array(),
@@ -135,8 +135,8 @@ class WPForms_Builder_Panel_Analytics extends WPForms_Builder_Panel {
 
 			// Everything is good - display default instructions.
 			echo '<div class="wpforms-panel-content-section wpforms-panel-content-section-default">';
-			echo '<h5>' . esc_html__( 'Select Your Analytics Integration', 'wpforms' ) . '</h5>';
-			echo '<p>' . esc_html__( 'Select your analytics plugin or service from the options on the left.', 'wpforms' ) . '</p>';
+			echo '<h5>' . esc_html__( 'Select Your Analytics Integration', 'wpforms-lite' ) . '</h5>';
+			echo '<p>' . esc_html__( 'Select your analytics plugin or service from the options on the left.', 'wpforms-lite' ) . '</p>';
 			echo '</div>';
 		}
 

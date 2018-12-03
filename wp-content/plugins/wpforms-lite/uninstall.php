@@ -47,7 +47,7 @@ if ( ! empty( $preview ) ) {
 	wp_delete_post( $preview, true );
 }
 
-// Delete wpform and wpform_log post type posts/post_meta.
+// Delete wpforms and wpforms_log post type posts/post_meta.
 $posts = get_posts( array(
 	'post_type'   => array( 'wpforms_log', 'wpforms' ),
 	'post_status' => 'any',
@@ -56,7 +56,7 @@ $posts = get_posts( array(
 ) );
 if ( $posts ) {
 	foreach ( $posts as $post ) {
-		wp_delete_post( $post, true);
+		wp_delete_post( $post, true );
 	}
 }
 

@@ -251,7 +251,7 @@ function wpforms_panel_field( $option, $panel, $field, $form_data, $label, $args
 			$type   = ! empty( $args['smarttags']['type'] ) ? esc_attr( $args['smarttags']['type'] ) : 'fields';
 			$fields = ! empty( $args['smarttags']['fields'] ) ? esc_attr( $args['smarttags']['fields'] ) : '';
 
-			$field_label .= '<a href="#" class="toggle-smart-tag-display" data-type="' . $type . '" data-fields="' . $fields . '"><i class="fa fa-tags"></i> <span>' . esc_html__( 'Show Smart Tags', 'wpforms' ) . '</span></a>';
+			$field_label .= '<a href="#" class="toggle-smart-tag-display" data-type="' . $type . '" data-fields="' . $fields . '"><i class="fa fa-tags"></i> <span>' . esc_html__( 'Show Smart Tags', 'wpforms-lite' ) . '</span></a>';
 		}
 		$field_label .= '</label>';
 	} else {
@@ -305,7 +305,12 @@ function wpforms_builder_settings_block_get_state( $form_id, $block_id, $block_t
 
 	$all_states = get_user_meta( get_current_user_id(), 'wpforms_builder_settings_collapsable_block_states', true );
 
+	if ( empty( $all_states ) ) {
+		return $state;
+	}
+
 	if (
+		is_array( $all_states ) &&
 		! empty( $all_states[ $form_id ][ $block_type ][ $block_id ] ) &&
 		'closed' === $all_states[ $form_id ][ $block_type ][ $block_id ]
 	) {
@@ -316,6 +321,7 @@ function wpforms_builder_settings_block_get_state( $form_id, $block_id, $block_t
 	if ( 'notification' === $block_type && 'closed' !== $state ) {
 		$notification_states = get_user_meta( get_current_user_id(), 'wpforms_builder_notification_states', true );
 	}
+
 	if (
 		! empty( $notification_states[ $form_id ][ $block_id ] ) &&
 		'closed' === $notification_states[ $form_id ][ $block_id ]

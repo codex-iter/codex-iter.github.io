@@ -1,6 +1,6 @@
 <?php
 
-if ( ! class_exists( 'AM_Dashboard_Widget_Extend_Feed' ) ) {
+if ( ! class_exists( 'AM_Dashboard_Widget_Extend_Feed', false ) ) {
 	/**
 	 * Awesome Motive Events and News Feed.
 	 *
