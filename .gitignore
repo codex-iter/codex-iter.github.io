@@ -44,7 +44,10 @@
 !.editorconfig
 
 # track readme.md in the root (i.e. do NOT ignore it)
-!readme.md
+!README.md
+
+# track Screenshots in the root (i.e. do NOT ignore it)
+!Screenshot*
 
 # ignore all files that start with ~
 ~*
