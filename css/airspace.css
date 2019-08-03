@@ -840,7 +840,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	footer Start
 --*/
 footer {
-  background: #F5F5F5;
+  background: rgb(0, 0, 0);
   text-align: center;
   padding-top: 48px;
   padding-bottom: 55px;
@@ -848,10 +848,10 @@ footer {
 footer p {
   font-size: 13px;
   line-height: 25px;
-  color: #919191;
+  color: #d3d0d0;
 }
 footer a {
-  color: #595959;
+  color: #6bd9ec;
 }
 footer .footer-manu {
   padding-bottom: 25px;
@@ -866,8 +866,8 @@ footer .footer-manu ul li {
 }
 footer .footer-manu ul li a {
   display: inline-block;
-  color: #494949;
+  color: #73e3ff;
 }
 footer .footer-manu ul li a:hover {
-  color: #000;
+  color: rgb(255, 137, 137);
 }
