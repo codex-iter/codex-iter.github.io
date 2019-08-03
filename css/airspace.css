@@ -282,7 +282,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/featue-bg.jpg");
+  background: url("../img/codex-ideas.jpg");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -304,18 +304,33 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 100px 0;
 }
 #feature h2 {
+  color: #ffffff;
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
 }
 #feature p {
-  color: #8d8f92;
+  color: #e2e2e2;
   margin-bottom: 20px;
+  font-size: 20px;
 }
 #feature .btn-view-works {
   background: #655E7A;
   color: #fff;
   padding: 10px 20px;
+  font-size: 15px;
+}
+#feature:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #49484e, #322e40);
+  opacity: 0.70;
 }
 /*--
 	content Start
