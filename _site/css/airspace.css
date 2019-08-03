@@ -273,10 +273,11 @@ font header .navbar-default .navbar-nav li a:hover {
 #call-to-action .btn-call-to-action {
   padding: 15px 35px;
   border: none;
-  background-color: #fff;
+  background-color: #333333;
   font-size: 15px;
-  color: #333333;
+  color: #ffffff;
   margin-top: 30px;
+  font-size: 17px;
 }
 /*--
 	Feature Start
@@ -340,12 +341,19 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #testimonial .block h2 {
   line-height: 27px;
-  color: #5C5C5C;
+  color: rgb(255, 255, 255);
   padding-top: 110px;
+}
+#testimonial h2 {
+  color: #F6F8FA;
+}
+#testimonial p {
+  color: #F6F8FA;
+  font-size: 18px;
 }
 #testimonial .block p {
   padding-top: 50px;
-  color: #7B7B7B;
+  color: rgb(199, 199, 199);
 }
 #testimonial .counter-box li {
   width: 50%;
@@ -354,19 +362,21 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 30px 0 30px;
 }
 #testimonial .counter-box li i {
+  color: rgb(224, 224, 224);
   font-size: 35px;
 }
 #testimonial .counter-box li h4 {
   font-size: 30px;
   font-weight: bold;
+  color: rgb(136, 136, 136);
 }
 #testimonial .counter-box li span {
-  color: #555;
+  color: rgb(224, 224, 224);
 }
 #testimonial .testimonial-carousel {
   text-align: center;
   width: 75%;
-  border: 1px solid #DEDEDE;
+  border: 1px solid rgb(65, 65, 65);
   padding: 24px;
   margin: 0 auto;
 }
@@ -386,15 +396,15 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 0;
   font-size: 12px;
   line-height: 20px;
-  color: #353241;
+  color: #c4b5ff;
 }
 #testimonial .testimonial-carousel .user p span {
   display: block;
-  color: #353241;
+  color: #bdadff;
   font-weight: 600;
 }
 #testimonial .testimonial-carousel .owl-carousel .owl-pagination div {
-  border: 1px solid #1D1D1D;
+  border: 1px solid rgb(179, 179, 179);
   border-radius: 500px;
   display: inline-block;
   height: 10px;
@@ -402,7 +412,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 10px;
 }
 #testimonial .testimonial-carousel .owl-carousel .owl-pagination div.active {
-  background: #5C5C5C;
+  background: rgb(195, 195, 195);
   font-size: 30px;
   display: inline-block;
   border: 0px;
