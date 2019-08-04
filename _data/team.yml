@@ -3,62 +3,76 @@
   name: Dr. Satyabrata Maity
   title: Coordinator
   desc: --
+  img:
 - category: Faculty
   name: Dr. Rourab Paul
   title: Coordinator
   desc: --
+  img:
 - category: Faculty
   name: Dr. Nimisha Ghosh
   title: Associate Member
   desc: --
+  img:
 - category: Faculty
   name: Dr. Suman Sau
   title: Associate Member
   desc: --
+  img:
 - category: Faculty
   name: Dr. Arnab Mitra
   title: Associate Member
   desc: --
+  img:
 - category: Faculty
   name: Dr. Santosh Kumar
   title: Associate Member
   desc: --
+  img:
 - category: Faculty
   name: Mr. Sayantan Saha
   title: Associate Member
   desc: --
+  img:
 - category: Faculty
   name: Mr. Krishanu Maity
   title: Associate Member
   desc: --
+  img:
 - category: Faculty
   name: Mr. Paresh Baidya
   title: Associate Member
   desc: --
+  img:
 - category: Faculty
   name: Mr. Rajesh Purkait
   title: Associate Member
   desc: --
+  img:
 - category: Faculty
   name: Mr. Jogendra Garain
   title: Associate Member
   desc: --
+  img:
 - category: Faculty
   name: Mr. Lokendra Birla
   title: Associate Member
   desc: --
+  img:
 
 #Founders
 - category: Founders
   name: Adarsh
   title: Founder
   desc: --
+  img:
 
 #Alumni
 - category: Alumni
   name: Srinibas
   title: Senior Coordinator
   desc: --
+  img:
     
 #Senior Coordinator
 - category: Senior Coordinator
@@ -85,9 +99,11 @@
   name: MD Azmal
   title: Coordinator
   desc: --
+  img:
 
 #Members
 - category: Member
   name: Nehal
   title: Member
   desc: --
+  img:
