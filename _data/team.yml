@@ -52,23 +52,27 @@
   name: Adarsh
   title: Founder
   desc: --
-#Seniors
-- category: Seniors
-  name: 
+#Alumni
+- category: Alumni
+  name: Srinibas
   title: Senior Coordinator
   desc: --
 #Senior Coordinator
 - category: Senior Coordinator
-  name: 
+  name: Debashish Mishra
   title: Senior Coordinator
-  desc: --
+  desc: I'm a 4th year B.Tech CSE student.
+  stack: C, Python and PHP.
+  social-links:
+    -github: https://github.com/Zanark
+    -facebook: https://facebook.com/DMZANARK
 #Coordinators
 - category: Coordinator
-  name: 
+  name: MD Azmal
   title: Coordinator
   desc: --
 #Members
-- category: Members
-  name: 
+- category: Member
+  name: Nehal
   title: Member
   desc: --

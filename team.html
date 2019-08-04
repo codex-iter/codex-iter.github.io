@@ -75,6 +75,115 @@ permalink: /team/
     {% endfor %}
 
 </div>
+
+<div class="container">   
+    
+    <h1>Alumni</h1>
+    <p>Here are some memebers that have already stepped into the corporate world.</p>
+
+    {% for p in site.data.team %}
+      {% if p.category == "Alumni" %}
+
+        <div class="row-eq-height">
+            <div class="col-md-7 col-sm-12">
+              <div class="block">
+                  <h2>{{ p.name }}</h2>
+                <p>{{ p.desc }}</p>
+              </div>
+            </div><!-- .col-md-7 close -->
+            <div class="col-md-5 col-sm-12">
+              <div class="profile" style="border: 0px;">
+                <img src="{{ site.baseurl }}/img/gergana.png" alt="Img">
+              </div>
+            </div><!-- .col-md-5 close -->
+          </div><!-- Faculty Close --><br>
+
+      {% endif %}
+    {% endfor %}
+</div>
+
+<div class="container">   
+    
+    <h1>Senior Coordinators</h1>
+    <p>The MVPs of Codex.</p>
+
+    {% for p in site.data.team %}
+      {% if p.category == "Senior Coordinator" %}
+
+        <div class="row-eq-height">
+            <div class="col-md-7 col-sm-12">
+              <div class="block">
+                  <h2>{{ p.name }}</h2>
+                <p>{{ p.desc }}</p>
+              </div>
+            </div><!-- .col-md-7 close -->
+            <div class="col-md-5 col-sm-12">
+              <div class="profile" style="border: 0px;">
+                <img src="{{ site.baseurl }}/img/gergana.png" alt="Img">
+              </div>
+            </div><!-- .col-md-5 close -->
+          </div><!-- Faculty Close --><br>
+
+      {% endif %}
+    {% endfor %}
+
+</div>
+
+<div class="container">   
+    
+    <h1>Coordinators</h1>
+    <p>We manage the crowd.</p>
+
+    {% for p in site.data.team %}
+      {% if p.category == "Coordinator" %}
+
+        <div class="row-eq-height">
+            <div class="col-md-7 col-sm-12">
+              <div class="block">
+                  <h2>{{ p.name }}</h2>
+                <p>{{ p.desc }}</p>
+              </div>
+            </div><!-- .col-md-7 close -->
+            <div class="col-md-5 col-sm-12">
+              <div class="profile" style="border: 0px;">
+                <img src="{{ site.baseurl }}/img/gergana.png" alt="Img">
+              </div>
+            </div><!-- .col-md-5 close -->
+          </div><!-- Faculty Close --><br>
+
+      {% endif %}
+    {% endfor %}
+
+</div>
+
+<div class="container">   
+    
+    <h1>Members</h1>
+    <p>We bring in new members and learn stuff.</p>
+
+    {% for p in site.data.team %}
+      {% if p.category == "Member" %}
+
+        <div class="row-eq-height">
+            <div class="col-md-7 col-sm-12">
+              <div class="block">
+                  <h2>{{ p.name }}</h2>
+                <p>{{ p.desc }}</p>
+              </div>
+            </div><!-- .col-md-7 close -->
+            <div class="col-md-5 col-sm-12">
+              <div class="profile" style="border: 0px;">
+                <img src="{{ site.baseurl }}/img/gergana.png" alt="Img">
+              </div>
+            </div><!-- .col-md-5 close -->
+          </div><!-- Faculty Close --><br>
+
+      {% endif %}
+    {% endfor %}
+
+</div>
+
+</div>
 {% endif %}
 </section>
 
