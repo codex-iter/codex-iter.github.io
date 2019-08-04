@@ -67,8 +67,8 @@
   desc: I'm a 4th year B.Tech CSE student.
   stack: C, Python and PHP.
   social-links:
-    - github: https://github.com/Zanark
-    - facebook: https://facebook.com/DMZANARK
+    github: https://github.com/Zanark
+    facebook: https://facebook.com/DMZANARK
   img: https://avatars3.githubusercontent.com/u/32354314?s=460&v=4
 
 - category: Senior Coordinator
@@ -77,7 +77,7 @@
   desc: I'm a 4th year B.Tech CSIT student.
   stack: Python, Linux
   social-links:
-    - github: https://github.com/SubhrajitPrusty
+    github: https://github.com/SubhrajitPrusty
   img: https://avatars1.githubusercontent.com/u/4463839?s=460&v=4
 
 #Coordinators
