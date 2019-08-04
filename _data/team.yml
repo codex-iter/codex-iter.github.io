@@ -107,3 +107,12 @@
   title: Member
   desc: --
   img:
+
+- category: Member
+  name:  Mohit Agarwal
+  title: Member
+  desc: I'm a 4th year B.Tech CSIT student.
+  stack: Java, Python
+  social-links:
+    github: https://github.com/mojito9542
+  img: https://avatars3.githubusercontent.com/u/35900091?s=400&v=4
