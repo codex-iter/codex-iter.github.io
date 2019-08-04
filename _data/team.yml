@@ -70,6 +70,14 @@
     -github: https://github.com/Zanark
     -facebook: https://facebook.com/DMZANARK
 
+- category: Senior Coordinator
+  name: Subhrajit Prusty
+  title: Senior Coordinator
+  desc: I'm a 4th year B.Tech CSIT student.
+  stack: Python, Linux
+  social-links:
+    -github: https://github.com/SubhrajitPrusty
+
 #Coordinators
 - category: Coordinator
   name: MD Azmal
