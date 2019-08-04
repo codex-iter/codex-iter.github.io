@@ -116,3 +116,14 @@
   social-links:
     github: https://github.com/mojito9542
   img: https://avatars3.githubusercontent.com/u/35900091?s=400&v=4
+
+- category: Member
+  name:  Swagat Parija
+  title: Member
+  desc: I'm a 4th year B.Tech CSIT student.
+  stack: Python, JavaScript
+  social-links:
+    github: https://github.com/swagat5147
+    facebook: https://www.facebook.com/swagat5147
+    linkedin: https://www.linkedin.com/in/swagat-parija
+  img: https://avatars1.githubusercontent.com/u/31531209?s=460&v=4
