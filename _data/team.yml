@@ -47,16 +47,19 @@
   name: Mr. Lokendra Birla
   title: Associate Member
   desc: --
+
 #Founders
 - category: Founders
   name: Adarsh
   title: Founder
   desc: --
+
 #Alumni
 - category: Alumni
   name: Srinibas
   title: Senior Coordinator
   desc: --
+    
 #Senior Coordinator
 - category: Senior Coordinator
   name: Debashish Mishra
@@ -66,11 +69,13 @@
   social-links:
     -github: https://github.com/Zanark
     -facebook: https://facebook.com/DMZANARK
+
 #Coordinators
 - category: Coordinator
   name: MD Azmal
   title: Coordinator
   desc: --
+
 #Members
 - category: Member
   name: Nehal
