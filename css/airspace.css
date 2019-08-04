@@ -437,7 +437,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background: url("../img/codex-team.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
-  padding-bottom: 107px;
+  padding-bottom: 150px;
   position: relative;
   background-attachment: fixed;
 }
