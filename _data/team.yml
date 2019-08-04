@@ -91,3 +91,11 @@
   name: Nehal
   title: Member
   desc: --
+- category: Member
+  name: Pritam Kar
+  title: Member
+  desc: I'm a 2nd year B.Tech CSE student at ITER.
+  stack:Java,C++,Python
+  social-links:
+   -github:https://github.com/pikaz143
+    img:https://avatars3.githubusercontent.com/u/42296778?s=400&v=4
