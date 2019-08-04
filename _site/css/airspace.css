@@ -496,9 +496,12 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 20px;
   position: relative;
   top: 10%;
-  height: 180px;
-  width: 180px;
+  max-height: 180px;
+  max-width: 180px;
   border-radius: 50%;
+  width: auto;
+  height: auto;
+  display: block;
 }
 #portfolio-work .block .portfolio-menu {
   padding-bottom: 30px;
