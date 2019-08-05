@@ -264,3 +264,16 @@
   social-links:
     github: https://github.com/pikaz143
   img: https://avatars3.githubusercontent.com/u/42296778?s=400&v=4
+
+- category: Member
+  name: Adarsh Padhi
+  title: Member
+  desc: I'm a 2nd year B.Tech CSE B student at ITER.
+  stack:  
+  - Java
+  - JavaFx
+  - JavaScript
+  - C
+  social-links:
+    github: https://github.com/adarsh1405
+  img: https://avatars3.githubusercontent.com/u/45957713?s=400&u=6afe2d2e1be48207a097a26c20a74abb59c094ac&v=4
