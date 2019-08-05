@@ -632,6 +632,68 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-work .block .mix {
   display: none;
 }
+
+#portfolio-work .stack {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#portfolio-work .stack li {
+  display: inline;
+  padding-left: 10px; 
+  font-size: 18px;
+}
+
+#portfolio-work .tag {
+  background: rgb(36, 36, 36);
+  border-radius: 5px 5px 5px 5px;
+  border-color: #488ce6;
+  color: rgb(121, 163, 255);
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px 0 23px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+}
+
+#portfolio-work .tag::before {
+  background: rgb(105, 225, 255);
+  border-radius: 10px;
+  box-shadow: inset 0 5px rgba(110, 250, 255, 0.596);
+  content: '';
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  width: 6px;
+  top: 10px;
+}
+
+#portfolio-work .tag::after {
+  background: #0d0d0d;
+  border-bottom: 13px solid transparent;
+  border-left: 10px solid rgb(36, 36, 36);
+  border-top: 13px solid transparent;
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#portfolio-work .tag:hover {
+  background-color: rgb(255, 79, 79);
+  color: white;
+}
+
+#portfolio-work .tag:hover::after {
+   border-left-color:  rgb(255, 79, 79); 
+}
+
+
+
 /*--
 	wrapper-work Start
 --*/

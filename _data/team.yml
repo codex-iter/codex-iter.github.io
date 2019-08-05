@@ -141,7 +141,11 @@
   name: Debashish Mishra
   title: Senior Coordinator
   desc: I'm a 4th year B.Tech CSE student.
-  stack: C, Python and PHP.
+  stack: 
+    - C
+    - Python
+    - Fulls-Stack Web Development
+    - Linux
   social-links:
     github: https://github.com/Zanark
     facebook: https://facebook.com/DMZANARK
@@ -151,7 +155,9 @@
   name: Subhrajit Prusty
   title: Senior Coordinator
   desc: I'm a 4th year B.Tech CSIT student.
-  stack: Python, Linux
+  stack: 
+    - Python
+    - Linux
   social-links:
     github: https://github.com/SubhrajitPrusty
   img: https://avatars1.githubusercontent.com/u/4463839?s=460&v=4
@@ -161,7 +167,11 @@
   name: MD Azmal
   title: Coordinator
   desc: I am a 3rd year B.Tech CSE student. I have a good experience in working with blockchain and fullstack. Currently I am exploring Machine Learning and IoT.
-  stack: Python, Javascript, C++, Processing
+  stack: 
+    - Python
+    - Javascript
+    - C++
+    - Processing
   social-links:
     github: https://github.com/MD-AZMAL
     facebook: https://www.facebook.com/md.azmal.92
@@ -173,7 +183,9 @@
   name: Aruba Shireen
   title: Coordinator
   desc: I'm a 3rd year B.Tech CSIT student.
-  stack: Java, JavaScript
+  stack: 
+    - Java
+    - JavaScript
   social-links:
     github: https://github.com/aruba246
     linkedin: linkedin.com/in/aruba246/
@@ -183,7 +195,10 @@
   name: Pawan Gorai
   title: Coordinator
   desc: I'm a 3rd year B.Tech CSIT student.
-  stack: Java, C, JavaScript
+  stack: 
+    - Java
+    - C
+    - JavaScript
   website: http://pawankumar.me/
   social-links:
       github: https://github.com/Pawan0411
@@ -196,13 +211,19 @@
   name: Nehal
   title: Member
   desc: Empty
-  img:
+  img: https://avatars1.githubusercontent.com/u/41484543?s=400&v=4
+  stack:
+    - Java
+    - Python
+    - Ethical Hacking
 
 - category: Member
   name:  Mohit Agarwal
   title: Member
   desc: I'm a 4th year B.Tech CSIT student.
-  stack: Java, Python
+  stack: 
+    - Java
+    - Python
   social-links:
     github: https://github.com/mojito9542
   img: https://avatars3.githubusercontent.com/u/35900091?s=400&v=4
@@ -211,7 +232,9 @@
   name:  Swagat Parija
   title: Member
   desc: I'm a 4th year B.Tech CSIT student.
-  stack: Python, JavaScript
+  stack: 
+    - Python
+    - JavaScript
   social-links:
     github: https://github.com/swagat5147
     facebook: https://www.facebook.com/swagat5147
@@ -222,7 +245,10 @@
   name:  Syed Salif Moin
   title: Member
   desc: I'm a 4th year B.Tech CSE student at ITER.
-  stack: Python, Java, JavaScript
+  stack: 
+    - Python
+    - Java
+    - JavaScript
   social-links:
     github: https://github.com/salif-04
   img: https://avatars0.githubusercontent.com/u/32351953?s=460&v=4
@@ -231,7 +257,10 @@
   name: Pritam Kar
   title: Member
   desc: I'm a 2nd year B.Tech CSE student at ITER.
-  stack: Java,C++,Python
+  stack: 
+    - Java
+    - C++
+    - Python
   social-links:
     github: https://github.com/pikaz143
   img: https://avatars3.githubusercontent.com/u/42296778?s=400&v=4
