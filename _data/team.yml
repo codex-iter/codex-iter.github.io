@@ -160,8 +160,14 @@
 - category: Coordinator
   name: MD Azmal
   title: Coordinator
-  desc: Empty
-  img:
+  desc: I am a 3rd year B.Tech CSE student. I have a good experience in working with blockchain and fullstack. Currently I am exploring Machine Learning and IoT.
+  stack: Python, Javascript, C++, Processing
+  social-links:
+    github: https://github.com/MD-AZMAL
+    facebook: https://www.facebook.com/md.azmal.92
+    linkedin : https://www.linkedin.com/in/md-azmal-570308160
+    website: http://azmal.me
+  img: https://avatars3.githubusercontent.com/u/33421347?s=460&v=4
   
 - category: Coordinator
   name: Aruba Shireen
@@ -220,3 +226,12 @@
   social-links:
     github: https://github.com/salif-04
   img: https://avatars0.githubusercontent.com/u/32351953?s=460&v=4
+
+- category: Member
+  name: Pritam Kar
+  title: Member
+  desc: I'm a 2nd year B.Tech CSE student at ITER.
+  stack: Java,C++,Python
+  social-links:
+    github: https://github.com/pikaz143
+  img: https://avatars3.githubusercontent.com/u/42296778?s=400&v=4
