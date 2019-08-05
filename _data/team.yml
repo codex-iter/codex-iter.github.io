@@ -2,105 +2,116 @@
 - category: Faculty
   name: Dr. Satyabrata Maity
   title: Coordinator
-  desc: --
+  desc: Empty
   img: https://scontent-maa2-2.xx.fbcdn.net/v/t1.0-9/45302260_1916673318425356_3634631514647429120_n.jpg?_nc_cat=102&_nc_oc=AQnGuH0M4eyoG4W3Eird2nr8UJR2lQYr6h22lvxZiQMzAE9wDGf7fB1CCKq_qqABo4A&_nc_ht=scontent-maa2-2.xx&oh=6874958dbdd432c2af701a5a6e157ee3&oe=5DEE12D0
+
 - category: Faculty
   name: Dr. Rourab Paul
   title: Coordinator
-  desc: --
+  desc: Empty
   img: https://scontent-maa2-2.xx.fbcdn.net/v/t1.0-9/53359582_10214024196422887_5249301229510590464_n.jpg?_nc_cat=110&_nc_oc=AQlViiOx68HeX8fePZkFLEAQYr11KGI6fiR9uVsAnO6dqL-iJZsBA2I2WjkhMyi_QxA&_nc_ht=scontent-maa2-2.xx&oh=402b797cdcb00118175bce168177db64&oe=5DA1737C
+
 - category: Faculty
   name: Dr. Nimisha Ghosh
   title: Associate Member
-  desc: --
+  desc: Empty
   img: https://scontent-maa2-2.xx.fbcdn.net/v/t1.0-9/582474_10151214411797638_901838014_n.jpg?_nc_cat=108&_nc_oc=AQkEtdT1l5gg-5Jo3t1hxE8Mvvb7umk-4EbsWTCoQJ7bbLaglRrktIHXTDHJfXYoaog&_nc_ht=scontent-maa2-2.xx&oh=98bb3e18bd0c37789b840d6fad9e4965&oe=5DA838AD
+
 - category: Faculty
   name: Dr. Suman Sau
   title: Associate Member
-  desc: --
-  img: 
+  desc: Empty
+  img:
+
 - category: Faculty
   name: Dr. Arnab Mitra
   title: Associate Member
-  desc: --
+  desc: Empty
   img:
+
 - category: Faculty
   name: Dr. Santosh Kumar
   title: Associate Member
-  desc: --
+  desc: Empty
   img:
+
 - category: Faculty
   name: Mr. Sayantan Saha
   title: Associate Member
-  desc: --
+  desc: Empty
   img: https://scontent-maa2-2.xx.fbcdn.net/v/t1.0-9/53578806_2235892939800621_1061555219369820160_o.jpg?_nc_cat=100&_nc_oc=AQlQE-LMoaXchpNbt3JfrDN4IZTrXliO_q74c6SGkCuTnW7BibG_isKOYVil6ciYadE&_nc_ht=scontent-maa2-2.xx&oh=ffee2bac979863bfe8e6039d9e74c6db&oe=5DD29FD0
+
 - category: Faculty
   name: Mr. Krishanu Maity
   title: Associate Member
-  desc: --
+  desc: Empty
   img: https://scontent-maa2-2.xx.fbcdn.net/v/t31.0-8/27908128_1594462240646267_1704697539193258322_o.jpg?_nc_cat=102&_nc_oc=AQl2b4NdMTcDiI91vGmvS-SFOXTzcuTnqwg3O04SqgNVN_aiefFcZFa9ql1uSSgxPHs&_nc_ht=scontent-maa2-2.xx&oh=196bf8b56a16ac94c8a7c95a3b23a651&oe=5DA463BE
+
 - category: Faculty
   name: Mr. Paresh Baidya
   title: Associate Member
-  desc: --
+  desc: Empty
   img:
+
 - category: Faculty
   name: Mr. Rajesh Purkait
   title: Associate Member
-  desc: --
+  desc: Empty
   img:
+
 - category: Faculty
   name: Mr. Jogendra Garain
   title: Associate Member
-  desc: --
+  desc: Empty
   img:
+
 - category: Faculty
   name: Mr. Lokendra Birla
   title: Associate Member
-  desc: --
+  desc: Empty
   img:
 
 #Founders
-  - category: Founders
+- category: Founders
   name: Sidharth Satapathy
   title: Founder
-  desc: --
+  desc: Empty
   social-links:
     github: https://github.com/xlreon
     linkedin: in.linkedin.com/in/sidharthsatapathy
   img: https://avatars2.githubusercontent.com/u/26788670?s=460&v=4
   
- - category: Founders
+- category: Founders
   name: Swastik Preetam Dash
   title: Founder
-  desc: --
+  desc: Empty
   social-links:
     github: https://github.com/dashPreetam
     linkedin: linkedin.com/in/swastikdash1/
   img:
   
-  - category: Founders
+- category: Founders
   name: Amitdyuti Behera
   title: Founder
-  desc: --
+  desc: Empty
   social-links:
     github: 
     linkedin: linkedin.com/in/amitdyuti
   img:
   
-   - category: Founders
+- category: Founders
   name: Ankita Rath
   title: Founder
-  desc: --
+  desc: Empty
   social-links:
     github: https://github.com/Ank-lucky
     linkedin: linkedin.com/in/ankita-rath
   img:
   
-   - category: Founders
+- category: Founders
   name: Adarsh Biswal
   title: Founder
-  desc: --
+  desc: Empty
   social-links:
     github: https://github.com/AdarshBiswal
     linkedin: linkedin.com/in/adarshbiswal57
@@ -110,16 +121,16 @@
 - category: Alumni
   name: Srinibas Biswal
   title: Senior Coordinator
-  desc: --
+  desc: Empty
   social-links:
     github: https://github.com/srinibasbiswal/
     linkedin: linkedin.com/in/srinibasbiswal
   img:
   
-  - category: Alumni
+- category: Alumni
   name: Swaraj Laha
   title: Senior Coordinator
-  desc: --
+  desc: Empty
   social-links:
     github: https://github.com/swarajlaha
     linkedin: swarajlaha
@@ -149,10 +160,10 @@
 - category: Coordinator
   name: MD Azmal
   title: Coordinator
-  desc: --
+  desc: Empty
   img:
   
- - category: Coordinator
+- category: Coordinator
   name: Aruba Shireen
   title: Coordinator
   desc: I'm a 3rd year B.Tech CSIT student.
@@ -178,7 +189,7 @@
 - category: Member
   name: Nehal
   title: Member
-  desc: --
+  desc: Empty
   img:
 
 - category: Member
