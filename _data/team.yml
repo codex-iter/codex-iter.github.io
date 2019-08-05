@@ -98,8 +98,14 @@
 - category: Coordinator
   name: MD Azmal
   title: Coordinator
-  desc: --
-  img:
+  desc: I am a 3rd year B.Tech CSE student. I have a good experience in working with blockchain and fullstack. Currently i am exploring machine learning and IoT.
+  stack: Python, Javascript, C++, Processing
+  social-links:
+    github: https://github.com/MD-AZMAL
+    facebook: https://www.facebook.com/md.azmal.92
+    linkedin : https://www.linkedin.com/in/md-azmal-570308160
+    website: http://azmal.me
+  img: https://avatars3.githubusercontent.com/u/33421347?s=460&v=4
 
 #Members
 - category: Member
