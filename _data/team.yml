@@ -61,17 +61,68 @@
   img:
 
 #Founders
-- category: Founders
-  name: Adarsh
+  - category: Founders
+  name: Sidharth Satapathy
   title: Founder
   desc: --
+  social-links:
+    github: https://github.com/xlreon
+    linkedin: in.linkedin.com/in/sidharthsatapathy
+  img: https://avatars2.githubusercontent.com/u/26788670?s=460&v=4
+  
+ - category: Founders
+  name: Swastik Preetam Dash
+  title: Founder
+  desc: --
+  social-links:
+    github: https://github.com/dashPreetam
+    linkedin: linkedin.com/in/swastikdash1/
   img:
-
+  
+  - category: Founders
+  name: Amitdyuti Behera
+  title: Founder
+  desc: --
+  social-links:
+    github: 
+    linkedin: linkedin.com/in/amitdyuti
+  img:
+  
+   - category: Founders
+  name: Ankita Rath
+  title: Founder
+  desc: --
+  social-links:
+    github: https://github.com/Ank-lucky
+    linkedin: linkedin.com/in/ankita-rath
+  img:
+  
+   - category: Founders
+  name: Adarsh Biswal
+  title: Founder
+  desc: --
+  social-links:
+    github: https://github.com/AdarshBiswal
+    linkedin: linkedin.com/in/adarshbiswal57
+  img: https://avatars3.githubusercontent.com/u/26766225?s=460&v=4
+  
 #Alumni
 - category: Alumni
-  name: Srinibas
+  name: Srinibas Biswal
   title: Senior Coordinator
   desc: --
+  social-links:
+    github: https://github.com/srinibasbiswal/
+    linkedin: linkedin.com/in/srinibasbiswal
+  img:
+  
+  - category: Alumni
+  name: Swaraj Laha
+  title: Senior Coordinator
+  desc: --
+  social-links:
+    github: https://github.com/swarajlaha
+    linkedin: swarajlaha
   img:
     
 #Senior Coordinator
@@ -100,6 +151,16 @@
   title: Coordinator
   desc: --
   img:
+  
+ - category: Coordinator
+  name: Aruba Shireen
+  title: Coordinator
+  desc: I'm a 3rd year B.Tech CSIT student.
+  stack: Java, Web Dev
+  social-links:
+    github: https://github.com/aruba246
+    linkedin: linkedin.com/in/aruba246/
+  img: https://avatars0.githubusercontent.com/u/30324086?s=460&v=4
 
 #Members
 - category: Member
