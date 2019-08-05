@@ -162,6 +162,18 @@
     linkedin: linkedin.com/in/aruba246/
   img: https://avatars0.githubusercontent.com/u/30324086?s=460&v=4
 
+- category: Coordinator
+  name: Pawan Gorai
+  title: Coordinator
+  desc: I'm a 3rd year B.Tech CSIT student.
+  stack: Java, C, JavaScript
+  website: http://pawankumar.me/
+  social-links:
+      github: https://github.com/Pawan0411
+      facebook: https://www.facebook.com/pawan1904
+      linkedin: https://www.linkedin.com/in/pawan-kumar-gorai-b79508161/
+  img: https://avatars2.githubusercontent.com/u/32352500?s=400&v=4
+
 #Members
 - category: Member
   name: Nehal
