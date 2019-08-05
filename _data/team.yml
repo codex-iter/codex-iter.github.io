@@ -101,6 +101,15 @@
   desc: --
   img:
 
+- category: Coordinator
+  name: Pawan Gorai
+  title: Coordinator
+  desc: I'm a 3rd year B.Tech CSIT Student. 
+  stack: Java, Javascript
+  social-links:
+    github: https://github.com/Pawan0411
+  img: https://avatars2.githubusercontent.com/u/32352500?s=400&v=4
+
 #Members
 - category: Member
   name: Nehal
