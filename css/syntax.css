@@ -1,0 +1,68 @@
+/*
+ * syntax.css
+ * GitHub syntax highlighting styles
+ * obtained from https://github.com/mojombo/tpw/blob/master/css/syntax.css
+ *
+ */
+ 
+.highlight  { background: #000000; }
+.highlight .c { color: #999988; font-style: italic } /* Comment */
+.highlight .err { color: #ff4444; background-color: #e3d2d2 } /* Error */
+.highlight .k { font-weight: bold } /* Keyword */
+.highlight .o { font-weight: bold } /* Operator */
+.highlight .cm { color: #999988; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #999999; font-weight: bold } /* Comment.Preproc */
+.highlight .c1 { color: #999988; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.highlight .gd .x { color: #000000; background-color: #ffaaaa } /* Generic.Deleted.Specific */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #ff5858 } /* Generic.Error */
+.highlight .gh { color: #e7e7e7 } /* Generic.Heading */
+.highlight .gi { color: #292929; background-color: #ddffdd } /* Generic.Inserted */
+.highlight .gi .x { color: #000000; background-color: #aaffaa } /* Generic.Inserted.Specific */
+.highlight .go { color: #cca0a0 } /* Generic.Output */
+.highlight .gp { color: #d4d4d4 } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #d1c9c9 } /* Generic.Subheading */
+.highlight .gt { color: #ff6767 } /* Generic.Traceback */
+.highlight .kc { font-weight: bold } /* Keyword.Constant */
+.highlight .kd { font-weight: bold } /* Keyword.Declaration */
+.highlight .kp { font-weight: bold } /* Keyword.Pseudo */
+.highlight .kr { font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #728cda; font-weight: bold } /* Keyword.Type */
+.highlight .m { color: #ffe797 } /* Literal.Number */
+.highlight .s { color: rgb(255, 113, 113) } /* Literal.String */
+.highlight .na { color: #e4e680 } /* Name.Attribute */
+.highlight .nb { color: rgb(109, 194, 223) } /* Name.Builtin */
+.highlight .nc { color: #8ea0d4; font-weight: bold } /* Name.Class */
+.highlight .no { color: #85fc98 } /* Name.Constant */
+.highlight .ni { color: #ff68ff } /* Name.Entity */
+.highlight .ne { color: #ff7373; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #ff7777; font-weight: bold } /* Name.Function */
+.highlight .nn { color: #d1d1d1 } /* Name.Namespace */
+.highlight .nt { color: #9595ff } /* Name.Tag */
+.highlight .nv { color: #9dffd6 } /* Name.Variable */
+.highlight .ow { font-weight: bold } /* Operator.Word */
+.highlight .w { color: #cfcfcf } /* Text.Whitespace */
+.highlight .mf { color: #3dffff } /* Literal.Number.Float */
+.highlight .mh { color: #00ffff } /* Literal.Number.Hex */
+.highlight .mi { color: #00ffff } /* Literal.Number.Integer */
+.highlight .mo { color: #00ffff } /* Literal.Number.Oct */
+.highlight .sb { color: rgb(253, 101, 139) } /* Literal.String.Backtick */
+.highlight .sc { color: rgb(241, 77, 118) } /* Literal.String.Char */
+.highlight .sd { color: rgb(243, 71, 114) } /* Literal.String.Doc */
+.highlight .s2 { color: rgb(245, 77, 119) } /* Literal.String.Double */
+.highlight .se { color: rgb(243, 42, 92) } /* Literal.String.Escape */
+.highlight .sh { color: rgb(226, 98, 130) } /* Literal.String.Heredoc */
+.highlight .si { color: rgb(219, 97, 127) } /* Literal.String.Interpol */
+.highlight .sx { color: rgb(226, 71, 110) } /* Literal.String.Other */
+.highlight .sr { color: #50e275 } /* Literal.String.Regex */
+.highlight .s1 { color: rgb(214, 69, 105) } /* Literal.String.Single */
+.highlight .ss { color: #c74ea9 } /* Literal.String.Symbol */
+.highlight .bp { color: #d3d3d3 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #a4e2e2 } /* Name.Variable.Class */
+.highlight .vg { color: #63bebe } /* Name.Variable.Global */
+.highlight .vi { color: #68a7a7 } /* Name.Variable.Instance */
+.highlight .il { color: #76dbdb } /* Literal.Number.Integer.Long */
+.highlight { color: rgb(255, 147, 174); }
