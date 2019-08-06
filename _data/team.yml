@@ -14,8 +14,8 @@
 - category: Faculty
   name: Dr. Nimisha Ghosh
   title: Associate Member
-  desc: Empty
-  img: https://scontent-maa2-2.xx.fbcdn.net/v/t1.0-9/582474_10151214411797638_901838014_n.jpg?_nc_cat=108&_nc_oc=AQkEtdT1l5gg-5Jo3t1hxE8Mvvb7umk-4EbsWTCoQJ7bbLaglRrktIHXTDHJfXYoaog&_nc_ht=scontent-maa2-2.xx&oh=98bb3e18bd0c37789b840d6fad9e4965&oe=5DA838AD
+  desc: I am an Assistant professor in the Department of Computer Science and Information Technology. <br> I have completed my B.Tech from West Bengal University of Technology in 2009. After that I had worked for 2 years at Accenture. I left my job to pursue my masters degree from Indian institute of Engineering Science and Technology, Shibpur in 2014. <br>I have completed my PhD in 2018 from the same institute as well.
+  img: ../img/faculty/nimisha_ghosh.png
 
 - category: Faculty
   name: Dr. Suman Sau
@@ -287,4 +287,26 @@
   - Javascript
   social-links:
     github: https://github.com/MadhabaPatra
+  img: https://avatars1.githubusercontent.com/u/42464927?s=400&v=4
   
+- category: Member
+  name: Jyoti Jayadeep
+  title: Member
+  desc: I'm a 2nd year B.Tech CSE E student at ITER.
+  stack:
+  - C
+  - Python
+  social-links:
+   github: https://github.com/obli99
+  img: https://avatars2.githubusercontent.com/u/44501265?s=400&v=4
+
+- category: Member
+  name: Sandip Nayak
+  title: Member
+  desc: I'm a 2nd year B.Tech CSE student.
+  stack:
+  - C
+  - Python
+  social-links:
+    github: https://github.com/SandipNayak
+  img: https://avatars3.githubusercontent.com/u/46400343?s=400&u=fd0d1b8fd3406e872fcdabfa2514c7ba8dd26cf4&v=4
