@@ -26,22 +26,46 @@ h5,
 h6 {
   font-family: 'Roboto', sans-serif;
 }
+h1 {
+  font-size: 35px;
+  font-weight: 400;
+  color: #da89ff;
+}
 h2 {
   font-size: 30px;
   font-weight: 400;
+  color: #fa6f5f;
 }
 h3 {
   font-size: 28px;
   font-weight: 300;
+  color: #fd9f94;
+}
+h4 {
+  font-size: 23px;
+  font-weight: 300;
+  color: #ffc2bc;
+}
+h5 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffbcf9;
 }
 p {
   font-size: 15px;
   line-height: 28px;
+  color: #fff3ac;
 }
 ul {
-  padding: 0;
+  padding-left: 30px;
   margin: 0;
   list-style: none;
+  color: #cbfb8d;
+}
+ol {
+  padding-left: 30px;
+  margin: 0;
+  color: #8dfba8;
 }
 a,
 a:active,
@@ -190,13 +214,13 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 100px 0;
 }
 #intro .block h2 {
-  color: rgb(243, 243, 243);
+  color: rgb(255, 115, 115);
   padding-top: 35px;
   line-height: 27px;
   margin: 0;
 }
 #intro .block p {
-  color: rgb(212, 212, 212);
+  color: rgb(184, 255, 220);
   padding-top: 20px;
   font-size: 18px;
 }
@@ -473,6 +497,48 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 1px;
   word-spacing: 3px;
 }
+
+#global-header-blog {
+  background: url("../img/bg.png") no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 300px;
+  position: relative;
+  background-attachment: fixed;
+}
+#global-header-blog:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+  opacity: 0.9;
+}
+#global-header-blog .block {
+  color: #E3E3E4;
+  margin: 0 auto;
+  padding-left: 90px;
+  text-align: center;
+}
+#global-header-blog .block h1 {
+  font-weight: 100;
+  font-size: 45px;
+  letter-spacing: 6px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+#global-header-blog .block p {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
 /*--
 	portfolio-work Start
 --*/
@@ -966,3 +1032,6 @@ footer .footer-manu ul li a {
 footer .footer-manu ul li a:hover {
   color: rgb(255, 137, 137);
 }
+/*---------------------------------------------
+					      Footer End
+-----------------------------------------------*/

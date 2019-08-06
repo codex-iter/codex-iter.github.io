@@ -20,15 +20,19 @@
   padding: 40px;
   width: 100%;
   min-height: 150px;
-  background-color: white;
+  background-color: #0d0d0d;
   border-bottom: 1px dotted #ddd;
 }
 
 .post-area a:link, .post-area a:visited {
   font-size: 30px;
-  color: #333;
+  color: rgb(255, 111, 111);
 }
 
 .post-area a:hover {
-  color: #0D0017;
+  color: rgb(193, 112, 255);
+}
+
+.post-date {
+  color: rgba(253, 255, 117, 0.87);
 }
