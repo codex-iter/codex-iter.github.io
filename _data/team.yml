@@ -228,6 +228,16 @@
   img: https://avatars2.githubusercontent.com/u/32352500?s=400&v=4
 
 #Members
+-category: Member
+ Name: Sonali Pradhan 
+ Title: Member
+ Desc:I am a 1st year B.Tech CSE student
+ Social links:https://github.com/pradhansonali67
+ Img: https://avatars2.githubusercontent.com/u/53335321?s=400&v=4
+ Stack:
+   -Java
+   -C++
+
 - category: Member
   name: Nehal
   title: Member
