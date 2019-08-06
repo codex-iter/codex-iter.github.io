@@ -1,3 +1,12 @@
+#------ How to add data to the yml file--------------
+# 1. Search for you respective category
+# 2. Add name to name:
+# 3. Add title just like others in the same category
+# 4. Add a small bio/description to desc: 
+# 5. Add your github link to github: under socail-link   [ Please maintain the alignmet! ]
+# 6. Add the link to your github avatar image to img:
+# 7. Add your prefered languages to the stack:
+
 #Faculty
 - category: Faculty
   name: Dr. Satyabrata Maity
@@ -81,10 +90,16 @@
 - category: Founders
   name: Sidharth Satapathy
   title: Founder
-  desc: Empty
+  desc:  In short I am a tech Savvy. I have always been fascinated by computers from childhood.<br>Athough I have had some failed startups I have learnt a lot from the experiences. I am looking forward to pursuing my passion and obsession with how technology works.<br>I have worked on various websites. I have made a website for the Odisha government named (dakhinaodishaunnayanparishad.org ). I have made small android apps. The more I am learning about and building stuffs I can clearly see that I am just touching the surface of a huge ocean of technology.<br>I'm looking forward to continue learning and building new stuffs. 
   social-links:
     github: https://github.com/xlreon
-    linkedin: in.linkedin.com/in/sidharthsatapathy
+    linkedin: https://in.linkedin.com/in/sidharthsatapathy
+  stack:
+    - JavaScript
+    - Android Development
+    - Full-Stack Web Development
+    - Python
+    - ML & AI
   img: https://avatars2.githubusercontent.com/u/26788670?s=460&v=4
   
 - category: Founders
@@ -93,34 +108,33 @@
   desc: Empty
   social-links:
     github: https://github.com/dashPreetam
-    linkedin: linkedin.com/in/swastikdash1/
-  img:
+    linkedin: https://in.linkedin.com/in/swastikdash1/
+  img: https://media.licdn.com/dms/image/C5103AQF0u3mEKWy8Tg/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=RMN9BsvbJrog5ixhg5vbz-qs1BnMg874iEfLj6xhfdg
   
 - category: Founders
   name: Amitdyuti Behera
   title: Founder
-  desc: Empty
+  desc: A perfect blend of miniscule imperfections.
   social-links:
     github: 
-    linkedin: linkedin.com/in/amitdyuti
-  img:
+    linkedin: https://in.linkedin.com/in/amitdyuti
+  img: https://media.licdn.com/dms/image/C5603AQHUfnsCiWCZRg/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=Kfc7GANWRBcUiTow21tck5gbO-9vL_tXsB91SS-EezA
   
 - category: Founders
   name: Ankita Rath
   title: Founder
-  desc: Empty
+  desc: Experienced Software Engineer with a demonstrated history of working in the computer software industry. Skilled in Java, ColdBox, HTML, CSS, JS, Angular.
   social-links:
     github: https://github.com/Ank-lucky
-    linkedin: linkedin.com/in/ankita-rath
-  img:
+    linkedin: https://in.linkedin.com/in/ankita-rath
+  img: https://media.licdn.com/dms/image/C5103AQGkuUF51Mxdlw/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=O_NzTdsTrTG1U28Pe9BbBgvLiTTaPtrwXmPfPPPvac0
   
 - category: Founders
   name: Adarsh Biswal
   title: Founder
-  desc: Empty
+  desc: True Stack JAVA developer
   social-links:
     github: https://github.com/AdarshBiswal
-    linkedin: linkedin.com/in/adarshbiswal57
   img: https://avatars3.githubusercontent.com/u/26766225?s=460&v=4
   
 #Alumni
@@ -146,11 +160,11 @@
 - category: Senior Coordinator
   name: Debashish Mishra
   title: Senior Coordinator
-  desc: I'm a 4th year B.Tech CSE student.<br> I'm currently working in the field of Machine Learning and learning about Image Processing Algorithms.<br> I love Linux and Free Open Source Software[FOSS].<br> I'm also a huge nerd and an otaku, so if you wnat to re-watch the whole naruto series then ping me, we will watch it together :D.
+  desc: I'm a 4th year B.Tech CSE student.<br> I'm currently working in the field of Machine Learning and learning about Image Processing Algorithms.<br> I love Linux and Free Open Source Software[FOSS].<br> I'm also a huge nerd and an otaku, so if you want to re-watch the whole naruto series then ping me, we will watch it together :D.
   stack: 
     - C
     - Python
-    - Fulls-Stack Web Development
+    - Back-end Web Development
     - Linux
   social-links:
     github: https://github.com/Zanark
