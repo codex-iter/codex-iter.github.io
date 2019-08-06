@@ -144,17 +144,18 @@
   desc: Empty
   social-links:
     github: https://github.com/srinibasbiswal/
-    linkedin: linkedin.com/in/srinibasbiswal
-  img:
+    linkedin: https://in.linkedin.com/in/srinibasbiswal
+    website: https://srinibasbiswal.com/
+  img: https://media.licdn.com/dms/image/C4E03AQGf4Vjv5xobZw/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=QWBUa7UosTAZyoDyRmvnTJ2SQjYjD7BURu2KiS_ZLx4
   
 - category: Alumni
   name: Swaraj Laha
   title: Senior Coordinator
-  desc: Empty
+  desc: Highly interested in Front End Web Development and Cloud Computing Platforms, like AWS.
   social-links:
     github: https://github.com/swarajlaha
-    linkedin: swarajlaha
-  img:
+    linkedin: https://in.linkedin.com/in/swarajlaha 
+  img: https://media.licdn.com/dms/image/C5103AQGo2T8w5Hi0PQ/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=01HuCk8vH8jSSriHSwxBmnjnhj0d9BNUYQQRgUVSfXo
     
 #Senior Coordinator
 - category: Senior Coordinator
