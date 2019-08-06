@@ -14,7 +14,7 @@
 - category: Faculty
   name: Dr. Nimisha Ghosh
   title: Associate Member
-  desc: I am an Assistant professor in the Department of Computer Science and Information Technology. <br> I have completed my B.Tech from West Bengal University of Technology in 2009. After that I had worked for 2 years at Accenture. I left my job to pursue my masters degree from Indian institute of Engineering Science and Technology, Shibpur in 2014. <br>I have completed my PhD in 2018 from the same institute as well.
+  desc: I am an Assistant professor in the Department of Computer Science and Information Technology. <br> I have completed my B.Tech from West Bengal University of Technology in 2009.<br>After that I had worked for 2 years at Accenture.<br>I left my job to pursue my masters degree from Indian institute of Engineering Science and Technology, Shibpur in 2014.<br>I have completed my PhD in 2018 from the same institute as well.
   stack:
     - Machine Learning
     - Internet of Things
@@ -146,7 +146,7 @@
 - category: Senior Coordinator
   name: Debashish Mishra
   title: Senior Coordinator
-  desc: I'm a 4th year B.Tech CSE student.
+  desc: I'm a 4th year B.Tech CSE student.<br> I'm currently working in the field of Machine Learning and learning about Image Processing Algorithms.<br> I love Linux and Free Open Source Software[FOSS].<br> I'm also a huge nerd and an otaku, so if you wnat to re-watch the whole naruto series then ping me, we will watch it together :D.
   stack: 
     - C
     - Python
@@ -172,7 +172,7 @@
 - category: Coordinator
   name: MD Azmal
   title: Coordinator
-  desc: I am a 3rd year B.Tech CSE student. I have a good experience in working with blockchain and fullstack. Currently I am exploring Machine Learning and IoT.
+  desc: I am a 3rd year B.Tech CSE student.<br> I have a good experience in working with blockchain and fullstack.<br> Currently I am exploring Machine Learning and IoT.
   stack: 
     - Python
     - Javascript
