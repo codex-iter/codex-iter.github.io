@@ -331,3 +331,16 @@
   social-links:
     github: https://github.com/SandipNayak
   img: https://avatars3.githubusercontent.com/u/46400343?s=400&u=fd0d1b8fd3406e872fcdabfa2514c7ba8dd26cf4&v=4
+  
+  - category: Member
+  name: Sweta Snigdha Sahoo
+  title: Member
+  desc: I'm a 2nd year B.Tech CSE B student at ITER.
+  stack:  
+  - Java
+  - C++
+  - C
+  social-links:
+    github: https://github.com/swetasahoo29
+  img: https://avatars3.githubusercontent.com/u/46675936?s=400&u=860c2b351beff7f9733cc728640fcaf55fec55f5&v=4
+  
