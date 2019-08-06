@@ -15,7 +15,13 @@
   name: Dr. Nimisha Ghosh
   title: Associate Member
   desc: I am an Assistant professor in the Department of Computer Science and Information Technology. <br> I have completed my B.Tech from West Bengal University of Technology in 2009. After that I had worked for 2 years at Accenture. I left my job to pursue my masters degree from Indian institute of Engineering Science and Technology, Shibpur in 2014. <br>I have completed my PhD in 2018 from the same institute as well.
+  stack:
+    - Machine Learning
+    - Internet of Things
+    - Wireless Sensor Network
   img: ../img/faculty/nimisha_ghosh.png
+  social-links:
+    website: nimishaghosh.epizy.com
 
 - category: Faculty
   name: Dr. Suman Sau
