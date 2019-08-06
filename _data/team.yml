@@ -331,3 +331,11 @@
   social-links:
     github: https://github.com/SandipNayak
   img: https://avatars3.githubusercontent.com/u/46400343?s=400&u=fd0d1b8fd3406e872fcdabfa2514c7ba8dd26cf4&v=4
+  
+  - category: Member
+  name: Yash Gupta
+  title: Member
+  desc: I'm a 2nd year B.Tech CSE student.
+  stack: Java, C
+  social-links: https://github.com/yash9685
+  img: https://avatars1.githubusercontent.com/u/45978218?s=400&v=4
