@@ -248,6 +248,20 @@
   social-links:
     github: https://github.com/mojito9542
   img: https://avatars3.githubusercontent.com/u/35900091?s=400&v=4
+  
+  - category: Member
+  name:  Parag Bhattacharjee
+  title: Member
+  desc: I'm a 3rd year B.Tech CSE student.<br> I have some exposure to android app developement,web developement and PHP.<br> I am currently working on a tourism app,web-designing and attendance management system.
+  stack: 
+    - Java,C
+    - Web Developement
+    - PHP
+    - Oracle,MySql
+    - Android App Developement
+  social-links:
+    github: https://github.com/Parag357
+  img: https://avatars0.githubusercontent.com/u/42310311?s=400&v=4
 
 - category: Member
   name:  Swagat Parija
