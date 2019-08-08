@@ -331,3 +331,14 @@
   social-links:
     github: https://github.com/SandipNayak
   img: https://avatars3.githubusercontent.com/u/46400343?s=400&u=fd0d1b8fd3406e872fcdabfa2514c7ba8dd26cf4&v=4
+
+-category:Member
+ name: Sonali Pradhan
+ title: Member
+ desc: I'm a 1st year CSE student 
+ stack:
+ -C++
+ -Java
+ social-links:
+   github: https://github.com/pradhansonali67
+ img: https://avatars2.githubusercontent.com/u/53335321?s=400&v=4
