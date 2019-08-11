@@ -18,7 +18,7 @@ permalink: /team/
     </div>
 </section>  
 
-<!-- Portfolio Start -->
+<!-- Portfolios Start -->
 <section id="portfolio-work">
 {% if site.data.team.size > 0 %}
 <div class="container">
@@ -39,7 +39,7 @@ permalink: /team/
             </div><!-- .col-md-7 close -->
             <div class="col-md-5 col-sm-12">
               <div class="profile" style="border: 0px;">
-                <img src="{{ p.img }}" alt="Img">
+                <a href="{{ p.social-links.website }}"> <img src="{{ p.img }}" alt="Img"> </a>
               </div>
             </div><!-- .col-md-5 close -->
                         
@@ -77,7 +77,7 @@ permalink: /team/
             </div><!-- .col-md-7 close -->
             <div class="col-md-5 col-sm-12">
               <div class="profile" style="border: 0px;">
-                <img src="{{ p.img }}" alt="Img">
+                <a href="{{ p.social-links.github }}"> <img src="{{ p.img }}" alt="Img"> </a>
               </div>
             </div><!-- .col-md-5 close -->
                         
@@ -114,7 +114,7 @@ permalink: /team/
             </div><!-- .col-md-7 close -->
             <div class="col-md-5 col-sm-12">
               <div class="profile" style="border: 0px;">
-                <img src="{{ p.img }}" alt="Img">
+                <a href="{{ p.social-links.github }}"> <img src="{{ p.img }}" alt="Img"> </a>
               </div>
             </div><!-- .col-md-5 close -->
                         
