@@ -380,3 +380,15 @@
   social-links:
     github: https://github.com/Parag357
   img: https://avatars0.githubusercontent.com/u/42310311?s=400&v=4
+
+- category: Member
+  name: Ankita Satapathy
+  title: Member
+  desc: I'm a 2nd year B.Tech CSE student
+  stack:
+   - C
+   - Java
+   - Javascript
+  social-links:
+    github: http://github.com/ankita-04
+  img: https://avatars3.githubusercontent.com/u/45062304?s=400&v=4
