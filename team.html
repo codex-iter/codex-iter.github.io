@@ -30,11 +30,13 @@ permalink: /team/
       {% for p in site.data.team %}
         {% if p.category == "Faculty" %}
 
+        
+
         <div class="row-eq-height">
             <div class="col-md-7 col-sm-12">
               <div class="block">
                   <h2>{{ p.name }}</h2>
-                <p>{{ p.desc }}</p>
+                <p>{{ p.desc }}</p><br>
               </div>
             </div><!-- .col-md-7 close -->
             <div class="col-md-5 col-sm-12">
@@ -51,9 +53,24 @@ permalink: /team/
               {% endfor %}
             </ul>
             <!-- Stack Tags End-->
-          
+            <br>
+            <div id="social-links">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <ul class="list-inline social-links">
+                        <li>
+                          <a href="{{ p.social-links.website }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Github">
+                            <i class="fa fa-globe" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div><!-- Faculty Close -->
-          <br>
+          <br><br><br>
 
         {% endif %}
       {% endfor %}
@@ -79,8 +96,7 @@ permalink: /team/
               <div class="profile" style="border: 0px;">
                 <a href="{{ p.social-links.github }}"> <img src="{{ p.img }}" alt="Img"> </a>
               </div>
-            </div><!-- .col-md-5 close -->
-                        
+            </div><!-- .col-md-5 close -->            
             <br>
             <!-- Stack Tags -->
             <ul class="stack">
@@ -89,6 +105,30 @@ permalink: /team/
               {% endfor %}
             </ul>
             <!-- Stack Tags End-->
+            <br>
+            <!-- Social Links -->
+            <div id="social-links">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <ul class="list-inline social-links">
+                        <li>
+                          <a href="{{ p.social-links.github }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Github">
+                            <i class="icon ion-social-github" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li>
+                            <a href="{{ p.social-links.linkedin }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Github">
+                              <i class="icon ion-social-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Social Links End-->
           
           </div><!-- Founders End --><br>
 
@@ -126,6 +166,29 @@ permalink: /team/
               {% endfor %}
             </ul>
             <!-- Stack Tags End-->
+            <br>
+            <!-- Social Links -->
+            <div id="social-links">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <ul class="list-inline social-links">
+                        <li>
+                          <a href="{{ p.social-links.github }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Github">
+                            <i class="icon ion-social-github" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li>
+                            <a href="{{ p.social-links.linkedin }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Github">
+                              <i class="icon ion-social-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Social Links End-->
           
           </div><!-- ALumni End --><br>
 
@@ -162,6 +225,29 @@ permalink: /team/
               {% endfor %}
             </ul>
             <!-- Stack Tags End-->
+            <br>
+            <!-- Social Links -->
+            <div id="social-links">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <ul class="list-inline social-links">
+                        <li>
+                          <a href="{{ p.social-links.github }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Github">
+                            <i class="icon ion-social-github" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li>
+                            <a href="{{ p.social-links.linkedin }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Github">
+                              <i class="icon ion-social-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- Social Links End-->
           
         </div><!-- Senior Coordinator End --><br><br>
 
@@ -199,7 +285,29 @@ permalink: /team/
               {% endfor %}
             </ul>
             <!-- Stack Tags End-->
-
+            <br>
+            <!-- Social Links -->
+            <div id="social-links">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <ul class="list-inline social-links">
+                        <li>
+                          <a href="{{ p.social-links.github }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Github">
+                            <i class="icon ion-social-github" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li>
+                            <a href="{{ p.social-links.linkedin }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Github">
+                              <i class="icon ion-social-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- Social Links End-->
           </div><!-- Coordinators Close --><br>
 
       {% endif %}
@@ -234,7 +342,29 @@ permalink: /team/
               <li><a href="https://duckduckgo.com/?q={{tag}}" class="tag">{{ tag }}</a></li>
               {% endfor %}
             </ul>
-
+            <br>
+            <!-- Social Links -->
+            <div id="social-links">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <ul class="list-inline social-links">
+                        <li>
+                          <a href="{{ p.social-links.github }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Github">
+                            <i class="icon ion-social-github" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li>
+                            <a href="{{ p.social-links.linkedin }}" class="btn-social btn-outline" data-toggle="tooltip" data-placement="top" title="Github">
+                              <i class="icon ion-social-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- Social Links End-->
           </div><!-- Member Close --><br>
 
       {% endif %}
