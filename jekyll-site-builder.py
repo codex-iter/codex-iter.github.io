@@ -7,8 +7,8 @@ def jekyll_builder(cwd):
     #creates a ../temp folder
     #builds site inside that folder
 
-    os.system("git push origin jekyll")
-    print("\n * Pushed to jekyll branch" + "\n-------------------------\n-------------------------")
+    #os.system("git push origin jekyll")
+    #print("\n * Pushed to jekyll branch" + "\n-------------------------\n-------------------------")
 
     build_no = input("Enter the build number\t")
     comm_message = input("Describe your changes\t")
