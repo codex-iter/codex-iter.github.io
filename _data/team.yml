@@ -307,6 +307,20 @@
   img: https://avatars3.githubusercontent.com/u/45957713?s=400&u=6afe2d2e1be48207a097a26c20a74abb59c094ac&v=4
 
 - category: Member
+  name: Gyanaranjan Sahoo
+  title: Member
+  desc: I Love Automation , Pentesting And Reverse Engineering
+  stack:  
+  - Java
+  - Python
+  - Bash
+  - Visual Basic
+  - Ethical Hacking
+  social-links:
+    github: https://github.com/TheSpeedX
+  img: https://avatars3.githubusercontent.com/u/42498830?v=4
+
+- category: Member
   name: Madhaba Patra
   title: Member
   desc: I'm a 2nd year B.Tech CSIT B student at ITER.
