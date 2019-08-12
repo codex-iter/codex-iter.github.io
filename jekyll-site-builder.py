@@ -9,7 +9,7 @@ def jekyll_builder(cwd):
     build_no = input("Enter the build number\t")
     comm_message = input("Describe your changes\t")
     
-    print("\n * Creating temp dir at "+cwd+"/../temp/")
+    print("\n * Creating temp dir at "+cwd+"/../temp/" + "\n-------------------------")
     os.system("mkdir "+cwd+"/../temp/")
 
     print("\n * Building static pages to "+cwd+"/../temp/" + "\n-------------------------")
@@ -30,13 +30,13 @@ def repo_handler(build_no, comm_message):
     os.system("git checkout master")
     
     os.system("rm -rf ./*")
-    print("\n * Removed files inside master branch......" + "\n-------------------------")
+    print("\n * Removed files inside master branch......" + "\n-------------------------\n\n")
     
     os.system("git addcomm -m \"Build No.: "+build_no+" :: "+comm_message+" | part 1\"")
     print("\n\n")
     
     os.system("cp -r ../temp/* ./")
-    print("\n * Added build files inside master branch......" + "\n-------------------------")
+    print("\n * Added build files inside master branch......" + "\n-------------------------\n\n")
 
     if(os.path.isdir("./_site/")):
         print("\n * _site/ folder exists, deleting the folder......" + "\n-------------------------")
