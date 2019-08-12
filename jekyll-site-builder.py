@@ -1,5 +1,4 @@
 import os
-import time
 
 def jekyll_builder(cwd):
     #asks for build no
@@ -51,7 +50,6 @@ def repo_handler(build_no, comm_message):
 
     print("\n * Pushing to GitHub" + "\n-------------------------")
     os.system("git push origin master")
-    #time.sleep(3)
 
     if(os.path.isdir("./_site/")):
         print("\n * _site/ folder exists, deleting the folder......" + "\n-------------------------")
@@ -61,7 +59,7 @@ def repo_handler(build_no, comm_message):
         print("\n * _site/ folder does not exist" + "\n-------------------------\n\n")    
 
     print("\n * switching back to jekyll branch" + "\n-------------------------\n\n")
-    os.system("git checkout master")
+    os.system("git checkout jekyll")
 
 if __name__ == '__main__':
     cwd = os.getcwd()
