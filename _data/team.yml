@@ -331,3 +331,15 @@
   social-links:
     github: https://github.com/SandipNayak
   img: https://avatars3.githubusercontent.com/u/46400343?s=400&u=fd0d1b8fd3406e872fcdabfa2514c7ba8dd26cf4&v=4
+  
+  -category: Member
+  name: Ankita Satapathy
+  title: Member
+  desc: I'm a 2nd year B.Tech CSE student
+  stack:
+   -C
+   -Java
+   -Javascript
+  social-links:
+    github: http://github.com/ankita-04/Zoya
+  img: https://avatars3.githubusercontent.com/u/45062304?s=400&v=4
