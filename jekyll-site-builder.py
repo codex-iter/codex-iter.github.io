@@ -1,4 +1,5 @@
 import os
+import time
 
 def jekyll_builder(cwd):
     #asks for build no
@@ -42,13 +43,25 @@ def repo_handler(build_no, comm_message):
         print("\n * _site/ folder exists, deleting the folder......" + "\n-------------------------")
         os.system("rm -rf ./_site")
         print("\n * _site/ deleted" + "\n-------------------------\n")
+    else:
+        print("\n * _site/ folder does not exist" + "\n-------------------------\n\n")
 
     os.system("git addcomm -m \"Build No.: "+build_no+" :: "+comm_message+" | part 2\"")
     print("\n\n")
 
     print("\n * Pushing to GitHub" + "\n-------------------------")
     os.system("git push origin master")
+    #time.sleep(3)
 
+    if(os.path.isdir("./_site/")):
+        print("\n * _site/ folder exists, deleting the folder......" + "\n-------------------------")
+        os.system("rm -rf ./_site")
+        print("\n * _site/ deleted" + "\n-------------------------\n")
+    else:
+        print("\n * _site/ folder does not exist" + "\n-------------------------\n\n")    
+
+    print("\n * switching back to jekyll branch" + "\n-------------------------\n\n")
+    os.system("git checkout master")
 
 if __name__ == '__main__':
     cwd = os.getcwd()
