@@ -36,6 +36,7 @@ def repo_handler(build_no, comm_message):
     os.system("rm -rf ./*")
     print("\n * Removed files inside master branch......" + "\n-------------------------\n\n")
     
+    print("\n * Commiting changes......" + "\n-------------------------")
     os.system("git addcomm -m \"Build No.: "+build_no+" :: "+comm_message+" | part 1\"")
     print("\n\n")
     
@@ -49,6 +50,7 @@ def repo_handler(build_no, comm_message):
     else:
         print("\n * _site/ folder does not exist" + "\n-------------------------\n\n")
 
+    print("\n * Commiting changes......" + "\n-------------------------")
     os.system("git addcomm -m \"Build No.: "+build_no+" :: "+comm_message+" | part 2\"")
     print("\n\n")
 
