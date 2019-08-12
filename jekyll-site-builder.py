@@ -28,12 +28,24 @@ def repo_handler(build_no, comm_message):
     #pushes to github
 
     os.system("git checkout master")
+    
     os.system("rm -rf ./*")
     print("\n * Removed files inside master branch......" + "\n-------------------------")
-    os.system("git addcomm -m \""+build_no+" : "+comm_message+" | part 1\"")
+    
+    os.system("git addcomm -m \"Build No.: "+build_no+" :: "+comm_message+" | part 1\"")
+    print("\n\n")
+    
     os.system("cp -r ../temp/* ./")
     print("\n * Added build files inside master branch......" + "\n-------------------------")
-    os.system("git addcomm -m \""+build_no+" : "+comm_message+" | part 2\"")
+
+    if(os.path.isdir("./_site/")):
+        print("\n * _site/ folder exists, deleting the folder......" + "\n-------------------------")
+        os.system("rm -rf ./_site")
+        print("\n * _site/ deleted" + "\n-------------------------\n")
+
+    os.system("git addcomm -m \"Build No.: "+build_no+" :: "+comm_message+" | part 2\"")
+    print("\n\n")
+
     print("\n * Pushing to GitHub" + "\n-------------------------")
     os.system("git push origin master")
 
