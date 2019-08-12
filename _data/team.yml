@@ -229,18 +229,19 @@
       linkedin: https://www.linkedin.com/in/pawan-kumar-gorai-b79508161/
   img: https://avatars2.githubusercontent.com/u/32352500?s=400&v=4
 
-#Members
-- category: Member
-  name: Nehal
+- category: Coordinator
+  name: Pritam Kar
   title: Member
-  desc: Empty
-  img: https://avatars1.githubusercontent.com/u/41484543?s=400&v=4
-  stack:
+  desc: I'm a 2nd year B.Tech CSE student at ITER.
+  stack: 
     - Java
+    - C++
     - Python
-    - Ethical Hacking
+  social-links:
+    github: https://github.com/pikaz143
+  img: https://avatars3.githubusercontent.com/u/42296778?s=400&v=4
 
-- category: Member
+- category: Coordinator
   name:  Mohit Agarwal
   title: Member
   desc: I'm a 4th year B.Tech CSIT student.
@@ -251,7 +252,7 @@
     github: https://github.com/mojito9542
   img: https://avatars3.githubusercontent.com/u/35900091?s=400&v=4
 
-- category: Member
+- category: Coordinator
   name:  Swagat Parija
   title: Member
   desc: I'm a 4th year B.Tech CSIT student.
@@ -264,7 +265,7 @@
     linkedin: https://www.linkedin.com/in/swagat-parija
   img: https://avatars1.githubusercontent.com/u/31531209?s=460&v=4
 
-- category: Member
+- category: Coordinator
   name:  Syed Salif Moin
   title: Member
   desc: I'm a 4th year B.Tech CSE student at ITER.
@@ -276,17 +277,16 @@
     github: https://github.com/salif-04
   img: https://avatars0.githubusercontent.com/u/32351953?s=460&v=4
 
+#Members
 - category: Member
-  name: Pritam Kar
+  name: Nehal
   title: Member
-  desc: I'm a 2nd year B.Tech CSE student at ITER.
-  stack: 
+  desc: Empty
+  img: https://avatars1.githubusercontent.com/u/41484543?s=400&v=4
+  stack:
     - Java
-    - C++
     - Python
-  social-links:
-    github: https://github.com/pikaz143
-  img: https://avatars3.githubusercontent.com/u/42296778?s=400&v=4
+    - Ethical Hacking
 
 - category: Member
   name: Adarsh Padhi
