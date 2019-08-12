@@ -1,4 +1,9 @@
-#------ How to add data to the yml file--------------
+#------ How to contribute ----------------------------
+# 1. Fork this repo
+# 2. Edit the yml file in your forked repo
+# 3. Send a Pull Request from your repo
+
+#------ How to add data to the yml file --------------
 # 1. Search for you respective category
 # 2. Add name to name:
 # 3. Add title just like others in the same category
