@@ -9,8 +9,13 @@ def jekyll_builder(cwd):
     build_no = input("Enter the build number\t")
     comm_message = input("Describe your changes\t")
     
+    print("\n * Creating temp dir at "+cwd+"/../temp/")
     os.system("mkdir "+cwd+"/../temp/")
+
+    print("\n * Building static pages to "+cwd+"/../temp/")
     os.system("bundle exec jekyll build -d ../temp/")
+    print("\n * Building done......\n\n")
+
     repo_handler(build_no, comm_message)
 
 def repo_handler(build_no, comm_message):
@@ -24,9 +29,12 @@ def repo_handler(build_no, comm_message):
 
     os.system("git checkout master")
     os.system("rm -rf ./*")
+    print("\n * Removed files inside master branch......")
     os.system("git addcomm -m \""+build_no+" : "+comm_message+" | part 1\"")
     os.system("cp -r ../temp/* ./")
+    print("\n * Added build files inside master branch......")
     os.system("git addcomm -m \""+build_no+" : "+comm_message+" | part 2\"")
+    print("\n * Pushing to GitHub")
     os.system("git push origin master")
 
 
