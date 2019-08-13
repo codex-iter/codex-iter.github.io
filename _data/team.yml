@@ -397,3 +397,15 @@
   social-links:
     github: http://github.com/ankita-04
   img: https://avatars3.githubusercontent.com/u/45062304?s=400&v=4
+
+- category: Member
+  name: Subham Sagar Paira
+  title: Member
+  desc: I'm a 2nd year B.Tech CSIT A student at ITER.
+  stack:  
+  - C
+  - C++
+  - Java
+  social-links:
+    github: https://github.com/subhamsagar524
+  img: https://avatars1.githubusercontent.com/u/42293958?s=400&v=4
