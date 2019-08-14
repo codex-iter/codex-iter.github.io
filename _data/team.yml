@@ -190,6 +190,19 @@
     github: https://github.com/SubhrajitPrusty
   img: https://avatars1.githubusercontent.com/u/4463839?s=460&v=4
 
+- category: Senior Coordinator
+  name: Dibya Ranjan Jena 
+  title: Senior Coordinator
+  desc: I'm a 4th year B.Tech ECE student.
+  stack: 
+    - Python
+    - Docker
+    - Linux
+  social-links:
+    github: https://github.com/dibyasonu
+    linkedin: https://www.linkedin.com/in/dibyajena/
+  img: https://media.licdn.com/dms/image/C5103AQHx8KFG41UrPA/profile-displayphoto-shrink_200_200/0?e=1571270400&v=beta&t=eXjnNrhn7ohtJIdmLfo6IFZ7-5CGf7xJwPg068Z8gfA
+
 #Coordinators
 - category: Coordinator
   name: MD Azmal
