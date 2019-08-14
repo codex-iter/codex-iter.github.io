@@ -422,3 +422,18 @@
   social-links:
     github: https://github.com/subhamsagar524
   img: https://avatars1.githubusercontent.com/u/42293958?s=400&v=4
+
+- category: Member
+  name: Gyanaranjan Sahoo
+  title: Member
+  desc: I am a 1st Year B.Tech CSE O student at ITER. <br>  I Love Automation , Pentesting And Reverse Engineering.
+  stack:  
+  - Java
+  - Python
+  - Bash
+  - Visual Basic
+  - Ethical Hacking
+  - Linux
+  social-links:
+    github: https://github.com/TheSpeedX
+  img: https://avatars3.githubusercontent.com/u/42498830?v=4
