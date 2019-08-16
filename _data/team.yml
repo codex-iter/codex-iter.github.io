@@ -71,8 +71,8 @@
 - category: Faculty
   name: Mr. Paresh Baidya
   title: Associate Member
-  desc: Empty
-  img:
+  desc: I am an Assistant professor in the Department of Computer Science and Engineering.<br><b>Education:</b></br>MTech in computer science and data processing, IIT Kharagpur.<br>MSc in Mathematics, IIT Madras.<br>BSc in Mathematics, Calcutta university.
+  img: ../img/faculty/paresh_baidya.png
 
 - category: Faculty
   name: Mr. Rajesh Purkait
