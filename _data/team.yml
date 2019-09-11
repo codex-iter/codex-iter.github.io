@@ -437,3 +437,16 @@
   social-links:
     github: https://github.com/TheSpeedX
   img: https://avatars3.githubusercontent.com/u/42498830?v=4
+
+- category: Member
+  Name: Saniya Ahuja
+  Title: Member
+  Desc: I'm a first year CSE student at ITER.
+  Stack:
+  -JavaScript
+  -php
+  -mySql
+  -Java
+  Social links:
+    GITHUB: https://github.com/saniya3
+    IMG:https://github.com/saniya3.png
