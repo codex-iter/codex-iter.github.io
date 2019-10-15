@@ -8,8 +8,7 @@ Organisation Page
 
 ## Credits
 
-* **Coordinater : [Swaraj](https://github.com/swarajlaha)**
 * Contributors
     * [A. Rupesh](https://github.com/rupesh1310)
     * [Debashish Mishra](https://github.com/zanark)  
-* Contributors of [_phpMailer_](https://github.com/PHPMailer/PHPMailer)
+
