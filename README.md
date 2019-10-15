@@ -2,7 +2,7 @@
 
 
 Organisation Page
-[Codex 3.0](https://codex-iter.github.io/
+[Codex 3.0](https://codex-iter.github.io/)
 
 
 
