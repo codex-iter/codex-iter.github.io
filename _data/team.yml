@@ -426,3 +426,15 @@
   social-links:
     github: https://github.com/TheSpeedX
   img: https://avatars3.githubusercontent.com/u/42498830?v=4
+  
+  
+ -  category: Member
+  name: Ankit Singh
+  title: Member
+  desc: I am a 1st Year B.Tech CSE O student at ITER. <br> .
+  stack:  
+  - Java
+  - c++
+  social-links:
+    github: https://github.com/ankitSaebby
+  img: https://avatars3.githubusercontent.com/u/54979627?s=400&u=c2aa86fadf778fd0f167b0f3d21f7ac9ac9c3927&v=4
